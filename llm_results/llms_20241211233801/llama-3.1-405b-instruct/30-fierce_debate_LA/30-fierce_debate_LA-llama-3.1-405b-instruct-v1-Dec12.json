@@ -1,0 +1,139 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "About 59% of the city’s renters spend more than 30% of their income on rent, a level considered unaffordable by federal government standards.",
+      "Name of Source": "renters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "about 59% of the city’s renters"
+    },
+    {
+      "Sourced Statement": "About one-fifth of L.A. renters are living below the federal poverty line.",
+      "Name of Source": "renters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "about one-fifth of L.A. renters"
+    },
+    {
+      "Sourced Statement": "According to U.S. Census data, just over half of those renters spend 90% of their income or more on rent.",
+      "Name of Source": "renters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "just over half of those renters"
+    },
+    {
+      "Sourced Statement": "Some property owners have yet to fully recover from the pandemic.",
+      "Name of Source": "property owners",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "some property owners"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "LAist obtained the report through a public records request.",
+      "Name of Source": "Economic Roundtable",
+      "Type of Source": "Document",
+      "Source Justification": "LAist obtained the report through a public records request"
+    },
+    {
+      "Sourced Statement": "The report notes that because L.A. has a 3% floor on annual increases — even in years when the consumer price index is lower — landlords have often been allowed to raise rents above inflation.",
+      "Name of Source": "Economic Roundtable",
+      "Type of Source": "Document",
+      "Source Justification": "The report notes"
+    },
+    {
+      "Sourced Statement": "Between 2010 and 2020, the consumer price index in L.A. rose 21%. During the same period, rents in rent-controlled L.A. apartments were allowed to rise 36%.",
+      "Name of Source": "Economic Roundtable",
+      "Type of Source": "Document",
+      "Source Justification": "The report notes"
+    },
+    {
+      "Sourced Statement": "On balance, Flaming said the report shows that L.A.’s policies diverge significantly from how other California cities handle rent control.",
+      "Name of Source": "Economic Roundtable",
+      "Type of Source": "Document",
+      "Source Justification": "the report shows"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“What [the report] is trying to do is make a PR effort to lay the groundwork to chip away at what little ability landlords have in L.A. to be able to raise rents and be able to keep up with their costs,” Yukelson said.",
+      "Name of Source": "Daniel Yukelson",
+      "Type of Source": "Named Person",
+      "Title of Source": "Apartment Association of Greater Los Angeles",
+      "Source Justification": "Yukelson with the Apartment Association"
+    },
+    {
+      "Sourced Statement": "“There are plenty of owners out there who have had their renters in place for many years,” Yukelson said. “They're way below market. And they're having trouble today keeping up with the growing costs of insurance, maintenance and supplies.”",
+      "Name of Source": "Daniel Yukelson",
+      "Type of Source": "Named Person",
+      "Title of Source": "Apartment Association of Greater Los Angeles",
+      "Source Justification": "Yukelson with the Apartment Association"
+    },
+    {
+      "Sourced Statement": "“Small landlords are able to maintain their profits and draw income above their expenses — they haven't been overly burdened by rent stabilization,” said Christina Boyar, a legal fellow with Public Counsel and a member of the Keep L.A. Housed coalition.",
+      "Name of Source": "Christina Boyar",
+      "Type of Source": "Named Person",
+      "Title of Source": "legal fellow with Public Counsel and a member of the Keep L.A. Housed coalition",
+      "Source Justification": "Christina Boyar, a legal fellow with Public Counsel and a member of the Keep L.A. Housed coalition"
+    },
+    {
+      "Sourced Statement": "“The report shows that rent costs exceeding what tenants can pay is a primary cause of homelessness,” Boyar said. “We are obviously in a homelessness crisis in L.A., and if this formula isn't updated soon, more folks will just fall into homelessness.”",
+      "Name of Source": "Christina Boyar",
+      "Type of Source": "Named Person",
+      "Title of Source": "legal fellow with Public Counsel and a member of the Keep L.A. Housed coalition",
+      "Source Justification": "Christina Boyar, a legal fellow with Public Counsel and a member of the Keep L.A. Housed coalition"
+    },
+    {
+      "Sourced Statement": "Daniel Flaming, president of the Economic Roundtable and a co-author of the report, said he didn’t have a good answer for why the report was kept under wraps.",
+      "Name of Source": "Daniel Flaming",
+      "Type of Source": "Named Person",
+      "Title of Source": "president of the Economic Roundtable and a co-author of the report",
+      "Source Justification": "Daniel Flaming, president of the Economic Roundtable and a co-author of the report"
+    },
+    {
+      "Sourced Statement": "“The Los Angeles ceiling and floor are atypically high for rent-controlled cities,” he said. “Among cities that have elected to control rents — and not all cities have — Los Angeles appears to be tilted toward landlords.”",
+      "Name of Source": "Daniel Flaming",
+      "Type of Source": "Named Person",
+      "Title of Source": "president of the Economic Roundtable and a co-author of the report",
+      "Source Justification": "Daniel Flaming, president of the Economic Roundtable and a co-author of the report"
+    },
+    {
+      "Sourced Statement": "Soto-Martinez, one of the council members who requested the report be commissioned — has already called for capping increases at 3%.",
+      "Name of Source": "Hugo Soto-Martinez",
+      "Type of Source": "Named Person",
+      "Title of Source": "council member",
+      "Source Justification": "Soto-Martinez, one of the council members who requested the report be commissioned"
+    },
+    {
+      "Sourced Statement": "“As we await the finalized version of this report, it’s heartening to see so much data supporting the policy changes that renters have been demanding — especially when it comes to preventing excessive rent increases that can devastate working families,” Soto-Martínez said in an email reacting to the Economic Roundtable report.",
+      "Name of Source": "Hugo Soto-Martinez",
+      "Type of Source": "Named Person",
+      "Title of Source": "council member",
+      "Source Justification": "Soto-Martinez, one of the council members who requested the report be commissioned"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "LAist shared the report with advocates for landlords and tenants.",
+      "Name of Source": "LAist",
+      "Type of Source": "Named Organization",
+      "Source Justification": "LAist shared the report"
+    },
+    {
+      "Sourced Statement": "Sharon Sandow, a spokesperson for the L.A. Housing Department, told LAist last week the document was still a “draft report,” and they didn't have a specific date lined up for its release.",
+      "Name of Source": "L.A. Housing Department",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Sharon Sandow, a spokesperson for the L.A. Housing Department"
+    },
+    {
+      "Sourced Statement": "By the end of last week, Sandow sent LAist a version of the report she described as \"final.\"",
+      "Name of Source": "L.A. Housing Department",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Sharon Sandow, a spokesperson for the L.A. Housing Department"
+    },
+    {
+      "Sourced Statement": "The city’s housing officials have been in possession of the Economic Roundtable report since May.",
+      "Name of Source": "Economic Roundtable",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Economic Roundtable report"
+    }
+  ]
+}

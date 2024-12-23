@@ -1,0 +1,75 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Dozens of people lined the sidewalks that had been swept just hours prior, fussing with their belongings, setting up new tents, and discreetly selling wares to one another.",
+      "Name of Source": "people",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "a visit to Jessie and Sixth streets in SoMa after the rally"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "A federal survey released in May counted more than 8,000 unhoused people in the city, which has fewer than 4,000 shelter beds to offer.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "a federal survey released in May"
+    },
+    {
+      "Sourced Statement": "According to Public Works policy, staff are supposed to provide the resident of an encampment a “reasonable amount of time (approximately 30 minutes)” to sort through and collect their belongings before the camp is torn down.",
+      "Name of Source": "Public Works policy",
+      "Type of Source": "Document",
+      "Source Justification": "Public Works policy"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“All they do is tell me to go back to the Hunters Point Navigation Center. And I don’t want to do that. I had bad experiences,”",
+      "Name of Source": "Antonio Robinson",
+      "Type of Source": "Named Person",
+      "Title of Source": "null",
+      "Source Justification": "a 38-year-old who had chosen to set up camp near Palou Ave. and Griffith St. in Hunters Point"
+    },
+    {
+      "Sourced Statement": "“I don’t understand,”",
+      "Name of Source": "Joey O’Brien",
+      "Type of Source": "Named Person",
+      "Title of Source": "null",
+      "Source Justification": "a 46-year-old who was camping on the sidewalk in Hunters Point while investigating a homicide that occurred while he was in jail"
+    },
+    {
+      "Sourced Statement": "“Typically, with city sweeps, they give 72 hours of notice with location and time, and we were following that, but they didn’t follow that usual rule,”",
+      "Name of Source": "Julian Highsmith",
+      "Type of Source": "Named Person",
+      "Title of Source": "communications and policy director for the Coalition on Homelessness",
+      "Source Justification": "communications and policy director for the Coalition on Homelessness"
+    },
+    {
+      "Sourced Statement": "“the policy clearly spells out how soiled items can be handled and our crews follow the policy and consistently apply its terms.”",
+      "Name of Source": "Rachel Gordon",
+      "Type of Source": "Named Person",
+      "Title of Source": "Public Works spokesperson",
+      "Source Justification": "Public Works spokesperson"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "According to Mayor London Breed, the intention is to clean up sidewalks and force unhoused people into the city’s labyrinthine network of shelter and supportive housing programs.",
+      "Name of Source": "Mayor London Breed's office",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Mayor London Breed's office"
+    },
+    {
+      "Sourced Statement": "In a response to Gazetteer's questions about potential breaches in protocol, Public Works spokesperson Rachel Gordon only noted that “the policy clearly spells out how soiled items can be handled and our crews follow the policy and consistently apply its terms.”",
+      "Name of Source": "Public Works",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Public Works"
+    },
+    {
+      "Sourced Statement": "The Coalition on Homelessness and other unhoused advocates planned to crash an encampment sweep in SoMa last Thursday, which had been scheduled for 12:30 p.m.",
+      "Name of Source": "The Coalition on Homelessness",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Coalition on Homelessness"
+    }
+  ]
+}

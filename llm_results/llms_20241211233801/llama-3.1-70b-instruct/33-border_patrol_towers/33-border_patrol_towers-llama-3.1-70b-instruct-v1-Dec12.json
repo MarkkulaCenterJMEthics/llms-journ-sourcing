@@ -1,0 +1,87 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "dozens of migrants at a time have waited in makeshift camps in California — enduring the barren desert with little food, water or shelter — for hours or sometimes a day or more.",
+      "Name of Source": "migrants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "waiting in makeshift camps in California; enduring harsh conditions"
+    },
+    {
+      "Sourced Statement": "migrants sometimes huddle under the towers for protection from the elements",
+      "Name of Source": "migrants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "seeking protection from the elements; present in open-air sites"
+    },
+    {
+      "Sourced Statement": "residents whose backyards are being monitored by the surveillance towers",
+      "Name of Source": "residents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "living on the border; having their backyards monitored by surveillance towers"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "According to a 2021 report by the Office of Inspector General, the agency has received more than $700 million in funding for surveillance since fiscal year 2017.",
+      "Name of Source": "Office of Inspector General",
+      "Type of Source": "Document",
+      "Source Justification": "official report; providing funding information for surveillance"
+    },
+    {
+      "Sourced Statement": "The Department of Homeland Security said in its 2021 report on its border technology, “has also acknowledged the need for better coordination, communication, and oversight.”",
+      "Name of Source": "Department of Homeland Security",
+      "Type of Source": "Document",
+      "Source Justification": "official report; addressing border technology and oversight"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“That’s where we’ve seen a huge number of these towers go up,”",
+      "Name of Source": "Dave Maass",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Investigations, Electronic Frontier Foundation",
+      "Source Justification": "expertise in tracking border surveillance installations"
+    },
+    {
+      "Sourced Statement": "“These towers aren’t checking people’s papers,”; “People have lived on the border longer than the United States has been a country. Just being somebody who lives on the border, whose family are on both sides of the border, doesn’t make you a criminal and shouldn’t put you under suspicion.”",
+      "Name of Source": "Dave Maass",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Investigations, Electronic Frontier Foundation",
+      "Source Justification": "expertise in digital privacy and border surveillance"
+    },
+    {
+      "Sourced Statement": "“The towers deployed in California have 360-degree, AI-fueled visual and auditory surveillance capabilities,”; “If they wanted to, the government could track the movements of any individual living on the California border,”",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "Executive Director, Al Otro Lado",
+      "Source Justification": "expertise in humanitarian support for migrants and refugees"
+    },
+    {
+      "Sourced Statement": "“There’s just such a lack of accountability with those billions of dollars,”; “We saw this too under the Trump administration,”; “Where is this money going, if we have babies sitting out in the desert for up to a week at a time without any food or water?”",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "Executive Director, Al Otro Lado",
+      "Source Justification": "expertise in humanitarian aid and border policies"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Customs and Border Protection says the surveillance equipment is necessary to monitor remote, rugged areas like Jacumba Hot Springs and the Otay Mountain Wilderness in San Diego County, which are increasingly becoming destinations for migrants from around the world to cross into the United States.",
+      "Name of Source": "U.S. Customs and Border Protection",
+      "Type of Source": "Named Organization",
+      "Source Justification": "official statement; explaining the necessity of surveillance equipment"
+    },
+    {
+      "Sourced Statement": "The Department of Homeland Security “has also acknowledged the need for better coordination, communication, and oversight,” it said in its 2021 report on its border technology.",
+      "Name of Source": "Department of Homeland Security",
+      "Type of Source": "Named Organization",
+      "Source Justification": "official report; addressing border technology and oversight"
+    },
+    {
+      "Sourced Statement": "Gov. Gavin Newsom has said California cannot continue providing the same level of humanitarian services for the coming fiscal year that it has in the past along the border, not while it is facing a $38 billion budget shortfall.",
+      "Name of Source": "Office of Governor Gavin Newsom",
+      "Type of Source": "Named Organization",
+      "Source Justification": "official statement; explaining the state's budget constraints"
+    }
+  ]
+}

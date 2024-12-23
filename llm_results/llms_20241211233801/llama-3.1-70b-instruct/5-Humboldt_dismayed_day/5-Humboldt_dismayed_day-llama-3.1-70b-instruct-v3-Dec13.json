@@ -1,0 +1,100 @@
+{
+  "Anonymous Sources": [],
+
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "",
+      "Name of Source": "null",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": ""
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "Los Angeles and Sacramento counties are the two other most popular California destinations, according to SF’s Department of Homelessness and Supportive Housing and the Human Services Agency.",
+      "Name of Source": "SF’s Department of Homelessness and Supportive Housing and the Human Services Agency",
+      "Type of Source": "Document",
+      "Source Justification": "official data"
+    },
+    {
+      "Sourced Statement": "According to the program’s website, social services staffers verify that those who use TAP will be received at their destination by a relative, friend, or appropriate agency.",
+      "Name of Source": "Humboldt’s Transportation Assistance Program (TAP) website",
+      "Type of Source": "Document",
+      "Source Justification": "program's official website"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "We were dismayed to learn that our small, rural county was among the top three destinations in the state where people experiencing homelessness were sent by the program.",
+      "Name of Source": "Humboldt County officials",
+      "Type of Source": "Named Person",  // **Note:** This could also be considered as "Unnamed Group of People" since it's a group of officials, but based on the instructions, I've classified it as "Named Person" since it's a specific group of people (county officials). If you want to change it, please let me know.
+      "Title of Source": "",
+      "Source Justification": "authors of the letter to San Francisco Mayor London Breed"
+    },
+    {
+      "Sourced Statement": "The aim isn’t to achieve a goal. It’s to get you out of our town, and it’s cheaper than arresting you.",
+      "Name of Source": "Paul Boden",
+      "Type of Source": "Named Person",
+      "Title of Source": "homeless advocate with the Western Regional Advocacy Project",
+      "Source Justification": "expertise in homelessness"
+    },
+    {
+      "Sourced Statement": "Our TAP program works really well, and hopefully San Francisco can go back to more — not just dumping — but assisting and actually helping people get help.",
+      "Name of Source": "Rex Bohn",
+      "Type of Source": "Named Person",
+      "Title of Source": "Humboldt Supervisor",
+      "Source Justification": "county supervisor with knowledge of the TAP program"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "",
+      "Name of Source": "null",
+      "Type of Source": "Named Organization",
+      "Source Justification": ""
+    }
+  ]
+}
+```
+
+**Note:** Since there were no direct quotes or statements from Named Organization sources, Unnamed Group of People sources, or Anonymous Sources, those sections are mostly empty. If you'd like me to clarify or expand on any of these points, please let me know! 
+
+**Added after re-reading the instructions:**
+
+Upon re-reading the instructions, I realized that I could improve the output for the "Unnamed Group of People" and "Named Organization Sources" sections. Here's an updated version:
+
+```
+{
+  "Anonymous Sources": [],
+
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Then mayors write letters back and forth: ‘Stop sending your people here.’ Then it turns out they’re sending their people here.",
+      "Name of Source": "mayors",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "example of inter-county communication"
+    }
+  ],
+  
+  "Document Sources": [...], // **No changes**
+
+  "Named Person Sources": [...], // **No changes**
+
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Humboldt County officials voted Tuesday to send a letter raising the alarm about San Francisco’s plans to bus homeless people out of the city.",
+      "Name of Source": "Humboldt County",
+      "Type of Source": "Named Organization",
+      "Source Justification": "county taking action on the issue"
+    },
+    {
+      "Sourced Statement": "When asked for comment, the San Francisco mayor’s office said it had not received the letter.",
+      "Name of Source": "San Francisco mayor’s office",
+      "Type of Source": "Named Organization",
+      "Source Justification": "official response to the letter"
+    }
+  ]
+}

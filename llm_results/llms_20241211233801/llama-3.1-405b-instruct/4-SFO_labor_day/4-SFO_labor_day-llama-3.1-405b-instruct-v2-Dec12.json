@@ -1,0 +1,49 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "We’re sad since we just said goodbye to our one friend, and we don’t know if we’re ever going to see her again,",
+      "Name of Source": "friends",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "a quartet of friends was at the airport with time to spare so they could say goodbye to one of the crew who was homeward bound to Australia"
+    }
+  ],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "I have TSA Pre, so that should make it a little easier,",
+      "Name of Source": "Katelin Tharp",
+      "Type of Source": "Named Person",
+      "Title of Source": "Bay Area resident",
+      "Source Justification": "Bay Area resident Katelin Tharp, who on Thursday was booted from an overbooked flight to Boston, where she’s beginning her fifth year at Northeastern University"
+    },
+    {
+      "Sourced Statement": "We’re sad since we just said goodbye to our one friend, and we don’t know if we’re ever going to see her again,",
+      "Name of Source": "Ellie Mitchell",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "Ellie Mitchell, of the United Kingdom, told The Standard"
+    },
+    {
+      "Sourced Statement": "More than 930,000 travelers will funnel through SFO from Thursday through Tuesday,",
+      "Name of Source": "Doug Yakel",
+      "Type of Source": "Named Person",
+      "Title of Source": "SFO spokesperson",
+      "Source Justification": "according to SFO spokesperson Doug Yakel"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "United Airlines advised passengers to leave even more time.",
+      "Name of Source": "United Airlines",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "There are no major projects on the freeways near SFO, so with a bit of luck, drivers headed to the airport shouldn’t face major delays,",
+      "Name of Source": "Caltrans",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Caltrans officials said"
+    }
+  ]
+}

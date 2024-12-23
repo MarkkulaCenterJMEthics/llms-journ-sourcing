@@ -1,0 +1,59 @@
+{
+  "Anonymous Sources": [
+    {
+      "Sourced Statement": "A former AHF employee described the living conditions at foundation properties as \"inhumane.\"",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "former AHF employee"
+    }
+  ],
+  "Unnamed Group of People": [],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "On Thursday, a group of Republican senators led by Sen. Tim Scott (R–S.C.) introduced the Renewing Opportunity in the American Dream (ROAD) to Housing Act, which proposes a grab bag of reforms to federal housing programs.",
+      "Name of Source": "Tim Scott",
+      "Type of Source": "Named Person",
+      "Title of Source": "Sen.",
+      "Source Justification": "a group of Republican senators led by"
+    },
+    {
+      "Sourced Statement": "\"Housing policy is inherently local, and federal legislators should encourage local solutions to local problems,\" reads the press release on the bill.",
+      "Name of Source": "Tim Scott",
+      "Type of Source": "Named Person",
+      "Title of Source": "Sen.",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "HUD told me in a statement that AHF \"is part of a team that applied for these awards.",
+      "Name of Source": "U.S. Department of Housing and Urban Development",
+      "Type of Source": "Named Person",
+      "Title of Source": "Spokesperson",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "The team is not only eligible, but the best qualified applicant.\"",
+      "Name of Source": "U.S. Department of Housing and Urban Development",
+      "Type of Source": "Named Person",
+      "Title of Source": "Spokesperson",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "\"We find that new construction differentially declined in the upzoned, affordability-mandated areas,\" they write.",
+      "Name of Source": "Jacob Krimmel and Betty X. Wang",
+      "Type of Source": "Named Person",
+      "Title of Source": "researchers",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "\"Developers intentionally avoided MHA-zoned areas – despite their upzoning– opting instead to build on nearby blocks without affordability requirements.\"",
+      "Name of Source": "Jacob Krimmel and Betty X. Wang",
+      "Type of Source": "Named Person",
+      "Title of Source": "researchers",
+      "Source Justification": null      
+    }
+
+  ],
+  "Named Organization Sources": []
+}

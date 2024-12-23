@@ -1,0 +1,47 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "More than 80% of housing properties that have received D.C. funding aren't bringing in enough rental income to pay their mortgages and maintenance costs, according to the District's Department of Housing and Community Development.",
+      "Name of Source": "District's Department of Housing and Community Development",
+      "Type of Source": "Document",
+      "Source Justification": "The statement is based on data or findings reported by the District's Department of Housing and Community Development, which is an authoritative organization in the context of D.C. housing."
+    },
+    {
+      "Sourced Statement": "The scale of the crisis is viewed as existential: 22,000 units that house 48,000 vulnerable residents are at risk of foreclosure today, according to DHCD.",
+      "Name of Source": "District's Department of Housing and Community Development",
+      "Type of Source": "Document",
+      "Source Justification": "The statement is based on data or findings reported by the District's Department of Housing and Community Development, which is an authoritative organization in the context of D.C. housing."
+    },
+    {
+      "Sourced Statement": "Delinquencies have risen dramatically, the report [by Apartment and Office Building Association] concludes, because of D.C.'s pandemic-era policies that have tripled the length of the legal process required to evict nonpaying tenants.",
+      "Name of Source": "Apartment and Office Building Association",
+      "Type of Source": "Document",
+      "Source Justification": "The statement is based on a report by the Apartment and Office Building Association, which provides insights into the financial and operational challenges faced by landlords in D.C."
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"Housing policy is inherently local, and federal legislators should encourage local solutions to local problems,\" reads the press release on the bill.",
+      "Name of Source": "Tim Scott",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senator (R–S.C.)",
+      "Source Justification": "Tim Scott is the lead sponsor of the Renewing Opportunity in the American Dream (ROAD) to Housing Act, making him a key figure in the story about federal housing policy reforms."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Earlier this month, researchers Jacob Krimmel and Betty X. Wang published a new study confirming the complaints of MHA's critics.",
+      "Name of Source": "MHA's critics",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The study provides evidence supporting the criticisms of Seattle's Mandatory Housing Affordability program, which is central to the discussion of its impact on housing construction."
+    },
+    {
+      "Sourced Statement": "HUD told me in a statement that AHF \"is part of a team that applied for these awards. The team is not only eligible, but the best qualified applicant.\"",
+      "Name of Source": "HUD",
+      "Type of Source": "Named Organization",
+      "Source Justification": "HUD is the federal agency responsible for awarding the grant and is directly involved in the decision-making process being scrutinized in the article."
+    }
+  ]
+}

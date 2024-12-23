@@ -1,0 +1,56 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "The message was cheered on by several community members and organizations such as the East Oakland Collective nonprofit.",
+      "Name of Source": "community members",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": null
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Love's lawyers, from the political law firm Kaufman Legal Group, said in their petition that Love had gathered 67 signatures in total and that three of the signatures were unfairly disqualified.",
+      "Name of Source": null,
+      "Type of Source": "Document",
+      "Source Justification": "petition filed with court challenging signature disqualification"
+    },
+    {
+      "Sourced Statement": "\"These technical errors should not prevent the intent of the voters from being realized and the signatures counted towards verification,\" the lawyers stated in their brief. \"The Elections Code and Oakland Ordinances only require that registered voters residing within the District sign the petition. The three individuals who signed the nomination petition but did not have their signatures counted met these basic requirements and, in addition, substantially complied with the applicable law.\"",
+      "Name of Source": null,
+      "Type of Source": "Document", 
+      "Source Justification": "legal brief filed by Love's lawyers"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"While we are disappointed by the court's decision not to place us on the ballot in November, I remain undeterred in my commitment to serving Oakland and our communities,\" she wrote. \"My dedication to our city does not begin nor end with a campaign. There are many ways to effect change and ensure our voices are heard. I will continue to work alongside each of you, advocating for public health, safety, and equitable development in Oakland.\"",
+      "Name of Source": "Tonya Love",
+      "Type of Source": "Named Person",
+      "Title of Source": "former district director for California Assemblymember Rob Bonta and current chief of staff for Councilmember Carroll Fife",
+      "Source Justification": "candidate attempting to get on ballot for District 7 council seat"
+    },
+    {
+      "Sourced Statement": "\"My understanding is that there are other candidates for this particular district city council who would've liked the opportunity to have more time to gather and submit signatures, and the process needs to be uniform,\" he said. \"In its implementation, it looks like the ROV attempted to do that here.\"",
+      "Name of Source": "Michael Markman",
+      "Type of Source": "Named Person", 
+      "Title of Source": "Alameda County Superior Court Judge",
+      "Source Justification": "judge hearing Love's petition case"
+    },
+    {
+      "Sourced Statement": "In an interview with The Oaklandside last week, Newton was resigned to his failure to gather enough signatures–he picked up 37–but said he would work with whoever came out ahead in the race to help improve the community.",
+      "Name of Source": "David Newton",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "nephew of Black Panther Party founder Huey Newton; failed candidate who also attempted to gather signatures for District 7 race"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The county attorneys countered in a brief that the state election code deems signatures on a nomination form invalid if they don't include a signature and a printed name and if the address of the candidate's supporter is not consistent with their voter registration form.",
+      "Name of Source": "Alameda County",
+      "Type of Source": "Named Organization",
+      "Source Justification": "legal representatives defending the county registrar's decision"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "Anonymous Sources": [
+    {
+      "Sourced Statement": "To Henderson, who judges thousands of eviction cases per year, the only explanation for such action was landlord lobbying.",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "Henderson, who judges thousands of eviction cases per year"
+    },
+    {
+      "Sourced Statement": "The Tennessee Association of Realtors is the sixth largest spender on Tennessee politics, according to the Tennessee Lookout’s database, having spent $6.5 million on lobbying, campaign donations and other political expenditures since 2009.",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "according to the Tennessee Lookout’s database"
+    },
+    {
+      "Sourced Statement": "MLK50: Justice Through Journalism could not reach the bill’s primary sponsor in the House, Rep. Clark Boyd (R-Lebanon), through his official email address or the House Republican Caucus’ press secretary.",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "MLK50: Justice Through Journalism could not reach the bill’s primary sponsor in the House"
+    },
+    {
+      "Sourced Statement": "TAR representatives did not return a pair of phone calls from MLK50.",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "TAR representatives did not return a pair of phone calls from MLK50"
+    }
+  ],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "In a sparsely populated room at the Hickory Hill Community Center in mid-April, Judge Deborah Henderson was quite candid with the renters gathered to learn about the eviction process.",
+      "Name of Source": "renters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "gathered to learn about the eviction process"
+    },
+    {
+      "Sourced Statement": "During the subcommittee hearing, Shelby County Commissioner Erika Sugarmon and City of Memphis Division of Public Works director Robert Knecht endorsed it and two landlord representatives spoke against it.",
+      "Name of Source": "landlord representatives",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "spoke against it"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "The Tennessee Association of Realtors is the sixth largest spender on Tennessee politics, according to the Tennessee Lookout’s database, having spent $6.5 million on lobbying, campaign donations and other political expenditures since 2009.",
+      "Name of Source": "Tennessee Lookout",
+      "Type of Source": "Document",
+      "Source Justification": "according to the Tennessee Lookout’s database"
+    },
+    {
+      "Sourced Statement": "The Tennessee Association of Realtors has been Swann’s top funder since the start of 2009, according to the Tennessee Lookout, giving him $18,750.",
+      "Name of Source": "Tennessee Lookout",
+      "Type of Source": "Document",
+      "Source Justification": "according to the Tennessee Lookout"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“It just shortens the whole timeline in which a person can lose their home,” said Brian Rees, a staff attorney at The Works Inc. nonprofit who has represented hundreds of tenants in eviction proceedings in recent years.",
+      "Name of Source": "Brian Rees",
+      "Type of Source": "Named Person",
+      "Title of Source": "staff attorney at The Works Inc.",
+      "Source Justification": "who has represented hundreds of tenants in eviction proceedings in recent years"
+    },
+    {
+      "Sourced Statement": "“It’s disheartening to see them make a change that will affect families who are struggling,” Rees said.",
+      "Name of Source": "Brian Rees",
+      "Type of Source": "Named Person",
+      "Title of Source": "staff attorney at The Works Inc.",
+      "Source Justification": "who has represented hundreds of tenants in eviction proceedings in recent years"
+    },
+    {
+      "Sourced Statement": "“I really am happy to see that pass,” Rees said. “I think it’s important that tenants do have good quality contact information for their property manager or owner.”",
+      "Name of Source": "Brian Rees",
+      "Type of Source": "Named Person",
+      "Title of Source": "staff attorney at The Works Inc.",
+      "Source Justification": "who has represented hundreds of tenants in eviction proceedings in recent years"
+    },
+    {
+      "Sourced Statement": "“(TAR) has the connection with a lot of legislators, especially on the commerce committee, where this was going to be,” Thompson said. “(And) they were just ironclad.”",
+      "Name of Source": "Dwayne Thompson",
+      "Type of Source": "Named Person",
+      "Title of Source": "Representative (D-Cordova)",
+      "Source Justification": "sponsored a bill meant to help tenants reach their landlords with maintenance requests"
+    },
+    {
+      "Sourced Statement": "“How are you going to find the (bad actors)? It looks to me like the good people will do it but the bad people aren’t going to change,” Marsh said during the subcommittee hearing.",
+      "Name of Source": "Pat Marsh",
+      "Type of Source": "Named Person",
+      "Title of Source": "Representative (R-Shelbyville)",
+      "Source Justification": "opposed the bill during the subcommittee hearing"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Tennessee General Assembly just cut this buffer down to seven days.",
+      "Name of Source": "Tennessee General Assembly",
+      "Type of Source": "Named Organization",
+      "Source Justification": "passed legislation affecting tenant rights"
+    },
+    {
+      "Sourced Statement": "The Tennessee Association of Realtors is the sixth largest spender on Tennessee politics, according to the Tennessee Lookout’s database, having spent $6.5 million on lobbying, campaign donations and other political expenditures since 2009.",
+      "Name of Source": "Tennessee Association of Realtors",
+      "Type of Source": "Named Organization",
+      "Source Justification": "is a major lobbying group influencing housing legislation"
+    },
+    {
+      "Sourced Statement": "The Tennessee Association of Realtors has been Swann’s top funder since the start of 2009, according to the Tennessee Lookout, giving him $18,750.",
+      "Name of Source": "Tennessee Association of Realtors",
+      "Type of Source": "Named Organization",
+      "Source Justification": "is a major lobbying group influencing housing legislation"
+    }
+  ]
+}

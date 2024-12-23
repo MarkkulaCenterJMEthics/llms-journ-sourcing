@@ -1,0 +1,100 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Teachers from Frick United Academy of Language demanded to know why, if testing took place in April, fountains weren’t shut down until August.",
+      "Name of Source": "teachers",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "from Frick United Academy of Language"
+    },
+    {
+      "Sourced Statement": "Community members pointed out that other districts have lower thresholds for remediation.",
+      "Name of Source": "community members",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": ""
+    },
+    {
+      "Sourced Statement": "Community members, many of whom raised concerns two weeks ago, were skeptical.",
+      "Name of Source": "community members",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "many of whom raised concerns two weeks ago"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "According to a report from this week’s Oakland Unified school board meeting",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "from this week’s Oakland Unified school board meeting"
+    },
+    {
+      "Sourced Statement": "The district’s safe drinking water policy states that any water sources showing lead at above 5 parts per billion must be taken offline and repaired.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "The district’s safe drinking water policy"
+    },
+    {
+      "Sourced Statement": "In 2017, when OUSD was considering its clean drinking water policy, the cost to upgrade all the pipes would have been $38 million",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "In 2017, when OUSD was considering its clean drinking water policy"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"This mistake has caused families stress, anxiety and panic, further limiting our community’s trust in this district,\" said Max Simmons, one of OUSD’s student directors.",
+      "Name of Source": "Max Simmons",
+      "Type of Source": "Named Person",
+      "Title of Source": "student director",
+      "Source Justification": "one of OUSD’s student directors"
+    },
+    {
+      "Sourced Statement": "\"I sincerely apologize for the stress and concern this has caused our school sites, students and families.",
+      "Name of Source": "Kyla Johnson-Trammell",
+      "Type of Source": "Named Person",
+      "Title of Source": "Superintendent",
+      "Source Justification": ""
+    },
+    {
+      "Sourced Statement": "\"There is so much trust rebuilding that has to be done for our community.",
+      "Name of Source": "Stuart Loebl",
+      "Type of Source": "Named Person",
+      "Title of Source": "sixth-grade science teacher",
+      "Source Justification": "at Frick"
+    },
+    {
+      "Sourced Statement": "\"Why didn’t you do your job? You knew months ago that the water was contaminated.",
+      "Name of Source": "Marina Muñoz",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "a parent at Madison Park Academy and an organizer with Communities for a Better Environment"
+    },
+    {
+      "Sourced Statement": "\"This is not new to Oakland, but it is something that we need to tackle as an entire city, and we need to have community partners, philanthropic partners, as well as our county and state folks to support us in dealing with this issue,\"",
+      "Name of Source": "Valarie Bachelor",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director, chair of OUSD’s facilities committee",
+      "Source Justification": "chair of OUSD’s facilities committee"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "OUSD also committed to redesigning its water quality website and publishing a dashboard by Jan. 1 for community members to view test results.",
+      "Name of Source": "OUSD",
+      "Type of Source": "Named Organization",
+      "Source Justification": ""
+    },
+    {
+      "Sourced Statement": "Alameda County recommends that any families who were notified that their schools had elevated lead levels should get their child a blood lead test.",
+      "Name of Source": "Alameda County",
+      "Type of Source": "Named Organization",
+      "Source Justification": ""
+    },
+    {
+      "Sourced Statement": "In Berkeley Unified, water fixtures testing above 1 part per billion are taken offline and repaired.",
+      "Name of Source": "Berkeley Unified",
+      "Type of Source": "Named Organization",
+      "Source Justification": ""
+    }
+  ]
+}

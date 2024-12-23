@@ -1,0 +1,55 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Some of the newer complaints from Southwest workers were filed with Oakland’s Department of Workforce Employment Standards, which enforces wage and hour laws in the city.",
+      "Name of Source": "Southwest workers",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "workers who filed complaints with Oakland’s Department of Workforce Employment Standards"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "In 2017, the city received complaints that Southwest had a policy whereby it zeroed out unused accumulated sick leave pay on January 1 of every year, rather than carry it forward. In December 2020, the city and Southwest signed a settlement in which, among other things, the airline agreed to fully restore the sick leave hours it had canceled for certain workers between 2017 and 2020.",
+      "Name of Source": "settlement agreement",
+      "Type of Source": "Document",
+      "Source Justification": "a 2020 settlement agreement between the city and Southwest"
+    },
+    {
+      "Sourced Statement": "Oakland has several laws that protect workers, including Measure FF, a 2014 ordinance approved by Oakland voters that established a minimum wage and requires employers to provide paid sick leave to employees.",
+      "Name of Source": "Measure FF",
+      "Type of Source": "Document",
+      "Source Justification": "a 2014 ordinance approved by Oakland voters"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“The City of Oakland is committed to protecting workers by ensuring that all employers in Oakland are complying with laws that protect their rights,” Parker said in a statement.",
+      "Name of Source": "Barbara Parker",
+      "Type of Source": "Named Person",
+      "Title of Source": "City Attorney",
+      "Source Justification": "City Attorney of Oakland"
+    },
+    {
+      "Sourced Statement": "“We are grateful that the City of Oakland is holding Southwest accountable. We hope that Southwest policies and practices will finally change for good,” Eric Swygert, a Southwest employee and an elected ramp representative with the Transport Workers Union of America Local 555, said in a statement.",
+      "Name of Source": "Eric Swygert",
+      "Type of Source": "Named Person",
+      "Title of Source": "Southwest employee and elected ramp representative with the Transport Workers Union of America Local 555",
+      "Source Justification": "a Southwest employee and an elected ramp representative with the Transport Workers Union of America Local 555"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "A Southwest spokesperson told The Oaklandside that the assertion that any Oakland employee was forced to work while sick or take unpaid absences is unfounded.",
+      "Name of Source": "Southwest",
+      "Type of Source": "Named Organization",
+      "Source Justification": "a spokesperson for Southwest"
+    },
+    {
+      "Sourced Statement": "“Southwest Airlines fully complies with applicable sick leave laws in Oakland and California, as well as with the terms of a December 2020 settlement agreement with the city,” the spokesperson said in a statement.",
+      "Name of Source": "Southwest",
+      "Type of Source": "Named Organization",
+      "Source Justification": "a spokesperson for Southwest"
+    }
+  ]
+}

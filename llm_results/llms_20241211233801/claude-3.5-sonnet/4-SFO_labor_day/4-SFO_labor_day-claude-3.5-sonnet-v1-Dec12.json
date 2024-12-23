@@ -1,0 +1,60 @@
+{
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "More than 930,000 travelers will funnel through SFO from Thursday through Tuesday, according to SFO spokesperson Doug Yakel. That's 8.7% more than last year's Labor Day weekend. It's also close to the number of travelers SFO saw in 2019, just months before the pandemic. This year's prediction is 97% of what the airport handled five years ago, Yakel said by email.",
+      "Name of Source": "Doug Yakel",
+      "Type of Source": "Named Person",
+      "Title of Source": "SFO spokesperson",
+      "Source Justification": "SFO spokesperson"
+    },
+    {
+      "Sourced Statement": "To make it on time, holiday travelers should arrive at the airport two hours before domestic flights and three hours before international ones, Yakel said.",
+      "Name of Source": "Doug Yakel",
+      "Type of Source": "Named Person",
+      "Title of Source": "SFO spokesperson",
+      "Source Justification": "SFO spokesperson"
+    },
+    {
+      "Sourced Statement": "Yakel said SFO has not been advised of staffing woes for Thursday, which was expected to be the busiest day of travel at the airport.",
+      "Name of Source": "Doug Yakel",
+      "Type of Source": "Named Person",
+      "Title of Source": "SFO spokesperson",
+      "Source Justification": "SFO spokesperson"
+    },
+    {
+      "Sourced Statement": "Parking at airport garages will be in short supply this weekend, so travelers who want to leave cars at SFO should reserve spaces online as soon as possible, Yakel said.",
+      "Name of Source": "Doug Yakel",
+      "Type of Source": "Named Person",
+      "Title of Source": "SFO spokesperson",
+      "Source Justification": "SFO spokesperson"
+    },
+    {
+      "Sourced Statement": "\"I have TSA Pre, so that should make it a little easier,\" said Bay Area resident Katelin Tharp, who on Thursday was booted from an overbooked flight to Boston, where she's beginning her fifth year at Northeastern University.",
+      "Name of Source": "Katelin Tharp",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "Bay Area resident; who on Thursday was booted from an overbooked flight to Boston, where she's beginning her fifth year at Northeastern University"
+    },
+    {
+      "Sourced Statement": "\"We're sad since we just said goodbye to our one friend, and we don't know if we're ever going to see her again,\" Ellie Mitchell, of the United Kingdom, told The Standard.",
+      "Name of Source": "Ellie Mitchell",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "of the United Kingdom"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "A United Airlines spokesperson said the three-hour warning was issued by mistake: somehow the company posted a years-old notice to the Chicago-bound boarding pass. The spokesperson shared a corrected advisory that suggested passengers \"arrive early to avoid delays,\" and to get a head start by checking bags from home and leaving luggage in the bag drop shortcut area at the airport.",
+      "Name of Source": "United Airlines",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "There are no major projects on the freeways near SFO, so with a bit of luck, drivers headed to the airport shouldn't face major delays, Caltrans officials said.",
+      "Name of Source": "Caltrans",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    }
+  ]
+}

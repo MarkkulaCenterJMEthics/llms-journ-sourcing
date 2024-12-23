@@ -1,0 +1,78 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "County supervisors learned of this from reporting in The Standard.",
+      "Name of Source": "County supervisors",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "learned of [the issue] from reporting in The Standard"
+    },
+    {
+      "Sourced Statement": "Humboldt supervisors voted to send a revised version of the letter; the county did not provide a copy to The Standard.",
+      "Name of Source": "Humboldt supervisors",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "voted to send a revised version of the letter"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "According to SF’s Department of Homelessness and Supportive Housing and the Human Services Agency.",
+      "Name of Source": "SF’s Department of Homelessness and Supportive Housing and the Human Services Agency",
+      "Type of Source": "Document",
+      "Source Justification": "official data source for San Francisco’s Journey Home program"
+    },
+    {
+      "Sourced Statement": "According to the program’s website, social services staffers verify that those who use TAP will be received at their destination by a relative, friend, or appropriate agency.",
+      "Name of Source": "Humboldt’s Transportation Assistance Program (TAP) website",
+      "Type of Source": "Document",
+      "Source Justification": "official website for Humboldt’s relocation program"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“We were dismayed to learn that our small, rural county was among the top three destinations in the state where people experiencing homelessness were sent by the program,”",
+      "Name of Source": "Humboldt County officials (author of the letter, unnamed in the article but presumably a county official)",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "authors of the letter to San Francisco Mayor London Breed"
+    },
+    {
+      "Sourced Statement": "“The aim isn’t to achieve a goal. It’s to get you out of our town, and it’s cheaper than arresting you,”",
+      "Name of Source": "Paul Boden",
+      "Type of Source": "Named Person",
+      "Title of Source": "homeless advocate with the Western Regional Advocacy Project",
+      "Source Justification": "expertise in homelessness advocacy"
+    },
+    {
+      "Sourced Statement": "“Our TAP program works really well, and hopefully San Francisco can go back to more — not just dumping — but assisting and actually helping people get help,”",
+      "Name of Source": "Rex Bohn",
+      "Type of Source": "Named Person",
+      "Title of Source": "Humboldt Supervisor",
+      "Source Justification": "Humboldt County supervisor with oversight of the TAP program"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "San Francisco recently ramped up its effort to offer homeless people bus tickets out of town as part of its Journey Home program.",
+      "Name of Source": "San Francisco",
+      "Type of Source": "Named Organization",
+      "Source Justification": "initiator of the Journey Home program"
+    },
+    {
+      "Sourced Statement": "When asked for comment, the San Francisco mayor’s office said it had not received the letter.",
+      "Name of Source": "San Francisco mayor’s office",
+      "Type of Source": "Named Organization",
+      "Source Justification": "official response to the letter from Humboldt County"
+    },
+    {
+      "Sourced Statement": "Humboldt County officials voted Tuesday to send a letter raising the alarm about San Francisco’s plans to bus homeless people out of the city.",
+      "Name of Source": "Humboldt County",
+      "Type of Source": "Named Organization",
+      "Source Justification": "recipient of homeless individuals from San Francisco’s Journey Home program"
+    }
+  ]
+}

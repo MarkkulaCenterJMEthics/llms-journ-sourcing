@@ -1,0 +1,96 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Impacted residents, many of whom are older, have disabilities and bought their homes decades ago, have experienced a range of difficult emotions as they’ve been displaced in recent months and watched their community dramatically change due to the land movement.",
+      "Name of Source": "Impacted residents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "many of whom are older, have disabilities and bought their homes decades ago"
+    },
+    {
+      "Sourced Statement": "Some say they weren’t given sufficient warning about the power shutoffs and aren’t sure where to go.",
+      "Name of Source": "Impacted residents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "many of whom are older, have disabilities and bought their homes decades ago; experiencing difficult emotions due to displacement and community change"
+    },
+    {
+      "Sourced Statement": "Others plan to stay.",
+      "Name of Source": "Impacted residents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "many of whom are older, have disabilities and bought their homes decades ago; experiencing difficult emotions due to displacement and community change"
+    },
+    {
+      "Sourced Statement": "Some, he said, are getting ready to leave permanently.",
+      "Name of Source": "Impacted residents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "many of whom are older, have disabilities and bought their homes decades ago; experiencing difficult emotions due to displacement and community change"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "Check if your home is in the affected zones: https://protect.genasys.com/search.",
+      "Name of Source": "protect.genasys.com",
+      "Type of Source": "Document",
+      "Source Justification": "official resource for identifying affected zones"
+    },
+    {
+      "Sourced Statement": "The city states on its website that it is working to identify “hotels and other accommodations that can offer discounted rates for residents.” A list is available here.",
+      "Name of Source": "rpvca.gov",
+      "Type of Source": "Document",
+      "Source Justification": "official city website providing resources for residents"
+    },
+    {
+      "Sourced Statement": "For updates, the city directs residents to rpvca.gov/landmovement and PVPready.gov.",
+      "Name of Source": "rpvca.gov/landmovement; PVPready.gov",
+      "Type of Source": "Document",
+      "Source Justification": "official city resources for updates on land movement"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": “The land movement has created a dangerous situation, and Edison is deciding to disconnect to keep that community safe,”",
+      "Name of Source": "Jim Hanggi",
+      "Type of Source": "Named Person",
+      "Title of Source": "spokesperson for Southern California Edison",
+      "Source Justification": "representing Southern California Edison's decision on power disconnection"
+    },
+    {
+      "Sourced Statement": "Leon said he and his neighbors are just trying to 'figure out how to survive.’",
+      "Name of Source": "Gordon Leon",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "impacted resident sharing personal experience and plans"
+    },
+    {
+      "Sourced Statement": “We’re hearing that our residents want to stay in their homes, and we're doing everything we can to keep them in their homes,”",
+      "Name of Source": "John Cruikshank",
+      "Type of Source": "Named Person",
+      "Title of Source": "Mayor of Rancho Palos Verdes",
+      "Source Justification": "representing the city's efforts to support residents"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "A spokesperson for Southern California Edison on Monday said the power outages will impact some homes longer than others:",
+      "Name of Source": "Southern California Edison",
+      "Type of Source": "Named Organization",
+      "Source Justification": "providing information on power outage duration"
+    },
+    {
+      "Sourced Statement": "The city’s mayor, John Cruikshank, told LAist on Monday that Southern California Edison should have done more earlier to transition residents off grid and prevent additional outages.",
+      "Name of Source": "City of Rancho Palos Verdes",
+      "Type of Source": "Named Organization",
+      "Source Justification": "critiquing Southern California Edison's response"
+    },
+    {
+      "Sourced Statement": "LAist reached out to the governor's office for comment on Monday but did not immediately hear back.",
+      "Name of Source": "Governor's Office",
+      "Type of Source": "Named Organization",
+      "Source Justification": "requested for comment on the situation"
+    }
+  ]
+}

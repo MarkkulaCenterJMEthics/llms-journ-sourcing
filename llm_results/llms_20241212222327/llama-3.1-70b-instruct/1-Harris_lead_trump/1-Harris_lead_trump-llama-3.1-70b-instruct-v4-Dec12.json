@@ -1,0 +1,73 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "They see Kamala Harris as the future, and Republicans see this election as just about Trump. Voters are more likely to be engaged when given the option of 'more than' beating Trump.",
+      "Name of Source": "Voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "referenced in the context of comparing motivations for voting for Harris vs. Trump"
+    },
+    {
+      "Sourced Statement": "Some 73% of Democratic registered voters... said they were more excited about voting in November after Harris entered the race.",
+      "Name of Source": "Democratic registered voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "referenced to illustrate the impact of Harris' candidacy on Democratic voter enthusiasm"
+    },
+    {
+      "Sourced Statement": "Some 41% of voters... and 70% of Democrats... said they were worried the next president might sign a national ban on abortions.",
+      "Name of Source": "Voters; Democrats",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "referenced to highlight concerns about abortion policy"
+    },
+    {
+      "Sourced Statement": "Trump voters also voiced enthusiasm about their candidate, with 64% saying their choice was more motivated by backing Trump than opposing Harris.",
+      "Name of Source": "Trump voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "referenced to compare motivations for voting for Trump vs. opposing Harris"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "A separate Bloomberg News/Morning Consult poll published later on Thursday showed that Harris was either leading or tied with Trump in each of those states.",
+      "Name of Source": "Bloomberg News/Morning Consult poll",
+      "Type of Source": "Document",
+      "Source Justification": "referenced to provide additional polling data from another source"
+    },
+    {
+      "Sourced Statement": "The issue is salient for Democrats after the conservative U.S. Supreme Court in 2022 struck down women's national right to abortion.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "referenced to provide historical context for the abortion policy issue; implied document: U.S. Supreme Court ruling"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "It's obvious that running against Harris is more challenging for Trump given the shift in these numbers, but it's certainly not insurmountable.",
+      "Name of Source": "Matt Wolking",
+      "Type of Source": "Named Person",
+      "Title of Source": "Republican campaign strategist",
+      "Source Justification": "quoted to provide analysis on the poll results from a Republican perspective"
+    },
+    {
+      "Sourced Statement": "We see it in this poll that people are more motivated about the future than the past.",
+      "Name of Source": "Aimee Allison",
+      "Type of Source": "Named Person",
+      "Title of Source": "Founder of She the People",
+      "Source Justification": "quoted to provide interpretation of the poll results from a liberal group's perspective"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The new poll, which was conducted in the eight days ended Wednesday and had a 2 percentage point margin of error, showed Harris picking up support among women and Hispanics.",
+      "Name of Source": "Reuters/Ipsos",
+      "Type of Source": "Named Organization",
+      "Source Justification": "referenced as the conductor of the poll"
+    },
+    {
+      "Sourced Statement": "She the People, a liberal group that aims to grow the numbers of women of color in elected office.",
+      "Name of Source": "She the People",
+      "Type of Source": "Named Organization",
+      "Source Justification": "referenced to provide context for Aimee Allison's quote"
+    }
+  ]
+}

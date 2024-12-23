@@ -1,0 +1,101 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "students said she looked like Marge Simpson and that she looked too African for their comfort.",
+      "Name of Source": "students",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "context of Aaliyah Wilburn's experiences with hair discrimination in school"
+    },
+    {
+      "Sourced Statement": "students touching and petting her hair without her consent (referring to Rep. Saudia LaMont's daughter)",
+      "Name of Source": "students",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "illustrating early experiences of hair discrimination"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "66% of Black girls in predominantly white schools and 44% of Black girls in all schools report experiencing hair discrimination, and that the experiences typically happen before they are 10 (2023 study)",
+      "Name of Source": "null",  // or possibly the publishing organization if known
+      "Type of Source": "Document",
+      "Source Justification": "providing statistical context for the prevalence of hair discrimination"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "I wouldn’t be scared of going out with a bonnet or a head wrap if this bill was in place at the time of these incidents.",
+      "Name of Source": "Aaliyah Wilburn",
+      "Type of Source": "Named Person",
+      "Title of Source": "leader with the Vermont Student Anti-Racism Network",
+      "Source Justification": "personal experience with hair discrimination in school"
+    },
+    {
+      "Sourced Statement": "I think it’s a huge problem in our schools and this bill would help address it.",
+      "Name of Source": "Addie Lentzner",
+      "Type of Source": "Named Person",
+      "Title of Source": "Executive Director of the Vermont Student Anti-Racism Network",
+      "Source Justification": "expertise on school climate and anti-racism efforts"
+    },
+    {
+      "Sourced Statement": "an erasure and minimization of the experiences of marginalized people... hair type, textures, styles, protective hairstyles are a symbol of one’s identity...",
+      "Name of Source": "Rep. Saudia LaMont",
+      "Type of Source": "Named Person",
+      "Title of Source": "D-Morristown",
+      "Source Justification": "sponsor of the bill, sharing personal and general experiences with hair discrimination"
+    },
+    {
+      "Sourced Statement": "Hair and head coverings do not determine behavior, capacity or competency and people should not be penalized, discriminated against or treated as such.",
+      "Name of Source": "Rep. Saudia LaMont",
+      "Type of Source": "Named Person",
+      "Title of Source": "D-Morristown",
+      "Source Justification": "sponsor of the bill, advocating for the bill’s purpose"
+    },
+    {
+      "Sourced Statement": "Hair discrimination is degrading, disrespectful and invades people’s privacy in deep ways.",
+      "Name of Source": "Rep. Kevin “Coach” Christie",
+      "Type of Source": "Named Person",
+      "Title of Source": "D-Hartford, primary sponsor of the bill",
+      "Source Justification": "highlighting the impact of hair discrimination"
+    },
+    {
+      "Sourced Statement": "It seems like a small bill but in actuality, it’s another big block in the foundation of equity in the state.",
+      "Name of Source": "Rep. Kevin “Coach” Christie",
+      "Type of Source": "Named Person",
+      "Title of Source": "D-Hartford, primary sponsor of the bill",
+      "Source Justification": "contextualizing the bill’s significance in advancing equity"
+    },
+    {
+      "Sourced Statement": "a step in the right direction towards people feeling safe and welcome in our state, no matter where they are in Vermont.",
+      "Name of Source": "Rep. Daisy Berbeco",
+      "Type of Source": "Named Person",
+      "Title of Source": "D-Winooski, bill sponsor",
+      "Source Justification": "representing Vermont’s most diverse community, advocating for inclusivity"
+    },
+    {
+      "Sourced Statement": "The reality that people of color are often ostracized or mistreated because of their hair.",
+      "Name of Source": "Rep. Mike Mrowicki",
+      "Type of Source": "Named Person",
+      "Title of Source": "D-Putney, bill sponsor",
+      "Source Justification": "sharing constituent experiences, advocating for the bill’s necessity"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Modeled after language promoted as the CROWN Act and already enacted in 23 other states, including New York and Maine...",
+      "Name of Source": "CROWN Act (implied: states of New York and Maine)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "context for the bill’s origins and wider implementation"
+    },
+    {
+      "Sourced Statement": "Vermont Student Anti-Racism Network (various quotes and context)",
+      "Name of Source": "Vermont Student Anti-Racism Network",
+      "Type of Source": "Named Organization",
+      "Source Justification": "organization supporting the bill, providing personal and expert insights"
+    }
+  ]
+}

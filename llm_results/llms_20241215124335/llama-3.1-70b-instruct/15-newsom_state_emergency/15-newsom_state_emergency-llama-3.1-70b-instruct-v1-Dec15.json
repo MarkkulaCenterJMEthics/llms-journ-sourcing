@@ -1,0 +1,96 @@
+{
+  "Anonymous Sources": [],
+
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Impacted residents, many of whom are older, have disabilities and bought their homes decades ago, have experienced a range of difficult emotions as they’ve been displaced in recent months and watched their community dramatically change due to the land movement.",
+      "Name of Source": "Impacted residents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "many of whom are older, have disabilities and bought their homes decades ago; have been displaced in recent months and watched their community dramatically change due to the land movement"
+    },
+    {
+      "Sourced Statement": "Some say they weren’t given sufficient warning about the power shutoffs and aren’t sure where to go.",
+      "Name of Source": "Impacted residents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "have been displaced in recent months and watched their community dramatically change due to the land movement; experiencing difficulties after power shutoffs"
+    },
+    {
+      "Sourced Statement": "Others plan to stay.",
+      "Name of Source": "Impacted residents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "have been displaced in recent months and watched their community dramatically change due to the land movement; deciding whether to stay or leave"
+    },
+    {
+      "Sourced Statement": "Some, he said, are getting ready to leave permanently.",
+      "Name of Source": "Impacted residents (via Gordon Leon)",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "neighbors of Gordon Leon; deciding whether to stay or leave due to the land movement"
+    }
+  ],
+
+  "Document Sources": [
+    {
+      "Sourced Statement": "Check if your home is in the affected zones: https://protect.genasys.com/search.",
+      "Name of Source": "protect.genasys.com ( publishing organization not specified )",
+      "Type of Source": "Document",
+      "Source Justification": "official resource for identifying affected zones"
+    },
+    {
+      "Sourced Statement": "The city states on its website that it is working to identify “hotels and other accommodations that can offer discounted rates for residents.”",
+      "Name of Source": "rpvca.gov (City of Rancho Palos Verdes website)",
+      "Type of Source": "Document",
+      "Source Justification": "official city website; providing resources for affected residents"
+    },
+    {
+      "Sourced Statement": "For updates, the city directs residents to rpvca.gov/landmovement and PVPready.gov.",
+      "Name of Source": "rpvca.gov/landmovement (City of Rancho Palos Verdes website) ; PVPready.gov",
+      "Type of Source": "Document",
+      "Source Justification": "official city and emergency response websites; providing updates for affected residents"
+    }
+  ],
+
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“The land movement has created a dangerous situation, and Edison is deciding to disconnect to keep that community safe,”",
+      "Name of Source": "Jim Hanggi",
+      "Type of Source": "Named Person",
+      "Title of Source": "Spokesperson for Southern California Edison",
+      "Source Justification": "representing Southern California Edison; providing explanation for power disconnections"
+    },
+    {
+      "Sourced Statement": "Leon said he and his neighbors are just trying to 'figure out how to survive.’",
+      "Name of Source": "Gordon Leon",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "impacted resident; sharing personal experience and plans for coping with the situation"
+    },
+    {
+      "Sourced Statement": "“We’re hearing that our residents want to stay in their homes, and we're doing everything we can to keep them in their homes,”",
+      "Name of Source": "John Cruikshank",
+      "Type of Source": "Named Person",
+      "Title of Source": "Mayor of Rancho Palos Verdes",
+      "Source Justification": "representing the city; expressing commitment to supporting affected residents"
+    }
+  ],
+
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The declaration came after power was shut off for around 250 homes to avoid potential fires and other risks due to the ongoing landslide there.",
+      "Name of Source": "Southern California Edison",
+      "Type of Source": "Named Organization",
+      "Source Justification": "utility company responsible for power distribution in the area; taking safety measures due to the landslide"
+    },
+    {
+      "Sourced Statement": "SoCalGas announced that it was shutting off gas service to additional 29 homes in the western Seaview area and another 25 homes in the Portuguese Bend Beach Club starting at 3 p.m. Friday.",
+      "Name of Source": "SoCalGas",
+      "Type of Source": "Named Organization",
+      "Source Justification": "utility company responsible for gas service in the area; taking safety measures due to the landslide"
+    },
+    {
+      "Sourced Statement": "A team of geologists is working with the city to figure out how to slow the land movement, with some engineering efforts being implemented to varying degrees of success.",
+      "Name of Source": "City of Rancho Palos Verdes",
+      "Type of Source": "Named Organization",
+      "Source Justification": "municipal government; collaborating with experts to address the landslide issue"
+    }
+  ]
+}

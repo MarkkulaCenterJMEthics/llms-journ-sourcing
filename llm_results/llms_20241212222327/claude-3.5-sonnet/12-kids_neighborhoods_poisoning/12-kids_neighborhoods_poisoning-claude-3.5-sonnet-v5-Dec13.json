@@ -1,0 +1,21 @@
+{
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "According to the U.S. Census Bureau, in South Memphis, about 96% of residents are Black, and about 91% of homes were built prior to 1978.",
+      "Name of Source": "U.S. Census Bureau",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    }
+  ],
+  "Document Sources": [],
+  "Named Person Sources": [],
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "If your neighborhood appears in red on the above map and children under 6 live in — or regularly visit — your home, experts would encourage having your child and home tested for lead.",
+      "Name of Source": "experts",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": null
+    }
+  ]
+}

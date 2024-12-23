@@ -1,0 +1,86 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "They're saying that they're not voting because people are not speaking to their issues and that they're just not interested in those candidates.",
+      "Name of Source": "low-wage voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "referenced in a Columbia University study of the 2016 electorate, explaining their low turnout"
+    },
+    {
+      "Sourced Statement": "Poor and low wage people have the power to determine and decide the 2024 elections and elections beyond.",
+      "Name of Source": "poor and low-wage people",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "highlighted by Rev. Dr. William Barber as the 'sleeping giant' that can impact elections"
+    },
+    {
+      "Sourced Statement": "Increased participation even by miniscule percentages could be game changers.",
+      "Name of Source": "low-income, low-wage voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "analyzed by Celinda Lake as the biggest bloc of potential voters"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "only 46 percent of voters with household income less than twice the federal poverty rate cast a ballot in 2016, as compared to a 68 percent turnout rate for voters who had a household income more than twice the poverty line.",
+      "Name of Source": "Columbia University study",
+      "Type of Source": "Document",
+      "Source Justification": "undertaken with the support of the Poor People’s Campaign, studying the low-wage voter cohort"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "They're saying that they're not voting because people are not speaking to their issues and that they're just not interested in those candidates.",
+      "Name of Source": "Robert Paul Hartley",
+      "Type of Source": "Named Person",
+      "Title of Source": "Columbia University researcher",
+      "Source Justification": "quoted in the New York Times, explaining low-wage voter turnout"
+    },
+    {
+      "Sourced Statement": "In 2024, the election is going to be about mobilization…",
+      "Name of Source": "Celinda Lake",
+      "Type of Source": "Named Person",
+      "Title of Source": "President of Lake Research Partners",
+      "Source Justification": "providing analysis at the National Press Club"
+    },
+    {
+      "Sourced Statement": "For far too long extremists have blamed poor people and low wage people for their plight while moderates too often have ignored poor people…",
+      "Name of Source": "Rev. Dr. William Barber",
+      "Type of Source": "Named Person",
+      "Title of Source": "Leader of the Poor People’s Campaign",
+      "Source Justification": "announcing plans for a mass mobilization of 15 million poor and low-wealth voters"
+    },
+    {
+      "Sourced Statement": "I work for MassHealth as a Personal Care Attendant, helping to take care of people with disabilities and who are sick and need help with their daily activities. But I do not have health insurance myself…",
+      "Name of Source": "Janice Guzman",
+      "Type of Source": "Named Person",
+      "Title of Source": "Organizer with the Massachusetts Poor People's Campaign and SEIU 1199",
+      "Source Justification": "sharing personal experience to highlight the need for the Poor People’s Campaign"
+    },
+    {
+      "Sourced Statement": "We are mobilizing, organizing, registering and educating people for a movement that votes…",
+      "Name of Source": "Rev. Dr. Liz Theoharis",
+      "Type of Source": "Named Person",
+      "Title of Source": "Leader of the Poor People’s Campaign",
+      "Source Justification": "outlining the goals of the campaign"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Poor People’s Campaign is planning simultaneous actions on March 2 at over 30 state capitols…",
+      "Name of Source": "Poor People’s Campaign",
+      "Type of Source": "Named Organization",
+      "Source Justification": "announcing plans for a mass mobilization of 15 million poor and low-wealth voters"
+    },
+    {
+      "Sourced Statement": "SEIU 1199",
+      "Name of Source": "SEIU 1199",
+      "Type of Source": "Named Organization",
+      "Source Justification": "affiliation of Janice Guzman, organizer with the Massachusetts Poor People's Campaign"
+    }
+  ]
+}

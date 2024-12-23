@@ -1,0 +1,56 @@
+{ 
+  "Anonymous Sources": [], 
+  "Unnamed Group of People": [], 
+  "Document Sources": [
+    {
+      "Sourced Statement": "Los Angeles and Sacramento counties are the two other most popular California destinations, according to SF’s Department of Homelessness and Supportive Housing and the Human Services Agency.",
+      "Name of Source": "SF’s Department of Homelessness and Supportive Housing and the Human Services Agency",
+      "Type of Source": "Document",
+      "Source Justification": "according to SF’s Department of Homelessness and Supportive Housing and the Human Services Agency"
+    },
+    {
+      "Sourced Statement": "According to the program’s website, social services staffers verify that those who use TAP will be received at their destination by a relative, friend, or appropriate agency.",
+      "Name of Source": "Humboldt’s Transportation Assistance Program website",
+      "Type of Source": "Document",
+      "Source Justification": "According to the program’s website"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“We were dismayed to learn that our small, rural county was among the top three destinations in the state where people experiencing homelessness were sent by the program,”",
+      "Name of Source": null,
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "“We are concerned that providing bus tickets to other jurisdictions without verifying access to housing, family support or employment does not alleviate homelessness; it simply shifts the person to another county,”",
+      "Name of Source": null,
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "“The aim isn’t to achieve a goal. It’s to get you out of our town, and it’s cheaper than arresting you,” Boden said.",
+      "Name of Source": "Paul Boden",
+      "Type of Source": "Named Person",
+      "Title of Source": "homeless advocate with the Western Regional Advocacy Project",
+      "Source Justification": "a homeless advocate with the Western Regional Advocacy Project"
+    },
+    {
+      "Sourced Statement": "“Our TAP program works really well, and hopefully San Francisco can go back to more — not just dumping — but assisting and actually helping people get help,”",
+      "Name of Source": "Rex Bohn",
+      "Type of Source": "Named Person",
+      "Title of Source": "Humboldt Supervisor",
+      "Source Justification": "Humboldt Supervisor Rex Bohn said at Tuesday’s board meeting"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "When asked for comment, the San Francisco mayor’s office said it had not received the letter.",
+      "Name of Source": "the San Francisco mayor’s office",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    }
+  ]
+}

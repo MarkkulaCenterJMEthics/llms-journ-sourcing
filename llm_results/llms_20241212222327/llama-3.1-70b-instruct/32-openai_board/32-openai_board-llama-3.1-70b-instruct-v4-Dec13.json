@@ -1,0 +1,112 @@
+{
+  "Anonymous Sources": [
+    {
+      "Sourced Statement": "He sided with board members to oust Mr. Altman, according to two people familiar with the board’s deliberations.",
+      "Name of Source": "null",
+      "Type of Source": "Anonymous Source",
+      "Title of Source": "",
+      "Source Justification": "familiar with the board’s deliberations"
+    },
+    {
+      "Sourced Statement": "The statement he read to Mr. Altman said that Mr. Altman was being fired because he wasn’t “consistently candid in his communications with the board.”",
+      "Name of Source": "null",
+      "Type of Source": "Anonymous Source",
+      "Title of Source": "",
+      "Source Justification": "involved in the conversations; familiar with the board’s deliberations"
+    },
+    {
+      "Sourced Statement": "Senior OpenAI leaders, including Mr. Sutskever, who is deeply concerned that A.I. could one day destroy humanity, later discussed whether Ms. Toner should be removed, a person involved in the conversations said.",
+      "Name of Source": "null",
+      "Type of Source": "Anonymous Source",
+      "Title of Source": "",
+      "Source Justification": "involved in the conversations"
+    },
+    {
+      "Sourced Statement": "After they failed, they gave up and departed, according to three people familiar with the attempt to push Mr. Altman out.",
+      "Name of Source": "null",
+      "Type of Source": "Anonymous Source",
+      "Title of Source": "",
+      "Source Justification": "familiar with the attempt to push Mr. Altman out"
+    },
+    {
+      "Sourced Statement": "Hours after Mr. Altman was ousted, OpenAI executives confronted the remaining board members during a video call, according to three people who were on the call.",
+      "Name of Source": "null",
+      "Type of Source": "Anonymous Source",
+      "Title of Source": "",
+      "Source Justification": "on the call"
+    },
+    {
+      "Sourced Statement": "On Sunday, Mr. Sutskever was urged at OpenAI’s office to reverse course by Mr. Brockman’s wife, Anna, according to two people familiar with the exchange.",
+      "Name of Source": "null",
+      "Type of Source": "Anonymous Source",
+      "Title of Source": "",
+      "Source Justification": "familiar with the exchange"
+    }
+  ],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Nearly all of OpenAI’s 800 employees had threatened to follow Mr. Altman to Microsoft,",
+      "Name of Source": "OpenAI’s employees",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "nearly all of OpenAI’s 800 employees"
+    },
+    {
+      "Sourced Statement": "Hours after Mr. Altman was ousted, OpenAI executives confronted the remaining board members during a video call,",
+      "Name of Source": "OpenAI executives",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "hours after Mr. Altman was ousted"
+    }
+  ],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“I did not feel we’re on the same page on the damage of all this,” he wrote in the email. “Any amount of criticism from a board member carries a lot of weight.”",
+      "Name of Source": "Sam Altman",
+      "Type of Source": "Named Person",
+      "Title of Source": "Chief Executive",
+      "Source Justification": "in an email to colleagues"
+    },
+    {
+      "Sourced Statement": "“After a series of reasonably amicable negotiations, the co-founders of Anthropic were able to negotiate their exit on mutually agreeable terms,”",
+      "Name of Source": "Sally Aldous",
+      "Type of Source": "Named Person",
+      "Title of Source": "Anthropic Spokeswoman",
+      "Source Justification": "in a statement"
+    },
+    {
+      "Sourced Statement": "Jason Kwon, OpenAI’s chief strategy officer, said the board was endangering the future of the company by pushing out Mr. Altman.",
+      "Name of Source": "Jason Kwon",
+      "Type of Source": "Named Person",
+      "Title of Source": "Chief Strategy Officer",
+      "Source Justification": "during a video call"
+    },
+    {
+      "Sourced Statement": "The board’s mission was to ensure that the company creates artificial intelligence that “benefits all of humanity,” and if the company was destroyed, she said, that could be consistent with its mission.",
+      "Name of Source": "Helen Toner",
+      "Type of Source": "Named Person",
+      "Title of Source": "Board Member and Director of Strategy at Georgetown University’s Center for Security and Emerging Technology",
+      "Source Justification": "during a video call"
+    },
+    {
+      "Sourced Statement": "“I deeply regret my participation in the board’s actions.”",
+      "Name of Source": "Ilya Sutskever",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "on X, formerly Twitter"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "the company said on its website.",
+      "Name of Source": "OpenAI",
+      "Type of Source": "Named Organization",
+      "Source Justification": "on its website"
+    },
+    {
+      "Sourced Statement": "According to The Wall Street Journal.",
+      "Name of Source": "The Wall Street Journal",
+      "Type of Source": "Named Organization",
+      "Source Justification": "earlier reported the confrontation"
+    }
+  ]
+}

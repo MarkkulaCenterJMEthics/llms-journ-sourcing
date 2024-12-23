@@ -1,0 +1,56 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“While we are disappointed by the court’s decision not to place us on the ballot in November, I remain undeterred in my commitment to serving Oakland and our communities,” she wrote. “My dedication to our city does not begin nor end with a campaign. There are many ways to effect change and ensure our voices are heard. I will continue to work alongside each of you, advocating for public health, safety, and equitable development in Oakland.”",
+      "Name of Source": "Tonya Love",
+      "Type of Source": "Named Person",
+      "Title of Source": "null",
+      "Source Justification": "Tonya Love is a prospective District 7 councilmember and current chief of staff for Councilmember Carroll Fife; she sued the Alameda County Registrar of Voters over disqualified signatures."
+    },
+    {
+      "Sourced Statement": "“These technical errors should not prevent the intent of the voters from being realized and the signatures counted towards verification,” the lawyers stated in their brief. “The Elections Code and Oakland Ordinances only require that registered voters residing within the District sign the petition. The three individuals who signed the nomination petition but did not have their signatures counted met these basic requirements and, in addition, substantially complied with the applicable law.”",
+      "Name of Source": "Love’s lawyers",
+      "Type of Source": "Named Person",
+      "Title of Source": "null",
+      "Source Justification": "Love’s lawyers are from the political law firm Kaufman Legal Group and are representing her in the lawsuit against the Alameda County Registrar of Voters."
+    },
+    {
+      "Sourced Statement": "“My understanding is that there are other candidates for this particular district city council who would’ve liked the opportunity to have more time to gather and submit signatures, and the process needs to be uniform,” he said. “In its implementation, it looks like the ROV attempted to do that here.”",
+      "Name of Source": "Judge Michael Markman",
+      "Type of Source": "Named Person",
+      "Title of Source": "Alameda County Superior Court Judge",
+      "Source Justification": "Judge Michael Markman presided over the case and issued comments on the uniformity of the process and the registrar’s actions."
+    },
+    {
+      "Sourced Statement": "“There are only three in this one,” he said, “but I can imagine scenarios where it could be 23 in future cases.”",
+      "Name of Source": "Judge Michael Markman",
+      "Type of Source": "Named Person",
+      "Title of Source": "Alameda County Superior Court Judge",
+      "Source Justification": "Judge Michael Markman presided over the case and issued comments on the potential implications of validating signatures."
+    },
+    {
+      "Sourced Statement": "In an interview with The Oaklandside last week, Newton was resigned to his failure to gather enough signatures–he picked up 37–but said he would work with whoever came out ahead in the race to help improve the community.",
+      "Name of Source": "David Newton",
+      "Type of Source": "Named Person",
+      "Title of Source": "null",
+      "Source Justification": "David Newton is a nephew of Black Panther Party founder Huey Newton and a prospective candidate who failed to gather enough signatures to qualify for the District 7 race."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Alameda County Registrar is scheduled to send the final ballot for printing on Friday.",
+      "Name of Source": "Alameda County Registrar",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Alameda County Registrar is responsible for managing the election process, including validating signatures and finalizing the ballot."
+    },
+    {
+      "Sourced Statement": "The message was cheered on by several community members and organizations such as the East Oakland Collective nonprofit.",
+      "Name of Source": "East Oakland Collective",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The East Oakland Collective nonprofit is a community organization that expressed support for Tonya Love’s campaign."
+    }
+  ]
+}

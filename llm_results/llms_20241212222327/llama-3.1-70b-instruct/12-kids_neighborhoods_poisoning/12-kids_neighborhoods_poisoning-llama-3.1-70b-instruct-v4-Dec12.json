@@ -1,0 +1,66 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Children in these neighborhoods primarily ingest lead from dust in their homes and yards.",
+      "Name of Source": "Children in these neighborhoods",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "residing in areas with high concentration of pre-1980 homes, as shown on the map"
+    },
+    {
+      "Sourced Statement": "Kids raised in Memphis’ suburbs face little risk of lead poisoning since few homes there were built after 1978.",
+      "Name of Source": "Kids in Memphis suburbs",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "living in areas with low concentration of pre-1978 homes, due to suburban development patterns"
+    },
+    {
+      "Sourced Statement": "Children in Cordova are far safer from lead poisoning than kids in Midtown. And children in Arlington are much better off than their counterparts in North Memphis.",
+      "Name of Source": "Children in various Memphis neighborhoods",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "comparing lead poisoning risks across different Memphis neighborhoods with varying home ages"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "about 96% of residents are Black, and about 91% of homes were built prior to 1978, according to the U.S. Census Bureau.",
+      "Name of Source": "U.S. Census Bureau",
+      "Type of Source": "Document",
+      "Source Justification": "authoritative source for demographic and housing data"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Jacob Steimer",
+      "Type of Source": "Named Person",
+      "Title of Source": "Housing and Development Reporter",
+      "Source Justification": "credentialed journalist covering housing and development for MLK50: Justice Through Journalism"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Support independent journalism by making a tax-deductible donation today. MLK50 is also supported by these generous donors.",
+      "Name of Source": "MLK50: Justice Through Journalism",
+      "Type of Source": "Named Organization",
+      "Source Justification": "nonprofit newsroom focused on poverty, power, and policy in Memphis, producing the story"
+    },
+    {
+      "Sourced Statement": "call the Shelby County Health Department at 901-222-9582 or email them at sch.clppp@shelbycountytn.gov.",
+      "Name of Source": "Shelby County Health Department",
+      "Type of Source": "Named Organization",
+      "Source Justification": "official public health authority providing lead testing and resources"
+    },
+    {
+      "Sourced Statement": "call the Shelby County Lead Hazard Control program at 901-222-7605 or the City of Memphis Lead-Safe program at 901-636-5323.",
+      "Name of Source": "Shelby County Lead Hazard Control program",
+      "Type of Source": "Named Organization",
+      "Source Justification": "official program for lead hazard control in Shelby County"
+    },
+    {
+      "Sourced Statement": "call the Shelby County Lead Hazard Control program at 901-222-7605 or the City of Memphis Lead-Safe program at 901-636-5323.",
+      "Name of Source": "City of Memphis Lead-Safe program",
+      "Type of Source": "Named Organization",
+      "Source Justification": "official program for lead safety in the City of Memphis"
+    }
+  ]
+}

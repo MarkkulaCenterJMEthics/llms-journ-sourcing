@@ -1,0 +1,98 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "They’re saying that they’re not voting because people are not speaking to their issues and that they’re just not interested in those candidates.",
+      "Name of Source": "low-wage voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "as surveyed by Columbia University study of the 2016 electorate with the support of the Poor People’s Campaign"
+    },
+    {
+      "Sourced Statement": "In the 2016 election there were 34 million poor and low wealth people eligible to vote but didn’t.",
+      "Name of Source": "poor and low wealth people",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "as part of the electorate, highlighting their potential impact on the election"
+    },
+    {
+      "Sourced Statement": "Dozens of local leaders from the state chapters of the Poor People’s Campaign were on hand in person and virtually for the high spirited kick off",
+      "Name of Source": "local leaders",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "representing state chapters of the Poor People’s Campaign"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "Columbia University study undertaken of the 2016 electorate with the support of the Poor People’s Campaign",
+      "Name of Source": "Columbia University",
+      "Type of Source": "Document",
+      "Source Justification": "studying the low-wage voter cohort"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "They’re saying that they’re not voting because people are not speaking to their issues and that they’re just not interested in those candidates.",
+      "Name of Source": "Robert Paul Hartley",
+      "Type of Source": "Named Person",
+      "Title of Source": "Columbia University researcher",
+      "Source Justification": "studying the low-wage voter cohort"
+    },
+    {
+      "Sourced Statement": "In 2024, the election is going to be about mobilization…",
+      "Name of Source": "Celinda Lake",
+      "Type of Source": "Named Person",
+      "Title of Source": "President of Lake Research Partners",
+      "Source Justification": "providing analysis on voter mobilization"
+    },
+    {
+      "Sourced Statement": "For far too long extremists have blamed poor people and low wage people for their plight…",
+      "Name of Source": "Rev. Dr. William Barber",
+      "Type of Source": "Named Person",
+      "Title of Source": "Leader of the Poor People’s Campaign",
+      "Source Justification": "highlighting the campaign’s goals and motivations"
+    },
+    {
+      "Sourced Statement": "We are mobilizing, organizing, registering and educating people for a movement that votes…",
+      "Name of Source": "Rev. Dr. Liz Theoharis",
+      "Type of Source": "Named Person",
+      "Title of Source": "Leader of the Poor People’s Campaign",
+      "Source Justification": "outlining the campaign’s objectives"
+    },
+    {
+      "Sourced Statement": "I work for MassHealth as a Personal Care Attendant, helping to take care of people with disabilities…",
+      "Name of Source": "Janice Guzman",
+      "Type of Source": "Named Person",
+      "Title of Source": "Organizer with the Massachusetts Poor People's Campaign and SEIU 1199",
+      "Source Justification": "sharing personal experience to illustrate the campaign’s relevance"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Poor People’s Campaign is planning simultaneous actions on March 2 at over 30 state capitols.",
+      "Name of Source": "Poor People’s Campaign",
+      "Type of Source": "Named Organization",
+      "Source Justification": "organizing actions to highlight policies affecting the poor"
+    },
+    {
+      "Sourced Statement": "The Poor People’s Campaign, under the leadership of Barber and Rev. Dr. Liz Theoharis, announced their plans for a mass mobilization of 15 million poor and low-wealth voters nationwide.",
+      "Name of Source": "Poor People’s Campaign",
+      "Type of Source": "Named Organization",
+      "Source Justification": "leading a mass mobilization effort"
+    },
+    {
+      "Sourced Statement": "Congress’s decision to roll back the expansion of the Earned Income Child Tax Credit, which caused a major spike in childhood poverty",
+      "Name of Source": "Congress",
+      "Type of Source": "Named Organization",
+      "Source Justification": "making decisions impacting poverty rates"
+    },
+    {
+      "Sourced Statement": "the Biden administration’s decision to let states “unwind” Medicaid when the White House declared the pandemic was over.",
+      "Name of Source": "Biden Administration",
+      "Type of Source": "Named Organization",
+      "Source Justification": "making decisions impacting healthcare access"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Fifty-two percent of 170 respondents said they need more information about what will happen to asylum.",
+      "Name of Source": "Spanish-speaking readers",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "readers of Documented, surveyed about their concerns regarding the upcoming election"
+    },
+    {
+      "Sourced Statement": "An estimated 201,000 asylum seekers have passed through the city since 2022, many of whom were passengers on these Texas-funded buses.",
+      "Name of Source": "asylum seekers",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "individuals who have passed through NYC since 2022, many arriving via Texas-funded buses"
+    },
+    {
+      "Sourced Statement": "An estimated 64,000 migrants still remain under NYC’s care.",
+      "Name of Source": "migrants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "individuals currently under NYC’s care"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "As Documented covered in the past, this led to the expulsion of more than 2.8 million people.",
+      "Name of Source": "Documented",
+      "Type of Source": "Document",
+      "Source Justification": "previous reporting by Documented on the topic"
+    },
+    {
+      "Sourced Statement": "Project 2025 is a plan created by a conservative think tank with ties to Trump that lays out what the president should change in the first 180 days after taking office.",
+      "Name of Source": "Project 2025",
+      "Type of Source": "Document",
+      "Source Justification": "plan created by a conservative think tank with ties to Trump"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“There is concern that they’ll [asylum restrictions] actually be implemented more effectively. Last time, he didn’t expect to win and didn’t have a professional class built around him that could actually get things done in government in general,”",
+      "Name of Source": "Brian Manning",
+      "Type of Source": "Named Person",
+      "Title of Source": "political asylum lawyer and former government asylum officer",
+      "Source Justification": "expertise in asylum law and experience as a government asylum officer"
+    },
+    {
+      "Sourced Statement": "“It is safe to assume that after the many missteps of his first presidency, that his administration would be better equipped to learn from their past mistakes and more effectively attack immigrant communities from the White House,”",
+      "Name of Source": "Marlene Galaz",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Immigrant Rights Policy, New York Immigration Coalition",
+      "Source Justification": "leadership role in immigrant rights policy"
+    },
+    {
+      "Sourced Statement": "“The stuff about immigration is pretty severe. There are talks around the Project 2025 crowd about eliminating work authorization for asylum seekers, getting rid of TPS, Temporary Protected Status,”",
+      "Name of Source": "Brian Manning",
+      "Type of Source": "Named Person",
+      "Title of Source": "political asylum lawyer and former government asylum officer",
+      "Source Justification": "expertise in asylum law and experience as a government asylum officer"
+    },
+    {
+      "Sourced Statement": "“We anticipate the president, Trump, to use its executive authority to implement these policies — but again, we anticipate we should be able to challenge,”",
+      "Name of Source": "Nils Kinuani",
+      "Type of Source": "Named Person",
+      "Title of Source": "Federal Policy Manager at African Communities Together (ACT)",
+      "Source Justification": "expertise in federal policy and experience working with immigrant communities"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "the government of Texas bussed migrants, crossing into the U.S. since the spring of 2022, to Democrat strongholds in Chicago and New York City.",
+      "Name of Source": "Government of Texas",
+      "Type of Source": "Named Organization",
+      "Source Justification": "initiator of migrant bussing program"
+    },
+    {
+      "Sourced Statement": "“It is safe to assume that after the many missteps of his first presidency, that his administration would be better equipped to learn from their past mistakes and more effectively attack immigrant communities from the White House,”",
+      "Name of Source": "New York Immigration Coalition",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Marlene Galaz's leadership role and expertise in immigrant rights policy"
+    },
+    {
+      "Sourced Statement": "“We anticipate the president, Trump, to use its executive authority to implement these policies — but again, we anticipate we should be able to challenge,”",
+      "Name of Source": "African Communities Together (ACT)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Nils Kinuani's expertise in federal policy and experience working with immigrant communities"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "We are grateful that the City of Oakland is holding Southwest accountable. We hope that Southwest policies and practices will finally change for good.",
+      "Name of Source": "Southwest employees (via Transport Workers Union of America Local 555)",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "represented by Eric Swygert, an elected ramp representative with the Transport Workers Union of America Local 555"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "Southwest Airlines fully complies with applicable sick leave laws in Oakland and California, as well as with the terms of a December 2020 settlement agreement with the city.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "statement from a Southwest spokesperson; reference to a December 2020 settlement agreement"
+    },
+    {
+      "Sourced Statement": "The city attorney said Southwest’s practices were especially detrimental during the COVID-19 pandemic, when workers were forced to report to work even when they were sick.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "press release from the city attorney"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "The City of Oakland is committed to protecting workers by ensuring that all employers in Oakland are complying with laws that protect their rights.",
+      "Name of Source": "Barbara Parker",
+      "Type of Source": "Named Person",
+      "Title of Source": "City Attorney",
+      "Source Justification": "authority on labor law enforcement in Oakland"
+    },
+    {
+      "Sourced Statement": "We are grateful that the City of Oakland is holding Southwest accountable. We hope that Southwest policies and practices will finally change for good.",
+      "Name of Source": "Eric Swygert",
+      "Type of Source": "Named Person",
+      "Title of Source": "Elected Ramp Representative, Transport Workers Union of America Local 555",
+      "Source Justification": "representing Southwest employees"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Southwest Airlines fully complies with applicable sick leave laws in Oakland and California, as well as with the terms of a December 2020 settlement agreement with the city.",
+      "Name of Source": "Southwest Airlines",
+      "Type of Source": "Named Organization",
+      "Source Justification": "defendant in the lawsuit; largest carrier at San Francisco Bay Oakland International Airport"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Transport Workers Union of America Local 555",
+      "Type of Source": "Named Organization",
+      "Source Justification": "representing Southwest employees; providing a statement through an elected representative"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "City of Oakland",
+      "Type of Source": "Named Organization",
+      "Source Justification": "plaintiff in the lawsuit; enforcer of labor laws in Oakland"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Oakland’s Department of Workforce Employment Standards",
+      "Type of Source": "Named Organization",
+      "Source Justification": "enforcer of wage and hour laws in Oakland; handler of worker complaints"
+    }
+  ]
+}

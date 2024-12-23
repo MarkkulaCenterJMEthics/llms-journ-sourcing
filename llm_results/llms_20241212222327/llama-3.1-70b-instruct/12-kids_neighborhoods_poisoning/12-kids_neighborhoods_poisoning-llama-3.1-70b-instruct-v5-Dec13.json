@@ -1,0 +1,66 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Children in these neighborhoods primarily ingest lead from dust in their homes and yards.",
+      "Name of Source": "Children in these neighborhoods",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Living in neighborhoods with high concentrations of older homes; mentioned as being primarily affected by lead poisoning"
+    },
+    {
+      "Sourced Statement": "Kids raised in Memphis’ suburbs face little risk of lead poisoning since few homes there were built after 1978.",
+      "Name of Source": "Kids in Memphis suburbs",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Living in suburban areas with fewer older homes; mentioned for comparative risk assessment"
+    },
+    {
+      "Sourced Statement": "Children in Cordova are far safer from lead poisoning than kids in Midtown. And children in Arlington are much better off than their counterparts in North Memphis.",
+      "Name of Source": "Children in various neighborhoods (Cordova, Midtown, Arlington, North Memphis)",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Residing in different neighborhoods with varying levels of risk for lead poisoning; used for comparative analysis"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "According to the U.S. Census Bureau, about 96% of residents in South Memphis are Black, and about 91% of homes were built prior to 1978.",
+      "Name of Source": "U.S. Census Bureau",
+      "Type of Source": "Document",
+      "Source Justification": " Authority on demographic and housing data; used to provide statistical evidence of neighborhood compositions and housing ages"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Jacob Steimer",
+      "Type of Source": "Named Person",
+      "Title of Source": "Housing and Development Reporter",
+      "Source Justification": "Author of the article; expertise in housing and development reporting"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "",
+      "Name of Source": "MLK50: Justice Through Journalism",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Publisher of the article; focused on poverty, power, and policy in Memphis"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Shelby County Health Department",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Recommended point of contact for scheduling free lead testing"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Shelby County Lead Hazard Control program",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Recommended point of contact for home lead testing"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "City of Memphis Lead-Safe program",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Alternative recommended point of contact for home lead testing"
+    }
+  ]
+}

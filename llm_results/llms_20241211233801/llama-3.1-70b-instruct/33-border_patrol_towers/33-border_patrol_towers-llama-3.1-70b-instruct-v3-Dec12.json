@@ -1,0 +1,98 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Dozens of migrants at a time have waited in makeshift camps in California — enduring the barren desert with little food, water or shelter — for hours or sometimes a day or more.",
+      "Name of Source": "migrants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "waiting to be processed in open-air detention areas"
+    },
+    {
+      "Sourced Statement": "Migrants sometimes huddle under the towers for protection from the elements",
+      "Name of Source": "migrants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "seeking protection from the elements; waiting in open-air sites"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "The agency has received more than $700 million in funding for surveillance since fiscal year 2017, according to a 2021 report by the Office of Inspector General.",
+      "Name of Source": "Office of Inspector General",
+      "Type of Source": "Document",
+      "Source Justification": "report from 2021 providing funding information"
+    },
+    {
+      "Sourced Statement": "“has also acknowledged the need for better coordination, communication, and oversight,” it said in its 2021 report on its border technology.",
+      "Name of Source": "Department of Homeland Security",
+      "Type of Source": "Document",
+      "Source Justification": "report from 2021 discussing border technology"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“That’s where we’ve seen a huge number of these towers go up,” said Dave Maass, the nonprofit’s director of investigations.",
+      "Name of Source": "Dave Maass",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Investigations",
+      "Source Justification": "director of investigations at San Francisco-based Electronic Frontier Foundation"
+    },
+    {
+      "Sourced Statement": "“These towers aren’t checking people’s papers,” Maass said. “People have lived on the border longer than the United States has been a country. Just being somebody who lives on the border, whose family are on both sides of the border, doesn’t make you a criminal and shouldn’t put you under suspicion.”",
+      "Name of Source": "Dave Maass",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Investigations",
+      "Source Justification": "director of investigations at San Francisco-based Electronic Frontier Foundation"
+    },
+    {
+      "Sourced Statement": "“If they wanted to, the government could track the movements of any individual living on the California border,” Pinheiro said.",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "Executive Director",
+      "Source Justification": "executive director of Al Otro Lado, a nonprofit providing legal and humanitarian support"
+    },
+    {
+      "Sourced Statement": "“Where is this money going, if we have babies sitting out in the desert for up to a week at a time without any food or water?” she asked.",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "Executive Director",
+      "Source Justification": "executive director of Al Otro Lado, a nonprofit providing legal and humanitarian support; discussing federal funding allocation"
+    },
+    {
+      "Sourced Statement": "Gov. Gavin Newsom has said California cannot continue providing the same level of humanitarian services for the coming fiscal year that it has in the past along the border, not while it is facing a $38 billion budget shortfall.",
+      "Name of Source": "Gavin Newsom",
+      "Type of Source": "Named Person",
+      "Title of Source": "Governor",
+      "Source Justification": "governor of California discussing state budget and humanitarian services"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Customs and Border Protection says the surveillance equipment is necessary to monitor remote, rugged areas like Jacumba Hot Springs and the Otay Mountain Wilderness in San Diego County, which are increasingly becoming destinations for migrants from around the world to cross into the United States.",
+      "Name of Source": "Customs and Border Protection",
+      "Type of Source": "Named Organization",
+      "Source Justification": "explaining the necessity of surveillance equipment for monitoring remote areas"
+    },
+    {
+      "Sourced Statement": "The Department of Homeland Security “has also acknowledged the need for better coordination, communication, and oversight,” it said in its 2021 report on its border technology.",
+      "Name of Source": "Department of Homeland Security",
+      "Type of Source": "Named Organization",
+      "Source Justification": "report from 2021 discussing border technology and acknowledging needs for improvement"
+    },
+    {
+      "Sourced Statement": "California’s investment to assist the federal government, provide humanitarian services, and help new arrivals totals over $1.3 billion since 2019,” Newsom’s office said earlier this month.",
+      "Name of Source": "Office of Gov. Gavin Newsom",
+      "Type of Source": "Named Organization",
+      "Source Justification": "providing information on California’s investment in humanitarian services"
+    },
+    {
+      "Sourced Statement": "According to an Anduril promotional video, the system alerts border agents on their devices when it detects an object and shows them an image highlighting the item.",
+      "Name of Source": "Anduril",
+      "Type of Source": "Named Organization",
+      "Source Justification": "promotional video explaining the functionality of their surveillance system"
+    }
+  ]
+}

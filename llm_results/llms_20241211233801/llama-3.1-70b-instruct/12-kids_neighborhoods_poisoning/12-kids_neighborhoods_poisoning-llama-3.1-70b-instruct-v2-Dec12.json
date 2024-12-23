@@ -1,0 +1,47 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "about 96% of residents are Black, and about 91% of homes were built prior to 1978, according to the U.S. Census Bureau.",
+      "Name of Source": "U.S. Census Bureau",
+      "Type of Source": "Document",
+      "Source Justification": "used as a credible source for demographic and housing data"
+    },
+    {
+      "Sourced Statement": "To find out if your individual home was built before 1978, check Realtor.com or the Shelby County Assessor of Property website.",
+      "Name of Source": "Realtor.com; Shelby County Assessor of Property website",
+      "Type of Source": "Document",
+      "Source Justification": "provided as resources for readers to verify their home's construction year"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Jacob Steimer",
+      "Type of Source": "Named Person",
+      "Title of Source": "Housing and Development Reporter",
+      "Source Justification": "author of the article, providing context and expertise on housing and development"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "call the Shelby County Health Department at 901-222-9582 or email them at sch.clppp@shelbycountytn.gov.",
+      "Name of Source": "Shelby County Health Department",
+      "Type of Source": "Named Organization",
+      "Source Justification": "recommended as a resource for readers to schedule free lead testing"
+    },
+    {
+      "Sourced Statement": "call the Shelby County Lead Hazard Control program at 901-222-7605 or the City of Memphis Lead-Safe program at 901-636-5323.",
+      "Name of Source": "Shelby County Lead Hazard Control program; City of Memphis Lead-Safe program",
+      "Type of Source": "Named Organization",
+      "Source Justification": "provided as resources for readers to have their homes tested for lead"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "MLK50: Justice Through Journalism",
+      "Type of Source": "Named Organization",
+      "Source Justification": "publisher of the article, focused on poverty, power, and policy in Memphis"
+    }
+  ]
+}

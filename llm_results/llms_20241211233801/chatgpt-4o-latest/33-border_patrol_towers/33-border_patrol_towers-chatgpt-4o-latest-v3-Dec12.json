@@ -1,0 +1,123 @@
+{
+  "Anonymous Sources": [
+    {
+      "Sourced Statement": "Customs and Border Protection did not respond to CalMatters’ request for comment.",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "Customs and Border Protection is the federal agency responsible for border surveillance and enforcement, making its perspective relevant to the story."
+    },
+    {
+      "Sourced Statement": "Anduril did not respond to a request for comment.",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "Anduril is a key contractor providing surveillance towers and technology for border monitoring, making its input significant to the story."
+    }
+  ],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "In recent weeks, dozens of migrants at a time have waited in makeshift camps in California — enduring the barren desert with little food, water or shelter — for hours or sometimes a day or more.",
+      "Name of Source": "migrants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Migrants are directly affected by the border surveillance and processing delays, providing firsthand context to the story."
+    },
+    {
+      "Sourced Statement": "In the San Diego area, border agents have been telling migrants who are waiting to be processed in open-air detention areas that the system will detect anyone who tries to walk away, advocates say.",
+      "Name of Source": "migrants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Migrants are directly affected by the border surveillance and processing delays, providing firsthand context to the story."
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "U.S. Customs and Border Protection plans to spend about $67.8 million acquiring 277 new surveillance towers and upgrading 191 existing towers along the entire 2,000-mile-long border over the next 14 years, the most recent federal contracts show.",
+      "Name of Source": "federal contracts",
+      "Type of Source": "Document",
+      "Source Justification": "The federal contracts provide official data on the planned spending and scope of the surveillance tower expansion."
+    },
+    {
+      "Sourced Statement": "The agency has received more than $700 million in funding for surveillance since fiscal year 2017, according to a 2021 report by the Office of Inspector General.",
+      "Name of Source": "Office of Inspector General",
+      "Type of Source": "Document",
+      "Source Justification": "The 2021 report by the Office of Inspector General provides historical context and financial details about surveillance funding."
+    },
+    {
+      "Sourced Statement": "The Department of Homeland Security “has also acknowledged the need for better coordination, communication, and oversight,” it said in its 2021 report on its border technology.",
+      "Name of Source": "Department of Homeland Security",
+      "Type of Source": "Document",
+      "Source Justification": "The 2021 report by the Department of Homeland Security provides insights into the agency's acknowledgment of challenges in border technology implementation."
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“That’s where we’ve seen a huge number of these towers go up,” said Dave Maass, the nonprofit’s director of investigations.",
+      "Name of Source": "Dave Maass",
+      "Type of Source": "Named Person",
+      "Title of Source": "director of investigations",
+      "Source Justification": "Dave Maass is the director of investigations at the Electronic Frontier Foundation, which tracks border surveillance installations, providing expertise and data for the story."
+    },
+    {
+      "Sourced Statement": "“These towers aren’t checking people’s papers,” Maass said. “People have lived on the border longer than the United States has been a country. Just being somebody who lives on the border, whose family are on both sides of the border, doesn’t make you a criminal and shouldn’t put you under suspicion.”",
+      "Name of Source": "Dave Maass",
+      "Type of Source": "Named Person",
+      "Title of Source": "director of investigations",
+      "Source Justification": "Dave Maass is the director of investigations at the Electronic Frontier Foundation, which tracks border surveillance installations, providing expertise and data for the story."
+    },
+    {
+      "Sourced Statement": "“The towers deployed in California have 360-degree, AI-fueled visual and auditory surveillance capabilities,” said Erika Pinheiro, executive director of Al Otro Lado, a nonprofit that provides legal and humanitarian support to refugees, deportees, and other migrants in the U.S. and Tijuana.",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "executive director",
+      "Source Justification": "Erika Pinheiro is the executive director of Al Otro Lado, a nonprofit supporting migrants, providing critical insights into the impact of surveillance towers on privacy and human rights."
+    },
+    {
+      "Sourced Statement": "“If they wanted to, the government could track the movements of any individual living on the California border,” Pinheiro said.",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "executive director",
+      "Source Justification": "Erika Pinheiro is the executive director of Al Otro Lado, a nonprofit supporting migrants, providing critical insights into the impact of surveillance towers on privacy and human rights."
+    },
+    {
+      "Sourced Statement": "“There’s just such a lack of accountability with those billions of dollars,” said Pinheiro.",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "executive director",
+      "Source Justification": "Erika Pinheiro is the executive director of Al Otro Lado, a nonprofit supporting migrants, providing critical insights into the impact of surveillance towers on privacy and human rights."
+    },
+    {
+      "Sourced Statement": "“We saw this too under the Trump administration,” Pinheiro said. “When additional funding was allocated for humanitarian support, diapers and formula and things to help the families crossing the border, we saw that Border Patrol spent that money on ATV’s and other surveillance toys that they deployed on the border.",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "executive director",
+      "Source Justification": "Erika Pinheiro is the executive director of Al Otro Lado, a nonprofit supporting migrants, providing critical insights into the impact of surveillance towers on privacy and human rights."
+    },
+    {
+      "Sourced Statement": "“Where is this money going, if we have babies sitting out in the desert for up to a week at a time without any food or water?” she asked.",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "executive director",
+      "Source Justification": "Erika Pinheiro is the executive director of Al Otro Lado, a nonprofit supporting migrants, providing critical insights into the impact of surveillance towers on privacy and human rights."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Department of Homeland Security, its parent organization, says the equipment is necessary to detect illegal crossings, keep up with smugglers’ movements and protect the safety of Border Patrol agents.",
+      "Name of Source": "Department of Homeland Security",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Department of Homeland Security oversees Customs and Border Protection and provides official statements on the necessity of surveillance equipment."
+    },
+    {
+      "Sourced Statement": "The Department of Homeland Security “has also acknowledged the need for better coordination, communication, and oversight,” it said in its 2021 report on its border technology.",
+      "Name of Source": "Department of Homeland Security",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Department of Homeland Security oversees Customs and Border Protection and provides official statements on the necessity of surveillance equipment."
+    },
+    {
+      "Sourced Statement": "Customs and Border Protection describes them on its website as “a partner that never sleeps, never needs to take a coffee break, never even blinks.”",
+      "Name of Source": "Customs and Border Protection",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Customs and Border Protection is the federal agency responsible for border surveillance and enforcement, making its perspective relevant to the story."
+    }
+  ]
+}

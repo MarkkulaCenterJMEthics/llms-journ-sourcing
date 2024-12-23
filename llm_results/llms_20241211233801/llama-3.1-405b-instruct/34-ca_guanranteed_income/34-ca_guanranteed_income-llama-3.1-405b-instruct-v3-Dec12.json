@@ -1,0 +1,62 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"With all the struggling I was doing, my attitude took a hit,\" \"The more you witness yourself being down and out, the more you feel down and out, and the more stuck you feel.\"",
+      "Name of Source": "Kipp Kahlia",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "Kahlia was selected as one of 1,000 participants in L.A. County’s guaranteed income program, called Breathe; For years, Kahlia felt stuck."
+    },
+    {
+      "Sourced Statement": "\"Whenever L.A. city or county or Chicago or New York do something bold like this, it’s a really important signal that this big policy idea found its footing during COVID and represents a possible way forward in terms of supporting low income people across America,\" \"One question the Breathe program raises, is what does it mean to have extra money for months versus several years?\"",
+      "Name of Source": "Sean Kline",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of the Stanford Basic Income Lab",
+      "Source Justification": "The Stanford Basic Income Lab studies guaranteed income programs across the country."
+    },
+    {
+      "Sourced Statement": "\"We don’t know how long people need to receive cash to create what level of change.\"",
+      "Name of Source": "Amy Castro",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Penn’s Center for Guaranteed Income Research",
+      "Source Justification": "Researchers at the University of Pennsylvania are surveying the 1,000 Breathe participants."
+    },
+    {
+      "Sourced Statement": "\"People need help with normal, everyday interactions that may be easy for some individuals,\" \"But for others, they don’t have any prior experience with them.\"",
+      "Name of Source": "Brian Arredondo",
+      "Type of Source": "Named Person",
+      "Title of Source": "Coach for program participants",
+      "Source Justification": "Arredondo regularly checks in with about 300 participants."
+    },
+    {
+      "Sourced Statement": "\"It can’t just be the money,\" \"It’s the opportunity and the access to experiences sometimes that really make a big difference when there is even a little bit more resources folks can have. \"",
+      "Name of Source": "Ely Fournier",
+      "Type of Source": "Named Person",
+      "Title of Source": "Oversees the program coaches at Strength Based Community Change",
+      "Source Justification": "Fournier oversees the program coaches."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Researchers at the University of Pennsylvania are surveying the 1,000 Breathe participants.",
+      "Name of Source": "University of Pennsylvania",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The University of Pennsylvania is surveying the Breathe participants."
+    },
+    {
+      "Sourced Statement": "The Stanford Basic Income Lab tracks 31 pilot programs throughout the country, including the Breathe pilot.",
+      "Name of Source": "Stanford Basic Income Lab",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Stanford Basic Income Lab studies guaranteed income programs."
+    },
+    {
+      "Sourced Statement": "Strength Based Community Change also offers workshops on financial literacy, investing and credit repair.",
+      "Name of Source": "Strength Based Community Change",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The organization provides workshops and coaches for program participants."
+    }
+  ]
+}

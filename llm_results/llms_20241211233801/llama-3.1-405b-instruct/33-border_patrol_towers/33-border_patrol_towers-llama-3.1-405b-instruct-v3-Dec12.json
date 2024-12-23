@@ -1,0 +1,121 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "In recent weeks, dozens of migrants at a time have waited in makeshift camps in California — enduring the barren desert with little food, water or shelter — for hours or sometimes a day or more.",
+      "Name of Source": "migrants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "dozens of migrants at a time have waited in makeshift camps in California"
+    },
+    {
+      "Sourced Statement": "migrants sometimes huddle under the towers for protection from the elements, while nonprofits are the only groups providing food, water and blankets amid dropping temperatures.",
+      "Name of Source": "migrants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "migrants sometimes huddle under the towers for protection from the elements"
+    },
+    {
+      "Sourced Statement": "Currently there is no governmental aid — federal, state or local — for those stuck in the open-air sites.",
+      "Name of Source": "nonprofits",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "nonprofits are the only groups providing food, water and blankets amid dropping temperatures"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "According to a 2021 report by the Office of Inspector General, the agency has received more than $700 million in funding for surveillance since fiscal year 2017.",
+      "Name of Source": "Office of Inspector General",
+      "Type of Source": "Document",
+      "Source Justification": "a 2021 report by the Office of Inspector General"
+    },
+    {
+      "Sourced Statement": "The Department of Homeland Security “has also acknowledged the need for better coordination, communication, and oversight,” it said in its 2021 report on its border technology.",
+      "Name of Source": "Department of Homeland Security",
+      "Type of Source": "Document",
+      "Source Justification": "its 2021 report on its border technology"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“That’s where we’ve seen a huge number of these towers go up,” said Dave Maass, the nonprofit’s director of investigations.",
+      "Name of Source": "Dave Maass",
+      "Type of Source": "Named Person",
+      "Title of Source": "director of investigations",
+      "Source Justification": "the nonprofit’s director of investigations"
+    },
+    {
+      "Sourced Statement": "“These towers aren’t checking people’s papers,” Maass said.",
+      "Name of Source": "Dave Maass",
+      "Type of Source": "Named Person",
+      "Title of Source": "director of investigations",
+      "Source Justification": ""
+    },
+    {
+      "Sourced Statement": "“The towers deployed in California have 360-degree, AI-fueled visual and auditory surveillance capabilities,” said Erika Pinheiro, executive director of Al Otro Lado, a nonprofit that provides legal and humanitarian support to refugees, deportees, and other migrants in the U.S. and Tijuana.",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "executive director",
+      "Source Justification": "executive director of Al Otro Lado"
+    },
+    {
+      "Sourced Statement": "“If they wanted to, the government could track the movements of any individual living on the California border,” Pinheiro said.",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "executive director",
+      "Source Justification": ""
+    },
+    {
+      "Sourced Statement": "“There’s just such a lack of accountability with those billions of dollars,” said Pinheiro.",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "executive director",
+      "Source Justification": ""
+    },
+    {
+      "Sourced Statement": "“We saw this too under the Trump administration,” Pinheiro said.",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "executive director",
+      "Source Justification": ""
+    },
+    {
+      "Sourced Statement": "“Where is this money going, if we have babies sitting out in the desert for up to a week at a time without any food or water?” she asked.",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "executive director",
+      "Source Justification": ""
+    },
+    {
+      "Sourced Statement": "Gov. Gavin Newsom has said California cannot continue providing the same level of humanitarian services for the coming fiscal year that it has in the past along the border, not while it is facing a $38 billion budget shortfall.",
+      "Name of Source": "Gavin Newsom",
+      "Type of Source": "Named Person",
+      "Title of Source": "Gov.",
+      "Source Justification": ""
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "U.S. Customs and Border Protection plans to spend about $67.8 million acquiring 277 new surveillance towers and upgrading 191 existing towers along the entire 2,000-mile-long border over the next 14 years, the most recent federal contracts show.",
+      "Name of Source": "U.S. Customs and Border Protection",
+      "Type of Source": "Named Organization",
+      "Source Justification": ""
+    },
+    {
+      "Sourced Statement": "Customs and Border Protection says the surveillance equipment is necessary to monitor remote, rugged areas like Jacumba Hot Springs and the Otay Mountain Wilderness in San Diego County, which are increasingly becoming destinations for migrants from around the world to cross into the United States.",
+      "Name of Source": "Customs and Border Protection",
+      "Type of Source": "Named Organization",
+      "Source Justification": ""
+    },
+    {
+      "Sourced Statement": "The Department of Homeland Security “has also acknowledged the need for better coordination, communication, and oversight,” it said in its 2021 report on its border technology.",
+      "Name of Source": "Department of Homeland Security",
+      "Type of Source": "Named Organization",
+      "Source Justification": ""
+    },
+    {
+      "Sourced Statement": "The Department of Homeland Security has a budget of $103.2 billion, with an extra $4.7 billion in a Southwest border contingency fund, for fiscal 2024.",
+      "Name of Source": "Department of Homeland Security",
+      "Type of Source": "Named Organization",
+      "Source Justification": ""
+    }
+  ]
+}

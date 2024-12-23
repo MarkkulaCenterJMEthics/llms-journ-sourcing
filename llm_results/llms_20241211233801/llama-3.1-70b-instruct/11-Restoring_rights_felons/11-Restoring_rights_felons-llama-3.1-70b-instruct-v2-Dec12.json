@@ -1,0 +1,125 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "“You’re civically dead and you can’t vote for the people who are levying those taxes,”",
+      "Name of Source": "taxpayers",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "part of a large coalition of groups supporting the measure; referring to the impact of the two-year wait requirement"
+    },
+    {
+      "Sourced Statement": "For the people she works with, being able to register to vote provides a sense of acceptance, especially when there are so many barriers on where they can live, jobs they can work and who they can associate with, she said.",
+      "Name of Source": "people she works with (women trying to reenter society)",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "clients of Q.U.E.E.N.S Butterfly House, a safe house for women trying to reenter society"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "More than 4.6 million people are disenfranchised in the United States because of felony convictions, according to the Sentencing Project, which studies the issue and advocates for restoration of voting rights for former felons.",
+      "Name of Source": "The Sentencing Project",
+      "Type of Source": "Document",
+      "Source Justification": "studies the issue and advocates for restoration of voting rights for former felons"
+    },
+    {
+      "Sourced Statement": "In Nebraska, nearly 18,000 people are unable to vote because of felony convictions, said the Sentencing Project’s director of advocacy, Nicole Porter.",
+      "Name of Source": "The Sentencing Project",
+      "Type of Source": "Document",
+      "Source Justification": "data provided by the director of advocacy, Nicole Porter"
+    },
+    {
+      "Sourced Statement": "Now, while a few states require wait times for specific offenses or define completion of a sentence as including things such as fines and restitution, Nebraska is alone in requiring a general waiting period beyond imprisonment and release from parole or probation, said Margaret Love, co-founder and director of the Collateral Consequences Resource Center, which keeps a 50-state database on restoration of rights.",
+      "Name of Source": "Collateral Consequences Resource Center",
+      "Type of Source": "Document",
+      "Source Justification": "maintains a 50-state database on restoration of rights"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "Voting, King said in an interview, gives “a little bit of your strength back and a little bit of your voice back. Being able to vote, being able to have a say in what happens in your society, in your state, is extremely important.”",
+      "Name of Source": "TJ King",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "outreach specialist with the Nebraska AIDS Project; recently completed probation after serving time for drug and theft convictions"
+    },
+    {
+      "Sourced Statement": "“Restoring voting rights really is an issue where we’ve seen bipartisan momentum,”",
+      "Name of Source": "Patrick Berry",
+      "Type of Source": "Named Person",
+      "Title of Source": "counsel for the Democracy program at the Brennan Center",
+      "Source Justification": "expertise in democracy and voting rights"
+    },
+    {
+      "Sourced Statement": "“You’re civically dead and you can’t vote for the people who are levying those taxes,”",
+      "Name of Source": "Steve Smith",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "part of a large coalition of groups supporting the measure"
+    },
+    {
+      "Sourced Statement": "“I do think that hopefully the waiting period reinforces the fact that voting is something very special, and hopefully that will be part of the things that an individual would consider if they’re tempted to break the law again,”",
+      "Name of Source": "Kathy Wilcot",
+      "Type of Source": "Named Person",
+      "Title of Source": "member of the University of Nebraska Board of Regents",
+      "Source Justification": "speaking as an individual, not on behalf of the university"
+    },
+    {
+      "Sourced Statement": "“When people get out of our system, they’ve got to feel engaged in their community, and the number one way for a person to feel engaged in their community is to be able to vote for the leadership of that community,”",
+      "Name of Source": "Justin Wayne",
+      "Type of Source": "Named Person",
+      "Title of Source": "Democratic state Sen.",
+      "Source Justification": "author of the legislative proposal; represents parts of Omaha with strong minority populations"
+    },
+    {
+      "Sourced Statement": "“I felt so hopeless and helpless not being able to have my voice heard in this last election,”",
+      "Name of Source": "TJ King",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "recently completed probation after serving time for drug and theft convictions; works in the HIV/AIDS field and volunteers at various organizations"
+    },
+    {
+      "Sourced Statement": "“I don’t have a say in anything that goes on in my country because I’m a felon.”",
+      "Name of Source": "Demetrius Gatson",
+      "Type of Source": "Named Person",
+      "Title of Source": "executive director of Q.U.E.E.N.S Butterfly House",
+      "Source Justification": "has a felony conviction; has obtained graduate degrees and served in various volunteer roles"
+    },
+    {
+      "Sourced Statement": "“You can’t harm society by voting,”",
+      "Name of Source": "Steven Scott",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "has a felony conviction; was paroled in 2015 and has since regained voting rights"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "At least 14 states have introduced proposals this year focused on restoration of voting rights, according to the Brennan Center for Justice.",
+      "Name of Source": "Brennan Center for Justice",
+      "Type of Source": "Named Organization",
+      "Source Justification": "tracking state proposals related to restoration of voting rights"
+    },
+    {
+      "Sourced Statement": "In Minnesota, Democratic Gov. Tim Walz on Friday signed a bill restoring voting rights to convicted felons as soon as they get out of prison.",
+      "Name of Source": "Office of the Governor of Minnesota",
+      "Type of Source": "Named Organization",
+      "Source Justification": "official action by the Governor of Minnesota"
+    },
+    {
+      "Sourced Statement": "A bill moving through the New Mexico Legislature would do the same.",
+      "Name of Source": "New Mexico Legislature",
+      "Type of Source": "Named Organization",
+      "Source Justification": "legislative action in New Mexico"
+    },
+    {
+      "Sourced Statement": "Associated Press writer Margery Beck contributed to this report.",
+      "Name of Source": "Associated Press",
+      "Type of Source": "Named Organization",
+      "Source Justification": "coverage of race and voting receives support from the Jonathan Logan Family Foundation"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "The report notes that because L.A. has a 3% floor on annual increases — even in years when the consumer price index is lower — landlords have often been allowed to raise rents above inflation.",
+      "Name of Source": "Economic Roundtable",
+      "Type of Source": "Document",
+      "Source Justification": "a nonprofit research organization the city commissioned to carry out the study"
+    },
+    {
+      "Sourced Statement": "The report recommends changes that could lower the rent hikes tenants face each year, setting up what is sure to be a fierce debate at city hall.",
+      "Name of Source": "Economic Roundtable",
+      "Type of Source": "Document",
+      "Source Justification": "a nonprofit research organization the city commissioned to carry out the study"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“What [the report] is trying to do is make a PR effort to lay the groundwork to chip away at what little ability landlords have in L.A. to be able to raise rents and be able to keep up with their costs,” Yukelson said.",
+      "Name of Source": "Daniel Yukelson",
+      "Type of Source": "Named Person",
+      "Title of Source": "with the Apartment Association of Greater Los Angeles",
+      "Source Justification": "a trade group for property owners"
+    },
+    {
+      "Sourced Statement": "“Small landlords are able to maintain their profits and draw income above their expenses — they haven't been overly burdened by rent stabilization,” said Christina Boyar, a legal fellow with Public Counsel and a member of the Keep L.A. Housed coalition.",
+      "Name of Source": "Christina Boyar",
+      "Type of Source": "Named Person",
+      "Title of Source": "a legal fellow with Public Counsel and a member of the Keep L.A. Housed coalition",
+      "Source Justification": "a member of the Keep L.A. Housed coalition"
+    },
+    {
+      "Sourced Statement": "“The cost of electricity is just going to continue going up,” Yukelson with the Apartment Association said.",
+      "Name of Source": "Daniel Yukelson",
+      "Type of Source": "Named Person",
+      "Title of Source": "with the Apartment Association of Greater Los Angeles",
+      "Source Justification": "a trade group for property owners"
+    },
+    {
+      "Sourced Statement": "“As we await the finalized version of this report, it’s heartening to see so much data supporting the policy changes that renters have been demanding — especially when it comes to preventing excessive rent increases that can devastate working families.”",
+      "Name of Source": "Hugo Soto-Martinez",
+      "Type of Source": "Named Person",
+      "Title of Source": "Councilmember",
+      "Source Justification": "one of the council members who requested the report be commissioned"
+    },
+    {
+      "Sourced Statement": "“The Los Angeles ceiling and floor are atypically high for rent-controlled cities,” he said.",
+      "Name of Source": "Daniel Flaming",
+      "Type of Source": "Named Person",
+      "Title of Source": "president of the Economic Roundtable and a co-author of the report",
+      "Source Justification": "a co-author of the report"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "LAist shared the report with advocates for landlords and tenants.",
+      "Name of Source": "LAist",
+      "Type of Source": "Named Organization",
+      "Source Justification": "a news organization"
+    },
+    {
+      "Sourced Statement": "The National Apartment Association, a trade group for property owners, concluding that California landlords earn 7 cents of profit on average for every dollar of rent.",
+      "Name of Source": "National Apartment Association",
+      "Type of Source": "Named Organization",
+      "Source Justification": "a trade group for property owners"
+    },
+    {
+      "Sourced Statement": "The Apartment Association of Greater Los Angeles pointed to recent data from the National Apartment Association, a trade group for property owners, concluding that California landlords earn 7 cents of profit on average for every dollar of rent.",
+      "Name of Source": "Apartment Association of Greater Los Angeles",
+      "Type of Source": "Named Organization",
+      "Source Justification": "a trade group for property owners"
+    }
+  ]
+}

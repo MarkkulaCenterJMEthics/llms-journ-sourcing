@@ -1,0 +1,73 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "We see it in this poll that people are more motivated about the future than the past.",
+      "Name of Source": "Democratic registered voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Respondents who said they were more excited about voting in November after Harris entered the race; 73% of Democratic registered voters"
+    },
+    {
+      "Sourced Statement": "Voters are more likely to be engaged when given the option of 'more than' beating Trump.",
+      "Name of Source": "Voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Comparison to Trump's campaign approach"
+    },
+    {
+      "Sourced Statement": "Trump voters also voiced enthusiasm about their candidate, with 64% saying their choice was more motivated by backing Trump than opposing Harris.",
+      "Name of Source": "Trump voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Breakdown of motivation behind Trump voters' choice"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Across four Reuters/Ipsos polls conducted in July, Harris had a 9 point lead among women and a 6 point lead among Hispanics.",
+      "Name of Source": "Reuters/Ipsos polls",
+      "Type of Source": "Document",
+      "Source Justification": "Previous poll results for comparison"
+    },
+    {
+      "Sourced Statement": "A separate Bloomberg News/Morning Consult poll published later on Thursday showed that Harris was either leading or tied with Trump in each of those states.",
+      "Name of Source": "Bloomberg News/Morning Consult poll",
+      "Type of Source": "Document",
+      "Source Justification": "External poll results for additional context"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "It's obvious that running against Harris is more challenging for Trump given the shift in these numbers, but it's certainly not insurmountable.",
+      "Name of Source": "Matt Wolking",
+      "Type of Source": "Named Person",
+      "Title of Source": "Republican campaign strategist",
+      "Source Justification": "Expert analysis on Trump's campaign"
+    },
+    {
+      "Sourced Statement": "We see it in this poll that people are more motivated about the future than the past.",
+      "Name of Source": "Aimee Allison",
+      "Type of Source": "Named Person",
+      "Title of Source": "Founder of She the People",
+      "Source Justification": "Expert perspective on voter motivation"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "She the People, a liberal group that aims to grow the numbers of women of color in elected office.",
+      "Name of Source": "She the People",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Background information on Aimee Allison's organization"
+    },
+    {
+      "Sourced Statement": "Reuters/Ipsos poll published on Thursday",
+      "Name of Source": "Reuters/Ipsos",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Source of the poll results"
+    },
+    {
+      "Sourced Statement": "Bloomberg News/Morning Consult poll published later on Thursday",
+      "Name of Source": "Bloomberg News/Morning Consult",
+      "Type of Source": "Named Organization",
+      "Source Justification": "External source of additional poll results"
+    }
+  ]
+}

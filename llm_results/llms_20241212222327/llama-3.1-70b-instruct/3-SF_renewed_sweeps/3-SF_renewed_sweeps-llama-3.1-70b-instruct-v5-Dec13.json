@@ -1,0 +1,111 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Dozens of people lined the sidewalks that had been swept just hours prior, fussing with their belongings, setting up new tents, and discreetly selling wares to one another.",
+      "Name of Source": "people",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "witnessed by Gazetteer SF after the rally at Jessie and Sixth streets in SoMa"
+    },
+    {
+      "Sourced Statement": "Many unhoused people, including Robinson, say it can be challenging to identify and retrieve their belongings at the facility.",
+      "Name of Source": "unhoused people",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "shared experience with the challenge of retrieving belongings at the storage facility"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "Between December 2022 and June of this year, a federal injunction prevented the city from penalizing people for sleeping on public property without an alternative offer for shelter.",
+      "Name of Source": "Federal Court (injunction)",
+      "Type of Source": "Document",
+      "Source Justification": "relevant to the city's policy change on penalizing people for sleeping on public property"
+    },
+    {
+      "Sourced Statement": "A federal survey released in May counted more than 8,000 unhoused people in the city, which has fewer than 4,000 shelter beds to offer.",
+      "Name of Source": "Federal Survey (May)",
+      "Type of Source": "Document",
+      "Source Justification": "provides data on the number of unhoused people and shelter beds in the city"
+    },
+    {
+      "Sourced Statement": "According to Public Works policy, staff are supposed to provide the resident of an encampment a “reasonable amount of time (approximately 30 minutes)” to sort through and collect their belongings before the camp is torn down.",
+      "Name of Source": "Public Works Policy",
+      "Type of Source": "Document",
+      "Source Justification": "outlines the protocol for encampment sweeps"
+    },
+    {
+      "Sourced Statement": "as a recent batch of public records secured by City Hall watchdog Hazel Williams shows, Public Works has bagged medications, wheelchairs, and even a mobility walker from unhoused people, taking them to the city’s storage facility on Cesar Chavez St.",
+      "Name of Source": "Public Records (secured by Hazel Williams)",
+      "Type of Source": "Document",
+      "Source Justification": "provides evidence of breaches in protocol by Public Works"
+    },
+    {
+      "Sourced Statement": "There were 178 people on the Department of Homelessness and Supportive Housing’s online waitlist for shelter on Monday afternoon.",
+      "Name of Source": "Department of Homelessness and Supportive Housing’s online waitlist",
+      "Type of Source": "Document",
+      "Source Justification": "provides data on the demand for shelter in the city"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "All they do is tell me to go back to the Hunters Point Navigation Center. And I don’t want to do that. I had bad experiences,” he said.",
+      "Name of Source": "Antonio Robinson",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "resident of the encampment, sharing personal experience"
+    },
+    {
+      "Sourced Statement": "I don’t understand,” O’Brien kept repeating.",
+      "Sourced Statement": "he begged for officers to bring over his two neat backpacks, which had his best clothes, documents, and “bits of silver.”",
+      "Name of Source": "Joey O’Brien",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "resident of the encampment, interacting with law enforcement"
+    },
+    {
+      "Sourced Statement": "“Typically, with city sweeps, they give 72 hours of notice with location and time, and we were following that, but they didn’t follow that usual rule,” Highsmith said.",
+      "Sourced Statement": "I personally think it’s a little suspicious to do the sweep earlier. It doesn’t seem like the city wants attention on the encampment sweeps, and I don’t think they want people to see what happens during that process,” he said.",
+      "Name of Source": "Julian Highsmith",
+      "Type of Source": "Named Person",
+      "Title of Source": "Communications and Policy Director for the Coalition on Homelessness",
+      "Source Justification": "expertise on the city's sweep protocols and advocate for the unhoused"
+    },
+    {
+      "Sourced Statement": "“the policy clearly spells out how soiled items can be handled and our crews follow the policy and consistently apply its terms.”",
+      "Name of Source": "Rachel Gordon",
+      "Type of Source": "Named Person",
+      "Title of Source": "Public Works Spokesperson",
+      "Source Justification": "official response to questions about potential breaches in protocol"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "According to Mayor London Breed, the intention is to clean up sidewalks and force unhoused people into the city’s labyrinthine network of shelter and supportive housing programs.",
+      "Name of Source": "Office of the Mayor (London Breed)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "official stance on the purpose of the sweeps"
+    },
+    {
+      "Sourced Statement": "In order to bring public attention to the moral question of sweeps, the Coalition on Homelessness and other unhoused advocates planned to crash an encampment sweep in SoMa last Thursday, which had been scheduled for 12:30 p.m.",
+      "Name of Source": "Coalition on Homelessness",
+      "Type of Source": "Named Organization",
+      "Source Justification": "organizer of a protest against the sweeps"
+    },
+    {
+      "Sourced Statement": "as a recent batch of public records secured by City Hall watchdog Hazel Williams shows, Public Works has bagged medications, wheelchairs, and even a mobility walker from unhoused people, taking them to the city’s storage facility on Cesar Chavez St.",
+      "Name of Source": "City Hall (watchdog Hazel Williams)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "provider of public records highlighting breaches in protocol"
+    },
+    {
+      "Sourced Statement": "There were 178 people on the Department of Homelessness and Supportive Housing’s online waitlist for shelter on Monday afternoon.",
+      "Name of Source": "Department of Homelessness and Supportive Housing",
+      "Type of Source": "Named Organization",
+      "Source Justification": "maintainer of the online waitlist for shelter"
+    }
+  ]
+}

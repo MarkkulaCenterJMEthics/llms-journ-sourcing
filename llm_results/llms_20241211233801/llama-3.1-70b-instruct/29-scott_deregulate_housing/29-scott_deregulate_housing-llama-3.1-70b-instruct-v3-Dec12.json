@@ -1,0 +1,136 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Developers intentionally avoided MHA-zoned areas – despite their upzoning– opting instead to build on nearby blocks without affordability requirements.",
+      "Name of Source": "Developers",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "research by Jacob Krimmel and Betty X. Wang"
+    },
+    {
+      "Sourced Statement": "Many tenants continue living in units without paying rent and rack up tens of thousands of dollars in debts, a massive financial hole that is difficult to escape from.",
+      "Name of Source": "Tenants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Delinquencies risen due to D.C.'s pandemic-era policies"
+    },
+    {
+      "Sourced Statement": "Landlords are blaming the situation on a mix of higher operating costs and the housing court delays caused by D.C.'s pandemic-era eviction policies...",
+      "Name of Source": "Landlords",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "report by Department of Housing and Community Development"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "A detailed Los Angeles Times investigation published in November 2023 reported a number of issues at AHF-owned properties...",
+      "Name of Source": "Los Angeles Times",
+      "Type of Source": "Document",
+      "Source Justification": "investigation into AHF-owned properties"
+    },
+    {
+      "Sourced Statement": "More than 80% of housing properties that have received D.C. funding aren't bringing in enough rental income to pay their mortgages and maintenance costs, according to the District's Department of Housing and Community Development.",
+      "Name of Source": "Department of Housing and Community Development",
+      "Type of Source": "Document",
+      "Source Justification": "report on subsidized housing units in Washington, D.C."
+    },
+    {
+      "Sourced Statement": "Delinquencies have risen dramatically, the report [by Apartment and Office Building Association] concludes, because of D.C.'s pandemic-era policies...",
+      "Name of Source": "Apartment and Office Building Association",
+      "Type of Source": "Document",
+      "Source Justification": "report on housing court delays and eviction policies"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "Housing policy is inherently local, and federal legislators should encourage local solutions to local problems.",
+      "Name of Source": "Tim Scott",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senator (R–S.C.)",
+      "Source Justification": "leader of the group of Republican senators introducing the ROAD to Housing Act"
+    },
+    {
+      "Sourced Statement": "We find that new construction differentially declined in the upzoned, affordability-mandated areas.",
+      "Name of Source": "Jacob Krimmel",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "researcher, co-author of the study on MHA program"
+    },
+    {
+      "Sourced Statement": "We find that new construction differentially declined in the upzoned, affordability-mandated areas.",
+      "Name of Source": "Betty X. Wang",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "researcher, co-author of the study on MHA program"
+    },
+    {
+      "Sourced Statement": "Kevin Erdmann on RealPage and its incoherent critics.",
+      "Name of Source": "Kevin Erdmann",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "author of an article mentioned in Quick Links"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Christian Britschgi",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "author of the Rent Free newsletter"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "HUD told me in a statement that AHF 'is part of a team that applied for these awards. The team is not only eligible, but the best qualified applicant.'",
+      "Name of Source": "U.S. Department of Housing and Urban Development (HUD)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "provider of the 'tenant empowerment' grant"
+    },
+    {
+      "Sourced Statement": "The city is being sued by one Seattle homeowner over a $77,000 MHA fee that was charged when trying to add more units on her property to house her adult children.",
+      "Name of Source": "City of Seattle",
+      "Type of Source": "Named Organization",
+      "Source Justification": "implementer of the Mandatory Housing Affordability (MHA) Program"
+    },
+    {
+      "Sourced Statement": "Britain's new Labor government wants to build new towns to combat the country's housing cost crisis, reports The New York Times.",
+      "Name of Source": "Britain's Labor government",
+      "Type of Source": "Named Organization",
+      "Source Justification": "proposer of a solution to the housing cost crisis"
+    },
+    {
+      "Sourced Statement": "Minnesota YIMBYs regroup after a bruising legislative session where most of their bills went nowhere.",
+      "Name of Source": "Minnesota YIMBYs",
+      "Type of Source": "Named Organization",
+      "Source Justification": "advocacy group mentioned in Quick Links"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "AIDS Healthcare Foundation (AHF)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "recipient of the 'tenant empowerment' grant and owner of residential properties"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Massachusetts Alliance of HUD Tenants",
+      "Type of Source": "Named Organization",
+      "Source Justification": "co-recipient of the 'tenant empowerment' grant with AHF"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Apartment and Office Building Association",
+      "Type of Source": "Named Organization",
+      "Source Justification": "author of a report on housing court delays and eviction policies"
+    },
+    {
+      "Sourced Statement": "San Francisco politicians are already drafting an ordinance to expand rent control to units built after 1979.",
+      "Name of Source": "San Francisco",
+      "Type of Source": "Named Organization",
+      "Source Justification": "potential implementer of expanded rent control"
+    },
+    {
+      "Sourced Statement": "Atlanta is threatening landlords of allegedly blighted properties with eminent domain if they don't repair their buildings to the city's satisfaction.",
+      "Name of Source": "Atlanta",
+      "Type of Source": "Named Organization",
+      "Source Justification": "threatener of landlords with eminent domain"
+    }
+  ]
+}

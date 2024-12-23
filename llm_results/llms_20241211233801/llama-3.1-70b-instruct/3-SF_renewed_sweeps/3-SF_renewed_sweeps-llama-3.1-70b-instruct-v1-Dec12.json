@@ -1,0 +1,91 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Dozens of people lined the sidewalks that had been swept just hours prior, fussing with their belongings, setting up new tents, and discreetly selling wares to one another.",
+      "Name of Source": "people",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "residing in the area after a sweep; setting up new tents"
+    },
+    {
+      "Sourced Statement": "Many unhoused people, including Robinson, say it can be challenging to identify and retrieve their belongings at the facility.",
+      "Name of Source": "unhoused people",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "experiencing challenges with the city's storage facility"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "Between December 2022 and June of this year, a federal injunction prevented the city from penalizing people for sleeping on public property without an alternative offer for shelter.",
+      "Name of Source": "Federal Court (Injunction)",
+      "Type of Source": "Document",
+      "Source Justification": "federal court ruling guiding city policy"
+    },
+    {
+      "Sourced Statement": "According to a federal survey released in May, more than 8,000 unhoused people in the city, which has fewer than 4,000 shelter beds to offer.",
+      "Name of Source": "Federal Survey (May)",
+      "Type of Source": "Document",
+      "Source Justification": "official statistics on homelessness and shelter capacity"
+    },
+    {
+      "Sourced Statement": "Public Works policy... clearly spells out how soiled items can be handled and our crews follow the policy and consistently apply its terms.",
+      "Name of Source": "Public Works Policy",
+      "Type of Source": "Document",
+      "Source Justification": "guiding policy for city's handling of encampment belongings"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "All they do is tell me to go back to the Hunters Point Navigation Center. And I don’t want to do that. I had bad experiences,”",
+      "Name of Source": "Antonio Robinson",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "experiencing homelessness; prior negative experiences with navigation center"
+    },
+    {
+      "Sourced Statement": "I don’t understand,”; “bits of silver.”; “You’re going to have to pick it up later.”",
+      "Name of Source": "Joey O’Brien",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "experiencing homelessness; interacting with law enforcement during sweep"
+    },
+    {
+      "Sourced Statement": "Typically, with city sweeps, they give 72 hours of notice with location and time, and we were following that, but they didn’t follow that usual rule,”",
+      "Name of Source": "Julian Highsmith",
+      "Type of Source": "Named Person",
+      "Title of Source": "Communications and Policy Director for the Coalition on Homelessness",
+      "Source Justification": "representing the Coalition on Homelessness; critiquing city's sweep practices"
+    },
+    {
+      "Sourced Statement": "the policy clearly spells out how soiled items can be handled and our crews follow the policy and consistently apply its terms.”",
+      "Name of Source": "Rachel Gordon",
+      "Type of Source": "Named Person",
+      "Title of Source": "Public Works Spokesperson",
+      "Source Justification": "responding to questions about Public Works' protocol adherence"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "According to Mayor London Breed, the intention is to clean up sidewalks and force unhoused people into the city’s labyrinthine network of shelter and supportive housing programs.",
+      "Name of Source": "Mayor London Breed's Office",
+      "Type of Source": "Named Organization",
+      "Source Justification": "stating the city's policy intention regarding homelessness"
+    },
+    {
+      "Sourced Statement": "In order to bring public attention to the moral question of sweeps, the Coalition on Homelessness and other unhoused advocates planned to crash an encampment sweep in SoMa last Thursday,",
+      "Name of Source": "The Coalition on Homelessness",
+      "Type of Source": "Named Organization",
+      "Source Justification": "organizing advocacy efforts around homelessness and sweeps"
+    },
+    {
+      "Sourced Statement": "Public Works employees began examining and collecting O’Brien’s possessions as soon as he was detained, without giving him the sorting time required by policy.",
+      "Name of Source": "San Francisco Department of Public Works",
+      "Type of Source": "Named Organization",
+      "Source Justification": "enforcing city policy on encampments; handling possessions"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“We’re all about quality jobs, and that’s a quality organization,”",
+      "Name of Source": "Bob Durkin",
+      "Type of Source": "Named Person",
+      "Title of Source": "President and Chief Executive Officer of the Scranton Chamber of Commerce",
+      "Source Justification": "the president and chief executive officer of the Scranton Chamber of Commerce"
+    },
+    {
+      "Sourced Statement": "“It’s not $277 million that stays here. But, you know, it’s a good chunk of it,”",
+      "Name of Source": "Matt Cartwright",
+      "Type of Source": "Named Person",
+      "Title of Source": "Congressman",
+      "Source Justification": "who sits on the House Appropriations Committee and represents Scranton and other parts of Northeastern Pennsylvania"
+    },
+    {
+      "Sourced Statement": "“I don’t really think that people dwell or concentrate on anything that’s going on outside of their sphere of influence,”",
+      "Name of Source": "Rich Hansen",
+      "Type of Source": "Named Person",
+      "Title of Source": "Commander’s Representative at the Scranton Army Ammunition Plant",
+      "Source Justification": "the Commander’s Representative at the Scranton Army Ammunition Plant"
+    },
+    {
+      "Sourced Statement": "“We had a job fair in the middle of a heat wave and there was still a line going out of the door,”",
+      "Name of Source": "Danielle Weinschenk",
+      "Type of Source": "Named Person",
+      "Title of Source": "Lead Public Affairs Specialist at the Tobyhanna Army Depot",
+      "Source Justification": "the lead Public Affairs Specialist at the Tobyhanna Army Depot"
+    },
+    {
+      "Sourced Statement": "“With the Ukraine support, you know, one day I was sitting there thinking about what needs to be done, and it kind of hit me that what we were doing directly affects whether people live or die,”",
+      "Name of Source": "Jim Jarick",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senior Technology Center Engineer at the Tobyhanna Army Depot",
+      "Source Justification": "a senior technology center engineer at the Tobyhanna Army Depot"
+    },
+    {
+      "Sourced Statement": "“At the height of last year’s counteroffensive, the Ukrainians were firing about 6,000 a day, ”",
+      "Name of Source": "Mark Cancian",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senior Advisor at the Center for Strategic and International Studies",
+      "Source Justification": "a senior advisor at the Center for Strategic and International Studies"
+    },
+    {
+      "Sourced Statement": "“Our first task is to save our people,”",
+      "Name of Source": "Col. Olksandr Popov",
+      "Type of Source": "Named Person",
+      "Title of Source": "Commander of a Ukrainian artillery unit",
+      "Source Justification": "the commander of a Ukrainian artillery unit"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Tobyhanna Army Depot, which specializes in logistics support and radar equipment for foreign allies such as Ukraine, estimates that the company has a $2.4 billion dollar impact on the area and that it is the largest industrial employer in the region.",
+      "Name of Source": "Tobyhanna Army Depot",
+      "Type of Source": "Named Organization",
+      "Source Justification": "which specializes in logistics support and radar equipment for foreign allies such as Ukraine"
+    }
+  ]
+}

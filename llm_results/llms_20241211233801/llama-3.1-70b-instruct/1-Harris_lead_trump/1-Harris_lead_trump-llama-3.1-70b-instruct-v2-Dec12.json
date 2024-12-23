@@ -1,0 +1,79 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Some 73% of Democratic registered voters in the Reuters/Ipsos poll said they were more excited about voting in November after Harris entered the race.",
+      "Name of Source": "Democratic registered voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Participants in the Reuters/Ipsos poll; relevant to measuring enthusiasm for the election"
+    },
+    {
+      "Sourced Statement": "And while a March Reuters/Ipsos poll found that 61% respondents who intended to vote for Biden were doing so mainly to stop Trump, 52% of Harris voters in the August poll were voting to support her as a candidate rather than primarily to oppose Trump.",
+      "Name of Source": "Respondents who intended to vote for Biden/Harris voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Participants in the Reuters/Ipsos polls; relevant to understanding voter motivations"
+    },
+    {
+      "Sourced Statement": "Voters picked Trump as having a better approach to managing the U.S. economy, 45% to 36%, a wider margin than Trump had in another Reuters/Ipsos poll this week.",
+      "Name of Source": "Voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Participants in the Reuters/Ipsos poll; relevant to evaluating economic policy preferences"
+    },
+    {
+      "Sourced Statement": "Some 41% of voters in the poll - and 70% of Democrats - said they were worried the next president might sign a national ban on abortions.",
+      "Name of Source": "Voters/Democrats",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Participants in the Reuters/Ipsos poll; relevant to understanding concerns about abortion policy"
+    },
+    {
+      "Sourced Statement": "64% (of Trump voters) saying their choice was more motivated by backing Trump than opposing Harris.",
+      "Name of Source": "Trump voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Participants in the Reuters/Ipsos poll; relevant to understanding voter motivations"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Across four Reuters/Ipsos polls conducted in July, Harris had a 9 point lead among women and a 6 point lead among Hispanics.",
+      "Name of Source": "Reuters/Ipsos polls (July)",
+      "Type of Source": "Document",
+      "Source Justification": "Previous polls conducted by Reuters/Ipsos; relevant to tracking changes in voter preferences"
+    },
+    {
+      "Sourced Statement": "A separate Bloomberg News/Morning Consult poll published later on Thursday showed that Harris was either leading or tied with Trump in each of those states.",
+      "Name of Source": "Bloomberg News/Morning Consult poll",
+      "Type of Source": "Document",
+      "Source Justification": "External poll published by Bloomberg News/Morning Consult; relevant to comparing electoral prospects"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "'It's obvious that running against Harris is more challenging for Trump given the shift in these numbers, but it's certainly not insurmountable,'",
+      "Name of Source": "Matt Wolking",
+      "Type of Source": "Named Person",
+      "Title of Source": "Republican campaign strategist",
+      "Source Justification": "Worked on Trump's 2020 campaign; provides expert analysis on campaign dynamics"
+    },
+    {
+      "Sourced Statement": "'We see it in this poll that people are more motivated about the future than the past,'",
+      "Name of Source": "Aimee Allison",
+      "Type of Source": "Named Person",
+      "Title of Source": "Founder of She the People",
+      "Source Justification": "Leader of a liberal group focused on women of color in elected office; provides contextual insight"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The new poll, which was conducted in the eight days ended Wednesday and had a 2 percentage point margin of error, showed Harris picking up support among women and Hispanics.",
+      "Name of Source": "Reuters/Ipsos",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Conducted the poll; provides data for the article's analysis"
+    },
+    {
+      "Sourced Statement": "The conservative U.S. Supreme Court in 2022 struck down women's national right to abortion.",
+      "Name of Source": "U.S. Supreme Court",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Relevant to the article's discussion of abortion policy"
+    }
+  ]
+}

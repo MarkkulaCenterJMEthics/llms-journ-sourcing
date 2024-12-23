@@ -1,0 +1,6 @@
+fuzzywuzzy==0.18.0
+matplotlib==3.9.2
+nltk==3.9.1
+pandas==2.2.3
+regex==2024.9.11
+seaborn==0.13.2

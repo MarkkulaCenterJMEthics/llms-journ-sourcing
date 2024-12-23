@@ -1,0 +1,64 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "The message was cheered on by several community members and organizations such as the East Oakland Collective nonprofit.",
+      "Name of Source": "community members",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "The message was cheered on"
+    }
+  ],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "While we are disappointed by the court’s decision not to place us on the ballot in November, I remain undeterred in my commitment to serving Oakland and our communities,”",
+      "Name of Source": "Tonya Love",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "in an Instagram post"
+    },
+    {
+      "Sourced Statement": "In an interview with The Oaklandside last week, Newton was resigned to his failure to gather enough signatures–he picked up 37–but said he would work with whoever came out ahead in the race to help improve the community.",
+      "Name of Source": "David Newton",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "in an interview with The Oaklandside last week"
+    },
+    {
+      "Sourced Statement": "“These technical errors should not prevent the intent of the voters from being realized and the signatures counted towards verification,”",
+      "Name of Source": null,
+      "Type of Source": "Named Person",
+      "Title of Source": "Love's lawyers",
+      "Source Justification": "in their brief"
+    },
+    {
+      "Sourced Statement": "“The Elections Code and Oakland Ordinances only require that registered voters residing within the District sign the petition.",
+      "Name of Source": null,
+      "Type of Source": "Named Person",
+      "Title of Source": "Love's lawyers",
+      "Source Justification": "in their brief"
+    },
+    {
+      "Sourced Statement": "“My understanding is that there are other candidates for this particular district city council who would’ve liked the opportunity to have more time to gather and submit signatures, and the process needs to be uniform,”",
+      "Name of Source": "Michael Markman",
+      "Type of Source": "Named Person",
+      "Title of Source": "Alameda County Superior Court Judge",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "“There are only three in this one,” he said, “but I can imagine scenarios where it could be 23 in future cases.”",
+      "Name of Source": "Michael Markman",
+      "Type of Source": "Named Person",
+      "Title of Source": "Alameda County Superior Court Judge",
+      "Source Justification": null
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The county attorneys countered in a brief that the state election code deems signatures on a nomination form invalid if they don’t include a signature and a printed name and if the address of the candidate’s supporter is not consistent with their voter registration form.",
+      "Name of Source": "county attorneys",
+      "Type of Source": "Named Organization",
+      "Source Justification": "in a brief"
+    }
+  ]
+}

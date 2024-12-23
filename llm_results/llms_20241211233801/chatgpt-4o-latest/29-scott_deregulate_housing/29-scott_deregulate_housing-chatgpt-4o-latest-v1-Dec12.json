@@ -1,0 +1,33 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "More than 80% of housing properties that have received D.C. funding aren't bringing in enough rental income to pay their mortgages and maintenance costs, according to the District's Department of Housing and Community Development.",
+      "Name of Source": "District's Department of Housing and Community Development",
+      "Type of Source": "Document",
+      "Source Justification": "The statement is based on data or findings reported by the District's Department of Housing and Community Development, which is an authoritative source on housing issues in D.C."
+    },
+    {
+      "Sourced Statement": "The scale of the crisis is viewed as existential: 22,000 units that house 48,000 vulnerable residents are at risk of foreclosure today, according to DHCD.",
+      "Name of Source": "District's Department of Housing and Community Development",
+      "Type of Source": "Document",
+      "Source Justification": "The statement is based on data or findings reported by the District's Department of Housing and Community Development, which is an authoritative source on housing issues in D.C."
+    }
+  ],
+  "Named Person Sources": [],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Earlier this month, researchers Jacob Krimmel and Betty X. Wang published a new study confirming the complaints of MHA's critics.",
+      "Name of Source": "Jacob Krimmel and Betty X. Wang",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The researchers are cited for their study, which provides evidence supporting the claims about the impact of Seattle's MHA program."
+    },
+    {
+      "Sourced Statement": "Delinquencies have risen dramatically, the report [ by Apartment and Office Building Association] concludes, because of D.C.'s pandemic-era policies that have tripled the length of the legal process required to evict nonpaying tenants.",
+      "Name of Source": "Apartment and Office Building Association",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The report by the Apartment and Office Building Association is referenced to explain the financial challenges faced by landlords in D.C."
+    }
+  ]
+}

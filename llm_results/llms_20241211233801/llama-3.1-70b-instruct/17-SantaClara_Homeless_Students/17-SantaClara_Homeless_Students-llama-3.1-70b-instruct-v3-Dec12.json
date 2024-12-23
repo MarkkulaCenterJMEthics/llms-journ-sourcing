@@ -1,0 +1,88 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "There are a number of kids that we knew who were homeless who would show up late. Before we brought them to the classroom, we bring them to the cafeteria and grab them something to eat and grab them some milk so that they can have something in their stomach before they went into the classroom.",
+      "Name of Source": "homeless children",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": " justification for inclusion: experiencing homelessness, struggling to find timely transportation to school; justification from context: illustrating the impact of homelessness on students' ability to engage in school"
+    },
+    {
+      "Sourced Statement": "Many homeless children struggle to find timely transportation to school, and once they arrive at school, the only meal they may eat is their school lunch.",
+      "Name of Source": "homeless children",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "justification for inclusion: experiencing homelessness, illustrating the impact of homelessness on students' daily lives; justification from context: supporting the statement on the effects of homelessness"
+    },
+    {
+      "Sourced Statement": "Some homeless students may also miss class or arrive late because they live in temporary shelters outside of the district. In order to get to school, they use public transportation to travel across town.",
+      "Name of Source": "homeless students",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "justification for inclusion: experiencing homelessness, illustrating the impact of homelessness on students' ability to attend school regularly; justification from context: highlighting the challenges faced by homeless students"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Since 2020, the number of homeless students in Santa Clara County has almost doubled, according to the California Department of Education.",
+      "Name of Source": "California Department of Education",
+      "Type of Source": "Document",
+      "Source Justification": "justification for inclusion: providing official data on the increase in homeless students; justification from context: supporting the article's main claim"
+    },
+    {
+      "Sourced Statement": "Out of the 1,974 homeless students enrolled at East Side in 2022-2023, 488 were living in temporary shelters, according to the state education department, while 75 students were living in hotels and motels, and 33 students were temporarily unsheltered or living in abandoned buildings, campgrounds, vehicles, trailer parks or train and bus stations.",
+      "Name of Source": "California Department of Education (state education department)",
+      "Type of Source": "Document",
+      "Source Justification": "justification for inclusion: providing detailed official data on homeless students' living situations; justification from context: illustrating the diversity of homeless students' experiences"
+    },
+    {
+      "Sourced Statement": "That same year, a majority of homeless students in the district were unable to pass the Smarter Balanced Summative Assessments, standardized tests for mathematics and language arts.",
+      "Name of Source": "California Department of Education (implied, as the administrator of the Smarter Balanced Summative Assessments)",
+      "Type of Source": "Document",
+      "Source Justification": "justification for inclusion: providing official data on homeless students' academic performance; justification from context: highlighting the challenges faced by homeless students in academics"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“He’s a very smart kid,” Campa said. “He listens.”",
+      "Name of Source": "Juanita Campa",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "justification for inclusion: personal experience as a homeless parent, illustrating the impact of homelessness on families; justification from context: introducing the human aspect of the issue"
+    },
+    {
+      "Sourced Statement": "“It goes back to economic hardships, loss of jobs, displacement. There’s just a number of reasons why our families are growing in our (homeless youth) population,” Almazan said.",
+      "Name of Source": "Imee Almazan",
+      "Type of Source": "Named Person",
+      "Title of Source": "Superintendent, Alum Rock Union School District",
+      "Source Justification": "justification for inclusion: expertise as a superintendent, providing insight into the causes of the increase in homeless students; justification from context: supporting the article's analysis of the issue"
+    },
+    {
+      "Sourced Statement": "Many families have lost stable housing, their jobs or loved ones who were the family’s main provider since the COVID-19 pandemic.",
+      "Name of Source": "Maryam Adalat",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Student Services, East Side Union High School District",
+      "Source Justification": "justification for inclusion: expertise in student services, providing insight into the impact of the pandemic on families; justification from context: highlighting the challenges faced by families"
+    },
+    {
+      "Sourced Statement": "“Whenever a child presents inside a classroom, all of those things come with that child. And all of those things are impacting their ability to engage, their ability to receive information and process it and retain it,” Artigas said.",
+      "Name of Source": "Annya Artigas",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Social Emotional Learning, Alum Rock district",
+      "Source Justification": "justification for inclusion: expertise in social emotional learning, providing insight into the impact of homelessness on students' learning; justification from context: supporting the article's analysis of the issue"
+    },
+    {
+      "Sourced Statement": "“They leave the home really traumatized to begin with, and then they end up on the streets,” Smith said.",
+      "Name of Source": "Maureen Smith",
+      "Type of Source": "Named Person",
+      "Title of Source": "Professor, San Jose State University (teaching childhood adolescent development)",
+      "Source Justification": "justification for inclusion: expertise in childhood adolescent development, providing insight into the experiences of homeless children without guardians; justification from context: highlighting the vulnerabilities of this subgroup"
+    },
+    {
+      "Sourced Statement": "“I felt like I wasn’t doing my job as a mom because we’re homeless,” she said “We were working but it wasn’t enough. ... I don’t want to be back here.”",
+      "Name of Source": "Juanita Campa",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "justification for inclusion: personal experience as a homeless parent, illustrating the emotional impact of homelessness on families; justification from context: concluding the article with a personal perspective"
+    }
+  ],
+  "Named Organization Sources": []
+}

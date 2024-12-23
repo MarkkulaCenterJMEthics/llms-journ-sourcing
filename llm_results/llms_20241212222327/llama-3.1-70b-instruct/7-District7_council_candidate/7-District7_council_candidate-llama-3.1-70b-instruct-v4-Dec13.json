@@ -1,0 +1,84 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "The message was cheered on by several community members and organizations such as the East Oakland Collective nonprofit.",
+      "Name of Source": "community members",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "mentioned as part of the community reacting to Tonya Love's Instagram post"
+    },
+    {
+      "Sourced Statement": "A few other candidates in the last-minute scramble were able to gather enough signatures to qualify for the ballot, among them Ken Houston.",
+      "Name of Source": "candidates",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "part of the context explaining the challenges of gathering signatures in a short timeframe"
+    },
+    {
+      "Sourced Statement": "Registered voters on Election Day can cast their ballots at any vote center in Alameda County.",
+      "Name of Source": "registered voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "used to explain the Voter’s Choice Act"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "The Elections Code and Oakland Ordinances only require that registered voters residing within the District sign the petition.",
+      "Name of Source": "Elections Code and Oakland Ordinances",
+      "Type of Source": "Document",
+      "Source Justification": "cited as the governing legislation for the nomination process"
+    },
+    {
+      "Sourced Statement": "Under the Voter’s Choice Act, registered voters on Election Day can cast their ballots at any vote center in Alameda County.",
+      "Name of Source": "Voter’s Choice Act",
+      "Type of Source": "Document",
+      "Source Justification": "referenced to explain voting flexibility"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "While we are disappointed by the court’s decision not to place us on the ballot in November, I remain undeterred in my commitment to serving Oakland and our communities,” she wrote.",
+      "Name of Source": "Tonya Love",
+      "Type of Source": "Named Person",
+      "Title of Source": "District 7 council candidate, former district director for California Assemblymember Rob Bonta, and current chief of staff for Councilmember Carroll Fife",
+      "Source Justification": "primary subject of the article, reacting to the court’s decision"
+    },
+    {
+      "Sourced Statement": "My understanding is that there are other candidates for this particular district city council who would’ve liked the opportunity to have more time to gather and submit signatures, and the process needs to be uniform,” he said.",
+      "Name of Source": "Judge Michael Markman",
+      "Type of Source": "Named Person",
+      "Title of Source": "Alameda County Superior Court Judge",
+      "Source Justification": "author of the ruling on Tonya Love’s petition"
+    },
+    {
+      "Sourced Statement": "In an interview with The Oaklandside last week, Newton was resigned to his failure to gather enough signatures–he picked up 37–but said he would work with whoever came out ahead in the race to help improve the community.",
+      "Name of Source": "David Newton",
+      "Type of Source": "Named Person",
+      "Title of Source": "nephew of Black Panther Party founder Huey Newton and a would-be candidate for the district seat",
+      "Source Justification": "example of another candidate affected by the signature gathering process"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The county attorneys countered in a brief that the state election code deems signatures on a nomination form invalid if they don’t include a signature and a printed name and if the address of the candidate’s supporter is not consistent with their voter registration form.",
+      "Name of Source": "Alameda County",
+      "Type of Source": "Named Organization",
+      "Source Justification": "party in the court case, presenting a counterargument to Tonya Love’s petition"
+    },
+    {
+      "Sourced Statement": "The Alameda County Registrar is scheduled to send the final ballot for printing on Friday.",
+      "Name of Source": "Alameda County Registrar",
+      "Type of Source": "Named Organization",
+      "Source Justification": "responsible for the administrative process of ballot creation and distribution"
+    },
+    {
+      "Sourced Statement": "The message was cheered on by several community members and organizations such as the East Oakland Collective nonprofit.",
+      "Name of Source": "East Oakland Collective nonprofit",
+      "Type of Source": "Named Organization",
+      "Source Justification": "example of a community organization supporting Tonya Love’s campaign"
+    }
+  ]
+}

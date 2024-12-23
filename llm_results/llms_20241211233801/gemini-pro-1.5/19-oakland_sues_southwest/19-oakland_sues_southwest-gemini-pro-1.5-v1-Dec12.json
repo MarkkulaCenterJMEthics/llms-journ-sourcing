@@ -1,0 +1,98 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "According to the complaint, Southwest has been denying some of its workers in Oakland the right to use earned paid sick leave.",
+      "Name of Source": null,
+      "Type of Source": "Document",
+      "Source Justification": "the complaint"
+    },
+    {
+      "Sourced Statement": "The city claims that Southwest has also retaliated against workers who tried to use their leave and discouraged them from filing complaints with the city.",
+      "Name of Source": null,
+      "Type of Source": "Document",
+      "Source Justification": "the complaint"
+    },
+    {
+      "Sourced Statement": "In 2017, the city received complaints that Southwest had a policy whereby it zeroed out unused accumulated sick leave pay on January 1 of every year, rather than carry it forward.",
+      "Name of Source": null,
+      "Type of Source": "Document",
+      "Source Justification": "complaints"
+    },
+    {
+      "Sourced Statement": "In December 2020, the city and Southwest signed a settlement in which, among other things, the airline agreed to fully restore the sick leave hours it had canceled for certain workers between 2017 and 2020.",
+      "Name of Source": null,
+      "Type of Source": "Document",
+      "Source Justification": "a settlement"
+    },
+    {
+      "Sourced Statement": "According to the city attorney, Southwest didn’t restore those hours for all workers.",
+      "Name of Source": null,
+      "Type of Source": "Document",
+      "Source Justification": "the 2020 settlement agreement"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "On Wednesday, City Attorney Barbara Parker filed a lawsuit in Alameda County Superior Court that accuses the airline of violating Oakland and California sick leave laws.",
+      "Name of Source": "Barbara Parker",
+      "Type of Source": "Named Person",
+      "Title of Source": "City Attorney",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "“The City of Oakland is committed to protecting workers by ensuring that all employers in Oakland are complying with laws that protect their rights,” Parker said in a statement.",
+      "Name of Source": "Barbara Parker",
+      "Type of Source": "Named Person",
+      "Title of Source": "City Attorney",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "In a press release, the city attorney said Southwest’s practices were especially detrimental during the COVID-19 pandemic, when workers were forced to report to work even when they were sick.",
+      "Name of Source": "Barbara Parker",
+      "Type of Source": "Named Person",
+      "Title of Source": "city attorney",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "“We are grateful that the City of Oakland is holding Southwest accountable. We hope that Southwest policies and practices will finally change for good,” Eric Swygert, a Southwest employee and an elected ramp representative with the Transport Workers Union of America Local 555, said in a statement.",
+      "Name of Source": "Eric Swygert",
+      "Type of Source": "Named Person",
+      "Title of Source": "elected ramp representative with the Transport Workers Union of America Local 555",
+      "Source Justification": "a Southwest employee"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "A Southwest spokesperson told The Oaklandside that the assertion that any Oakland employee was forced to work while sick or take unpaid absences is unfounded.",
+      "Name of Source": "Southwest Airlines",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "“Southwest Airlines fully complies with applicable sick leave laws in Oakland and California, as well as with the terms of a December 2020 settlement agreement with the city,” the spokesperson said in a statement.",
+      "Name of Source": "Southwest Airlines",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "“Although Southwest remains willing to address the city’s concerns about sick leave policies, the airline is prepared to vigorously defend itself against these frivolous claims in court, including by asking the court to address the city’s own breach of the settlement agreement.”",
+      "Name of Source": "Southwest Airlines",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "Last year, this relatively new department ordered a Radisson Hotel in East Oakland to pay $404,491 to workers who were allegedly underpaid for nearly a year.",
+      "Name of Source": "Oakland’s Department of Workforce Employment Standards",
+      "Type of Source": "Named Organization",
+      "Source Justification": "which enforces wage and hour laws in the city"
+    },
+    {
+      "Sourced Statement": "The order amounted to the largest wage theft claim ever filed by the city of Oakland.",
+      "Name of Source": "Oakland’s Department of Workforce Employment Standards",
+      "Type of Source": "Named Organization",
+      "Source Justification": "this relatively new department"
+    }
+  ]
+}

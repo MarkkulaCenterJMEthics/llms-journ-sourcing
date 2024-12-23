@@ -1,0 +1,113 @@
+{
+  "Anonymous Sources": [
+    {
+      "Sourced Statement": "A former AHF employee described the living conditions at foundation properties as \"inhumane.\"",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "former AHF employee"
+    }
+  ],
+  "Unnamed Group of People": [],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "On Thursday, a group of Republican senators led by Sen. Tim Scott (R–S.C.) introduced the Renewing Opportunity in the American Dream (ROAD) to Housing Act, which proposes a grab bag of reforms to federal housing programs.",
+      "Name of Source": "Tim Scott",
+      "Type of Source": "Named Person",
+      "Title of Source": "Sen.; R–S.C.",
+      "Source Justification": "a group of Republican senators led by"
+    },
+    {
+      "Sourced Statement": "\"Housing policy is inherently local, and federal legislators should encourage local solutions to local problems,\" reads the press release on the bill.",
+      "Name of Source": "Tim Scott",
+      "Type of Source": "Named Person",
+      "Title of Source": "Sen.; R–S.C.",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "Kevin Erdmann on RealPage and its incoherent critics.",
+      "Name of Source": "Kevin Erdmann",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "Jacob Krimmel and Betty X. Wang published a new study confirming the complaints of MHA's critics.",
+      "Name of Source": "Jacob Krimmel; Betty X. Wang",
+      "Type of Source": "Named Person",
+      "Title of Source": "researchers",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "\"We find that new construction differentially declined in the upzoned, affordability-mandated areas,\" they write. \"Developers intentionally avoided MHA-zoned areas – despite their upzoning– opting instead to build on nearby blocks without affordability requirements.\"",
+      "Name of Source": "Jacob Krimmel; Betty X. Wang",
+      "Type of Source": "Named Person",
+      "Title of Source": "researchers",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "Christian Britschgi's weekly newsletter on urban issues",
+      "Name of Source": "Christian Britschgi",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": null
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "HUD's decision to give this grant to AHF is highly questionable, given the organization's track record of managing its own residential properties.",
+      "Name of Source": "U.S. Department of Housing and Urban Development",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "A detailed Los Angeles Times investigation published in November 2023 reported a number of issues at AHF-owned properties, including apartments infested with cockroaches, exploding radiators, water shut-offs so regular that tenants had to defecate in wastebaskets, violent crime and drug dealing left unaddressed, and months-long elevator shut-offs that left disabled tenants stuck on upper floors or forced to sleep in the lobby.",
+      "Name of Source": "Los Angeles Times",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "While many of these problems are common at residential hotels on Skid Row, AHF-managed properties were more frequently hit with code complaints and emergency calls than similar properties, reported the Times.",
+      "Name of Source": "Los Angeles Times",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "HUD told me in a statement that AHF \"is part of a team that applied for these awards. The team is not only eligible, but the best qualified applicant.\"",
+      "Name of Source": "U.S. Department of Housing and Urban Development",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "More than 80% of housing properties that have received D.C. funding aren't bringing in enough rental income to pay their mortgages and maintenance costs, according to the District's Department of Housing and Community Development.",
+      "Name of Source": "District's Department of Housing and Community Development",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "The scale of the crisis is viewed as existential: 22,000 units that house 48,000 vulnerable residents are at risk of foreclosure today, according to DHCD.",
+      "Name of Source": "District's Department of Housing and Community Development",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "Landlords are blaming the situation on a mix of higher operating costs and the housing court delays caused by D.C.'s pandemic-era eviction policies, which have allowed tenants to stay for years in their units without paying rent.",
+      "Name of Source": "Apartment and Office Building Association",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "Delinquencies have risen dramatically, the report [ by Apartment and Office Building Association] concludes, because of D.C.'s pandemic-era policies that have tripled the length of the legal process required to evict nonpaying tenants.",
+      "Name of Source": "Apartment and Office Building Association",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "Britain's new Labor government wants to build new towns to combat the country's housing cost crisis, reports The New York Times.",
+      "Name of Source": "The New York Times",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    }
+  ]
+}

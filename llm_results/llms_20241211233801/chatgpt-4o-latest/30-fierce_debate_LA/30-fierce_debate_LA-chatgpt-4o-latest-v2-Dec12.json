@@ -1,0 +1,76 @@
+{
+  "Anonymous Sources": [
+    {
+      "Sourced Statement": "“I think when it's a politically contentious issue, there are attempts to manage the conversation,” Flaming said.",
+      "Name of Source": "null",
+      "Type of Source": "Anonymous Source",
+      "Title of Source": "null",
+      "Source Justification": "Daniel Flaming, president of the Economic Roundtable and a co-author of the report, said he didn’t have a good answer for why the report was kept under wraps."
+    },
+    {
+      "Sourced Statement": "“There are several rounds of revisions left to go before this report is considered final,” Sandow said in an email.",
+      "Name of Source": "null",
+      "Type of Source": "Anonymous Source",
+      "Title of Source": "null",
+      "Source Justification": "Sharon Sandow, a spokesperson for the L.A. Housing Department, told LAist last week the document was still a “draft report,” and they didn't have a specific date lined up for its release."
+    }
+  ],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Tenant advocates have called for a 3% ceiling on annual rent hikes and elimination of the 2% surcharge for landlords who provide gas and electricity.",
+      "Name of Source": "Tenant advocates",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Tenant advocates took a very different view of the report. They said it correctly identifies problems with L.A. rent control and validates their demands for stronger limits."
+    },
+    {
+      "Sourced Statement": "“The report shows that rent costs exceeding what tenants can pay is a primary cause of homelessness,” Boyar said. “We are obviously in a homelessness crisis in L.A., and if this formula isn't updated soon, more folks will just fall into homelessness.”",
+      "Name of Source": "Tenant advocates",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Tenant advocates took a very different view of the report. They said it correctly identifies problems with L.A. rent control and validates their demands for stronger limits."
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "The independent analysis found some of the city’s rules governing rent increases have favored landlords over tenants.",
+      "Name of Source": "Economic Roundtable",
+      "Type of Source": "Document",
+      "Source Justification": "The Economic Roundtable, the nonprofit research organization the city commissioned to carry out the study, submitted its report to the L.A. Housing Department."
+    },
+    {
+      "Sourced Statement": "The report recommends changes that could lower the rent hikes tenants face each year, setting up what is sure to be a fierce debate at city hall.",
+      "Name of Source": "Economic Roundtable",
+      "Type of Source": "Document",
+      "Source Justification": "The Economic Roundtable, the nonprofit research organization the city commissioned to carry out the study, submitted its report to the L.A. Housing Department."
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“What [the report] is trying to do is make a PR effort to lay the groundwork to chip away at what little ability landlords have in L.A. to be able to raise rents and be able to keep up with their costs,” Yukelson said.",
+      "Name of Source": "Daniel Yukelson",
+      "Type of Source": "Named Person",
+      "Title of Source": "Executive Director",
+      "Source Justification": "Daniel Yukelson with the Apartment Association of Greater Los Angeles pointed to recent data from the National Apartment Association, a trade group for property owners, concluding that California landlords earn 7 cents of profit on average for every dollar of rent."
+    },
+    {
+      "Sourced Statement": "“Small landlords are able to maintain their profits and draw income above their expenses — they haven't been overly burdened by rent stabilization,” said Christina Boyar.",
+      "Name of Source": "Christina Boyar",
+      "Type of Source": "Named Person",
+      "Title of Source": "Legal Fellow",
+      "Source Justification": "Christina Boyar, a legal fellow with Public Counsel and a member of the Keep L.A. Housed coalition."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The L.A. City Council, which sets policy, has been at the center of that tension.",
+      "Name of Source": "L.A. City Council",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The L.A. City Council sets policy and has been at the center of the tension between tenants and landlords."
+    },
+    {
+      "Sourced Statement": "The city’s housing officials have been in possession of the Economic Roundtable report since May.",
+      "Name of Source": "L.A. Housing Department",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Economic Roundtable submitted its report to the L.A. Housing Department."
+    }
+  ]
+}

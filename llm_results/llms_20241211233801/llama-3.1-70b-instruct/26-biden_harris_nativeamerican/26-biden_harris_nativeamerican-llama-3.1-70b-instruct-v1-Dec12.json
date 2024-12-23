@@ -1,0 +1,77 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "",
+      "Name of Source": "null",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": ""
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "In 2020, the Oneida Immersion School, featured on the bus tour, received a NAL@ED award to serve 434 elementary students as part of their Language Nest Expansion Project (LNEP).",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "featured on the bus tour"
+    },
+    {
+      "Sourced Statement": "More information about the NAL@ED program is available here.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "providing additional information"
+    },
+    {
+      "Sourced Statement": "For more information on the National Professional Development Program visit here.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "providing additional information"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"Being multilingual is a superpower—a powerful asset that can connect students to their identity and culture, and gives those who speak more than one language cognitive, social, and economic benefits,\"",
+      "Name of Source": "Miguel Cardona",
+      "Type of Source": "Named Person",
+      "Title of Source": "U.S. Secretary of Education",
+      "Source Justification": "announcing the grants and providing context on the importance of multilingualism"
+    },
+    {
+      "Sourced Statement": "\"The investments we’re announcing today advance our goal of providing every student in America with a pathway to multilingualism by supporting the recruitment, preparation, and retention of amazing bilingual and multilingual educators—some of the best teachers in our nation, period. They also support the revitalization of Native American languages, a reflection of this Administration’s commitment to Tribal sovereignty and consultation in education.\"",
+      "Name of Source": "Miguel Cardona",
+      "Type of Source": "Named Person",
+      "Title of Source": "U.S. Secretary of Education",
+      "Source Justification": "announcing the grants and providing context on the administration's commitment to Tribal sovereignty"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "On Tuesday, the U.S. Department of Education (Department) announced over $11 million in grants to support the recruitment and retention of bilingual and multilingual educators and provide high quality programming to Native students in an effort to strengthen and revitalize Native American languages.",
+      "Name of Source": "U.S. Department of Education",
+      "Type of Source": "Named Organization",
+      "Source Justification": "announcing the grants and providing funding for the programs"
+    },
+    {
+      "Sourced Statement": "This year’s theme, “Fighting for Public Education,” highlights how school communities are using the Biden-Harris Administration’s historic investments in public education to implement evidence-based strategies, accelerate academic success, and support student well-being.",
+      "Name of Source": "Biden-Harris Administration",
+      "Type of Source": "Named Organization",
+      "Source Justification": "providing historic investments in public education"
+    },
+    {
+      "Sourced Statement": "The previous Trump administration’s record on Indian Country — from the reduction of sacred sites to aggressive energy development on tribal lands — demands heightened vigilance as we enter this new term.",
+      "Name of Source": "Trump administration",
+      "Type of Source": "Named Organization",
+      "Source Justification": "providing context on the previous administration's record on Indian Country"
+    },
+    {
+      "Sourced Statement": "Our Indigenous-centered newsroom will provide unflinching coverage of policies affecting tribal sovereignty, sacred site protection, MMIR issues, water rights, Indian health, and economic sovereignty.",
+      "Name of Source": "Native News Online",
+      "Type of Source": "Named Organization",
+      "Source Justification": "committing to core mission of oversight of federal Indian policy"
+    }
+  ]
+}

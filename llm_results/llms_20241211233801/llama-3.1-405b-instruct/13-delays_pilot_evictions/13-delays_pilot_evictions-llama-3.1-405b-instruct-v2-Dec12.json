@@ -1,0 +1,56 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "For years, Woods’ relationship with his longtime landlord has been deteriorating. About nine months ago, the two men agreed he could withhold rent until repairs were made, he said.",
+      "Name of Source": "Bryant Woods",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "a tenant who was recently evicted"
+    },
+    {
+      "Sourced Statement": "Recently, MALS worked with a woman who was living in a house that “should not be lived in by anyone” and was starting to fall behind on rent, Henderson said.",
+      "Name of Source": "Deborah Henderson",
+      "Type of Source": "Named Person",
+      "Title of Source": "Judge",
+      "Source Justification": "one of the court’s judges"
+    },
+    {
+      "Sourced Statement": "To drum up more business, Henderson and MALS attorney Cedric Harris, who is leading the program, have been spending a few nights and weekends this summer speaking to churches, on radio shows and at other events.",
+      "Name of Source": "Cedric Harris",
+      "Type of Source": "Named Person",
+      "Title of Source": "MALS attorney",
+      "Source Justification": "leading the program"
+    },
+    {
+      "Sourced Statement": "Nicole Grida, the new MALS CEO, said her team has started creating marketing materials for the program, building partnerships with local nonprofits and screening folks who call in for other services to see if they will fit the program’s criteria, which has resulted in many promising leads.",
+      "Name of Source": "Nicole Grida",
+      "Type of Source": "Named Person",
+      "Title of Source": "MALS CEO",
+      "Source Justification": "the new MALS CEO"
+    },
+    {
+      "Sourced Statement": "Henderson believes the program will require a much longer pilot period before it’s able to produce the proof necessary to create a housing court.",
+      "Name of Source": "Deborah Henderson",
+      "Type of Source": "Named Person",
+      "Title of Source": "Judge",
+      "Source Justification": "one of the court’s judges"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The initial goal was for MALS to use the money to hire a few employees — including a former code inspector since property conditions almost always drive the disputes.",
+      "Name of Source": "Memphis Area Legal Services (MALS)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "a nonprofit organization"
+    },
+    {
+      "Sourced Statement": "This story is brought to you by MLK50: Justice Through Journalism, a nonprofit newsroom focused on poverty, power and policy in Memphis.",
+      "Name of Source": "MLK50: Justice Through Journalism",
+      "Type of Source": "Named Organization",
+      "Source Justification": "a nonprofit newsroom"
+    }
+  ]
+}

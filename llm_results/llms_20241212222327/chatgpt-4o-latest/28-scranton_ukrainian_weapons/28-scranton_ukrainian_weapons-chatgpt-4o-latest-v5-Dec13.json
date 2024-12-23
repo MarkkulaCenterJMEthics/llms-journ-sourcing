@@ -1,0 +1,85 @@
+{
+  "Anonymous Sources": [
+    {
+      "Sourced Statement": "Now, officials at the plant told Morning Edition that the army is producing 36,000 shells a month, up from 24,000 just six months ago.",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "officials at the plant"
+    }
+  ],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "We had a job fair in the middle of a heat wave and there was still a line going out of the door.",
+      "Name of Source": "job fair attendees",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "attendees at a job fair held by Tobyhanna Army Depot"
+    },
+    {
+      "Sourced Statement": "We had another one when it was pouring rain, and the same thing happened.",
+      "Name of Source": "job fair attendees",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "attendees at a job fair held by Tobyhanna Army Depot"
+    }
+  ],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“We’re all about quality jobs, and that’s a quality organization,” Bob Durkin, the president and chief executive officer of the Scranton Chamber of Commerce said.",
+      "Name of Source": "Bob Durkin",
+      "Type of Source": "Named Person",
+      "Title of Source": "President and Chief Executive Officer of the Scranton Chamber of Commerce",
+      "Source Justification": "Bob Durkin is the president and chief executive officer of the Scranton Chamber of Commerce, which is connected to the economic impact of defense manufacturing in the region."
+    },
+    {
+      "Sourced Statement": "“It’s not $277 million that stays here. But, you know, it’s a good chunk of it,” Cartwright said. “And it’s important that we keep that work coming.”",
+      "Name of Source": "Matt Cartwright",
+      "Type of Source": "Named Person",
+      "Title of Source": "Congressman representing Scranton and other parts of Northeastern Pennsylvania; Member of the House Appropriations Committee",
+      "Source Justification": "Matt Cartwright is a Congressman representing Scranton and other parts of Northeastern Pennsylvania and sits on the House Appropriations Committee, which oversees funding relevant to the defense industry."
+    },
+    {
+      "Sourced Statement": "“I don’t really think that people dwell or concentrate on anything that’s going on outside of their sphere of influence,” Rich Hansen, the Commander’s Representative at the Scranton Army Ammunition Plant, said.",
+      "Name of Source": "Rich Hansen",
+      "Type of Source": "Named Person",
+      "Title of Source": "Commander’s Representative at the Scranton Army Ammunition Plant",
+      "Source Justification": "Rich Hansen is the Commander’s Representative at the Scranton Army Ammunition Plant, directly involved in the plant's operations."
+    },
+    {
+      "Sourced Statement": "“We had a job fair in the middle of a heat wave and there was still a line going out of the door,” Danielle Weinschenk, the lead Public Affairs Specialist at the Tobyhanna Army Depot said.",
+      "Name of Source": "Danielle Weinschenk",
+      "Type of Source": "Named Person",
+      "Title of Source": "Lead Public Affairs Specialist at the Tobyhanna Army Depot",
+      "Source Justification": "Danielle Weinschenk is the lead Public Affairs Specialist at the Tobyhanna Army Depot, which is a key employer in the region."
+    },
+    {
+      "Sourced Statement": "“With the Ukraine support, you know, one day I was sitting there thinking about what needs to be done, and it kind of hit me that what we were doing directly affects whether people live or die,” said Jim Jarick, a senior technology center engineer at the Tobyhanna Army Depot.",
+      "Name of Source": "Jim Jarick",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senior Technology Center Engineer at the Tobyhanna Army Depot",
+      "Source Justification": "Jim Jarick is a senior technology center engineer at the Tobyhanna Army Depot, directly involved in the production of equipment for Ukraine."
+    },
+    {
+      "Sourced Statement": "“At the height of last year’s counteroffensive, the Ukrainians were firing about 6,000 a day, ” Cancian said. “The Russians are [firing] probably about 10,000 a day.”",
+      "Name of Source": "Mark Cancian",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senior Advisor at the Center for Strategic and International Studies",
+      "Source Justification": "Mark Cancian is a senior advisor at the Center for Strategic and International Studies, providing expertise on military production and strategy."
+    },
+    {
+      "Sourced Statement": "“Our first task is to save our people,” Popov said. “Without artillery, we cannot do this.”",
+      "Name of Source": "Col. Olksandr Popov",
+      "Type of Source": "Named Person",
+      "Title of Source": "Commander of a Ukrainian artillery unit",
+      "Source Justification": "Col. Olksandr Popov is the commander of a Ukrainian artillery unit, directly involved in the use of artillery shells provided by allies."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Tobyhanna Army Depot, which specializes in logistics support and radar equipment for foreign allies such as Ukraine, estimates that the company has a $2.4 billion dollar impact on the area and that it is the largest industrial employer in the region.",
+      "Name of Source": "Tobyhanna Army Depot",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Tobyhanna Army Depot is a major employer in the region and specializes in logistics support and radar equipment for foreign allies such as Ukraine."
+    }
+  ]
+}

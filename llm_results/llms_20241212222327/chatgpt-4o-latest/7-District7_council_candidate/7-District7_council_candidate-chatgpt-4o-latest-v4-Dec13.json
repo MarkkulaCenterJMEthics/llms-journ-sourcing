@@ -1,0 +1,101 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Tonya Love, former district director for California Assemblymember Rob Bonta and current chief of staff for Councilmember Carroll Fife, failed to qualify for the council race earlier this month because she hadn’t gathered enough signatures.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "The reporter is referencing official records or decisions from the Alameda County Registrar of Voters regarding the qualification process for the council race."
+    },
+    {
+      "Sourced Statement": "To qualify, a candidate needs to gather and submit at least 50 valid signatures; the registrar approved only 47 for Love.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "The reporter is referencing official records or decisions from the Alameda County Registrar of Voters regarding the qualification process for the council race."
+    },
+    {
+      "Sourced Statement": "The county attorneys countered in a brief that the state election code deems signatures on a nomination form invalid if they don’t include a signature and a printed name and if the address of the candidate’s supporter is not consistent with their voter registration form.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "The reporter is referencing a legal brief submitted by county attorneys regarding the interpretation of state election code."
+    },
+    {
+      "Sourced Statement": "After hearing both sides this morning in county court, Alameda County Superior Court Judge Michael Markman said he would issue his ruling by 3 p.m. today.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "The reporter is referencing statements made during a court hearing and the judge's announcement of the timeline for his ruling."
+    },
+    {
+      "Sourced Statement": "The Alameda County Registrar is scheduled to send the final ballot for printing on Friday.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "The reporter is referencing the official schedule of the Alameda County Registrar regarding the printing of ballots."
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“While we are disappointed by the court’s decision not to place us on the ballot in November, I remain undeterred in my commitment to serving Oakland and our communities,” she wrote.",
+      "Name of Source": "Tonya Love",
+      "Type of Source": "Named Person",
+      "Title of Source": "null",
+      "Source Justification": "Tonya Love is the central figure in the story, a prospective District 7 councilmember whose candidacy is the subject of the legal dispute."
+    },
+    {
+      "Sourced Statement": "“My dedication to our city does not begin nor end with a campaign. There are many ways to effect change and ensure our voices are heard. I will continue to work alongside each of you, advocating for public health, safety, and equitable development in Oakland.”",
+      "Name of Source": "Tonya Love",
+      "Type of Source": "Named Person",
+      "Title of Source": "null",
+      "Source Justification": "Tonya Love is the central figure in the story, a prospective District 7 councilmember whose candidacy is the subject of the legal dispute."
+    },
+    {
+      "Sourced Statement": "“These technical errors should not prevent the intent of the voters from being realized and the signatures counted towards verification,” the lawyers stated in their brief.",
+      "Name of Source": "Love’s lawyers",
+      "Type of Source": "Named Person",
+      "Title of Source": "null",
+      "Source Justification": "Love’s lawyers are representing her in the legal dispute and are central to the arguments presented in the case."
+    },
+    {
+      "Sourced Statement": "Judge Markman said that it appeared that the county registrar, Tim Dupuis, didn’t do “anything wrong” in this instance.",
+      "Name of Source": "Judge Michael Markman",
+      "Type of Source": "Named Person",
+      "Title of Source": "Alameda County Superior Court Judge",
+      "Source Justification": "Judge Markman is the presiding judge in the case and is providing a legal opinion on the matter."
+    },
+    {
+      "Sourced Statement": "“My understanding is that there are other candidates for this particular district city council who would’ve liked the opportunity to have more time to gather and submit signatures, and the process needs to be uniform,” he said.",
+      "Name of Source": "Judge Michael Markman",
+      "Type of Source": "Named Person",
+      "Title of Source": "Alameda County Superior Court Judge",
+      "Source Justification": "Judge Markman is the presiding judge in the case and is providing a legal opinion on the matter."
+    },
+    {
+      "Sourced Statement": "“There are only three in this one,” he said, “but I can imagine scenarios where it could be 23 in future cases.”",
+      "Name of Source": "Judge Michael Markman",
+      "Type of Source": "Named Person",
+      "Title of Source": "Alameda County Superior Court Judge",
+      "Source Justification": "Judge Markman is the presiding judge in the case and is providing a legal opinion on the matter."
+    },
+    {
+      "Sourced Statement": "In an interview with The Oaklandside last week, Newton was resigned to his failure to gather enough signatures–he picked up 37–but said he would work with whoever came out ahead in the race to help improve the community.",
+      "Name of Source": "David Newton",
+      "Type of Source": "Named Person",
+      "Title of Source": "null",
+      "Source Justification": "David Newton is a prospective candidate for the District 7 seat and provides context about the challenges of gathering signatures."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Alameda County Registrar is scheduled to send the final ballot for printing on Friday.",
+      "Name of Source": "Alameda County Registrar of Voters",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Alameda County Registrar of Voters is responsible for managing the election process and is central to the story."
+    },
+    {
+      "Sourced Statement": "Under the Voter’s Choice Act, registered voters on Election Day can cast their ballots at any vote center in Alameda County.",
+      "Name of Source": "Alameda County Registrar of Voters",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Alameda County Registrar of Voters is responsible for managing the election process and is central to the story."
+    }
+  ]
+}

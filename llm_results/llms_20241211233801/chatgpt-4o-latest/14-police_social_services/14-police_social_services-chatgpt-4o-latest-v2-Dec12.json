@@ -1,0 +1,79 @@
+{
+  "Anonymous Sources": [
+    {
+      "Sourced Statement": "“Jaws dropped,” Jim Baker, a consultant for a state public safety enhancement initiative, recounted at a recent public meeting. “The providers recognized those folks and came to the realization that if they’re falling through the cracks in their system, who ends up dealing with them?”",
+      "Name of Source": "null",
+      "Type of Source": "Anonymous Source",
+      "Title of Source": "Consultant for a state public safety enhancement initiative",
+      "Source Justification": "Jim Baker is a consultant for a state public safety enhancement initiative and recounted this at a recent public meeting."
+    },
+    {
+      "Sourced Statement": "“Unfortunately, many of those are providers,” Evans said, “which creates a huge, huge problem.”",
+      "Name of Source": "null",
+      "Type of Source": "Anonymous Source",
+      "Title of Source": "null",
+      "Source Justification": "Evans is the Assistant Police Chief of Brattleboro and is discussing the challenges of no-trespass notices at service providers."
+    }
+  ],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "“All of us area agencies, we are doing everything humanly possible that we can do,” said Christine Allen, executive director of Turning Point of Windham County. “We are so straight out, working our tails off — and we can’t do this without the police.”",
+      "Name of Source": "area agencies",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Christine Allen, executive director of Turning Point of Windham County, is speaking on behalf of area agencies working collaboratively with police."
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "A study by the Vermont nonprofit Crime Research Group shows Brattleboro police are dispatched most to the local Quality Inn, where the state is housing people otherwise without shelter (authorities received 181 calls there in the first half of this year), as well as to such downtown locations as the Whetstone path park (112 calls so far in 2024), the Groundworks Collaborative shelter (93) and Transportation Center parking garage (57).",
+      "Name of Source": "Crime Research Group",
+      "Type of Source": "Document",
+      "Source Justification": "The study is conducted by the Vermont nonprofit Crime Research Group and provides data on police dispatch locations."
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“The 20 people that are consuming a lot of resources clearly need some, but they’re not getting the right ones,” Brattleboro Assistant Police Chief Jeremy Evans recently told the town selectboard. “We’re trying to get everything we have out to the service providers so that they can use that data to inform their decision-making.”",
+      "Name of Source": "Jeremy Evans",
+      "Type of Source": "Named Person",
+      "Title of Source": "Assistant Police Chief of Brattleboro",
+      "Source Justification": "Jeremy Evans is the Assistant Police Chief of Brattleboro and is addressing the town selectboard about resource allocation and data sharing."
+    },
+    {
+      "Sourced Statement": "“Compared to communities your size, you are consistently higher,” Baker, former commander of the Vermont State Police and one-time Rutland City police chief, recently told local leaders of their figures.",
+      "Name of Source": "Jim Baker",
+      "Type of Source": "Named Person",
+      "Title of Source": "Former commander of the Vermont State Police and one-time Rutland City police chief",
+      "Source Justification": "Jim Baker is a former commander of the Vermont State Police and one-time Rutland City police chief, providing expertise on local crime statistics."
+    },
+    {
+      "Sourced Statement": "“This is something that we see in a lot of different jurisdictions,” Robin Joy, the Crime Research Group’s statistical director, told local leaders at another meeting.",
+      "Name of Source": "Robin Joy",
+      "Type of Source": "Named Person",
+      "Title of Source": "Statistical Director of the Crime Research Group",
+      "Source Justification": "Robin Joy is the statistical director of the Crime Research Group, providing insights on jurisdictional trends."
+    },
+    {
+      "Sourced Statement": "“We need to consider our own boundaries around increasing safety and reducing risks,” Groundworks executive director Libby Bennett said upon this April’s first anniversary of the death. “We all understand we’re upholding these out of respect for each other.”",
+      "Name of Source": "Libby Bennett",
+      "Type of Source": "Named Person",
+      "Title of Source": "Executive Director of Groundworks Collaborative",
+      "Source Justification": "Libby Bennett is the executive director of Groundworks Collaborative, discussing safety measures following a tragic incident."
+    },
+    {
+      "Sourced Statement": "“We were looking at real information that made us have some quite difficult conversations,” Quipp said following the session. “Here’s the name of this person who has trespassed at this place, this place, this place, this place, this place and we know that they need these kinds of services. What can we do as a group of people who are working together to try to make a better, safer Brattleboro to actually meet that person’s needs?”",
+      "Name of Source": "Daniel Quipp",
+      "Type of Source": "Named Person",
+      "Title of Source": "Chair of the selectboard and staff member of Southeastern Vermont Community Action",
+      "Source Justification": "Daniel Quipp is the chair of the selectboard and a staff member of Southeastern Vermont Community Action, participating in discussions on community safety and service provision."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "“This is where the community service providers can really help,” she said of the latter percentage.",
+      "Name of Source": "Crime Research Group",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Crime Research Group is a Vermont nonprofit providing statistical analysis on police calls and community service needs."
+    }
+  ]
+}

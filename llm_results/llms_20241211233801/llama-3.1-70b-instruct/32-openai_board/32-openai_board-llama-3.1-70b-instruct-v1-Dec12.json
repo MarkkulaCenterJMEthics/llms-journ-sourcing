@@ -1,0 +1,104 @@
+{
+  "Anonymous Sources": [
+    {
+      "Sourced Statement": "After a series of reasonably amicable negotiations, the co-founders of Anthropic were able to negotiate their exit on mutually agreeable terms.",
+      "Name of Source": "null",
+      "Type of Source": "Anonymous Source",
+      "Title of Source": "null",
+      "Source Justification": "a person involved in the conversations; according to two people familiar with the board’s deliberations; according to three people familiar with the attempt to push Mr. Altman out"
+    },
+    {
+      "Sourced Statement": "The statement he read to Mr. Altman said that Mr. Altman was being fired because he wasn’t ‘consistently candid in his communications with the board.’",
+      "Name of Source": "null",
+      "Type of Source": "Anonymous Source",
+      "Title of Source": "null",
+      "Source Justification": "according to two people familiar with the board’s deliberations"
+    },
+    {
+      "Sourced Statement": "Senior OpenAI leaders, including Mr. Sutskever, later discussed whether Ms. Toner should be removed,",
+      "Name of Source": "null",
+      "Type of Source": "Anonymous Source",
+      "Title of Source": "null",
+      "Source Justification": "a person involved in the conversations"
+    }
+  ],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Nearly all of OpenAI’s 800 employees had threatened to follow Mr. Altman to Microsoft,",
+      "Name of Source": "OpenAI’s employees",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "as a sign of solidarity with Mr. Altman"
+    },
+    {
+      "Sourced Statement": "Hours after Mr. Altman was ousted, OpenAI executives confronted the remaining board members during a video call,",
+      "Name of Source": "OpenAI executives",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "in response to Mr. Altman’s ouster"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "the company said on its website",
+      "Name of Source": "OpenAI’s website",
+      "Type of Source": "Document",
+      "Source Justification": "as a declaration of its mission"
+    },
+    {
+      "Sourced Statement": "according to an email that Mr. Altman wrote to colleagues and that was viewed by The New York Times",
+      "Name of Source": "Email by Mr. Altman",
+      "Type of Source": "Document",
+      "Source Justification": "as evidence of Mr. Altman’s concerns"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“I did not feel we’re on the same page on the damage of all this,”",
+      "Name of Source": "Sam Altman",
+      "Type of Source": "Named Person",
+      "Title of Source": "Chief Executive of OpenAI",
+      "Source Justification": "as the subject of the controversy"
+    },
+    {
+      "Sourced Statement": "Ms. Toner defended it as an academic paper that analyzed the challenges that the public faces when trying to understand the intentions of the countries and companies developing A.I.",
+      "Name of Source": "Helen Toner",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Strategy at Georgetown University’s Center for Security and Emerging Technology",
+      "Source Justification": "as the author of the research paper"
+    },
+    {
+      "Sourced Statement": "“After a series of reasonably amicable negotiations, the co-founders of Anthropic were able to negotiate their exit on mutually agreeable terms.”",
+      "Name of Source": "Sally Aldous",
+      "Type of Source": "Named Person",
+      "Title of Source": "Anthropic Spokeswoman",
+      "Source Justification": "as a representative of Anthropic"
+    },
+    {
+      "Sourced Statement": "“I deeply regret my participation in the board’s actions.”",
+      "Name of Source": "Ilya Sutskever",
+      "Type of Source": "Named Person",
+      "Title of Source": "null",
+      "Source Justification": "as a board member involved in Mr. Altman’s ouster"
+    },
+    {
+      "Sourced Statement": "Jason Kwon, OpenAI’s chief strategy officer, said the board was endangering the future of the company by pushing out Mr. Altman.",
+      "Name of Source": "Jason Kwon",
+      "Type of Source": "Named Person",
+      "Title of Source": "Chief Strategy Officer of OpenAI",
+      "Source Justification": "as a senior executive of OpenAI"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "the Federal Trade Commission was investigating OpenAI over the data used to build its technology",
+      "Name of Source": "Federal Trade Commission",
+      "Type of Source": "Named Organization",
+      "Source Justification": "as the regulatory body investigating OpenAI"
+    },
+    {
+      "Sourced Statement": "Microsoft, which asked him to lead an A.I. lab with Greg Brockman,",
+      "Name of Source": "Microsoft",
+      "Type of Source": "Named Organization",
+      "Source Justification": "as a major investor and partner of OpenAI"
+    }
+  ]
+}

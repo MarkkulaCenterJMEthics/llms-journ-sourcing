@@ -1,0 +1,101 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Several of them said they were confused by the arrests because they had been allowed to register to vote.",
+      "Name of Source": "former felons",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "those arrested by an election police unit in Florida"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "As of October 2023, 26 states and the District of Columbia had expanded voting rights to people living with felony convictions, according to The Sentencing Project, a nonprofit sentencing advocacy group that studies criminal justice policy.",
+      "Name of Source": "The Sentencing Project",
+      "Type of Source": "Document",
+      "Source Justification": "a nonprofit sentencing advocacy group that studies criminal justice policy"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "means everything for the thousands of people who have not been full participants in society",
+      "Name of Source": "TJ King",
+      "Type of Source": "Named Person",
+      "Title of Source": "Nebraska-based outreach specialist with the advocacy group Black and Pink",
+      "Source Justification": "who was unable to vote in the 2022 general election after coming off probation for drug and theft convictions three months earlier"
+    },
+    {
+      "Sourced Statement": "Studies have shown that if you allow people to engage in their community upon being released, the recidivism rate drops... We spend on average $42,000 a year on prisoners, of which we have around a 30 percent recidivism rate. One year, I brought in a little chart that says if we just cut it by 10 percent, we’re saving around $5 million a year.",
+      "Name of Source": "Justin Wayne",
+      "Type of Source": "Named Person",
+      "Title of Source": "Omaha state Sen.",
+      "Source Justification": "introducer of the bill, who is barred by term limits from running this year for a third term"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Nicole Porter",
+      "Type of Source": "Named Person",
+      "Title of Source": "senior director of advocacy at The Sentencing Project",
+      "Source Justification": "reporting on the impact of expanded voting rights; voting rights have been restored to over 2 million people"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Gary Fields",
+      "Type of Source": "Named Person",
+      "Title of Source": "Associated Press writer",
+      "Source Justification": "contributor to the report from Washington, D.C."
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Pete Ricketts",
+      "Type of Source": "Named Person",
+      "Title of Source": "then-Republican Gov.",
+      "Source Justification": "vetoed a similar bill in 2017"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Jim Pillen",
+      "Type of Source": "Named Person",
+      "Title of Source": "Republican Gov.",
+      "Source Justification": "whose office did not immediately respond to messages asking whether he would sign the bill into law"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Ron DeSantis",
+      "Type of Source": "Named Person",
+      "Title of Source": "Republican Gov.",
+      "Source Justification": "champion of an election police unit that arrested former felons in Florida"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Donald Trump",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "mentioned in unrelated context, assembling his second administration"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Nebraska Legislature",
+      "Type of Source": "Named Organization",
+      "Source Justification": "passed the bill by a wide margin; previously had a two-year waiting period for voting rights restoration after felony convictions"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Black and Pink",
+      "Type of Source": "Named Organization",
+      "Source Justification": "advocacy group employing TJ King, an outreach specialist"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "Associated Press",
+      "Type of Source": "Named Organization",
+      "Source Justification": "publisher of the news article"
+    }
+  ]
+}

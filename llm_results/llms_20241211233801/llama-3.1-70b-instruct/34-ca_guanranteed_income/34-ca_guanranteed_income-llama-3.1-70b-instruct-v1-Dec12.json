@@ -1,0 +1,98 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Participants report feeling more free to spend money on self care, outings with family members or sharing their wealth with community members.",
+      "Name of Source": "Participants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Referring to the 1,000 Breathe program participants surveyed by researchers at the University of Pennsylvania"
+    },
+    {
+      "Sourced Statement": "Advocates point to the expansion of the federal child tax credit as proof that direct cash payments to families reduce poverty.",
+      "Name of Source": "Advocates",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Referring to supporters of guaranteed income programs"
+    },
+    {
+      "Sourced Statement": "Some opponents said these types of programs discourage participation in the labor market, are too costly and fail to sufficiently reform the welfare system to bring working people out of poverty.",
+      "Name of Source": "Opponents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Referring to critics of guaranteed income programs"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "In 2021 child poverty decreased to 9% from 17.6% in 2019.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "Citing data from the expansion of the federal child tax credit, likely from a government report or publication"
+    },
+    {
+      "Sourced Statement": "The lab found, in general, that food and groceries are the top way participants are spending money, making up 35% of the funds spent.",
+      "Name of Source": "Stanford Guaranteed Income Lab",
+      "Type of Source": "Document",
+      "Source Justification": "Citing research from the Stanford Guaranteed Income Lab tracking 31 pilot programs"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "With all the struggling I was doing, my attitude took a hit. The more you witness yourself being down and out, the more you feel down and out, and the more stuck you feel.",
+      "Name of Source": "Kipp Kahlia",
+      "Type of Source": "Named Person",
+      "Title of Source": "null",
+      "Source Justification": "Participant in L.A. County’s Breathe program, sharing personal experience"
+    },
+    {
+      "Sourced Statement": "Whenever L.A. city or county or Chicago or New York do something bold like this, it’s a really important signal that this big policy idea found its footing during COVID and represents a possible way forward in terms of supporting low income people across America.",
+      "Name of Source": "Sean Kline",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of the Stanford Basic Income Lab",
+      "Source Justification": "Expert on guaranteed income programs, providing context and analysis"
+    },
+    {
+      "Sourced Statement": "There is so much we don’t know yet. We don’t know how long people need to receive cash to create what level of change.",
+      "Name of Source": "Amy Castro",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Penn’s Center for Guaranteed Income Research",
+      "Source Justification": "Researcher studying the impact of guaranteed income programs"
+    },
+    {
+      "Sourced Statement": "People need help with normal, everyday interactions that may be easy for some individuals. But for others, they don’t have any prior experience with them.",
+      "Name of Source": "Brian Arredondo",
+      "Type of Source": "Named Person",
+      "Title of Source": "Coach for program participants",
+      "Source Justification": "Providing support to Breathe program participants, sharing insights on their needs"
+    },
+    {
+      "Sourced Statement": "It can’t just be the money. It’s the opportunity and the access to experiences sometimes that really make a big difference when there is even a little bit more resources folks can have.",
+      "Name of Source": "Ely Fournier",
+      "Type of Source": "Named Person",
+      "Title of Source": "Overseer of program coaches at Strength Based Community Change",
+      "Source Justification": "Highlighting the non-financial benefits of guaranteed income programs"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "L.A. County’s Breathe program gives participants $1,000 monthly for three years, more money over a longer period than similar programs.",
+      "Name of Source": "L.A. County",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Administering the Breathe guaranteed income program"
+    },
+    {
+      "Sourced Statement": "Researchers at the University of Pennsylvania are surveying the 1,000 Breathe participants, along with a control group of people not receiving funds.",
+      "Name of Source": "University of Pennsylvania",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Conducting research on the impact of the Breathe program"
+    },
+    {
+      "Sourced Statement": "Strength Based Community Change also offers workshops on financial literacy, investing and credit repair.",
+      "Name of Source": "Strength Based Community Change",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Providing support services to Breathe program participants"
+    }
+  ]
+}

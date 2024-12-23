@@ -1,0 +1,18 @@
+{
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "according to the U.S. Census Bureau",
+      "Name of Source": "U.S. Census Bureau",
+      "Type of Source": "Named Organization",
+      "Source Justification": "federal agency providing demographic and housing data"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "according to Census data",
+      "Name of Source": "U.S. Census Bureau",
+      "Type of Source": "Document",
+      "Source Justification": "demographic and housing data showing homes built before 1980 by ZIP code"
+    }
+  ]
+}

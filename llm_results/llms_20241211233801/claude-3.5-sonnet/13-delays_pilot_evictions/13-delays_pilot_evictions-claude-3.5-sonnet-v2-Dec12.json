@@ -1,0 +1,47 @@
+{
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "For years, Woods' relationship with his longtime landlord has been deteriorating. About nine months ago, the two men agreed he could withhold rent until repairs were made, he said. In the meantime, he started looking for a new place to live. But, his landlord's unwillingness to cooperate with rental history checks by property management firms made finding a new home for his family of five extremely difficult.",
+      "Name of Source": "Bryant Woods",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "One day last fall, Bryant Woods' rotted-out flooring opened up beneath his 11-year-old daughter. Major leaks in the rental home had allowed mold to thrive and rot to set in. In the winters, he was forced to use space heaters or his electric oven to stay warm since the heat didn't work."
+    },
+    {
+      "Sourced Statement": "But receiving the money from the county turned into an adventure. The cash didn't make it to MALS until February 2024, due to problems with how the County Commission resolution was originally drafted, Henderson said.",
+      "Name of Source": "Deborah Henderson",
+      "Type of Source": "Named Person",
+      "Title of Source": "Judge",
+      "Source Justification": "one of the court's judges"
+    },
+    {
+      "Sourced Statement": "Recently, MALS worked with a woman who was living in a house that 'should not be lived in by anyone' and was starting to fall behind on rent, Henderson said. It seemed like a case headed toward an eviction for the tenant, a code violation for the landlord or both. But with MALS' help, the landlord is making repairs, and the tenant is using some leftover rental assistance funds to catch up on rent.",
+      "Name of Source": "Deborah Henderson",
+      "Type of Source": "Named Person",
+      "Title of Source": "Judge",
+      "Source Justification": "one of the court's judges"
+    },
+    {
+      "Sourced Statement": "Nicole Grida, the new MALS CEO, said her team has started creating marketing materials for the program, building partnerships with local nonprofits and screening folks who call in for other services to see if they will fit the program's criteria, which has resulted in many promising leads.",
+      "Name of Source": "Nicole Grida",
+      "Type of Source": "Named Person",
+      "Title of Source": "CEO",
+      "Source Justification": "the new MALS CEO"
+    },
+    {
+      "Sourced Statement": "For the program to succeed, Grida said raising greater awareness will be key, as most Memphians it could help don't yet know it exists.",
+      "Name of Source": "Nicole Grida",
+      "Type of Source": "Named Person",
+      "Title of Source": "CEO",
+      "Source Justification": "the new MALS CEO"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Meanwhile, Grida said MALS is looking for other funders interested in backing the effort.",
+      "Name of Source": "Memphis Area Legal Services",
+      "Type of Source": "Named Organization",
+      "Source Justification": "nonprofit"
+    }
+  ]
+}

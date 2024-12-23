@@ -1,0 +1,41 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Democrat Kamala Harris leads Republican Donald Trump 45% to 41% in a Reuters/Ipsos poll published on Thursday that showed the vice president sparking new enthusiasm among voters and shaking up the race ahead of the Nov. 5 election.",
+      "Name of Source": "Reuters/Ipsos",
+      "Type of Source": "Document",
+      "Source Justification": "published on Thursday"
+    },
+    {
+      "Sourced Statement": "The 4 percentage point advantage among registered voters was wider than a 1 point lead Harris held over the former president in a late July Reuters/Ipsos poll.",
+      "Name of Source": "Reuters/Ipsos",
+      "Type of Source": "Document",
+      "Source Justification": "conducted in the eight days ended Wednesday and had a 2 percentage point margin of error"
+    },
+    {
+      "Sourced Statement": "A separate Bloomberg News/Morning Consult poll published later on Thursday showed that Harris was either leading or tied with Trump in each of those states.",
+      "Name of Source": "Bloomberg News/Morning Consult",
+      "Type of Source": "Document",
+      "Source Justification": "published later on Thursday"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"It's obvious that running against Harris is more challenging for Trump given the shift in these numbers, but it's certainly not insurmountable,\" Matt Wolking, a Republican campaign strategist who worked on Trump's 2020 campaign, said in response to the Reuters/Ipsos poll results.",
+      "Name of Source": "Matt Wolking",
+      "Type of Source": "Named Person",
+      "Title of Source": "Republican campaign strategist",
+      "Source Justification": "who worked on Trump's 2020 campaign"
+    },
+    {
+      "Sourced Statement": "\"We see it in this poll that people are more motivated about the future than the past,\" said Aimee Allison, founder of She the People, a liberal group that aims to grow the numbers of women of color in elected office.",
+      "Name of Source": "Aimee Allison",
+      "Type of Source": "Named Person",
+      "Title of Source": "founder of She the People",
+      "Source Justification": "a liberal group that aims to grow the numbers of women of color in elected office"
+    }
+  ],
+  "Named Organization Sources": []
+}

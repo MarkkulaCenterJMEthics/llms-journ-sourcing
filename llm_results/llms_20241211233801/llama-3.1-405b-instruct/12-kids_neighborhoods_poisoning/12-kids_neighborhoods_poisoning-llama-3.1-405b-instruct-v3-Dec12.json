@@ -1,0 +1,33 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "about 96% of residents are Black, and about 91% of homes were built prior to 1978, according to the U.S. Census Bureau.",
+      "Name of Source": "U.S. Census Bureau",
+      "Type of Source": "Document",
+      "Source Justification": "according to the U.S. Census Bureau"
+    }
+  ],
+  "Named Person Sources": [],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "To learn more about having a child tested or to schedule a free test, contact your child’s pediatrician, call the Shelby County Health Department at 901-222-9582 or email them at sch.clppp@shelbycountytn.gov.",
+      "Name of Source": "Shelby County Health Department",
+      "Type of Source": "Named Organization",
+      "Source Justification": "call the Shelby County Health Department at 901-222-9582 or email them at sch.clppp@shelbycountytn.gov"
+    },
+    {
+      "Sourced Statement": "To have your home tested, call the Shelby County Lead Hazard Control program at 901-222-7605 or the City of Memphis Lead-Safe program at 901-636-5323.",
+      "Name of Source": "Shelby County Lead Hazard Control program",
+      "Type of Source": "Named Organization",
+      "Source Justification": "call the Shelby County Lead Hazard Control program at 901-222-7605"
+    },
+    {
+      "Sourced Statement": "To have your home tested, call the Shelby County Lead Hazard Control program at 901-222-7605 or the City of Memphis Lead-Safe program at 901-636-5323.",
+      "Name of Source": "City of Memphis Lead-Safe program",
+      "Type of Source": "Named Organization",
+      "Source Justification": "call the City of Memphis Lead-Safe program at 901-636-5323"
+    }
+  ]
+}

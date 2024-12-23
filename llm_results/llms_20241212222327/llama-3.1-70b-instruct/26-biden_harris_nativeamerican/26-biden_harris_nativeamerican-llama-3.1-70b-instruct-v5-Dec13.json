@@ -1,0 +1,64 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "None directly quoted, but mentioned as beneficiaries of the program (e.g. 'students from first-generation students and/or students from low-income backgrounds', 'students across nine states', 'students across seven states')",
+      "Name of Source": "students/ Native students",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "recipients of the educational programs and grants; mentioned throughout the article as the target audience for the language revitalization and educational initiatives"
+    },
+    {
+      "Sourced Statement": "None directly quoted, but mentioned as participants in the programs (e.g. 'participants across nine states')",
+      "Name of Source": "participants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "engaging in the educational activities and language revitalization programs supported by the grants; mentioned in the context of the National Professional Development Program"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "List of FY24 grantees for National Professional Development Program and Native American Language Grants (tables with state, institution, and funding amount)",
+      "Name of Source": "U.S. Department of Education (implied, as the publisher of the grant information)",
+      "Type of Source": "Document",
+      "Source Justification": "official grant announcements from the U.S. Department of Education; providing detailed information on the funded projects"
+    },
+    {
+      "Sourced Statement": "More information on the National Professional Development Program is available here; More information about the NAL@ED program is available here",
+      "Name of Source": "U.S. Department of Education (implied, as the publisher of the program information)",
+      "Type of Source": "Document",
+      "Source Justification": "official program descriptions from the U.S. Department of Education; providing additional context and details on the programs"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"Being multilingual is a superpower—a powerful asset that can connect students to their identity and culture, and gives those who speak more than one language cognitive, social, and economic benefits...\"",
+      "Name of Source": "Miguel Cardona",
+      "Type of Source": "Named Person",
+      "Title of Source": "U.S. Secretary of Education",
+      "Source Justification": "quoted as the U.S. Secretary of Education, emphasizing the importance of multilingualism and the Administration's commitment to education"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The U.S. Department of Education (Department) announced over $11 million in grants...",
+      "Name of Source": "U.S. Department of Education",
+      "Type of Source": "Named Organization",
+      "Source Justification": "the administering body for the grants and educational programs; quoted throughout the article as the source of the announcements"
+    },
+    {
+      "Sourced Statement": "The Biden-Harris Administration’s historic investments in public education...",
+      "Name of Source": "Biden-Harris Administration",
+      "Type of Source": "Named Organization",
+      "Source Justification": "the current Administration, mentioned as the context for the educational initiatives and investments"
+    },
+    {
+      "Sourced Statement": "List of grant recipients includes various institutions (e.g. Alder Graduate School of Education, Cal Poly Corporation, ...)",
+      "Name of Source": "(various, e.g. Alder Graduate School of Education, Cal Poly Corporation, ...)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "recipients of the grants; listed as part of the official announcement"
+    }
+  ]
+}

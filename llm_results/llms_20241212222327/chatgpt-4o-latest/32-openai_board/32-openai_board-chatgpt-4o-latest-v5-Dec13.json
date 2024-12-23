@@ -1,0 +1,112 @@
+{
+  "Anonymous Sources": [
+    {
+      "Sourced Statement": "Senior OpenAI leaders, including Mr. Sutskever, who is deeply concerned that A.I. could one day destroy humanity, later discussed whether Ms. Toner should be removed, a person involved in the conversations said.",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "a person involved in the conversations"
+    },
+    {
+      "Sourced Statement": "But shortly after those discussions, Mr. Sutskever did the unexpected: He sided with board members to oust Mr. Altman, according to two people familiar with the board’s deliberations.",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "two people familiar with the board’s deliberations"
+    },
+    {
+      "Sourced Statement": "The statement he read to Mr. Altman said that Mr. Altman was being fired because he wasn’t “consistently candid in his communications with the board.”",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "two people familiar with the board’s deliberations"
+    },
+    {
+      "Sourced Statement": "That scientist and other researchers went to the board to try to push Mr. Altman out. After they failed, they gave up and departed, according to three people familiar with the attempt to push Mr. Altman out.",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "three people familiar with the attempt to push Mr. Altman out"
+    },
+    {
+      "Sourced Statement": "After vetting four candidates for one position, the remaining directors couldn’t agree on who should fill it, said the two people familiar with the board’s deliberations.",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "two people familiar with the board’s deliberations"
+    },
+    {
+      "Sourced Statement": "Hours after Mr. Altman was ousted, OpenAI executives confronted the remaining board members during a video call, according to three people who were on the call.",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "three people who were on the call"
+    },
+    {
+      "Sourced Statement": "On Sunday, Mr. Sutskever was urged at OpenAI’s office to reverse course by Mr. Brockman’s wife, Anna, according to two people familiar with the exchange.",
+      "Name of Source": null,
+      "Type of Source": "Anonymous Source",
+      "Title of Source": null,
+      "Source Justification": "two people familiar with the exchange"
+    }
+  ],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Nearly all of OpenAI’s 800 employees had threatened to follow Mr. Altman to Microsoft, which asked him to lead an A.I. lab with Greg Brockman, who quit his roles as OpenAI’s president and board chairman in solidarity with Mr. Altman.",
+      "Name of Source": "employees",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Nearly all of OpenAI’s 800 employees"
+    },
+    {
+      "Sourced Statement": "Hours later, he signed a letter with other employees that demanded the independent directors resign.",
+      "Name of Source": "employees",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "other employees"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "In the email, Mr. Altman said that he had reprimanded Ms. Toner for the paper and that it was dangerous to the company, particularly at a time, he added, when the Federal Trade Commission was investigating OpenAI over the data used to build its technology.",
+      "Name of Source": null,
+      "Type of Source": "Document",
+      "Source Justification": "an email that Mr. Altman wrote to colleagues and that was viewed by The New York Times"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "Helen Toner, an OpenAI board member, defended the research paper she co-wrote.",
+      "Name of Source": "Helen Toner",
+      "Type of Source": "Named Person",
+      "Title of Source": "OpenAI board member",
+      "Source Justification": "Helen Toner, an OpenAI board member"
+    },
+    {
+      "Sourced Statement": "Ms. Toner defended it as an academic paper that analyzed the challenges that the public faces when trying to understand the intentions of the countries and companies developing A.I.",
+      "Name of Source": "Helen Toner",
+      "Type of Source": "Named Person",
+      "Title of Source": "OpenAI board member",
+      "Source Justification": "Helen Toner, an OpenAI board member"
+    },
+    {
+      "Sourced Statement": "“After a series of reasonably amicable negotiations, the co-founders of Anthropic were able to negotiate their exit on mutually agreeable terms,” an Anthropic spokeswoman, Sally Aldous, said.",
+      "Name of Source": "Sally Aldous",
+      "Type of Source": "Named Person",
+      "Title of Source": "Anthropic spokeswoman",
+      "Source Justification": "an Anthropic spokeswoman"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "After Mr. Musk left in 2018, they created a for-profit subsidiary that began raising billions of dollars from investors, including $1 billion from Microsoft.",
+      "Name of Source": "Microsoft",
+      "Type of Source": "Named Organization",
+      "Source Justification": "investors, including $1 billion from Microsoft"
+    },
+    {
+      "Sourced Statement": "Anthropic added that there was “no attempt to ‘oust’ Sam Altman at the time the founders of Anthropic left OpenAI.”",
+      "Name of Source": "Anthropic",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Anthropic added"
+    }
+  ]
+}

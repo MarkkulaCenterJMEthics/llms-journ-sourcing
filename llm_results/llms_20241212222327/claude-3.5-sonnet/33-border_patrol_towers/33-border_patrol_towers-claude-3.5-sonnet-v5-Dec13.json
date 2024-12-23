@@ -1,0 +1,67 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Border advocates are urging the state and federal governments to spend more on humanitarian aid, but state officials say they can't afford to while facing a budget deficit.",
+      "Name of Source": "Border advocates",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "Privacy and human rights advocates also are asking for more transparency about the capabilities of the towers and are questioning why so much money is going toward monitoring migrants.",
+      "Name of Source": "Privacy and human rights advocates",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "Activists say they are concerned with the militarization of California's border, especially because the state already has one of the most heavily-equipped sections of the U.S. southern border.",
+      "Name of Source": "activists",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": null
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "U.S. Customs and Border Protection plans to spend about $67.8 million acquiring 277 new surveillance towers and upgrading 191 existing towers along the entire 2,000-mile-long border over the next 14 years, the most recent federal contracts show.",
+      "Name of Source": null,
+      "Type of Source": "Document",
+      "Source Justification": "most recent federal contracts"
+    },
+    {
+      "Sourced Statement": "The agency has received more than $700 million in funding for surveillance since fiscal year 2017, according to a 2021 report by the Office of Inspector General.",
+      "Name of Source": "Office of Inspector General",
+      "Type of Source": "Document",
+      "Source Justification": "2021 report"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "Where is this money going, if we have babies sitting out in the desert for up to a week at a time without any food or water?",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "executive director of Al Otro Lado",
+      "Source Justification": "executive director of Al Otro Lado, a nonprofit that provides legal and humanitarian support to refugees, deportees, and other migrants in the U.S. and Tijuana"
+    },
+    {
+      "Sourced Statement": "These towers aren't checking people's papers. People have lived on the border longer than the United States has been a country. Just being somebody who lives on the border, whose family are on both sides of the border, doesn't make you a criminal and shouldn't put you under suspicion.",
+      "Name of Source": "Dave Maass",
+      "Type of Source": "Named Person",
+      "Title of Source": "director of investigations",
+      "Source Justification": "the nonprofit's director of investigations"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Department of Homeland Security 'has also acknowledged the need for better coordination, communication, and oversight,' it said in its 2021 report on its border technology.",
+      "Name of Source": "Department of Homeland Security",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "California's investment to assist the federal government, provide humanitarian services, and help new arrivals totals over $1.3 billion since 2019",
+      "Name of Source": "Newsom's office",
+      "Type of Source": "Named Organization",
+      "Source Justification": null
+    }
+  ]
+}

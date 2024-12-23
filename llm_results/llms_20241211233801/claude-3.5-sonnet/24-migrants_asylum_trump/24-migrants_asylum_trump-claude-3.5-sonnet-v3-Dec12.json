@@ -1,0 +1,43 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Fifty-two percent of 170 respondents said they need more information about what will happen to asylum.",
+      "Name of Source": "respondents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Spanish-speaking readers"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Project 2025 is a plan created by a conservative think tank with ties to Trump that lays out what the president should change in the first 180 days after taking office.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "a plan created by a conservative think tank with ties to Trump"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "Brian Manning, a political asylum lawyer and former government asylum officer, said that asylum could be impacted by a second Trump presidency more drastically than before.",
+      "Name of Source": "Brian Manning",
+      "Type of Source": "Named Person",
+      "Title of Source": "political asylum lawyer and former government asylum officer",
+      "Source Justification": "political asylum lawyer and former government asylum officer"
+    },
+    {
+      "Sourced Statement": "It is safe to assume that after the many missteps of his first presidency, that his administration would be better equipped to learn from their past mistakes and more effectively attack immigrant communities from the White House",
+      "Name of Source": "Marlene Galaz",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Immigrant Rights Policy",
+      "Source Justification": "Director of Immigrant Rights Policy, New York Immigration Coalition"
+    },
+    {
+      "Sourced Statement": "We anticipate the president, Trump, to use its executive authority to implement these policies — but again, we anticipate we should be able to challenge",
+      "Name of Source": "Nils Kinuani",
+      "Type of Source": "Named Person",
+      "Title of Source": "Federal Policy Manager",
+      "Source Justification": "Federal Policy Manager at African Communities Together (ACT)"
+    }
+  ],
+  "Named Organization Sources": []
+}

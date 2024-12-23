@@ -1,0 +1,82 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "According to the Tennessee Lookout's database, the Tennessee Association of Realtors is the sixth largest spender on Tennessee politics, having spent $6.5 million on lobbying, campaign donations and other political expenditures since 2009.",
+      "Name of Source": "Tennessee Lookout",
+      "Type of Source": "Document",
+      "Source Justification": "database"
+    },
+    {
+      "Sourced Statement": "The Tennessee Association of Realtors has been Swann's top funder since the start of 2009, according to the Tennessee Lookout, giving him $18,750.",
+      "Name of Source": "Tennessee Lookout",
+      "Type of Source": "Document",
+      "Source Justification": "database"
+    },
+    {
+      "Sourced Statement": "It has also given Boyd $11,500 since 2009, making it his No. 6 funder.",
+      "Name of Source": "Tennessee Lookout",
+      "Type of Source": "Document",
+      "Source Justification": "database"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“It just shortens the whole timeline in which a person can lose their home,” said Brian Rees, a staff attorney at The Works Inc. nonprofit who has represented hundreds of tenants in eviction proceedings in recent years.",
+      "Name of Source": "Brian Rees",
+      "Type of Source": "Named Person",
+      "Title of Source": "staff attorney at The Works Inc. nonprofit",
+      "Source Justification": "who has represented hundreds of tenants in eviction proceedings in recent years"
+    },
+    {
+      "Sourced Statement": "“Landlords have always had a very strong lobbying group,” she said.",
+      "Name of Source": "Deborah Henderson",
+      "Type of Source": "Named Person",
+      "Title of Source": "Judge",
+      "Source Justification": "who judges thousands of eviction cases per year"
+    },
+    {
+      "Sourced Statement": "To Henderson, who judges thousands of eviction cases per year, the only explanation for such action was landlord lobbying.",
+      "Name of Source": "Deborah Henderson",
+      "Type of Source": "Named Person",
+      "Title of Source": "Judge",
+      "Source Justification": "who judges thousands of eviction cases per year"
+    },
+    {
+      "Sourced Statement": "“It’s disheartening to see them make a change that will affect families who are struggling,” Rees said.",
+      "Name of Source": "Brian Rees",
+      "Type of Source": "Named Person",
+      "Title of Source": "staff attorney at The Works Inc. nonprofit",
+      "Source Justification": "who has represented hundreds of tenants in eviction proceedings in recent years"
+    },
+    {
+      "Sourced Statement": "“(TAR) has the connection with a lot of legislators, especially on the commerce committee, where this was going to be,” Thompson said.",
+      "Name of Source": "Dwayne Thompson",
+      "Type of Source": "Named Person",
+      "Title of Source": "Rep.",
+      "Source Justification": "who sponsored the legislation"
+    },
+    {
+      "Sourced Statement": "“I really am happy to see that pass,” Rees said.",
+      "Name of Source": "Brian Rees",
+      "Type of Source": "Named Person",
+      "Title of Source": "staff attorney at The Works Inc. nonprofit",
+      "Source Justification": "who has represented hundreds of tenants in eviction proceedings in recent years"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Sen. Art Swann (R-Maryville), who sponsored the legislation in the Senate, provided MLK50 with a statement but did not respond to follow-up questions.",
+      "Name of Source": "Office of Sen. Art Swann",
+      "Type of Source": "Named Organization",
+      "Source Justification": "sponsored the legislation in the Senate"
+    },
+    {
+      "Sourced Statement": "The Tennessee Association of Realtors has been Swann’s top funder since the start of 2009, according to the Tennessee Lookout, giving him $18,750.",
+      "Name of Source": "Tennessee Association of Realtors",
+      "Type of Source": "Named Organization",
+      "Source Justification": "has been Swann's top funder since the start of 2009"
+    }
+  ]
+}

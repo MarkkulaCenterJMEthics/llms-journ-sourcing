@@ -1,0 +1,98 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "There are a number of kids that we knew who were homeless who would show up late. Before we brought them to the classroom, we bring them to the cafeteria and grab them something to eat and grab them some milk so that they can have something in their stomach before they went into the classroom.",
+      "Name of Source": "homeless children",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "experiencing homelessness, struggling to find timely transportation to school, relying on school lunch as their only meal"
+    },
+    {
+      "Sourced Statement": "Many come to school sleepy, tired and hungry, impacting their ability to function in the classroom.",
+      "Name of Source": "homeless children",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "experiencing homelessness, struggling with basic needs; experiencing stressors that impact their ability to engage in the classroom"
+    },
+    {
+      "Sourced Statement": "They leave the home really traumatized to begin with, and then they end up on the streets.",
+      "Name of Source": "children experiencing homelessness without a guardian",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "experiencing homelessness without a guardian, often due to domestic violence, gender or sexual identity issues"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "Since 2020, the number of homeless students in Santa Clara County has almost doubled, according to the California Department of Education.",
+      "Name of Source": "California Department of Education",
+      "Type of Source": "Document",
+      "Source Justification": "official education statistics provider"
+    },
+    {
+      "Sourced Statement": "Out of the 1,974 homeless students enrolled at East Side in 2022-2023, 488 were living in temporary shelters, according to the state education department, while 75 students were living in hotels and motels, and 33 students were temporarily unsheltered or living in abandoned buildings, campgrounds, vehicles, trailer parks or train and bus stations.",
+      "Name of Source": "California Department of Education",
+      "Type of Source": "Document",
+      "Source Justification": "official education statistics provider"
+    },
+    {
+      "Sourced Statement": "That same year, a majority of homeless students in the district were unable to pass the Smarter Balanced Summative Assessments, standardized tests for mathematics and language arts.",
+      "Name of Source": "Smarter Balanced Summative Assessments (likely from California Department of Education or related entity)",
+      "Type of Source": "Document",
+      "Source Justification": "official standardized test results"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“It goes back to economic hardships, loss of jobs, displacement. There’s just a number of reasons why our families are growing in our (homeless youth) population.”",
+      "Name of Source": "Imee Almazan",
+      "Type of Source": "Named Person",
+      "Title of Source": "Superintendent, Alum Rock Union School District",
+      "Source Justification": "district administrator with insight into the population's challenges"
+    },
+    {
+      "Sourced Statement": "“We have students who are living in shelters. We actually have foster youth that are unhoused as well.”",
+      "Name of Source": "Maryam Adalat",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Student Services, East Side Union High School District",
+      "Source Justification": "district administrator with direct knowledge of student living situations"
+    },
+    {
+      "Sourced Statement": "“There are a number of kids that we knew who were homeless who would show up late...”",
+      "Name of Source": "Annya Artigas",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Social Emotional Learning, Alum Rock district",
+      "Source Justification": "district administrator with experience supporting homeless students"
+    },
+    {
+      "Sourced Statement": "“They leave the home really traumatized to begin with, and then they end up on the streets.”",
+      "Name of Source": "Maureen Smith",
+      "Type of Source": "Named Person",
+      "Title of Source": "Professor, Childhood Adolescent Development, San Jose State University",
+      "Source Justification": "expert in childhood and adolescent development"
+    },
+    {
+      "Sourced Statement": "“He’s a very smart kid. He listens.”",
+      "Name of Source": "Juanita Campa",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "parent of a homeless child with autism, sharing personal experience"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Around 6,800 homeless students were enrolled in Santa Clara County in 2023",
+      "Name of Source": "Bay Area News Group (publisher, but likely citing Santa Clara County or California Department of Education data)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "news organization reporting on local statistics"
+    },
+    {
+      "Sourced Statement": "About 1,200 students in the East Side Union High School District and Alum Rock Union School District were reported to be homeless in 2024 — three times the number of homeless students in 2020.",
+      "Name of Source": "East Side Union High School District and Alum Rock Union School District",
+      "Type of Source": "Named Organization",
+      "Source Justification": "school districts with firsthand data on homeless students"
+    }
+  ]
+}

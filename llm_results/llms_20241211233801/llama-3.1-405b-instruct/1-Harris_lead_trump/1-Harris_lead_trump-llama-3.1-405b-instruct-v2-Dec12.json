@@ -1,0 +1,60 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Some 73% of Democratic registered voters in the Reuters/Ipsos poll said they were more excited about voting in November after Harris entered the race.",
+      "Name of Source": "Democratic registered voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "registered voters in the Reuters/Ipsos poll"
+    },
+    {
+      "Sourced Statement": "52% of Harris voters in the August poll were voting to support her as a candidate rather than primarily to oppose Trump.",
+      "Name of Source": "Harris voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "voters in the August poll"
+    },
+    {
+      "Sourced Statement": "64% saying their choice was more motivated by backing Trump than opposing Harris.",
+      "Name of Source": "Trump voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "voters in the poll"
+    },
+    {
+      "Sourced Statement": "41% of voters in the poll - and 70% of Democrats - said they were worried the next president might sign a national ban on abortions.",
+      "Name of Source": "voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "voters in the poll"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "The latest poll's survey period partially overlapped with the Aug. 19-22 Democratic National Convention in Chicago where Harris formally accepted her party's nomination, and it remains to be seen whether the same level of enthusiasm for Harris will continue.",
+      "Name of Source": "Reuters/Ipsos poll",
+      "Type of Source": "Document",
+      "Source Justification": "conducted nationally and gathered responses from 4,253 U.S. adults, including 3,562 registered voters"
+    },
+    {
+      "Sourced Statement": "A separate Bloomberg News/Morning Consult poll published later on Thursday showed that Harris was either leading or tied with Trump in each of those states.",
+      "Name of Source": "Bloomberg News/Morning Consult poll",
+      "Type of Source": "Document",
+      "Source Justification": "published later on Thursday"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"It's obvious that running against Harris is more challenging for Trump given the shift in these numbers, but it's certainly not insurmountable,\" Matt Wolking, a Republican campaign strategist who worked on Trump's 2020 campaign, said in response to the Reuters/Ipsos poll results.",
+      "Name of Source": "Matt Wolking",
+      "Type of Source": "Named Person",
+      "Title of Source": "Republican campaign strategist",
+      "Source Justification": "who worked on Trump's 2020 campaign"
+    },
+    {
+      "Sourced Statement": "\"We see it in this poll that people are more motivated about the future than the past,\" said Aimee Allison, founder of She the People, a liberal group that aims to grow the numbers of women of color in elected office.",
+      "Name of Source": "Aimee Allison",
+      "Type of Source": "Named Person",
+      "Title of Source": "founder of She the People",
+      "Source Justification": "a liberal group that aims to grow the numbers of women of color in elected office"
+    }
+  ],
+  "Named Organization Sources": []
+}

@@ -1,0 +1,94 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Fifty-two percent of 170 respondents said they need more information about what will happen to asylum.",
+      "Name of Source": "respondents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "our Spanish-speaking readers"
+    },
+    {
+      "Sourced Statement": "many of whom were passengers on these Texas-funded buses.",
+      "Name of Source": "migrants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "crossing into the U.S. since the spring of 2022"
+    },
+    {
+      "Sourced Statement": "an estimated 64,000 migrants still remain under NYC’s care.",
+      "Name of Source": "migrants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "under NYC’s care"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "What Project 2025 states about asylum",
+      "Name of Source": "Project 2025",
+      "Type of Source": "Document",
+      "Source Justification": "a plan created by a conservative think tank with ties to Trump"
+    },
+    {
+      "Sourced Statement": "as Documented covered in the past, this led to the expulsion of more than 2.8 million people.",
+      "Name of Source": "Documented",
+      "Type of Source": "Document",
+      "Source Justification": "as Documented covered in the past"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“There is concern that they’ll [asylum restrictions] actually be implemented more effectively. Last time, he didn’t expect to win and didn’t have a professional class built around him that could actually get things done in government in general,”",
+      "Name of Source": "Brian Manning",
+      "Type of Source": "Named Person",
+      "Title of Source": "political asylum lawyer and former government asylum officer",
+      "Source Justification": "a political asylum lawyer and former government asylum officer"
+    },
+    {
+      "Sourced Statement": "“It is safe to assume that after the many missteps of his first presidency, that his administration would be better equipped to learn from their past mistakes and more effectively attack immigrant communities from the White House,”",
+      "Name of Source": "Marlene Galaz",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Immigrant Rights Policy, New York Immigration Coalition",
+      "Source Justification": "Director of Immigrant Rights Policy, New York Immigration Coalition"
+    },
+    {
+      "Sourced Statement": "“The stuff about immigration is pretty severe. There are talks around the Project 2025 crowd about eliminating work authorization for asylum seekers, getting rid of TPS, Temporary Protected Status,”",
+      "Name of Source": "Brian Manning",
+      "Type of Source": "Named Person",
+      "Title of Source": "political asylum lawyer and former government asylum officer",
+      "Source Justification": "a political asylum lawyer and former government asylum officer"
+    },
+    {
+      "Sourced Statement": "“We anticipate the president, Trump, to use its executive authority to implement these policies — but again, we anticipate we should be able to challenge,”",
+      "Name of Source": "Nils Kinuani",
+      "Type of Source": "Named Person",
+      "Title of Source": "Federal Policy Manager at African Communities Together (ACT)",
+      "Source Justification": "Federal Policy Manager at African Communities Together (ACT)"
+    },
+    {
+      "Sourced Statement": "“It is not impossible but it becomes harder to challenge that. But, again … it is very unlikely given the current political climate.”",
+      "Name of Source": "Nils Kinuani",
+      "Type of Source": "Named Person",
+      "Title of Source": "Federal Policy Manager at African Communities Together (ACT)",
+      "Source Justification": "Federal Policy Manager at African Communities Together (ACT)"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "the government of Texas bussed migrants, crossing into the U.S. since the spring of 2022, to Democrat strongholds in Chicago and New York City.",
+      "Name of Source": "government of Texas",
+      "Type of Source": "Named Organization",
+      "Source Justification": "the government of Texas"
+    },
+    {
+      "Sourced Statement": "the New York Immigration Coalition",
+      "Name of Source": "New York Immigration Coalition",
+      "Type of Source": "Named Organization",
+      "Source Justification": "New York Immigration Coalition"
+    },
+    {
+      "Sourced Statement": "African Communities Together (ACT)",
+      "Name of Source": "African Communities Together (ACT)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "African Communities Together (ACT)"
+    }
+  ]
+}

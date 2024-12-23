@@ -1,0 +1,99 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Participants report feeling more free to spend money on self care, outings with family members or sharing their wealth with community members.",
+      "Name of Source": "Participants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Recipients of guaranteed income in various programs; providing anecdotal evidence of the program's impact on mental health and behavior."
+    },
+    {
+      "Sourced Statement": "People need help with normal, everyday interactions that may be easy for some individuals.",
+      "Name of Source": "Participants (implied, through coach's experience)",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Recipients of guaranteed income in the Breathe program; illustrating the need for support beyond financial aid."
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "Advocates point to the expansion of the federal child tax credit as proof that direct cash payments to families reduce poverty. In 2021 child poverty decreased to 9% from 17.6% in 2019.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "Cited as evidence of the effectiveness of direct cash payments in reducing poverty; source likely a published report or data release, but not explicitly named."
+    },
+    {
+      "Sourced Statement": "The lab found, in general, that food and groceries are the top way participants are spending money, making up 35% of the funds spent.",
+      "Name of Source": "Stanford Guaranteed Income Lab",
+      "Type of Source": "Document",
+      "Source Justification": "Research findings from tracking 31 pilot programs; providing data on spending habits of guaranteed income recipients."
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "With all the struggling I was doing, my attitude took a hit. The more you witness yourself being down and out, the more you feel down and out, and the more stuck you feel.",
+      "Name of Source": "Kipp Kahlia",
+      "Type of Source": "Named Person",
+      "Title of Source": "null",
+      "Source Justification": "Recipient of the Breathe program; sharing personal experience of financial struggles and impact of guaranteed income."
+    },
+    {
+      "Sourced Statement": "Whenever L.A. city or county or Chicago or New York do something bold like this, it’s a really important signal that this big policy idea found its footing during COVID and represents a possible way forward in terms of supporting low income people across America.",
+      "Name of Source": "Sean Kline",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of the Stanford Basic Income Lab",
+      "Source Justification": "Expert in guaranteed income programs; providing context and significance of the Breathe program."
+    },
+    {
+      "Sourced Statement": "There is so much we don’t know yet. We don’t know how long people need to receive cash to create what level of change.",
+      "Name of Source": "Amy Castro",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Penn’s Center for Guaranteed Income Research",
+      "Source Justification": "Researcher studying the impact of guaranteed income; highlighting the need for further research."
+    },
+    {
+      "Sourced Statement": "It’s taking me from always putting out fires to being able to actually make some moves to advance, not just being stuck.",
+      "Name of Source": "Kipp Kahlia",
+      "Type of Source": "Named Person",
+      "Title of Source": "null",
+      "Source Justification": "Recipient of the Breathe program; sharing progress and impact of guaranteed income on her life and business."
+    },
+    {
+      "Sourced Statement": "People need help with normal, everyday interactions that may be easy for some individuals.",
+      "Name of Source": "Brian Arredondo",
+      "Type of Source": "Named Person",
+      "Title of Source": "Coach for program participants",
+      "Source Justification": "Providing support to Breathe program recipients; illustrating the range of needs participants have beyond financial aid."
+    },
+    {
+      "Sourced Statement": "It can’t just be the money. It’s the opportunity and the access to experiences sometimes that really make a big difference when there is even a little bit more resources folks can have.",
+      "Name of Source": "Ely Fournier",
+      "Type of Source": "Named Person",
+      "Title of Source": "Overseer of the program coaches at Strength Based Community Change",
+      "Source Justification": "Expert in supporting guaranteed income recipients; emphasizing the importance of access to experiences beyond financial support."
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "L.A. County’s Breathe program gives participants $1,000 monthly for three years, more money over a longer period than similar programs.",
+      "Name of Source": "L.A. County",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Administrator of the Breathe guaranteed income program; context for the program's structure and significance."
+    },
+    {
+      "Sourced Statement": "Researchers at the University of Pennsylvania are surveying the 1,000 Breathe participants, along with a control group of people not receiving funds.",
+      "Name of Source": "University of Pennsylvania",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Research institution studying the impact of the Breathe program; providing context for the research methodology."
+    },
+    {
+      "Sourced Statement": "Strength Based Community Change also offers workshops on financial literacy, investing and credit repair.",
+      "Name of Source": "Strength Based Community Change",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Provider of support services to Breathe program participants; highlighting the range of support offered."
+    }
+  ]
+}

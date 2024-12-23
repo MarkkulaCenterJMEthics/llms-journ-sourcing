@@ -1,0 +1,89 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "We had a job fair in the middle of a heat wave and there was still a line going out of the door. We had another one when it was pouring rain, and the same thing happened.",
+      "Name of Source": "Job Fair Attendees",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "used to illustrate demand for jobs at the Tobyhanna Army Depot"
+    }
+  ],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "We’re all about quality jobs, and that’s a quality organization.",
+      "Name of Source": "Bob Durkin",
+      "Type of Source": "Named Person",
+      "Title of Source": "President and Chief Executive Officer of the Scranton Chamber of Commerce",
+      "Source Justification": "quoted on the importance of the defense industry for Scranton's economy"
+    },
+    {
+      "Sourced Statement": "It’s not $277 million that stays here. But, you know, it’s a good chunk of it. And it’s important that we keep that work coming.",
+      "Name of Source": "Congressman Matt Cartwright",
+      "Type of Source": "Named Person",
+      "Title of Source": "Member of the House Appropriations Committee, Representative for Northeastern Pennsylvania",
+      "Source Justification": "quoted on the economic impact of defense contracts in the region"
+    },
+    {
+      "Sourced Statement": "I don’t really think that people dwell or concentrate on anything that’s going on outside of their sphere of influence. We’re kind of busy concentrating on what’s going on in Scranton.",
+      "Name of Source": "Rich Hansen",
+      "Type of Source": "Named Person",
+      "Title of Source": "Commander’s Representative at the Scranton Army Ammunition Plant",
+      "Source Justification": "quoted on the focus of workers at the Scranton Army Ammunition Plant"
+    },
+    {
+      "Sourced Statement": "With the Ukraine support, you know, one day I was sitting there thinking about what needs to be done, and it kind of hit me that what we were doing directly affects whether people live or die.",
+      "Name of Source": "Jim Jarick",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senior Technology Center Engineer at the Tobyhanna Army Depot",
+      "Source Justification": "quoted on the personal impact of working on Ukraine support"
+    },
+    {
+      "Sourced Statement": "At the height of last year’s counteroffensive, the Ukrainians were firing about 6,000 a day. The Russians are [firing] probably about 10,000 a day.",
+      "Name of Source": "Mark Cancian",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senior Advisor at the Center for Strategic and International Studies",
+      "Source Justification": "quoted on the comparison of Ukraine and Russia's artillery firing rates"
+    },
+    {
+      "Sourced Statement": "Our first task is to save our people. Without artillery, we cannot do this.",
+      "Name of Source": "Col. Olksandr Popov",
+      "Type of Source": "Named Person",
+      "Title of Source": "Commander of a Ukrainian Artillery Unit",
+      "Source Justification": "quoted on the importance of artillery for Ukraine's defense"
+    },
+    {
+      "Sourced Statement": "We had a job fair... (same as above, but duplicate removed for brevity)",
+      "Name of Source": "Danielle Weinschenk",
+      "Type of Source": "Named Person",
+      "Title of Source": "Lead Public Affairs Specialist at the Tobyhanna Army Depot",
+      "Source Justification": "quoted on the demand for jobs at the Tobyhanna Army Depot"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The U.S. Army was making 14,000 artillery shells a month prior to the conflict. Now, officials at the plant told Morning Edition that the army is producing 36,000 shells a month, up from 24,000 just six months ago.",
+      "Name of Source": "U.S. Army",
+      "Type of Source": "Named Organization",
+      "Source Justification": "mentioned as the entity responsible for the production increase"
+    },
+    {
+      "Sourced Statement": "The Biden administration announced this month it would be sending an additional $250 million dollars worth of new military aid to Ukraine, including air defense missiles and 155mm howitzer rounds.",
+      "Name of Source": "The Biden Administration",
+      "Type of Source": "Named Organization",
+      "Source Justification": "mentioned as the entity providing additional military aid to Ukraine"
+    },
+    {
+      "Sourced Statement": "The Tobyhanna Army Depot... estimates that the company has a $2.4 billion dollar impact on the area and that it is the largest industrial employer in the region.",
+      "Name of Source": "Tobyhanna Army Depot",
+      "Type of Source": "Named Organization",
+      "Source Justification": "mentioned as a major contributor to the local economy"
+    },
+    {
+      "Sourced Statement": "Lockheed Martin... (implied, not directly quoted, but mentioned as part of the regional economy)",
+      "Name of Source": "Lockheed Martin",
+      "Type of Source": "Named Organization",
+      "Source Justification": "mentioned as part of the defense industry in Northeastern Pennsylvania"
+    }
+  ]
+}

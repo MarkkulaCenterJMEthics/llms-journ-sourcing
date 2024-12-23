@@ -1,0 +1,26 @@
+,,,,,,,
+URL: ,https://www.nytimes.com/2023/11/21/technology/openai-altman-board-fight.html,,,,,,
+Title: ,"Before Altman’s Ouster, OpenAI’s Board Was Divided and Feuding",,,,,,
+Sourcing Manifest or Source Data Table,,,,,,,
+No,Actual text in the article: attributed info (views) or quotes from a source ,Type of source,Anomynity (Y/N),Name of Source,Source's Title (affiliation),"Primary, Secondary/Cited",Additional source characterizations in introduction justifying presence in the article
+3,worried that Mr. Altman was too focused on expansion while they wanted to balance that growth with A.I. safety.,unnamed,N,,Board members,S,Some Board members
+4,"Nearly all of OpenAI’s 800 employees had threatened to follow Mr. Altman to Microsoft, which asked him to lead an A.I. lab with Greg Brockman, who quit his roles as OpenAI’s president and board chairman in solidarity with Mr. Altman.",,,,,"S, https://www.nytimes.com/2023/11/20/business/openai-staff-exodus-turmoil.html#:~:text=The%20ouster%20of%20Mr.%20Altman,project.",
+5,"They said that the subsidiary would be controlled by the nonprofit board and that each director’s fiduciary duty would be to “humanity, not OpenAI investors,” the company said on its website.",named ,,OpenAI,,"S, https://openai.com/our-structure/",website
+6,"complained that the research paper seemed to criticize OpenAI’s efforts to keep its A.I. technologies safe while praising the approach taken by Anthropic, a company that has become OpenAI’s biggest rival, according to an email that Mr. Altman wrote to colleagues and that was viewed by The New York Times.",named ,,Sam Altman,Chief Executive,S,according to an email that Mr. Altman wrote to colleagues and that was viewed by The New York Times
+7,"that he had reprimanded Ms. Toner for the paper and that it was dangerous to the company, particularly at a time, he added, when the Federal Trade Commission was investigating OpenAI over the data used to build its technology.",named ,,Sam Altman,Chief Executive,S,according to an email that Mr. Altman wrote to colleagues and that was viewed by The New York Times
+8,"“I did not feel we’re on the same page on the damage of all this,” he wrote in the email. “Any amount of criticism from a board member carries a lot of weight.”",named ,,Sam Altman,Chief Executive,S,according to an email that Mr. Altman wrote to colleagues and that was viewed by The New York Times
+9,"Senior OpenAI leaders, including Mr. Sutskever, who is deeply concerned that A.I. could one day destroy humanity, later discussed whether Ms. Toner should be removed",unnamed,Y,,,P,A person involved in the conversations
+10,"shortly after those discussions, Mr. Sutskever did the unexpected: He sided with board members to oust Mr. Altman,",Unnamed ,Y,,,P ,according to two people familiar with the board’s deliberations.
+11,statement he read to Mr. Altman said that Mr. Altman was being fired because he wasn’t “consistently candid in his communications with the board.”,Unnamed ,N ,,,"S, https://openai.com/blog/openai-announces-leadership-transition",
+13,"That scientist and other researchers went to the board to try to push Mr. Altman out. After they failed, they gave up and departed",unnamed,Y,,,P,three people familiar with the attempt to push Mr. Altman out.
+14,"“After a series of reasonably amicable negotiations, the co-founders of Anthropic were able to negotiate their exit on mutually agreeable terms,”",named ,,Sally Aldous,Anthropic spokeswoman,P,
+15,“no attempt to ‘oust’ Sam Altman at the time the founders of Anthropic left OpenAI.”,Unnamed,N,,,S,Anthropic Statement
+16,"After vetting four candidates for one position, the remaining directors couldn’t agree on who should fill it",unnamed,Y,,,P,the two people familiar with the board’s deliberations
+17,"Hours after Mr. Altman was ousted, OpenAI executives confronted the remaining board members during a video call",unnnamed ,Y,,,P,three people who were on the call.
+18,the board was endangering the future of the company by pushing out Mr. Altman.,named ,,Jason Kwon,chief strategy officer,S,
+19,violated the members’ responsibilities.,named ,,Jason Kwon,chief strategy officer,S,
+20,"The board’s mission was to ensure that the company creates artificial intelligence that “benefits all of humanity,” and if the company was destroyed that could be consistent with its mission.",named ,,Helen Toner,,S,a board member and a director of strategy at Georgetown University’s Center for Security and Emerging Technology.
+,OpenAI would be stronger without Mr. Altman,Unnamed,N,OpenAI Board,,,
+,"On Sunday, Mr. Sutskever was urged at OpenAI’s office to reverse course by Mr. Brockman’s wife, Anna",unnamed,Y,,,P,two people familiar with the exchange
+,The confrontation between Mr. Sutskever and Ms. Brockman was reported earlier by The Wall Street Journal.,named ,,The Wall Street Journal,,"S, https://www.wsj.com/tech/openai-employees-threaten-to-quit-unless-board-resigns-bbd5cc86",
+,“I deeply regret my participation in the board’s actions.”,named ,,Ilya Sutskever,,"S, https://x.com/ilyasut/status/1726590052392956028?s=20",Posted on X

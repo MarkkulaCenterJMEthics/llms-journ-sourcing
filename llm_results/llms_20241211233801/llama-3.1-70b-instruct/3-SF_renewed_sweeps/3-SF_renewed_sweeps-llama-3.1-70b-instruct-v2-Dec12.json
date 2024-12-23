@@ -1,0 +1,91 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Dozens of people lined the sidewalks that had been swept just hours prior, fussing with their belongings, setting up new tents, and discreetly selling wares to one another.",
+      "Name of Source": "people",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "witnessed by the reporter after a sweep in SoMa"
+    },
+    {
+      "Sourced Statement": "Many unhoused people, including Robinson, say it can be challenging to identify and retrieve their belongings at the facility.",
+      "Name of Source": "unhoused people",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "shared experience with the challenge of retrieving belongings"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "According to Public Works policy, staff are supposed to provide the resident of an encampment a “reasonable amount of time (approximately 30 minutes)” to sort through and collect their belongings before the camp is torn down.",
+      "Name of Source": "Public Works policy",
+      "Type of Source": "Document",
+      "Source Justification": "official policy guiding encampment sweeps"
+    },
+    {
+      "Sourced Statement": "A federal survey released in May counted more than 8,000 unhoused people in the city, which has fewer than 4,000 shelter beds to offer.",
+      "Name of Source": "federal survey (publishing organization not specified)",
+      "Type of Source": "Document",
+      "Source Justification": "authoritative data on unhoused population and shelter capacity"
+    },
+    {
+      "Sourced Statement": "as a recent batch of public records secured by City Hall watchdog Hazel Williams shows, Public Works has bagged medications, wheelchairs, and even a mobility walker from unhoused people, taking them to the city’s storage facility on Cesar Chavez St.",
+      "Name of Source": "public records (secured by Hazel Williams)",
+      "Type of Source": "Document",
+      "Source Justification": "evidence of potential breaches in protocol"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "All they do is tell me to go back to the Hunters Point Navigation Center. And I don’t want to do that. I had bad experiences,”",
+      "Name of Source": "Antonio Robinson",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "personal experience with encampment sweeps and shelter services"
+    },
+    {
+      "Sourced Statement": "I don’t understand,”",
+      "Name of Source": "Joey O’Brien",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "personal experience with encampment sweeps and law enforcement"
+    },
+    {
+      "Sourced Statement": "Typically, with city sweeps, they give 72 hours of notice with location and time, and we were following that, but they didn’t follow that usual rule,”",
+      "Name of Source": "Julian Highsmith",
+      "Type of Source": "Named Person",
+      "Title of Source": "Communications and Policy Director for the Coalition on Homelessness",
+      "Source Justification": "expertise on city protocols and advocacy for unhoused people"
+    },
+    {
+      "Sourced Statement": "the policy clearly spells out how soiled items can be handled and our crews follow the policy and consistently apply its terms.”",
+      "Name of Source": "Rachel Gordon",
+      "Type of Source": "Named Person",
+      "Title of Source": "Public Works Spokesperson",
+      "Source Justification": "official response to questions about protocol breaches"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Mayor Breed's office did not respond to requests for comment.",
+      "Name of Source": "Mayor London Breed's Office",
+      "Type of Source": "Named Organization",
+      "Source Justification": "official response (or lack thereof) to media inquiry"
+    },
+    {
+      "Sourced Statement": "the Coalition on Homelessness and other unhoused advocates planned to crash an encampment sweep in SoMa last Thursday, which had been scheduled for 12:30 p.m.",
+      "Name of Source": "Coalition on Homelessness",
+      "Type of Source": "Named Organization",
+      "Source Justification": "advocacy efforts for unhoused people"
+    },
+    {
+      "Sourced Statement": "the Department of Homelessness and Supportive Housing’s online waitlist for shelter on Monday afternoon.",
+      "Name of Source": "Department of Homelessness and Supportive Housing",
+      "Type of Source": "Named Organization",
+      "Source Justification": "official data on shelter waitlist"
+    }
+  ]
+}

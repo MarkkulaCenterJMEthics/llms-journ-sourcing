@@ -1,0 +1,72 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Nurses across California may soon have easier access to more career opportunities, if Gov. Gavin Newsom signs a new bill into law.",
+      "Name of Source": "null",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "null"
+    },
+    {
+      "Sourced Statement": "According to the Board of Registered Nursing, 92 out of 152 publicly funded nursing programs were denied access to clinic placements.",
+      "Name of Source": "null",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "program officials reported that the inability to secure clinical placements is one of the main reasons for not enrolling more students"
+    },
+    {
+      "Sourced Statement": "aspiring nurses, especially students in public programs, are being denied access to clinical placements",
+      "Name of Source": "nursing students in public programs",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "despite their socioeconomic background"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "According to the Board of Registered Nursing, 92 out of 152 publicly funded nursing programs were denied access to clinic placements.",
+      "Name of Source": "Board of Registered Nursing",
+      "Type of Source": "Document",
+      "Source Justification": "reporting on publicly funded nursing programs"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "As California’s population ages and becomes increasingly more diverse, we will need a qualified and experienced nursing workforce to meet the unique demands and varied needs of all patients.",
+      "Name of Source": "Sen. Dave Cortese",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senator (D-San Jose)",
+      "Source Justification": "author of Senate Bill (SB) 1015"
+    },
+    {
+      "Sourced Statement": "Clinical education is an essential part of any nurse’s education, yet aspiring nurses, especially students in public programs, are being denied access to clinical placements.",
+      "Name of Source": "Cathy Kennedy",
+      "Type of Source": "Named Person",
+      "Title of Source": "Registered Nurse and President of the CNA",
+      "Source Justification": "representing the California Nurses Association, sponsor of SB 1015"
+    },
+    {
+      "Sourced Statement": "We applaud the California Senate for passing S.B. 1015. It is commonsense reform that will increase transparency and increase oversight from the Board of Registered Nursing.",
+      "Name of Source": "Cathy Kennedy",
+      "Type of Source": "Named Person",
+      "Title of Source": "Registered Nurse and President of the CNA",
+      "Source Justification": "representing the California Nurses Association, sponsor of SB 1015"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The California Nurses Association (CNA), the largest union of registered nurses in the state, sponsored SB 1015 to support nursing students seeking placement in the workforce.",
+      "Name of Source": "California Nurses Association (CNA)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "largest union of registered nurses in the state, sponsor of SB 1015"
+    },
+    {
+      "Sourced Statement": "If approved, SB 1015 would mandate new levels of transparency for clinical placements and help develop placement standards that ensure equitable access to opportunities in the workforce.",
+      "Name of Source": "California Senate",
+      "Type of Source": "Named Organization",
+      "Source Justification": "passing S.B. 1015, subject of the bill"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "Anonymous Sources": [],
+
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "“The disorder we are witnessing, especially in our downtown area, has many causes and impacts,”",
+      "Name of Source": "null",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Witnesses of disorder in the downtown area"
+    },
+    {
+      "Sourced Statement": "“All of us area agencies, we are doing everything humanly possible that we can do,”",
+      "Name of Source": "Area Agencies",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Local social service providers working together"
+    },
+    {
+      "Sourced Statement": "“We were looking at real information that made us have some quite difficult conversations,”",
+      "Name of Source": "Meeting Attendees (providers and selectboard members)",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Attendees of a meeting discussing solutions for Brattleboro’s disorderly conduct"
+    }
+  ],
+
+  "Document Sources": [
+    {
+      "Sourced Statement": "According to police, the Brattleboro individual most reported (identified only as someone cited in 63 calls for the first half of this year) was acting criminally just 14% of the time.",
+      "Name of Source": "Municipal Statistics/Policing Data",
+      "Type of Source": "Document",
+      "Source Justification": "Official policing data for the first half of the year"
+    },
+    {
+      "Sourced Statement": "A study by the Vermont nonprofit Crime Research Group shows Brattleboro police are dispatched most to the local Quality Inn, where the state is housing people otherwise without shelter (authorities received 181 calls there in the first half of this year)...",
+      "Name of Source": "Crime Research Group Study",
+      "Type of Source": "Document",
+      "Source Justification": "Study by a Vermont nonprofit analyzing police dispatch data"
+    }
+  ],
+
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“Jaws dropped,” Jim Baker, a consultant for a state public safety enhancement initiative, recounted at a recent public meeting.",
+      "Name of Source": "Jim Baker",
+      "Type of Source": "Named Person",
+      "Title of Source": "Consultant for State Public Safety Enhancement Initiative",
+      "Source Justification": "Expert in public safety, former commander of the Vermont State Police and one-time Rutland City police chief"
+    },
+    {
+      "Sourced Statement": "“The 20 people that are consuming a lot of resources clearly need some, but they’re not getting the right ones,” Brattleboro Assistant Police Chief Jeremy Evans recently told the town selectboard.",
+      "Name of Source": "Jeremy Evans",
+      "Type of Source": "Named Person",
+      "Title of Source": "Assistant Police Chief",
+      "Source Justification": "Authority on Brattleboro’s policing and public safety challenges"
+    },
+    {
+      "Sourced Statement": "“This is something that we see in a lot of different jurisdictions,” Robin Joy, the Crime Research Group’s statistical director, told local leaders at another meeting.",
+      "Name of Source": "Robin Joy",
+      "Type of Source": "Named Person",
+      "Title of Source": "Statistical Director, Crime Research Group",
+      "Source Justification": "Expert in crime statistics and research"
+    },
+    {
+      "Sourced Statement": "“We need to consider our own boundaries around increasing safety and reducing risks,” Groundworks executive director Libby Bennett said upon this April’s first anniversary of the death.",
+      "Name of Source": "Libby Bennett",
+      "Type of Source": "Named Person",
+      "Title of Source": "Executive Director, Groundworks Collaborative",
+      "Source Justification": "Leader of a local social service agency, reflecting on safety concerns"
+    },
+    {
+      "Sourced Statement": "“All of us area agencies, we are doing everything humanly possible that we can do,” Christine Allen, executive director of Turning Point of Windham County, said.",
+      "Name of Source": "Christine Allen",
+      "Type of Source": "Named Person",
+      "Title of Source": "Executive Director, Turning Point of Windham County",
+      "Source Justification": "Leader of a local social service agency, expressing challenges"
+    },
+    {
+      "Sourced Statement": "“We were looking at real information that made us have some quite difficult conversations,” Daniel Quipp said following the session.",
+      "Name of Source": "Daniel Quipp",
+      "Type of Source": "Named Person",
+      "Title of Source": "Chair of the Selectboard, Staff Member of Southeastern Vermont Community Action",
+      "Source Justification": "Local leader participating in discussions on addressing disorderly conduct"
+    }
+  ],
+
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Groundworks Collaborative, for example, helps local people without permanent housing (its outreach team reports contact with 159 such individuals so far this year).",
+      "Name of Source": "Groundworks Collaborative",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Local nonprofit providing social services and housing support"
+    },
+    {
+      "Sourced Statement": "Turning Point of Windham County. “We are so straight out, working our tails off — and we can’t do this without the police.”",
+      "Name of Source": "Turning Point of Windham County",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Local social service agency collaborating with law enforcement"
+    },
+    {
+      "Sourced Statement": "Southeastern Vermont Community Action, (Daniel Quipp is a staff member)...",
+      "Name of Source": "Southeastern Vermont Community Action",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Antipoverty agency with staff involved in local governance and social service discussions"
+    },
+    {
+      "Sourced Statement": "Vermont State Police, (Jim Baker is a former commander)...",
+      "Name of Source": "Vermont State Police",
+      "Type of Source": "Named Organization",
+      "Source Justification": "State law enforcement agency, mentioned for context on a source’s background"
+    },
+    {
+      "Sourced Statement": "Crime Research Group shows Brattleboro police are dispatched most to the local Quality Inn...",
+      "Name of Source": "Crime Research Group",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Vermont nonprofit analyzing crime data to inform public safety strategies"
+    }
+  ]
+}

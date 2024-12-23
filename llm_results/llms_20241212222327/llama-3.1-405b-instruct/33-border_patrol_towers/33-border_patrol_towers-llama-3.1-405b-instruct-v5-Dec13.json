@@ -1,0 +1,100 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "dozens of migrants at a time have waited in makeshift camps in California — enduring the barren desert with little food, water or shelter — for hours or sometimes a day or more.",
+      "Name of Source": "migrants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "migrants at a time have waited in makeshift camps in California"
+    },
+    {
+      "Sourced Statement": "migrants sometimes huddle under the towers for protection from the elements, while nonprofits are the only groups providing food, water and blankets amid dropping temperatures.",
+      "Name of Source": "migrants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "migrants sometimes huddle under the towers for protection from the elements"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "the agency has received more than $700 million in funding for surveillance since fiscal year 2017, according to a 2021 report by the Office of Inspector General.",
+      "Name of Source": "Office of Inspector General",
+      "Type of Source": "Document",
+      "Source Justification": "a 2021 report by the Office of Inspector General"
+    },
+    {
+      "Sourced Statement": "the Department of Homeland Security has a budget of $103.2 billion, with an extra $4.7 billion in a Southwest border contingency fund, for fiscal 2024.",
+      "Name of Source": "Department of Homeland Security",
+      "Type of Source": "Document",
+      "Source Justification": "the Department of Homeland Security has a budget of $103.2 billion"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“That’s where we’ve seen a huge number of these towers go up,” said Dave Maass, the nonprofit’s director of investigations.",
+      "Name of Source": "Dave Maass",
+      "Type of Source": "Named Person",
+      "Title of Source": "director of investigations",
+      "Source Justification": "the nonprofit’s director of investigations"
+    },
+    {
+      "Sourced Statement": "“The towers deployed in California have 360-degree, AI-fueled visual and auditory surveillance capabilities,” said Erika Pinheiro, executive director of Al Otro Lado.",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "executive director",
+      "Source Justification": "executive director of Al Otro Lado"
+    },
+    {
+      "Sourced Statement": "“We saw this too under the Trump administration,” Pinheiro said. “When additional funding was allocated for humanitarian support, diapers and formula and things to help the families crossing the border, we saw that Border Patrol spent that money on ATV’s and other surveillance toys that they deployed on the border.",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "executive director",
+      "Source Justification": "executive director of Al Otro Lado"
+    },
+    {
+      "Sourced Statement": "“Where is this money going, if we have babies sitting out in the desert for up to a week at a time without any food or water?” she asked.",
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "executive director",
+      "Source Justification": "executive director of Al Otro Lado"
+    },
+    {
+      "Sourced Statement": "Gov. Gavin Newsom has said California cannot continue providing the same level of humanitarian services for the coming fiscal year that it has in the past along the border, not while it is facing a $38 billion budget shortfall.",
+      "Name of Source": "Gavin Newsom",
+      "Type of Source": "Named Person",
+      "Title of Source": "Governor",
+      "Source Justification": "Gov. Gavin Newsom"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Customs and Border Protection plans to spend about $67.8 million acquiring 277 new surveillance towers and upgrading 191 existing towers along the entire 2,000-mile-long border over the next 14 years, the most recent federal contracts show.",
+      "Name of Source": "Customs and Border Protection",
+      "Type of Source": "Named Organization",
+      "Source Justification": "the most recent federal contracts show"
+    },
+    {
+      "Sourced Statement": "The Department of Homeland Security “has also acknowledged the need for better coordination, communication, and oversight,” it said in its 2021 report on its border technology.",
+      "Name of Source": "Department of Homeland Security",
+      "Type of Source": "Named Organization",
+      "Source Justification": "its 2021 report on its border technology"
+    },
+    {
+      "Sourced Statement": "Anduril did not respond to a request for comment.",
+      "Name of Source": "Anduril",
+      "Type of Source": "Named Organization",
+      "Source Justification": "did not respond to a request for comment"
+    },
+    {
+      "Sourced Statement": "Customs and Border Protection also awarded contracts for surveillance equipment to General Dynamics, Advanced Technology Systems Company, and Elbit America.",
+      "Name of Source": "Customs and Border Protection",
+      "Type of Source": "Named Organization",
+      "Source Justification": "also awarded contracts for surveillance equipment"
+    },
+    {
+      "Sourced Statement": "The California Coastal Commission has approved Customs and Border Protection’s request to erect temporary surveillance towers in Del Mar, an affluent coastal town about 35 miles away from the border, and on the Vandenberg Air Force Base in Santa Barbara County, about 295 miles from the San Ysidro border crossing.",
+      "Name of Source": "California Coastal Commission",
+      "Type of Source": "Named Organization",
+      "Source Justification": "has approved Customs and Border Protection’s request"
+    }
+  ]
+}

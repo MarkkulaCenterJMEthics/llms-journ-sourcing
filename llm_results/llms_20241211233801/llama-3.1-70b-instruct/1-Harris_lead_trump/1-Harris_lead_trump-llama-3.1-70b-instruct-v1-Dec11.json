@@ -1,0 +1,83 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Some 73% of Democratic registered voters in the Reuters/Ipsos poll said they were more excited about voting in November after Harris entered the race.",
+      "Name of Source": "Democratic registered voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Respondents to the Reuters/Ipsos poll; used to gauge enthusiasm among Democratic voters"
+    },
+    {
+      "Sourced Statement": "And while a March Reuters/Ipsos poll found that 61% respondents who intended to vote for Biden were doing so mainly to stop Trump, 52% of Harris voters in the August poll were voting to support her as a candidate rather than primarily to oppose Trump.",
+      "Name of Source": "Respondents to the Reuters/Ipsos poll (March and August)",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Respondents to the Reuters/Ipsos poll; used to compare voting motivations between Biden and Harris supporters"
+    },
+    {
+      "Sourced Statement": "Voters picked Trump as having a better approach to managing the U.S. economy, 45% to 36%...",
+      "Name of Source": "Voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Respondents to the Reuters/Ipsos poll; used to gauge opinions on economic management"
+    },
+    {
+      "Sourced Statement": "Some 41% of voters in the poll - and 70% of Democrats - said they were worried the next president might sign a national ban on abortions.",
+      "Name of Source": "Voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Respondents to the Reuters/Ipsos poll; used to gauge concerns about abortion policy"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "Across four Reuters/Ipsos polls conducted in July, Harris had a 9 point lead among women and a 6 point lead among Hispanics.",
+      "Name of Source": "Reuters/Ipsos polls (July)",
+      "Type of Source": "Document",
+      "Source Justification": "Previous polls conducted by Reuters/Ipsos; used to compare current lead with past results"
+    },
+    {
+      "Sourced Statement": "A separate Bloomberg News/Morning Consult poll published later on Thursday showed that Harris was either leading or tied with Trump in each of those states.",
+      "Name of Source": "Bloomberg News/Morning Consult poll",
+      "Type of Source": "Document",
+      "Source Justification": "External poll published by Bloomberg News/Morning Consult; used to provide additional context on state-level results"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"It's obvious that running against Harris is more challenging for Trump given the shift in these numbers, but it's certainly not insurmountable,\"",
+      "Name of Source": "Matt Wolking",
+      "Type of Source": "Named Person",
+      "Title of Source": "Republican campaign strategist",
+      "Source Justification": "Worked on Trump's 2020 campaign; providing expert analysis on the challenges of running against Harris"
+    },
+    {
+      "Sourced Statement": "\"We see it in this poll that people are more motivated about the future than the past,\"",
+      "Name of Source": "Aimee Allison",
+      "Type of Source": "Named Person",
+      "Title of Source": "Founder of She the People",
+      "Source Justification": "Representing a liberal group aiming to grow the numbers of women of color in elected office; providing interpretation of poll results"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Reuters/Ipsos poll published on Thursday...",
+      "Name of Source": "Reuters/Ipsos",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Conductor of the poll; providing data on the presidential race"
+    },
+    {
+      "Sourced Statement": "She the People, a liberal group that aims to grow the numbers of women of color in elected office.",
+      "Name of Source": "She the People",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Context for Aimee Allison's quote; representing the organization's mission"
+    },
+    {
+      "Sourced Statement": "Bloomberg News/Morning Consult poll published later on Thursday...",
+      "Name of Source": "Bloomberg News/Morning Consult",
+      "Type of Source": "Named Organization",
+      "Source Justification": "External source providing additional poll data; used for comparison with Reuters/Ipsos poll"
+    }
+  ]
+}

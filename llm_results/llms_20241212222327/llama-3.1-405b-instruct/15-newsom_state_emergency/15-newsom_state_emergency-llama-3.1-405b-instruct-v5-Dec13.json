@@ -1,0 +1,68 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Impacted residents, many of whom are older, have disabilities and bought their homes decades ago, have experienced a range of difficult emotions as they’ve been displaced in recent months and watched their community dramatically change due to the land movement.",
+      "Name of Source": "residents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "impacted residents"
+    },
+    {
+      "Sourced Statement": "Some say they weren’t given sufficient warning about the power shutoffs and aren’t sure where to go.",
+      "Name of Source": "residents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "impacted residents"
+    },
+    {
+      "Sourced Statement": "Others plan to stay.",
+      "Name of Source": "residents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "impacted residents"
+    }
+  ],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“The land movement has created a dangerous situation, and Edison is deciding to disconnect to keep that community safe,”",
+      "Name of Source": "Jim Hanggi",
+      "Type of Source": "Named Person",
+      "Title of Source": "spokesperson for Southern California Edison",
+      "Source Justification": "a spokesperson for the utility"
+    },
+    {
+      "Sourced Statement": "“We’re hearing that our residents want to stay in their homes, and we're doing everything we can to keep them in their homes,”",
+      "Name of Source": "John Cruikshank",
+      "Type of Source": "Named Person",
+      "Title of Source": "Mayor of Rancho Palos Verdes",
+      "Source Justification": "the city’s mayor"
+    },
+    {
+      "Sourced Statement": "“We're going to do everything we can to push the governor and the federal government to provide them funds.”",
+      "Name of Source": "John Cruikshank",
+      "Type of Source": "Named Person",
+      "Title of Source": "Mayor of Rancho Palos Verdes",
+      "Source Justification": "the city’s mayor"
+    },
+    {
+      "Sourced Statement": "“I plan to move into a tiny home on my property and bought four generators to power it.”",
+      "Name of Source": "Gordon Leon",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "an impacted resident"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "A spokesperson for Southern California Edison on Monday said the power outages will impact some homes longer than others:",
+      "Name of Source": "Southern California Edison",
+      "Type of Source": "Named Organization",
+      "Source Justification": "a utility company"
+    },
+    {
+      "Sourced Statement": "On Thursday, SoCalGas announced that it was shutting off gas service to additional 29 homes in the western Seaview area and another 25 homes in the Portuguese Bend Beach Club starting at 3 p.m. Friday.",
+      "Name of Source": "SoCalGas",
+      "Type of Source": "Named Organization",
+      "Source Justification": "a utility company"
+    }
+  ]
+}

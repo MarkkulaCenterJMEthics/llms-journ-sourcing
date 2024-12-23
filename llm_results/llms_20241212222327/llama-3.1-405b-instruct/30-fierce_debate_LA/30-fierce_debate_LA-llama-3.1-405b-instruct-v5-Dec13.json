@@ -1,0 +1,112 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "About 59% of the city’s renters spend more than 30% of their income on rent, a level considered unaffordable by federal government standards.",
+      "Name of Source": "renters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Housing costs are a major burden for many L.A. households."
+    },
+    {
+      "Sourced Statement": "About one-fifth of L.A. renters are living below the federal poverty line.",
+      "Name of Source": "renters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Housing costs are a major burden for many L.A. households."
+    },
+    {
+      "Sourced Statement": "Just over half of those renters spend 90% of their income or more on rent.",
+      "Name of Source": "renters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Housing costs are a major burden for many L.A. households."
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Over the course of 193 pages, the report offers an extensive analysis of the L.A. rental housing market, challenges facing both tenants and landlords, and the impact of the city’s Rent Stabilization Ordinance.",
+      "Name of Source": "Economic Roundtable",
+      "Type of Source": "Document",
+      "Source Justification": "LAist obtained the report through a public records request."
+    },
+    {
+      "Sourced Statement": "The report notes that because L.A. has a 3% floor on annual increases — even in years when the consumer price index is lower — landlords have often been allowed to raise rents above inflation.",
+      "Name of Source": "Economic Roundtable",
+      "Type of Source": "Document",
+      "Source Justification": "LAist obtained the report through a public records request."
+    },
+    {
+      "Sourced Statement": "The report recommends changing the formula for deciding annual increases for rent-controlled apartments.",
+      "Name of Source": "Economic Roundtable",
+      "Type of Source": "Document",
+      "Source Justification": "LAist obtained the report through a public records request."
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“What [the report] is trying to do is make a PR effort to lay the groundwork to chip away at what little ability landlords have in L.A. to be able to raise rents and be able to keep up with their costs,” Yukelson said.",
+      "Name of Source": "Daniel Yukelson",
+      "Type of Source": "Named Person",
+      "Title of Source": "Apartment Association of Greater Los Angeles representative",
+      "Source Justification": "LAist shared the report with advocates for landlords and tenants."
+    },
+    {
+      "Sourced Statement": "“Small landlords are able to maintain their profits and draw income above their expenses — they haven't been overly burdened by rent stabilization,” said Christina Boyar, a legal fellow with Public Counsel and a member of the Keep L.A. Housed coalition.",
+      "Name of Source": "Christina Boyar",
+      "Type of Source": "Named Person",
+      "Title of Source": "Legal fellow with Public Counsel and a member of the Keep L.A. Housed coalition",
+      "Source Justification": "LAist shared the report with advocates for landlords and tenants."
+    },
+    {
+      "Sourced Statement": "“The cost of electricity is just going to continue going up,” Yukelson with the Apartment Association said.",
+      "Name of Source": "Daniel Yukelson",
+      "Type of Source": "Named Person",
+      "Title of Source": "Apartment Association of Greater Los Angeles representative",
+      "Source Justification": "LAist shared the report with advocates for landlords and tenants."
+    },
+    {
+      "Sourced Statement": "“As we await the finalized version of this report, it’s heartening to see so much data supporting the policy changes that renters have been demanding — especially when it comes to preventing excessive rent increases that can devastate working families,” Soto-Martínez told LAist.",
+      "Name of Source": "Hugo Soto-Martínez",
+      "Type of Source": "Named Person",
+      "Title of Source": "Council member",
+      "Source Justification": "Soto-Martinez, one of the council members who requested the report be commissioned — has already called for capping increases at 3%."
+    },
+    {
+      "Sourced Statement": "“The substance of the report is final. It was submitted as a final report and accepted by the city as a final work product,” Flaming said.",
+      "Name of Source": "Daniel Flaming",
+      "Type of Source": "Named Person",
+      "Title of Source": "President of the Economic Roundtable and a co-author of the report",
+      "Source Justification": "Flaming said he didn’t have a good answer for why the report was kept under wraps."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Economic Roundtable, the nonprofit research organization the city commissioned to carry out the study, submitted its report to the L.A. Housing Department.",
+      "Name of Source": "Economic Roundtable",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The city commissioned the Economic Roundtable to carry out the study."
+    },
+    {
+      "Sourced Statement": "The city’s housing officials have been in possession of the Economic Roundtable report since May.",
+      "Name of Source": "Economic Roundtable",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The city commissioned the Economic Roundtable to carry out the study."
+    },
+    {
+      "Sourced Statement": "LAist obtained the report through a public records request.",
+      "Name of Source": "LAist",
+      "Type of Source": "Named Organization",
+      "Source Justification": "LAist obtained the report through a public records request."
+    },
+    {
+      "Sourced Statement": "The National Apartment Association, a trade group for property owners, concluding that California landlords earn 7 cents of profit on average for every dollar of rent.",
+      "Name of Source": "National Apartment Association",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Landlord advocates strongly disputed the report’s conclusions."
+    },
+    {
+      "Sourced Statement": "The Apartment Association of Greater Los Angeles pointed to recent data from the National Apartment Association.",
+      "Name of Source": "Apartment Association of Greater Los Angeles",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Landlord advocates strongly disputed the report’s conclusions."
+    }
+  ]
+}

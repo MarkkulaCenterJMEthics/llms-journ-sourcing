@@ -1,0 +1,92 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "“Why didn’t you do your job? You knew months ago that the water was contaminated. You didn’t act, and you let those kids come back to school and drink poisoned water,”",
+      "Name of Source": "Community members",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "pointed out that other districts have lower thresholds for remediation; spoke at the school board meeting"
+    },
+    {
+      "Sourced Statement": "“Now who is going to cover our medical bills? I demand you test all the kids in the district. I want to find out which kids are sick with lead poisoning!”",
+      "Name of Source": "Community members",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "pointed out that other districts have lower thresholds for remediation; spoke at the school board meeting"
+    },
+    {
+      "Sourced Statement": "Teachers from Frick United Academy of Language demanded to know why, if testing took place in April, fountains weren’t shut down until August.",
+      "Name of Source": "Teachers",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "from Frick United Academy of Language; raised concerns about the delayed shutdown of water fountains"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "In 2017, when OUSD was considering its clean drinking water policy, the cost to upgrade all the pipes would have been $38 million, Thomas said. Today, that number could be $50 or $60 million.",
+      "Name of Source": "OUSD’s clean drinking water policy document (2017)",
+      "Type of Source": "Document",
+      "Source Justification": "referenced by Preston Thomas to explain the estimated cost of upgrading pipes"
+    },
+    {
+      "Sourced Statement": "The district’s safe drinking water policy states that any water sources showing lead at above 5 parts per billion must be taken offline and repaired.",
+      "Name of Source": "OUSD’s safe drinking water policy",
+      "Type of Source": "Document",
+      "Source Justification": "cited to explain the district’s protocol for addressing lead contamination"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“This mistake has caused families stress, anxiety and panic, further limiting our community’s trust in this district,”",
+      "Name of Source": "Max Simmons",
+      "Type of Source": "Named Person",
+      "Title of Source": "OUSD Student Director",
+      "Source Justification": "expressing concerns as a student representative"
+    },
+    {
+      "Sourced Statement": "“I sincerely apologize for the stress and concern this has caused our school sites, students and families. We understand the gravity of this situation and we are fully committed to taking immediate, transparent and corrective action,”",
+      "Name of Source": "Kyla Johnson-Trammell",
+      "Type of Source": "Named Person",
+      "Title of Source": "Superintendent",
+      "Source Justification": "apologizing and committing to action as the district’s leader"
+    },
+    {
+      "Sourced Statement": "“There is so much trust rebuilding that has to be done for our community. We have failed. And when I say ‘we’ I mean OUSD has failed at its most basic job of not poisoning our students,”",
+      "Name of Source": "Stuart Loebl",
+      "Type of Source": "Named Person",
+      "Title of Source": "Sixth-grade Science Teacher at Frick United Academy of Language",
+      "Source Justification": "expressing concerns and criticism as a teacher"
+    },
+    {
+      "Sourced Statement": "“Why didn’t you do your job? You knew months ago that the water was contaminated. You didn’t act, and you let those kids come back to school and drink poisoned water,”",
+      "Name of Source": "Marina Muñoz",
+      "Type of Source": "Named Person",
+      "Title of Source": "Parent at Madison Park Academy and Organizer with Communities for a Better Environment",
+      "Source Justification": "speaking as a concerned parent and community organizer"
+    },
+    {
+      "Sourced Statement": "“This is not new to Oakland, but it is something that we need to tackle as an entire city, and we need to have community partners, philanthropic partners, as well as our county and state folks to support us in dealing with this issue,”",
+      "Name of Source": "Valarie Bachelor",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director and Chair of OUSD’s Facilities Committee",
+      "Source Justification": "discussing the need for collaborative efforts to address the issue"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Alameda County recommends that any families who were notified that their schools had elevated lead levels should get their child a blood lead test.",
+      "Name of Source": "Alameda County",
+      "Type of Source": "Named Organization",
+      "Source Justification": "providing health guidance for affected families"
+    },
+    {
+      "Sourced Statement": "In Berkeley Unified, water fixtures testing above 1 part per billion are taken offline and repaired.",
+      "Name of Source": "Berkeley Unified",
+      "Type of Source": "Named Organization",
+      "Source Justification": "used as a comparison to highlight different lead remediation thresholds"
+    }
+  ]
+}

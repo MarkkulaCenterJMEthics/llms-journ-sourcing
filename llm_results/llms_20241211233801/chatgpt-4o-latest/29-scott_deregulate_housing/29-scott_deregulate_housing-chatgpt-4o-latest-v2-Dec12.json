@@ -1,0 +1,33 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "More than 80% of housing properties that have received D.C. funding aren't bringing in enough rental income to pay their mortgages and maintenance costs, according to the District's Department of Housing and Community Development.",
+      "Name of Source": "District's Department of Housing and Community Development",
+      "Type of Source": "Document",
+      "Source Justification": "The statement provides data on the financial struggles of subsidized housing in D.C., sourced from the District's Department of Housing and Community Development."
+    },
+    {
+      "Sourced Statement": "The scale of the crisis is viewed as existential: 22,000 units that house 48,000 vulnerable residents are at risk of foreclosure today, according to DHCD.",
+      "Name of Source": "District's Department of Housing and Community Development",
+      "Type of Source": "Document",
+      "Source Justification": "The statement highlights the extent of the affordable housing crisis in D.C., with data attributed to the District's Department of Housing and Community Development."
+    }
+  ],
+  "Named Person Sources": [],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Earlier this month, researchers Jacob Krimmel and Betty X. Wang published a new study confirming the complaints of MHA's critics.",
+      "Name of Source": "Jacob Krimmel and Betty X. Wang",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The researchers conducted a study that provides evidence supporting criticisms of Seattle's Mandatory Housing Affordability program."
+    },
+    {
+      "Sourced Statement": "HUD told me in a statement that AHF 'is part of a team that applied for these awards. The team is not only eligible, but the best qualified applicant.'",
+      "Name of Source": "U.S. Department of Housing and Urban Development (HUD)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "HUD is the federal agency responsible for awarding the grant and justifying its decision to include AHF despite its controversial track record."
+    }
+  ]
+}

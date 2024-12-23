@@ -1,0 +1,79 @@
+{
+  "Anonymous Sources": [
+    {
+      "Sourced Statement": "",
+      "Name of Source": "null",
+      "Type of Source": "Anonymous Source",
+      "Title of Source": "",
+      "Source Justification": ""
+    }
+    // **No Anonymous Sources found in the article**
+  ],
+
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Developers intentionally avoided MHA-zoned areas – despite their upzoning– opting instead to build on nearby blocks without affordability requirements.",
+      "Name of Source": "Developers",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Researchers Jacob Krimmel and Betty X. Wang published a new study confirming the complaints of MHA's critics."
+    },
+    {
+      "Sourced Statement": "Many tenants continue living in units without paying rent and rack up tens of thousands of dollars in debts, a massive financial hole that is difficult to escape from.",
+      "Name of Source": "Tenants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Landlords are blaming the situation on a mix of higher operating costs and the housing court delays caused by D.C.'s pandemic-era eviction policies."
+    }
+  ],
+
+  "Document Sources": [
+    {
+      "Sourced Statement": "A detailed Los Angeles Times investigation published in November 2023 reported a number of issues at AHF-owned properties...",
+      "Name of Source": "Los Angeles Times",
+      "Type of Source": "Document",
+      "Source Justification": "Investigation published in November 2023"
+    },
+    {
+      "Sourced Statement": "More than 80% of housing properties that have received D.C. funding aren't bringing in enough rental income to pay their mortgages and maintenance costs, according to the District's Department of Housing and Community Development.",
+      "Name of Source": "District's Department of Housing and Community Development",
+      "Type of Source": "Document",
+      "Source Justification": "Official report or data"
+    },
+    {
+      "Sourced Statement": "Delinquencies have risen dramatically, the report [by Apartment and Office Building Association] concludes, because of D.C.'s pandemic-era policies...",
+      "Name of Source": "Apartment and Office Building Association",
+      "Type of Source": "Document",
+      "Source Justification": "Report by the Association"
+    }
+  ],
+
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "",
+      "Name of Source": "",
+      "Type of Source": "",
+      "Title of Source": "",
+      "Source Justification": ""
+    }
+    // **Only mentions of people without direct quotes or sourced statements:**
+    // - Sen. Tim Scott (R–S.C.) - Introduced the Renewing Opportunity in the American Dream (ROAD) to Housing Act
+    // - Christian Britschgi - Author of the newsletter 'Rent Free'
+    // - Jacob Krimmel - Researcher, co-authored a study
+    // - Betty X. Wang - Researcher, co-authored a study
+    // - Kevin Erdmann - Mentioned in 'Quick Links' section
+  ],
+
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "HUD told me in a statement that AHF 'is part of a team that applied for these awards. The team is not only eligible, but the best qualified applicant.'",
+      "Name of Source": "U.S. Department of Housing and Urban Development (HUD)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Official statement from HUD regarding the grant to AHF"
+    },
+    {
+      "Sourced Statement": "",
+      "Name of Source": "AIDS Healthcare Foundation (AHF)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Recipient of a $10 million 'tenant empowerment' grant, also mentioned for managing residential properties with reported issues"
+    }
+  ]
+}

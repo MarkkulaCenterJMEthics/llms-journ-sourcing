@@ -1,0 +1,72 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "McGuire will face Democrat Gloria Witt in the November general election, with both hoping to represent the Fifth District in the U.S. House of Representatives.",
+      "Name of Source": "null",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "null"
+    },
+    {
+      "Sourced Statement": "Thousands... who volunteered, contributed, prayed, and supported my re-election campaign.",
+      "Name of Source": "supporters of Congressman Good",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "involved in Congressman Good's re-election campaign"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "Under Virginia law, localities relative to this election are required to cover the cost of a recount when the margin of error is at or below .5 percent.",
+      "Name of Source": "Virginia Law",
+      "Type of Source": "Document",
+      "Source Justification": "governing election recount costs in Virginia"
+    },
+    {
+      "Sourced Statement": "On August 1, a three-panel recount court reviewed the election returns that officials from 24 localities transported to the Goochland County Circuit Court.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "official election returns from 24 localities"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“This recount reaffirmed what we already knew from the June 18th primary. It really is amazing what we can achieve when we work as a team. ...”",
+      "Name of Source": "John McGuire",
+      "Type of Source": "Named Person",
+      "Title of Source": "State Senator",
+      "Source Justification": "VA 05 Republican nominee, former Navy Seal"
+    },
+    {
+      "Sourced Statement": "“We have secure and fair elections in Virginia, and Virginians can have confidence in the final results of this race,”",
+      "Name of Source": "Glenn Youngkin",
+      "Type of Source": "Named Person",
+      "Title of Source": "Governor",
+      "Source Justification": "commenting on the integrity of the recount"
+    },
+    {
+      "Sourced Statement": "“I want to thank the more than 31,000 voters of the 5th District who voted for me in the June 18 primary, ...”",
+      "Name of Source": "Bob Good",
+      "Type of Source": "Named Person",
+      "Title of Source": "Congressman, Chair for the House Freedom Caucus",
+      "Source Justification": "incumbent Representative for Virginia’s 5th District"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Prior to the election, Senator John McGuire was endorsed by former President Donald J. Trump.",
+      "Name of Source": "null",
+      "Type of Source": "Named Organization",
+      "Source Justification": "null"
+    },
+    {
+      "Sourced Statement": "After cementing his victory as the Representative for the Fifth District, many of his Republican colleagues congratulated him on a hard fought victory, ...",
+      "Name of Source": "Republican Party",
+      "Type of Source": "Named Organization",
+      "Source Justification": "McGuire's party affiliation"
+    }
+  ]
+}

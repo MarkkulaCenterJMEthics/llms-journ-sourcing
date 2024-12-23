@@ -1,0 +1,59 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "“We are grateful that the City of Oakland is holding Southwest accountable. We hope that Southwest policies and practices will finally change for good,”",
+      "Name of Source": "Southwest employees (specifically, those represented by the Transport Workers Union of America Local 555)",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "represented by Eric Swygert, an elected ramp representative with the Transport Workers Union of America Local 555"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "According to the complaint, Southwest has been denying some of its workers in Oakland the right to use earned paid sick leave.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "complaint filed in Alameda County Superior Court"
+    },
+    {
+      "Sourced Statement": "In December 2020, the city and Southwest signed a settlement in which, among other things, the airline agreed to fully restore the sick leave hours it had canceled for certain workers between 2017 and 2020.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "existing settlement agreement between the city and Southwest"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“The City of Oakland is committed to protecting workers by ensuring that all employers in Oakland are complying with laws that protect their rights,”",
+      "Name of Source": "Barbara Parker",
+      "Type of Source": "Named Person",
+      "Title of Source": "City Attorney",
+      "Source Justification": "authority on labor laws in Oakland"
+    },
+    {
+      "Sourced Statement": "“We are grateful that the City of Oakland is holding Southwest accountable. We hope that Southwest policies and practices will finally change for good,”",
+      "Name of Source": "Eric Swygert",
+      "Type of Source": "Named Person",
+      "Title of Source": "elected ramp representative with the Transport Workers Union of America Local 555",
+      "Source Justification": "Southwest employee and representative of affected workers"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "A Southwest spokesperson told The Oaklandside that the assertion that any Oakland employee was forced to work while sick or take unpaid absences is unfounded.",
+      "Name of Source": "Southwest Airlines",
+      "Type of Source": "Named Organization",
+      "Source Justification": "defending against allegations made by the City of Oakland"
+    },
+    {
+      "Sourced Statement": "Last year, this relatively new department ordered a Radisson Hotel in East Oakland to pay $404,491 to workers who were allegedly underpaid for nearly a year.",
+      "Name of Source": "Oakland’s Department of Workforce Employment Standards",
+      "Type of Source": "Named Organization",
+      "Source Justification": "enforcer of wage and hour laws in the city"
+    }
+  ]
+}

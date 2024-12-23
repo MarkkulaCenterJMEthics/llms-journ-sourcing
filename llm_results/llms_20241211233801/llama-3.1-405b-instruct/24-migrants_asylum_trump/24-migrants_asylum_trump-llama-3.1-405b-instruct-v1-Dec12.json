@@ -1,0 +1,62 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Fifty-two percent of 170 respondents said they need more information about what will happen to asylum.",
+      "Name of Source": "respondents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Spanish-speaking readers who responded to a survey"
+    },
+    {
+      "Sourced Statement": "At least 4,335 children were separated from their parents due to this policy.",
+      "Name of Source": "children",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "children who were separated from their parents due to the 'zero-tolerance' policy"
+    },
+    {
+      "Sourced Statement": "More than 2.8 million people were expelled due to the reinterpretation of Title 42.",
+      "Name of Source": "people",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "people who were expelled due to the reinterpretation of Title 42"
+    }
+  ],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“There is concern that they’ll [asylum restrictions] actually be implemented more effectively.",
+      "Name of Source": "Brian Manning",
+      "Type of Source": "Named Person",
+      "Title of Source": "political asylum lawyer and former government asylum officer",
+      "Source Justification": "expert in asylum law and former government asylum officer"
+    },
+    {
+      "Sourced Statement": "“It is safe to assume that after the many missteps of his first presidency, that his administration would be better equipped to learn from their past mistakes and more effectively attack immigrant communities from the White House.”",
+      "Name of Source": "Marlene Galaz",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Immigrant Rights Policy, New York Immigration Coalition",
+      "Source Justification": "Director of Immigrant Rights Policy at the New York Immigration Coalition"
+    },
+    {
+      "Sourced Statement": "“The stuff about immigration is pretty severe.",
+      "Name of Source": "Brian Manning",
+      "Type of Source": "Named Person",
+      "Title of Source": "political asylum lawyer and former government asylum officer",
+      "Source Justification": "expert in asylum law and former government asylum officer"
+    },
+    {
+      "Sourced Statement": "“We anticipate the president, Trump, to use its executive authority to implement these policies — but again, we anticipate we should be able to challenge,”",
+      "Name of Source": "Nils Kinuani",
+      "Type of Source": "Named Person",
+      "Title of Source": "Federal Policy Manager at African Communities Together (ACT)",
+      "Source Justification": "Federal Policy Manager at African Communities Together (ACT)"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "As Documented covered in the past, this led to the expulsion of more than 2.8 million people.",
+      "Name of Source": "Documented",
+      "Type of Source": "Named Organization",
+      "Source Justification": "news organization that has covered the topic in the past"
+    }
+  ]
+}

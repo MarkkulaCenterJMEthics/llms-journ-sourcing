@@ -1,0 +1,110 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Some 73% of Democratic registered voters in the Reuters/Ipsos poll said they were more excited about voting in November after Harris entered the race.",
+      "Name of Source": "Democratic registered voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Democratic registered voters are a key demographic in the election and their enthusiasm is a significant indicator of Harris's impact on the race."
+    },
+    {
+      "Sourced Statement": "And while a March Reuters/Ipsos poll found that 61% respondents who intended to vote for Biden were doing so mainly to stop Trump, 52% of Harris voters in the August poll were voting to support her as a candidate rather than primarily to oppose Trump.",
+      "Name of Source": "Harris voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Harris voters represent a shift in voter motivation, highlighting her appeal as a candidate rather than just opposition to Trump."
+    },
+    {
+      "Sourced Statement": "But Trump voters also voiced enthusiasm about their candidate, with 64% saying their choice was more motivated by backing Trump than opposing Harris.",
+      "Name of Source": "Trump voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Trump voters' enthusiasm reflects the strength of his base and their motivations in the election."
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Democrat Kamala Harris leads Republican Donald Trump 45% to 41% in a Reuters/Ipsos poll published on Thursday that showed the vice president sparking new enthusiasm among voters and shaking up the race ahead of the Nov. 5 election.",
+      "Name of Source": "Reuters/Ipsos poll",
+      "Type of Source": "Document",
+      "Source Justification": "The Reuters/Ipsos poll provides statistical data on voter preferences and trends, serving as a foundation for the article's analysis."
+    },
+    {
+      "Sourced Statement": "The 4 percentage point advantage among registered voters was wider than a 1 point lead Harris held over the former president in a late July Reuters/Ipsos poll.",
+      "Name of Source": "Reuters/Ipsos poll",
+      "Type of Source": "Document",
+      "Source Justification": "The Reuters/Ipsos poll offers a comparison of voter preferences over time, illustrating Harris's growing lead."
+    },
+    {
+      "Sourced Statement": "The new poll, which was conducted in the eight days ended Wednesday and had a 2 percentage point margin of error, showed Harris picking up support among women and Hispanics.",
+      "Name of Source": "Reuters/Ipsos poll",
+      "Type of Source": "Document",
+      "Source Justification": "The Reuters/Ipsos poll provides detailed demographic insights into Harris's support base."
+    },
+    {
+      "Sourced Statement": "Across four Reuters/Ipsos polls conducted in July, Harris had a 9 point lead among women and a 6 point lead among Hispanics.",
+      "Name of Source": "Reuters/Ipsos poll",
+      "Type of Source": "Document",
+      "Source Justification": "The Reuters/Ipsos poll tracks changes in voter demographics over time, highlighting trends in Harris's support."
+    },
+    {
+      "Sourced Statement": "A separate Bloomberg News/Morning Consult poll published later on Thursday showed that Harris was either leading or tied with Trump in each of those states.",
+      "Name of Source": "Bloomberg News/Morning Consult poll",
+      "Type of Source": "Document",
+      "Source Justification": "The Bloomberg News/Morning Consult poll provides additional data on Harris's performance in key battleground states."
+    },
+    {
+      "Sourced Statement": "That poll showed Harris led Trump by 2 percentage points among registered voters across the seven states and was ahead by 1 point — a statistical tie — among likely voters.",
+      "Name of Source": "Bloomberg News/Morning Consult poll",
+      "Type of Source": "Document",
+      "Source Justification": "The Bloomberg News/Morning Consult poll offers specific insights into voter preferences in battleground states."
+    },
+    {
+      "Sourced Statement": "Voters picked Trump as having a better approach to managing the U.S. economy, 45% to 36%, a wider margin than Trump had in another Reuters/Ipsos poll this week.",
+      "Name of Source": "Reuters/Ipsos poll",
+      "Type of Source": "Document",
+      "Source Justification": "The Reuters/Ipsos poll provides data on voter perceptions of candidates' economic policies."
+    },
+    {
+      "Sourced Statement": "Harris, by contrast, had a 47% to 31% advantage on abortion policy.",
+      "Name of Source": "Reuters/Ipsos poll",
+      "Type of Source": "Document",
+      "Source Justification": "The Reuters/Ipsos poll highlights voter preferences on key policy issues like abortion."
+    },
+    {
+      "Sourced Statement": "The poll was conducted nationally and gathered responses from 4,253 U.S. adults, including 3,562 registered voters.",
+      "Name of Source": "Reuters/Ipsos poll",
+      "Type of Source": "Document",
+      "Source Justification": "The Reuters/Ipsos poll provides the methodology and scope of the survey, ensuring transparency and credibility."
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"It's obvious that running against Harris is more challenging for Trump given the shift in these numbers, but it's certainly not insurmountable,\" Matt Wolking, a Republican campaign strategist who worked on Trump's 2020 campaign, said in response to the Reuters/Ipsos poll results.",
+      "Name of Source": "Matt Wolking",
+      "Type of Source": "Named Person",
+      "Title of Source": "Republican campaign strategist",
+      "Source Justification": "Matt Wolking is a Republican campaign strategist with experience on Trump's 2020 campaign, providing expert analysis on the poll results."
+    },
+    {
+      "Sourced Statement": "He said Trump needs to stay as focused as possible in his campaign \"so he's not scaring\" away voters who were leaning his way because they didn't like Biden.",
+      "Name of Source": "Matt Wolking",
+      "Type of Source": "Named Person",
+      "Title of Source": "Republican campaign strategist",
+      "Source Justification": "Matt Wolking is a Republican campaign strategist with experience on Trump's 2020 campaign, providing expert analysis on the poll results."
+    },
+    {
+      "Sourced Statement": "\"We see it in this poll that people are more motivated about the future than the past,\" said Aimee Allison, founder of She the People, a liberal group that aims to grow the numbers of women of color in elected office.",
+      "Name of Source": "Aimee Allison",
+      "Type of Source": "Named Person",
+      "Title of Source": "Founder of She the People",
+      "Source Justification": "Aimee Allison is the founder of She the People, a liberal group focused on increasing the representation of women of color in elected office, providing insight into voter motivations."
+    },
+    {
+      "Sourced Statement": "\"They see Kamala Harris as the future, and Republicans see this election as just about Trump. Voters are more likely to be engaged when given the option of 'more than' beating Trump.\"",
+      "Name of Source": "Aimee Allison",
+      "Type of Source": "Named Person",
+      "Title of Source": "Founder of She the People",
+      "Source Justification": "Aimee Allison is the founder of She the People, a liberal group focused on increasing the representation of women of color in elected office, providing insight into voter motivations."
+    }
+  ],
+  "Named Organization Sources": []
+}

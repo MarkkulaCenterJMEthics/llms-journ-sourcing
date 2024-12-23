@@ -1,0 +1,110 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Dozens of migrants at a time have waited in makeshift camps in California — enduring the barren desert with little food, water or shelter — for hours or sometimes a day or more.",
+      "Name of Source": "migrants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "waiting in makeshift camps in California; enduring harsh conditions"
+    },
+    {
+      "Sourced Statement": "Migrants sometimes huddle under the towers for protection from the elements, while nonprofits are the only groups providing food, water and blankets amid dropping temperatures.",
+      "Name of Source": "migrants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "seeking protection from the elements; receiving aid from nonprofits"
+    },
+    {
+      "Sourced Statement": "People have lived on the border longer than the United States has been a country.",
+      "Name of Source": "residents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "long-time residents of the border area"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "U.S. Customs and Border Protection plans to spend about $67.8 million acquiring 277 new surveillance towers and upgrading 191 existing towers along the entire 2,000-mile-long border over the next 14 years, the most recent federal contracts show.",
+      "Name of Source": "federal contracts",
+      "Type of Source": "Document",
+      "Source Justification": "most recent federal contracts"
+    },
+    {
+      "Sourced Statement": "The agency has received more than $700 million in funding for surveillance since fiscal year 2017, according to a 2021 report by the Office of Inspector General.",
+      "Name of Source": "Office of Inspector General report (2021)",
+      "Type of Source": "Document",
+      "Source Justification": "2021 report by the Office of Inspector General"
+    },
+    {
+      "Sourced Statement": "The Department of Homeland Security “has also acknowledged the need for better coordination, communication, and oversight,” it said in its 2021 report on its border technology.",
+      "Name of Source": "Department of Homeland Security report (2021)",
+      "Type of Source": "Document",
+      "Source Justification": "2021 report on border technology"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": “That’s where we’ve seen a huge number of these towers go up,”,
+      "Name of Source": "Dave Maass",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Investigations, Electronic Frontier Foundation",
+      "Source Justification": "tracking the rapid expansion of installations of Anduril and other towers"
+    },
+    {
+      "Sourced Statement": “These towers aren’t checking people’s papers,”,
+      "Name of Source": "Dave Maass",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Investigations, Electronic Frontier Foundation",
+      "Source Justification": "expertise on border surveillance"
+    },
+    {
+      "Sourced Statement": “If they wanted to, the government could track the movements of any individual living on the California border,”,
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "Executive Director, Al Otro Lado",
+      "Source Justification": "expertise on humanitarian support for migrants"
+    },
+    {
+      "Sourced Statement": “Where is this money going, if we have babies sitting out in the desert for up to a week at a time without any food or water?”,
+      "Name of Source": "Erika Pinheiro",
+      "Type of Source": "Named Person",
+      "Title of Source": "Executive Director, Al Otro Lado",
+      "Source Justification": "advocating for humanitarian aid"
+    },
+    {
+      "Sourced Statement": "California cannot maintain its efforts without federal support and has continued to advocate to Congress to provide federal funding to local communities that are receiving new arrivals.”,
+      "Name of Source": "Gov. Gavin Newsom's office",
+      "Type of Source": "Named Person (representing an office)",
+      "Title of Source": "Office of the Governor",
+      "Source Justification": "official statement on California's budget and humanitarian efforts"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Customs and Border Protection did not respond to CalMatters’ request for comment.",
+      "Name of Source": "U.S. Customs and Border Protection",
+      "Type of Source": "Named Organization",
+      "Source Justification": "federal agency responsible for border surveillance"
+    },
+    {
+      "Sourced Statement": "The Department of Homeland Security, its parent organization, says the equipment is necessary to detect illegal crossings, keep up with smugglers’ movements and protect the safety of Border Patrol agents.",
+      "Name of Source": "U.S. Department of Homeland Security",
+      "Type of Source": "Named Organization",
+      "Source Justification": "parent organization of Customs and Border Protection"
+    },
+    {
+      "Sourced Statement": "San Francisco-based Electronic Frontier Foundation, a nonprofit that advocates for digital privacy, has been tracking the rapid expansion of installations of Anduril and other towers in the remote regions of eastern San Diego and Imperial counties.",
+      "Name of Source": "Electronic Frontier Foundation",
+      "Type of Source": "Named Organization",
+      "Source Justification": "nonprofit advocating for digital privacy"
+    },
+    {
+      "Sourced Statement": "Al Otro Lado, a nonprofit that provides legal and humanitarian support to refugees, deportees, and other migrants in the U.S. and Tijuana.",
+      "Name of Source": "Al Otro Lado",
+      "Type of Source": "Named Organization",
+      "Source Justification": "nonprofit providing humanitarian support to migrants"
+    }
+  ]
+}

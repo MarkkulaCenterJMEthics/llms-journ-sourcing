@@ -1,0 +1,55 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "More than 60,000 votes were initially cast for both candidates",
+      "Name of Source": "Voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Participants in the June 18 Republican primary for the Fifth Congressional District"
+    },
+    {
+      "Sourced Statement": "Folks in the 5th District can rest assured that should they elect me in November, they will have an effective fighter in Congress who will get the job done.",
+      "Name of Source": "Voters (5th District)",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Constituents of the 5th District, referenced by John McGuire"
+    },
+    {
+      "Sourced Statement": "Thousands who volunteered, contributed, prayed, and supported my re-election campaign.",
+      "Name of Source": "Supporters (Bob Good's campaign)",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Volunteers and supporters of Bob Good's re-election campaign"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Under Virginia law, localities relative to this election are required to cover the cost of a recount when the margin of error is at or below.5 percent.",
+      "Name of Source": "Virginia Law",
+      "Type of Source": "Document",
+      "Source Justification": "Relevant legislation governing election recounts in Virginia"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "This recount reaffirmed what we already knew from the June 18th primary. It really is amazing what we can achieve when we work as a team....",
+      "Name of Source": "John McGuire",
+      "Type of Source": "Named Person",
+      "Title of Source": "State Senator (R-Goochland)",
+      "Source Justification": "Winner of the June 18 Republican primary for the Fifth Congressional District"
+    },
+    {
+      "Sourced Statement": "We have secure and fair elections in Virginia, and Virginians can have confidence in the final results of this race.",
+      "Name of Source": "Glenn Youngkin",
+      "Type of Source": "Named Person",
+      "Title of Source": "Governor",
+      "Source Justification": "Commenting on the integrity of the recount process in Virginia"
+    },
+    {
+      "Sourced Statement": "I want to thank the more than 31,000 voters of the 5th District who voted for me in the June 18 primary, and the thousands who volunteered, contributed, prayed, and supported my re-election campaign.",
+      "Name of Source": "Bob Good",
+      "Type of Source": "Named Person",
+      "Title of Source": "Congressman (R-Farmville), Chair for the House Freedom Caucus",
+      "Source Justification": "Incumbent Representative for Virginia’s 5th District, commenting on the primary outcome"
+    }
+  ],
+  "Named Organization Sources": []
+}

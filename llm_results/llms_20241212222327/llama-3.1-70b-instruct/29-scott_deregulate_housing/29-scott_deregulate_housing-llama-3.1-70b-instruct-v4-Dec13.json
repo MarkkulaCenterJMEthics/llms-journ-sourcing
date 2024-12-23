@@ -1,0 +1,97 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Developers intentionally avoided MHA-zoned areas – despite their upzoning– opting instead to build on nearby blocks without affordability requirements.",
+      "Name of Source": "Developers",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Researchers Jacob Krimmel and Betty X. Wang published a new study confirming the complaints of MHA's critics."
+    },
+    {
+      "Sourced Statement": "Many tenants continue living in units without paying rent and rack up tens of thousands of dollars in debts, a massive financial hole that is difficult to escape from.",
+      "Name of Source": "Tenants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Landlords are blaming the situation on a mix of higher operating costs and the housing court delays caused by D.C.'s pandemic-era eviction policies."
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "More than 80% of housing properties that have received D.C. funding aren't bringing in enough rental income to pay their mortgages and maintenance costs, according to the District's Department of Housing and Community Development.",
+      "Name of Source": "District's Department of Housing and Community Development",
+      "Type of Source": "Document",
+      "Source Justification": "Report by the Department of Housing and Community Development."
+    },
+    {
+      "Sourced Statement": "The scale of the crisis is viewed as existential: 22,000 units that house 48,000 vulnerable residents are at risk of foreclosure today, according to DHCD.",
+      "Name of Source": "DHCD",
+      "Type of Source": "Document",
+      "Source Justification": "Report highlighting the crisis in D.C.'s affordable housing."
+    },
+    {
+      "Sourced Statement": "Delinquencies have risen dramatically, the report [by Apartment and Office Building Association] concludes, because of D.C.'s pandemic-era policies that have tripled the length of the legal process required to evict nonpaying tenants.",
+      "Name of Source": "Apartment and Office Building Association",
+      "Type of Source": "Document",
+      "Source Justification": "Report analyzing the impact of D.C.'s pandemic-era policies on delinquencies."
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "Housing policy is inherently local, and federal legislators should encourage local solutions to local problems.",
+      "Name of Source": "Tim Scott",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senator (R–S.C.)",
+      "Source Justification": "Lead sponsor of the Renewing Opportunity in the American Dream (ROAD) to Housing Act."
+    },
+    {
+      "Sourced Statement": "We find that new construction differentially declined in the upzoned, affordability-mandated areas.",
+      "Name of Source": "Jacob Krimmel",
+      "Type of Source": "Named Person",
+      "Title of Source": "Researcher",
+      "Source Justification": "Co-author of a study on Seattle's Mandatory Housing Affordability Program."
+    },
+    {
+      "Sourced Statement": "We find that new construction differentially declined in the upzoned, affordability-mandated areas.",
+      "Name of Source": "Betty X. Wang",
+      "Type of Source": "Named Person",
+      "Title of Source": "Researcher",
+      "Source Justification": "Co-author of a study on Seattle's Mandatory Housing Affordability Program."
+    },
+    {
+      "Sourced Statement": "Kevin Erdmann on RealPage and its incoherent critics.",
+      "Name of Source": "Kevin Erdmann",
+      "Type of Source": "Named Person",
+      "Title of Source": "",
+      "Source Justification": "Author of an article mentioned in the Quick Links section."
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "HUD told me in a statement that AHF 'is part of a team that applied for these awards. The team is not only eligible, but the best qualified applicant.'",
+      "Name of Source": "U.S. Department of Housing and Urban Development (HUD)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Provided a statement regarding the grant awarded to AHF."
+    },
+    {
+      "Sourced Statement": "A detailed Los Angeles Times investigation published in November 2023 reported a number of issues at AHF-owned properties.",
+      "Name of Source": "Los Angeles Times",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Conducted an investigation into AHF-owned properties."
+    },
+    {
+      "Sourced Statement": "Britain's new Labor government wants to build new towns to combat the country's housing cost crisis, reports The New York Times.",
+      "Name of Source": "The New York Times",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Reported on Britain's new Labor government's plans to combat the housing cost crisis."
+    },
+    {
+      "Sourced Statement": "Minnesota YIMBYs regroup after a bruising legislative session where most of their bills went nowhere.",
+      "Name of Source": "Minnesota YIMBYs",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Mentioned in the Quick Links section as regrouping after a legislative session."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "Anonymous Sources": [],
+  
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "They’re saying that they’re not voting because people are not speaking to their issues and that they’re just not interested in those candidates.",
+      "Name of Source": "low-wage voter cohort",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "surveyed by Columbia University researcher Robert Paul Hartley; didn’t hear candidates discuss issues relevant to their lives"
+    },
+    {
+      "Sourced Statement": "Moderates too often have ignored poor people, appealing instead to the so-called middle class while the poor and low wage people have become nearly half of this country.",
+      "Name of Source": "poor and low wage people",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "making up more than a quarter of the electorate; affected by policies in state houses across the country"
+    },
+    {
+      "Sourced Statement": "Dozens of local leaders from the state chapters of the Poor People’s Campaign were on hand in person and virtually for the high spirited kick off.",
+      "Name of Source": "local leaders",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "part of the Poor People’s Campaign state chapters; participating in the kick-off event"
+    }
+  ],
+  
+  "Document Sources": [
+    {
+      "Sourced Statement": "Columbia University study undertaken of the 2016 electorate with the support of the Poor People’s Campaign, which studied the low-wage voter cohort and found a majority of them did not vote.",
+      "Name of Source": "Columbia University",
+      "Type of Source": "Document",
+      "Source Justification": "undertaken with the support of the Poor People’s Campaign; studied the low-wage voter cohort"
+    }
+  ],
+  
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "They’re saying that they’re not voting because people are not speaking to their issues and that they’re just not interested in those candidates.",
+      "Name of Source": "Robert Paul Hartley",
+      "Type of Source": "Named Person",
+      "Title of Source": "Columbia University researcher",
+      "Source Justification": "conducted a study on the 2016 electorate with the support of the Poor People’s Campaign"
+    },
+    {
+      "Sourced Statement": "In 2024, the election is going to be about mobilization. There is no question that the biggest contest between the two parties is going to be who can get their voters out to vote.",
+      "Name of Source": "Celinda Lake",
+      "Type of Source": "Named Person",
+      "Title of Source": "President of Lake Research Partners",
+      "Source Justification": "respected pollster; analyzing the 2024 election"
+    },
+    {
+      "Sourced Statement": "For far too long extremists have blamed poor people and low wage people for their plight while moderates too often have ignored poor people, appealing instead to the so-called middle class while the poor and low wage people have become nearly half of this country.",
+      "Name of Source": "Rev. Dr. William Barber",
+      "Type of Source": "Named Person",
+      "Title of Source": "Leader of the Poor People’s Campaign",
+      "Source Justification": "leading the Poor People’s Campaign; advocating for poor and low-wage people"
+    },
+    {
+      "Sourced Statement": "I work for MassHealth as a Personal Care Attendant, helping to take care of people with disabilities and who are sick and need help with their daily activities. But I do not have health insurance myself.",
+      "Name of Source": "Janice Guzman",
+      "Type of Source": "Named Person",
+      "Title of Source": "Organizer with the Massachusetts Poor People's Campaign and SEIU 1199",
+      "Source Justification": "essential worker living paycheck-to-paycheck; illustrating the struggles of poor and low-wage people"
+    },
+    {
+      "Sourced Statement": "We are mobilizing, organizing, registering and educating people for a movement that votes, votes for healthcare and debt cancellation, votes for living wages and strong anti-poverty programs and votes for fair taxes and the demilitarizing of our communities and world.",
+      "Name of Source": "Rev. Dr. Liz Theoharis",
+      "Type of Source": "Named Person",
+      "Title of Source": "Leader of the Poor People’s Campaign",
+      "Source Justification": "co-leading the Poor People’s Campaign; outlining the campaign’s goals"
+    }
+  ],
+  
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Poor People’s Campaign is planning simultaneous actions on March 2 at over 30 state capitols to launch “the campaign and highlight the policies being promulgated in state houses across the country that are hurting the poor or distracting from addressing the real issues facing poor and low-wealth people.”",
+      "Name of Source": "Poor People’s Campaign",
+      "Type of Source": "Named Organization",
+      "Source Justification": "organizing simultaneous actions across state capitols; advocating for poor and low-wealth people"
+    },
+    {
+      "Sourced Statement": "The Biden administration’s decision to let states “unwind” Medicaid when the White House declared the pandemic was over. As a consequence, several million people lost their subsidized coverage including over three million children.",
+      "Name of Source": "Biden administration",
+      "Type of Source": "Named Organization",
+      "Source Justification": "making policy decisions affecting poor and low-wealth people; referenced in the context of the Poor People’s Campaign"
+    },
+    {
+      "Sourced Statement": "Congress’s decision to roll back the expansion of the Earned Income Child Tax Credit, which caused a major spike in childhood poverty.",
+      "Name of Source": "Congress",
+      "Type of Source": "Named Organization",
+      "Source Justification": "making policy decisions affecting poor and low-wealth people; referenced in the context of the Poor People’s Campaign"
+    }
+  ]
+}

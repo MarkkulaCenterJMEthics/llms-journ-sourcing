@@ -1,0 +1,93 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Developers intentionally avoided MHA-zoned areas – despite their upzoning– opting instead to build on nearby blocks without affordability requirements.",
+      "Name of Source": "Developers",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Researchers Jacob Krimmel and Betty X. Wang published a new study confirming the complaints of MHA's critics."
+    },
+    {
+      "Sourced Statement": "Many tenants continue living in units without paying rent and rack up tens of thousands of dollars in debts, a massive financial hole that is difficult to escape from.",
+      "Name of Source": "Tenants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Landlords are blaming the situation on a mix of higher operating costs and the housing court delays caused by D.C.'s pandemic-era eviction policies."
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "A detailed Los Angeles Times investigation published in November 2023 reported a number of issues at AHF-owned properties...",
+      "Name of Source": "Los Angeles Times",
+      "Type of Source": "Document",
+      "Source Justification": "A detailed investigation published in November 2023."
+    },
+    {
+      "Sourced Statement": "More than 80% of housing properties that have received D.C. funding aren't bringing in enough rental income to pay their mortgages and maintenance costs, according to the District's Department of Housing and Community Development.",
+      "Name of Source": "District's Department of Housing and Community Development",
+      "Type of Source": "Document",
+      "Source Justification": "According to the District's official report."
+    },
+    {
+      "Sourced Statement": "Delinquencies have risen dramatically, the report [by Apartment and Office Building Association] concludes, because of D.C.'s pandemic-era policies...",
+      "Name of Source": "Apartment and Office Building Association",
+      "Type of Source": "Document",
+      "Source Justification": "A report by the Apartment and Office Building Association concludes."
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "Housing policy is inherently local, and federal legislators should encourage local solutions to local problems.",
+      "Name of Source": "Tim Scott",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senator (R–S.C.)",
+      "Source Justification": "As stated in the press release on the ROAD to Housing Act."
+    },
+    {
+      "Sourced Statement": "We find that new construction differentially declined in the upzoned, affordability-mandated areas.",
+      "Name of Source": "Jacob Krimmel",
+      "Type of Source": "Named Person",
+      "Title of Source": "Researcher",
+      "Source Justification": "Along with Betty X. Wang, published a new study confirming the complaints of MHA's critics."
+    },
+    {
+      "Sourced Statement": "We find that new construction differentially declined in the upzoned, affordability-mandated areas.",
+      "Name of Source": "Betty X. Wang",
+      "Type of Source": "Named Person",
+      "Title of Source": "Researcher",
+      "Source Justification": "Along with Jacob Krimmel, published a new study confirming the complaints of MHA's critics."
+    },
+    {
+      "Sourced Statement": "HUD told me in a statement that AHF 'is part of a team that applied for these awards. The team is not only eligible, but the best qualified applicant.'",
+      "Name of Source": "[HUD Representative's Name Not Provided]",
+      "Type of Source": "Named Person",
+      "Title of Source": null,
+      "Source Justification": "In response to inquiries about the grant to AHF."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "HUD's decision to give this grant to AHF is highly questionable, given the organization's track record of managing its own residential properties.",
+      "Name of Source": "U.S. Department of Housing and Urban Development (HUD)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "As the granting authority for the 'tenant empowerment' grant."
+    },
+    {
+      "Sourced Statement": "The city is being sued by one Seattle homeowner over a $77,000 MHA fee that was charged when trying to add more units on her property to house her adult children.",
+      "Name of Source": "City of Seattle",
+      "Type of Source": "Named Organization",
+      "Source Justification": "As the implementing authority for the Mandatory Housing Affordability (MHA) Program."
+    },
+    {
+      "Sourced Statement": "According to the District's Department of Housing and Community Development.",
+      "Name of Source": "District of Columbia's Department of Housing and Community Development",
+      "Type of Source": "Named Organization",
+      "Source Justification": "As the authority on subsidized housing units in Washington, D.C."
+    },
+    {
+      "Sourced Statement": "Aids Healthcare Foundation (AHF), along with the Massachusetts Alliance of HUD Tenants, a $10 million grant...",
+      "Name of Source": "AIDS Healthcare Foundation (AHF)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "As the recipient of the 'tenant empowerment' grant."
+    }
+  ]
+}
