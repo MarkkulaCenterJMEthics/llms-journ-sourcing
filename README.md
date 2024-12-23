@@ -1,6 +1,6 @@
 # Multi-LLM Article Analysis
 
-This project aims to analyze articles using multiple Large Language Models (LLMs) and evaluate their performance.
+This project is a research proposal to benchmark multiple Large Language Models (LLMs) on their performance for journalistic sourcing annotations.
 
 ## Environment Setup
 
