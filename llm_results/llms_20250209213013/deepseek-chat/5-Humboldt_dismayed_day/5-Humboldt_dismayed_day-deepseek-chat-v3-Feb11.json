@@ -1,0 +1,76 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "But new data obtained by The Standard from Humboldt’s own relocation program show that the county’s homeless people were bused to San Francisco on four occasions between October and March.",
+      "Name of Source": "Humboldt’s own relocation program",
+      "Type of Source": "Document",
+      "Source Justification": "new data obtained by The Standard from Humboldt’s own relocation program"
+    },
+    {
+      "Sourced Statement": "According to the program’s website, social services staffers verify that those who use TAP will be received at their destination by a relative, friend, or appropriate agency.",
+      "Name of Source": "Humboldt’s Transportation Assistance Program",
+      "Type of Source": "Document",
+      "Source Justification": "According to the program’s website"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“We were dismayed to learn that our small, rural county was among the top three destinations in the state where people experiencing homelessness were sent by the program,” states a draft of the letter to San Francisco Mayor London Breed that can be seen on the Humboldt County website.",
+      "Name of Source": "Humboldt County officials",
+      "Type of Source": "Named Person",
+      "Title of Source": "County officials",
+      "Source Justification": "Humboldt County officials voted Tuesday to send a letter raising the alarm about San Francisco’s plans to bus homeless people out of the city."
+    },
+    {
+      "Sourced Statement": "“We are concerned that providing bus tickets to other jurisdictions without verifying access to housing, family support or employment does not alleviate homelessness; it simply shifts the person to another county,” Humboldt’s letter says.",
+      "Name of Source": "Humboldt County officials",
+      "Type of Source": "Named Person",
+      "Title of Source": "County officials",
+      "Source Justification": "Humboldt County officials voted Tuesday to send a letter raising the alarm about San Francisco’s plans to bus homeless people out of the city."
+    },
+    {
+      "Sourced Statement": "“We urge you to ensure that Journey Home participants have the support they need to obtain housing and employment before they receive transportation assistance to Humboldt County. Let’s act together in partnership to alleviate homelessness throughout our state.”",
+      "Name of Source": "Humboldt County officials",
+      "Type of Source": "Named Person",
+      "Title of Source": "County officials",
+      "Source Justification": "Humboldt County officials voted Tuesday to send a letter raising the alarm about San Francisco’s plans to bus homeless people out of the city."
+    },
+    {
+      "Sourced Statement": "“The aim isn’t to achieve a goal. It’s to get you out of our town, and it’s cheaper than arresting you,” Boden said.",
+      "Name of Source": "Paul Boden",
+      "Type of Source": "Named Person",
+      "Title of Source": "Homeless advocate with the Western Regional Advocacy Project",
+      "Source Justification": "Paul Boden, a homeless advocate with the Western Regional Advocacy Project"
+    },
+    {
+      "Sourced Statement": "“The No. 1 answer to homelessness is to make them disappear. Then mayors write letters back and forth: ‘Stop sending your people here.’ Then it turns out they’re sending their people here. It shows the ridiculousness of us not trying to address why people are on the streets.”",
+      "Name of Source": "Paul Boden",
+      "Type of Source": "Named Person",
+      "Title of Source": "Homeless advocate with the Western Regional Advocacy Project",
+      "Source Justification": "Paul Boden, a homeless advocate with the Western Regional Advocacy Project"
+    },
+    {
+      "Sourced Statement": "“Our TAP program works really well, and hopefully San Francisco can go back to more — not just dumping — but assisting and actually helping people get help,” Humboldt Supervisor Rex Bohn said at Tuesday’s board meeting.",
+      "Name of Source": "Rex Bohn",
+      "Type of Source": "Named Person",
+      "Title of Source": "Humboldt Supervisor",
+      "Source Justification": "Humboldt Supervisor Rex Bohn said at Tuesday’s board meeting"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Los Angeles and Sacramento counties are the two other most popular California destinations, according to SF’s Department of Homelessness and Supportive Housing and the Human Services Agency.",
+      "Name of Source": "SF’s Department of Homelessness and Supportive Housing and the Human Services Agency",
+      "Type of Source": "Named Organization",
+      "Source Justification": "according to SF’s Department of Homelessness and Supportive Housing and the Human Services Agency"
+    },
+    {
+      "Sourced Statement": "When asked for comment, the San Francisco mayor’s office said it had not received the letter.",
+      "Name of Source": "San Francisco mayor’s office",
+      "Type of Source": "Named Organization",
+      "Source Justification": "When asked for comment, the San Francisco mayor’s office said it had not received the letter."
+    }
+  ]
+}

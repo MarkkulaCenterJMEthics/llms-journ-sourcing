@@ -1,0 +1,60 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "On Wednesday, City Attorney Barbara Parker filed a lawsuit in Alameda County Superior Court that accuses the airline of violating Oakland and California sick leave laws.",
+      "Name of Source": "Alameda County Superior Court",
+      "Type of Source": "Document",
+      "Source Justification": "The lawsuit was filed in Alameda County Superior Court, which is the legal document source for the claims made by the city attorney."
+    },
+    {
+      "Sourced Statement": "According to the complaint, Southwest has been denying some of its workers in Oakland the right to use earned paid sick leave.",
+      "Name of Source": "Alameda County Superior Court",
+      "Type of Source": "Document",
+      "Source Justification": "The complaint filed in Alameda County Superior Court is the source for the allegations against Southwest Airlines."
+    },
+    {
+      "Sourced Statement": "In December 2020, the city and Southwest signed a settlement in which, among other things, the airline agreed to fully restore the sick leave hours it had canceled for certain workers between 2017 and 2020.",
+      "Name of Source": "Alameda County Superior Court",
+      "Type of Source": "Document",
+      "Source Justification": "The 2020 settlement agreement is the source for the terms agreed upon between the city and Southwest Airlines."
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"The City of Oakland is committed to protecting workers by ensuring that all employers in Oakland are complying with laws that protect their rights,\" Parker said in a statement.",
+      "Name of Source": "Barbara Parker",
+      "Type of Source": "Named Person",
+      "Title of Source": "City Attorney",
+      "Source Justification": "Barbara Parker, the City Attorney of Oakland, is the source for the statement regarding the city's commitment to protecting workers' rights."
+    },
+    {
+      "Sourced Statement": "\"We are grateful that the City of Oakland is holding Southwest accountable. We hope that Southwest policies and practices will finally change for good,\" Eric Swygert, a Southwest employee and an elected ramp representative with the Transport Workers Union of America Local 555, said in a statement.",
+      "Name of Source": "Eric Swygert",
+      "Type of Source": "Named Person",
+      "Title of Source": "Elected Ramp Representative",
+      "Source Justification": "Eric Swygert, a Southwest employee and union representative, is the source for the statement expressing gratitude and hope for policy changes."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "A Southwest spokesperson told The Oaklandside that the assertion that any Oakland employee was forced to work while sick or take unpaid absences is unfounded.",
+      "Name of Source": "Southwest Airlines",
+      "Type of Source": "Named Organization",
+      "Source Justification": "A spokesperson for Southwest Airlines is the source for the statement refuting the city's allegations."
+    },
+    {
+      "Sourced Statement": "\"Southwest Airlines fully complies with applicable sick leave laws in Oakland and California, as well as with the terms of a December 2020 settlement agreement with the city,\" the spokesperson said in a statement.",
+      "Name of Source": "Southwest Airlines",
+      "Type of Source": "Named Organization",
+      "Source Justification": "A spokesperson for Southwest Airlines is the source for the statement asserting compliance with sick leave laws and the settlement agreement."
+    },
+    {
+      "Sourced Statement": "Some of the newer complaints from Southwest workers were filed with Oakland’s Department of Workforce Employment Standards, which enforces wage and hour laws in the city.",
+      "Name of Source": "Oakland’s Department of Workforce Employment Standards",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Oakland’s Department of Workforce Employment Standards is the source for the enforcement of wage and hour laws and the handling of complaints."
+    }
+  ]
+}

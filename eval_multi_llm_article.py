@@ -10,7 +10,6 @@ from fuzzywuzzy import fuzz
 
 nltk.download("punkt")
 import os
-from pathlib import Path
 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -19,10 +18,10 @@ from sentence_transformers import SentenceTransformer, util
 
 from configure import eval_config
 
-run_mode = "run"
-metrics_under_type_correct = False
+run_mode = "run"  # run or develop
 error_matched = defaultdict(int)
 
+# debug variables
 all_gt_count_all = 0
 both_found_count_all = 0
 b_typeok_count_all = 0
@@ -117,10 +116,13 @@ def fuzzy_compare(row, gt_col, llm_col):
     return fuzz.ratio(clean_text(row[gt_col]), clean_text(row[llm_col]))
 
 
-def semantic_compare(row, gt_col, llm_col):
-    return semantic_compare_split_sentence(
-        clean_text(row[gt_col]), clean_text(row[llm_col])
-    )
+def semantic_compare(row, gt_col, llm_col, using_split=True):
+    if using_split:
+        return semantic_compare_split_sentence(
+            clean_text(row[gt_col]), clean_text(row[llm_col])
+        )
+    else:
+        return semantic_match(clean_text(row[gt_col]), clean_text(row[llm_col]))
 
 
 def fuzzy_compare_split_row(row, gt_col, llm_col):
@@ -287,9 +289,6 @@ def load_and_preprocess_ground_truth(file_path):
     # Rename the columns
     gt_df.rename(columns=columns_to_keep, inplace=True)
 
-    # # Normalize the 'SourceType' column
-    # gt_df["SourceType"] = gt_df["SourceType"].apply(normalize_source_type)
-
     # Preprocess the data
     gt_df = preprocess_dataframe(gt_df, "SourcedStatement")
 
@@ -303,8 +302,8 @@ def load_and_preprocess_llm(file_path):
 
     try:
         llm_df = pd.read_csv(file_path, encoding="ISO-8859-1")
-    except IOError:
-        logging.info(" read llm csv with error.")
+    except:
+        logging.info(f" read llm csv {file_path} with error.")
         llm_df = pd.read_csv(file_path)
 
     # Preprocess the data
@@ -441,7 +440,7 @@ def compare_attributions(gt_df, llm_df):
 
     for attr in ["Title", "Justification", "Title_and_Justification"]:
         result_df[f"{attr}_Match_Score"] = result_df.apply(
-            semantic_compare, axis=1, gt_col=f"{attr}_GT", llm_col=f"{attr}_LLM"
+            semantic_compare, axis=1, gt_col=f"{attr}_GT", llm_col=f"{attr}_LLM",
         )
 
     return result_df
@@ -461,12 +460,14 @@ def process_title_match(row):
     if row["Name_Match_Score"] > 80:
         if is_subset(row["Title_GT"], row["Title_LLM"]):
             return True
-
-        # # Construct strings with organization names and titles
-        # gt_full = row["Justification_GT"] + " " + row["Title_GT"]
-        # llm_full = row["Justification_LLM"] + " " + row["Title_LLM"]
-        # score = semantic_match(clean_text(gt_full), clean_text(llm_full))
-        # return score > 0.55
+        
+        # Construct strings with organization names and titles
+        gt_full = row["Justification_GT"] + " " + row["Title_GT"]
+        score = max(
+            semantic_match(clean_text(row["Title_LLM"]), clean_text(row["Title_GT"])),
+            semantic_match(clean_text(row["Title_LLM"]), clean_text(gt_full)),
+        )
+        return score > 0.55
     else:
         return False
 
@@ -527,19 +528,17 @@ def calculate_performance_metrics(result_df):
     both_found = both_found.copy()
     both_found["title_match"] = both_found.apply(process_title_match, axis=1)
     both_found_with_type_match = both_found[both_found["Source_Type_Match"] == "Yes"]
-    # title match rate
-    both_found_with_type_name_matched = both_found[
-        (both_found["Name_Match_Score"] > 80)
-        & (both_found["Source_Type_Match"] == "Yes")
-    ]
 
     # ##
     # This is to understand the basic justification matching rule
     # both_found["title_match_a"] = both_found.apply(process_title_match_a, axis=1)
-    # # both_found["title_match_b"] = both_found.apply(process_title_match_b, axis=1)
-    # both_found["justification_match_a"] = both_found.apply(
-    #     process_justification_match_a, axis=1
-    # )
+    # both_found["title_match_b"] = both_found.apply(process_title_match_b, axis=1)
+    both_found["justification_match_a"] = both_found.apply(
+        process_justification_match_a, axis=1
+    )
+    both_found["justification_match_b"] = both_found.apply(
+        process_justification_match_b, axis=1
+    )
 
     both_found_count = len(both_found)  # New count for sentences found by both
 
@@ -625,21 +624,21 @@ def calculate_performance_metrics(result_df):
         ]
     )
 
-    print(
-        f"All GT Count: {all_gt_count_all}\n"
-        f"Both Found Count: {both_found_count_all}\n"
-        f"B Type OK Count: {b_typeok_count_all}\n"
-        f"B Type OK & Name OK Count: {b_typeok_nameok_count_all}\n"
-        f"B Type NOT OK & Name OK Count: {b_typenook_nameok_count_all}\n"
-        f"B Type NOT OK & Name NOT OK Count: {b_typenook_namenook_count_all}\n"
-        f"B Type OK, Name OK & Title OK Count: {b_typeok_nameok_titleok_count_all}\n"
-        f"B Type OK, Name NOT OK & Title OK Count: {b_typeok_namenook_titleok_count_all}\n"
-        f"B Type NOT OK, Name NOT OK & Title OK Count: {b_typenook_namenook_titleok_count_all}\n"
-        f"B Type NOT OK, Name OK & Title OK Count: {b_typenook_nameok_titleok_count_all}\n"
-        f"B Type OK, Name NOT OK & Title NOT OK Count: {b_typeok_namenook_titlenook_count_all}\n"
-        f"B Type NOT OK, Name NOT OK & Title NOT OK Count: {b_typenook_namenook_titlenook_count_all}\n"
-        f"B Type NOT OK, Name OK & Title NOT OK Count: {b_typenook_nameok_titlenook_count_all}"
-    )
+    # print(
+    #     f"All GT Count: {all_gt_count_all}\n"
+    #     f"Both Found Count: {both_found_count_all}\n"
+    #     f"B Type OK Count: {b_typeok_count_all}\n"
+    #     f"B Type OK & Name OK Count: {b_typeok_nameok_count_all}\n"
+    #     f"B Type NOT OK & Name OK Count: {b_typenook_nameok_count_all}\n"
+    #     f"B Type NOT OK & Name NOT OK Count: {b_typenook_namenook_count_all}\n"
+    #     f"B Type OK, Name OK & Title OK Count: {b_typeok_nameok_titleok_count_all}\n"
+    #     f"B Type OK, Name NOT OK & Title OK Count: {b_typeok_namenook_titleok_count_all}\n"
+    #     f"B Type NOT OK, Name NOT OK & Title OK Count: {b_typenook_namenook_titleok_count_all}\n"
+    #     f"B Type NOT OK, Name OK & Title OK Count: {b_typenook_nameok_titleok_count_all}\n"
+    #     f"B Type OK, Name NOT OK & Title NOT OK Count: {b_typeok_namenook_titlenook_count_all}\n"
+    #     f"B Type NOT OK, Name NOT OK & Title NOT OK Count: {b_typenook_namenook_titlenook_count_all}\n"
+    #     f"B Type NOT OK, Name OK & Title NOT OK Count: {b_typenook_nameok_titlenook_count_all}"
+    # )
 
     # source type match
     source_type_match_rate = (both_found["Source_Type_Match"] == "Yes").mean()
@@ -650,11 +649,6 @@ def calculate_performance_metrics(result_df):
 
         # Add corresponding types to the error set
         for _, row in non_matched_rows.iterrows():
-            # if (
-            #     row["Source_Type_GT"] == "Named_Organization"
-            #     and row["Source_Type_LLM"] == "Anonymous_Groups"
-            # ):
-            #     print(row)
             error_matched[f'{row["Source_Type_GT"]}_to_{row["Source_Type_LLM"]}'] += 1
 
     # Calculate Match Rates
@@ -669,25 +663,10 @@ def calculate_performance_metrics(result_df):
         both_found_with_type_match["Name_Match_Score"] > 80
     ).mean()
 
-    # if metrics_under_type_correct:
-    #     title_match_rate = (
-    #         both_found["title_match_a"] & (both_found["Source_Type_Match"] == "Yes")
-    #     ).mean()
-    #     justification_match_rate = (
-    #         both_found["justification_match_a"]
-    #         & (both_found["Source_Type_Match"] == "Yes")
-    #     ).mean()
-    #     title_justification_join_match_rate = (
-    #         both_found["Title_and_Justification_Score"]
-    #         > 55 & (both_found["Source_Type_Match"] == "Yes")
-    #     ).mean()
-
-    title_match_rate = (both_found["Title_Match_Score"] > 0.55).mean()
-    justification_match_rate = (both_found["Justification_Match_Score"] > 0.55).mean()
-    title_justification_join_match_rate = (
-        both_found["Title_and_Justification_Match_Score"] > 0.55
-    ).mean()
-
+    title_match_rate = both_found["title_match"].mean()
+    justification_match_rate = both_found["justification_match_a"].mean()
+    title_justification_join_match_rate = both_found["justification_match_b"].mean()
+    
     # Calculate total unique sentences
     total_gt_sentences = len(result_df[result_df["GT_Sentence"] != ""])
     total_unique_sentences = len(result_df[result_df["GT_Sentence"] != ""]) + len(
@@ -710,12 +689,12 @@ def calculate_performance_metrics(result_df):
                     (
                         (both_found["Title_GT"] != "")
                         & (both_found["Title_LLM"] != "")
-                        & (both_found["Title_Match_Score"] > 55)
+                        & (both_found["Title_Match_Score"] > 0.55)
                     )
                     | (
                         (both_found["Justification_GT"] != "")
                         & (both_found["Justification_LLM"] != "")
-                        & (both_found["Justification_Match_Score"] > 55)
+                        & (both_found["Justification_Match_Score"] > 0.55)
                     )
                     | (
                         (both_found["Justification_GT"] == "")
@@ -732,8 +711,10 @@ def calculate_performance_metrics(result_df):
     )
 
     # Calculate LLM Recall
-    # llm_recall = (match_counts + llm_unique_discover_counts) / total_unique_sentences
     source_statement_match_rate = (both_found_count) / total_gt_sentences
+
+    # Calculate LLM statement match rate with type correct
+    source_type_match_rate_with_statement = len(both_found[both_found["Source_Type_Match"] == "Yes"]) /  total_gt_sentences
 
     # Calculate LLM unique discover Rate
     llm_unique_discover_rate = llm_unique_discover_counts / total_unique_sentences
@@ -744,12 +725,6 @@ def calculate_performance_metrics(result_df):
     )
     llm_miss_rate = human_unique_discover_counts / total_gt_sentences
 
-    all_attribute_accuracy = (
-        source_statement_match_rate
-        + source_type_match_rate
-        + name_match_rate
-        + title_justification_join_match_rate
-    ) / 4.0
     all_attribute_accuracy = (
         len(
             both_found[
@@ -763,14 +738,15 @@ def calculate_performance_metrics(result_df):
 
     # Compile results
     metrics = {
-        "Source_Statement_Match_Rate": source_statement_match_rate,
-        "Source_Type_Match_Rate": source_type_match_rate,
-        "Source_Name_Match_Rate": name_match_rate,
-        "Source_Type_Name_Match_Rate": type_name_match_rate,
-        "Source_Type_Correct_Name_Match_Rate": type_correct_name_match_rate,
-        "Source_Title_Match_Rate": title_match_rate,
-        "Source_Justification_Match_Rate": justification_match_rate,
-        "Source_Title_Justification_Join_Match_Rate": title_justification_join_match_rate,
+        "Statement_Match_Rate": source_statement_match_rate,
+        "Type_Match_Rate": source_type_match_rate,
+        "Combined_Statement_Type_Match_Rate": source_type_match_rate_with_statement,
+        "Name_Match_Rate": name_match_rate,
+        "Type_Name_Match_Rate": type_name_match_rate,
+        "Type_Correct_Name_Match_Rate": type_correct_name_match_rate,
+        "Title_Match_Rate": title_match_rate,
+        "Justification_Match_Rate": justification_match_rate,
+        "Title_Justification_Join_Match_Rate": title_justification_join_match_rate,
         "All_Attribute_Accuracy": all_attribute_accuracy,
         "LLM_Miss_Rate": llm_miss_rate,
         "LLM_Unique_Discover_Rate": llm_unique_discover_rate,
@@ -794,22 +770,11 @@ def plot_performance_comparison(performance_df, metric, output_dir):
     plt.close()
 
 
-def plot_overall_comparison(performance_df, output_dir):
-    metrics = [
-        "Source_Statement_Match_Rate",
-        "Source_Type_Match_Rate",
-        "Source_Name_Match_Rate",
-        "Source_Type_Name_Match_Rate",
-        "Source_Type_Correct_Name_Match_Rate",
-        "Source_Title_Match_Rate",
-        "Source_Justification_Match_Rate",
-        "Source_Title_Justification_Join_Match_Rate",
-        "All_Attribute_Accuracy",
-    ]
-
+def plot_overall_comparison(performance_df, output_dir, metrics):
+    
     avg_performance = performance_df.groupby("model_name")[metrics].mean().reset_index()
 
-    plt.figure(figsize=(12, 8))
+    plt.figure(figsize=(16, 8))
     sns.barplot(
         x="model_name",
         y="value",
@@ -818,28 +783,16 @@ def plot_overall_comparison(performance_df, output_dir):
     )
     plt.title("Overall Performance Comparison")
     plt.ylabel("Average Score")
-    plt.xticks(rotation=0)
+    plt.xticks(rotation=45)
     plt.legend(title="Metric", bbox_to_anchor=(1.05, 1), loc="upper left")
     plt.tight_layout()
     plt.savefig(f"{output_dir}/overall_performance_comparison.png")
     plt.close()
 
-    metrics = [
-        "Source_Statement_Match_Rate",
-        "Source_Type_Match_Rate",
-        "Source_Name_Match_Rate",
-        "Source_Type_Name_Match_Rate",
-        "Source_Type_Correct_Name_Match_Rate",
-        "Source_Title_Match_Rate",
-        "Source_Justification_Match_Rate",
-        "Source_Title_Justification_Join_Match_Rate",
-        "All_Attribute_Accuracy",
-    ]
-
     avg_performance = performance_df.groupby("model_name")[metrics].mean().reset_index()
 
     for metric_name in metrics:
-        plt.figure(figsize=(12, 8))
+        plt.figure(figsize=(16, 8))
         sns.barplot(
             x="model_name",
             y="value",
@@ -852,7 +805,7 @@ def plot_overall_comparison(performance_df, output_dir):
         )
         plt.title(f"Overall Performance {metric_name} Comparison")
         plt.ylabel("Average Score")
-        plt.xticks(rotation=0)
+        plt.xticks(rotation=45)
         plt.legend(title="Metric", bbox_to_anchor=(1.05, 1), loc="upper left")
         plt.tight_layout()
         plt.savefig(f"{output_dir}/overall_{metric_name}_performance_comparison.png")
@@ -872,7 +825,11 @@ def process_one_article(gt_file, llm_files, output_dir, model_name):
 
     for llm_file in llm_files:
         llm_version_id = llm_file[:-4].split("-")[-2]
-        llm_df = load_and_preprocess_llm(llm_file)
+        try:
+            llm_df = load_and_preprocess_llm(llm_file)
+        except:
+            print(llm_file)
+            continue
         try:
             llm_results = compare_attributions(human_df, llm_df)
             if run_mode == "debug":
@@ -950,8 +907,9 @@ def main():
         "llm_results/llms_20241212222327",
         "llm_results/llms_20241215110531",
         "llm_results/llms_20241215124335",
+        "llm_results/llms_20250209213013",
     ]
-    output_dir = "benchmarking/metrics/12_18"
+    output_dir = "benchmarking/metrics/02_14"
     if not os.path.isdir(output_dir):
         os.mkdir(output_dir)
     total_version_num = 5
@@ -962,6 +920,7 @@ def main():
         "claude-3.5-sonnet",
         "llama-3.1-70b-instruct",
         "llama-3.1-405b-instruct",
+        "deepseek-chat"
     ]
 
     llm_files_by_id = {v: defaultdict(list) for v in model_names}
@@ -1033,21 +992,21 @@ def main():
 
     # Plot individual metric comparisons
     metrics = [
-        "Source_Statement_Match_Rate",
-        "Source_Type_Match_Rate",
-        "Source_Name_Match_Rate",
-        "Source_Type_Name_Match_Rate",
-        "Source_Type_Correct_Name_Match_Rate",
-        "Source_Title_Match_Rate",
-        "Source_Justification_Match_Rate",
-        "Source_Title_Justification_Join_Match_Rate",
+        "Statement_Match_Rate",
+        "Type_Match_Rate",
+        "Combined_Statement_Type_Match_Rate",
+        "Name_Match_Rate",
+        "Type_Name_Match_Rate",
+        "Title_Match_Rate",
+        "Justification_Match_Rate",
+        "Title_Justification_Join_Match_Rate",
         "All_Attribute_Accuracy",
     ]
     for metric in metrics:
         plot_performance_comparison(performance_df, metric, output_dir)
 
     # Plot overall comparison
-    plot_overall_comparison(performance_df, output_dir)
+    plot_overall_comparison(performance_df, output_dir, metrics)
 
     # Print summary statistics
     over_all_performance = performance_df.groupby("model_name")[metrics].agg(
