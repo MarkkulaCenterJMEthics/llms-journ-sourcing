@@ -1,0 +1,102 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Kids in Cordova are far safer from lead poisoning than kids in Midtown.",
+      "Name of Source": "Kids",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Kids in Cordova are far safer from lead poisoning than kids in Midtown. And children in Arlington are much better off than their counterparts in North Memphis."
+    },
+    {
+      "Sourced Statement": "And children in Arlington are much better off than their counterparts in North Memphis.",
+      "Name of Source": "children",
+      "Type": "Unnamed Group of People",
+      "Source Justification": "Kids in Cordova are far safer from lead poisoning than kids in Midtown. And children in Arlington are much better off than their counterparts in North Memphis."
+    },
+    {
+      "Sourced Statement": "Kids raised in Memphis’ suburbs face little risk of lead poisoning since few homes there were built after 1978.",
+      "Name of Source": "Kids",
+      "Type": "Unnamed Group of People",
+      "Source Justification": "Kids raised in Memphis’ suburbs face little risk of lead poisoning since few homes there were built after 1978."
+    },
+    {
+      "Sourced Statement": "Children in these neighborhoods primarily ingest lead from dust in their homes and yards.",
+      "Name of Source": "Children",
+      "Type": "Unnamed Group of People",
+      "Source Justification": "Children in these neighborhoods primarily ingest lead from dust in their homes and yards."
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Over 75% of the homes in both ZIP codes were built before 1980, according to the U.S. Census Bureau.",
+      "Name of Source": "U.S. Census Bureau",
+      "Type of Source": "Document",
+      "Source Justification": "according to the U.S. Census Bureau"
+    },
+    {
+      "Sourced Statement": "In South Memphis, for instance, about 96% of residents are Black, and about 91% of homes were built prior to 1978, according to the U.S. Census Bureau.",
+      "Name of Source": "U.S. Census Bureau",
+      "Type of Source": "Document",
+      "Source Justification": "according to the U.S. Census Bureau"
+    },
+    {
+      "Sourced Statement": "The map below shows which Memphis ZIPs contain the most homes built before 1980, according to Census data.",
+      "Name of Source": "Census",
+      "Type": "Document",
+      "Source Justification": "according to Census data"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "Email him at Jacob.Steimer@mlk50.com",
+      "Name of Source": "Jacob Steimer",
+      "Type": "Named Person",
+      "Title of Source": "housing and development reporter",
+      "Source Justification": "Jacob Steimer is the housing and development reporter for MLK50: Justice Through Journalism."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "To learn more about having a child tested or to schedule a free test, contact your child’s pediatrician, call the Shelby County Health Department at 901-222-9582 or email them at sch.clppp@shelbycountytn.gov.",
+      "Name of Source": "Shelby County Health Department",
+      "Type_of_Source": "Named Organization",
+      "Source_Justification": "call the Shelby County Health Department at 901-222-9582 or email them at sch.clppp@shelbycountytn.gov"
+    },
+    {
+      "Sourced Statement": "To have your home tested, call the Shelby County Lead Hazard Control program at 901-222-7605 or the City of Memphis Lead-Safe program at 901-636-5323.",
+      "Name of Source": "Shelby County Lead Hazard Control program",
+      "Type_of_Source": "Named Organization",
+      "Source_Justification": "call the Shelby County Lead Hazard Control program at 901-222-7605"
+    },
+    {
+      "Sourced Statement": "To have your home tested, call the Shelby County Lead Hazard Control program at 901-222-7605 or the City of Memphis Lead-Safe program at 901-636-5323.",
+      "Name of Source": "City of Memphis Lead-Safe program",
+      "Type_of_Source": "Named Organization",
+      "Source_Justification": "call the Shelby County Lead Hazard Control program at 901-222-7605 or the City of Memphis Lead-Safe program at 901-636-5323"
+    },
+    {
+      "Sourced Statement": "To find out if your individual home was built before 1978, check Realtor.com or the Shelby County Assessor of Property website.",
+      "Name of Source": "Realtor.com",
+      "Type_of_Source": "Named Organization",
+      "Source_Justification": "check Realtor.com"
+    },
+    {
+      "Sourced Statement": "To find out if your individual home was built before 1978, check Realtor.com or the Shelby County Assessor of Property website.",
+      "Name of Source": "Shelby County Assessor of Property",
+      "Type_of_Source": "Named Organization",
+      "Source_Justification": "check Realtor.com or the Shelby County Assessor of Property website"
+    },
+    {
+      "Sourced Statement": "This story is brought to you by MLK50: Justice Through Journalism, a nonprofit newsroom focused on poverty, power and policy in Memphis.",
+      "Name of Source": "MLK50: Justice Through Journalism",
+      "Type_of_Source": "Named Organization",
+      "Source_Justification": "This story is brought to you by MLK50: Justice Through Journalism, a nonprofit newsroom focused on poverty, power and policy in Memphis."
+    },
+    {
+      "Sourced Statement": "MLK50 is also supported by these generous donors.",
+      "Name of Source": "MLK50",
+      "Type_of_Source": "Named Organization",
+      "Source_Justification": "MLK50 is also supported by these generous donors."
+    }
+  ]
+}

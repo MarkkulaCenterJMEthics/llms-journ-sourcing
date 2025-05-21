@@ -1,0 +1,63 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "Brian Manning, a political asylum lawyer and former government asylum officer, said that asylum could be impacted by a second Trump presidency more drastically than before.",
+      "Name of Source": "Brian Manning",
+      "Type of Source": "Named Person",
+      "Title of Source": "political asylum lawyer and former government asylum officer",
+      "Source Justification": "Brian Manning, a political asylum lawyer and former government asylum officer, provides expert insight into the potential impacts of a second Trump presidency on asylum policies."
+    },
+    {
+      "Sourced Statement": "\u201cThere is concern that they\u2019ll [asylum restrictions] actually be implemented more effectively. Last time, he didn\u2019t expect to win and didn\u2019t have a professional class built around him that could actually get things done in government in general,\u201d Manning said.",
+      "Name of Source": "Brian Manning",
+      "Type of Source": "Named Person",
+      "Title of Source": "political asylum lawyer and former government asylum officer",
+      "Source Justification": "Brian Manning, a political asylum lawyer and former government asylum officer, discusses the potential for more effective implementation of asylum restrictions under a second Trump presidency."
+    },
+    {
+      "Sourced Statement": "\u201cIt is safe to assume that after the many missteps of his first presidency, that his administration would be better equipped to learn from their past mistakes and more effectively attack immigrant communities from the White House,\u201d Marlene Galaz, Director of Immigrant Rights Policy, New York Immigration Coalition, said.",
+      "Name of Source": "Marlene Galaz",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director of Immigrant Rights Policy, New York Immigration Coalition",
+      "Source Justification": "Marlene Galaz, Director of Immigrant Rights Policy at the New York Immigration Coalition, provides analysis on how a second Trump administration might approach immigrant communities."
+    },
+    {
+      "Sourced Statement": "\u201cThe stuff about immigration is pretty severe. There are talks around the Project 2025 crowd about eliminating work authorization for asylum seekers, getting rid of TPS, Temporary Protected Status,\u201d Manning said.",
+      "Name of Source": "Brian Manning",
+      "Type of Source": "Named Person",
+      "Title of Source": "political asylum lawyer and former government asylum officer",
+      "Source Justification": "Brian Manning, a political asylum lawyer and former government asylum officer, comments on the severe immigration measures discussed in Project 2025."
+    },
+    {
+      "Sourced Statement": "\u201cWe anticipate the president, Trump, to use its executive authority to implement these policies \u2014 but again, we anticipate we should be able to challenge,\u201d Nils Kinuani, Federal Policy Manager at African Communities Together (ACT), said.",
+      "Name of Source": "Nils Kinuani",
+      "Type of Source": "Named Person",
+      "Title of Source": "Federal Policy Manager at African Communities Together (ACT)",
+      "Source Justification": "Nils Kinuani, Federal Policy Manager at African Communities Together (ACT), discusses the potential for challenging Trump's immigration policies."
+    },
+    {
+      "Sourced Statement": "\u201cIt is not impossible but it becomes harder to challenge that. But, again \u2026 it is very unlikely given the current political climate.\u201d",
+      "Name of Source": "Nils Kinuani",
+      "Type of Source": "Named Person",
+      "Title of Source": "Federal Policy Manager at African Communities Together (ACT)",
+      "Source Justification": "Nils Kinuani, Federal Policy Manager at African Communities Together (ACT), explains the challenges of opposing immigration policies passed through Congress."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Project 2025 is a plan created by a conservative think tank with ties to Trump that lays out what the president should change in the first 180 days after taking office.",
+      "Name of Source": "Project 2025",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Project 2025 is a plan created by a conservative think tank with ties to Trump, outlining potential changes in immigration and other policies."
+    },
+    {
+      "Sourced Statement": "Additional anti-asylum measures in Project 2025 include increasing the credible fear threshold, limiting the funds assigned to NGOs helping asylum seekers and codifying asylum bars and the third country transit rules.",
+      "Name of Source": "Project 2025",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Project 2025 includes additional anti-asylum measures that could significantly impact asylum seekers and related organizations."
+    }
+  ]
+}

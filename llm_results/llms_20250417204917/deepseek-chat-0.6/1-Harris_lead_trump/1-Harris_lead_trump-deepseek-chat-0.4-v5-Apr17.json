@@ -1,0 +1,71 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Some 73% of Democratic registered voters in the Reuters/Ipsos poll said they were more excited about voting in November after Harris entered the race.",
+      "Name of Source": "Democratic registered voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "in the Reuters/Ipsos poll"
+    },
+    {
+      "Sourced Statement": "And while a March Reuters/Ipsos poll found that 61% respondents who intended to vote for Biden were doing so mainly to stop Trump, 52% of Harris voters in the August poll were voting to support her as a candidate rather than primarily to oppose Trump.",
+      "Name of Source": "Harris voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "in the August poll"
+    },
+    {
+      "Sourced Statement": "But Trump voters also voiced enthusiasm about their candidate, with 64% saying their choice was more motivated by backing Trump than opposing Harris.",
+      "Name of Source": "Trump voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": null
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Democrat Kamala Harris leads Republican Donald Trump 45% to 41% in a Reuters/Ipsos poll published on Thursday that showed the vice president sparking new enthusiasm among voters and shaking up the race ahead of the Nov. 5 election.",
+      "Name of Source": "Reuters/Ipsos poll",
+      "Type of Source": "Document",
+      "Source Justification": "published on Thursday"
+    },
+    {
+      "Sourced Statement": "The 4 percentage point advantage among registered voters was wider than a 1 point lead Harris held over the former president in a late July Reuters/Ipsos poll.",
+      "Name of Source": "Reuters/Ipsos poll",
+      "Type of Source": "Document",
+      "Source Justification": "in a late July"
+    },
+    {
+      "Sourced Statement": "The new poll, which was conducted in the eight days ended Wednesday and had a 2 percentage point margin of error, showed Harris picking up support among women and Hispanics.",
+      "Name of Source": "Reuters/Ipsos poll",
+      "Type of Source": "Document",
+      "Source Justification": "conducted in the eight days ended Wednesday and had a 2 percentage point margin of error"
+    },
+    {
+      "Sourced Statement": "Across four Reuters/Ipsos polls conducted in July, Harris had a 9 point lead among women and a 6 point lead among Hispanics.",
+      "Name of Source": "Reuters/Ipsos polls",
+      "Type of Source": "Document",
+      "Source Justification": "conducted in July"
+    },
+    {
+      "Sourced Statement": "A separate Bloomberg News/Morning Consult poll published later on Thursday showed that Harris was either leading or tied with Trump in each of those states.",
+      "Name of Source": "Bloomberg News/Morning Consult poll",
+      "Type of Source": "Document",
+      "Source Justification": "published later on Thursday"
+    },
+    {
+      "Sourced Statement": "That poll showed Harris led Trump by 2 percentage points among registered voters across the seven states and was ahead by 1 point — a statistical tie — among likely voters.",
+      "Name of Source": "Bloomberg News/Morning Consult poll",
+      "Type of Source": "Document",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "And while a March Reuters/Ipsos poll found that 61% respondents who intended to vote for Biden were doing so mainly to stop Trump, 52% of Harris voters in the August poll were voting to support her as a candidate rather than primarily to oppose Trump.",
+      "Name of Source": "Reuters/Ipsos poll",
+      "Type of Source": "Document",
+      "Source Justification": "in March"
+    },
+    {
+      "Sourced Statement": "Voters picked Trump as having a better approach to managing the U.S. economy, 45% to 36%, a wider margin than Trump had in another Reuters/Ipsos poll this week.",
+      "Name of Source": "Reuters/Ipsos poll",
+      "Type of Source": "Document",
+      "Source Justification": "this week"
+    }

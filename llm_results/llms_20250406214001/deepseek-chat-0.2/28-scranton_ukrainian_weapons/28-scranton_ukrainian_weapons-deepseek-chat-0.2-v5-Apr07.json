@@ -1,0 +1,76 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\u201cWe\u2019re all about quality jobs, and that\u2019s a quality organization,\u201d Bob Durkin, the president and chief executive officer of the Scranton Chamber of Commerce said. \u201cSo the infusion of additional funding to support is important to us.\u201d",
+      "Name of Source": "Bob Durkin",
+      "Type of Source": "Named Person",
+      "Title of Source": "President and Chief Executive Officer of the Scranton Chamber of Commerce",
+      "Source Justification": "Bob Durkin, the president and chief executive officer of the Scranton Chamber of Commerce"
+    },
+    {
+      "Sourced Statement": "\u201cIt\u2019s not $277 million that stays here. But, you know, it\u2019s a good chunk of it,\u201d Cartwright said. \u201cAnd it\u2019s important that we keep that work coming.\u201d",
+      "Name of Source": "Matt Cartwright",
+      "Type of Source": "Named Person",
+      "Title of Source": "Congressman",
+      "Source Justification": "Congressman Matt Cartwright, who sits on the House Appropriations Committee and represents Scranton and other parts of Northeastern Pennsylvania"
+    },
+    {
+      "Sourced Statement": "\u201cI don\u2019t really think that people dwell or concentrate on anything that\u2019s going on outside of their sphere of influence,\u201d Rich Hansen, the Commander\u2019s Representative at the Scranton Army Ammunition Plant, said. we\u2019re kind of busy concentrating on what\u2019s going on in Scranton.\u201d",
+      "Name of Source": "Rich Hansen",
+      "Type of Source": "Named Person",
+      "Title of Source": "Commander\u2019s Representative at the Scranton Army Ammunition Plant",
+      "Source Justification": "Rich Hansen, the Commander\u2019s Representative at the Scranton Army Ammunition Plant"
+    },
+    {
+      "Sourced Statement": "\u201cWe had a job fair in the middle of a heat wave and there was still a line going out of the door,\u201d Danielle Weinschenk, the lead Public Affairs Specialist at the Tobyhanna Army Depot said. \u201cWe had another one when it was pouring rain, and the same thing happened.\u201d",
+      "Name of Source": "Danielle Weinschenk",
+      "Type of Source": "Named Person",
+      "Title of Source": "Lead Public Affairs Specialist at the Tobyhanna Army Depot",
+      "Source Justification": "Danielle Weinschenk, the lead Public Affairs Specialist at the Tobyhanna Army Depot"
+    },
+    {
+      "Sourced Statement": "\u201cWith the Ukraine support, you know, one day I was sitting there thinking about what needs to be done, and it kind of hit me that what we were doing directly affects whether people live or die,\u201d said Jim Jarick, a senior technology center engineer at the Tobyhanna Army Depot. \u201cIf we aren\u2019t doing our job correctly, people could die tomorrow. And that just put this whole thing in perspective for me.\u201d",
+      "Name of Source": "Jim Jarick",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senior Technology Center Engineer at the Tobyhanna Army Depot",
+      "Source Justification": "Jim Jarick, a senior technology center engineer at the Tobyhanna Army Depot"
+    },
+    {
+      "Sourced Statement": "\u201cAt the height of last year\u2019s counteroffensive, the Ukrainians were firing about 6,000 a day, \u201d Cancian said. \u201cThe Russians are [firing] probably about 10,000 a day.\u201d",
+      "Name of Source": "Mark Cancian",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senior Advisor at the Center for Strategic and International Studies",
+      "Source Justification": "Mark Cancian, a senior advisor at the Center for Strategic and International Studies"
+    },
+    {
+      "Sourced Statement": "\u201cOur first task is to save our people,\u201d Popov said. \u201cWithout artillery, we cannot do this.\u201d",
+      "Name of Source": "Olksandr Popov",
+      "Type of Source": "Named Person",
+      "Title of Source": "Commander of a Ukrainian artillery unit",
+      "Source Justification": "Col. Olksandr Popov, the commander of a Ukrainian artillery unit"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The U.S. Army was making 14,000 artillery shells a month prior to the conflict. Now, officials at the plant told Morning Edition that the army is producing 36,000 shells a month, up from 24,000 just six months ago.",
+      "Name of Source": "U.S. Army",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Officials at the plant told Morning Edition"
+    },
+    {
+      "Sourced Statement": "The Tobyhanna Army Depot, which specializes in logistics support and radar equipment for foreign allies such as Ukraine, estimates that the company has a $2.4 billion dollar impact on the area and that it is the largest industrial employer in the region.",
+      "Name of Source": "Tobyhanna Army Depot",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Tobyhanna Army Depot, which specializes in logistics support and radar equipment for foreign allies such as Ukraine"
+    },
+    {
+      "Sourced Statement": "Officials at Tobyhanna estimate that its average annual salary is $30,000 higher than the average salary in northeastern Pennsylvania, which is around $58,000 in 2021.",
+      "Name of Source": "Tobyhanna Army Depot",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Officials at Tobyhanna"
+    }
+  ]
+}

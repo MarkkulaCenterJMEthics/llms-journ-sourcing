@@ -1,0 +1,76 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "980,000 low-wage voters did not turn out.",
+      "Name of Source": "low-wage voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "low-wage voters are a significant portion of the electorate that could influence election outcomes."
+    },
+    {
+      "Sourced Statement": "920,000 poor and low-wealth voters sat it out.",
+      "Name of Source": "poor and low-wealth voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "poor and low-wealth voters represent a large group whose engagement could change election results."
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Columbia University researcher Robert Paul Hartley found that only 46 percent of voters with household income less than twice the federal poverty rate cast a ballot in 2016, as compared to a 68 percent turnout rate for voters who had a household income more than twice the poverty line.",
+      "Name of Source": "Columbia University",
+      "Type of Source": "Document",
+      "Source Justification": "Columbia University study provides data on voter turnout disparities based on income."
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“They’re saying that they’re not voting because people are not speaking to their issues and that they’re just not interested in those candidates,” Hartley, told the New York Times “But it’s not that they couldn’t be.”",
+      "Name of Source": "Robert Paul Hartley",
+      "Type of Source": "Named Person",
+      "Title of Source": "Columbia University researcher",
+      "Source Justification": "Robert Paul Hartley's research highlights reasons for low voter turnout among low-income voters."
+    },
+    {
+      "Sourced Statement": "“In 2024, the election is going to be about mobilization,” Lake told reporters.",
+      "Name of Source": "Celinda Lake",
+      "Type of Source": "Named Person",
+      "Title of Source": "President of Lake Research Partners",
+      "Source Justification": "Celinda Lake provides expert analysis on the importance of voter mobilization in the upcoming election."
+    },
+    {
+      "Sourced Statement": "“For far too long extremists have blamed poor people and low wage people for their plight while moderates too often have ignored poor people, appealing instead to the so-called middle class while the poor and low wage people have become nearly half of this country,” Barber told reporters.",
+      "Name of Source": "William Barber",
+      "Type of Source": "Named Person",
+      "Title of Source": "Rev. Dr.",
+      "Source Justification": "Rev. Dr. William Barber discusses the political neglect of poor and low-wage people and their potential electoral impact."
+    },
+    {
+      "Sourced Statement": "“We are mobilizing, organizing, registering and educating people for a movement that votes, votes for healthcare and debt cancellation, votes for living wages and string anti-poverty programs and votes for fair taxes and the demilitarizing of our communities and world,” said Rev. Dr. Liz Theoharis",
+      "Name of Source": "Liz Theoharis",
+      "Type of Source": "Named Person",
+      "Title of Source": "Rev. Dr.",
+      "Source Justification": "Rev. Dr. Liz Theoharis outlines the goals of the Poor People's Campaign in mobilizing voters."
+    },
+    {
+      "Sourced Statement": "“This is why I am organizing with the Massachusetts Poor People's Campaign. We have got to get our power as people, get back the mic, raise our voices and register voters. Forward together!\"",
+      "Name of Source": "Janice Guzman",
+      "Type of Source": "Named Person",
+      "Title of Source": "organizer with the Massachusetts Poor People's Campaign and SEIU 1199",
+      "Source Justification": "Janice Guzman shares her personal experiences and motivations for organizing with the Poor People's Campaign."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Poor People’s Campaign is planning simultaneous actions on March 2 at over 30 state capitols.",
+      "Name of Source": "Poor People’s Campaign",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Poor People’s Campaign is organizing significant voter mobilization efforts across multiple states."
+    },
+    {
+      "Sourced Statement": "The Poor People’s Campaign is planning simultaneous actions on March 2 at over 30 state capitols to launch “the campaign and highlight the policies being promulgated in state houses across the country that are hurting the poor or distracting from addressing the real issues facing poor and low-wealth people,” according to the PPC.",
+      "Name of Source": "Poor People’s Campaign",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Poor People’s Campaign aims to address policies that negatively impact poor and low-wealth individuals."
+    }
+  ]
+}

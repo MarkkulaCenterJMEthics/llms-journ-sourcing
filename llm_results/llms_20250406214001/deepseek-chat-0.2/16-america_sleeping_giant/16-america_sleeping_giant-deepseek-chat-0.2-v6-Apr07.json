@@ -1,0 +1,82 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "980,000 low-wage voters did not turn out.",
+      "Name of Source": "low-wage voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "In 2016, Trump carried Michigan by just 10,000 votes. 980,000 low-wage voters did not turn out."
+    },
+    {
+      "Sourced Statement": "920,000 poor and low-wealth voters sat it out.",
+      "Name of Source": "poor and low-wealth voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "In North Carolina, Trump’s margin of victory was 170,000 votes while 920,000 poor and low-wealth voters sat it out."
+    },
+    {
+      "Sourced Statement": "They’re saying that they’re not voting because people are not speaking to their issues and that they’re just not interested in those candidates.",
+      "Name of Source": "low-wage voter cohort",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Columbia University researcher Robert Paul Hartley found that only 46 percent of voters with household income less than twice the federal poverty rate cast a ballot in 2016, as compared to a 68 percent turnout rate for voters who had a household income more than twice the poverty line."
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Columbia University researcher Robert Paul Hartley found that only 46 percent of voters with household income less than twice the federal poverty rate cast a ballot in 2016, as compared to a 68 percent turnout rate for voters who had a household income more than twice the poverty line.",
+      "Name of Source": "Columbia University",
+      "Type of Source": "Document",
+      "Source Justification": "It’s the product of a perverse feedback loop that was flagged by a Columbia University study undertaken of the 2106 electorate with the support of the Poor People’s Campaign, which studied the low-wage voter cohort and found a majority of them did not vote and when they were surveyed they explained they didn’t turn out because they didn’t hear candidates discuss issues that had any relevancy to their lives."
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "They’re saying that they’re not voting because people are not speaking to their issues and that they’re just not interested in those candidates.",
+      "Name of Source": "Robert Paul Hartley",
+      "Type of Source": "Named Person",
+      "Title of Source": "Columbia University researcher",
+      "Source Justification": "Columbia University researcher Robert Paul Hartley found that only 46 percent of voters with household income less than twice the federal poverty rate cast a ballot in 2016, as compared to a 68 percent turnout rate for voters who had a household income more than twice the poverty line."
+    },
+    {
+      "Sourced Statement": "In 2024, the election is going to be about mobilization.",
+      "Name of Source": "Celinda Lake",
+      "Type of Source": "Named Person",
+      "Title of Source": "President of Lake Research Partners",
+      "Source Justification": "They were joined by respected pollster Celinda Lake, President of Lake Research Partners."
+    },
+    {
+      "Sourced Statement": "Poor and low wage people have the power to determine and decide the 2024 elections and elections beyond.",
+      "Name of Source": "William Barber",
+      "Type of Source": "Named Person",
+      "Title of Source": "Rev. Dr.",
+      "Source Justification": "This week in Washington at the National Press Club the Poor People’s Campaign, under the leadership of Barber and Rev. Dr. Liz Theoharis, announced their plans for a mass mobilization of 15 million poor and low-wealth voters nationwide ahead of November’s election."
+    },
+    {
+      "Sourced Statement": "We are mobilizing, organizing, registering and educating people for a movement that votes, votes for healthcare and debt cancellation, votes for living wages and string anti-poverty programs and votes for fair taxes and the demilitarizing of our communities and world.",
+      "Name of Source": "Liz Theoharis",
+      "Type of Source": "Named Person",
+      "Title of Source": "Rev. Dr.",
+      "Source Justification": "This week in Washington at the National Press Club the Poor People’s Campaign, under the leadership of Barber and Rev. Dr. Liz Theoharis, announced their plans for a mass mobilization of 15 million poor and low-wealth voters nationwide ahead of November’s election."
+    },
+    {
+      "Sourced Statement": "I work for MassHealth as a Personal Care Attendant, helping to take care of people with disabilities and who are sick and need help with their daily activities. But I do not have health insurance myself.",
+      "Name of Source": "Janice Guzman",
+      "Type of Source": "Named Person",
+      "Title of Source": "organizer with the Massachusetts Poor People's Campaign and SEIU 1199",
+      "Source Justification": "Dozens of local leaders from the state chapters of the Poor People’s Campaign were on hand in person and virtually for the high spirited kick off including Janice Guzman, an organizer with the Massachusetts Poor People's Campaign and SEIU 1199."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Poor People’s Campaign is planning simultaneous actions on March 2 at over 30 state capitols to launch “the campaign and highlight the policies being promulgated in state houses across the country that are hurting the poor or distracting from addressing the real issues facing poor and low-wealth people,” according to the PPC.",
+      "Name of Source": "Poor People’s Campaign",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Poor People’s Campaign is planning simultaneous actions on March 2 at over 30 state capitols to launch “the campaign and highlight the policies being promulgated in state houses across the country that are hurting the poor or distracting from addressing the real issues facing poor and low-wealth people,” according to the PPC."
+    },
+    {
+      "Sourced Statement": "In 2016, in a ‘proof of concept’, the Poor People’s Campaign targeted specific low wealth and low wage voters in several states including in Georgia where they identified and mobilized 36,000 previously unengaged voters that helped produce the margin of victory in the pivotal U.S. Senate races won by Rev. Raphael Warner (D-GA) and Jon Ossoff (D-GA).",
+      "Name of Source": "Poor People’s Campaign",
+      "Type of Source": "Named Organization",
+      "Source Justification": "In 2016, in a ‘proof of concept’, the Poor People’s Campaign targeted specific low wealth and low wage voters in several states including in Georgia where they identified and mobilized 36,000 previously unengaged voters that helped produce the margin of victory in the pivotal U.S. Senate races won by Rev. Raphael Warner (D-GA) and Jon Ossoff (D-GA)."
+    }
+  ]
+}

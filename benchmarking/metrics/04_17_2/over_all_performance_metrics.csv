@@ -1,0 +1,4 @@
+,Statement_Match_Rate,Statement_Match_Rate,Type_Match_Rate,Type_Match_Rate,Combined_Statement_Type_Match_Rate,Combined_Statement_Type_Match_Rate,Name_Match_Rate,Name_Match_Rate,Type_Name_Match_Rate,Type_Name_Match_Rate,Title_Match_Rate,Title_Match_Rate,Justification_Match_Rate,Justification_Match_Rate,Title_Justification_Join_Match_Rate,Title_Justification_Join_Match_Rate,All_Attribute_Accuracy,All_Attribute_Accuracy
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+model_name,,,,,,,,,,,,,,,,,,
+deepseek-chat-0.2,0.6895113530299534,0.1782620146748297,0.7898876101548828,0.2139379111397132,0.5442611654532913,0.2145162846568356,0.7610811752404896,0.17628563011594953,0.6901289995701944,0.24334501523939225,0.7541213940828473,0.1803696129402808,0.2879857807692828,0.22001205194782178,0.3961578676055266,0.23011610583920244,0.36356024547294025,0.2396341914747182

@@ -1,0 +1,82 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "During the first week of school, messages went out to families that some of the water fountains on their campuses had been put out of service and were being repaired because of elevated lead levels.",
+      "Name of Source": "families",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Community members, many of whom raised concerns two weeks ago, were skeptical."
+    },
+    {
+      "Sourced Statement": "Teachers from Frick United Academy of Language demanded to know why, if testing took place in April, fountains weren’t shut down until August.",
+      "Name of Source": "teachers",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "The school hosted students for summer programming when fountains would have still been in use."
+    },
+    {
+      "Sourced Statement": "Community members pointed out that other districts have lower thresholds for remediation.",
+      "Name of Source": "community members",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Community members, many of whom raised concerns two weeks ago, were skeptical."
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "The district’s safe drinking water policy states that any water sources showing lead at above 5 parts per billion must be taken offline and repaired.",
+      "Name of Source": "Oakland Unified School District",
+      "Type of Source": "Document",
+      "Source Justification": "The district’s safe drinking water policy states that any water sources showing lead at above 5 parts per billion must be taken offline and repaired."
+    },
+    {
+      "Sourced Statement": "In 2017, when OUSD was considering its clean drinking water policy, the cost to upgrade all the pipes would have been $38 million, Thomas said.",
+      "Name of Source": "Oakland Unified School District",
+      "Type of Source": "Document",
+      "Source Justification": "In 2017, when OUSD was considering its clean drinking water policy, the cost to upgrade all the pipes would have been $38 million, Thomas said."
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“This mistake has caused families stress, anxiety and panic, further limiting our community’s trust in this district,” said Max Simmons, one of OUSD’s student directors.",
+      "Name of Source": "Max Simmons",
+      "Type of Source": "Named Person",
+      "Title of Source": "student director",
+      "Source Justification": "Max Simmons, one of OUSD’s student directors, expressed concerns about the district’s handling of the lead contamination issue."
+    },
+    {
+      "Sourced Statement": "“I sincerely apologize for the stress and concern this has caused our school sites, students and families. We understand the gravity of this situation and we are fully committed to taking immediate, transparent and corrective action,” she said.",
+      "Name of Source": "Kyla Johnson-Trammell",
+      "Type of Source": "Named Person",
+      "Title of Source": "Superintendent",
+      "Source Justification": "Kyla Johnson-Trammell, the Superintendent, apologized for the delay in notifying school communities about the lead levels and committed to corrective action."
+    },
+    {
+      "Sourced Statement": "“There is so much trust rebuilding that has to be done for our community. We have failed. And when I say ‘we’ I mean OUSD has failed at its most basic job of not poisoning our students,” said Stuart Loebl, a sixth-grade science teacher at Frick.",
+      "Name of Source": "Stuart Loebl",
+      "Type of Source": "Named Person",
+      "Title of Source": "sixth-grade science teacher",
+      "Source Justification": "Stuart Loebl, a sixth-grade science teacher at Frick, criticized the district’s handling of the lead contamination issue and called for an independent audit."
+    },
+    {
+      "Sourced Statement": "“Why didn’t you do your job? You knew months ago that the water was contaminated. You didn’t act, and you let those kids come back to school and drink poisoned water,” said Marina Muñoz, a parent at Madison Park Academy and an organizer with Communities for a Better Environment.",
+      "Name of Source": "Marina Muñoz",
+      "Type of Source": "Named Person",
+      "Title of Source": "parent and organizer",
+      "Source Justification": "Marina Muñoz, a parent at Madison Park Academy and an organizer with Communities for a Better Environment, demanded accountability and testing for all students."
+    },
+    {
+      "Sourced Statement": "“This is not new to Oakland, but it is something that we need to tackle as an entire city, and we need to have community partners, philanthropic partners, as well as our county and state folks to support us in dealing with this issue,” she said.",
+      "Name of Source": "Valarie Bachelor",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director and chair of OUSD’s facilities committee",
+      "Source Justification": "Valarie Bachelor, the chair of OUSD’s facilities committee, emphasized the need for community and external support to address the lead contamination issue."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Alameda County recommends that any families who were notified that their schools had elevated lead levels should get their child a blood lead test.",
+      "Name of Source": "Alameda County",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Alameda County recommends that any families who were notified that their schools had elevated lead levels should get their child a blood lead test."
+    }
+  ]
+}

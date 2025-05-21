@@ -1,0 +1,42 @@
+Read and analyze the following news article carefully. Provide the requested information in pure JSON format:%s
+
+1. Using the definitions in the system prompt, identify and categorize all the sources mentioned in the article. You may find the following types of sources: Named Sources: Specific named individuals or named organizations. Unnamed Sources: Sources mentioned but not named. Anonymous Sources: Sources mentioned, not named, and noted as offered anonymity. Document Sources: Reports, studies, or official records. 
+   
+2. Using the definitions in the system prompt, for each source, extract the following information:
+   - All sourced statements attributed to this source
+   - Name of the source 
+   - Title (if a specific title is not provided, use "null" and include any descriptive information in the Association field; use "null" for document or organization sources)
+   - Additional Source Characterization or Justification For Inclusion In Story
+
+3. Pay special attention to:
+   - Multiple statements from the same source
+
+4. IMPORTANT: For all sourced statements, use the exact full sentences from the article including quotes or indirect speech. Do not paraphrase or summarize. Copy and paste the precise wording used in the article for each statement.
+
+6. Provide your analysis in pure JSON format with the following structure:
+
+{
+  "NamedSources": [
+    {
+      "Name": "string",
+      "Title": "string",
+      "Association": "string",
+      "SourcedStatement": ["string", "string"]
+    }
+  ],
+  "AnonymousSources": [
+    {
+      "Title": "string",
+      "Association": "string",
+      "SourcedStatement": ["string", "string"]
+    }
+  ],
+  "DocumentSources": [
+    {
+      "Name": "string",
+      "Title": "null",
+      "Association": "string",
+      "SourcedStatement": ["string", "string"]
+    }
+  ]
+}

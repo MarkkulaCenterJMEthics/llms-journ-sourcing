@@ -1,0 +1,96 @@
+INSTRUCTIONS
+
+Read the attached news article carefully %s. Apply the instructions below only on the attached news article. Follow ALL the steps below to extract the following data from the article. Sourced Statements, Name of Source, Type of Source, Title of Source, and Source Justification.
+
+1. Using the definitions provided above, identify all the Anonymous Sources in the article. Remember that for Anonymous Sources, Name of Source has a 'null' value. No need to write or print anything yet. 
+
+2. For each Anonymous Source in your list above, find all the associated Sourcing Statements. For sourced statements, extract the exact full sentences from the article whether they are quoted or indirect speech as the data. Do not paraphrase or summarize. Retain them as they are. Copy and paste the exact wording used in the article for each statement. And pay special attention to multiple statements from the same source. Remember that for Anonymous Sources, Name of Source has a 'null' value. No need to write print anything yet. 
+
+3. Applying the definition of Title of Source provided above, for each Anonymous Source in your list, extract the Title, if present in the text. Remember that Anonymous Sources may or may not be included with a title, since the title itself may be sensitive information. But if a title is present, extract it. No need to print anything yet.
+
+4. Now apply the definition of Source Justification given, and find the source justification for each anonymous source in each sourcing statement. Extract only the text that matches this definition directly from the story. Remember that source justification refers to words or sentences doing additional characterization or justification for inclusion of that source in the story. Do not synthesize or generate or summarize in your own words. Extract the actual text. If more than one source justification is present in the text, concatenate them as one single string separated by ';'.
+
+5. Organize and add your data to a JSON object as follows: 
+
+{
+  "Anonymous Sources": [ 
+      "Sourced Statement": "string",
+      "Name of Source": "string",
+      "Type of Source": "string",
+      "Title of Source": "string",
+      "Source Justification": "string"
+  ]
+}
+
+6. Next, apply the definition of the Type of Source "Unnamed Group of People" and find all such sources in the article. Remember that the type of source "Unnamed Group of People" is different from "Anonymous Source", so apply the definition carefully. No need to print or write anything yet. 
+
+7. For each source of the type "Unnamed Group of People" in your list above, find all the associated Sourcing Statements. Look only for statements where groups of people are quoted directly or indirectly. Remember that none of the Sourced Statements in your Anonymous Sources list must appear on this list. 
+
+8. And remember that for Unnamed Group of People, the Name of Source is the term the reporter has used to refer to the group. For e.g., it might be "teachers", "participants", "parents", "attendees", "rallygoers", "protestors", "advocates", "activists", "students", etc. If not present, set Name of Source to the 'null' value. No need to print or write anything yet. 
+
+9. For each "Unnamed Group of People" source in each sourcing statement, find the Source Justification, by applying the definition given. Extract only the text that matches this definition directly from the story. If the same Unnamed Group of People source is attributed into multiple sourcing statements, you may copy the Source Justification from the first sourced statement to the others for that source. Remember that source justification refers to words or sentences doing additional characterization or justification for inclusion of that source in the story. Do not synthesize or generate or summarize in your own words. Extract the actual text. If more than one source justification is present in the text, concatenate them as one single string separated by ';'.
+
+10. Organize all your data and add to above JSON object as follows: 
+
+  "Unnamed Group of People": [ 
+      "Sourced Statement": "string",
+      "Name of Source": "string",
+      "Type of Source": "string",
+      "Source Justification": "string"
+  ]
+
+11. Next, apply the definition of the Type of Source "Document" and find all such sources in the article. Remember that Document sources are different from Anonymous Sources and Unnamed Groups of People, which you already identified.
+
+12. For each Document source in your list, set the Name of Source to the 'null' value. But if the document is a public document, set the Name of the Source to the document’s publishing organization or publisher, if available. No need to write or print anything yet. 
+
+13. For each Document source in your list above, find all the associated Sourced Statements. Remember that you already saved the sourced statements Anonymous Sources and Unnamed Group of People sources. The sourced statements for the Document sources, if any, will be different. Extract the exact full sentences from the article whether they are quoted or indirect speech as the data. Do not paraphrase or summarize. Retain them as they are. Copy and paste the exact wording used in the article for each statement. And pay special attention to multiple statements from the same source. No need to write or print anything yet. 
+
+14. Now apply the definition of Source Justification given, and find the Source Justification for each Document source in each sourcing statement. Extract only the text that matches this definition directly from the story. If the same Document is attributed into multiple sourcing statements, you may copy the Source Justification from the first sourced statement to the others for that document. Remember that source justification refers to words or sentences doing additional characterization or justification for inclusion of that source in the story. Do not synthesize or generate or summarize in your own words. Extract the actual text. If more than one source justification is present in the text, concatenate them as one single string separated by ';'.
+
+15. Organize and add your Document sources data to above JSON object as follows: 
+
+  "Document Sources": [ 
+      "Sourced Statement": "string",
+      "Name of Source": "string",
+      "Type of Source": "string",
+      "Source Justification": "string"
+  ]
+
+16. Next, apply the definition of the Type of Source "Named Person" and find all such sources in the article. Remember that all named persons in the text of the news article are not Named Person sources. And this type of source is different from Named Organizations. No need to write or print anything yet. 
+
+17. For each Named Person source in your list above, find all the associated Sourced Statements. No need to write or print anything yet. 
+
+18. Applying the definition of Title of Source provided above, for each Named Person source in your list, extract the Title, if provided. Remember that Named Persons in positions of power, formal authority, leadership or expertise will usually be quoted with a title. But when the voices of everyday people and people without structural power are included in the story, they will also be Named Person sources and may not have a title. No need to write or print anything yet. 
+
+19. Now apply the definition of Source Justification given, and find the Source Justification for each Named Person source in each sourced statement. Extract only the text that matches this definition directly from the story. Remember that source justification refers to words or sentences doing additional characterization or justification for inclusion of that source in the story. Do not synthesize or generate or summarize in your own words. Extract the actual text. If more than one source justification is present in the text, concatenate them as one single string separated by ';'.
+
+20. Organize and add your Named Person sources data to above JSON object as follows: 
+
+  "Named Person Sources": [ 
+      "Sourced Statement": "string",
+      "Name of Source": "string",
+      "Type of Source": "string",
+      "Title of Source": "string",
+      "Source Justification": "string"
+  ]
+
+21. Next, apply the definition of the Type of Source "Named Organization" and find all such sources in the article. Note: All named organizations in the text of a news article are not sources. And this type of source is different from Named Persons. No need to write or print anything yet. 
+
+22. For each Named Organization source in your list above, find all the associated Sourced Statements. No need to write or print anything yet. 
+
+23. Now apply the definition of Source Justification given, and find the Source Justification for each Named Organization source in each sourced statement. Extract only the text that matches this definition directly from the story. Remember that source justification refers to words or sentences doing additional characterization or justification for inclusion of that source in the story. Do not synthesize or generate or summarize in your own words. Extract the actual text. If more than one source justification is present in the text, concatenate them as one single string separated by ';'.  
+
+24. Organize and add your Named Organization sources data above JSON object as follows: 
+
+  "Named Organization Sources": [ 
+      "Sourced Statement": "string",
+      "Name of Source": "string",
+      "Type of Source": "string",
+      "Source Justification": "string"
+  ]
+
+25. Finally, print the entire JSON object.
+
+Do not print or provide any other analysis. I only want a valid json format that can be parsed. Give me no other text but the json. 
+
+END OF INSTRUCTIONS.

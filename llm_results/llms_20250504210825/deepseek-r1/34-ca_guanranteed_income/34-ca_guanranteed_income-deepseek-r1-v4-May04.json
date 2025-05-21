@@ -1,0 +1,81 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Advocates point to the expansion of the federal child tax credit as proof that direct cash payments to families reduce poverty.",
+      "Name of Source": "Advocates",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Advocates point to the expansion of the federal child tax credit as proof that direct cash payments to families reduce poverty."
+    },
+    {
+      "Sourced Statement": "Still some opponents said these types of programs discourage participation in the labor market, are too costly and fail to sufficiently reform the welfare system to bring working people out of poverty.",
+      "Name of Source": "opponents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Still some opponents said these types of programs discourage participation in the labor market, are too costly and fail to sufficiently reform the welfare system to bring working people out of poverty."
+    },
+    {
+      "Sourced Statement": "Participants report feeling more free to spend money on self care, outings with family members or sharing their wealth with community members.",
+      "Name of Source": "Participants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Participants report feeling more free to spend money on self care, outings with family members or sharing their wealth with community members."
+    }
+  ],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"With all the struggling I was doing, my attitude took a hit,\" Kahlia said. \"The more you witness yourself being down and out, the more you feel down and out, and the more stuck you feel.\"",
+      "Name of Source": "Kipp Kahlia",
+      "Type of Source": "Named Person",
+      "Title of Source": "participant in L.A. County’s guaranteed income program",
+      "Source Justification": "For years, Kipp Kahlia felt stuck. The Long Beach guitarist used to tour the country with reggae artists. But 20 years ago, after contracting intestinal parasites on a trip abroad, Kahlia had to take a step back from gigging."
+    },
+    {
+      "Sourced Statement": "\"Whenever L.A. city or county or Chicago or New York do something bold like this, it’s a really important signal that this big policy idea found its footing during COVID and represents a possible way forward in terms of supporting low income people across America,\" Kline said.",
+      "Name of Source": "Sean Kline",
+      "Type of Source": "Named Person",
+      "Title of Source": "director of the Stanford Basic Income Lab",
+      "Source Justification": "The pilot program will allow researchers to track its impact in a large, diverse region, said Sean Kline, director of the Stanford Basic Income Lab, which studies guaranteed income programs across the country."
+    },
+    {
+      "Sourced Statement": "\"There is so much we don’t know yet,\" Castro said. \"We don’t know how long people need to receive cash to create what level of change.\"",
+      "Name of Source": "Amy Castro",
+      "Type of Source": "Named Person",
+      "Title of Source": "director of Penn’s Center for Guaranteed Income Research",
+      "Source Justification": "Researchers at the University of Pennsylvania are surveying the 1,000 Breathe participants, along with a control group of people not receiving funds. Every six months, program participants and members in the control group receive the same survey questions about their wellbeing, financially and mentally, said Amy Castro, director of Penn’s Center for Guaranteed Income Research."
+    },
+    {
+      "Sourced Statement": "\"People need help with normal, everyday interactions that may be easy for some individuals,\" he said. \"But for others, they don’t have any prior experience with them.\"",
+      "Name of Source": "Brian Arredondo",
+      "Type of Source": "Named Person",
+      "Title of Source": "coach for program participants",
+      "Source Justification": "The program’s coaches, provided through Wilmington-based Strength Based Community Change, personally support participants as their lives change. Arredondo regularly checks in with about 300 participants. He said participants come to him with a huge variety of needs, from questions about investing and money management to how to find a good mechanic."
+    },
+    {
+      "Sourced Statement": "\"It can’t just be the money,\" Fournier said. \"It’s the opportunity and the access to experiences sometimes that really make a big difference when there is even a little bit more resources folks can have.\"",
+      "Name of Source": "Ely Fournier",
+      "Type of Source": "Named Person",
+      "Title of Source": "overseer of the program coaches at Strength Based Community Change",
+      "Source Justification": "It’s those hard-to-measure impacts that are key, said Ely Fournier, who oversees the program coaches at Strength Based Community Change."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The pilot program will allow researchers to track its impact in a large, diverse region, said Sean Kline, director of the Stanford Basic Income Lab, which studies guaranteed income programs across the country.",
+      "Name of Source": "Stanford Basic Income Lab",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The pilot program will allow researchers to track its impact in a large, diverse region, said Sean Kline, director of the Stanford Basic Income Lab, which studies guaranteed income programs across the country."
+    },
+    {
+      "Sourced Statement": "Researchers at the University of Pennsylvania are surveying the 1,000 Breathe participants, along with a control group of people not receiving funds.",
+      "Name of Source": "University of Pennsylvania",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Researchers at the University of Pennsylvania are surveying the 1,000 Breathe participants, along with a control group of people not receiving funds."
+    },
+    {
+      "Sourced Statement": "The program’s coaches, provided through Wilmington-based Strength Based Community Change, personally support participants as their lives change.",
+      "Name of Source": "Strength Based Community Change",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The program’s coaches, provided through Wilmington-based Strength Based Community Change, personally support participants as their lives change."
+    }
+  ]
+}

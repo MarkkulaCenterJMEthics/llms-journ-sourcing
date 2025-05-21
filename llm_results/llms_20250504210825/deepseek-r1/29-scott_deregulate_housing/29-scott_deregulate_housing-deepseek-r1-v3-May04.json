@@ -1,0 +1,61 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Landlords are blaming the situation on a mix of higher operating costs and the housing court delays caused by D.C.'s pandemic-era eviction policies, which have allowed tenants to stay for years in their units without paying rent.",
+      "Name of Source": "landlords",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": ""
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "\"We find that new construction differentially declined in the upzoned, affordability-mandated areas,\" they write. \"Developers intentionally avoided MHA-zoned areas – despite their upzoning– opting instead to build on nearby blocks without affordability requirements.\"",
+      "Name of Source": null,
+      "Type of Source": "Document",
+      "Source Justification": "researchers Jacob Krimmel and Betty X. Wang published a new study confirming the complaints of MHA's critics."
+    },
+    {
+      "Sourced Statement": "Delinquencies have risen dramatically, the report concludes, because of D.C.'s pandemic-era policies that have tripled the length of the legal process required to evict nonpaying tenants.",
+      "Name of Source": "Apartment and Office Building Association",
+      "Type of Source": "Document",
+      "Source Justification": "the report [ by Apartment and Office Building Association] concludes"
+    },
+    {
+      "Sourced Statement": "A detailed Los Angeles Times investigation published in November 2023 reported a number of issues at AHF-owned properties, including apartments infested with cockroaches, exploding radiators, water shut-offs so regular that tenants had to defecate in wastebaskets, violent crime and drug dealing left unaddressed, and months-long elevator shut-offs that left disabled tenants stuck on upper floors or forced to sleep in the lobby.",
+      "Name of Source": "Los Angeles Times",
+      "Type of Source": "Document",
+      "Source Justification": "A detailed Los Angeles Times investigation published in November 2023 reported"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"Housing policy is inherently local, and federal legislators should encourage local solutions to local problems,\" reads the press release on the bill.",
+      "Name of Source": "Tim Scott",
+      "Type of Source": "Named Person",
+      "Title of Source": "Sen. (R–S.C.)",
+      "Source Justification": "a group of Republican senators led by Sen. Tim Scott (.) introduced.) introduced the Renewing Opportunity in the American Dream (ROAD) to Housing Act"
+    },
+    {
+      "Sourced Statement": "\"We find that new construction differentially declined in the upzoned, affordability-mandated areas,\" they write. \"Developers intentionally avoided MHA-zoned areas – despite their upzoning– opting instead to build on nearby blocks without affordability requirements.\"",
+      "Name of Source": "Jacob Krimmel and Betty X. Wang",
+      "Type of Source": "Named Person",
+      "Title of Source": "researchers",
+      "Source Justification": "researchers Jacob Krimmel and Betty X. Wang published a new study confirming the complaints of MHA's critics."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "HUD told me in a statement that AHF 'is part of a team that applied for these awards. The team is not only eligible, but the best qualified applicant.'",
+      "Name of Source": "U.S. Department of Housing and Urban Development (HUD)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "HUD told me in a statement"
+    },
+    {
+      "Sourced Statement": "The vast majority of subsidized housing units in Washington, D.C., aren't making enough money to cover their operating expenses, reports BisNow.",
+      "Name of Source": "BisNow",
+      "Type of Source": "Named Organization",
+      "Source Justification": "reports BisNow"
+    }
+  ]
+}

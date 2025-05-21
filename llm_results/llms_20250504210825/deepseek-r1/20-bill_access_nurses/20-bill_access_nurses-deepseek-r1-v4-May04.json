@@ -1,0 +1,48 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\u201cAs California\u2019s population ages and becomes increasingly more diverse, we will need a qualified and experienced nursing workforce to meet the unique demands and varied needs of all patients. That is why we must have appropriate nurse staffing levels which have proven to reduce mortality rates, reduce hospital length of stays, and reduce the number of preventable events such as falls and infections,\u201d said Cortese.",
+      "Name of Source": "Sen. Dave Cortese",
+      "Type of Source": "Named Person",
+      "Title of Source": "Sen. Dave Cortese (D-San Jose)",
+      "Source Justification": "authored SB 1015"
+    },
+    {
+      "Sourced Statement": "\u201cClinical education is an essential part of any nurse\u2019s education, yet aspiring nurses, especially students in public programs, are being denied access to clinical placements,\u201d said Kennedy.",
+      "Name of Source": "Cathy Kennedy",
+      "Type of Source": "Named Person",
+      "Title of Source": "Registered Nurse and president of the CNA",
+      "Source Justification": "president of the CNA"
+    },
+    {
+      "Sourced Statement": "\u201cWe applaud the California Senate for passing S.B. 1015. It is commonsense reform that will increase transparency and increase oversight from the Board of Registered Nursing,\u201d she added.",
+      "Name of Source": "Cathy Kennedy",
+      "Type of Source": "Named Person",
+      "Title of Source": "Registered Nurse and president of the CNA",
+      "Source Justification": "president of the CNA"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The California Nurses Association (CNA), the largest union of registered nurses in the state, sponsored SB 1015 to support nursing students seeking placement in the workforce.",
+      "Name of Source": "California Nurses Association (CNA)",
+      "Type of Source": "Named Organization",
+      "Source Justification": "the largest union of registered nurses in the state, sponsored SB 1015"
+    },
+    {
+      "Sourced Statement": "According to the Board of Registered Nursing, 92 out of 152 publicly funded nursing programs were denied access to clinic placements.",
+      "Name of Source": "Board of Registered Nursing",
+      "Type of Source": "Named Organization",
+      "Source Justification": "reported that 92 out of 152 publicly funded nursing programs were denied access to clinic placements"
+    },
+    {
+      "Sourced Statement": "The program officials reported that the inability to secure clinical placements is one of the main reasons for not enrolling more students.",
+      "Name of Source": "Board of Registered Nursing",
+      "Type of Source": "Named Organization",
+      "Source Justification": "reported that the inability to secure clinical placements is one of the main reasons for not enrolling more students"
+    }
+  ]
+}

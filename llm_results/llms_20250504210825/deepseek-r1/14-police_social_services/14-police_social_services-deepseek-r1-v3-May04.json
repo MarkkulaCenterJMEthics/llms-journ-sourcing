@@ -1,0 +1,88 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "A study by the Vermont nonprofit Crime Research Group shows Brattleboro police are dispatched most to the local Quality Inn, where the state is housing people otherwise without shelter (authorities received 181 calls there in the first half of this year), as well as to such downtown locations as the Whetstone path park (112 calls so far in 2024), the Groundworks Collaborative shelter (93) and Transportation Center parking garage (57).",
+      "Name of Source": "Crime Research Group",
+      "Type of Source": "Document",
+      "Source Justification": "A study by the Vermont nonprofit Crime Research Group shows"
+    },
+    {
+      "Sourced Statement": "Most calls about the top 20 didn’t involve criminal behavior, but instead disorderly conduct, disputes and disturbances often linked to alcohol and drug use or mental health issues, municipal statistics show.",
+      "Name of Source": "Brattleboro municipality",
+      "Type of Source": "Document",
+      "Source Justification": "municipal statistics show"
+    },
+    {
+      "Sourced Statement": "The disorder we are witnessing, especially in our downtown area, has many causes and impacts,” Evans wrote the selectboard in a recent memorandum.",
+      "Name of Source": "Brattleboro Police Department",
+      "Type of Source": "Document",
+      "Source Justification": "Evans wrote the selectboard in a recent memorandum"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "Jaws dropped,” Jim Baker, a consultant for a state public safety enhancement initiative, recounted at a recent public meeting. “The providers recognized those folks and came to the realization that if they’re falling through the cracks in their system, who ends up dealing with them?",
+      "Name of Source": "Jim Baker",
+      "Type of Source": "Named Person",
+      "Title of Source": "Consultant for a state public safety enhancement initiative",
+      "Source Justification": "Jim Baker, a consultant for a state public safety enhancement initiative, recounted at a recent public meeting; former commander of the Vermont State Police and one-time Rutland City police chief"
+    },
+    {
+      "Sourced Statement": "The 20 people that are consuming a lot of resources clearly need some, but they’re not getting the right ones,” Brattleboro Assistant Police Chief Jeremy Evans recently told the town selectboard. “We’re trying to get everything we have out to the service providers so that they can use that data to inform their decision-making.",
+      "Name of Source": "Jeremy Evans",
+      "Type of Source": "Named Person",
+      "Title of Source": "Assistant Police Chief",
+      "Source Justification": "Brattleboro Assistant Police Chief Jeremy Evans recently told the town selectboard"
+    },
+    {
+      "Sourced Statement": "This is something that we see in a lot of different jurisdictions,” Robin Joy, the Crime Research Group’s statistical director, told local leaders at another meeting.",
+      "Name of Source": "Robin Joy",
+      "Type of Source": "Named Person",
+      "Title of Source": "Statistical Director of the Crime Research Group",
+      "Source Justification": "Robin Joy, the Crime Research Group’s statistical director, told local leaders at another meeting"
+    },
+    {
+      "Sourced Statement": "We need to consider our own boundaries around increasing safety and reducing risks,” Groundworks executive director Libby Bennett said upon this April’s first anniversary of the death. “We all understand we’re upholding these out of respect for each other.",
+      "Name of Source": "Libby Bennett",
+      "Type of Source": "Named Person",
+      "Title of Source": "Executive Director of Groundworks Collaborative",
+      "Source Justification": "Groundworks executive director Libby Bennett said upon this April’s first anniversary of the death"
+    },
+    {
+      "Sourced Statement": "All of us area agencies, we are doing everything humanly possible that we can do,” said Christine Allen, executive director of Turning Point of Windham County. “We are so straight out, working our tails off — and we can’t do this without the police.",
+      "Name of Source": "Christine Allen",
+      "Type of Source": "Named Person",
+      "Title of Source": "Executive Director of Turning Point of Windham County",
+      "Source Justification": "Christine Allen, executive director of Turning Point of Windham County"
+    },
+    {
+      "Sourced Statement": "We were looking at real information that made us have some quite difficult conversations,” Daniel Quipp said following the session. “Here’s the name of this person who has trespassed at this place, this place, this place, this place, this place and we know that they need these kinds of services. What can we do as a group of people who are working together to try to make a better, safer Brattleboro to actually meet that person’s needs?",
+      "Name of Source": "Daniel Quipp",
+      "Type of Source": "Named Person",
+      "Title of Source": "Chair of the selectboard and staff member of Southeastern Vermont Community Action",
+      "Source Justification": "Daniel Quipp attended the providers’ meeting as chair of the selectboard and a staff member of the antipoverty agency Southeastern Vermont Community Action"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Brattleboro police are dispatched most to the local Quality Inn, where the state is housing people otherwise without shelter (authorities received 181 calls there in the first half of this year), as well as to such downtown locations as the Whetstone path park (112 calls so far in 2024), the Groundworks Collaborative shelter (93) and Transportation Center parking garage (57).",
+      "Name of Source": "Brattleboro Police Department",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Brattleboro police are dispatched most to the local Quality Inn"
+    },
+    {
+      "Sourced Statement": "Groundworks Collaborative helps local people without permanent housing (its outreach team reports contact with 159 such individuals so far this year).",
+      "Name of Source": "Groundworks Collaborative",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Groundworks Collaborative helps local people without permanent housing"
+    },
+    {
+      "Sourced Statement": "The Brattleboro Police Department is creating a Hotspot Evaluation and Analysis Team to extend “in-depth data related to trends, problem locations, safety concerns, and high-volume users of town services,” Evans said in his memo.",
+      "Name of Source": "Brattleboro Police Department",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Brattleboro Police Department is creating a Hotspot Evaluation and Analysis Team"
+    }
+  ]
+}

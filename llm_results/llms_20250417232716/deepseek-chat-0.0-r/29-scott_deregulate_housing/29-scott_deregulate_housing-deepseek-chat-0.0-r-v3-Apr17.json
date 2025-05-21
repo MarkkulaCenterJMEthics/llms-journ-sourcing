@@ -1,0 +1,67 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "More than 80% of housing properties that have received D.C. funding aren't bringing in enough rental income to pay their mortgages and maintenance costs, according to the District's Department of Housing and Community Development.",
+      "Name of Source": "District's Department of Housing and Community Development",
+      "Type of Source": "Document",
+      "Source Justification": "according to the District's Department of Housing and Community Development"
+    },
+    {
+      "Sourced Statement": "The scale of the crisis is viewed as existential: 22,000 units that house 48,000 vulnerable residents are at risk of foreclosure today, according to DHCD.",
+      "Name of Source": "DHCD",
+      "Type of Source": "Document",
+      "Source Justification": "according to DHCD"
+    },
+    {
+      "Sourced Statement": "Delinquencies have risen dramatically, the report [ by Apartment and Office Building Association] concludes, because of D.C.'s pandemic-era policies that have tripled the length of the legal process required to evict nonpaying tenants.",
+      "Name of Source": "Apartment and Office Building Association",
+      "Type of Source": "Document",
+      "Source Justification": "the report [ by Apartment and Office Building Association] concludes"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "On Thursday, a group of Republican senators led by Sen. Tim Scott (R–S.C.) introduced the Renewing Opportunity in the American Dream (ROAD) to Housing Act, which proposes a grab bag of reforms to federal housing programs.",
+      "Name of Source": "Tim Scott",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senator",
+      "Source Justification": "a group of Republican senators led by Sen. Tim Scott (R–S.C.)"
+    },
+    {
+      "Sourced Statement": "Housing policy is inherently local, and federal legislators should encourage local solutions to local problems,",
+      "Name of Source": "Tim Scott",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senator",
+      "Source Justification": "reads the press release on the bill"
+    },
+    {
+      "Sourced Statement": "A former AHF employee described the living conditions at foundation properties as 'inhumane.'",
+      "Name of Source": "former AHF employee",
+      "Type of Source": "Named Person",
+      "Title of Source": "null",
+      "Source Justification": "A former AHF employee"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "This past week, I reported that the U.S. Department of Housing and Urban Development (HUD) gave the AIDS Healthcare Foundation (AHF), along with the Massachusetts Alliance of HUD Tenants, a $10 million grant which they will jointly distribute to tenant associations at privately owned, federally subsidized multifamily housing.",
+      "Name of Source": "U.S. Department of Housing and Urban Development",
+      "Type of Source": "Named Organization",
+      "Source Justification": "the U.S. Department of Housing and Urban Development (HUD) gave the AIDS Healthcare Foundation (AHF), along with the Massachusetts Alliance of HUD Tenants, a $10 million grant"
+    },
+    {
+      "Sourced Statement": "HUD told me in a statement that AHF 'is part of a team that applied for these awards. The team is not only eligible, but the best qualified applicant.'",
+      "Name of Source": "HUD",
+      "Type of Source": "Named Organization",
+      "Source Justification": "HUD told me in a statement"
+    },
+    {
+      "Sourced Statement": "Earlier this month, researchers Jacob Krimmel and Betty X. Wang published a new study confirming the complaints of MHA's critics.",
+      "Name of Source": "Jacob Krimmel and Betty X. Wang",
+      "Type of Source": "Named Organization",
+      "Source Justification": "researchers Jacob Krimmel and Betty X. Wang published a new study"
+    }
+  ]
+}

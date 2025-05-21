@@ -1,0 +1,80 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "The tenant groups will use that money to ensure their landlords maintain their buildings and provide habitable living conditions.",
+      "Name of Source": "tenant groups",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "The tenant groups will use that money to ensure their landlords maintain their buildings and provide habitable living conditions."
+    },
+    {
+      "Sourced Statement": "Developers intentionally avoided MHA-zoned areas – despite their upzoning– opting instead to build on nearby blocks without affordability requirements.",
+      "Name of Source": "Developers",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Developers intentionally avoided MHA-zoned areas – despite their upzoning– opting instead to build on nearby blocks without affordability requirements."
+    },
+    {
+      "Sourced Statement": "Landlords are blaming the situation on a mix of higher operating costs and the housing court delays caused by D.C.'s pandemic-era eviction policies, which have allowed tenants to stay for years in their units without paying rent.",
+      "Name of Source": "Landlords",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Landlords are blaming the situation on a mix of higher operating costs and the housing court delays caused by D.C.'s pandemic-era eviction policies, which have allowed tenants to stay for years in their units without paying rent."
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "More than 80% of housing properties that have received D.C. funding aren't bringing in enough rental income to pay their mortgages and maintenance costs, according to the District's Department of Housing and Community Development.",
+      "Name of Source": "District's Department of Housing and Community Development",
+      "Type of Source": "Document",
+      "Source Justification": "More than 80% of housing properties that have received D.C. funding aren't bringing in enough rental income to pay their mortgages and maintenance costs, according to the District's Department of Housing and Community Development."
+    },
+    {
+      "Sourced Statement": "The scale of the crisis is viewed as existential: 22,000 units that house 48,000 vulnerable residents are at risk of foreclosure today, according to DHCD.",
+      "Name of Source": "DHCD",
+      "Type of Source": "Document",
+      "Source Justification": "The scale of the crisis is viewed as existential: 22,000 units that house 48,000 vulnerable residents are at risk of foreclosure today, according to DHCD."
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "On Thursday, a group of Republican senators led by Sen. Tim Scott (R–S.C.) introduced the Renewing Opportunity in the American Dream (ROAD) to Housing Act, which proposes a grab bag of reforms to federal housing programs.",
+      "Name of Source": "Sen. Tim Scott",
+      "Type of Source": "Named Person",
+      "Title of Source": "Senator",
+      "Source Justification": "On Thursday, a group of Republican senators led by Sen. Tim Scott (R–S.C.) introduced the Renewing Opportunity in the American Dream (ROAD) to Housing Act, which proposes a grab bag of reforms to federal housing programs."
+    },
+    {
+      "Sourced Statement": "Housing wonks have long singled out HUD's requirement that manufactured homes sit on a permanent steel chassis, even once they're delivered, as a major headwind on manufactured home productions.",
+      "Name of Source": "Housing wonks",
+      "Type of Source": "Named Person",
+      "Title of Source": "null",
+      "Source Justification": "Housing wonks have long singled out HUD's requirement that manufactured homes sit on a permanent steel chassis, even once they're delivered, as a major headwind on manufactured home productions."
+    },
+    {
+      "Sourced Statement": "Earlier this month, researchers Jacob Krimmel and Betty X. Wang published a new study confirming the complaints of MHA's critics.",
+      "Name of Source": "Jacob Krimmel and Betty X. Wang",
+      "Type of Source": "Named Person",
+      "Title of Source": "researchers",
+      "Source Justification": "Earlier this month, researchers Jacob Krimmel and Betty X. Wang published a new study confirming the complaints of MHA's critics."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "HUD's decision to give this grant to AHF is highly questionable, given the organization's track record of managing its own residential properties.",
+      "Name of Source": "HUD",
+      "Type of Source": "Named Organization",
+      "Source Justification": "HUD's decision to give this grant to AHF is highly questionable, given the organization's track record of managing its own residential properties."
+    },
+    {
+      "Sourced Statement": "HUD told me in a statement that AHF 'is part of a team that applied for these awards. The team is not only eligible, but the best qualified applicant.'",
+      "Name of Source": "HUD",
+      "Type of Source": "Named Organization",
+      "Source Justification": "HUD told me in a statement that AHF 'is part of a team that applied for these awards. The team is not only eligible, but the best qualified applicant.'"
+    },
+    {
+      "Sourced Statement": "The vast majority of subsidized housing units in Washington, D.C., aren't making enough money to cover their operating expenses, reports BisNow.",
+      "Name of Source": "BisNow",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The vast majority of subsidized housing units in Washington, D.C., aren't making enough money to cover their operating expenses, reports BisNow."
+    }
+  ]
+}

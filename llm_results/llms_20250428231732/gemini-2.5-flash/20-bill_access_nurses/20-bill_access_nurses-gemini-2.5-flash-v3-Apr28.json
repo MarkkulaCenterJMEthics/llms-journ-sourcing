@@ -1,0 +1,115 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Nurses across California may soon have easier access to more career opportunities, if Gov. Gavin Newsom signs a new bill into law.",
+      "Name of Source": "Nurses",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Nurses across California"
+    },
+    {
+      "Sourced Statement": "Under SB 1015, the State would ensure clinical placement opportunities for California’s future nurses, including nurses attending community colleges, state universities, and other public institutions.",
+      "Name of Source": "nurses",
+      "Type": "Unnamed Group of People",
+      "Source Justification": "California’s future nurses, including nurses attending community colleges, state universities, and other public institutions"
+    },
+    {
+      "Sourced Statement": "The California Nurses Association (CNA), the largest union of registered nurses in the state, sponsored SB 1015 to support nursing students seeking placement in the workforce.",
+      "Name of Source": "nursing students",
+      "Type": "Unnamed Group of People",
+      "Source Justification": "nursing students seeking placement in the workforce"
+    },
+    {
+      "Sourced Statement": "Cathy Kennedy, a Registered Nurse and president of the CNA, said that SB 1015 helps nursing students receive a clinical education and placement amid the nationwide staffing crisis, despite their socioeconomic background.",
+      "Name of Source": "nursing students",
+      "Type": "Unnamed Group of People",
+      "Source Justification": "nursing students"
+    },
+    {
+      "Sourced Statement": "“Clinical education is an essential part of any nurse’s education, yet aspiring nurses, especially students in public programs, are being denied access to clinical placements,” said Kennedy.",
+      "Name of Source": "aspiring nurses",
+      "Type": "Unnamed Group of People",
+      "Source Justification": "aspiring nurses, especially students in public programs"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "According to the Board of Registered Nursing, 92 out of 152 publicly funded nursing programs were denied access to clinic placements.",
+      "Name of Source": "Board of Registered Nursing",
+      "Type": "Document",
+      "Source Justification": "According to the Board of Registered Nursing"
+    },
+    {
+      "Sourced Statement": "The program officials reported that the inability to secure clinical placements is one of the main reasons for not enrolling more students.",
+      "Name of Source": "Board of Registered Nursing",
+      "Type": "Document",
+      "Source Justification": "According to the Board of Registered Nursing"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "The bill authored by Sen. Dave Cortese (D-San Jose) aims to address the nursing shortage in the state’s workforce.",
+      "Name of Source": "Dave Cortese",
+      "Type": "Named Person",
+      "Title of Source": "Sen.",
+      "Source Justification": "(D-San Jose)"
+    },
+    {
+      "Sourced Statement": "Sen. Cortese said that SB 1015 ensures that the state meets the growing demand in the nursing field.",
+      "Name of Source": "Dave Cortese",
+      "Type": "Named Person",
+      "Title of Source": "Sen.",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "“As California’s population ages and becomes increasingly more diverse, we will need a qualified and experienced nursing workforce to meet the unique demands and varied needs of all patients.",
+      "Name of Source": "Dave Cortese",
+      "Type": "Named Person",
+      "Title of Source": "Sen.",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "That is why we must have appropriate nurse staffing levels which have proven to reduce mortality rates, reduce hospital length of stays, and reduce the number of preventable events such as falls and infections,” said Cortese.",
+      "Name of Source": "Dave Cortese",
+      "Type": "Named Person",
+      "Title of Source": "Sen.",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "Cathy Kennedy, a Registered Nurse and president of the CNA, said that SB 1015 helps nursing students receive a clinical education and placement amid the nationwide staffing crisis, despite their socioeconomic background.",
+      "Name of Source": "Cathy Kennedy",
+      "Type": "Named Person",
+      "Title of Source": "Registered Nurse and president",
+      "Source Justification": "a Registered Nurse and president of the CNA"
+    },
+    {
+      "Sourced Statement": "“Clinical education is an essential part of any nurse’s education, yet aspiring nurses, especially students in public programs, are being denied access to clinical placements,” said Kennedy.",
+      "Name of Source": "Cathy Kennedy",
+      "Type": "Named Person",
+      "Title of Source": "Registered Nurse and president",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "“We applaud the California Senate for passing S.B. 1015.",
+      "Name of Source": "Cathy Kennedy",
+      "Type": "Named Person",
+      "Title of Source": "Registered Nurse and president",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "It is commonsense reform that will increase transparency and increase oversight from the Board of Registered Nursing,” she added.",
+      "Name of Source": "Cathy Kennedy",
+      "Type": "Named Person",
+      "Title of Source": "Registered Nurse and president",
+      "Source Justification": null
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The California Nurses Association (CNA), the largest union of registered nurses in the state, sponsored SB 1015 to support nursing students seeking placement in the workforce.",
+      "Name of Source": "California Nurses Association (CNA)",
+      "Type": "Named Organization",
+      "Source Justification": "the largest union of registered nurses in the state"
+    }
+  ]
+}

@@ -6,6 +6,7 @@ import glob
 import re
 import requests
 import time
+import logging
 
 version = "v40"
 
@@ -45,14 +46,15 @@ def analyze_with_openrouter(article_text, model_name, retry_limit=3, size_thresh
         response = requests.post(
             url="https://openrouter.ai/api/v1/chat/completions",
             headers={
-                "Authorization": f"bearer {os.environ.get('OpenRouter_API_Key')}",
+                "Authorization": f"bearer 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",
                 "Content-Type": "application/json"
             },
             data=json.dumps({
                 "model": model_name,
                 "messages": chat_prompt,
                 "temperature": 0.0,
-                "max_tokens": 4096,
+                "max_tokens": 9048,
+                "include_reasoning": True
             })
         )
 
@@ -108,7 +110,6 @@ def save_json_and_csv(response, model_name, input_file, base_output_dir, run_num
 
     # Save JSON to the dedicated JSON folder
    
-
     # Create a model folder and article folder for CSVs
     model_dir = os.path.join(base_output_dir, model_name)
     os.makedirs(model_dir, exist_ok=True)
@@ -129,6 +130,8 @@ def save_json_and_csv(response, model_name, input_file, base_output_dir, run_num
         for source_type in ["Named Organization Sources", "Named Person Sources", "Document Sources", "Unnamed Group of People", "Anonymous Sources"]:
             for source in json_data.get(source_type, []):
                 name = source.get("Name of Source", "")
+                if len(name) == 0:
+                    name = source.get("Name_of_Source", "")
                 title = source.get("Title of Source", "")
                 association = source.get("Source Justification", "")
                 sourced_statements = source.get("Sourced Statement", [])
@@ -178,7 +181,7 @@ def process_files(input_dir, output_dir):
     experiment_dir=os.path.join(output_dir, f"llms_{timestamp}")
     os.makedirs(experiment_dir)
 
-    for i in range(5):  # Loop to run the experiment 5 times
+    for i in range(2):  # Loop to run the experiment 5 times
         # Save the prompts used for this experiment
         with open(os.path.join(experiment_dir, "system_prompt.txt"), "w") as f:
             f.write(system_prompt_content)
@@ -195,37 +198,46 @@ def process_files(input_dir, output_dir):
 
             # Analyze with GPT-4
             
-            gpt4o_response = analyze_with_openrouter(article_text, "openai/chatgpt-4o-latest")
-            save_json_and_csv(gpt4o_response, "chatgpt-4o-latest", input_file, experiment_dir, i+1)
-            time.sleep(120)
-            claude35_response = analyze_with_openrouter(article_text, "anthropic/claude-3.5-sonnet")
-            save_json_and_csv(claude35_response, "claude-3.5-sonnet", input_file, experiment_dir, i+1)
-            time.sleep(120)
+            # gpt4o_response = analyze_with_openrouter(article_text, "openai/chatgpt-4o-latest")
+            # save_json_and_csv(gpt4o_response, "chatgpt-4o-latest", input_file, experiment_dir, i+1)
+            # time.sleep(120)
+            # claude35_response = analyze_with_openrouter(article_text, "anthropic/claude-3.5-sonnet")
+            # save_json_and_csv(claude35_response, "claude-3.5-sonnet", input_file, experiment_dir, i+1)
+            # time.sleep(120)
             
-            gemini_response = analyze_with_openrouter(article_text, "google/gemini-pro-1.5")
-            save_json_and_csv(gemini_response, "gemini-pro-1.5", input_file, experiment_dir, i+1)
-            time.sleep(120)
+            # gemini_response = analyze_with_openrouter(article_text, "google/gemini-pro-1.5")
+            # save_json_and_csv(gemini_response, "gemini-pro-1.5", input_file, experiment_dir, i+1)
+            # time.sleep(120)
         
-            llama70_response = analyze_with_openrouter(article_text, "nvidia/llama-3.1-nemotron-70b-instruct")
-            save_json_and_csv(llama70_response, "llama-3.1-70b-instruct", input_file, experiment_dir,i+1)
+            # llama70_response = analyze_with_openrouter(article_text, "nvidia/llama-3.1-nemotron-70b-instruct")
+            # save_json_and_csv(llama70_response, "llama-3.1-70b-instruct", input_file, experiment_dir,i+1)
             
-            time.sleep(120)
-            llama405_response = analyze_with_openrouter(article_text, "meta-llama/llama-3.1-405b-instruct")
-            save_json_and_csv(llama405_response, "llama-3.1-405b-instruct", input_file, experiment_dir, i+1)
+            # time.sleep(120)
+            # llama405_response = analyze_with_openrouter(article_text, "meta-llama/llama-3.1-405b-instruct")
+            # save_json_and_csv(llama405_response, "llama-3.1-405b-instruct", input_file, experiment_dir, i+1)
 
-            time.sleep(120)
-            model_dir = os.path.join(experiment_dir, "deepseek-chat-free")      
-            base_name = os.path.splitext(os.path.basename(input_file))[0]      
-            article_dir = os.path.join(model_dir, base_name)
+            # time.sleep(120)
+            # model_dir = os.path.join(experiment_dir, "deepseek-chat-free")      
+            # base_name = os.path.splitext(os.path.basename(input_file))[0]      
+            # article_dir = os.path.join(model_dir, base_name)
         
-            if os.path.isdir(article_dir):
-                continue
+            # if os.path.isdir(article_dir):
+            #     continue
             
             try:
-                deepseek_response = analyze_with_openrouter(article_text, "deepseek/deepseek-chat")
-                save_json_and_csv(deepseek_response, "deepseek-chat", input_file, experiment_dir, i+1)
-                time.sleep(60)
-            except:
+                deepseek_response = analyze_with_openrouter(article_text, "deepseek/deepseek-r1")
+                save_json_and_csv(deepseek_response, "deepseek-r1", input_file, experiment_dir, i+1)
+                time.sleep(30)
+            except Exception as e:
+                logging.error(f"Error with message {e}")
+                pass
+
+            try:
+                gemini_response = analyze_with_openrouter(article_text, "google/gemini-2.5-flash-preview")
+                save_json_and_csv(gemini_response, "gemini-2.5-flash", input_file, experiment_dir, i+1)
+                time.sleep(30)
+            except Exception as e:
+                logging.error(f"Error with message {e}")
                 pass
             
             

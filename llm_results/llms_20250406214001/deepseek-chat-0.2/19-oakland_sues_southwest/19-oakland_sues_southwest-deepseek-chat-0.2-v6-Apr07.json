@@ -1,0 +1,54 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "On Wednesday, City Attorney Barbara Parker filed a lawsuit in Alameda County Superior Court that accuses the airline of violating Oakland and California sick leave laws.",
+      "Name of Source": "Alameda County Superior Court",
+      "Type of Source": "Document",
+      "Source Justification": "The lawsuit was filed in Alameda County Superior Court, which is the legal document source for the claims made by the city attorney."
+    },
+    {
+      "Sourced Statement": "In December 2020, the city and Southwest signed a settlement in which, among other things, the airline agreed to fully restore the sick leave hours it had canceled for certain workers between 2017 and 2020.",
+      "Name of Source": "null",
+      "Type of Source": "Document",
+      "Source Justification": "The settlement agreement between the city and Southwest Airlines is a document that outlines the terms agreed upon by both parties."
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"The City of Oakland is committed to protecting workers by ensuring that all employers in Oakland are complying with laws that protect their rights,\" Parker said in a statement.",
+      "Name of Source": "Barbara Parker",
+      "Type of Source": "Named Person",
+      "Title of Source": "City Attorney",
+      "Source Justification": "Barbara Parker, the City Attorney of Oakland, is the official responsible for filing the lawsuit and making statements on behalf of the city."
+    },
+    {
+      "Sourced Statement": "\"We are grateful that the City of Oakland is holding Southwest accountable. We hope that Southwest policies and practices will finally change for good,\" Eric Swygert, a Southwest employee and an elected ramp representative with the Transport Workers Union of America Local 555, said in a statement.",
+      "Name of Source": "Eric Swygert",
+      "Type of Source": "Named Person",
+      "Title of Source": "Elected Ramp Representative",
+      "Source Justification": "Eric Swygert is a Southwest employee and an elected representative of the Transport Workers Union, providing a worker's perspective on the issue."
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "A Southwest spokesperson told The Oaklandside that the assertion that any Oakland employee was forced to work while sick or take unpaid absences is unfounded.",
+      "Name of Source": "Southwest Airlines",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Southwest Airlines is the defendant in the lawsuit and is providing its official response through a spokesperson."
+    },
+    {
+      "Sourced Statement": "\"Southwest Airlines fully complies with applicable sick leave laws in Oakland and California, as well as with the terms of a December 2020 settlement agreement with the city,\" the spokesperson said in a statement.",
+      "Name of Source": "Southwest Airlines",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Southwest Airlines is reiterating its compliance with laws and the settlement agreement through its spokesperson."
+    },
+    {
+      "Sourced Statement": "Some of the newer complaints from Southwest workers were filed with Oakland’s Department of Workforce Employment Standards, which enforces wage and hour laws in the city.",
+      "Name of Source": "Oakland’s Department of Workforce Employment Standards",
+      "Type of Source": "Named Organization",
+      "Source Justification": "The Department of Workforce Employment Standards is the city agency responsible for enforcing wage and hour laws, including handling complaints from workers."
+    }
+  ]
+}

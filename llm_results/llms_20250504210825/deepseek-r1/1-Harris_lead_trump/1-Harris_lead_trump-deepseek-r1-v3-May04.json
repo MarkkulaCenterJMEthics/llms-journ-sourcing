@@ -1,0 +1,73 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Some 73% of Democratic registered voters in the Reuters/Ipsos poll said they were more excited about voting in November after Harris entered the race.",
+      "Name of Source": "Democratic registered voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Democratic registered voters in the Reuters/Ipsos poll"
+    },
+    {
+      "Sourced Statement": "52% of Harris voters in the August poll were voting to support her as a candidate rather than primarily to oppose Trump.",
+      "Name of Source": "Harris voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Harris voters in the August poll"
+    },
+    {
+      "Sourced Statement": "64% [of Trump voters] said their choice was more motivated by backing Trump than opposing Harris.",
+      "Name of Source": "Trump voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Trump voters"
+    },
+    {
+      "Sourced Statement": "Some 41% of voters in the poll - and 70% of Democrats - said they were worried the next president might sign a national ban on abortions.",
+      "Name of Source": "voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "voters in the poll"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Democrat Kamala Harris leads Republican Donald Trump 45% to 41% in a Reuters/Ipsos poll published on Thursday that showed the vice president sparking new enthusiasm among voters and shaking up the race ahead of the Nov. 5 election.",
+      "Name of Source": "Reuters/Ipsos",
+      "Type of Source": "Document",
+      "Source Justification": "Reuters/Ipsos poll published on Thursday"
+    },
+    {
+      "Sourced Statement": "A separate Bloomberg News/Morning Consult poll published later on Thursday showed that Harris was either leading or tied with Trump in each of those states.",
+      "Name of Source": "Bloomberg News/Morning Consult",
+      "Type of Source": "Document",
+      "Source Justification": "Bloomberg News/Morning Consult poll published later on Thursday"
+    },
+    {
+      "Sourced Statement": "And while a March Reuters/Ipsos poll found that 61% respondents who intended to vote for Biden were doing so mainly to stop Trump...",
+      "Name of Source": "Reuters/Ipsos",
+      "Type of Source": "Document",
+      "Source Justification": "March Reuters/Ipsos poll"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"It's obvious that running against Harris is more challenging for Trump given the shift in these numbers, but it's certainly not insurmountable,\" Matt Wolking, a Republican campaign strategist who worked on Trump's 2020 campaign, said in response to the Reuters/Ipsos poll results.",
+      "Name of Source": "Matt Wolking",
+      "Type of Source": "Named Person",
+      "Title of Source": "Republican campaign strategist",
+      "Source Justification": "worked on Trump's 2020 campaign"
+    },
+    {
+      "Sourced Statement": "\"We see it in this poll that people are more motivated about the future than the past,\" said Aimee Allison, founder of She the People, a liberal group that aims to grow the numbers of women of color in elected office.",
+      "Name of Source": "Aimee Allison",
+      "Type of Source": "Named Person",
+      "Title of Source": "founder of She the People",
+      "Source Justification": "founder of She the People, a liberal group that aims to grow the numbers of women of color in elected office"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "Since formally accepting the Democratic nomination last week, Harris has embarked on a tour of battleground states including Georgia, where Biden had been hemorrhaging support before he ended his campaign.",
+      "Name of Source": "Democratic National Convention",
+      "Type of Source": "Named Organization",
+      "Source Justification": "formally accepting the Democratic nomination last week"
+    }
+  ]
+}

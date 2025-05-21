@@ -1,0 +1,50 @@
+{
+  "Anonymous Sources": [
+    {
+      "Sourced Statement": "But new data obtained by The Standard from Humboldt’s own relocation program show that the county’s homeless people were bused to San Francisco on four occasions between October and March. Since August 2023, Humboldt has also sent homeless people to other Bay Area locations, such as San Rafael, Napa County, Santa Cruz, and Petaluma.",
+      "Name of Source": "null",
+      "Type of Source": "Anonymous Source",
+      "Title of Source": "null",
+      "Source Justification": "from Humboldt’s own relocation program"
+    }
+  ],
+  "Unnamed Group of People": [],
+  "Document Sources": [
+    {
+      "Sourced Statement": "But new data obtained by The Standard from Humboldt’s own relocation program show that the county’s homeless people were bused to San Francisco on four occasions between October and March. Since August 2023, Humboldt has also sent homeless people to other Bay Area locations, such as San Rafael, Napa County, Santa Cruz, and Petaluma.",
+      "Name of Source": "Humboldt’s Transportation Assistance Program (TAP)",
+      "Type of Source": "Document",
+      "Source Justification": "from Humboldt’s own relocation program"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“The aim isn’t to achieve a goal. It’s to get you out of our town, and it’s cheaper than arresting you,” Boden said. “The No. 1 answer to homelessness is to make them disappear. Then mayors write letters back and forth: ‘Stop sending your people here.’ Then it turns out they’re sending their people here. It shows the ridiculousness of us not trying to address why people are on the streets.”",
+      "Name of Source": "Paul Boden",
+      "Type of Source": "Named Person",
+      "Title of Source": "homeless advocate with the Western Regional Advocacy Project",
+      "Source Justification": "a homeless advocate with the Western Regional Advocacy Project"
+    },
+    {
+      "Sourced Statement": "“Our TAP program works really well, and hopefully San Francisco can go back to more — not just dumping — but assisting and actually helping people get help,” Humboldt Supervisor Rex Bohn said at Tuesday’s board meeting.",
+      "Name of Source": "Rex Bohn",
+      "Type of Source": "Named Person",
+      "Title of Source": "Humboldt Supervisor",
+      "Source Justification": "at Tuesday’s board meeting"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "“We were dismayed to learn that our small, rural county was among the top three destinations in the state where people experiencing homelessness were sent by the program,” states a draft of the letter to San Francisco Mayor London Breed that can be seen on the Humboldt County website.",
+      "Name of Source": "Humboldt County",
+      "Type of Source": "Named Organization",
+      "Source Justification": "states a draft of the letter to San Francisco Mayor London Breed that can be seen on the Humboldt County website"
+    },
+    {
+      "Sourced Statement": "When asked for comment, the San Francisco mayor’s office said it had not received the letter.",
+      "Name of Source": "San Francisco mayor’s office",
+      "Type of Source": "Named Organization",
+      "Source Justification": "When asked for comment"
+    }
+  ]
+}

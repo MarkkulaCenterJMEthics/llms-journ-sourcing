@@ -1,0 +1,82 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "parents, students and school staff demanded transparency and answers about why they were kept in the dark.",
+      "Name of Source": "parents, students and school staff",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "Community members, many of whom raised concerns two weeks ago, were skeptical."
+    },
+    {
+      "Sourced Statement": "Teachers from Frick United Academy of Language demanded to know why, if testing took place in April, fountains weren’t shut down until August.",
+      "Name of Source": "Teachers from Frick United Academy of Language",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "The school hosted students for summer programming when fountains would have still been in use."
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "An average of two months passed between when Oakland schools were tested for lead this spring and when those school communities were notified of high lead levels in August, according to a report from this week’s Oakland Unified school board meeting.",
+      "Name of Source": "Oakland Unified school board meeting",
+      "Type of Source": "Document",
+      "Source Justification": "The district’s risk management team began testing water fixtures and faucets in April and continued through the summer, but it wasn’t until Aug. 10 that district officials realized school sites hadn’t been told about it or informed of the results."
+    },
+    {
+      "Sourced Statement": "The district’s safe drinking water policy states that any water sources showing lead at above 5 parts per billion must be taken offline and repaired.",
+      "Name of Source": "Oakland Unified School District",
+      "Type of Source": "Document",
+      "Source Justification": "Of the schools that have been tested so far, lead levels have ranged from below the district’s threshold to amounts in the hundreds of parts per billions."
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“This mistake has caused families stress, anxiety and panic, further limiting our community’s trust in this district,” said Max Simmons, one of OUSD’s student directors.",
+      "Name of Source": "Max Simmons",
+      "Type of Source": "Named Person",
+      "Title of Source": "student director",
+      "Source Justification": "one of OUSD’s student directors"
+    },
+    {
+      "Sourced Statement": "“I sincerely apologize for the stress and concern this has caused our school sites, students and families. We understand the gravity of this situation and we are fully committed to taking immediate, transparent and corrective action,” she said.",
+      "Name of Source": "Kyla Johnson-Trammell",
+      "Type of Source": "Named Person",
+      "Title of Source": "Superintendent",
+      "Source Justification": "District leadership — including Superintendent Kyla Johnson-Trammell, chief systems and services officer Preston Thomas, and risk management officer Rebecca Littlejohn — committed to transparency going forward and said a personnel investigation is underway to determine how communication broke down."
+    },
+    {
+      "Sourced Statement": "“There is so much trust rebuilding that has to be done for our community. We have failed. And when I say ‘we’ I mean OUSD has failed at its most basic job of not poisoning our students,” said Stuart Loebl, a sixth-grade science teacher at Frick.",
+      "Name of Source": "Stuart Loebl",
+      "Type of Source": "Named Person",
+      "Title of Source": "sixth-grade science teacher",
+      "Source Justification": "a sixth-grade science teacher at Frick"
+    },
+    {
+      "Sourced Statement": "“Why didn’t you do your job? You knew months ago that the water was contaminated. You didn’t act, and you let those kids come back to school and drink poisoned water,” said Marina Muñoz, a parent at Madison Park Academy and an organizer with Communities for a Better Environment.",
+      "Name of Source": "Marina Muñoz",
+      "Type of Source": "Named Person",
+      "Title of Source": "parent and organizer",
+      "Source Justification": "a parent at Madison Park Academy and an organizer with Communities for a Better Environment"
+    },
+    {
+      "Sourced Statement": "“This is not new to Oakland, but it is something that we need to tackle as an entire city, and we need to have community partners, philanthropic partners, as well as our county and state folks to support us in dealing with this issue,” she said.",
+      "Name of Source": "Valarie Bachelor",
+      "Type of Source": "Named Person",
+      "Title of Source": "Director and chair of OUSD’s facilities committee",
+      "Source Justification": "the chair of OUSD’s facilities committee"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "In Berkeley Unified, water fixtures testing above 1 part per billion are taken offline and repaired.",
+      "Name of Source": "Berkeley Unified",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Community members pointed out that other districts have lower thresholds for remediation."
+    },
+    {
+      "Sourced Statement": "Alameda County recommends that any families who were notified that their schools had elevated lead levels should get their child a blood lead test.",
+      "Name of Source": "Alameda County",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Alameda County recommends that any families who were notified that their schools had elevated lead levels should get their child a blood lead test."
+    }
+  ]
+}

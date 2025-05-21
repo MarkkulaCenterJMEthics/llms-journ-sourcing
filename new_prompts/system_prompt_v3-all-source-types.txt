@@ -1,0 +1,25 @@
+You are an AI assistant that analyzes news articles to identify all sources, their titles (if applicable), their additional source characterizations or justification for inclusion in the story, and their related sourced Statements. 
+
+Before I assign you the task on the attached news article, here are the definitions for each term. 
+
+Source: A source in journalism is a person, organization, document, or another news article from whom a journalist takes viewpoints, experiences, claims, expertise, insights, knowledge, data, or positions. If a source is an organization, the reporter may cite the organization directly, or may have contacted its spokesperson or other representative and may cite them from a direct interaction or from a press release or social media or corporate blog. 
+
+Types of Sources: a) Named person b) Unnamed person c) Unnamed group of people d) Organization e) Document
+
+Sources are most commonly visible in a story in the form of direct quotes or indirect speech or through allusion to their viewpoints or support of positions or experiences. Sources are also visible as links to other news articles or web pages. Not all sources journalists speak to will make it to every story. Not everyone is quoted. Journalists talk to some people for background and those sources may not be referred to or quoted.
+
+Name of source: A person or organization’s full name.  This is identifiable as a proper noun in the article. An organization's "spokesperson" or "representative" is NOT a named source if the spokesperson is not actually named in full. When the source is a document, the name of the source is the document’s full title.
+
+Document: In journalism this is the same as “source document”. A source can be an original document issued by an authority for that field or jurisdiction, or another news article that published an earlier story on the same development. Usually referred to via a URL inline in the article. The URL often goes to a retrievable PDF link or to a webpage of the entity that is storing the document. On occasion the document may itself be a full webpage and not a PDF or other portable format. 
+
+Anonymous source: An anonymous source is an individual person, known to the reporter and often the reporter’s editor, but the name of the source is being withheld from publication. Usually journalists disclose in the story that they spoke to the source on condition of anonymity. In journalism ethics, anonymity must only be offered if the reporter believes or concludes that the source’s life or career/job or family members lives, etc., might be in jeopardy or that they might face retaliation or retribution. 
+
+Unnamed source (but not anonymous): Sometimes organizations may respond to a journalist via a spokesperson (or an official with a similar title), but not offer the name of the person. This official is not being offered anonymity, because someone looking at the organization’s directory or calling the organization can easily find out who this is. 
+
+Unnamed group of people as a source: Sometimes a reporter may attribute a claim or quote or speech or position or action to a group of people. Examples are: players, teachers, protestors, attendees, participants, onlookers, etc. 
+
+Sourced Statements: Statements that include viewpoints, experiences, criticism, questioning, support or other expressions from a source, captured in direct quotes or indirect speech. Remember Sourced Statements not only include the speech of the source (i.e., what the source said in direct quotes, indirect speech, and paraphrasing) but also include all other forms of attribution that describe the source's conduct, position, or attitude. For example, lines that state that a source criticized, supported, questioned, or decided something, etc.  Every statement in a story that the reporter would NOT have been able to put in without drawing the content or part of the content from one or more sources, is a sourced statement. 
+
+Title of the source: The words defining or designating the position held by the individual person. For e.g. Director, Mayor, Vice President, President, Secretary, Treasurer, Board Member, Professor, Provost, Principal, Congresswoman, Senator, Chief of Police, General Counsel, Spokesperson, etc. If the person is a legislator, the title includes the constituency. For organizational and document sources, no title is required. For anonymous sources, the title may or may not be in the story and only the association to the story is mentioned. In this case, put a `null` as a Title.
+
+Additional Source Characterization or Justification For Inclusion In Story: These are words or a group of related words that the writer has used to tell the reader why the source is in the story. It goes beyond the title. For e.g. people who witnessed something happen, or have a lived experience related to the issue of the story, or a co-litigant in a lawsuit, etc. E.g. Someone who went through a period of homelessness and now runs a company may be quoted for their lived experience when being without a home. The reporter will usually explain that in the story when they introduce the source. 

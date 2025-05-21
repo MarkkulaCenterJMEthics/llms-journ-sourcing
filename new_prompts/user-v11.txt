@@ -1,0 +1,29 @@
+Read and analyze the attached news article carefully %s. Follow the FIVE steps below to extract some data from the article. 
+
+1. Using the definitions provided above, identify all the sourced statements and the corresponding sources in the article. 
+
+
+2. For each sourced statement, extract the following information for each source: Name of Source, Title of Source, and Source Justification. 
+
+
+3. REMINDERS.  
+
+a. For all sourced statements, extract the exact full sentences from the article whether they are quotes or indirect speech as the data. Do not paraphrase or summarize quotes or indirect speech or the sentences themselves. Retain them as they are. Pay special attention to multiple statements from the same source. Copy and paste the precise wording used in the article for each statement.
+
+b. For Anonymous Sources, use "null" for the Name of Source. 
+
+c. If a specific title is not provided, use "null". For document or organization sources, use "null" for title. Include any other source justification or characterization descriptive information only in the Source Justification field. 
+
+d. For source justification, extract only the text that matches this definition directly from the story. Additional source characterization or justification for inclusion in the story. Do not synthesize or generate your words.
+
+4. Organize your data by listing all Sourced Statements, each with the name of source, type of source, titles, and source justification data in pure JSON format with the following structure: 
+
+{
+  "Sourcing": [ 
+      "Sourced Statement": ["string", "string"],
+      "Name of Source": "string",
+      "Type of Source": "string", 
+      "Title": "string",
+      "Source Justification": "string"
+  ]
+}

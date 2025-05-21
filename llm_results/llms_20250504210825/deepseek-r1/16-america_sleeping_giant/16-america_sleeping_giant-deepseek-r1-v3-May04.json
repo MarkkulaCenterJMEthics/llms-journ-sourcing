@@ -1,0 +1,100 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "roughly a third of the American electorate that society and the corporate news media regularly ignore",
+      "Name of Source": "American electorate",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "society and the corporate news media regularly ignore"
+    },
+    {
+      "Sourced Statement": "they didn’t turn out because they didn’t hear candidates discuss issues that had any relevancy to their lives",
+      "Name of Source": "low-wage voter cohort",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "did not vote because they didn’t hear candidates discuss issues relevant to their lives"
+    },
+    {
+      "Sourced Statement": "In 2016, in key rust belt states where unions were part of the historic Democratic base like Michigan, Trump won thanks to depressed African American voter turnout and the lack of engagement of the multi-racial cohort of economically struggling voters",
+      "Name of Source": "African American voters; multi-racial cohort of economically struggling voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "depressed voter turnout and lack of engagement impacting election results"
+    },
+    {
+      "Sourced Statement": "In 2020, in Arizona, Georgia, Florida, Michigan, North Carolina, Nevada, Pennsylvania, and Wisconsin the Biden-Trump faceoff was really tight, close to just 3 percent",
+      "Name of Source": "voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "close electoral margins in key states"
+    },
+    {
+      "Sourced Statement": "In the 2008 primary over a half-million turned out, close to a quarter of the registered voters. In the most recent Democratic contest just over 130,000 came out, less than five percent of the state’s voters",
+      "Name of Source": "registered voters; state’s voters",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "contrasting voter turnout between 2008 and recent elections"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "a Columbia University study undertaken of the 2106 electorate with the support of the Poor People’s Campaign, which studied the low-wage voter cohort and found a majority of them did not vote",
+      "Name of Source": "Columbia University",
+      "Type of Source": "Document",
+      "Source Justification": "study supported by the Poor People’s Campaign"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“They’re saying that they’re not voting because people are not speaking to their issues and that they’re just not interested in those candidates,” Hartley, told the New York Times “But it’s not that they couldn’t be.”",
+      "Name of Source": "Robert Paul Hartley",
+      "Type of Source": "Named Person",
+      "Title of Source": "Columbia University researcher",
+      "Source Justification": "researcher at Columbia University"
+    },
+    {
+      "Sourced Statement": "“In 2024, the election is going to be about mobilization,” Lake told reporters. “There is no question that the biggest contest between the two parties is going to be who can get their voters out to vote...",
+      "Name of Source": "Celinda Lake",
+      "Type of Source": "Named Person",
+      "Title of Source": "President of Lake Research Partners",
+      "Source Justification": "respected pollster and President of Lake Research Partners"
+    },
+    {
+      "Sourced Statement": "“For far too long extremists have blamed poor people and low wage people for their plight while moderates too often have ignored poor people...",
+      "Name of Source": "Rev. Dr. William Barber",
+      "Type of Source": "Named Person",
+      "Title of Source": "co-leader of the Poor People’s Campaign",
+      "Source Justification": "leader of the Poor People’s Campaign"
+    },
+    {
+      "Sourced Statement": "“We are mobilizing, organizing, registering and educating people for a movement that votes, votes for healthcare and debt cancellation...",
+      "Name of Source": "Rev. Dr. Liz Theoharis",
+      "Type of Source": "Named Person",
+      "Title of Source": "co-leader of the Poor People’s Campaign",
+      "Source Justification": "co-leader of the Poor People’s Campaign"
+    },
+    {
+      "Sourced Statement": "“I work for MassHealth as a Personal Care Attendant, helping to take care of people with disabilities and who are sick and need help with their daily activities. But I do not have health insurance myself...",
+      "Name of Source": "Janice Guzman",
+      "Type of Source": "Named Person",
+      "Title of Source": "organizer with the Massachusetts Poor People's Campaign and SEIU 1199",
+      "Source Justification": "organizer with the Massachusetts Poor People's Campaign and SEIU 1199"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Poor People’s Campaign is planning simultaneous actions on March 2 at over 30 state capitols",
+      "Name of Source": "Poor People’s Campaign",
+      "Type of Source": "Named Organization",
+      "Source Justification": "organization planning voter mobilization efforts"
+    },
+    {
+      "Sourced Statement": "Hartley, told the New York Times",
+      "Name of Source": "New York Times",
+      "Type of Source": "Named Organization",
+      "Source Justification": "media outlet where Hartley’s statement was published"
+    },
+    {
+      "Sourced Statement": "according to the PPC",
+      "Name of Source": "Poor People’s Campaign",
+      "Type of Source": "Named Organization",
+      "Source Justification": "source of policy analysis and campaign details"
+    }
+  ]
+}

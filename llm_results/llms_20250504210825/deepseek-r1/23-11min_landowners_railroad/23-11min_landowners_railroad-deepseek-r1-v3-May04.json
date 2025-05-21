@@ -1,0 +1,101 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "The decision disappointed the landowners, who were not allowed to speak at the meeting but issued a statement vowing to continue fighting to keep their land by appealing in court.",
+      "Name of Source": "landowners",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "who were not allowed to speak at the meeting but issued a statement"
+    },
+    {
+      "Sourced Statement": "Other residents told Capital B they feared potential damage to their homes from the train.",
+      "Name of Source": "residents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "who aren’t losing their property to the railroad but will be affected by the train"
+    }
+  ],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "“We’re determined to keep fighting against this attempt to take our ancestral land from us.”",
+      "Name of Source": "Blaine Smith",
+      "Type of Source": "Named Person",
+      "Title of Source": "heir of 600 acres",
+      "Source Justification": "a Black man who is one of the heirs of 600 acres that came into their family in the 1920s"
+    },
+    {
+      "Sourced Statement": "“We want to keep our property whole, so we can pass it down to our children and they can continue to build generational wealth,”",
+      "Name of Source": "Blaine Smith",
+      "Type of Source": "Named Person",
+      "Title of Source": "heir of 600 acres",
+      "Source Justification": "a Black man who is one of the heirs of 600 acres that came into their family in the 1920s"
+    },
+    {
+      "Sourced Statement": "“As Black people, ownership of land and property is more valuable than a dollar amount because it allows a certain type of economic freedom that we are often deprived of,” attorney Sharika Robinson told Capital B last year. “I don’t know what is ‘just’ about replacing that economic liberty with a dollar amount that will not increase in value.”",
+      "Name of Source": "Sharika Robinson",
+      "Type of Source": "Named Person",
+      "Title of Source": "attorney",
+      "Source Justification": null
+    },
+    {
+      "Sourced Statement": "“Georgia law does not permit a private company to take land through eminent domain unless the land will be put to a public use,” said Bill Maurer, senior attorney for Institute for Justice who represents the landowners. “Building a rail spur that will only be used by a few private companies, and not the public at large, is not a public use. We look forward to making it clear to the court that the [Public Service Commission] made an error in considering Sandersville’s land grab as a public use.”",
+      "Name of Source": "Bill Maurer",
+      "Type of Source": "Named Person",
+      "Title of Source": "senior attorney",
+      "Source Justification": "senior attorney for Institute for Justice who represents the landowners"
+    },
+    {
+      "Sourced Statement": "“The reality is if you’ve ever lived near a train, or you’ve ever ridden on a train or been near a train, it’s not the same as trucks driving by,” Rush said last year. “Even if the train is not going through your property, the fact that a train is near your property — all of the noise pollution, the vibrations of a train … all of that affects your property value, your peace of mind and your home.”",
+      "Name of Source": "Jamie Rush",
+      "Type of Source": "Named Person",
+      "Title of Source": "senior staff attorney",
+      "Source Justification": "senior staff attorney with the Southern Poverty Law Center’s Economic Justice Project who represents the No Railroad In Our Community Coalition"
+    },
+    {
+      "Sourced Statement": "“The proposed condemnation … serves a legitimate public purpose and is necessary for the proper accommodation of the business,” Bond wrote. “The petition of Sandersville Railroad, as amended, is granted.”",
+      "Name of Source": "Thomas K. Bond",
+      "Type of Source": "Named Person",
+      "Title of Source": "hearing officer",
+      "Source Justification": "a hearing officer with the Georgia Public Service Commission"
+    },
+    {
+      "Sourced Statement": "“I truly hate to have to say this, but if David v. Goliath had been decided by the GA Public Service Commission, they’d have confiscated David’s slingshot and handed it to the Philistines,” Fyre wrote.",
+      "Name of Source": "Spencer Fyre",
+      "Type of Source": "Named Person",
+      "Title of Source": "Georgia state Rep.",
+      "Source Justification": null
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Georgia Public Service Commission unanimously approved Sandersville Railroad Co.’s proposed rail spur in Sparta — a project that would cut through the historically Black community.",
+      "Name of Source": "Georgia Public Service Commission",
+      "Type of Source": "Named Organization",
+      "Source Justification": "a state regulatory authority"
+    },
+    {
+      "Sourced Statement": "Benjamin Tarbutton III, the owner of Sandersville Railroad, has contended this development is expected to create 20 temporary construction jobs, a dozen permanent jobs with an average salary and benefits package of $90,000, and generate over $1.5 million annually for Hancock County.",
+      "Name of Source": "Sandersville Railroad Co.",
+      "Type of Source": "Named Organization",
+      "Source Justification": "a private company seeking to build a rail spur"
+    },
+    {
+      "Sourced Statement": "The property owners are represented by the nonprofit Institute for Justice, a public interest law firm.",
+      "Name of Source": "Institute for Justice",
+      "Type of Source": "Named Organization",
+      "Source Justification": "a nonprofit public interest law firm representing the landowners"
+    },
+    {
+      "Sourced Statement": "The battle over the project began last year when several property owners — Black and white — refused to sell parcels of their land to the company, which is located 25 miles away.",
+      "Name of Source": "Sandersville Railroad Co.",
+      "Type of Source": "Named Organization",
+      "Source Justification": "a private company seeking to build a rail spur"
+    },
+    {
+      "Sourced Statement": "The company filed a petition using eminent domain with the state’s public service commission to condemn land from 18 parcels of land from owners along Shoals Road.",
+      "Name of Source": "Sandersville Railroad Co.",
+      "Type of Source": "Named Organization",
+      "Source Justification": "a private company seeking to build a rail spur"
+    }
+  ]
+}

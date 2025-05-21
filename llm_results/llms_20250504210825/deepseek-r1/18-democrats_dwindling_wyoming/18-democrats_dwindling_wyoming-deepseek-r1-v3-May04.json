@@ -1,0 +1,63 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Last winter, dozens of locals gathered outside to honk and cheer as one Democrat left town.",
+      "Name of Source": "locals",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "dozens of locals gathered outside to honk and cheer as one Democrat left town; they weren’t cheering as Ed Fullmer was headed off for good; Fullmer was on the high school boys basketball team bus as they left for the state championship"
+    }
+  ],
+  "Document Sources": [
+    {
+      "Sourced Statement": "Niobrara County’s Democrats, who account for just 2.6% of registered voters, are the most outnumbered by Republicans in the 30 states that track local party affiliation, according to Associated Press election data.",
+      "Name of Source": "Associated Press",
+      "Type of Source": "Document",
+      "Source Justification": "according to Associated Press election data"
+    }
+  ],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"Normally I just roll my eyes and walk away because I’m fighting a losing battle and I’m fully aware of that,\" she said. \"Maybe that is why I’m well-liked, because I keep my mouth shut 10 times more than I want to.\"",
+      "Name of Source": "Becky Blackburn",
+      "Type of Source": "Named Person",
+      "Title of Source": "Paralegal; Former Town Council Member",
+      "Source Justification": "A paralegal for the Republican county attorney; served nine years on the Town Council; flies an LGBTQ+ flag in support of her lesbian daughter; stocks up on Democratic political signs"
+    },
+    {
+      "Sourced Statement": "\"How far are they going to go to limit one’s ability to vote? If it really comes down to purifying the party, on a voting level all the way up to the elected officials, pretty soon there isn’t going to be anyone left who’s pure enough to be in the party,\" Diercks said.",
+      "Name of Source": "Ross Diercks",
+      "Type of Source": "Named Person",
+      "Title of Source": "Former State Representative; Former Middle School English Teacher",
+      "Source Justification": "A former middle school English teacher; beat a Republican incumbent in 1992 to launch an 18-year run in the Legislature; temporarily switched parties to vote in the GOP primary"
+    },
+    {
+      "Sourced Statement": "\"The best way to participate in meaningful change is to try to sway the dominant party,\" said Jordan, who lives in Niobrara County. \"You know, we need to have a government that serves the people, all of them, not just Republicans and not just rural and not just urban and not just Democrats — and definitely not just the rich and the wealthy.\"",
+      "Name of Source": "Pat Jordan",
+      "Type of Source": "Named Person",
+      "Title of Source": "Truck Driver",
+      "Source Justification": "Supports many left-leaning goals, including universal healthcare; lives in Niobrara County"
+    },
+    {
+      "Sourced Statement": "\"Most people don’t want to dive into those type of discussions,\" he said. \"They respect you for what you do, how you work.\"",
+      "Name of Source": "Ed Fullmer",
+      "Type of Source": "Named Person",
+      "Title of Source": "Basketball Coach",
+      "Source Justification": "Coached the Tigers to their best record in a decade, 20-8; high school boys basketball team bus as they left for the state championship"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The Wyoming Legislature, where the GOP controls over 90% of the seats, passed legislation last year banning voters from changing their party registration in the three months before the August primary.",
+      "Name of Source": "Wyoming Legislature",
+      "Type of Source": "Named Organization",
+      "Source Justification": "where the GOP controls over 90% of the seats; passed legislation last year banning voters from changing their party registration"
+    },
+    {
+      "Sourced Statement": "Party-switching had 'undermined the sanctity of Wyoming’s primary process,' Wyoming’s Republican secretary of state, Chuck Gray, said in a statement of approval.",
+      "Name of Source": "Wyoming Republican Party",
+      "Type of Source": "Named Organization",
+      "Source Justification": "Wyoming’s Republican secretary of state, Chuck Gray, said in a statement of approval"
+    }
+  ]
+}

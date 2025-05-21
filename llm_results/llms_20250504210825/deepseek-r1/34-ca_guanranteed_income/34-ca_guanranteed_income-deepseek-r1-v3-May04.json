@@ -1,0 +1,87 @@
+{
+  "Anonymous Sources": [],
+  "Unnamed Group of People": [
+    {
+      "Sourced Statement": "Researchers at the University of Pennsylvania are surveying the 1,000 Breathe participants, along with a control group of people not receiving funds.",
+      "Name of Source": "participants; control group",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "1,000 Breathe participants; control group of people not receiving funds"
+    },
+    {
+      "Sourced Statement": "Advocates point to the expansion of the federal child tax credit as proof that direct cash payments to families reduce poverty.",
+      "Name of Source": "Advocates",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "point to the expansion of the federal child tax credit as proof that direct cash payments to families reduce poverty"
+    },
+    {
+      "Sourced Statement": "Still some opponents said these types of programs discourage participation in the labor market, are too costly and fail to sufficiently reform the welfare system to bring working people out of poverty.",
+      "Name of Source": "opponents",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "said these types of programs discourage participation in the labor market, are too costly and fail to sufficiently reform the welfare system"
+    },
+    {
+      "Sourced Statement": "Participants report feeling more free to spend money on self care, outings with family members or sharing their wealth with community members.",
+      "Name of Source": "Participants",
+      "Type of Source": "Unnamed Group of People",
+      "Source Justification": "report feeling more free to spend money on self care, outings with family members or sharing their wealth with community members"
+    }
+  ],
+  "Document Sources": [],
+  "Named Person Sources": [
+    {
+      "Sourced Statement": "\"With all the struggling I was doing, my attitude took a hit,\" Kahlia said. \"The more you witness yourself being down and out, the more you feel down and out, and the more stuck you feel.\"",
+      "Name of Source": "Kipp Kahlia",
+      "Type of Source": "Named Person",
+      "Title of Source": "participant in L.A. County’s guaranteed income program",
+      "Source Justification": "selected as one of 1,000 participants in L.A. County’s guaranteed income program, called Breathe"
+    },
+    {
+      "Sourced Statement": "\"Whenever L.A. city or county or Chicago or New York do something bold like this, it’s a really important signal that this big policy idea found its footing during COVID and represents a possible way forward in terms of supporting low income people across America,\" Kline said.",
+      "Name of Source": "Sean Kline",
+      "Type of Source": "Named Person",
+      "Title of Source": "director of the Stanford Basic Income Lab",
+      "Source Justification": "studies guaranteed income programs across the country"
+    },
+    {
+      "Sourced Statement": "\"It can’t just be the money,\" Fournier said. \"It’s the opportunity and the access to experiences sometimes that really make a big difference when there is even a little bit more resources folks can have.\"",
+      "Name of Source": "Ely Fournier",
+      "Type of Source": "Named Person",
+      "Title of Source": "overseer of the program coaches at Strength Based Community Change",
+      "Source Justification": "oversees the program coaches at Strength Based Community Change"
+    },
+    {
+      "Sourced Statement": "\"There is so much we don’t know yet,\" Castro said. \"We don’t know how long people need to receive cash to create what level of change.\"",
+      "Name of Source": "Amy Castro",
+      "Type of Source": "Named Person",
+      "Title of Source": "director of Penn’s Center for Guaranteed Income Research",
+      "Source Justification": "Researchers at the University of Pennsylvania are surveying the 1,000 Breathe participants, along with a control group of people not receiving funds"
+    },
+    {
+      "Sourced Statement": "\"People need help with normal, everyday interactions that may be easy for some individuals,\" he said. \"But for others, they don’t have any prior experience with them.\"",
+      "Name of Source": "Brian Arredondo",
+      "Type of Source": "Named Person",
+      "Title of Source": "coach for program participants",
+      "Source Justification": "regularly checks in with about 300 participants; assists them in applying for state programs, such as CalFresh, and helps some enroll in schools or colleges"
+    }
+  ],
+  "Named Organization Sources": [
+    {
+      "Sourced Statement": "The lab found, in general, that food and groceries are the top way participants are spending money, making up 35% of the funds spent. Retail sales and services are a close second at 31%.",
+      "Name of Source": "Stanford Guaranteed Income Lab",
+      "Type of Source": "Named Organization",
+      "Source Justification": "tracks 31 pilot programs throughout the country, including the Breathe pilot"
+    },
+    {
+      "Sourced Statement": "Strength Based Community Change also offers workshops on financial literacy, investing and credit repair.",
+      "Name of Source": "Strength Based Community Change",
+      "Type of Source": "Named Organization",
+      "Source Justification": "offers workshops on financial literacy, investing and credit repair"
+    },
+    {
+      "Sourced Statement": "In November 2023, California launched its first state-funded guaranteed income pilot programs focused on former foster youth. The pilots will give 150 Ventura County residents $1,000 and 150 San Francisco residents $1,200 monthly.",
+      "Name of Source": "California",
+      "Type of Source": "Named Organization",
+      "Source Justification": "launched its first state-funded guaranteed income pilot programs focused on former foster youth"
+    }
+  ]
+}

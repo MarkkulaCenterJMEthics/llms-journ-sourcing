@@ -2,7 +2,7 @@ import glob
 import logging
 import re
 from collections import defaultdict
-
+import textwrap
 import nltk
 import numpy as np
 import pandas as pd
@@ -18,7 +18,7 @@ from sentence_transformers import SentenceTransformer, util
 
 from configure import eval_config
 
-run_mode = "run"  # run or develop
+run_mode = "debug"  # run or develop
 error_matched = defaultdict(int)
 
 # debug variables
@@ -299,13 +299,16 @@ def load_and_preprocess_llm(file_path):
     """
     process llm csv file.
     """
-
+    columns_to_keep = {
+        "Name_of_Source": "Name of Source"
+    }
     try:
         llm_df = pd.read_csv(file_path, encoding="ISO-8859-1")
     except:
         logging.info(f" read llm csv {file_path} with error.")
         llm_df = pd.read_csv(file_path)
 
+    llm_df.rename(columns=columns_to_keep, inplace=True)
     # Preprocess the data
     llm_df = preprocess_dataframe(llm_df, "SourcedStatement")
 
@@ -361,7 +364,6 @@ def compare_attributions(gt_df, llm_df):
             llm_idx = next(idx for idx, s in llm_sentences if s == best_match)
             gt_row = gt_df.loc[gt_idx]
             llm_row = llm_df.loc[llm_idx]
-
             new_row = pd.DataFrame(
                 {
                     "GT_Sentence": [gt_sentence],
@@ -772,41 +774,101 @@ def plot_performance_comparison(performance_df, metric, output_dir):
 
 def plot_overall_comparison(performance_df, output_dir, metrics):
     
+    # avg_performance = performance_df.groupby("model_name")[metrics].mean().reset_index()
+
+    # plt.figure(figsize=(16, 8))
+    # sns.barplot(
+    #     x="model_name",
+    #     y="value",
+    #     hue="variable",
+    #     data=pd.melt(avg_performance, id_vars=["model_name"], value_vars=metrics),
+    # )
+    # plt.title("Overall Performance Comparison")
+    # plt.ylabel("Average Score")
+    # plt.xticks(rotation=45)
+    # plt.legend(title="Metric", bbox_to_anchor=(1.05, 1), loc="upper left")
+    # plt.tight_layout()
+    # plt.savefig(f"{output_dir}/overall_performance_comparison.png")
+    # plt.close()
+
+    # avg_performance = performance_df.groupby("model_name")[metrics].mean().reset_index()
+
+    # for metric_name in metrics:
+    #     plt.figure(figsize=(16, 8))
+    #     sns.barplot(
+    #         x="model_name",
+    #         y="value",
+    #         hue="variable",
+    #         data=pd.melt(
+    #             performance_df.groupby("model_name")[metric_name].mean().reset_index(),
+    #             id_vars=["model_name"],
+    #             value_vars=[metric_name],
+    #         ),
+    #     )
+    #     plt.title(f"Overall Performance {metric_name} Comparison")
+    #     plt.ylabel("Average Score")
+    #     plt.xticks(rotation=45)
+    #     plt.legend(title="Metric", bbox_to_anchor=(1.05, 1), loc="upper left")
+    #     plt.tight_layout()
+    #     plt.savefig(f"{output_dir}/overall_{metric_name}_performance_comparison.png")
+    #     plt.close()
+
+    # Compute average performance
     avg_performance = performance_df.groupby("model_name")[metrics].mean().reset_index()
 
+    # Melt the dataframe for plotting
+    melted_df = pd.melt(avg_performance, id_vars=["model_name"], value_vars=metrics)
+
+    # Wrap x-label text
+    melted_df['model_names'] = melted_df['model_name'].apply(lambda x: textwrap.fill(x, 20))
+
+    # Plot combined metrics
+    # Plot combined metrics
     plt.figure(figsize=(16, 8))
-    sns.barplot(
-        x="model_name",
+    ax = sns.barplot(
+        x="model_names",
         y="value",
         hue="variable",
-        data=pd.melt(avg_performance, id_vars=["model_name"], value_vars=metrics),
+        data=melted_df,
     )
+
+    # Add percentage annotations
+    for p in ax.patches:
+        height = p.get_height()
+        ax.annotate(f'{100*height:.1f}%',
+                    (p.get_x() + p.get_width() / 2., height),
+                    ha='center', va='bottom', fontsize=10)
     plt.title("Overall Performance Comparison")
+    plt.xlabel("Model Name")
     plt.ylabel("Average Score")
-    plt.xticks(rotation=45)
+    # plt.xticks(rotation=45)
     plt.legend(title="Metric", bbox_to_anchor=(1.05, 1), loc="upper left")
     plt.tight_layout()
     plt.savefig(f"{output_dir}/overall_performance_comparison.png")
     plt.close()
 
-    avg_performance = performance_df.groupby("model_name")[metrics].mean().reset_index()
-
+    # Individual metric plots
     for metric_name in metrics:
+        metric_df = performance_df.groupby("model_name")[metric_name].mean().reset_index()
+        metric_df['model_names'] = metric_df['model_name'].apply(lambda x: textwrap.fill(x, 20))
+
         plt.figure(figsize=(16, 8))
-        sns.barplot(
-            x="model_name",
-            y="value",
-            hue="variable",
-            data=pd.melt(
-                performance_df.groupby("model_name")[metric_name].mean().reset_index(),
-                id_vars=["model_name"],
-                value_vars=[metric_name],
-            ),
+        ax = sns.barplot(
+            x="model_names",
+            y=metric_name,
+            data=metric_df,
         )
+
+        # Add percentage annotations
+        for p in ax.patches:
+            height = p.get_height()
+            ax.annotate(f'{100*height:.1f}%',
+                        (p.get_x() + p.get_width() / 2., height),
+                        ha='center', va='bottom', fontsize=10)
         plt.title(f"Overall Performance {metric_name} Comparison")
-        plt.ylabel("Average Score")
-        plt.xticks(rotation=45)
-        plt.legend(title="Metric", bbox_to_anchor=(1.05, 1), loc="upper left")
+        plt.xlabel("Model Name")
+        plt.ylabel(f"Average {metric_name} Score")
+        # plt.xticks(rotation=45)
         plt.tight_layout()
         plt.savefig(f"{output_dir}/overall_{metric_name}_performance_comparison.png")
         plt.close()
@@ -903,24 +965,27 @@ def main():
     # TODO: move to config file
     human_gt_dir = "benchmarking/GT data/"
     llm_base_dirs = [
-        "llm_results/llms_20241211233801",
-        "llm_results/llms_20241212222327",
-        "llm_results/llms_20241215110531",
-        "llm_results/llms_20241215124335",
-        "llm_results/llms_20250209213013",
+        # "llm_results/llms_20241211233801",
+        # "llm_results/llms_20241212222327",
+        # "llm_results/llms_20241215110531",
+        # "llm_results/llms_20241215124335",
+        # "llm_results/llms_20250209213013",
+        #"llm_results/llms_20250417204917"
+        "llm_results/llms_20250504210825"
     ]
-    output_dir = "benchmarking/metrics/02_14"
+    output_dir = "benchmarking/metrics/05_05"
     if not os.path.isdir(output_dir):
         os.mkdir(output_dir)
-    total_version_num = 5
+    total_version_num = 2
 
     model_names = [
-        "chatgpt-4o-latest",
-        "gemini-pro-1.5",
-        "claude-3.5-sonnet",
-        "llama-3.1-70b-instruct",
-        "llama-3.1-405b-instruct",
-        "deepseek-chat"
+        # "chatgpt-4o-latest",
+        # "gemini-pro-1.5",
+        # "claude-3.5-sonnet",
+        # "llama-3.1-70b-instruct",
+        # "llama-3.1-405b-instruct",
+        "gemini-2.5-flash",
+        "deepseek-r1"
     ]
 
     llm_files_by_id = {v: defaultdict(list) for v in model_names}
@@ -1026,3 +1091,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    # def load_and_preprocess_ground_truth(file_path):
+    # Define the columns we want to keep and their corresponding indices
+    # human_df = load_and_preprocess_ground_truth("/home/shawnyang/Documents/Project/llms-journ-sourcing/benchmarking/GT data/2-Best-DDR-player.csv")
+    # llm_df = load_and_preprocess_llm("llm_results/llms_20250504210825/gemini-2.5-flash/10-Nebraska_lawmakers_bill/10-Nebraska_lawmakers_bill-gemini-2.5-flash-v4-May05.csv")
+    # print(llm_df['Name'])
+    # llm_results = compare_attributions(human_df, llm_df)
