@@ -1,0 +1,2 @@
+GT_Sentence,LLM_Sentence,Sentence_Match_Score,Source_Type_GT,Source_Type_LLM,Source_Type_Match,Name_GT,Name_LLM,Name_Match_Score,Title_GT,Title_LLM,Title_Match_Score,Justification_GT,Justification_LLM,Justification_Match_Score,Title_and_Justification_GT,Title_and_Justification_LLM,Title_and_Justification_Match_Score
+,the poor peoples campaign is planning simultaneous actions on march 2 at over 30 state capitols.,0,,Named_Organization,No,,poor peoples campaign,0,,,0.0,,,0,, ,0.0

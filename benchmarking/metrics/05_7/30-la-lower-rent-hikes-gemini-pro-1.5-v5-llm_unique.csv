@@ -1,0 +1,9 @@
+GT_Sentence,LLM_Sentence,Sentence_Match_Score,Source_Type_GT,Source_Type_LLM,Source_Type_Match,Name_GT,Name_LLM,Name_Match_Score,Title_GT,Title_LLM,Title_Match_Score,Justification_GT,Justification_LLM,Justification_Match_Score,Title_and_Justification_GT,Title_and_Justification_LLM,Title_and_Justification_Match_Score
+,laist obtained the report through a public records request.,0,,Named_Organization,No,,laist,0,,,0.0,,,0.0,, ,0.0
+,laist has published the full report here (and you can also read it below).,0,,Named_Organization,No,,laist,0,,,0.0,,,0.0,, ,0.0
+,laist shared the report with advocates for landlords and tenants.,0,,Named_Organization,No,,laist,0,,,0.0,,,0.0,, ,0.0
+,the citys housing officials have been in possession of the economic roundtable report since may.,0,,Named_Organization,No,,l.a. housing department,0,,,0.0,,citys housing officials,0.0,, citys housing officials,0.0
+,councilmembers bob blumenfield and hugo soto-martinez put forward a motion calling for a fresh look at the citys decades-old formula for setting annual limits on rent hikes.,0,,Named_Person,No,,bob blumenfield;hugo soto-martinez,0,,councilmember;councilmember,0.0,,,0.0,,councilmember;councilmember ,0.0
+,landlord advocates strongly disputed the reports conclusions.,0,,Named_Person,No,,,100,,,0.0,,advocates for landlords,0.0,, advocates for landlords,0.0
+,california landlords earn 7 cents of profit on average for every dollar of rent.,0,,Documents,No,,national apartment association,0,,,0.0,,"recent data from the national apartment association, a trade group for property owners",0.0,," recent data from the national apartment association, a trade group for property owners",0.0
+,equitable rent rent stabilization standards in the city of los angeles,0,,Documents,No,,economic roundtable,0,,,0.0,,the city-commissioned report; the independent economic analysis; the report,0.0,, the city-commissioned report; the independent economic analysis; the report,0.0

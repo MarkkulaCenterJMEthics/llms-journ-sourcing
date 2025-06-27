@@ -1,0 +1,10 @@
+GT_Sentence,LLM_Sentence,Sentence_Match_Score,Source_Type_GT,Source_Type_LLM,Source_Type_Match,Name_GT,Name_LLM,Name_Match_Score,Title_GT,Title_LLM,Title_Match_Score,Justification_GT,Justification_LLM,Justification_Match_Score,Title_and_Justification_GT,Title_and_Justification_LLM,Title_and_Justification_Match_Score
+,"the shut-offs are expected to last indefinitely, the utility added.",0,,Named_Organization,No,,socalgas,0,,,0.0,,,0.0,, ,0.0
+,"that customer care vehicle will be parked on narcissa drive at the pepper wood gate, starting sunday through tuesday.",0,,Named_Organization,No,,southern california edison,0,,,0.0,,,0.0,, ,0.0
+,the hours of operation are from 10 a.m. to 6 p.m.,0,,Named_Organization,No,,southern california edison,0,,,0.0,,,0.0,, ,0.0
+,it is a fluid situation and were working on solutions to keep the power flowing but as conditions change well need to adjust to keep the community safe.,0,,Named_Person,No,,jim hanggi,0,,spokesperson,0.0,,for the utility,0.0,,spokesperson for the utility,0.0
+,"he said hes had no gas for weeks now, but water is still running.",0,,Named_Person,No,,gordon leon,0,,,0.0,,,0.0,, ,0.0
+,"the power in his house has been shut off indefinitely, so his plan is to move off the grid.",0,,Named_Person,No,,gordon leon,0,,,0.0,,,0.0,, ,0.0
+,cruikshank said hes working with private energy companies  and that he has even reached out to elon musk  to figure out how to shift those residents off the grid longer-term.,0,,Named_Person,No,,john cruikshank,0,,mayor,0.0,,"city's,rancho palos verdes",0.0,,"mayor city's,rancho palos verdes",0.0
+,we're going to do everything we can to push the governor and the federal government to provide them funds.,0,,Named_Person,No,,john cruikshank,0,,mayor,0.0,,"city's,rancho palos verdes",0.0,,"mayor city's,rancho palos verdes",0.0
+,"leon said he and his neighbors are just trying to ""figure out how to survive.",0,,Anonymous_Groups,No,,leon and his neighbors,0,,,0.0,,,0.0,, ,0.0

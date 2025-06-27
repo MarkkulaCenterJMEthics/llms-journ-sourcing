@@ -965,27 +965,27 @@ def main():
     # TODO: move to config file
     human_gt_dir = "benchmarking/GT data/"
     llm_base_dirs = [
-        # "llm_results/llms_20241211233801",
-        # "llm_results/llms_20241212222327",
-        # "llm_results/llms_20241215110531",
-        # "llm_results/llms_20241215124335",
-        # "llm_results/llms_20250209213013",
+        "llm_results/llms_20241211233801",
+        "llm_results/llms_20241212222327",
+        "llm_results/llms_20241215110531",
+        "llm_results/llms_20241215124335",
+        "llm_results/llms_20250209213013",
         #"llm_results/llms_20250417204917"
-        "llm_results/llms_20250504210825"
+        # "llm_results/llms_20250504210825"
     ]
-    output_dir = "benchmarking/metrics/05_05"
+    output_dir = "benchmarking/metrics/05_7"
     if not os.path.isdir(output_dir):
         os.mkdir(output_dir)
     total_version_num = 2
 
     model_names = [
         # "chatgpt-4o-latest",
-        # "gemini-pro-1.5",
+        "gemini-pro-1.5",
         # "claude-3.5-sonnet",
         # "llama-3.1-70b-instruct",
         # "llama-3.1-405b-instruct",
-        "gemini-2.5-flash",
-        "deepseek-r1"
+        # "gemini-2.5-flash",
+        # "deepseek-r1"
     ]
 
     llm_files_by_id = {v: defaultdict(list) for v in model_names}

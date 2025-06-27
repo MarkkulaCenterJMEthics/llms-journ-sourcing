@@ -1,0 +1,5 @@
+GT_Sentence,LLM_Sentence,Sentence_Match_Score,Source_Type_GT,Source_Type_LLM,Source_Type_Match,Name_GT,Name_LLM,Name_Match_Score,Title_GT,Title_LLM,Title_Match_Score,Justification_GT,Justification_LLM,Justification_Match_Score,Title_and_Justification_GT,Title_and_Justification_LLM,Title_and_Justification_Match_Score
+,republican gov. jim pillens office did not immediately respond to messages thursday by the associated press asking whether he would sign the bill into law.,0,,Named_Organization,No,,republican gov. jim pillens office,0,,,0.0,,,0.0,, ,0.0
+,"the bill, introduced for years by omaha state sen. justin wayne, passed by a wide margin in the last year of waynes second term.",0,,Named_Person,No,,justin wayne,0,,omaha state sen.,0.0,,,0.0,,omaha state sen. ,0.0
+,he is barred by term limits from running this year for a third term.,0,,Named_Person,No,,justin wayne,0,,omaha state sen.,0.0,,,0.0,,omaha state sen. ,0.0
+,"we spend on average $42,000 a year on prisoners, of which we have around a 30 percent recidivism rate.",0,,Named_Person,No,,justin wayne,0,,omaha state sen.,0.0,,,0.0,,omaha state sen. ,0.0
