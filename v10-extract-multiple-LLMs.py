@@ -42,6 +42,40 @@ MODELS = {
     ]
 }
 
+# Load api key from config 
+def load_api_key():
+    # Same function as in the main script
+    api_key = os.getenv('OPENROUTER_API_KEY')
+    if api_key:
+        return api_key
+    
+    config_files = ['config.json', '.env', 'api_key.txt']
+    for config_file in config_files:
+        if os.path.exists(config_file):
+            try:
+                if config_file.endswith('.json'):
+                    with open(config_file, 'r') as f:
+                        config = json.load(f)
+                        api_key = config.get('openrouter_api_key') or config.get('OPENROUTER_API_KEY')
+                        if api_key:
+                            return api_key
+                elif config_file.endswith('.env'):
+                    with open(config_file, 'r') as f:
+                        for line in f:
+                            line = line.strip()
+                            if line.startswith('OPENROUTER_API_KEY='):
+                                return line.split('=', 1)[1].strip()
+                elif config_file.endswith('.txt'):
+                    with open(config_file, 'r') as f:
+                        api_key = f.read().strip()
+                        if api_key:
+                            return api_key
+            except:
+                continue
+    return None
+
+
+#load prompts 
 def get_latest_prompt(prompt_type, prompt_version):
     prompt_dir = "new_prompts"
     prompt_file = os.path.join(prompt_dir, f"{prompt_type}_prompt_{prompt_version}.txt")
@@ -402,6 +436,7 @@ def process_files(input_dir, output_dir, selected_models, loop_times, prefix_str
 
     print(f"\nAll experiments completed. Results saved in {experiment_dir}")
 
+
 def main():
     parser = argparse.ArgumentParser(description="Process articles with multiple LLM models")
     parser.add_argument("-m", "--models", default="all", 
@@ -414,6 +449,18 @@ def main():
                        help="Prompt version to use (e.g., v41, v50). If not specified, uses global setting")
     
     args = parser.parse_args()
+
+    # Load API key and set the global variable
+    global or_api_key
+    or_api_key = load_api_key()
+    
+    if or_api_key:
+        print('✓ API key loaded successfully')
+        print(f'Key starts with: {or_api_key[:10]}...')
+    else:
+        print('✗ No API key found')
+        print('Please set OPENROUTER_API_KEY environment variable or create a config file')
+        return  # Exit if no API key found
     
     # Determine which prompt version to use
     effective_prompt_version = args.prompt_version if args.prompt_version else prompt_version
