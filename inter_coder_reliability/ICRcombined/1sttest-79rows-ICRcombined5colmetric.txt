@@ -1,0 +1,1648 @@
+svincent@MCAE-2400380 ICRcombined % python3 ../v13all-icrclaude.py newICRcombined-ann1.csv newICRcombined-ann2.csv         
+Loading semantic model...
+Model loaded.
+Loading data from newICRcombined-ann1.csv and newICRcombined-ann2.csv...
+CSV 1 shape: (79, 28)
+CSV 2 shape: (79, 6)
+
+============================================================
+Calculating ICR for column: Sourced Statements
+============================================================
+
+Distances for all 79 items:
+--------------------------------------------------------------------------------
+Item 1: Distance = 0.0403
+  Annotator1: More than 930,000 travelers will funnel through SFO from Thursday through Tuesday, according to SFO ...
+  Annotator2: More than 930,000 travelers will funnel through SFO from Thursday through Tuesday
+
+Item 2: Distance = 0.0586
+  Annotator1: It’s also close to the number of travelers SFO saw in 2019, just months before the pandemic. This ye...
+  Annotator2: It’s also close to the number of travelers SFO saw in 2019, just months before the pandemic. This ye...
+
+Item 3: Distance = 0.0978
+  Annotator1: To make it on time, holiday travelers should arrive at the airport two hours before domestic flights...
+  Annotator2: To make it on time, holiday travelers should arrive at the airport two hours before domestic flights...
+
+Item 4: Distance = 0.0449
+  Annotator1: United Airlines advised passengers to leave even more time.
+
+  Annotator2: United Airlines advised passengers to leave even more time
+
+Item 5: Distance = 1.0000
+  Annotator1: nan
+  Annotator2: The Standard viewed one Friday-morning boarding pass for a Chicago-bound flight that warned of long ...
+
+Item 6: Distance = 0.0000
+  Annotator1: A United Airlines spokesperson said the three-hour warning was issued by mistake: somehow the compan...
+  Annotator2: A United Airlines spokesperson said the three-hour warning was issued by mistake: somehow the compan...
+
+Item 7: Distance = 0.0957
+  Annotator1: Yakel said SFO has not been advised of staffing woes for Thursday, which was expected to be the busi...
+  Annotator2: SFO has not been advised of staffing woes for Thursday, which was expected to be the busiest day of ...
+
+Item 8: Distance = 0.3172
+  Annotator1: “I have TSA Pre, so that should make it a little easier,” said Bay Area resident Katelin Tharp, who ...
+  Annotator2: “I have TSA Pre, so that should make it a little easier,”
+
+Item 9: Distance = 0.1911
+  Annotator1: “We’re sad since we just said goodbye to our one friend, and we don’t know if we’re ever going to se...
+  Annotator2: “We’re sad since we just said goodbye to our one friend, and we don’t know if we’re ever going to se...
+
+Item 10: Distance = 0.0185
+  Annotator1: Parking at airport garages will be in short supply this weekend, so travelers who want to leave cars...
+  Annotator2: Parking at airport garages will be in short supply this weekend, so travelers who want to leave cars...
+
+Item 11: Distance = 0.0388
+  Annotator1: There are no major projects on the freeways near SFO, so with a bit of luck, drivers headed to the a...
+  Annotator2: There are no major projects on the freeways near SFO, so with a bit of luck, drivers headed to the a...
+
+Item 12: Distance = 0.0042
+  Annotator1: And company insiders worry that Apple, despite its years of gravity-defying profits, is hamstrung by...
+  Annotator2: And company insiders worry that Apple, despite its years of gravity-defying profits, is hamstrung by...
+
+Item 13: Distance = 0.0000
+  Annotator1: While Vision Pro sales have been disappointing, Apple’s issues with Apple Intelligence exposed dysfu...
+  Annotator2: While Vision Pro sales have been disappointing, Apple’s issues with Apple Intelligence exposed dysfu...
+
+Item 14: Distance = 0.0000
+  Annotator1: In a nearly two-hour video presentation last summer, Apple demonstrated how the A.I. product would s...
+  Annotator2: In a nearly two-hour video presentation last summer, Apple demonstrated how the A.I. product would s...
+
+Item 15: Distance = 0.0000
+  Annotator1:  Notification summaries misrepresented news reports, leading Apple to disable that feature. 
+  Annotator2: Notification summaries misrepresented news reports, leading Apple to disable that feature. 
+
+Item 16: Distance = 0.0000
+  Annotator1:  Then, last month, the company postponed the spring release of an improved Siri because internal tes...
+  Annotator2: Then, last month, the company postponed the spring release of an improved Siri because internal test...
+
+Item 17: Distance = 1.0000
+  Annotator1:  Apple’s software chief, told employees that the company would reshuffle its executives, removing re...
+  Annotator2: nan
+
+Item 18: Distance = 0.0752
+  Annotator1: “Apple needs to understand what happened because this is bigger than just rearranging the deck chair...
+  Annotator2: “Apple needs to understand what happened because this is bigger than just rearranging the deck chair...
+
+Item 19: Distance = 0.0000
+  Annotator1: Some details of Apple’s changes to its Siri team and challenges were previously reported by Bloomber...
+  Annotator2: Some details of Apple’s changes to its Siri team and challenges were previously reported by Bloomber...
+
+Item 20: Distance = 0.2907
+  Annotator1: The A.I. stumble was set in motion in early 2023. Mr. Giannandrea, who was overseeing the effort, so...
+  Annotator2: Mr. Giannandrea, who was overseeing the effort, sought approval from the company’s chief executive, ...
+
+Item 21: Distance = -0.0000
+  Annotator1: At the time, Apple’s data centers had about 50,000 GPUs that were more than five years old — far few...
+  Annotator2: At the time, Apple’s data centers had about 50,000 GPUs that were more than five years old — far few...
+
+Item 22: Distance = 0.0010
+  Annotator1: Mr. Cook approved a plan to double the team’s chip budget, but Apple’s finance chief, Luca Maestri, ...
+  Annotator2: Mr. Cook approved a plan to double the team’s chip budget, but Apple’s finance chief, Luca Maestri, ...
+
+Item 23: Distance = 0.0000
+  Annotator1: The lack of GPUs meant the team developing A.I. systems had to negotiate for data center computing p...
+  Annotator2: The lack of GPUs meant the team developing A.I. systems had to negotiate for data center computing p...
+
+Item 24: Distance = -0.0000
+  Annotator1: After this article was published, Trudy Muller, an Apple spokeswoman, said the company had fulfilled...
+  Annotator2: After this article was published, Trudy Muller, an Apple spokeswoman, said the company had fulfilled...
+
+Item 25: Distance = 0.0000
+  Annotator1: At the same time, leaders at two of Apple’s software teams were battling over who would spearhead th...
+  Annotator2: At the same time, leaders at two of Apple’s software teams were battling over who would spearhead th...
+
+Item 26: Distance = 0.0488
+  Annotator1: Mr. Giannandrea, who joined the company in 2019 from Google, had never led the launch of a high-prof...
+  Annotator2: Mr. Giannandrea, who joined the company in 2019 from Google, had never led the launch of a high-prof...
+
+Item 27: Distance = 0.1010
+  Annotator1: Mr. Cook, 64, who has a background in operations, has been hesitant over the years to provide clear ...
+  Annotator2: Mr. Cook, 64, who has a background in operations, has been hesitant over the years to provide clear ...
+
+Item 28: Distance = -0.0000
+  Annotator1: “It’s clearly a breakdown of leadership and communication and internal processes,” said Benedict Eva...
+  Annotator2: “It’s clearly a breakdown of leadership and communication and internal processes,” said Benedict Eva...
+
+Item 29: Distance = 0.0000
+  Annotator1: The company plans to release a virtual assistant in the fall capable of doing things like editing an...
+  Annotator2: The company plans to release a virtual assistant in the fall capable of doing things like editing an...
+
+Item 30: Distance = 0.0083
+  Annotator1: Some of Apple’s leaders don’t think the delay is a problem because none of Apple’s rivals, like Goog...
+  Annotator2: Some of Apple’s leaders don’t think the delay is a problem because none of Apple’s rivals, like Goog...
+
+Item 31: Distance = -0.0000
+  Annotator1: The incompetency determination comes three months after a finding from December when Jahmed Haynes, ...
+  Annotator2: The incompetency determination comes three months after a finding from December when Jahmed Haynes, ...
+
+Item 32: Distance = -0.0000
+  Annotator1: I'm mad about having to go round and round," said Melanie Roberts, Ruth Dalton's granddaughter. "We ...
+  Annotator2: I'm mad about having to go round and round," said Melanie Roberts, Ruth Dalton's granddaughter. "We ...
+
+Item 33: Distance = 0.0000
+  Annotator1: At a hearing on Thursday, there was a brief discussion about whether Haynes would be ordered to take...
+  Annotator2: At a hearing on Thursday, there was a brief discussion about whether Haynes would be ordered to take...
+
+Item 34: Distance = -0.0000
+  Annotator1: If he chooses not to medicate himself, he is making a choice not to be competent and not to be compl...
+  Annotator2: If he chooses not to medicate himself, he is making a choice not to be competent and not to be compl...
+
+Item 35: Distance = 0.0000
+  Annotator1: According to the charges, Haynes carjacked Dalton while she was parked along Martin Luther King Jr. ...
+  Annotator2: According to the charges, Haynes carjacked Dalton while she was parked along Martin Luther King Jr. ...
+
+Item 36: Distance = -0.0000
+  Annotator1: Haynes forced Dalton out of the vehicle and then ran her over, killing her, according to police.
+  Annotator2: Haynes forced Dalton out of the vehicle and then ran her over, killing her, according to police.
+
+Item 37: Distance = -0.0000
+  Annotator1: Investigators say Haynes took Dalton's dog, Prince, and stabbed him to death before leaving his body...
+  Annotator2: Investigators say Haynes took Dalton's dog, Prince, and stabbed him to death before leaving his body...
+
+Item 38: Distance = 0.0000
+  Annotator1: Haynes was arrested the next day after police said they found his fingerprints in Dalton's car, whic...
+  Annotator2: Haynes was arrested the next day after police said they found his fingerprints in Dalton's car, whic...
+
+Item 39: Distance = 0.0000
+  Annotator1: He goes to Western, they medicate him, and he’s competent. He goes to jail, he refuses meds, and he’...
+  Annotator2: He goes to Western, they medicate him, and he’s competent. He goes to jail, he refuses meds, and he’...
+
+Item 40: Distance = -0.0000
+  Annotator1: Democrat Kamala Harris leads Republican Donald Trump 45% to 41% in a Reuters/Ipsos poll published on...
+  Annotator2: Democrat Kamala Harris leads Republican Donald Trump 45% to 41% in a Reuters/Ipsos poll published on...
+
+Item 41: Distance = 0.0209
+  Annotator1: The 4 percentage point advantage among registered voters was wider than a 1 point lead Harris held o...
+  Annotator2: The 4 percentage point advantage among registered voters was wider than a 1 point lead Harris held o...
+
+Item 42: Distance = 0.0000
+  Annotator1: The new poll, which was conducted in the eight days ended Wednesday and had a 2 percentage point mar...
+  Annotator2: The new poll, which was conducted in the eight days ended Wednesday and had a 2 percentage point mar...
+
+Item 43: Distance = 0.0000
+  Annotator1: Harris led Trump by 49% to 36% - or 13 percentage points - among both women voters and Hispanic vote...
+  Annotator2: Harris led Trump by 49% to 36% - or 13 percentage points - among both women voters and Hispanic vote...
+
+Item 44: Distance = -0.0000
+  Annotator1: Trump led among white voters and men, both by similar margins as in July, though his lead among vote...
+  Annotator2: Trump led among white voters and men, both by similar margins as in July, though his lead among vote...
+
+Item 45: Distance = 1.0000
+  Annotator1: nan
+  Annotator2: The findings illustrate how the U.S. presidential race has been shaken up over the summer. President...
+
+Item 46: Distance = 0.0069
+  Annotator1: In the seven states where the 2020 election was closest - Wisconsin, Pennsylvania, Georgia, Arizona,...
+  Annotator2: In the seven states where the 2020 election was closest - Wisconsin, Pennsylvania, Georgia, Arizona,...
+
+Item 47: Distance = 0.0000
+  Annotator1: A separate Bloomberg News/Morning Consult poll published later on Thursday showed that Harris was ei...
+  Annotator2: A separate Bloomberg News/Morning Consult poll published later on Thursday showed that Harris was ei...
+
+Item 48: Distance = 0.0146
+  Annotator1: That poll showed Harris led Trump by 2 percentage points among registered voters across the seven st...
+  Annotator2: That poll showed Harris led Trump by 2 percentage points among registered voters across the seven st...
+
+Item 49: Distance = 0.0000
+  Annotator1: "It's obvious that running against Harris is more challenging for Trump given the shift in these num...
+  Annotator2: "It's obvious that running against Harris is more challenging for Trump given the shift in these num...
+
+Item 50: Distance = -0.0000
+  Annotator1: He said Trump needs to stay as focused as possible in his campaign "so he's not scaring" away voters...
+  Annotator2: He said Trump needs to stay as focused as possible in his campaign "so he's not scaring" away voters...
+
+Item 51: Distance = 0.0000
+  Annotator1: Some 73% of Democratic registered voters in the Reuters/Ipsos poll said they were more excited about...
+  Annotator2: Some 73% of Democratic registered voters in the Reuters/Ipsos poll said they were more excited about...
+
+Item 52: Distance = 0.0000
+  Annotator1: "We see it in this poll that people are more motivated about the future than the past," said Aimee A...
+  Annotator2: "We see it in this poll that people are more motivated about the future than the past," said Aimee A...
+
+Item 53: Distance = -0.0000
+  Annotator1: But Trump voters also voiced enthusiasm about their candidate, with 64% saying their choice was more...
+  Annotator2: But Trump voters also voiced enthusiasm about their candidate, with 64% saying their choice was more...
+
+Item 54: Distance = 0.0138
+  Annotator1: Voters picked Trump as having a better approach to managing the U.S. economy, 45% to 36%, a wider ma...
+  Annotator2: Voters picked Trump as having a better approach to managing the U.S. economy, 45% to 36%, a wider ma...
+
+Item 55: Distance = 0.1540
+  Annotator1: Harris, by contrast, had a 47% to 31% advantage on abortion policy. Some 41% of voters in the poll -...
+  Annotator2: Harris, by contrast, had a 47% to 31% advantage on abortion policy. The issue is salient for Democra...
+
+Item 56: Distance = 0.6674
+  Annotator1: The poll was conducted nationally and gathered responses from 4,253 U.S. adults, including 3,562 reg...
+  Annotator2: The latest poll's survey period partially overlapped with the Aug. 19-22 Democratic National Convent...
+
+Item 57: Distance = 0.0000
+  Annotator1: Independent candidate Robert F. Kennedy Jr., who suspended his campaign on Aug. 23 while the poll wa...
+  Annotator2: Independent candidate Robert F. Kennedy Jr., who suspended his campaign on Aug. 23 while the poll wa...
+
+Item 58: Distance = 0.0284
+  Annotator1: A senior at North Country Union High School in Newport, Wilburn, 17, recalls being in line for the b...
+  Annotator2: A senior at North Country Union High School in Newport, Wilburn, 17, recalls being in line for the b...
+
+Item 59: Distance = 0.1036
+  Annotator1: ‚ÄúShe then told me that I felt like a sheep and she imitated the noises of one,‚Äù said Wilburn, a ...
+  Annotator2: “She then told me that I felt like a sheep and she imitated the noises of one,” said Wilburn, a lead...
+
+Item 60: Distance = -0.0000
+  Annotator1: Once, when she was wearing a head covering because she was in the midst of braiding her hair, Wilbur...
+  Annotator2: Once, when she was wearing a head covering because she was in the midst of braiding her hair, Wilbur...
+
+Item 61: Distance = 1.0000
+  Annotator1: nan
+  Annotator2: H.363 would expand the state’s anti-discrimination statute, which forbids discrimination at public p...
+
+Item 62: Distance = 0.2984
+  Annotator1: ‚ÄúI wouldn‚Äôt be scared of going out with a bonnet or a head wrap if this bill was in place at the...
+  Annotator2: “I wouldn’t be scared of going out with a bonnet or a head wrap if this bill was in place at the tim...
+
+Item 63: Distance = 0.0193
+  Annotator1: Addie Lentzner, executive director of the student anti-racism network, said she has seen hair discri...
+  Annotator2: Addie Lentzner, executive director of the student anti-racism network, said she has seen hair discri...
+
+Item 64: Distance = 0.1919
+  Annotator1: ‚ÄúI think it‚Äôs a huge problem in our schools and this bill would help address it,‚Äù Lentzner sai...
+  Annotator2: “I think it’s a huge problem in our schools and this bill would help address it,” Lentzner said.
+
+Item 65: Distance = 0.0974
+  Annotator1: Modeled after language promoted as the¬†CROWN Act¬†and already enacted in 23 other states, including...
+  Annotator2: Modeled after language promoted as the CROWN Act and already enacted in 23 other states, including N...
+
+Item 66: Distance = 0.0000
+  Annotator1: She cited a 2023 study that found 66% of Black girls in predominantly white schools and 44% of Black...
+  Annotator2: She cited a 2023 study that found 66% of Black girls in predominantly white schools and 44% of Black...
+
+Item 67: Distance = 0.1066
+  Annotator1: For her daughter, it first occurred in pre-school. While picking up her daughter one afternoon she s...
+  Annotator2: For her daughter, she said, it first occurred in pre-school. While picking up her daughter one after...
+
+Item 68: Distance = 0.0000
+  Annotator1: A teacher explained that her daughter was reacting to several instances of students touching and pet...
+  Annotator2: A teacher explained that her daughter was reacting to several instances of students touching and pet...
+
+Item 69: Distance = 0.0307
+  Annotator1: In another incident, her daughter‚Äôs dance teacher asked to have her recently installed braids take...
+  Annotator2: In another incident, her daughter’s dance teacher asked to have her recently installed braids taken ...
+
+Item 70: Distance = 0.0000
+  Annotator1: LaMont outlined to her House colleagues on Tuesday the ways in which caring for Black hair is a proc...
+  Annotator2: LaMont outlined to her House colleagues on Tuesday the ways in which caring for Black hair is a proc...
+
+Item 71: Distance = 0.1956
+  Annotator1: The bill is important, she said then, because ‚Äúhair type, textures, styles, protective hairstyles‚...
+  Annotator2: The bill is important, she said then, because “hair type, textures, styles, protective hairstyles” a...
+
+Item 72: Distance = -0.0000
+  Annotator1: Black women’s hair is more likely to be perceived as unprofessional, she said, citing surveys. Many ...
+  Annotator2: Black women’s hair is more likely to be perceived as unprofessional, she said, citing surveys. Many ...
+
+Item 73: Distance = 0.1292
+  Annotator1: ‚ÄúHair and head coverings do not determine behavior, capacity or competency and people should not b...
+  Annotator2: “Hair and head coverings do not determine behavior, capacity or competency and people should not be ...
+
+Item 74: Distance = 0.0499
+  Annotator1: Hair discrimination is degrading, disrespectful and invades people‚Äôs privacy in deep ways, said on...
+  Annotator2: Hair discrimination is degrading, disrespectful and invades people’s privacy in deep ways, said one ...
+
+Item 75: Distance = 0.1797
+  Annotator1: ‚ÄúIt seems like a small bill but in actuality, it‚Äôs another big block in the foundation of equity...
+  Annotator2: “It seems like a small bill but in actuality, it’s another big block in the foundation of equity in ...
+
+Item 76: Distance = 0.0848
+  Annotator1: Representing Vermont‚Äôs most diverse community, Rep. Daisy Berbeco, D-Winooski, also a sponsor, tol...
+  Annotator2: Representing Vermont’s most diverse community, Rep. Daisy Berbeco, D-Winooski, also a sponsor, told ...
+
+Item 77: Distance = -0.0000
+  Annotator1: Rep. Mike Mrowicki, D-Putney, another bill sponsor, said he has heard from constituents who have fac...
+  Annotator2: Rep. Mike Mrowicki, D-Putney, another bill sponsor, said he has heard from constituents who have fac...
+
+Item 78: Distance = -0.0000
+  Annotator1: With the population and demographic of Vermont fast changing, this bill is a common sense effort to ...
+  Annotator2: With the population and demographic of Vermont fast changing, this bill is a common sense effort to ...
+
+Item 79: Distance = 0.0368
+  Annotator1: ‚ÄúThe reality that people of color are often ostracized or mistreated because of their hair. It can...
+  Annotator2: “The reality that people of color are often ostracized or mistreated because of their hair. It can b...
+
+Calculating Krippendorff's Alpha for Sourced Statements...
+✅ Krippendorff's Alpha for 'Sourced Statements': 0.9414
+
+============================================================
+Calculating ICR for column: Source Justification
+============================================================
+
+Distances for all 79 items:
+--------------------------------------------------------------------------------
+Item 1: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 2: Distance = 0.0000
+  Annotator1: said by email
+  Annotator2: said by email
+
+Item 3: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 4: Distance = 1.0000
+  Annotator1: The Standard viewed one Friday-morning boarding pass for a Chicago-bound flight that warned of long ...
+  Annotator2: nan
+
+Item 5: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 6: Distance = 1.0000
+  Annotator1: The spokesperson shared a corrected advisory 
+  Annotator2: nan
+
+Item 7: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 8: Distance = 0.0461
+  Annotator1: who on Thursday was booted from an overbooked flight to Boston
+  Annotator2: on Thursday was booted from an overbooked flight to Boston
+
+Item 9: Distance = 0.2071
+  Annotator1: They had zigzagged across the country by plane — highlights included stops in Florida, Nashville, an...
+  Annotator2: A quartet of friends was at the airport with time to spare so they could say goodbye to one of the c...
+
+Item 10: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 11: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 12: Distance = 0.2566
+  Annotator1: Former and current employees and advisers
+  Annotator2: more than a dozen former and current employees and advisers.
+
+Item 13: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 14: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 15: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 16: Distance = 0.0298
+  Annotator1: said three people familiar with the project who spoke on the condition of anonymity.
+  Annotator2: three people familiar with the project who spoke on the condition of anonymity.
+
+Item 17: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 18: Distance = 0.0835
+  Annotator1: previously worked as a product marketer at Apple
+  Annotator2: who previously worked as a product marketer at Apple
+
+Item 19: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 20: Distance = 0.2001
+  Annotator1: People with knowledge of the request
+  Annotator2: five people with knowledge of the request said
+
+Item 21: Distance = 0.2001
+  Annotator1: People with knowledge of the request
+  Annotator2: five people with knowledge of the request said
+
+Item 22: Distance = 0.2001
+  Annotator1: People with knowledge of the request
+  Annotator2: five people with knowledge of the request said
+
+Item 23: Distance = 0.2659
+  Annotator1: two of the people
+  Annotator2: two of the people said
+
+Item 24: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 25: Distance = 0.0596
+  Annotator1: three people who worked on the effort
+  Annotator2: three people who worked on the effort said.
+
+Item 26: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 27: Distance = 0.0000
+  Annotator1: three people familiar with the way the company operates.
+  Annotator2: three people familiar with the way the company operates.
+
+Item 28: Distance = 0.0165
+  Annotator1: previously worked as a venture capitalist at Andreessen Horowitz
+  Annotator2: who previously worked as a venture capitalist at Andreessen Horowitz.
+
+Item 29: Distance = 0.0516
+  Annotator1: three people with knowledge of its plans
+  Annotator2: three people with knowledge of its plans said.
+
+Item 30: Distance = 0.0516
+  Annotator1: three people with knowledge of its plans
+  Annotator2: three people with knowledge of its plans said.
+
+Item 31: Distance = 0.0000
+  Annotator1: none
+  Annotator2: none
+
+Item 32: Distance = 0.0000
+  Annotator1: none
+  Annotator2: none
+
+Item 33: Distance = 1.0050
+  Annotator1: none
+  Annotator2: At a hearing on Thursday, there was a brief discussion about whether Haynes would be ordered to take...
+
+Item 34: Distance = 0.0000
+  Annotator1: none
+  Annotator2: none
+
+Item 35: Distance = 0.0000
+  Annotator1: none
+  Annotator2: none
+
+Item 36: Distance = 1.0000
+  Annotator1: nan
+  Annotator2: none
+
+Item 37: Distance = 1.0000
+  Annotator1: nan
+  Annotator2: none
+
+Item 38: Distance = 0.0000
+  Annotator1: none
+  Annotator2: none
+
+Item 39: Distance = 0.0000
+  Annotator1: none
+  Annotator2: none
+
+Item 40: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 41: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 42: Distance = 1.0000
+  Annotator1: nan
+  Annotator2: which was conducted in the eight days ended Wednesday and had a 2 percentage point margin of error,
+
+Item 43: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 44: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 45: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 46: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 47: Distance = 1.0000
+  Annotator1: nan
+  Annotator2: published later on Thursday
+
+Item 48: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 49: Distance = 0.1483
+  Annotator1: who worked on Trump's 2020 campaign
+  Annotator2: worked on Trump's 2020 campaign
+
+Item 50: Distance = 0.1483
+  Annotator1: who worked on Trump's 2020 campaign
+  Annotator2: worked on Trump's 2020 campaign
+
+Item 51: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 52: Distance = 0.2057
+  Annotator1: founder of She the People, a liberal group that aims to grow the numbers of women of color in electe...
+  Annotator2: A liberal group that aims to grow the numbers of women of color in elected office
+
+Item 53: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 54: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 55: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 56: Distance = 1.0000
+  Annotator1: nan
+  Annotator2: The poll was conducted nationally and gathered responses from 4,253 U.S. adults, including 3,562 reg...
+
+Item 57: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 58: Distance = 0.7427
+  Annotator1: senior at North Country Union High School
+  Annotator2:  in Newport
+
+Item 59: Distance = 1.0000
+  Annotator1: nan
+  Annotator2: a leader with the Vermont Student Anti-Racism Network.
+
+Item 60: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 61: Distance = 1.0000
+  Annotator1: nan
+  Annotator2: Wilburn and the student anti-racism network support a bill, which the Vermont House passed in a land...
+
+Item 62: Distance = 1.0000
+  Annotator1: said in an email 
+  Annotator2: nan
+
+Item 63: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 64: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 65: Distance = 0.0476
+  Annotator1: said during a preliminary vote on the bill
+  Annotator2: said during a preliminary vote on the bill Tuesday
+
+Item 66: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 67: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 68: Distance = 1.0000
+  Annotator1: daughter was reacting to several instances of students touching and petting her hair without her con...
+  Annotator2: nan
+
+Item 69: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 70: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 71: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 72: Distance = 1.0000
+  Annotator1: citing surveys
+  Annotator2: nan
+
+Item 73: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 74: Distance = 0.1881
+  Annotator1: one of the bill‚Äôs primary sponsors
+  Annotator2: one of the bill’s primary sponsors 
+
+Item 75: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 76: Distance = 0.0881
+  Annotator1: represents Vermont's most diverse community, another bill sponsor 
+  Annotator2: Representing Vermont’s most diverse community, also a sponsor
+
+Item 77: Distance = 0.0000
+  Annotator1: another bill sponsor 
+  Annotator2: another bill sponsor
+
+Item 78: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 79: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Calculating Krippendorff's Alpha for Source Justification...
+✅ Krippendorff's Alpha for 'Source Justification': 0.8175
+
+============================================================
+Calculating ICR for column: Type of Source
+============================================================
+
+Distances for all 79 items:
+--------------------------------------------------------------------------------
+Item 1: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 2: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 3: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 4: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 5: Distance = 1.0000
+  Annotator1: nan
+  Annotator2: Named Organization
+
+Item 6: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 7: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 8: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 9: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 10: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 11: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 12: Distance = 0.0000
+  Annotator1: Unnamed Group of People 
+  Annotator2: Unnamed Group of People
+
+Item 13: Distance = 0.0000
+  Annotator1: Document
+  Annotator2: Document
+
+Item 14: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 15: Distance = 0.0000
+  Annotator1: Document
+  Annotator2: Document
+
+Item 16: Distance = 0.0000
+  Annotator1: Anonymous Source
+  Annotator2: Anonymous Source
+
+Item 17: Distance = 1.0000
+  Annotator1: Named Person
+  Annotator2: nan
+
+Item 18: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 19: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 20: Distance = 0.0000
+  Annotator1: Unnamed Group of People
+  Annotator2: Unnamed Group of People
+
+Item 21: Distance = 0.0000
+  Annotator1: Unnamed Group of People
+  Annotator2: Unnamed Group of People
+
+Item 22: Distance = 0.0000
+  Annotator1: Unnamed Group of People
+  Annotator2: Unnamed Group of People
+
+Item 23: Distance = 0.0000
+  Annotator1: Unnamed Group of People
+  Annotator2: Unnamed Group of People
+
+Item 24: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 25: Distance = 0.0000
+  Annotator1: Unnamed Group of People
+  Annotator2: Unnamed Group of People
+
+Item 26: Distance = 0.0000
+  Annotator1: Document
+  Annotator2: Document
+
+Item 27: Distance = 0.0000
+  Annotator1: Unnamed Group of People
+  Annotator2: Unnamed Group of People
+
+Item 28: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 29: Distance = 0.0000
+  Annotator1: Unnamed Group of People
+  Annotator2: Unnamed Group of People
+
+Item 30: Distance = 0.0000
+  Annotator1: Unnamed Group of People
+  Annotator2: Unnamed Group of People
+
+Item 31: Distance = 0.0000
+  Annotator1: Document
+  Annotator2: Document
+
+Item 32: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 33: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 34: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 35: Distance = 0.0000
+  Annotator1: Document
+  Annotator2: Document
+
+Item 36: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 37: Distance = 0.0000
+  Annotator1: Unnamed Group of People
+  Annotator2: Unnamed Group of People
+
+Item 38: Distance = 0.0000
+  Annotator1: Document
+  Annotator2: Document
+
+Item 39: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 40: Distance = 0.6900
+  Annotator1: Named Organization
+  Annotator2: Document
+
+Item 41: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 42: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 43: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 44: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 45: Distance = 1.0000
+  Annotator1: nan
+  Annotator2: Document
+
+Item 46: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 47: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 48: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 49: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 50: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 51: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 52: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 53: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 54: Distance = 0.6900
+  Annotator1: Named Organization
+  Annotator2: Document
+
+Item 55: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 56: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 57: Distance = 0.0000
+  Annotator1: Named Organization
+  Annotator2: Named Organization
+
+Item 58: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 59: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 60: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 61: Distance = 1.0000
+  Annotator1: nan
+  Annotator2: document 
+
+Item 62: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 63: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 64: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 65: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 66: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 67: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 68: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 69: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 70: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 71: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 72: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 73: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 74: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 75: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 76: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 77: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 78: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Item 79: Distance = 0.0000
+  Annotator1: Named Person
+  Annotator2: Named Person
+
+Calculating Krippendorff's Alpha for Type of Source...
+✅ Krippendorff's Alpha for 'Type of Source': 0.9491
+
+============================================================
+Calculating ICR for column: Name of Source
+============================================================
+
+Distances for all 79 items:
+--------------------------------------------------------------------------------
+Item 1: Distance = 0.0000
+  Annotator1: Doug Yakel
+  Annotator2: Doug Yakel
+
+Item 2: Distance = 0.0000
+  Annotator1: Doug Yakel
+  Annotator2: Doug Yakel
+
+Item 3: Distance = 0.0000
+  Annotator1: Doug Yakel
+  Annotator2: Doug Yakel
+
+Item 4: Distance = 0.0000
+  Annotator1: United Airlines
+  Annotator2: United Airlines
+
+Item 5: Distance = 1.0000
+  Annotator1: nan
+  Annotator2: The San Fransisco Standard
+
+Item 6: Distance = 0.0000
+  Annotator1: United Airlines
+  Annotator2: United Airlines
+
+Item 7: Distance = 0.0000
+  Annotator1: Doug Yakel
+  Annotator2: Doug Yakel
+
+Item 8: Distance = 0.0000
+  Annotator1: Katelin Tharp
+  Annotator2: Katelin Tharp
+
+Item 9: Distance = 0.0000
+  Annotator1: Ellie Mitchell
+  Annotator2: Ellie Mitchell
+
+Item 10: Distance = 0.0000
+  Annotator1: Doug Yakel
+  Annotator2: Doug Yakel
+
+Item 11: Distance = 0.0000
+  Annotator1: Caltrans
+  Annotator2: Caltrans
+
+Item 12: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 13: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 14: Distance = 0.0000
+  Annotator1: Apple
+  Annotator2: Apple
+
+Item 15: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 16: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 17: Distance = 1.0000
+  Annotator1: Craig Federighi
+  Annotator2: nan
+
+Item 18: Distance = 0.0000
+  Annotator1: Michael Gartenberg
+  Annotator2: Michael Gartenberg
+
+Item 19: Distance = 0.5300
+  Annotator1: Bloomberg
+  Annotator2: Bloomberg and The Information
+
+Item 20: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 21: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 22: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 23: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 24: Distance = 0.0000
+  Annotator1: Trudy Muller
+  Annotator2: Trudy Muller
+
+Item 25: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 26: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 27: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 28: Distance = 0.0000
+  Annotator1: Benedict Evans
+  Annotator2: Benedict Evans
+
+Item 29: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 30: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 31: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 32: Distance = 0.0000
+  Annotator1: Melanie Roberts
+  Annotator2: Melanie Roberts
+
+Item 33: Distance = 0.0000
+  Annotator1: Averil Rothrock
+  Annotator2: Averil Rothrock
+
+Item 34: Distance = 0.0000
+  Annotator1: Melanie Roberts
+  Annotator2: Melanie Roberts
+
+Item 35: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 36: Distance = 0.0000
+  Annotator1: Seattle Police Department
+  Annotator2: Seattle Police Department
+
+Item 37: Distance = 1.0000
+  Annotator1: Investigators
+  Annotator2: nan
+
+Item 38: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 39: Distance = 0.0000
+  Annotator1: Melanie Roberts
+  Annotator2: Melanie Roberts
+
+Item 40: Distance = 1.0000
+  Annotator1: Reuters/Ipsos
+  Annotator2: nan
+
+Item 41: Distance = 0.0000
+  Annotator1: Reuters/Ipsos
+  Annotator2: Reuters/Ipsos
+
+Item 42: Distance = 0.0000
+  Annotator1: Reuters/Ipsos
+  Annotator2: Reuters/Ipsos
+
+Item 43: Distance = 0.0000
+  Annotator1: Reuters/Ipsos
+  Annotator2: Reuters/Ipsos
+
+Item 44: Distance = 0.0000
+  Annotator1: Reuters/Ipsos
+  Annotator2: Reuters/Ipsos
+
+Item 45: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 46: Distance = 0.0000
+  Annotator1: Reuters/Ipsos
+  Annotator2: Reuters/Ipsos
+
+Item 47: Distance = 0.0000
+  Annotator1: Bloomberg News/Morning Consult
+  Annotator2: Bloomberg News/Morning Consult
+
+Item 48: Distance = 0.0000
+  Annotator1: Bloomberg News/Morning Consult
+  Annotator2: Bloomberg News/Morning Consult
+
+Item 49: Distance = 0.0000
+  Annotator1: Matt Wolking
+  Annotator2: Matt Wolking
+
+Item 50: Distance = 0.0000
+  Annotator1: Matt Wolking
+  Annotator2: Matt Wolking
+
+Item 51: Distance = 0.0000
+  Annotator1: Reuters/Ipsos
+  Annotator2: Reuters/Ipsos
+
+Item 52: Distance = 0.0000
+  Annotator1: Aimee Allison
+  Annotator2:  Aimee Allison
+
+Item 53: Distance = 0.0000
+  Annotator1: Reuters/Ipsos
+  Annotator2: Reuters/Ipsos
+
+Item 54: Distance = 1.0000
+  Annotator1: Reuters/Ipsos
+  Annotator2: nan
+
+Item 55: Distance = 0.0000
+  Annotator1: Reuters/Ipsos
+  Annotator2: Reuters/Ipsos
+
+Item 56: Distance = 0.0000
+  Annotator1: Reuters/Ipsos
+  Annotator2: Reuters/Ipsos
+
+Item 57: Distance = 0.0000
+  Annotator1: Reuters/Ipsos
+  Annotator2: Reuters/Ipsos
+
+Item 58: Distance = 0.0000
+  Annotator1: Aaliyah Wilburn
+  Annotator2: Aaliyah Wilburn
+
+Item 59: Distance = 0.0000
+  Annotator1: Aaliyah Wilburn
+  Annotator2: Aaliyah Wilburn
+
+Item 60: Distance = 0.0000
+  Annotator1: Aaliyah Wilburn
+  Annotator2: Aaliyah Wilburn
+
+Item 61: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 62: Distance = 0.0000
+  Annotator1: Aaliyah Wilburn
+  Annotator2: Aaliyah Wilburn
+
+Item 63: Distance = 0.0000
+  Annotator1: Addie Lentzner
+  Annotator2: Addie Lentzner
+
+Item 64: Distance = 0.0000
+  Annotator1: Addie Lentzner
+  Annotator2: Addie Lentzner
+
+Item 65: Distance = 0.0000
+  Annotator1: Saudia LaMont
+  Annotator2: Saudia LaMont
+
+Item 66: Distance = 0.0000
+  Annotator1: Saudia LaMont
+  Annotator2: Saudia LaMont
+
+Item 67: Distance = 0.0000
+  Annotator1: Saudia LaMont
+  Annotator2: Saudia LaMont
+
+Item 68: Distance = 0.0000
+  Annotator1: Saudia LaMont
+  Annotator2: Saudia LaMont
+
+Item 69: Distance = 0.0000
+  Annotator1: Saudia LaMont
+  Annotator2: Saudia LaMont
+
+Item 70: Distance = 0.0000
+  Annotator1: Saudia LaMont
+  Annotator2: Saudia LaMont
+
+Item 71: Distance = 0.0000
+  Annotator1: Saudia LaMont
+  Annotator2: Saudia LaMont
+
+Item 72: Distance = 0.0000
+  Annotator1: Saudia LaMont
+  Annotator2: Saudia LaMont
+
+Item 73: Distance = 0.0000
+  Annotator1: Saudia LaMont
+  Annotator2: Saudia LaMont
+
+Item 74: Distance = 0.1700
+  Annotator1: Kevin ‚ÄúCoach‚Äù Christie
+  Annotator2: Kevin “Coach” Christie
+
+Item 75: Distance = 0.1700
+  Annotator1: Kevin ‚ÄúCoach‚Äù Christie
+  Annotator2: Kevin “Coach” Christie
+
+Item 76: Distance = 0.0000
+  Annotator1: Daisy Berbeco
+  Annotator2: Daisy Berbeco
+
+Item 77: Distance = 0.0000
+  Annotator1: Mike Mrowicki
+  Annotator2: Mike Mrowicki
+
+Item 78: Distance = 0.0000
+  Annotator1: Mike Mrowicki
+  Annotator2: Mike Mrowicki
+
+Item 79: Distance = 0.0000
+  Annotator1: Mike Mrowicki
+  Annotator2: Mike Mrowicki
+
+Calculating Krippendorff's Alpha for Name of Source...
+✅ Krippendorff's Alpha for 'Name of Source': 0.9774
+
+============================================================
+Calculating ICR for column: Title of Source
+============================================================
+
+Distances for all 79 items:
+--------------------------------------------------------------------------------
+Item 1: Distance = 0.0000
+  Annotator1: SFO spokesperson
+  Annotator2: SFO spokesperson
+
+Item 2: Distance = 0.0000
+  Annotator1: SFO spokesperson
+  Annotator2: SFO spokesperson
+
+Item 3: Distance = 0.0000
+  Annotator1: SFO spokesperson
+  Annotator2: SFO spokesperson
+
+Item 4: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 5: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 6: Distance = 1.0000
+  Annotator1: nan
+  Annotator2: *The spokesperson shared a corrected advisory that suggested passengers “arrive early to avoid delay...
+
+Item 7: Distance = 0.0000
+  Annotator1: SFO spokesperson
+  Annotator2: SFO spokesperson
+
+Item 8: Distance = 0.0000
+  Annotator1: Bay Area resident
+  Annotator2: Bay Area resident
+
+Item 9: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 10: Distance = 0.0000
+  Annotator1: SFO spokesperson
+  Annotator2: SFO spokesperson
+
+Item 11: Distance = 0.0000
+  Annotator1: Caltrans officials
+  Annotator2: Caltrans officials
+
+Item 12: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 13: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 14: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 15: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 16: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 17: Distance = 1.0000
+  Annotator1: Apple's software cheif
+  Annotator2: nan
+
+Item 18: Distance = -0.0000
+  Annotator1: Technology analyst 
+  Annotator2: Technology Analyst
+
+Item 19: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 20: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 21: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 22: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 23: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 24: Distance = 0.0000
+  Annotator1: Apple spokeswoman
+  Annotator2: Apple spokeswoman
+
+Item 25: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 26: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 27: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 28: Distance = 0.0000
+  Annotator1: Independent analyst
+  Annotator2: independent analyst
+
+Item 29: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 30: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 31: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 32: Distance = -0.0000
+  Annotator1: Victim's granddaughter
+  Annotator2: Victim's granddaughter
+
+Item 33: Distance = 0.0000
+  Annotator1: King County Superior Court Judge
+  Annotator2: King County Superior Court Judge
+
+Item 34: Distance = -0.0000
+  Annotator1: Victim's granddaughter
+  Annotator2: Victim's granddaughter
+
+Item 35: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 36: Distance = 1.0000
+  Annotator1: none
+  Annotator2: nan
+
+Item 37: Distance = 0.7602
+  Annotator1: none
+  Annotator2: Investigators
+
+Item 38: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 39: Distance = 0.0000
+  Annotator1: Victims granddaughter
+  Annotator2: Victims granddaughter
+
+Item 40: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 41: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 42: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 43: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 44: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 45: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 46: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 47: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 48: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 49: Distance = 0.0000
+  Annotator1: Republican campaign strategist
+  Annotator2: Republican campaign strategist 
+
+Item 50: Distance = 0.0000
+  Annotator1: Republican campaign strategist
+  Annotator2: Republican campaign strategist 
+
+Item 51: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 52: Distance = 0.0621
+  Annotator1: Founder, She the People
+  Annotator2: founder of She the People
+
+Item 53: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 54: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 55: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 56: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 57: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 58: Distance = 0.5923
+  Annotator1: leader with the Vermont Student Anti-Racism Network
+  Annotator2: A senior at North Country Union High School
+
+Item 59: Distance = 0.5923
+  Annotator1: leader with the Vermont Student Anti-Racism Network
+  Annotator2: A senior at North Country Union High School
+
+Item 60: Distance = 0.5923
+  Annotator1: leader with the Vermont Student Anti-Racism Network
+  Annotator2: A senior at North Country Union High School
+
+Item 61: Distance = 0.0000
+  Annotator1: nan
+  Annotator2: nan
+
+Item 62: Distance = 0.5923
+  Annotator1: leader with the Vermont Student Anti-Racism Network
+  Annotator2: A senior at North Country Union High School
+
+Item 63: Distance = -0.0000
+  Annotator1: executive director of the student anti-racism network
+  Annotator2: executive director of the student anti-racism network
+
+Item 64: Distance = -0.0000
+  Annotator1: executive director of the student anti-racism network
+  Annotator2: executive director of the student anti-racism network
+
+Item 65: Distance = 0.4037
+  Annotator1:  Rep. D-Morristown
+  Annotator2: Rep. Saudia LaMont, D-Morristown
+
+Item 66: Distance = 0.4037
+  Annotator1:  Rep. D-Morristown
+  Annotator2: Rep. Saudia LaMont, D-Morristown
+
+Item 67: Distance = 0.4037
+  Annotator1:  Rep. D-Morristown
+  Annotator2: Rep. Saudia LaMont, D-Morristown
+
+Item 68: Distance = 0.4037
+  Annotator1:  Rep. D-Morristown
+  Annotator2: Rep. Saudia LaMont, D-Morristown
+
+Item 69: Distance = 0.4037
+  Annotator1:  Rep. D-Morristown
+  Annotator2: Rep. Saudia LaMont, D-Morristown
+
+Item 70: Distance = 0.4037
+  Annotator1:  Rep. D-Morristown
+  Annotator2: Rep. Saudia LaMont, D-Morristown
+
+Item 71: Distance = 0.4037
+  Annotator1:  Rep. D-Morristown
+  Annotator2: Rep. Saudia LaMont, D-Morristown
+
+Item 72: Distance = 0.4037
+  Annotator1:  Rep. D-Morristown
+  Annotator2: Rep. Saudia LaMont, D-Morristown
+
+Item 73: Distance = 0.4037
+  Annotator1:  Rep. D-Morristown
+  Annotator2: Rep. Saudia LaMont, D-Morristown
+
+Item 74: Distance = 0.3417
+  Annotator1: Rep. D-Hartford
+  Annotator2: Rep. Kevin “Coach” Christie, D-Hartford
+
+Item 75: Distance = 0.3417
+  Annotator1: Rep. D-Hartford
+  Annotator2: Rep. Kevin “Coach” Christie, D-Hartford
+
+Item 76: Distance = 0.3156
+  Annotator1: Rep. D-Winooski
+  Annotator2: Rep. Daisy Berbeco, D-Winooski
+
+Item 77: Distance = 0.1718
+  Annotator1: Rep. D-Putney
+  Annotator2: Rep. Mike Mrowicki, D-Putney
+
+Item 78: Distance = 0.1718
+  Annotator1: Rep. D-Putney
+  Annotator2: Rep. Mike Mrowicki, D-Putney
+
+Item 79: Distance = 0.1718
+  Annotator1: Rep. D-Putney
+  Annotator2: Rep. Mike Mrowicki, D-Putney
+
+Calculating Krippendorff's Alpha for Title of Source...
+✅ Krippendorff's Alpha for 'Title of Source': 0.6879
+
+============================================================
+SUMMARY RESULTS - KRIPPENDORFF'S ALPHA SCORES
+============================================================
+Sourced Statements: 0.9414
+Source Justification: 0.8175
+Type of Source: 0.9491
+Name of Source: 0.9774
+Title of Source: 0.6879
+============================================================
+
+Interpretation Guide:
+α ≥ 0.800: High reliability
+0.667 ≤ α < 0.800: Moderate reliability
+α < 0.667: Low reliability
+α ≤ 0.000: No reliability
