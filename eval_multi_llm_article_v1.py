@@ -174,6 +174,7 @@ def semantic_match(sentence_one, sentence_two):
     sim_score = util.pytorch_cos_sim(embedding_1, embedding_2)
     return float(sim_score.cpu()[0][0])
 
+
 def find_best_match(sentence, sentences, match_method="fuzz"):
     if match_method == "fuzz":
         best_match = max(
@@ -298,14 +299,17 @@ def load_and_preprocess_llm(file_path):
     """
     process llm csv file.
     """
-    columns_to_keep = {"Name_of_Source": "Name of Source"}
+    columns_to_keep = {
+        "Name_of_Source": "Name of Source"
+    }
     try:
         llm_df = pd.read_csv(file_path, encoding="ISO-8859-1")
-    except Exception as e:
-        logging.info(f" read llm csv {file_path} with error {e}.")
+    except:
+        logging.info(f" read llm csv {file_path} with error.")
         llm_df = pd.read_csv(file_path)
 
     llm_df.rename(columns=columns_to_keep, inplace=True)
+    # Preprocess the data
     llm_df = preprocess_dataframe(llm_df, "SourcedStatement")
 
     return llm_df
@@ -314,26 +318,6 @@ def load_and_preprocess_llm(file_path):
 def compare_attributions(gt_df, llm_df):
     # Prepare the result dataframe
     result_df = pd.DataFrame(
-        columns=[
-            "GT_Sentence",
-            "LLM_Sentence",
-            "Sentence_Match_Score",
-            "Source_Type_GT",
-            "Source_Type_LLM",
-            "Source_Type_Match",
-            "Name_GT",
-            "Name_LLM",
-            "Name_Match_Score",
-            "Title_GT",
-            "Title_LLM",
-            "Title_Match_Score",
-            "Justification_GT",
-            "Justification_LLM",
-            "Justification_Match_Score",
-        ]
-    )
-
-    tie_df = pd.DataFrame(
         columns=[
             "GT_Sentence",
             "LLM_Sentence",
@@ -366,52 +350,38 @@ def compare_attributions(gt_df, llm_df):
     ]
 
     # Find best matches for GT sentences
-    matching_cache = defaultdict(list)
-    matched_llm_indexes = set()
     for gt_idx, gt_sentence in gt_sentences:
         if len(llm_sentences) == 0:
             score = 0
-            break
         else:
             best_match, score = find_best_match(
                 gt_sentence, [s for _, s in llm_sentences], eval_config.match_method
             )
-            
 
-            if (
-                score > eval_config.match_threshold[eval_config.match_method]
-            ):  # We use the threshold for determining a "good" match
-                llm_idx = next(idx for idx, s in llm_sentences if s == best_match)
-                global_score = fuzz.ratio(clean_text(gt_sentence), clean_text(llm_sentences[llm_idx][1]))
-                if global_score >= 30 or clean_text(llm_sentences[llm_idx][1]) in gt_sentence:
-                    matching_cache[gt_idx].append((llm_idx, score))
-                    matched_llm_indexes.add(llm_idx)
-
-    # Find LLM sentences not matched to any GT sentence
-    # matched_llm_sentences = result_df["LLM_Sentence"].tolist()
-    unmatched_llm = [
-        (idx, s) for idx, s in llm_sentences if idx not in matched_llm_indexes
-    ]
-
-    # Second round to check the llm could matched back the original
-    final_unmatched_llm = set()
-    for llm_idx, llm_sentence in unmatched_llm:
-        best_match, score = find_best_match(
-            llm_sentence, [s for _, s in gt_sentences], eval_config.match_method
-        )
-        if score > eval_config.match_threshold[eval_config.match_method]:
-            gt_idx = next(idx for idx, s in gt_sentences if s == best_match)
-            global_score = fuzz.ratio(clean_text(gt_sentences[gt_idx]), clean_text(llm_sentence))
-            if global_score >= 20 or clean_text(llm_sentence) in gt_sentences[gt_idx]:
-                matching_cache[gt_idx].append((llm_idx, score))
-            else:
-                final_unmatched_llm.add(llm_idx)
+        if (
+            score > eval_config.match_threshold[eval_config.match_method]
+        ):  # We use the threshold for determining a "good" match
+            llm_idx = next(idx for idx, s in llm_sentences if s == best_match)
+            gt_row = gt_df.loc[gt_idx]
+            llm_row = llm_df.loc[llm_idx]
+            new_row = pd.DataFrame(
+                {
+                    "GT_Sentence": [gt_sentence],
+                    "LLM_Sentence": [best_match],
+                    "Sentence_Match_Score": [score],
+                    "Source_Type_GT": [gt_row["SourceType"]],
+                    "Source_Type_LLM": [llm_row["SourceType"]],
+                    "Name_GT": [gt_row["Name"]],
+                    "Name_LLM": [llm_row["Name"]],
+                    "Title_GT": [gt_row["Title"]],
+                    "Title_LLM": [llm_row["Title"]],
+                    "Justification_GT": [gt_row["Justification"]],
+                    "Justification_LLM": [llm_row["Justification"]],
+                    "Title_and_Justification_GT": [gt_row["Title_and_Justification"]],
+                    "Title_and_Justification_LLM": [llm_row["Title_and_Justification"]],
+                }
+            )
         else:
-            final_unmatched_llm.add(llm_idx)
-
-    for gt_idx, gt_sentence in gt_sentences:
-        gt_row = gt_df.loc[gt_idx]
-        if gt_idx not in matching_cache: # no any matching in LLM sentence.
             new_row = pd.DataFrame(
                 {
                     "GT_Sentence": [gt_sentence],
@@ -431,142 +401,17 @@ def compare_attributions(gt_df, llm_df):
                     "Title_and_Justification_LLM": [""],
                 }
             )
-        elif len(matching_cache[gt_idx]) == 1:
-            llm_idx, score = matching_cache[gt_idx][0]
-            llm_row = llm_df.loc[llm_idx]
-            new_row = pd.DataFrame(
-                {
-                    "GT_Sentence": [gt_sentence],
-                    "LLM_Sentence": [llm_sentences[llm_idx][1]],
-                    "Sentence_Match_Score": [score],
-                    "Source_Type_GT": [gt_row["SourceType"]],
-                    "Source_Type_LLM": [llm_row["SourceType"]],
-                    "Name_GT": [gt_row["Name"]],
-                    "Name_LLM": [llm_row["Name"]],
-                    "Title_GT": [gt_row["Title"]],
-                    "Title_LLM": [llm_row["Title"]],
-                    "Justification_GT": [gt_row["Justification"]],
-                    "Justification_LLM": [llm_row["Justification"]],
-                    "Title_and_Justification_GT": [gt_row["Title_and_Justification"]],
-                    "Title_and_Justification_LLM": [llm_row["Title_and_Justification"]],
-                }
-            )
-        else:
-            llm_idx_candidates = [x[0] for x in matching_cache[gt_idx]]
-            scores_candidates = [x[1] for x in matching_cache[gt_idx]]
-            max_score = max(scores_candidates)
 
-            indices = []
-            for i, score in enumerate(scores_candidates):
-                if score == max_score:
-                    indices.append(i)
-
-            if len(indices) == 1:
-                # only one maximum:
-                llm_idx = llm_idx_candidates[indices[0]]
-                llm_row = llm_df.loc[llm_idx]
-                merge_sentence = ""
-                for i in llm_idx_candidates:
-                    merge_sentence += llm_sentences[i][1]
-
-                new_row = pd.DataFrame(
-                    {
-                        "GT_Sentence": [gt_sentence],
-                        "LLM_Sentence": [merge_sentence],
-                        "Sentence_Match_Score": [max_score],
-                        "Source_Type_GT": [gt_row["SourceType"]],
-                        "Source_Type_LLM": [llm_row["SourceType"]],
-                        "Name_GT": [gt_row["Name"]],
-                        "Name_LLM": [llm_row["Name"]],
-                        "Title_GT": [gt_row["Title"]],
-                        "Title_LLM": [llm_row["Title"]],
-                        "Justification_GT": [gt_row["Justification"]],
-                        "Justification_LLM": [llm_row["Justification"]],
-                        "Title_and_Justification_GT": [
-                            gt_row["Title_and_Justification"]
-                        ],
-                        "Title_and_Justification_LLM": [
-                            llm_row["Title_and_Justification"]
-                        ],
-                    }
-                )
-            else:
-                # multiple candidates: pick all with the max score
-                pairs = matching_cache[gt_idx]  # list of (llm_idx, score)
-                llm_idx_candidates, scores = zip(*pairs)  # tuples
-                scores = np.asarray(scores)
-                max_score_tie = scores.max()
-                max_mask = scores == max_score_tie
-
-                # the set of LLM indices tied for max score
-                max_llm_indices = [
-                    idx for idx, keep in zip(llm_idx_candidates, max_mask) if keep
-                ]
-                # deterministic representative row: first of the ties
-                rep_llm_idx = max_llm_indices[0]
-                llm_row = llm_df.loc[rep_llm_idx]
-
-                # merge all sentences
-                merge_sentence = ".".join(
-                    str(llm_sentences[i][1]) for i in llm_idx_candidates
-                )
-
-                # optional diagnostics if tied items disagree on metadata
-                if len(max_llm_indices) > 1:
-                    src_types = set(llm_df.loc[max_llm_indices, "SourceType"].tolist())
-                    src_names = set(llm_df.loc[max_llm_indices, "Name"].tolist())
-                    if len(src_types) > 1 or len(src_names) > 1:
-                        for tile_idx in max_llm_indices:
-                            llm_row_tie = llm_df.loc[tile_idx]
-                            tile_row = pd.DataFrame(
-                                {
-                                    "GT_Sentence": [gt_sentence],
-                                    "LLM_Sentence": [llm_sentences[tile_idx][1]],
-                                    "Sentence_Match_Score": [float(max_score_tie)],
-                                    "Source_Type_GT": [gt_row["SourceType"]],
-                                    "Source_Type_LLM": [llm_row_tie["SourceType"]],
-                                    "Name_GT": [gt_row["Name"]],
-                                    "Name_LLM": [llm_row_tie["Name"]],
-                                    "Title_GT": [gt_row["Title"]],
-                                    "Title_LLM": [llm_row_tie["Title"]],
-                                    "Justification_GT": [gt_row["Justification"]],
-                                    "Justification_LLM": [llm_row_tie["Justification"]],
-                                    "Title_and_Justification_GT": [
-                                        gt_row["Title_and_Justification"]
-                                    ],
-                                    "Title_and_Justification_LLM": [
-                                        llm_row_tie["Title_and_Justification"]
-                                    ],
-                                }
-                            )
-                            tie_df = pd.concat([tie_df, tile_row], ignore_index=True)
-
-                new_row = pd.DataFrame(
-                    {
-                        "GT_Sentence": [gt_sentence],
-                        "LLM_Sentence": [merge_sentence],
-                        "Sentence_Match_Score": [float(max_score)],
-                        "Source_Type_GT": [gt_row["SourceType"]],
-                        "Source_Type_LLM": [llm_row["SourceType"]],
-                        "Name_GT": [gt_row["Name"]],
-                        "Name_LLM": [llm_row["Name"]],
-                        "Title_GT": [gt_row["Title"]],
-                        "Title_LLM": [llm_row["Title"]],
-                        "Justification_GT": [gt_row["Justification"]],
-                        "Justification_LLM": [llm_row["Justification"]],
-                        "Title_and_Justification_GT": [
-                            gt_row["Title_and_Justification"]
-                        ],
-                        "Title_and_Justification_LLM": [
-                            llm_row["Title_and_Justification"]
-                        ],
-                    }
-                )
         result_df = pd.concat([result_df, new_row], ignore_index=True)
 
-    for llm_idx in final_unmatched_llm:
+    # Find LLM sentences not matched to any GT sentence
+    matched_llm_sentences = result_df["LLM_Sentence"].tolist()
+    unmatched_llm = [
+        (idx, s) for idx, s in llm_sentences if s not in matched_llm_sentences
+    ]
+
+    for llm_idx, llm_sentence in unmatched_llm:
         llm_row = llm_df.loc[llm_idx]
-        llm_sentence = llm_sentences[llm_idx][1]
         new_row = pd.DataFrame(
             {
                 "GT_Sentence": [""],
@@ -597,13 +442,10 @@ def compare_attributions(gt_df, llm_df):
 
     for attr in ["Title", "Justification", "Title_and_Justification"]:
         result_df[f"{attr}_Match_Score"] = result_df.apply(
-            semantic_compare,
-            axis=1,
-            gt_col=f"{attr}_GT",
-            llm_col=f"{attr}_LLM",
+            semantic_compare, axis=1, gt_col=f"{attr}_GT", llm_col=f"{attr}_LLM",
         )
 
-    return result_df, tie_df
+    return result_df
 
 
 def process_title_match(row):
@@ -620,7 +462,7 @@ def process_title_match(row):
     if row["Name_Match_Score"] > 80:
         if is_subset(row["Title_GT"], row["Title_LLM"]):
             return True
-
+        
         # Construct strings with organization names and titles
         gt_full = row["Justification_GT"] + " " + row["Title_GT"]
         score = max(
@@ -784,6 +626,22 @@ def calculate_performance_metrics(result_df):
         ]
     )
 
+    # print(
+    #     f"All GT Count: {all_gt_count_all}\n"
+    #     f"Both Found Count: {both_found_count_all}\n"
+    #     f"B Type OK Count: {b_typeok_count_all}\n"
+    #     f"B Type OK & Name OK Count: {b_typeok_nameok_count_all}\n"
+    #     f"B Type NOT OK & Name OK Count: {b_typenook_nameok_count_all}\n"
+    #     f"B Type NOT OK & Name NOT OK Count: {b_typenook_namenook_count_all}\n"
+    #     f"B Type OK, Name OK & Title OK Count: {b_typeok_nameok_titleok_count_all}\n"
+    #     f"B Type OK, Name NOT OK & Title OK Count: {b_typeok_namenook_titleok_count_all}\n"
+    #     f"B Type NOT OK, Name NOT OK & Title OK Count: {b_typenook_namenook_titleok_count_all}\n"
+    #     f"B Type NOT OK, Name OK & Title OK Count: {b_typenook_nameok_titleok_count_all}\n"
+    #     f"B Type OK, Name NOT OK & Title NOT OK Count: {b_typeok_namenook_titlenook_count_all}\n"
+    #     f"B Type NOT OK, Name NOT OK & Title NOT OK Count: {b_typenook_namenook_titlenook_count_all}\n"
+    #     f"B Type NOT OK, Name OK & Title NOT OK Count: {b_typenook_nameok_titlenook_count_all}"
+    # )
+
     # source type match
     source_type_match_rate = (both_found["Source_Type_Match"] == "Yes").mean()
 
@@ -793,7 +651,7 @@ def calculate_performance_metrics(result_df):
 
         # Add corresponding types to the error set
         for _, row in non_matched_rows.iterrows():
-            error_matched[f"{row['Source_Type_GT']}_to_{row['Source_Type_LLM']}"] += 1
+            error_matched[f'{row["Source_Type_GT"]}_to_{row["Source_Type_LLM"]}'] += 1
 
     # Calculate Match Rates
     # All gt with names
@@ -810,7 +668,7 @@ def calculate_performance_metrics(result_df):
     title_match_rate = both_found["title_match"].mean()
     justification_match_rate = both_found["justification_match_a"].mean()
     title_justification_join_match_rate = both_found["justification_match_b"].mean()
-
+    
     # Calculate total unique sentences
     total_gt_sentences = len(result_df[result_df["GT_Sentence"] != ""])
     total_unique_sentences = len(result_df[result_df["GT_Sentence"] != ""]) + len(
@@ -858,9 +716,7 @@ def calculate_performance_metrics(result_df):
     source_statement_match_rate = (both_found_count) / total_gt_sentences
 
     # Calculate LLM statement match rate with type correct
-    source_type_match_rate_with_statement = (
-        len(both_found[both_found["Source_Type_Match"] == "Yes"]) / total_gt_sentences
-    )
+    source_type_match_rate_with_statement = len(both_found[both_found["Source_Type_Match"] == "Yes"]) /  total_gt_sentences
 
     # Calculate LLM unique discover Rate
     llm_unique_discover_rate = llm_unique_discover_counts / total_unique_sentences
@@ -917,6 +773,46 @@ def plot_performance_comparison(performance_df, metric, output_dir):
 
 
 def plot_overall_comparison(performance_df, output_dir, metrics):
+    
+    # avg_performance = performance_df.groupby("model_name")[metrics].mean().reset_index()
+
+    # plt.figure(figsize=(16, 8))
+    # sns.barplot(
+    #     x="model_name",
+    #     y="value",
+    #     hue="variable",
+    #     data=pd.melt(avg_performance, id_vars=["model_name"], value_vars=metrics),
+    # )
+    # plt.title("Overall Performance Comparison")
+    # plt.ylabel("Average Score")
+    # plt.xticks(rotation=45)
+    # plt.legend(title="Metric", bbox_to_anchor=(1.05, 1), loc="upper left")
+    # plt.tight_layout()
+    # plt.savefig(f"{output_dir}/overall_performance_comparison.png")
+    # plt.close()
+
+    # avg_performance = performance_df.groupby("model_name")[metrics].mean().reset_index()
+
+    # for metric_name in metrics:
+    #     plt.figure(figsize=(16, 8))
+    #     sns.barplot(
+    #         x="model_name",
+    #         y="value",
+    #         hue="variable",
+    #         data=pd.melt(
+    #             performance_df.groupby("model_name")[metric_name].mean().reset_index(),
+    #             id_vars=["model_name"],
+    #             value_vars=[metric_name],
+    #         ),
+    #     )
+    #     plt.title(f"Overall Performance {metric_name} Comparison")
+    #     plt.ylabel("Average Score")
+    #     plt.xticks(rotation=45)
+    #     plt.legend(title="Metric", bbox_to_anchor=(1.05, 1), loc="upper left")
+    #     plt.tight_layout()
+    #     plt.savefig(f"{output_dir}/overall_{metric_name}_performance_comparison.png")
+    #     plt.close()
+
     # Compute average performance
     avg_performance = performance_df.groupby("model_name")[metrics].mean().reset_index()
 
@@ -924,10 +820,9 @@ def plot_overall_comparison(performance_df, output_dir, metrics):
     melted_df = pd.melt(avg_performance, id_vars=["model_name"], value_vars=metrics)
 
     # Wrap x-label text
-    melted_df["model_names"] = melted_df["model_name"].apply(
-        lambda x: textwrap.fill(x, 20)
-    )
+    melted_df['model_names'] = melted_df['model_name'].apply(lambda x: textwrap.fill(x, 20))
 
+    # Plot combined metrics
     # Plot combined metrics
     plt.figure(figsize=(16, 8))
     ax = sns.barplot(
@@ -940,13 +835,9 @@ def plot_overall_comparison(performance_df, output_dir, metrics):
     # Add percentage annotations
     for p in ax.patches:
         height = p.get_height()
-        ax.annotate(
-            f"{100 * height:.1f}%",
-            (p.get_x() + p.get_width() / 2.0, height),
-            ha="center",
-            va="bottom",
-            fontsize=10,
-        )
+        ax.annotate(f'{100*height:.1f}%',
+                    (p.get_x() + p.get_width() / 2., height),
+                    ha='center', va='bottom', fontsize=10)
     plt.title("Overall Performance Comparison")
     plt.xlabel("Model Name")
     plt.ylabel("Average Score")
@@ -958,12 +849,8 @@ def plot_overall_comparison(performance_df, output_dir, metrics):
 
     # Individual metric plots
     for metric_name in metrics:
-        metric_df = (
-            performance_df.groupby("model_name")[metric_name].mean().reset_index()
-        )
-        metric_df["model_names"] = metric_df["model_name"].apply(
-            lambda x: textwrap.fill(x, 20)
-        )
+        metric_df = performance_df.groupby("model_name")[metric_name].mean().reset_index()
+        metric_df['model_names'] = metric_df['model_name'].apply(lambda x: textwrap.fill(x, 20))
 
         plt.figure(figsize=(16, 8))
         ax = sns.barplot(
@@ -975,13 +862,9 @@ def plot_overall_comparison(performance_df, output_dir, metrics):
         # Add percentage annotations
         for p in ax.patches:
             height = p.get_height()
-            ax.annotate(
-                f"{100 * height:.1f}%",
-                (p.get_x() + p.get_width() / 2.0, height),
-                ha="center",
-                va="bottom",
-                fontsize=10,
-            )
+            ax.annotate(f'{100*height:.1f}%',
+                        (p.get_x() + p.get_width() / 2., height),
+                        ha='center', va='bottom', fontsize=10)
         plt.title(f"Overall Performance {metric_name} Comparison")
         plt.xlabel("Model Name")
         plt.ylabel(f"Average {metric_name} Score")
@@ -1010,17 +893,12 @@ def process_one_article(gt_file, llm_files, output_dir, model_name):
             print(llm_file)
             continue
         try:
-            llm_results, tie_df = compare_attributions(human_df, llm_df)
+            llm_results = compare_attributions(human_df, llm_df)
             if run_mode == "debug":
                 llm_results.to_csv(
                     f"{output_dir}/{article_name}-{model_name}-{llm_version_id}-comparison.csv",
                     index=False,
                 )
-                if tie_df.shape[0] > 0:
-                    tie_df.to_csv(
-                        f"{output_dir}/{article_name}-{model_name}-{llm_version_id}-tie-samples.csv",
-                        index=False,
-                    )
                 type_error_metrics_df = llm_results[
                     (llm_results["Source_Type_Match"] == "No")
                     & (llm_results["Source_Type_GT"] != "")
@@ -1083,6 +961,8 @@ def dict_to_df(metric_res):
 
 
 def main():
+    # default parameter
+    # TODO: move to config file
     human_gt_dir = "benchmarking/GT data/"
     llm_base_dirs = [
         "llm_results/llms_20241211233801",
@@ -1090,8 +970,10 @@ def main():
         "llm_results/llms_20241215110531",
         "llm_results/llms_20241215124335",
         "llm_results/llms_20250209213013",
+        #"llm_results/llms_20250417204917"
+        # "llm_results/llms_20250504210825"
     ]
-    output_dir = "benchmarking/metrics/08_21"
+    output_dir = "benchmarking/metrics/05_7"
     if not os.path.isdir(output_dir):
         os.mkdir(output_dir)
     total_version_num = 2
@@ -1136,7 +1018,6 @@ def main():
         if is_valid:
             valid_article_ids.add(article_id)
 
-    valid_article_ids = set(['31', '4', '1', '11'])
     print("valid article ids is ", valid_article_ids)
     print("total valid article id number is ", len(valid_article_ids))
 

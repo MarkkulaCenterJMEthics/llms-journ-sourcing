@@ -1,0 +1,5 @@
+article_w_version,model_name,Statement_Match_Rate,Type_Match_Rate,Combined_Statement_Type_Match_Rate,Name_Match_Rate,Type_Name_Match_Rate,Type_Correct_Name_Match_Rate,Title_Match_Rate,Justification_Match_Rate,Title_Justification_Join_Match_Rate,All_Attribute_Accuracy,LLM_Miss_Rate,LLM_Unique_Discover_Rate,Both_Found_Count,Match_Counts,LLM_Unique_Discover_Counts,Total_Unique_Sentences
+1-Harris-Trump-Reuters-Poll_avg,gemini-pro-1.5,0.5700000000000001,1.0,0.5700000000000001,1.0,1.0,1.0,1.0,0.8153846153846154,0.8153846153846154,0.15,0.43,0.0,11.4,11.4,0.0,20.0
+11-Nebraska-felons-crim-justice_avg,gemini-pro-1.5,0.8875,1.0,0.8875,1.0,1.0,1.0,1.0,0.6625816993464052,0.7892156862745098,0.8375,0.11249999999999999,0.2901519851116625,17.75,17.75,8.5,28.5
+31-SV-GT-vermont_bill_avg,gemini-pro-1.5,0.984,0.9753333333333334,0.96,0.9753333333333334,0.9753333333333334,1.0,0.9753333333333334,0.392,0.5526666666666666,0.712,0.016,0.10962301587301586,24.6,24.0,3.2,28.2
+4-SFO-Labor-Day_avg,gemini-pro-1.5,1.0,0.8000000000000002,0.8000000000000002,0.8000000000000002,0.8000000000000002,1.0,0.8000000000000002,0.2,0.5399999999999998,0.6,0.0,0.2732600732600733,10.0,8.0,3.8,13.8

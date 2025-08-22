@@ -1,0 +1,4 @@
+GT_Sentence,LLM_Sentence,Sentence_Match_Score,Source_Type_GT,Source_Type_LLM,Source_Type_Match,Name_GT,Name_LLM,Name_Match_Score,Title_GT,Title_LLM,Title_Match_Score,Justification_GT,Justification_LLM,Justification_Match_Score,Title_and_Justification_GT,Title_and_Justification_LLM,Title_and_Justification_Match_Score
+,"he did an ad spot for taco bell in 2021, operating at maybe a fifth of his full skill.",0,,Named_Organization,No,,taco bell,0,,,0,,,0.0,, ,0.0
+,being the goat at two video game simulations of real-life activities (both of which have all but vanished outside of dave & busters and round1 arcades) is a pretty niche thing to devote your life to.,0,,Named_Person,No,,chris chike,0,,,0,,,0.0,, ,0.0
+,"chike first tried ddr in 2005, after his older brother got him a copy of the game for his thirteenth birthday.",0,,Named_Person,No,,chris chike,0,,,0,,,0.0,, ,0.0
