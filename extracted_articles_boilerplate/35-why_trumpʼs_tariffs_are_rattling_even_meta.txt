@@ -1,0 +1,78 @@
+==================================================
+Title: Why Trumpʼs Tariffs Are Rattling Even Meta
+Author: Mike Isaac
+Date: April 4, 2025
+==================================================
+
+April 4, 2025
+When President Trump announced sweeping tariffs this week, some of the biggest tech
+companies had obvious reasons for worry.
+Apple, Dell and Oracle — which rely on hardware and global supply chains that are in the
+direct line of fire from tariffs — saw their shares go into free-fall. But there was another big
+tech company whose stock took a pummeling even though its core business has little to do
+with hardware: Meta.
+Shares of the company, which owns Facebook, Instagram and WhatsApp, fell $52 to $531.62
+on Thursday and were down again on Friday. In total, Meta shed a whopping 9 percent of its
+market capitalization on Thursday.
+The reasons for Meta’s slide are less obvious. But close watchers of the social networking
+and metaverse company know it is just as vulnerable to Mr. Trump’s trade actions as some
+of its Silicon Valley peers, even if the details are more complicated. Here’s why.
+What gives with Meta? It isnʼt in the same hardware businesses as Apple or Nvidia.
+That’s not entirely true, but for our purposes let’s look at Meta’s main business: digital
+advertising.
+Meta rakes in billions of dollars in revenue by selling ads across Facebook and Instagram.
+Some of those advertisers are large brands, including Procter & Gamble, L’Oreal,
+McDonald’s and Nestlé. Those companies buy ads on Facebook for so-called brand
+awareness campaigns. Think of it as a way of nudging people to buy a specific product like
+Q-Tips instead of generic cotton swabs the next time they go to the store.
+But a vast majority of Meta’s advertisers are small and medium-size businesses.
+Those companies buy a different kind of ad, called “direct response advertising.” These ads
+typically encourage an action of some sort, like downloading a company’s app or buying a
+kitchen gadget featured on an Instagram video.
+E-commerce transactions like these make up an enormous amount of Meta’s very successful
+online advertising business. Susan Li, Meta’s chief financial officer, said in an earnings call
+this year that online commerce ads were the “largest contributor to year-over-year growth”
+to the company’s advertising revenue.
+So what does that mean?
+The effect of tariffs on Meta’s ad business is simple. Many of its small and medium-size
+advertisers are from all across the world. President Trump’s tariffs will instantly make it
+more expensive for them to sell their products to customers in the United States.
+That is likely to lead to a pullback in overall purchases from consumers and fewer people
+buying products from Facebook and Instagram. That could, in turn, lead brands to spend
+less on advertising across those apps.
+This seems somewhat hypothetical. Could that really lead to such a big stock drop for Meta?
+Meta has additional complicating factors that may affect its business more than other
+advertising companies.
+Last year, the company disclosed that 10 percent of its revenue in 2023 was from Chinese
+companies spending heavily on advertising across Facebook and Instagram, an ad blitz
+aimed at garnering a foothold in lucrative Western markets.
+Much of that growth was fueled by the explosive expansion of the fast-fashion company
+Shein — which is based in Singapore but has a supply chain that is largely in China — and
+the e-commerce app Temu, a low-cost, Amazon-like company owned by the Chinese e-
+commerce conglomerate Pinduoduo. Temu was estimated to have spent $3 billion in
+marketing costs in 2023 alone, according to estimates from Bernstein Research.
+Chinese companies and goods have been hit hard by President Trump’s tariffs. In addition,
+Mr. Trump eliminated the “de minimis exemption,” which had exempted exporters sending
+goods valued at or less than $800 from having to pay duties. The exemption was essential to
+the Temu and Shein business model of selling low-cost goods to Americans.
+If Mr. Trump’s tariffs stick, they could drastically hurt these exporters of cheap Chinese
+goods, which means they could slash their advertising on Facebook and Instagram.
+Just how exposed is Meta?
+In an investor call last year, Ms. Li defended the company’s exposure to any fluctuation in
+spending by Temu and Shein.
+She said two-thirds of Meta’s Chinese ad revenue came from advertisers “outside the top 10
+spenders in that country in 2023.” Her point being: Even if Temu and Shein pulled back,
+many other Chinese advertisers were still buying Facebook and Instagram ads.
+Unfortunately for Meta, that broad base of advertisers is no hedge against Mr. Trump’s
+tariffs, which will affect all Chinese ad buyers.
+“Because their Chinese ad revenue is so evenly distributed, it’s actually worse for them
+now,” said Eric Seufert, an independent mobile advertising analyst who follows Meta. “They
+don’t just have to worry about Temu or Shein dropping off. They have to worry about
+everyone.”
+Meta did not respond to requests for comment.
+Oof.
+To be fair, Meta isn’t alone. E-commerce tech companies like Shopify and Stripe could face
+headwinds if global trade slows. Google and Amazon also have enormous ad businesses that
+could be hampered by a pullback in Chinese companies’ spending.
+We will hear Meta’s defense soon enough. The company is expected to answer investors’
+questions when it reports quarterly earnings this month.
