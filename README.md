@@ -28,6 +28,24 @@ pip install -U sentence-transformers # skip if using fuzz matching
 
 ## Code Files Description
 
+### Updated extraction script, using the v10-extract-multiple-LLMs.py with --help 
+
+The v10 script will produce annotations using Anthropic, Google, Openai, Meta, Nvidia (llama-3.1 70B), and Deepseek models, using Openrouter.ai, for different prompt versions, with output in custome-prefixed folder names. 
+
+python v10-extract-multiple-LLMs.py --help                             
+usage: v10-extract-multiple-LLMs.py [-h] [-m MODELS] [-s STRING] [-t TIMES] [-pv PROMPT_VERSION]
+
+Process articles with multiple LLM models
+
+options:
+  -h, --help            show this help message and exit
+  -m, --models MODELS   Models to use: 'all', provider names (anthropic, google, openai, meta, nvidia, deepseek), or specific
+                        model names (comma-separated)
+  -s, --string STRING   Custom prefix string for output directory
+  -t, --times TIMES     Number of times to run the experiment loop (default: 1)
+  -pv, --prompt-version PROMPT_VERSION
+                        Prompt version to use (e.g., v41, v50). If not specified, uses global setting
+
 ### 1. extract-multiple-llm-at-once.py
 
 This script is responsible for extracting information from input articles using both GPT-4 and Claude 3 models.
