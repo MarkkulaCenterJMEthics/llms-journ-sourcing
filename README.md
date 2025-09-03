@@ -39,12 +39,17 @@ Process articles with multiple LLM models
 
 options:
   -h, --help            show this help message and exit
+  
   -m, --models MODELS   Models to use: 'all', provider names (anthropic, google, openai, meta, nvidia, deepseek), or specific
                         model names (comma-separated)
+
   -s, --string STRING   Custom prefix string for output directory
+  
   -t, --times TIMES     Number of times to run the experiment loop (default: 1)
+  
   -pv, --prompt-version PROMPT_VERSION
                         Prompt version to use (e.g., v41, v50). If not specified, uses global setting
+                        
 
 ### 2. Original (2024) -- extract-multiple-llm-at-once.py
 
