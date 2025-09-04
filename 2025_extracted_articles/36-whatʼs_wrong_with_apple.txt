@@ -1,0 +1,120 @@
+==================================================
+Title: Whatʼs Wrong With Apple?
+Author: Tripp Mickle
+Date: April 11, 2025
+URL: https://www.nytimes.com/2025/04/11/technology/apple-issues-trump-tariffs.html
+==================================================
+
+April 11, 2025
+Even before President Trump’s tariffs threatened to upend Apple’s manufacturing
+business in China, the company’s struggle to make new products was leading some
+people inside its lavish Silicon Valley headquarters to wonder whether the
+company had somehow lost its magic.
+The tariffs, which were introduced April 2, caused Apple to lose $773 billion in
+market capitalization in four days and briefly lose its standing as the most valuable
+publicly traded company in the world. But investors had already started to sour on
+the company, sending its share price down 8 percent in the first four months of the
+year, double the S&P 500’s decline.
+Apple had hoped to revive its fortunes over the past year with a virtual reality
+headset, the Vision Pro, and an artificial intelligence system called Apple
+Intelligence. Sales of the headset have been a disappointment, however, and the
+signature features of the A.I. system have been postponed because it didn’t work as
+well as the company had expected.
+The company’s issues underscored how its reputation for innovation, once
+considered a fundamental element of its brand, has become an albatross, fueling
+angst among employees and frustration among customers. And company insiders
+worry that Apple, despite its years of gravity-defying profits, is hamstrung by the
+https://www.nytimes.com/2025/04/11/technology/apple-issues-trump-tariffs.html 1/6
+political infighting, penny pinching and talent drain that often bedevil large
+companies, according to more than a dozen former and current employees and
+advisers.
+Apple declined to comment.
+It has been a decade since the releases of Apple’s most recent commercial
+successes: the Apple Watch and AirPods. Its services like Apple TV+ and Fitness+,
+which it introduced in 2019, lag behind rivals in subscriptions. Half of its sales still
+come from the iPhone, an 18-year-old product that is incrementally improved
+nearly every year.
+While Vision Pro sales have been disappointing, Apple’s issues with Apple
+Intelligence exposed dysfunction inside the organization.
+Sign up for Your Places: Global Update. All the latest news for any
+part of the world you select. Get it sent to your inbox.
+In a nearly two-hour video presentation last summer, Apple demonstrated how the
+A.I. product would summarize notifications and offer writing tools to improve
+emails and messages. It also revealed an improved Siri virtual assistant that could
+combine information on a phone, like a message about someone’s travel itinerary,
+with information on the web, like a flight arrival time.
+The A.I. features were unavailable when new iPhones shipped. They arrived in
+October, about a month late, and quickly ran into trouble. Notification summaries
+misrepresented news reports, leading Apple to disable that feature. Then, last
+month, the company postponed the spring release of an improved Siri because
+internal testing found that it was inaccurate on nearly a third of requests, said
+three people familiar with the project who spoke on the condition of anonymity.
+After the delay, Craig Federighi, Apple’s software chief, told employees that the
+company would reshuffle its executives, removing responsibility for developing the
+new Siri from John Giannandrea, the company’s head of A.I., and giving it to Mike
+https://www.nytimes.com/2025/04/11/technology/apple-issues-trump-tariffs.html 2/6
+Rockwell, the head of its Vision Pro headset.
+“Apple needs to understand what happened because this is bigger than just
+rearranging the deck chairs,” said Michael Gartenberg, a technology analyst who
+previously worked as a product marketer at Apple. “If ever there’s been an
+example of over-promising and under-delivering, it’s Apple Intelligence.” It was the
+first time in years that Apple hadn’t shipped a product it had unveiled.
+Some details of Apple’s changes to its Siri team and challenges were previously
+reported by Bloomberg and The Information.
+The A.I. stumble was set in motion in early 2023. Mr. Giannandrea, who was
+overseeing the effort, sought approval from the company’s chief executive, Tim
+Cook, to buy more A.I. chips, known as graphics processing units, or GPUs, five
+people with knowledge of the request said. The chips, which can perform hundreds
+of computations at the same time, are critical to building the neural networks of A.I.
+systems, like chatbots, that can answer questions or write software code.
+https://www.nytimes.com/2025/04/11/technology/apple-issues-trump-tariffs.html 3/6
+Apple’s chief executive, Tim Cook, at the company’s
+headquarters in Cupertino, Calif., last year. Justin Sullivan/Getty
+Images
+At the time, Apple’s data centers had about 50,000 GPUs that were more than five
+years old — far fewer than the hundreds of thousands of chips being bought at the
+time by A.I. leaders like Microsoft, Amazon, Google and Meta, these people said.
+Mr. Cook approved a plan to double the team’s chip budget, but Apple’s finance
+chief, Luca Maestri, reduced the increase to less than half that, the people said.
+They said Mr. Maestri had encouraged the team to make the chips they had more
+efficient.
+https://www.nytimes.com/2025/04/11/technology/apple-issues-trump-tariffs.html 4/6
+The lack of GPUs meant the team developing A.I. systems had to negotiate for data
+center computing power from its providers like Google and Amazon, two of the
+people said. The leading chips made by Nvidia were in such demand that Apple
+used alternative chips made by Google for some of its A.I. development.
+After this article was published, Trudy Muller, an Apple spokeswoman, said the
+company had fulfilled Mr. Giannandrea’s budget request for GPUs over time rather
+than all at once. She said Mr. Maestri had never asked the team to make its chips
+more efficient.
+At the same time, leaders at two of Apple’s software teams were battling over who
+would spearhead the rollout of Siri’s new abilities, three people who worked on the
+effort said. Robby Walker, who oversaw Siri, and Sebastien Marineau-Mes, a senior
+executive with the software team, struggled over who would have responsibility for
+some aspects of the project. Both ended up with pieces of the project.
+The infighting followed a broader exodus of talent from Apple. In 2019, Jony Ive,
+the company’s chief designer, left to start his own design firm and poached more
+than a dozen integral Apple designers and engineers. And Dan Riccio, the
+company’s longtime head of product design who worked on the Apple Watch,
+retired last year.
+In their place, Apple has been left with old and new leaders with less product
+development experience. Mr. Giannandrea, who joined the company in 2019 from
+Google, had never led the launch of a high-profile product like the improved Siri.
+And Mr. Federighi, his counterpart overseeing software, had never led the creation
+of a new operating system like some of his predecessors in that role.
+Mr. Cook, 64, who has a background in operations, has been hesitant over the years
+to provide clear and direct guidance on product development, said three people
+familiar with the way the company operates.
+“It’s clearly a breakdown of leadership and communication and internal processes,”
+said Benedict Evans, an independent analyst who previously worked as a venture
+capitalist at Andreessen Horowitz.
+https://www.nytimes.com/2025/04/11/technology/apple-issues-trump-tariffs.html 5/6
+Apple hasn’t canceled its revamped Siri. The company plans to release a virtual
+assistant in the fall capable of doing things like editing and sending a photo to a
+friend on request, three people with knowledge of its plans said.
+Some of Apple’s leaders don’t think the delay is a problem because none of Apple’s
+rivals, like Google and Meta, have figured out A.I. yet, these people said. They
+believe there’s time to get it right.
+As the clock ticks on fixing Siri, Apple will be defending the assistant’s current
+shortcomings. Last month, customers filed a federal lawsuit accusing Apple of false
+advertising. Since then, its commercials about Siri have gone dark.
