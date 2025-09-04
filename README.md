@@ -49,7 +49,40 @@ options:
   
   -pv, --prompt-version PROMPT_VERSION
                         Prompt version to use (e.g., v41, v50). If not specified, uses global setting
-                        
+
+
+The following models are supported. You can add  new models by updating the models array using OpenRouter.ai's model names into the python script. 
+
+```# Define all available models organized by provider
+MODELS = {
+    "anthropic": [
+        ("anthropic/claude-3.5-sonnet", "claude-3.5-sonnet"),
+        ("anthropic/claude-3.7-sonnet", "claude-3.7-sonnet"),
+        ("anthropic/claude-3.7-sonnet:thinking", "claude-3.7-sonnet-thinking"),
+        ("anthropic/claude-sonnet-4", "claude-sonnet-4")
+    ],
+    "google": [
+        ("google/gemini-2.5-pro", "gemini-2.5-pro"),
+        ("google/gemini-pro-1.5", "gemini-pro-1.5")
+    ],
+    "openai": [
+        ("openai/gpt-4.1-mini", "gpt-4.1-mini"),
+        ("openai/chatgpt-4o-latest", "chatgpt-4o-latest"),
+        ("openai/gpt-4.1", "gpt-4.1")
+    ],
+    "meta": [
+        ("meta-llama/llama-4-maverick", "llama-4-maverick"),
+        ("meta-llama/llama-3.1-405b-instruct", "llama-3.1-405b-instruct")
+    ],
+    "nvidia": [
+        ("nvidia/llama-3.1-nemotron-70b-instruct", "llama-3.1-70b-instruct")
+    ],
+    "deepseek": [
+        ("deepseek/deepseek-r1-0528", "deepseek-r1-0528"),
+        ("deepseek/deepseek-chat-v3-0324", "deepseek-chat-v3-0324")
+    ]
+}
+```
 
 ### 2. Original (2024) -- extract-multiple-llm-at-once.py
 
