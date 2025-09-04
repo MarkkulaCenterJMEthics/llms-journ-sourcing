@@ -132,7 +132,7 @@ def main():
     """Main function to handle command line arguments and execute extraction."""
     parser = argparse.ArgumentParser(
         description="Extract article content from a URL and save it with auto-generated filename",
-        epilog="Example: python get_story.py https://example.com/article"
+        epilog="Example: python get_story2.py https://example.com/article"
     )
     
     parser.add_argument(
