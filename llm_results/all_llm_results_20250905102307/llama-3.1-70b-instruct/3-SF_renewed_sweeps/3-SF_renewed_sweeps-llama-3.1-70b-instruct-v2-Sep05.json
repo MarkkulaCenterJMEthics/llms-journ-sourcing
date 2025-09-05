@@ -1,0 +1,67 @@
+{
+ "Sourcing Table":[ 
+      {
+       "Sourced Statement": "nearly everything was taken, including his state ID card, he said.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Antonio Robinson",
+      "Title of Source": "null",
+      "Source Justification": "38-year-old who had chosen to set up camp near Palou Ave. and Griffith St. in Hunters Point, on a dead-end road surrounded by industrial buildings; had his last encampment swept about a month ago"
+      }, 
+     {
+       "Sourced Statement": "All they do is tell me to go back to the Hunters Point Navigation Center. And I don’t want to do that. I had bad experiences.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Antonio Robinson",
+      "Title of Source": "null",
+      "Source Justification": "38-year-old who had chosen to set up camp near Palou Ave. and Griffith St. in Hunters Point, on a dead-end road surrounded by industrial buildings; had his last encampment swept about a month ago"
+      }, 
+     {
+       "Sourced Statement": "I don’t understand.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Joey O’Brien",
+      "Title of Source": "null",
+      "Source Justification": "46-year-old camping on the sidewalk in Hunters Point while investigating a homicide that occurred while he was in jail"
+      }, 
+     {
+       "Sourced Statement": "The other stuff is under all that over there. You’re going to have to pick it up later.",
+      "Type of Source" : "Unnamed Person", 
+      "Name of Source": "null",
+      "Title of Source": "null",
+      "Source Justification": "Police officer interacting with Joey O’Brien during the sweep"
+      }, 
+     {
+       "Sourced Statement": "the policy clearly spells out how soiled items can be handled and our crews follow the policy and consistently apply its terms.",
+      "Type of Source" : "Named Organization", 
+      "Name of Source": "Public Works",
+      "Title of Source": "null",
+      "Source Justification": "Responding to Gazetteer's questions about potential breaches in protocol via spokesperson Rachel Gordon"
+      }, 
+     {
+       "Sourced Statement": "claims for lost property can be filed with the City Attorney's office.",
+      "Type of Source" : "Named Organization", 
+      "Name of Source": "Public Works",
+      "Title of Source": "null",
+      "Source Justification": "Responding to Gazetteer's questions about potential breaches in protocol via spokesperson Rachel Gordon"
+      }, 
+     {
+       "Sourced Statement": "Typically, with city sweeps, they give 72 hours of notice with location and time, and we were following that, but they didn’t follow that usual rule.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Julian Highsmith",
+      "Title of Source": "Communications and Policy Director, Coalition on Homelessness",
+      "Source Justification": "Commenting on the city’s sweep in SoMa, which was scheduled for 12:30 p.m. but occurred earlier"
+      }, 
+     {
+       "Sourced Statement": "I personally think it’s a little suspicious to do the sweep earlier. It doesn’t seem like the city wants attention on the encampment sweeps, and I don’t think they want people to see what happens during that process.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Julian Highsmith",
+      "Title of Source": "Communications and Policy Director, Coalition on Homelessness",
+      "Source Justification": "Commenting on the city’s sweep in SoMa, which was scheduled for 12:30 p.m. but occurred earlier"
+      }, 
+     {
+       "Sourced Statement": "It’s quiet here.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Antonio Robinson",
+      "Title of Source": "null",
+      "Source Justification": "38-year-old who had chosen to set up camp near Palou Ave. and Griffith St. in Hunters Point, on a dead-end road surrounded by industrial buildings; had his last encampment swept about a month ago"
+      }
+ ]
+}

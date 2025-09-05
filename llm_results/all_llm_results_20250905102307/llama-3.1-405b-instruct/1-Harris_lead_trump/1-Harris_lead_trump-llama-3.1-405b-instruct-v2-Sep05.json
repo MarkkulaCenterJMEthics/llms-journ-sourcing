@@ -1,0 +1,32 @@
+{
+ "Sourcing Table":[ 
+      {
+       "Sourced Statement": "It's obvious that running against Harris is more challenging for Trump given the shift in these numbers, but it's certainly not insurmountable",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Matt Wolking",
+      "Title of Source": "Republican campaign strategist",
+      "Source Justification": "who worked on Trump's 2020 campaign"
+      }, 
+     {
+       "Sourced Statement": "He said Trump needs to stay as focused as possible in his campaign \"so he's not scaring\" away voters who were leaning his way because they didn't like Biden.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Matt Wolking",
+      "Title of Source": "Republican campaign strategist",
+      "Source Justification": "who worked on Trump's 2020 campaign"
+      },
+     {
+       "Sourced Statement": "We see it in this poll that people are more motivated about the future than the past",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Aimee Allison",
+      "Title of Source": "founder of She the People",
+      "Source Justification": "a liberal group that aims to grow the numbers of women of color in elected office"
+      },
+     {
+       "Sourced Statement": "They see Kamala Harris as the future, and Republicans see this election as just about Trump. Voters are more likely to be engaged when given the option of 'more than' beating Trump.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Aimee Allison",
+      "Title of Source": "founder of She the People",
+      "Source Justification": "a liberal group that aims to grow the numbers of women of color in elected office"
+      }
+ ]
+}

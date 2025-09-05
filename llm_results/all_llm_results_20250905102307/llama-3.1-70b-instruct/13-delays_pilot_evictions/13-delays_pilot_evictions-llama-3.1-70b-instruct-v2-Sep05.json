@@ -1,0 +1,74 @@
+{
+ "Sourcing Table":[ 
+      {
+       "Sourced Statement": "About nine months ago, the two men agreed he could withhold rent until repairs were made, he said.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Bryant Woods",
+      "Title of Source": "null",
+      "Source Justification": "tenant in a deteriorating relationship with his landlord"
+      }, 
+     {
+       "Sourced Statement": "It’s a common story. And by the time these disputes make it to General Sessions Civil Court, there is little to be done to keep tenants in Woods’ position housed, given state law, tenants’ lack of lawyers and the court’s norms.",
+      "Type of Source" : "Unnamed Group of People", 
+      "Name of Source": "General Sessions Civil Court judges/staff",
+      "Title of Source": "null",
+      "Source Justification": "context for understanding the court's limitations in handling eviction disputes"
+      }, 
+     {
+       "Sourced Statement": "To reduce such evictions, one of the court’s judges, Deborah Henderson; Shelby County Commissioner Erika Sugarmon; and Cindy Ettingoff, then-CEO of Memphis Area Legal Services, last summer secured $240,000 in the county budget to pilot a pre-litigation mediation program for landlord-tenant disputes.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Deborah Henderson, Erika Sugarmon, Cindy Ettingoff",
+      "Title of Source": "Judge, Commissioner, then-CEO of Memphis Area Legal Services",
+      "Source Justification": "initiators of the pre-litigation mediation program"
+      }, 
+     {
+       "Sourced Statement": "The cash didn’t make it to MALS until February 2024, due to problems with how the County Commission resolution was originally drafted, Henderson said.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Deborah Henderson",
+      "Title of Source": "Judge",
+      "Source Justification": "explaining the delay in receiving funds for the mediation program"
+      }, 
+     {
+       "Sourced Statement": "Recently, MALS worked with a woman who was living in a house that “should not be lived in by anyone” and was starting to fall behind on rent, Henderson said.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Deborah Henderson",
+      "Title of Source": "Judge",
+      "Source Justification": "providing an example of the mediation program's success"
+      }, 
+     {
+       "Sourced Statement": "“There are no income limits or income requirements,” Henderson told a WLOK-AM audience earlier this summer. “If you’re a tenant who is having trouble with your landlord, you need to give us a call. … If you’re a landlord and you have a troublesome tenant … give us a call.”",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Deborah Henderson",
+      "Title of Source": "Judge",
+      "Source Justification": "promoting the mediation program's eligibility and encouraging participation"
+      }, 
+     {
+       "Sourced Statement": "Nicole Grida, the new MALS CEO, said her team has started creating marketing materials for the program, building partnerships with local nonprofits and screening folks who call in for other services to see if they will fit the program’s criteria, which has resulted in many promising leads.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Nicole Grida",
+      "Title of Source": "CEO of Memphis Area Legal Services",
+      "Source Justification": "updating on the program's development and outreach efforts"
+      }, 
+     {
+       "Sourced Statement": "For the program to succeed, Grida said raising greater awareness will be key, as most Memphians it could help don’t yet know it exists.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Nicole Grida",
+      "Title of Source": "CEO of Memphis Area Legal Services",
+      "Source Justification": "emphasizing the importance of awareness for the program's success"
+      }, 
+     {
+       "Sourced Statement": "“We could have drafted a document that ensured the landlord (followed the verbal agreement),” she said.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Deborah Henderson",
+      "Title of Source": "Judge",
+      "Source Justification": "reflecting on a missed opportunity for mediation in Woods' case"
+      }, 
+     {
+       "Sourced Statement": "Henderson believes the program will require a much longer pilot period before it’s able to produce the proof necessary to create a housing court. But, despite the rough start, she remains “very hopeful” for its future.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Deborah Henderson",
+      "Title of Source": "Judge",
+      "Source Justification": "expressing optimism about the program's potential and future"
+      }
+ ]
+}

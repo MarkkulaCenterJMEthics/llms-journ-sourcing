@@ -64,6 +64,8 @@ SourceTypeMapping = {
     "anonymous_source": "Anonymous_Source",
     "unnamed people": "Anonymous_Source",
     #############################################
+    "unnamed person": "Anonymous_Person",
+    #############################################
     "anonymous_persons": "Anonymous_Groups",
     "unnamed group of people": "Anonymous_Groups",
     "unamed group of people": "Anonymous_Groups",
@@ -271,8 +273,8 @@ def normalize_source_type(source_type):
 def load_and_preprocess_ground_truth(file_path):
     # Define the columns we want to keep and their corresponding indices
     columns_to_keep = {
-        "Sourced Statements ": "SourcedStatement",  # 'Actual text in the article: attributed info (views) or quotes from a source'
-        "Type of source": "SourceType",  # 'Type of source'
+        "Sourced Statements": "SourcedStatement",  # 'Actual text in the article: attributed info (views) or quotes from a source'
+        "Type of Source": "SourceType",  # 'Type of source'
         "Name of Source": "Name",  # 'Name of Source'
         "Title of Source": "Title",  # 'Source\'s Title (affiliation)'
         "Source Justification": "Justification",  # 'Additional source characterizations in introduction justifying presence in the article'
@@ -1099,15 +1101,16 @@ def dict_to_df(metric_res):
 
 
 def main():
-    human_gt_dir = "benchmarking/GT data/"
+    human_gt_dir = "benchmarking/GT data/20250904/"
     llm_base_dirs = [
-        "llm_results/llms_20241211233801",
-        "llm_results/llms_20241212222327",
-        "llm_results/llms_20241215110531",
-        "llm_results/llms_20241215124335",
-        "llm_results/llms_20250209213013",
+        # "llm_results/llms_20241211233801",
+        # "llm_results/llms_20241212222327",
+        # "llm_results/llms_20241215110531",
+        # "llm_results/llms_20241215124335",
+        # "llm_results/llms_20250209213013",
+        "llm_results/all_llm_results_20250905102307/"
     ]
-    output_dir = "benchmarking/metrics/09_04"
+    output_dir = "benchmarking/metrics/09_05"
     if not os.path.isdir(output_dir):
         os.mkdir(output_dir)
     total_version_num = 2
@@ -1152,7 +1155,7 @@ def main():
         if is_valid:
             valid_article_ids.add(article_id)
 
-    valid_article_ids = set(["31", "4", "1", "11", "2"])
+    valid_article_ids = set(["1", "3", "4", "11", "13"])
     # valid_article_ids = set(['4'])
     print("valid article ids is ", valid_article_ids)
     print("total valid article id number is ", len(valid_article_ids))
