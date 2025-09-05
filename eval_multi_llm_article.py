@@ -61,6 +61,7 @@ SourceTypeMapping = {
     "unnamed individual": "Anonymous_Source",
     "unnamedindividual": "Anonymous_Source",
     "and “anonymity” = y": "Anonymous_Source",
+    "anonymous source": "Anonymous_Source",
     "anonymous_source": "Anonymous_Source",
     "unnamed people": "Anonymous_Source",
     #############################################
@@ -1155,7 +1156,7 @@ def main():
         if is_valid:
             valid_article_ids.add(article_id)
 
-    valid_article_ids = set(["1", "3", "4", "11", "13"])
+    valid_article_ids = set(["13", "16", "27", "31", "32"])
     # valid_article_ids = set(['4'])
     print("valid article ids is ", valid_article_ids)
     print("total valid article id number is ", len(valid_article_ids))

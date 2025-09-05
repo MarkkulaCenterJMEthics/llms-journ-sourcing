@@ -1,4 +1,4 @@
-﻿No,Sourced Statements ,Type of source,Anomynity (Y/N),Name of Source,Title of Source,Source Justification
+﻿No,Sourced Statements,Type of Source,Anomynity (Y/N),Name of Source,Title of Source,Source Justification
 1,"They said that the subsidiary would be controlled by the nonprofit board and that each director’s fiduciary duty would be to “humanity, not OpenAI investors,” the company said on its website.
 ",Named Organization,,OpenAI,,the company said on its website.
 2,"Mr. Altman complained that the research paper seemed to criticize OpenAI’s efforts to keep its A.I. technologies safe while praising the approach taken by Anthropic, a company that has become OpenAI’s biggest rival, according to an email that Mr. Altman wrote to colleagues and that was viewed by The New York Times.
@@ -23,7 +23,7 @@
 ",Anonymous Source,Y,,,according to three people who were on the call.
 14,"Ms. Toner disagreed. The board’s mission was to ensure that the company creates artificial intelligence that “benefits all of humanity,” and if the company was destroyed, she said, that could be consistent with its mission. In the board’s view, OpenAI would be stronger without Mr. Altman.
 ",Anonymous Source,Y,,,according to three people who were on the call.
-15,"On Sunday, Mr. Sutskever was urged at OpenAI’s office to reverse course by Mr. Brockman’s wife, Anna, according to two people familiar with the exchange. ",Anonymous Source,Y,,,according to two people familiar with the exchange. 
+15,"On Sunday, Mr. Sutskever was urged at OpenAI’s office to reverse course by Mr. Brockman’s wife, Anna, according to two people familiar with the exchange. ",Anonymous Source,Y,,,"according to two people familiar with the exchange. "
 16,The confrontation between Mr. Sutskever and Ms. Brockman was reported earlier by The Wall Street Journal.,Named Organization,,The Wall Street Journal,,
 17,"At 5:15 a.m. on Monday, he posted on X, formerly Twitter, that “I deeply regret my participation in the board’s actions.”
 ",Named Person,,Ilya Sutskever,,Posted on X

@@ -1,3 +1,6 @@
 article_w_version,model_name,Statement_Match_Rate,LLMStatement_Match_Precison,Type_Match_Rate,Combined_Statement_Type_Match_Rate,Name_Match_Rate,Type_Name_Match_Rate,Type_Correct_Name_Match_Rate,Title_Match_Rate,Justification_Match_Rate,Title_Justification_Join_Match_Rate,All_Attribute_Accuracy,LLM_Miss_Rate,LLM_Unique_Discover_Rate,Both_Found_Count,Match_Counts,LLM_Unique_Discover_Counts,Total_Unique_Sentences
-1-Harris-Poll-rev2_avg,gemini-pro-1.5,0.8823529411764706,1.0,0.3333333333333333,0.29411764705882354,0.8666666666666667,0.2,0.6,0.8666666666666667,0.3333333333333333,0.3333333333333333,0.17647058823529413,0.11764705882352941,0.0,15.0,5.0,0.0,17.0
-3-SF renewed-sweeps-rev2_avg,gemini-pro-1.5,0.8,1.0,0.75,0.6,0.8,0.75,1.0,0.8,0.7,0.7,0.36,0.2,0.0,20.0,15.0,0.0,25.0
+13-pilot-curb-evictions-rev2_avg,gemini-pro-1.5,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0,0.14285714285714285,0.42857142857142855,0.5,0.5,0.0,7.0,7.0,0.0,14.0
+16-America's-Sleeping-Giant-rev2_avg,gemini-pro-1.5,0.7692307692307693,0.9090909090909091,1.0,0.7692307692307693,0.9,0.9,0.9,0.9,0.1,0.4,0.5384615384615384,0.23076923076923078,0.07142857142857142,10.0,9.0,1.0,14.0
+27-general-assembly-landlords-rev2_avg,gemini-pro-1.5,0.8421052631578947,0.8421052631578947,0.9375,0.7894736842105263,0.875,0.875,0.9333333333333333,0.875,0.5625,0.5625,0.42105263157894735,0.15789473684210525,0.13636363636363635,16.0,15.0,3.0,22.0
+31-SV-GT-vermont_bill-rev2_avg,gemini-pro-1.5,,,,,,,,,,,,,,,,,
+32-openai_board-rev2_avg,gemini-pro-1.5,0.8823529411764706,0.46875,0.4,0.35294117647058826,0.6,0.26666666666666666,0.6666666666666666,0.6,0.13333333333333333,0.2,0.058823529411764705,0.11764705882352941,0.5,15.0,6.0,17.0,34.0
