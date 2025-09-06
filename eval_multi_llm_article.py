@@ -61,8 +61,11 @@ SourceTypeMapping = {
     "unnamed individual": "Anonymous_Source",
     "unnamedindividual": "Anonymous_Source",
     "and “anonymity” = y": "Anonymous_Source",
+    "anonymous source": "Anonymous_Source",
     "anonymous_source": "Anonymous_Source",
     "unnamed people": "Anonymous_Source",
+    #############################################
+    "unnamed person": "Anonymous_Person",
     #############################################
     "anonymous_persons": "Anonymous_Groups",
     "unnamed group of people": "Anonymous_Groups",
@@ -174,6 +177,7 @@ def semantic_match(sentence_one, sentence_two):
     sim_score = util.pytorch_cos_sim(embedding_1, embedding_2)
     return float(sim_score.cpu()[0][0])
 
+
 def find_best_match(sentence, sentences, match_method="fuzz"):
     if match_method == "fuzz":
         best_match = max(
@@ -270,8 +274,8 @@ def normalize_source_type(source_type):
 def load_and_preprocess_ground_truth(file_path):
     # Define the columns we want to keep and their corresponding indices
     columns_to_keep = {
-        "Sourced Statements ": "SourcedStatement",  # 'Actual text in the article: attributed info (views) or quotes from a source'
-        "Type of source": "SourceType",  # 'Type of source'
+        "Sourced Statements": "SourcedStatement",  # 'Actual text in the article: attributed info (views) or quotes from a source'
+        "Type of Source": "SourceType",  # 'Type of source'
         "Name of Source": "Name",  # 'Name of Source'
         "Title of Source": "Title",  # 'Source\'s Title (affiliation)'
         "Source Justification": "Justification",  # 'Additional source characterizations in introduction justifying presence in the article'
@@ -376,14 +380,18 @@ def compare_attributions(gt_df, llm_df):
             best_match, score = find_best_match(
                 gt_sentence, [s for _, s in llm_sentences], eval_config.match_method
             )
-            
 
             if (
                 score > eval_config.match_threshold[eval_config.match_method]
             ):  # We use the threshold for determining a "good" match
                 llm_idx = next(idx for idx, s in llm_sentences if s == best_match)
-                global_score = fuzz.ratio(clean_text(gt_sentence), clean_text(llm_sentences[llm_idx][1]))
-                if global_score >= 30 or clean_text(llm_sentences[llm_idx][1]) in gt_sentence:
+                global_score = fuzz.ratio(
+                    clean_text(gt_sentence), clean_text(llm_sentences[llm_idx][1])
+                )
+                if (
+                    global_score >= 30
+                    or clean_text(llm_sentences[llm_idx][1]) in gt_sentence
+                ):
                     matching_cache[gt_idx].append((llm_idx, score))
                     matched_llm_indexes.add(llm_idx)
 
@@ -401,8 +409,14 @@ def compare_attributions(gt_df, llm_df):
         )
         if score > eval_config.match_threshold[eval_config.match_method]:
             gt_idx = next(idx for idx, s in gt_sentences if s == best_match)
-            global_score = fuzz.ratio(clean_text(gt_sentences[gt_idx]), clean_text(llm_sentence))
-            if global_score >= 20 or clean_text(llm_sentence) in gt_sentences[gt_idx]:
+            global_score = fuzz.ratio(
+                clean_text(gt_sentences[gt_idx]), clean_text(llm_sentence)
+            )
+            if (
+                global_score >= 20
+                or clean_text(llm_sentence) in gt_sentences[gt_idx]
+                or len(matching_cache[gt_idx]) > 0
+            ):
                 matching_cache[gt_idx].append((llm_idx, score))
             else:
                 final_unmatched_llm.add(llm_idx)
@@ -411,7 +425,7 @@ def compare_attributions(gt_df, llm_df):
 
     for gt_idx, gt_sentence in gt_sentences:
         gt_row = gt_df.loc[gt_idx]
-        if gt_idx not in matching_cache: # no any matching in LLM sentence.
+        if gt_idx not in matching_cache:  # no any matching in LLM sentence.
             new_row = pd.DataFrame(
                 {
                     "GT_Sentence": [gt_sentence],
@@ -813,6 +827,7 @@ def calculate_performance_metrics(result_df):
 
     # Calculate total unique sentences
     total_gt_sentences = len(result_df[result_df["GT_Sentence"] != ""])
+    total_llm_sentences = len(result_df[result_df["LLM_Sentence"] != ""])
     total_unique_sentences = len(result_df[result_df["GT_Sentence"] != ""]) + len(
         result_df[(result_df["GT_Sentence"] == "") & (result_df["LLM_Sentence"] != "")]
     )
@@ -857,6 +872,9 @@ def calculate_performance_metrics(result_df):
     # Calculate LLM Recall
     source_statement_match_rate = (both_found_count) / total_gt_sentences
 
+    # Calculate LLM Precision
+    llm_statement_match_rate = (both_found_count) / total_llm_sentences
+
     # Calculate LLM statement match rate with type correct
     source_type_match_rate_with_statement = (
         len(both_found[both_found["Source_Type_Match"] == "Yes"]) / total_gt_sentences
@@ -885,6 +903,7 @@ def calculate_performance_metrics(result_df):
     # Compile results
     metrics = {
         "Statement_Match_Rate": source_statement_match_rate,
+        "LLMStatement_Match_Precison": llm_statement_match_rate,
         "Type_Match_Rate": source_type_match_rate,
         "Combined_Statement_Type_Match_Rate": source_type_match_rate_with_statement,
         "Name_Match_Rate": name_match_rate,
@@ -1083,15 +1102,16 @@ def dict_to_df(metric_res):
 
 
 def main():
-    human_gt_dir = "benchmarking/GT data/"
+    human_gt_dir = "benchmarking/GT data/20250904/"
     llm_base_dirs = [
-        "llm_results/llms_20241211233801",
-        "llm_results/llms_20241212222327",
-        "llm_results/llms_20241215110531",
-        "llm_results/llms_20241215124335",
-        "llm_results/llms_20250209213013",
+        # "llm_results/llms_20241211233801",
+        # "llm_results/llms_20241212222327",
+        # "llm_results/llms_20241215110531",
+        # "llm_results/llms_20241215124335",
+        # "llm_results/llms_20250209213013",
+        "llm_results/all_llm_results_20250905102307/"
     ]
-    output_dir = "benchmarking/metrics/08_21"
+    output_dir = "benchmarking/metrics/09_05"
     if not os.path.isdir(output_dir):
         os.mkdir(output_dir)
     total_version_num = 2
@@ -1136,7 +1156,8 @@ def main():
         if is_valid:
             valid_article_ids.add(article_id)
 
-    valid_article_ids = set(['31', '4', '1', '11'])
+    valid_article_ids = set(["13", "16", "27", "31", "32"])
+    # valid_article_ids = set(['4'])
     print("valid article ids is ", valid_article_ids)
     print("total valid article id number is ", len(valid_article_ids))
 
@@ -1177,6 +1198,7 @@ def main():
     # Plot individual metric comparisons
     metrics = [
         "Statement_Match_Rate",
+        "LLMStatement_Match_Precison",
         "Type_Match_Rate",
         "Combined_Statement_Type_Match_Rate",
         "Name_Match_Rate",

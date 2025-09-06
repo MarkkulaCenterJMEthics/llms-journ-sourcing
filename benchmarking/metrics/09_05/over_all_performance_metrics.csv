@@ -1,0 +1,4 @@
+,Statement_Match_Rate,Statement_Match_Rate,LLMStatement_Match_Precison,LLMStatement_Match_Precison,Type_Match_Rate,Type_Match_Rate,Combined_Statement_Type_Match_Rate,Combined_Statement_Type_Match_Rate,Name_Match_Rate,Name_Match_Rate,Type_Name_Match_Rate,Type_Name_Match_Rate,Title_Match_Rate,Title_Match_Rate,Justification_Match_Rate,Justification_Match_Rate,Title_Justification_Join_Match_Rate,Title_Justification_Join_Match_Rate,All_Attribute_Accuracy,All_Attribute_Accuracy
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+model_name,,,,,,,,,,,,,,,,,,,,
+gemini-pro-1.5,0.7484222433912836,0.17210514786121214,0.804986543062201,0.23331007956868033,0.834375,0.2910782755548754,0.602911407477971,0.21255860946452237,0.84375,0.1712393549002876,0.7604166666666666,0.33356762599375717,0.84375,0.1712393549002876,0.23467261904761905,0.21932262272765218,0.3977678571428571,0.14966924275846108,0.3795844248630626,0.2193543648831666

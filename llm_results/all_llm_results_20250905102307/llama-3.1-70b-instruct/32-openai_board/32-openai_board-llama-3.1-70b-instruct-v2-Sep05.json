@@ -1,0 +1,102 @@
+{
+ "Sourcing Table":[ 
+      {
+       "Sourced Statement": "Sam Altman called an OpenAI board member’s research paper a danger to the company weeks before he was ousted as its chief executive.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Sam Altman",
+      "Title of Source": "Chief Executive, OpenAI",
+      "Source Justification": "Context of conflict with board member over research paper"
+      },
+      {
+       "Sourced Statement": "Another member, Ilya Sutskever, thought Mr. Altman was not always being honest when talking with the board.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Ilya Sutskever",
+      "Title of Source": "null",
+      "Source Justification": "Context of tension within OpenAI's board"
+      },
+      {
+       "Sourced Statement": "Some board members worried that Mr. Altman was too focused on expansion while they wanted to balance that growth with A.I. safety.",
+      "Type of Source" : "Unnamed Group of People", 
+      "Name of Source": "OpenAI Board Members",
+      "Title of Source": "null",
+      "Source Justification": "Context of tension within OpenAI's board regarding growth and safety"
+      },
+      {
+       "Sourced Statement": "The decision stunned OpenAI’s employees and exposed board members to tough questions about their qualifications to manage such a high-profile company.",
+      "Type of Source" : "Unnamed Group of People", 
+      "Name of Source": "OpenAI Employees",
+      "Title of Source": "null",
+      "Source Justification": "Reaction to Sam Altman's ousting"
+      },
+      {
+       "Sourced Statement": "The OpenAI debacle has illustrated how building A.I. systems is testing whether businesspeople who want to make money from artificial intelligence can work in sync with researchers who worry that what they are building could eventually eliminate jobs or become a threat if technologies like autonomous weapons grow out of control.",
+      "Type of Source" : "Unnamed Group of People", 
+      "Name of Source": "Researchers",
+      "Title of Source": "null",
+      "Source Justification": "Context of challenges in building A.I. systems"
+      },
+      {
+       "Sourced Statement": "Helen Toner, an OpenAI board member, defended the research paper she co-wrote.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Helen Toner",
+      "Title of Source": "Director of Strategy, Georgetown University’s Center for Security and Emerging Technology; OpenAI Board Member",
+      "Source Justification": "Context of conflict with Sam Altman over research paper"
+      },
+      {
+       "Sourced Statement": "Mr. Altman complained that the research paper seemed to criticize OpenAI’s efforts to keep its A.I. technologies safe while praising the approach taken by Anthropic, a company that has become OpenAI’s biggest rival...",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Sam Altman",
+      "Title of Source": "Chief Executive, OpenAI",
+      "Source Justification": "Email to colleagues regarding research paper"
+      },
+      {
+       "Sourced Statement": "“I did not feel we’re on the same page on the damage of all this,” he wrote in the email. “Any amount of criticism from a board member carries a lot of weight.”",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Sam Altman",
+      "Title of Source": "Chief Executive, OpenAI",
+      "Source Justification": "Email to colleagues regarding research paper"
+      },
+      {
+       "Sourced Statement": "Senior OpenAI leaders, including Mr. Sutskever, who is deeply concerned that A.I. could one day destroy humanity, later discussed whether Ms. Toner should be removed...",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Ilya Sutskever",
+      "Title of Source": "null",
+      "Source Justification": "Context of concerns about A.I. and discussion about removing Helen Toner"
+      },
+      {
+       "Sourced Statement": "“After a series of reasonably amicable negotiations, the co-founders of Anthropic were able to negotiate their exit on mutually agreeable terms,”",
+      "Type of Source" : "Named Organization", 
+      "Name of Source": "Anthropic",
+      "Title of Source": "null",
+      "Source Justification": "Statement regarding co-founders' exit from OpenAI"
+      },
+      {
+       "Sourced Statement": "“no attempt to ‘oust’ Sam Altman at the time the founders of Anthropic left OpenAI.”",
+      "Type of Source" : "Named Organization", 
+      "Name of Source": "Anthropic",
+      "Title of Source": "null",
+      "Source Justification": "Statement regarding co-founders' exit from OpenAI"
+      },
+      {
+       "Sourced Statement": "Jason Kwon, OpenAI’s chief strategy officer, said the board was endangering the future of the company by pushing out Mr. Altman.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Jason Kwon",
+      "Title of Source": "Chief Strategy Officer, OpenAI",
+      "Source Justification": "Video call with board members after Sam Altman's ousting"
+      },
+      {
+       "Sourced Statement": "Ms. Toner disagreed. The board’s mission was to ensure that the company creates artificial intelligence that “benefits all of humanity,” and if the company was destroyed, she said, that could be consistent with its mission.",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Helen Toner",
+      "Title of Source": "Director of Strategy, Georgetown University’s Center for Security and Emerging Technology; OpenAI Board Member",
+      "Source Justification": "Video call with board members after Sam Altman's ousting"
+      },
+      {
+       "Sourced Statement": "“I deeply regret my participation in the board’s actions.”",
+      "Type of Source" : "Named Person", 
+      "Name of Source": "Ilya Sutskever",
+      "Title of Source": "null",
+      "Source Justification": "Post on X (formerly Twitter) regarding Sam Altman's ousting"
+      }
+  ]
+}

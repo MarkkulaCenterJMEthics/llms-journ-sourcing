@@ -1,0 +1,68 @@
+INSTRUCTIONS
+
+Read the attached news article carefully %s. Apply the instructions below only on the attached news article. (Ignore the Subtitle text if it exists). Follow ALL the steps below to extract the full list of Sourced Statements in the article. For each Sourced Statement, extract the Name of Source, Type of Source, Title of Source, and Source Justification.
+
+1. Start with the body of the article, ignore the Subtitle (if there is one), go line by line from beginning to end, identify each line or lines together that fit the definition of a Sourced Statement. Remember to read the three notes and examples in the system_prompt (Note 1, Note 2, Note 3) that accompany the definition of Sourced Statement. If it's a sourced statement, extract the exact full sentences from the article. Do not paraphrase or summarize. Copy and paste the exact text from the article. Sometimes, in the same paragraph, there maybe multiple contiguous statements, one after another, attributed to the same source. In this case, they are one instance of a sourced statement. Do not separate out the lines as multiple, separate, sourced statement instances. On the other hand, there may be sourced statements attributed to the same source in other (i.e. different) paragraphs. These are new instances of Sourced Statements, do not merge them into one. No need to print anything yet. 
+
+2. For each sourced statement, identify the attributed Type of Source. Use the six available definitions to do this: Anonymous Source, Unnamed Person, Document Source, Unnamed Group of People, Named Person, or Named Organization. Remember that the types of source "Unnamed Person", "Unnamed Group of People" and "Anonymous Source" are all distinct from each other, so apply the definition carefully. If the Type of Source is not identifiable, set the Type of Source as 'Unresolved'. No need to print anything yet.
+
+3. Next, for that sourced statement, if the Type of Source is Named Person or Named Organization, identify the name using the Name of Source definition. Usually names of individuals or organizations are stated in full when they are first referred to. No need to print or write anything yet. 
+
+4. If the Type of Source is Anonymous Source or Unnamed Person, the Name of Source has a 'null' value. No need to print or write anything yet. If the Type of Source is Document, the name of the document may or may not be in the text. If the name of the document is present, set the Name of Source to that, otherwise it has a 'null' value. 
+
+5. If the type of source is Unnamed Group of People, the Name of Source is the term the reporter has used to refer to the group. For e.g., it might be "teachers", "participants", "parents", "attendees", "rallygoers", "protestors", "advocates", "activists", "students", etc. If not present, set Name of Source to the 'null' value. No need to print or write anything yet. 
+
+6. At this point you have a Sourced Statement, and Type of Source and Named of Source. No need to write or print anything yet. 
+
+7. Next, if your Type of Source is Named Person or Anonymous Source, apply the definition of Title of Source and extract the title if provided. Remember that Named Persons in positions of power, formal authority, leadership, management, or expertise will usually be quoted with a title. When the voices of everyday people and people without structural power are included in the story, they may not have a title. Note, when the Type of Source is Document or Named Organization or Unnamed Group of People, there is no Title of Source. Set Title of Source to 'null' value. No need to write or print anything yet. 
+
+8. Next, find the Source Justification for the source in this sourced statement using the definition. Directly extract the text that matches this definition from the story. Do not synthesize or generate or summarize the Source Justification in your own words. Extract only the actual text.  If the same source is attributed in earlier sourced statements, even if there is no source justification text in this instance, you may copy the Source Justification from the source's earlier sourced statement to this one. Remember that source justification refers to words or sentences doing additional characterization or context or explanation for inclusion of that source in the story. If more than one source justification is present in the text, concatenate them as one single string separated by ';'. No need to write or print anything yet.
+
+9. Organize and add your data to a JSON data object as follows, but do not output this JSON yet: 
+
+{
+ "Sourcing Table":[ 
+      {
+       "Sourced Statement": "string",
+      "Type of Source" : "string", 
+      "Name of Source": "string",
+      "Title of Source": "string",
+      "Source Justification": "string"
+      }
+  ]
+}
+
+10. Continue and repeat this exercise for the whole article, finding one sourced statement after another. For each sourced statement, identify the Type of Source, Name of Source (if applicable), Title of Source (as applicable), and Source Justification.  Add to the JSON object. Continue until no sourcing statements are left. Remember each Sourced Statement in your findings list must only occur once. You cannot have two or more replicas of the Sourced Statement being attributed to different Types of Sources. Once a Sourced Statement is identified and attribution data annotated, it cannot be reinstantiated afresh. 
+
+11. If you have reached this step, that means no sourced statements are left. Now output the full JSON Sourcing Table, which is array of entries, each entry has a Sourced Statement, Type of Source, Name of Source, Title of Source, and Source Justification. Your JSON should take this form. 
+
+{
+ "Sourcing Table":[ 
+      {
+       "Sourced Statement": "string",
+      "Type of Source" : "string", 
+      "Name of Source": "string",
+      "Title of Source": "string",
+      "Source Justification": "string"
+      }, 
+     {
+       "Sourced Statement": "string",
+      "Type of Source" : "string", 
+      "Name of Source": "string",
+      "Title of Source": "string",
+      "Source Justification": "string"
+      },
+     {
+       "Sourced Statement": "string",
+      "Type of Source" : "string", 
+      "Name of Source": "string",
+      "Title of Source": "string",
+      "Source Justification": "string"
+      }
+ ]
+}
+
+
+Do not print or provide any other analysis. We need a valid JSON format that can be parsed to convert to CSV. Give me no other text but the JSON. 
+
+END OF INSTRUCTIONS.
