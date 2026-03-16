@@ -2,6 +2,10 @@
 
 This project benchmarks multiple Large Language Models (LLMs) on their performance for journalistic sourcing annotations. Given a news article, models identify sourced statements and classify each source by type, name, title, and justification. LLM output is compared to human-annotated ground truth to produce accuracy metrics using straightforward, fuzzy or semantic comparison scoring.
 
+## Ground truth Journalistic Sourcing dataset (with news article corpus)
+If you want to access only the dataset -- which includes the news article corpus, ground truth annotations, LLM prompts and LLM annotations -- the quickest way is on HuggingFace here:  
+https://huggingface.co/datasets/subbuvincent/mcae-llms-benchmark-report/tree/main
+
 ## Environment Setup
 
 ```bash
