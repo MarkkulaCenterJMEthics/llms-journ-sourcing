@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Experiment outputs
+llm_results/
+
+# API keys
+openrouter_key.txt
+openai_key.txt
+claude_api_key.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
