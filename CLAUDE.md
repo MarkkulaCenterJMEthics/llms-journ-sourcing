@@ -34,6 +34,7 @@ python v10-extract-multiple-LLMs.py -m openai -s myexperiment -pv v55
 python eval_multi_llm_article.py
 
 # Inter-coder reliability between two human annotators
+# (needs inter_coder_reliability/requirements.txt installed too — see inter_coder_reliability/CLAUDE.md)
 python inter_coder_reliability/v13all-icrclaude.py <csv1> <csv2>
 ```
 
