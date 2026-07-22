@@ -1,0 +1,6 @@
+pandas==2.2.3
+fuzzywuzzy==0.18.0
+simpledorff==0.0.2
+sentence-transformers==5.6.0
+scikit-learn==1.7.2
+numpy==2.2.6
