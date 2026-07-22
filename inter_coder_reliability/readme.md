@@ -13,6 +13,8 @@ pip install -r requirements.txt
 
 The first run downloads the `all-MiniLM-L6-v2` sentence-embedding model, so an internet connection is required at least once.
 
+**Windows:** run the commands above from **Anaconda Prompt** (installed alongside Miniconda/Anaconda). If you use PowerShell or VS Code's terminal instead, you'll need to run `conda init powershell` once and reopen the terminal before `conda activate` works.
+
 ## Usage
 
 usage: v13all-icrclaude.py [-h] csv1 csv2

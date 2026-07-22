@@ -34,6 +34,8 @@ pip install -r requirements.txt
 
 `sentence-transformers` downloads the `all-MiniLM-L6-v2` model on first run, so an internet connection is required at least once.
 
+**Windows:** use Anaconda Prompt (or run `conda init powershell`/`conda init cmd.exe` once and reopen the terminal before `conda activate` works elsewhere). The script forces UTF-8 stdout/stderr at startup (`sys.stdout.reconfigure(encoding="utf-8")`) so the `✅`/`α`/`≥`/`≤` symbols it prints don't raise `UnicodeEncodeError` under Windows' default codepage — this matters especially when redirecting output to a file (`> results.txt`).
+
 ## Architecture
 
 `v13all-icrclaude.py` computes Krippendorff's Alpha (via `simpledorff`) separately for five columns, each using its own distance metric:

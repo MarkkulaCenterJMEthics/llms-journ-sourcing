@@ -7,6 +7,15 @@ import sys
 import argparse
 from fuzzywuzzy import fuzz
 
+# Force UTF-8 output so the ✅/α/≥/≤ symbols below don't raise UnicodeEncodeError
+# on Windows, where stdout defaults to the system codepage (e.g. cp1252) instead
+# of UTF-8 — especially when output is redirected to a file (`> results.txt`).
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except AttributeError:
+    pass
+
 def load_semantic_model():
     """Load the semantic model once to be used throughout the script."""
     print("Loading semantic model...")
