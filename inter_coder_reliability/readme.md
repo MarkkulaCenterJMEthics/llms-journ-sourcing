@@ -46,3 +46,10 @@ options:
 - A crash is a lucky break. The same defect can just as easily hide behind a normal-looking score — always sanity-check how many rows actually fed the calculation, not just the final alpha.
 - If you want missing data to count as disagreement in Krippendorff's Alpha, confirm it actually reaches your distance function — many implementations (including `simpledorff`) drop real `NaN`s internally before your metric ever runs.
 - When validating a fix to a stats pipeline, diff the intermediate per-row values against a same-data control run of the old code, not just the final aggregate number.
+
+**To reproduce the original (pre-fix) behavior**, e.g. to demo the silent-drop bug or the `ZeroDivisionError` on `94-SZ-Met_Gala.csv`/`94-AV-Met_Gala.csv`: the buggy version is preserved under the git tag `icr-silent-drop-bug` (last commit before this fix). Pull just that file out without touching your current working copy:
+
+```bash
+git show icr-silent-drop-bug:inter_coder_reliability/v13all-icrclaude.py > v13_buggy_reference.py
+python3 v13_buggy_reference.py 94-SZ-Met_Gala.csv 94-AV-Met_Gala.csv
+```
