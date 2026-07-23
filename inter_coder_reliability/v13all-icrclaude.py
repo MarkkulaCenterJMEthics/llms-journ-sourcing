@@ -244,17 +244,23 @@ def calculate_icr_for_column(df1, df2, column_name, distance_function, gate_mask
             metric_fn=distance_function
         )
     except ZeroDivisionError:
-        # Alpha is undefined when every pairable item has the same value (no
-        # variability -> zero expected disagreement by chance). Common on
-        # small/homogeneous columns, e.g. every source is "Named Person".
-        print(f"⚠️  Krippendorff's Alpha for '{column_name}' is undefined: "
-              f"no variability across the paired annotations (every item both "
-              f"annotators rated has the same value), so expected disagreement "
-              f"by chance is zero.")
-        return float("nan")
+        # Alpha is mathematically indeterminate (0/0), not 0.0 or 1.0, when
+        # every pairable item has the same value: there's no variability, so
+        # "expected disagreement by chance" is exactly zero and the formula
+        # has nothing to divide by. Report which value(s) tied and how many
+        # items, so this doesn't require digging through the log above to
+        # explain (see readme.md for why this happens on small samples).
+        n_items = df_long['item_id'].nunique()
+        value_counts = df_long['annotation_text'].value_counts()
+        values_summary = ", ".join(f"'{v}' ({c} ratings)" for v, c in value_counts.items())
+        reason = f"all {n_items} comparable item(s) got the same value from both annotators: {values_summary}"
+        print(f"⚠️  Krippendorff's Alpha for '{column_name}' is UNDEFINED: {reason}. "
+              f"With zero variability there's no chance-disagreement baseline for "
+              f"the formula to compare against.")
+        return float("nan"), reason
 
     print(f"✅ Krippendorff's Alpha for '{column_name}': {alpha_score:.4f}")
-    return alpha_score
+    return alpha_score, None
 
 def main():
     # Parse command line arguments
@@ -300,16 +306,16 @@ def main():
         # Calculate ICR for all columns
         for column, distance_func in columns_config.items():
             mask = gate_mask if column in gated_columns else None
-            alpha_score = calculate_icr_for_column(df1, df2, column, distance_func, gate_mask=mask)
-            results[column] = alpha_score
+            alpha_score, undefined_reason = calculate_icr_for_column(df1, df2, column, distance_func, gate_mask=mask)
+            results[column] = (alpha_score, undefined_reason)
         
         # Print summary
         print(f"\n{'='*60}")
         print("SUMMARY RESULTS - KRIPPENDORFF'S ALPHA SCORES")
         print(f"{'='*60}")
-        for column, score in results.items():
+        for column, (score, undefined_reason) in results.items():
             if pd.isna(score):
-                print(f"{column}: N/A (undefined - no variability in the data)")
+                print(f"{column}: Undefined ({undefined_reason})")
             else:
                 print(f"{column}: {score:.4f}")
         print(f"{'='*60}")

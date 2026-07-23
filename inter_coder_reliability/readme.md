@@ -28,6 +28,12 @@ positional arguments:
 options:
   -h, --help  show this help message and exit
 
+## A note on "Undefined" alpha scores
+
+A column can report `Undefined` instead of a number between -1 and 1. This isn't a bug — it means every comparable item in that column got the exact same value from both annotators (e.g. every source classified as `Named Person`, with no other category present at all). Krippendorff's Alpha needs some variability across categories to establish a chance-agreement baseline; with zero variability there's nothing to divide by, so the result is mathematically indeterminate (0/0), not 0.0 or 1.0.
+
+This is most likely on **small samples**, where it's entirely possible for every annotator to agree by chance on a single category simply because the sample never contained a different one to disagree about — it says more about sample size than about annotator reliability. It gets rarer as the sample grows and more categories naturally appear (an 11-row test file hit this on `Type of Source`; the same column computed fine on a 100-row file). When you see `Undefined`, the message names the value and how many items/ratings tied, so you don't need to dig through the per-item log to explain it.
+
 ## Troubleshooting case: Krippendorff's Alpha was silently dropping missing-data rows (found 2026-07-22)
 
 **The problem, in plain English.** When one annotator left a cell blank and the other didn't, the script's own distance functions were written to score that as a real disagreement. But that scoring code never actually ran for those rows. The Krippendorff's Alpha library (`simpledorff`) drops any real blank (`NaN`) *before* our distance function ever sees it, and then throws out the whole row if fewer than 2 ratings are left. So every row with a blank cell — agreements and disagreements alike — was silently excluded from the score, with no warning, no error, nothing to indicate it happened.
