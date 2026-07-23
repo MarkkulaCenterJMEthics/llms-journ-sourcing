@@ -50,6 +50,8 @@ pip install -r requirements.txt
 
 Both distance functions treat "both values missing" as perfect agreement (distance 0.0) and "only one missing" as total disagreement (distance 1.0) — this reflects that a blank cell means the annotator found no such source, not that they skipped it.
 
+**Undefined alpha (`N/A`) on a column:** Krippendorff's Alpha is mathematically undefined when the paired (both-annotators-rated) items for a column show zero variability — e.g. every `Type of Source` happens to be `Named Person`. The denominator ("expected disagreement by chance," computed in `simpledorff`'s `calculate_de`) is exactly zero in that case, which is a `ZeroDivisionError` inside `simpledorff`, not a bug in this script or the data. `calculate_icr_for_column` catches this and reports `N/A (undefined - no variability in the data)` for that column while still computing the rest — this is expected on small or homogeneous test files, not something to "fix" in the CSV.
+
 **Row correspondence is positional, not key-matched**: the two CSVs are assumed to have the same number of rows in the same order (`item_id` is just `range(1, len(df)+1)` assigned independently to each file). There is no join on the `No` column or on statement text. If one annotator added/removed/reordered a row, the comparison will silently misalign that row and every row after it.
 
 ## Data Files (Gotchas)

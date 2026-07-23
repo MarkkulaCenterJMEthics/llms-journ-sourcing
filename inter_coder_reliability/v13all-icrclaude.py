@@ -16,6 +16,20 @@ try:
 except AttributeError:
     pass
 
+# A blank cell means an annotator missed a sourced statement entirely (or found
+# no title/justification for one they did catch). We substitute this literal
+# string for NaN before handing data to simpledorff, because simpledorff's
+# internal pivot table calls pandas .dropna() and drops any item where one
+# annotator's cell is real NaN -- silently excluding it from the alpha
+# calculation instead of counting it as a disagreement. A non-null sentinel
+# survives .dropna() so the item stays in the calculation; _is_missing() below
+# is what still makes it score as a true missing value rather than literal text.
+MISSING_SENTINEL = "MISSING_VALUE"
+
+def _is_missing(value):
+    """True for real NaN/None or for our post-substitution missing sentinel."""
+    return pd.isna(value) or value is None or value == MISSING_SENTINEL
+
 def load_semantic_model():
     """Load the semantic model once to be used throughout the script."""
     print("Loading semantic model...")
@@ -32,11 +46,11 @@ def semantic_distance_metric(a, b, model):
     since this indicates the data didn't exist in the source material for both annotators.
     """
     # Check if both values are missing - this is perfect agreement (both correctly identified no data)
-    if (pd.isna(a) or a is None) and (pd.isna(b) or b is None):
+    if _is_missing(a) and _is_missing(b):
         return 0.0
-    
+
     # If only one value is missing, this is disagreement
-    if pd.isna(a) or pd.isna(b) or a is None or b is None:
+    if _is_missing(a) or _is_missing(b):
         return 1.0
 
     # Convert text to vector embeddings
@@ -49,6 +63,40 @@ def semantic_distance_metric(a, b, model):
     distance = 1 - similarity
     return distance
 
+def build_cached_semantic_distance_fn(model, texts):
+    """
+    Precompute embeddings once (batched) for every distinct non-missing text in
+    `texts`, then return a metric_fn that looks them up instead of re-encoding
+    on every pairwise comparison.
+
+    simpledorff's Krippendorff's Alpha calls metric_fn(c, k) for every pair of
+    distinct classes when computing expected disagreement -- for a column of
+    mostly-unique free text (e.g. Sourced Statements), that's O(U^2) calls,
+    where U is the number of distinct values. Without caching, each call reruns
+    a full transformer forward pass (~30-60ms measured), which explodes into
+    tens of minutes once U reaches ~150 (typical for a 100-row CSV, since
+    statements are mostly unique text). Caching cuts the encode work to O(U)
+    via one batched call; every pairwise comparison then reuses those vectors,
+    so the returned distances are numerically identical to calling
+    semantic_distance_metric(a, b, model) directly -- only the redundant
+    re-encoding is eliminated, not the calculation itself.
+    """
+    distinct_texts = sorted({str(t) for t in texts if not _is_missing(t)})
+    embeddings = model.encode(distinct_texts) if distinct_texts else []
+    cache = dict(zip(distinct_texts, embeddings))
+
+    def distance_fn(a, b):
+        if _is_missing(a) and _is_missing(b):
+            return 0.0
+        if _is_missing(a) or _is_missing(b):
+            return 1.0
+        embedding_a = cache[str(a)]
+        embedding_b = cache[str(b)]
+        similarity = cosine_similarity([embedding_a], [embedding_b])[0][0]
+        return 1 - similarity
+
+    return distance_fn
+
 def fuzzy_distance_metric(a, b):
     """
     Calculates fuzzy string disagreement between two text strings.
@@ -59,11 +107,11 @@ def fuzzy_distance_metric(a, b):
     since this indicates the data didn't exist in the source material for both annotators.
     """
     # Check if both values are missing - this is perfect agreement (both correctly identified no data)
-    if (pd.isna(a) or a is None) and (pd.isna(b) or b is None):
+    if _is_missing(a) and _is_missing(b):
         return 0.0
-    
+
     # If only one value is missing, this is disagreement
-    if pd.isna(a) or pd.isna(b) or a is None or b is None:
+    if _is_missing(a) or _is_missing(b):
         return 1.0
 
     # Convert to strings and calculate fuzzy ratio
@@ -97,61 +145,114 @@ def load_and_prepare_data(csv_file1, csv_file2):
         if col not in df2.columns:
             raise ValueError(f"Column '{col}' not found in {csv_file2}")
     
+    # Replace blank cells with a non-null sentinel so simpledorff can't silently
+    # drop these items -- see MISSING_SENTINEL comment above for why.
+    for col in required_columns:
+        df1[col] = df1[col].fillna(MISSING_SENTINEL)
+        df2[col] = df2[col].fillna(MISSING_SENTINEL)
+
     # Assuming both CSVs have the same number of rows and correspond to the same items
     # Create item IDs based on row index
     df1['item_id'] = range(1, len(df1) + 1)
     df2['item_id'] = range(1, len(df2) + 1)
-    
+
     return df1, df2
 
-def prepare_data_for_column(df1, df2, column_name):
+def compute_ss_gate_mask(df1, df2):
+    """
+    Boolean array (aligned by row position with df1/df2), True where BOTH
+    annotators recorded a Sourced Statement for that item.
+
+    Type/Name/Title/Justification of Source are only meaningful once both
+    annotators agree a sourced statement exists at all -- there's no intended
+    annotation work to compare on those columns for an item one annotator
+    never flagged as sourced in the first place. Items where the gate is False
+    are excluded entirely (not counted as agreement or disagreement) from
+    those four columns' Krippendorff's Alpha. Sourced Statements itself is
+    never gated by this mask: one annotator missing what the other found is
+    exactly the disagreement that column's alpha should capture.
+    """
+    ss1_found = ~df1['Sourced Statements'].apply(_is_missing)
+    ss2_found = ~df2['Sourced Statements'].apply(_is_missing)
+    return (ss1_found & ss2_found).to_numpy()
+
+def prepare_data_for_column(df1, df2, column_name, gate_mask=None):
     """Prepare data for a specific column in long format for simpledorff."""
+    if gate_mask is not None:
+        df1 = df1[gate_mask]
+        df2 = df2[gate_mask]
+
     # Create combined dataframe with both annotators' data
     data = {
         'item_id': list(df1['item_id']) + list(df2['item_id']),
         'annotator': ['annotator1'] * len(df1) + ['annotator2'] * len(df2),
         'annotation_text': list(df1[column_name]) + list(df2[column_name])
     }
-    
+
     df_long = pd.DataFrame(data)
     return df_long
 
-def calculate_icr_for_column(df1, df2, column_name, distance_function):
-    """Calculate ICR for a specific column using the specified distance function."""
+def calculate_icr_for_column(df1, df2, column_name, distance_function, gate_mask=None):
+    """Calculate ICR for a specific column using the specified distance function.
+
+    gate_mask, if given, is a boolean array (aligned by row position with
+    df1/df2) -- items where it's False are excluded from the calculation
+    entirely (see compute_ss_gate_mask).
+    """
     print(f"\n{'='*60}")
     print(f"Calculating ICR for column: {column_name}")
     print(f"{'='*60}")
-    
+
     # Prepare data in long format
-    df_long = prepare_data_for_column(df1, df2, column_name)
-    
+    df_long = prepare_data_for_column(df1, df2, column_name, gate_mask=gate_mask)
+
     # Show distances for ALL items
     print(f"\nDistances for all {len(df1)} items:")
     print("-" * 80)
     for i in range(len(df1)):
+        if gate_mask is not None and not gate_mask[i]:
+            print(f"Item {i+1}: SKIPPED (no Sourced Statement recorded by both annotators)")
+            print()
+            continue
+
         text1 = df1.iloc[i][column_name]
         text2 = df2.iloc[i][column_name]
         distance = distance_function(text1, text2)
-        
+
         # Format text for display (truncate if too long)
         text1_display = str(text1)[:100] + "..." if pd.notna(text1) and len(str(text1)) > 100 else str(text1)
         text2_display = str(text2)[:100] + "..." if pd.notna(text2) and len(str(text2)) > 100 else str(text2)
-        
+
         print(f"Item {i+1}: Distance = {distance:.4f}")
         print(f"  Annotator1: {text1_display}")
         print(f"  Annotator2: {text2_display}")
         print()
-    
+
+    if gate_mask is not None:
+        skipped = int((~gate_mask).sum())
+        if skipped:
+            print(f"({skipped} item(s) skipped: no Sourced Statement recorded by both annotators)\n")
+
     # Calculate Krippendorff's Alpha
     print(f"Calculating Krippendorff's Alpha for {column_name}...")
-    alpha_score = simpledorff.calculate_krippendorffs_alpha_for_df(
-        df_long,
-        experiment_col='item_id',
-        annotator_col='annotator',
-        class_col='annotation_text',
-        metric_fn=distance_function
-    )
-    
+    try:
+        alpha_score = simpledorff.calculate_krippendorffs_alpha_for_df(
+            df_long,
+            experiment_col='item_id',
+            annotator_col='annotator',
+            class_col='annotation_text',
+            metric_fn=distance_function
+        )
+    except ZeroDivisionError:
+        # Alpha is undefined when every pairable item has the same value (no
+        # variability -> zero expected disagreement by chance). Common on
+        # small/homogeneous columns, e.g. every source is "Named Person".
+        print(f"⚠️  Krippendorff's Alpha for '{column_name}' is undefined: "
+              f"no variability across the paired annotations (every item both "
+              f"annotators rated has the same value), so expected disagreement "
+              f"by chance is zero.")
+        return float("nan")
+
     print(f"✅ Krippendorff's Alpha for '{column_name}': {alpha_score:.4f}")
     return alpha_score
 
@@ -169,21 +270,37 @@ def main():
         
         # Load and prepare data
         df1, df2 = load_and_prepare_data(args.csv1, args.csv2)
-        
+
+        # Items where either annotator has no Sourced Statement recorded are
+        # excluded from the four "dependent" columns below -- see
+        # compute_ss_gate_mask for why. Sourced Statements itself is never gated.
+        gate_mask = compute_ss_gate_mask(df1, df2)
+        gated_columns = {"Type of Source", "Name of Source", "Title of Source", "Source Justification"}
+
+        # Precompute embeddings once per distinct value for each semantic column,
+        # instead of letting simpledorff re-encode text on every pairwise
+        # comparison (see build_cached_semantic_distance_fn for why that matters).
+        semantic_columns = ["Sourced Statements", "Source Justification", "Title of Source"]
+        semantic_distance_fns = {
+            col: build_cached_semantic_distance_fn(model, list(df1[col]) + list(df2[col]))
+            for col in semantic_columns
+        }
+
         # Define columns and their corresponding distance functions
         columns_config = {
-            "Sourced Statements": lambda a, b: semantic_distance_metric(a, b, model),
-            "Source Justification": lambda a, b: semantic_distance_metric(a, b, model),
+            "Sourced Statements": semantic_distance_fns["Sourced Statements"],
+            "Source Justification": semantic_distance_fns["Source Justification"],
             "Type of Source": fuzzy_distance_metric,
             "Name of Source": fuzzy_distance_metric,
-            "Title of Source": lambda a, b: semantic_distance_metric(a, b, model)
+            "Title of Source": semantic_distance_fns["Title of Source"]
         }
-        
+
         results = {}
-        
+
         # Calculate ICR for all columns
         for column, distance_func in columns_config.items():
-            alpha_score = calculate_icr_for_column(df1, df2, column, distance_func)
+            mask = gate_mask if column in gated_columns else None
+            alpha_score = calculate_icr_for_column(df1, df2, column, distance_func, gate_mask=mask)
             results[column] = alpha_score
         
         # Print summary
@@ -191,7 +308,10 @@ def main():
         print("SUMMARY RESULTS - KRIPPENDORFF'S ALPHA SCORES")
         print(f"{'='*60}")
         for column, score in results.items():
-            print(f"{column}: {score:.4f}")
+            if pd.isna(score):
+                print(f"{column}: N/A (undefined - no variability in the data)")
+            else:
+                print(f"{column}: {score:.4f}")
         print(f"{'='*60}")
         
         # Print interpretation guide
