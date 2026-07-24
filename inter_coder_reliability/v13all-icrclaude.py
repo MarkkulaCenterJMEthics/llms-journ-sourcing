@@ -256,7 +256,9 @@ def calculate_icr_for_column(df1, df2, column_name, distance_function, gate_mask
         reason = f"all {n_items} comparable item(s) got the same value from both annotators: {values_summary}"
         print(f"⚠️  Krippendorff's Alpha for '{column_name}' is UNDEFINED: {reason}. "
               f"With zero variability there's no chance-disagreement baseline for "
-              f"the formula to compare against.")
+              f"the formula to compare against -- this is a reflection of the sample, "
+              f"not the annotators. Try a larger or more varied dataset to actually "
+              f"test agreement.")
         return float("nan"), reason
 
     print(f"✅ Krippendorff's Alpha for '{column_name}': {alpha_score:.4f}")
