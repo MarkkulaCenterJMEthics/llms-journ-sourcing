@@ -15,6 +15,8 @@ The first run downloads the `all-MiniLM-L6-v2` sentence-embedding model, so an i
 
 **Windows:** run the commands above from **Anaconda Prompt** (installed alongside Miniconda/Anaconda). If you use PowerShell or VS Code's terminal instead, you'll need to run `conda init powershell` once and reopen the terminal before `conda activate` works.
 
+**Expected harmless warning:** every run prints `Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.` This is safe to ignore — it fires on every load (not just the first), including when the model is already cached, because `sentence-transformers` does a quick unauthenticated metadata check against the Hub each time. It doesn't affect correctness or require any action. (Investigated forcing offline mode to silence it — `HF_HUB_OFFLINE` gets locked in at import time with no safe same-process fallback if the model isn't cached yet, so that route was dropped as too fragile for a cosmetic fix. The clean fix, if wanted later, is setting a real `HF_TOKEN` — a free Hugging Face account's read-only token — which removes the warning via the officially supported mechanism.)
+
 ## Usage
 
 usage: v13all-icrclaude.py [-h] csv1 csv2
