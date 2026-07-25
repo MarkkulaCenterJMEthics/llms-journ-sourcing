@@ -126,6 +126,80 @@ def fuzzy_distance_metric(a, b):
     distance = 1 - similarity
     return distance
 
+def nominal_distance_metric(a, b):
+    """
+    Distance for a closed-taxonomy category column (Type of Source, after
+    canonicalize_type_of_source() below has resolved every value to one of the
+    6 official categories): 0.0 if the same category, 1.0 if different -- no
+    partial credit either way. Unlike Name/Title/Justification, Type of Source
+    values are meant to be mutually exclusive categories, not free text, so a
+    fuzzy or semantic "how similar do these two strings look/mean" score is the
+    wrong question -- "Named Person" and "Named Organization" sharing the word
+    "Named" (or being conceptually related) doesn't make them the same source
+    type. Spelling/casing/whitespace variants are handled separately by
+    canonicalization before this ever runs, so any two different values seen
+    here are a genuine category disagreement.
+    """
+    if _is_missing(a) and _is_missing(b):
+        return 0.0
+    if _is_missing(a) or _is_missing(b):
+        return 1.0
+    return 0.0 if a == b else 1.0
+
+# The 6 official Type of Source categories (see CLAUDE.md's taxonomy). Unnamed
+# Person is a source who isn't named with no stated reason, distinct from
+# Anonymous Source where anonymity was explicitly requested/granted -- added
+# to the taxonomy in late 2025, so real data using it is still rare.
+TYPE_OF_SOURCE_CATEGORIES = [
+    "Named Person",
+    "Named Organization",
+    "Document",
+    "Anonymous Source",
+    "Unnamed Person",
+    "Unnamed Group of People",
+]
+
+# Known real-world variants of the categories above -- typos, legacy naming,
+# casing/whitespace differences -- observed across the actual ICR CSVs, each
+# mapped to its canonical category. Matched case-insensitively after
+# stripping whitespace. "named individual" is a legacy synonym for "Named
+# Person" from an older annotation batch (predates the current taxonomy
+# naming), not a typo, but means the same thing.
+TYPE_OF_SOURCE_VARIANTS = {
+    "named person": "Named Person",
+    "named individual": "Named Person",
+    "named organization": "Named Organization",
+    "document": "Document",
+    "anonymous source": "Anonymous Source",
+    "unnamed person": "Unnamed Person",
+    "unnamed group of people": "Unnamed Group of People",
+    "unamed group of people": "Unnamed Group of People",
+}
+
+def canonicalize_type_of_source(value, source_file, row_number):
+    """
+    Normalize a raw Type of Source cell to one of the 6 canonical categories.
+
+    Type of Source is a closed set -- unlike free-text columns, there's no
+    reasonable "how close is this to a known value" fallback for a value that
+    doesn't match: an unrecognized value means the annotator either typo'd
+    badly enough that we can't confidently guess their intent, or used a
+    category outside the defined taxonomy. Either way, this raises immediately
+    naming the exact file and row, so it's a quick manual fix in the CSV
+    rather than a silently wrong or vague score.
+    """
+    if _is_missing(value):
+        return value
+    key = str(value).strip().lower()
+    if key in TYPE_OF_SOURCE_VARIANTS:
+        return TYPE_OF_SOURCE_VARIANTS[key]
+    raise ValueError(
+        f"Unrecognized Type of Source value {value!r} in {source_file}, item {row_number} "
+        f"(matches the 'Item N' numbering used elsewhere in this script's output). "
+        f"Must be one of {TYPE_OF_SOURCE_CATEGORIES} or a known variant/typo of one of "
+        f"those. Fix the CSV and rerun."
+    )
+
 def load_and_prepare_data(csv_file1, csv_file2):
     """Load CSV files and prepare data for analysis."""
     print(f"Loading data from {csv_file1} and {csv_file2}...")
@@ -150,6 +224,19 @@ def load_and_prepare_data(csv_file1, csv_file2):
     for col in required_columns:
         df1[col] = df1[col].fillna(MISSING_SENTINEL)
         df2[col] = df2[col].fillna(MISSING_SENTINEL)
+
+    # Type of Source is a closed taxonomy -- normalize every value to one of
+    # the 6 canonical categories now (raising on anything unrecognized), so
+    # downstream comparison can use a strict nominal metric instead of fuzzy
+    # string similarity. See canonicalize_type_of_source() for why.
+    df1['Type of Source'] = [
+        canonicalize_type_of_source(v, csv_file1, i + 1)
+        for i, v in enumerate(df1['Type of Source'])
+    ]
+    df2['Type of Source'] = [
+        canonicalize_type_of_source(v, csv_file2, i + 1)
+        for i, v in enumerate(df2['Type of Source'])
+    ]
 
     # Assuming both CSVs have the same number of rows and correspond to the same items
     # Create item IDs based on row index
@@ -298,7 +385,7 @@ def main():
         columns_config = {
             "Sourced Statements": semantic_distance_fns["Sourced Statements"],
             "Source Justification": semantic_distance_fns["Source Justification"],
-            "Type of Source": fuzzy_distance_metric,
+            "Type of Source": nominal_distance_metric,
             "Name of Source": fuzzy_distance_metric,
             "Title of Source": semantic_distance_fns["Title of Source"]
         }

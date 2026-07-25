@@ -42,15 +42,19 @@ pip install -r requirements.txt
 
 | Column | Metric |
 |---|---|
-| `Sourced Statements` | semantic (cosine distance of sentence embeddings) |
-| `Source Justification` | semantic |
-| `Title of Source` | semantic |
-| `Type of Source` | fuzzy string (`fuzzywuzzy.fuzz.ratio`) |
-| `Name of Source` | fuzzy string |
+| `Sourced Statements` | semantic (cosine distance of sentence embeddings, cached) |
+| `Source Justification` | semantic (cached) |
+| `Title of Source` | semantic (cached) |
+| `Type of Source` | canonicalize to 1 of 6 fixed categories, then nominal (0.0 same category / 1.0 different, no partial credit) |
+| `Name of Source` | fuzzy string (`fuzzywuzzy.fuzz.ratio`) |
 
-Both distance functions treat "both values missing" as perfect agreement (distance 0.0) and "only one missing" as total disagreement (distance 1.0) — this reflects that a blank cell means the annotator found no such source, not that they skipped it.
+`Type of Source`, `Name of Source`, and `Title of Source`/`Source Justification` are also gated on `Sourced Statements`: a row is excluded from those four columns' alpha entirely (not scored either way) if either annotator has no `Sourced Statements` recorded for it — see `compute_ss_gate_mask`/`readme.md`'s pipeline section for why. `Sourced Statements` itself is never gated.
 
-**Undefined alpha (`N/A`) on a column:** Krippendorff's Alpha is mathematically undefined when the paired (both-annotators-rated) items for a column show zero variability — e.g. every `Type of Source` happens to be `Named Person`. The denominator ("expected disagreement by chance," computed in `simpledorff`'s `calculate_de`) is exactly zero in that case, which is a `ZeroDivisionError` inside `simpledorff`, not a bug in this script or the data. `calculate_icr_for_column` catches this and reports `N/A (undefined - no variability in the data)` for that column while still computing the rest — this is expected on small or homogeneous test files, not something to "fix" in the CSV.
+The semantic and fuzzy distance functions treat "both values missing" as perfect agreement (distance 0.0) and "only one missing" as total disagreement (distance 1.0) — this reflects that a blank cell means the annotator found no such source, not that they skipped it. `nominal_distance_metric` (used for `Type of Source`) follows the same missing-value rule, then compares already-canonicalized categories exactly.
+
+`Type of Source` used to share the fuzzy metric with `Name of Source`, but fuzzy (and semantic) string similarity gives false partial credit between genuinely different categories that happen to share words (`Named Person` vs `Named Organization`) — wrong for a closed taxonomy. `canonicalize_type_of_source` (in `v13all-icrclaude.py`) normalizes every value to one of the 6 canonical categories first — raising immediately, naming the exact CSV file and row, if a value doesn't match any known category or variant — see `readme.md`'s "Why `Type of Source` isn't fuzzy or semantic" section for the full reasoning and verified numbers.
+
+**Undefined alpha on a column:** Krippendorff's Alpha is mathematically undefined when the paired (both-annotators-rated) items for a column show zero variability — e.g. every `Type of Source` happens to be `Named Person`. The denominator ("expected disagreement by chance," computed in `simpledorff`'s `calculate_de`) is exactly zero in that case, which is a `ZeroDivisionError` inside `simpledorff`, not a bug in this script or the data. `calculate_icr_for_column` catches this and reports `Undefined (all N comparable item(s) got the same value from both annotators: ...)` for that column while still computing the rest — this is expected on small or homogeneous test files, not something to "fix" in the CSV.
 
 **Row correspondence is positional, not key-matched**: the two CSVs are assumed to have the same number of rows in the same order (`item_id` is just `range(1, len(df)+1)` assigned independently to each file). There is no join on the `No` column or on statement text. If one annotator added/removed/reordered a row, the comparison will silently misalign that row and every row after it.
 
