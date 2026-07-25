@@ -9,7 +9,7 @@ cd inter_coder_reliability
 pip install -r requirements.txt
 ```
 
-(This directory's `requirements.txt` is separate from the one in the repo root — it pulls in `simpledorff`, `sentence-transformers`, and `scikit-learn`, which the ICR script needs but the rest of the repo does not.)
+(This directory's `requirements.txt` is separate from the one in the repo root — it pulls in `simpledorff`, `sentence-transformers`, `scikit-learn`, and `irrCAC`, which the ICR script needs but the rest of the repo does not. `numpy` is pinned to `1.26.4`, not a newer release, because `irrCAC`'s packaged metadata hard-pins `scipy==1.12.0`, which caps `numpy<1.29.0` — verified this doesn't change any of the script's Krippendorff's Alpha results versus the newer numpy it replaced.)
 
 The first run downloads the `all-MiniLM-L6-v2` sentence-embedding model, so an internet connection is required at least once.
 
@@ -192,7 +192,7 @@ The same formula (`Do`, `De`, `alpha = 1 - (Do/De)(N-1)`) applied to every colum
 
 `Sourced Statements` is never gated, so it keeps all 100 items; the other four columns lose the same 5 items where one annotator recorded no `Sourced Statements` at all. These `alpha` values match `ICRcombined/July24-100R-CanonicalTypeOfSource-ICR.txt` exactly, and reflect both the `Type of Source` canonicalization fix and the `Title of Source`/`Source Justification` data-quality fix described below.
 
-*Documenting this now, before trying Gwet's AC2 as an alternative reliability measure, so any difference in results between the two can be attributed to the formula, not to ambiguity about what data each one actually consumed.*
+*This documentation was written as a clear methodology baseline before evaluating Gwet's AC1/AC2 as an alternative reliability measure, so any difference in results could be attributed to the formula, not to ambiguity about what data each one actually consumed — see the "Gwet's AC1" section below for what came of that.*
 
 ## Data-quality fix: relational descriptions don't belong in `Title of Source` (found 2026-07-24)
 
@@ -209,6 +209,20 @@ This is a narrower, one-story data fix — a separate, broader pass to bring `be
 A column can report `Undefined` instead of a number between -1 and 1. This isn't a bug — it means every comparable item in that column got the exact same value from both annotators (e.g. every source classified as `Named Person`, with no other category present at all). Krippendorff's Alpha needs some variability across categories to establish a chance-agreement baseline; with zero variability there's nothing to divide by, so the result is mathematically indeterminate (0/0), not 0.0 or 1.0.
 
 This is most likely on **small samples**, where it's entirely possible for every annotator to agree by chance on a single category simply because the sample never contained a different one to disagree about — it says more about sample size than about annotator reliability. It gets rarer as the sample grows and more categories naturally appear (an 11-row test file hit this on `Type of Source`; the same column computed fine on a 100-row file). When you see `Undefined`, the message names the value and how many items/ratings tied, so you don't need to dig through the per-item log to explain it.
+
+## Gwet's AC1, printed alongside Krippendorff's Alpha for `Type of Source` (added 2026-07-24)
+
+`Type of Source`'s summary line and per-column log now also print **Gwet's AC1**, computed via the [`irrCAC`](https://pypi.org/project/irrCAC/) package, purely for comparison — it does not replace Krippendorff's Alpha, and no other column is affected.
+
+**Why this column, and why AC1 specifically:**
+
+- Gwet's AC1/AC2 was designed as a "paradox-resistant" alternative to Cohen's/Fleiss' Kappa — its formula divides by `(1 - pe)` rather than by `pe` itself, so it doesn't hit the same `0/0` singularity Krippendorff's Alpha does at zero variability. Verified directly: on the `94-SZ-Met_Gala.csv`/`94-AV-Met_Gala.csv` file, where Krippendorff's Alpha reports `Undefined` for `Type of Source` (see above), **AC1 evaluates cleanly to `1.0000`**.
+- AC1 uses strictly nominal (identity) weights: same category = full credit, different category = none. **AC2** is the same formula with a *weighted* matrix, appropriate when categories have a meaningful degree of closeness (ordinal/Likert-style data). `Type of Source`'s 6 categories don't — there's no defined "closeness" between `Named Person` and `Named Organization` — which is the same reasoning that led to `nominal_distance_metric` for this column's Krippendorff's Alpha (see "Why `Type of Source` isn't fuzzy or semantic" above). **AC2 is deliberately not implemented** — it would require a real design decision about which category pairs should get partial credit (e.g. `Anonymous Source`/`Unnamed Person`, both about unidentified sourcing) and is left as an open, separate question, not a default.
+- Gwet's AC-family is a fundamentally *categorical* agreement statistic, unlike Krippendorff's Alpha's ability to accept an arbitrary custom distance function. That flexibility is what makes the semantic columns (`Sourced Statements`, `Source Justification`, `Title of Source`) work at all with Krippendorff's Alpha — there's no established "continuous embedding distance" variant of Gwet's method, so it isn't a natural substitute there. `Name of Source` is a secondary, unexplored possibility (open-ended proper nouns, not a fixed taxonomy) but wasn't implemented here.
+
+**Missing-value handling matches Krippendorff's Alpha exactly, not by accident.** `compute_gwet_ac1_for_type_of_source` passes `MISSING_SENTINEL` through as one of the categories fed to `irrCAC`, rather than converting it to real `NaN`. This matters: `irrCAC` only drops a row if *both* raters are missing; a row with one real value and one `NaN` would otherwise be silently excluded from `pa` the same way `simpledorff` once silently dropped one-sided-missing rows (see the troubleshooting case below) — exactly the bug this project already spent real effort fixing for Krippendorff's Alpha. Passing the sentinel as a real category instead means the identity weight matrix naturally reproduces `_is_missing()`'s convention for free: same category (including both-missing) = agreement, one side missing = disagreement.
+
+**On the 100-row file**, where Krippendorff's Alpha has real data to work with (`Type of Source: 0.9655`), **AC1 comes out to `0.9766`** — close but not identical, which is expected: different formula, not a discrepancy to chase down.
 
 ## Troubleshooting case: Krippendorff's Alpha was silently dropping missing-data rows (found 2026-07-22)
 

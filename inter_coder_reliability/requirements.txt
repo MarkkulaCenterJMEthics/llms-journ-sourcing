@@ -2,6 +2,7 @@ pandas==2.2.3
 fuzzywuzzy==0.18.0
 python-Levenshtein==0.27.3
 simpledorff==0.0.2
+irrCAC==0.4.4
 sentence-transformers==5.6.0
 scikit-learn==1.7.2
-numpy==2.2.6
+numpy==1.26.4

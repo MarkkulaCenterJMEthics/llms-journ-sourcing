@@ -263,6 +263,44 @@ def compute_ss_gate_mask(df1, df2):
     ss2_found = ~df2['Sourced Statements'].apply(_is_missing)
     return (ss1_found & ss2_found).to_numpy()
 
+def compute_gwet_ac1_for_type_of_source(df1, df2, gate_mask):
+    """
+    Gwet's AC1 (nominal/identity weights) for Type of Source, computed
+    alongside Krippendorff's Alpha for comparison.
+
+    Unlike Krippendorff's Alpha, AC1 doesn't degenerate to a mathematically
+    undefined 0/0 when the sample has zero category variability -- its
+    formula divides by (1 - pe), not by pe itself (see readme.md's
+    "Undefined alpha scores" note for why Krippendorff's Alpha hits that).
+
+    Uses AC1, not the weighted AC2 variant: Type of Source's 6 categories
+    are nominal, not ordinal, so there's no defined "closeness" between two
+    different categories to weight by -- the same reasoning that led to
+    nominal_distance_metric for this column's Krippendorff's Alpha (see
+    readme.md's "Why Type of Source isn't fuzzy or semantic"). AC2 would
+    only become appropriate alongside a deliberate decision to treat some
+    category pairs (e.g. Anonymous Source / Unnamed Person) as closer than
+    others -- a separate design question, not done here.
+
+    MISSING_SENTINEL is passed through as one of the `categories` (not
+    converted to real NaN) so a row where only one annotator recorded a
+    Type of Source scores as a genuine disagreement under identity weights
+    (same category vs MISSING_SENTINEL = weight 0), matching _is_missing()'s
+    convention -- irrCAC's own missing-data handling only drops a row where
+    BOTH raters are NaN, so passing real NaN for a one-sided-missing row
+    would silently exclude it from the calculation instead, the same
+    silent-drop failure mode fixed for Krippendorff's Alpha (see the
+    troubleshooting case below).
+    """
+    from irrCAC.raw import CAC
+    ratings = pd.DataFrame({
+        'ann1': df1.loc[gate_mask, 'Type of Source'].values,
+        'ann2': df2.loc[gate_mask, 'Type of Source'].values,
+    })
+    categories = TYPE_OF_SOURCE_CATEGORIES + [MISSING_SENTINEL]
+    result = CAC(ratings, categories=categories).gwet()
+    return result['est']['coefficient_value']
+
 def prepare_data_for_column(df1, df2, column_name, gate_mask=None):
     """Prepare data for a specific column in long format for simpledorff."""
     if gate_mask is not None:
@@ -391,22 +429,33 @@ def main():
         }
 
         results = {}
+        gwet_ac1_type_of_source = None
 
         # Calculate ICR for all columns
         for column, distance_func in columns_config.items():
             mask = gate_mask if column in gated_columns else None
             alpha_score, undefined_reason = calculate_icr_for_column(df1, df2, column, distance_func, gate_mask=mask)
             results[column] = (alpha_score, undefined_reason)
-        
+
+            if column == "Type of Source":
+                # Printed alongside Krippendorff's Alpha for comparison, not as
+                # a replacement -- see compute_gwet_ac1_for_type_of_source for
+                # why AC1 (not the weighted AC2) and why this column only.
+                gwet_ac1_type_of_source = compute_gwet_ac1_for_type_of_source(df1, df2, gate_mask)
+                print(f"   (for comparison) Gwet's AC1 for 'Type of Source': {gwet_ac1_type_of_source:.4f}")
+
         # Print summary
         print(f"\n{'='*60}")
         print("SUMMARY RESULTS - KRIPPENDORFF'S ALPHA SCORES")
         print(f"{'='*60}")
         for column, (score, undefined_reason) in results.items():
             if pd.isna(score):
-                print(f"{column}: Undefined ({undefined_reason})")
+                line = f"{column}: Undefined ({undefined_reason})"
             else:
-                print(f"{column}: {score:.4f}")
+                line = f"{column}: {score:.4f}"
+            if column == "Type of Source":
+                line += f" (Gwet's AC1: {gwet_ac1_type_of_source:.4f})"
+            print(line)
         print(f"{'='*60}")
         
         # Print interpretation guide
