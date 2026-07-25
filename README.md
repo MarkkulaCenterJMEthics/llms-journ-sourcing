@@ -103,6 +103,12 @@ python inter_coder_reliability/v13all-icrclaude.py <annotator1.csv> <annotator2.
 
 Annotator CSV pairs are stored in `inter_coder_reliability/`. Combined sets are in `inter_coder_reliability/ICRcombined/`.
 
+See `inter_coder_reliability/readme.md` for the full methodology (how each column's agreement score is computed, worked examples, and Gwet's AC1 as an alternative measure for `Type of Source`) and `inter_coder_reliability/CLAUDE.md` for a developer-facing architecture reference.
+
 ## Ground Truth Data
 
-Human-annotated ground truth CSVs are in `benchmarking/GT data/`. Each file corresponds to one article and uses the same column structure as the LLM output CSVs. GT files have a 5-row header before the data rows.
+Human-annotated ground truth CSVs are in `benchmarking/GT data/`. Each file corresponds to one article and uses the same column structure as the LLM output CSVs, with a single header row.
+
+For stories with both a base-folder file and a `rev2025/` revision, the `rev2025/` version supersedes the original and should be treated as canonical.
+
+A 2026-07-24 data fidelity review corrected a small number of `Source Justification` values that stated only the medium of contact (e.g. "said by email"), which is no longer valid justification per current definitions — see commit `ae27e70` and `inter_coder_reliability/readme.md`'s data-quality-fix section for the same class of issue as found in the ICR CSVs.

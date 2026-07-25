@@ -34,7 +34,9 @@ python v10-extract-multiple-LLMs.py -m openai -s myexperiment -pv v55
 python eval_multi_llm_article.py
 
 # Inter-coder reliability between two human annotators
-# (needs inter_coder_reliability/requirements.txt installed too — see inter_coder_reliability/CLAUDE.md)
+# (needs inter_coder_reliability/requirements.txt installed too -- see inter_coder_reliability/CLAUDE.md
+# for architecture and inter_coder_reliability/readme.md for full methodology, worked examples, and
+# Gwet's AC1 as an alternative measure for Type of Source)
 python inter_coder_reliability/v13all-icrclaude.py <csv1> <csv2>
 ```
 
@@ -49,12 +51,12 @@ python inter_coder_reliability/v13all-icrclaude.py <csv1> <csv2>
 - Prompts v50+ use `save_json_and_csv()` (flat `Sourcing Table` array); pre-v50 use `orig_save_json_and_csv()` (nested by source type)
 
 **Step 2 — Evaluation** (`eval_multi_llm_article.py`):
-- Loads human ground truth CSVs from `benchmarking/GT data/`
-- GT CSVs have a 5-row header; data columns are: `Sourced Statements`, `Type of Source`, `Name of Source`, `Title of Source`, `Source Justification`
+- Loads human ground truth CSVs from `benchmarking/GT data/`. Single header row; data columns are: `Sourced Statements`, `Type of Source`, `Name of Source`, `Title of Source`, `Source Justification`. For stories with both a base-folder file and a `rev2025/` revision, the `rev2025/` version supersedes the original and should be treated as canonical.
 - Matches LLM sourced statements to GT statements via fuzzy/semantic scoring
 - Computes per-article and aggregate precision/recall/F1 for type, name, title
 - Saves metrics CSVs and comparison plots to `benchmarking/metrics/`
 - **Requires manual edits** to `main()` to set `human_gt_dir`, `llm_base_dirs`, `output_dir`, `model_names`, and `valid_article_ids` before running
+- A 2026-07-24 data fidelity review corrected a small number of `Source Justification` values that stated only the medium of contact (e.g. "said by email") rather than substantive justification — see commit `ae27e70` and `inter_coder_reliability/readme.md`'s data-quality-fix section for the same class of issue as found in the ICR CSVs
 
 ## Configuration
 
@@ -77,6 +79,8 @@ The six source types defined in the system prompt (v55):
 - **Unnamed Group of People** — a group the reporter witnessed or accessed (e.g. "protestors said…", "teachers chanted…")
 
 `SourceTypeMapping` in `eval_multi_llm_article.py` normalizes the many variant strings LLMs may return (e.g. "named person sources", "anonymous_groups") to internal canonical keys used during evaluation.
+
+`inter_coder_reliability/v13all-icrclaude.py` independently canonicalizes this same taxonomy for its own purposes (`TYPE_OF_SOURCE_VARIANTS`), built from a scan of human-annotated typos/casing/legacy naming across the ICR CSVs and `benchmarking/GT data/rev2025/`. This mapping is deliberately separate from `SourceTypeMapping` above — different data sources (human annotation vs. LLM output) tend to produce different variant strings, so fixing one mapping doesn't fix the other. See `inter_coder_reliability/readme.md`'s "Why `Type of Source` isn't fuzzy or semantic" section for why.
 
 ## Directory Layout
 
