@@ -11,6 +11,8 @@ pip install -r requirements.txt
 
 (This directory's `requirements.txt` is separate from the one in the repo root — it pulls in `simpledorff`, `sentence-transformers`, `scikit-learn`, and `irrCAC`, which the ICR script needs but the rest of the repo does not. `numpy` is pinned to `1.26.4`, not a newer release, because `irrCAC`'s packaged metadata hard-pins `scipy==1.12.0`, which caps `numpy<1.29.0` — verified this doesn't change any of the script's Krippendorff's Alpha results versus the newer numpy it replaced.)
 
+**If you already have the `llm-news` env set up from before:** `git pull` updates the code but does *not* update your installed packages. If a later `git pull` adds a new dependency to `requirements.txt` (as happened when `irrCAC` was added for Gwet's AC1), your code will be current but your environment won't be — showing up as a `ModuleNotFoundError` for whatever was just added. Fix: re-run `pip install -r requirements.txt` (with `llm-news` activated, from this directory) after every `git pull`. It's safe to re-run any time — it only installs what's missing or out of date.
+
 The first run downloads the `all-MiniLM-L6-v2` sentence-embedding model, so an internet connection is required at least once.
 
 **Windows:** run the commands above from **Anaconda Prompt** (installed alongside Miniconda/Anaconda). If you use PowerShell or VS Code's terminal instead, you'll need to run `conda init powershell` once and reopen the terminal before `conda activate` works.
