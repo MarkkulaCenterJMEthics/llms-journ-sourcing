@@ -82,6 +82,8 @@ The six source types defined in the system prompt (v55):
 
 `inter_coder_reliability/v13all-icrclaude.py` independently canonicalizes this same taxonomy for its own purposes (`TYPE_OF_SOURCE_VARIANTS`), built from a scan of human-annotated typos/casing/legacy naming across the ICR CSVs and `benchmarking/GT data/rev2025/`. This mapping is deliberately separate from `SourceTypeMapping` above — different data sources (human annotation vs. LLM output) tend to produce different variant strings, so fixing one mapping doesn't fix the other. See `inter_coder_reliability/readme.md`'s "Why `Type of Source` isn't fuzzy or semantic" section for why.
 
+**v59 schema in development (this branch):** adds a 6th CSV column, `Source Descriptors`, plus a narrower Anonymous Source vs. Unnamed Person boundary. See `development-of-v59.md` at the repo root for the full design reasoning (the credentialing/non-credentialing test, the atomic-word rule, why the Anonymous Source boundary is deliberately narrow and should not be loosened, and the GT migration punchlist) — the canonical prompt text itself lives in `system_prompt_v59.txt`/`.md` and `user_prompt_v59_csv.txt`/`.md` once those are added; where they disagree with `development-of-v59.md` on exact wording, the prompt files win.
+
 ## Directory Layout
 
 ```
@@ -98,6 +100,8 @@ inter_coder_reliability/ # ICR analysis between human annotators
 ## Prompt Versioning
 
 Prompts live in `new_prompts/` as `system_prompt_v{N}.txt` / `user_prompt_v{N}.txt`. Current active versions are v50–v55. The extraction script behavior branches at v50: v50+ expects a flat `Sourcing Table` array in the JSON response; pre-v50 expects nested source-type keys.
+
+**v59 (this branch, in development):** adds the `Source Descriptors` field described above — see `development-of-v59.md` for the design background. `system_prompt_v59.txt`/`.md` and `user_prompt_v59_csv.txt`/`.md` are the canonical prompt files once added to `new_prompts/`; extraction/eval script changes to handle the new 6-field schema are still pending (tracked in `development-of-v59.md`'s migration punchlist).
 
 ## Supported Models (via OpenRouter)
 
