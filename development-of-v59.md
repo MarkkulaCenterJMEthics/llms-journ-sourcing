@@ -92,6 +92,47 @@ Explicit design decision: **the rule stays narrow on purpose.** The goal of the 
 
 16. **[OPEN — design question, not yet scoped] Secondary-source signal for Named Organization ("reported earlier by," "first reported by," etc.).** `GT-2026/36-Whats-Wrong-With-Apple.csv` row 5/6 (see finding E): "Some details of Apple's changes to its Siri team and challenges were previously reported by Bloomberg and The Information" -- Bloomberg and The Information are named organizations, but specifically in the sub-case the system prompt already names as "secondary source" (another news organization the reporter is crediting for earlier reporting), distinct from an organization making its own statement or releasing its own material. v59 has no way to distinguish these two sub-cases of Named Organization from each other in the data today. The idea floated: a flag/signal on Named Organization rows triggered by cue text ("reported earlier by," "first reported by," "according to a report in," etc.) that, combined with Type = Named Organization, marks the row as a secondary-source citation. This is NOT yet designed -- open questions include whether this needs an actual schema change (a new column, or a controlled-vocabulary addition to Source Descriptors) or can be handled as a detection rule without changing the CSV shape at all, and how reliably an LLM could detect the cue text without false positives. Likely a v60/v61 feature, not v59.
 
+## LLM-benchmark-2026 project checklist
+
+Higher-level roadmap for after the GT-2026 (stories 1-43) migration work above is
+finished. Story-number boundaries below are rough/provisional -- the final
+cutoffs will be known once the expanded GT set is finalized. Not started yet;
+capturing now so the plan is written down before it's needed.
+
+1. **Prompt revisions pass.** Once the GT-2026 migration is fully done, work
+   through the accumulated Prompt Updates and Prompt Development checklist
+   items above and revise `system_prompt_v59`/`user_prompt_v59_csv` carefully.
+   Minor improvements and clarifications only -- not big design changes at
+   this stage. Sanity-test the revised prompts once or twice (not a full
+   benchmark run) before moving on.
+2. **Bring benchmark code up to v59 schema compliance.** A student fixes the
+   benchmark project's code -- both the LLM annotation extraction script and
+   the evaluation script -- to handle the v59 6-field schema (the new Source
+   Descriptors column, the narrower Anonymous Source/Unnamed Person boundary,
+   etc.) instead of the older 5-field schema they currently assume.
+3. **Re-run the benchmark on GT 1-43 only, on current models.** Once the code
+   is v59-compliant, re-run annotation + evaluation against just the existing
+   GT-2026 (stories 1-43) and reproduce/compare scores using current-generation
+   models. This is a smoke test that the annotation and eval code both work
+   correctly end-to-end on v59 -- deliberately done *before* bringing in the
+   much larger expanded GT set, so any code bugs surface on a small, familiar
+   dataset first.
+4. **In parallel: migrate the story 50-161 GT batch to v59.** This batch was
+   originally annotated under the older v55 schema and needs the same kind of
+   migration work done on GT-2026 (stories 1-43) in this document -- AS/UP
+   reclassification, Source Descriptors population, schema-violation cleanup,
+   etc. Stories from roughly 162+ are expected to already be annotated
+   natively in v59 (no migration needed, or minimal). One of us (not
+   necessarily Claude Code) handles this migration; it can proceed in
+   parallel with steps 1-3 above since it doesn't depend on the prompt
+   revisions or benchmark code fixes.
+5. **Expand the benchmark to the full GT set and get final scores.** Once the
+   v59-compliant GT set (roughly stories 1-180 to 1-200, wherever the final
+   count lands) is ready: run LLM annotation extraction only for the new
+   stories (roughly 50 through the end of the set -- GT-2026's 1-43 already
+   has annotation runs from prior work), but run evaluation across the *whole*
+   set (1 through the end) to get final aggregate scores.
+
 ## Where to go for more
 
 The canonical, sign-off'd prompt text is `system_prompt_v59.txt`/`.md` and `user_prompt_v59_csv.txt`/`.md`. If a migration script needs reasoning not covered here — a specific boundary case, why a particular Note is worded the way it is, or the fuller story behind any item on the punchlist — the full design discussion (including real worked examples from GT11, the OpenAI board story, the Vermont hair-discrimination bill story, and the Apple story) lives in a Claude.ai Project conversation and can be retrieved from there on request.
