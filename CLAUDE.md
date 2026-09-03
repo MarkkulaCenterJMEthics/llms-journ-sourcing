@@ -43,7 +43,7 @@ python inter_coder_reliability/v13all-icrclaude.py <csv1> <csv2>
 ## Pipeline Architecture
 
 **Step 1 — Extraction** (`v10-extract-multiple-LLMs.py`):
-- Reads `.txt` articles from `2025_input_stories/`
+- Reads `.txt` articles from `2025_input_stories/` — this is a **transient staging folder**, not a stable corpus store: `input_dir = "2025_input_stories"` is hardcoded (confirmed via git history to have always been the value, across every tracked and untracked script variant), and the workflow is to copy in whichever story/stories you want to run before invoking the script. It currently holds only a leftover subset from the last run. The stable, complete source for all 43 story texts is `extracted_articles_boilerplate/` (see Directory Layout below) — copy from there into `2025_input_stories/` before running extraction, don't treat the staging folder itself as the corpus.
 - Loads `new_prompts/system_prompt_{version}.txt` and `new_prompts/user_prompt_{version}.txt`
 - Sends each article to each model via OpenRouter (temperature=0.0)
 - Parses JSON from response; saves `.json` + `.csv` per article/model
@@ -87,9 +87,17 @@ The six source types defined in the system prompt (v55):
 ## Directory Layout
 
 ```
-2025_input_stories/      # Input articles (.txt) for v10 extraction
-extracted_articles/      # Older article set (v1–v30 era, no boilerplate)
-extracted_articles_boilerplate/  # Same articles with boilerplate text
+extracted_articles_boilerplate/  # CANONICAL: all 43 story texts (1-43), complete, no gaps. Body + metadata
+                          # header (Headline/Subtitle/Date/Publisher) -- despite the name, "boilerplate"
+                          # means the metadata header block, not junk/ad text. Confirmed byte-identical
+                          # to every corresponding file in extracted_articles/, 2025_extracted_articles/,
+                          # and 2025_input_stories/ (2026-09-03 audit). Use this as the source for any
+                          # story text; the expanded 44+ corpus should land here too.
+extracted_articles/      # Stories 1-30 only, body text without the metadata header. Superseded by
+                          # extracted_articles_boilerplate/ -- kept for history, don't add new stories here.
+2025_extracted_articles/ # Stories 35-43 only, byte-identical to extracted_articles_boilerplate/. Superseded.
+2025_input_stories/      # TRANSIENT STAGING folder for v10 extraction, not a corpus store -- see Step 1 note
+                          # above. Currently holds a leftover partial subset, not the full 1-43 set.
 benchmarking/GT data/    # Human-annotated ground truth CSVs
 benchmarking/metrics/    # Evaluation output (CSVs + plots)
 new_prompts/             # Versioned prompts (system_prompt_vXX.txt, user_prompt_vXX.txt)
