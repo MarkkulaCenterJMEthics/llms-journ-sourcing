@@ -47,9 +47,10 @@ Explicit design decision: **the rule stays narrow on purpose.** The goal of the 
 ### Migration tasks
 
 1. **[PARTIAL — done for GT-2026, not yet for the 50-150 batch] Reclassify GT Anonymous Source rows → Unnamed Person or Unnamed Group of People** wherever no qualifying disclosure (explicit or blanket-earlier-in-story) exists for that specific source. Done for GT-2026: 16 of 17 Anonymous Source rows reclassified to Unnamed Person (all confined to 2 stories — `32-openai_board.csv`, `36-Whats-Wrong-With-Apple.csv`); 1 row confirmed as genuine Anonymous Source with a real disclosure. All 7 pre-existing Unnamed Person rows checked for the reverse error (none found). Still pending for the newer 50-150 story batch once that GT exists.
-2. **[PARTIAL — 3 of 5 source types done for GT-2026] Populate the new Source Descriptors column** by re-deriving values from existing Title of Source / Name of Source / Source Justification text, applying the credentialing test and the atomic-word rule above.
-   - Done: Unnamed Group of People (58 rows), Unnamed Person (23 rows), Document (all 71 rows, across 3 passes — Name/Title-of-Source misuse cleanup, missed-title recovery, genre-word recovery).
-   - Remaining: Named Organization (109 rows), Named Person (383 rows).
+2. **[DONE — all 5 source types complete for GT-2026, not yet for the 50-150 batch] Populate the new Source Descriptors column** by re-deriving values from existing Title of Source / Name of Source / Source Justification text, applying the credentialing test and the atomic-word rule above.
+   - Unnamed Group of People (58 rows), Unnamed Person (23 rows), Document (71 rows, across 3 passes — Name/Title-of-Source misuse cleanup, missed-title recovery, genre-word recovery), Named Organization (109 rows, across 3 passes -- schema-violation audit, name recovery, category-word recovery, including 2 Note-12 joint-org splits), Named Person (384 rows, across 4 passes -- Pass 0 annotation-error audit, Pass 1 Title of Source credentialing-test audit, Pass 2 missed-title recovery, Pass 3 Source Descriptors recovery from SS/SJ text).
+   - Several real schema gaps and prompt-clarity issues surfaced along the way, logged individually in the Prompt Updates / Prompt Development / Schema gaps sections below rather than restated here.
+   - Not yet started for the 50-150 batch once that GT exists.
    - Not yet started for the 50-150 batch.
 
 ### Data quality findings
