@@ -305,9 +305,38 @@ distinct from the licensed practitioners they support.
 
 ---
 
+## Example 8 — UGOP Source Descriptors as an institutional/convened-body label, not just an identity word (illustrates item 13)
+
+**REAL.** `GT-2026/8-primary-recount-complete.csv`, row 1. Type: Unnamed Group of People (the recount panel's judges — originally miscategorized as Named Organization with "three-panel recount court" as Name of Source; the reclassification itself is a separate fix, this example is about the Source Descriptors value once correctly typed as UGOP).
+
+Full correct tuple:
+| Field | Value |
+|---|---|
+| Sourced Statements | "Later that evening, the judges confirmed that McGuire had indeed defeated Good by 370 votes—only four fewer than what was originally determined on election night." |
+| Type of Source | Unnamed Group of People |
+| Name of Source | (null — always null for this type) |
+| Title of Source | judges |
+| Source Descriptors | three-panel recount court |
+| Source Justification | "On August 1, a three-panel recount court reviewed the election returns that officials from 24 localities transported to the Goochland County Circuit Court" |
+
+(No incorrect companion needed — this is a positive precedent example. The
+"incorrect" state this row was actually in before its fix was a Type-of-Source
+misclassification, not a Source Descriptors error; see `development-of-v59.md`
+finding D for that separate fix. This example exists purely to demonstrate
+what a good Source Descriptors value looks like for this flavor of UGOP.)
+
+Illustrates: Source Descriptors for Unnamed Group of People can name an
+institutional or convened body defined by what it was formed to do (the panel
+was convened specifically to conduct the recount), not just an informal
+identity/action word like "protestors" or "attendees" — the definition
+already covers this, the example list just didn't demonstrate it before this
+addition.
+
+---
+
 ## Notes for whoever builds the final JSON few-shot set
 
-- Examples 1, 2, 3, 5, 6, and 7 are real, verified GT cases as of this
+- Examples 1, 2, 3, 5, 6, 7, and 8 are real, verified GT cases as of this
   writing — safe to use directly, field values pulled straight from the
   actual GT-2026 CSVs and cross-checked against the source article text
   files.
