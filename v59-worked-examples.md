@@ -334,9 +334,77 @@ addition.
 
 ---
 
+## Example 9 — Named Org Source Descriptors: category word is correct, function language is not (illustrates item 14)
+
+**REAL.** `GT-2026/42-Uber-Lyft-CA.csv`, row 8. Source: Gridwise.
+
+Full correct tuple:
+| Field | Value |
+|---|---|
+| Sourced Statements | "Even as average rideshare prices rose over 7% from 2023 to 2024, Uber driver earnings fell 3.4% and Lyft driver earnings dropped 13.9%, according to Gridwise, an app that helps drivers track mileage and optimize earnings." |
+| Type of Source | Named Organization |
+| Name of Source | Gridwise |
+| Title of Source | (null — never valid for Named Organization) |
+| Source Descriptors | app |
+| Source Justification | "an app that helps drivers track mileage and optimize earnings" |
+
+Full incorrect tuple as initially proposed during this migration pass (not
+what original GT had — GT had left Source Descriptors null; this is the
+*tempting wrong fix* that was considered and walked back before landing on
+the correct one above):
+| Field | Value |
+|---|---|
+| Sourced Statements | (same as above, unchanged) |
+| Type of Source | Named Organization |
+| Name of Source | Gridwise |
+| Title of Source | (null) |
+| Source Descriptors | **an app that helps drivers track mileage and optimize earnings** *(the full functional clause, wrongly compressed into this field instead of "app")* |
+| Source Justification | (null) |
+
+Supporting story-text material: none needed beyond this row's own text —
+Gridwise is mentioned exactly once in the entire article, only in this
+sentence (`extracted_articles_boilerplate/42-california's_uber_and_lyft_drivers_may_soon_be_for.txt`,
+line 24).
+
+Illustrates: "app" is a bare category word (functions the same way "tech
+company" would) and belongs in Source Descriptors; the fuller functional
+elaboration belongs in Source Justification instead, even though it's fully
+duplicative of text already visible in the Sourced Statement for this row —
+same overlap principle already established elsewhere (SD/SJ may legitimately
+share text).
+
+---
+
+## Example 10 — Named Org Source Descriptors: no bare category word present, correctly left null (illustrates item 14)
+
+**REAL.** `GT-2026/25-ballot-access-trans.csv`, row 5. Source: Movement Advancement Project.
+
+Full correct tuple:
+| Field | Value |
+|---|---|
+| Sourced Statements | "At least nine states in the past two years have explicitly regulated gender in this way, according to a tally by the Movement Advancement Project (MAP), which tracks LGBTQ+ policy." |
+| Type of Source | Named Organization |
+| Name of Source | Movement Advancement Project |
+| Title of Source | (null) |
+| Source Descriptors | (null) |
+| Source Justification | "the Movement Advancement Project (MAP), which tracks LGBTQ+ policy." |
+
+(No incorrect companion needed — this is a positive precedent example
+showing the correct null result. A tempting-but-wrong fix would be forcing
+"which tracks LGBTQ+ policy" — a function description, not a bare category
+word — into Source Descriptors.)
+
+Illustrates: when the text gives only function/mission language and no bare
+category word for the organization, Source Descriptors is correctly left
+null — the function/mission text belongs in Source Justification, not
+squeezed into Source Descriptors just because it's the only characterizing
+language available.
+
+---
+
 ## Notes for whoever builds the final JSON few-shot set
 
-- Examples 1, 2, 3, 5, 6, 7, and 8 are real, verified GT cases as of this
+- Examples 1, 2, 3, 5, 6, 7, 8, 9, and 10 are real, verified GT cases as of this
   writing — safe to use directly, field values pulled straight from the
   actual GT-2026 CSVs and cross-checked against the source article text
   files.
