@@ -220,14 +220,105 @@ scoped to a single row instead.)
 
 ---
 
+## Example 6 — Non-credentialed source's org affiliation goes to Source Justification, not Source Descriptors (illustrates item 17)
+
+**REAL.** `GT-2026/16-America's-Sleeping-Giant.csv`, row 13. Source: Janice Guzman.
+
+Full correct tuple:
+| Field | Value |
+|---|---|
+| Sourced Statements | ""I work for MassHealth as a Personal Care Attendant, helping to take care of people with disabilities and who are sick and need help with their daily activities. But I do not have health insurance myself," Guzman told reporters. "I am an essential worker living paycheck-to-paycheck and I have to make decisions every day. Do I put gas in my car or do I pay my bills? Or do I put food on my table?," said Janice Guzman, an organizer with the. "This is why I am organizing with the Massachusetts Poor People's Campaign. We have got to get our power as people, get back the mic, raise our voices and register voters. Forward together!"" *(note: "an organizer with the." is a genuine glitch in the original article's own text, not a GT/extraction error)* |
+| Type of Source | Named Person |
+| Name of Source | Janice Guzman |
+| Title of Source | (null) |
+| Source Descriptors | organizer |
+| Source Justification | "an organizer with the Massachusetts Poor People's Campaign and SEIU 1199" |
+
+Full incorrect tuple as originally found in GT (before this migration's fix):
+| Field | Value |
+|---|---|
+| Sourced Statements | (same as above, unchanged) |
+| Type of Source | Named Person |
+| Name of Source | Janice Guzman |
+| Title of Source | **Organizer, Massachusetts Poor People's Campaign** *(non-credentialing word "organizer" wrongly routed here, with a proper-noun org name comma-attached)* |
+| Source Descriptors | (null) |
+| Source Justification | **(null)** *(the org affiliation and a second org, SEIU 1199, were never captured anywhere)* |
+
+Supporting story-text material needed to derive the correct annotation (not
+in this row's own Sourced Statement — found one paragraph earlier, in Guzman's
+clean, ungarbled introduction sentence):
+> "Dozens of local leaders from the state chapters of the Poor People's
+> Campaign were on hand in person and virtually for the high spirited kick off
+> including **Janice Guzman, an organizer with the Massachusetts Poor People's
+> Campaign and SEIU 1199**."
+— `2025_input_stories/16-america_sleeping_giant.txt`, line 28 (exact line
+number as of the 2026-09 audit; re-verify if the file changes).
+
+Illustrates: Source Descriptors holds only the bare non-credentialing word
+("organizer"); the organizational affiliation — including a second org
+(SEIU 1199) that had never been captured anywhere before this fix — belongs
+in Source Justification instead. Note the national parent org ("Poor
+People's Campaign") already existed elsewhere in this same GT file as its own
+Named Organization row, but the *specific state chapter* and the *second org*
+did not exist anywhere in the data until this fix recovered them into SJ.
+
+---
+
+## Example 7 — Real professional role that is nonetheless non-credentialing (illustrates item 18)
+
+**REAL.** `GT-2026/18-wyoming-primary-dems.csv`, row 3. Source: Becky Blackburn.
+
+Full correct tuple:
+| Field | Value |
+|---|---|
+| Sourced Statements | ""Normally I just roll my eyes and walk away because I'm fighting a losing battle and I'm fully aware of that," she said. "Maybe that is why I'm well-liked, because I keep my mouth shut 10 times more than I want to."" |
+| Type of Source | Named Person |
+| Name of Source | Becky Blackburn |
+| Title of Source | (null) |
+| Source Descriptors | paralegal |
+| Source Justification | "A paralegal for the Republican county attorney, Blackburn hears a lot of right-wing views around town." |
+
+Full incorrect tuple as initially proposed during this migration pass (not
+what original GT had — GT had left both Title of Source and Source
+Descriptors null here; this is the *tempting wrong fix* that was considered
+and rejected before landing on the correct one above):
+| Field | Value |
+|---|---|
+| Sourced Statements | (same as above, unchanged) |
+| Type of Source | Named Person |
+| Name of Source | Becky Blackburn |
+| Title of Source | **Paralegal for the Republican county attorney** *(wrongly treated as credentialing — a paralegal doesn't hold the licensed authority the attorney they work for has)* |
+| Source Descriptors | (null) |
+| Source Justification | (same as above, unchanged) |
+
+Supporting story-text material: none needed beyond this row's own Source
+Justification — the reasoning here is about correctly classifying the
+*meaning* of "paralegal" (real, defined job; not independently licensed),
+not about recovering missing context from elsewhere in the article.
+
+Illustrates: a word can name a real, defined professional position and still
+be non-credentialing if the role doesn't carry independent licensed
+authority — paralegals assist attorneys but cannot independently represent
+clients in court or give formal legal advice. Same reasoning extends to
+other legal-adjacent support roles (legal secretary, law clerk) as a category
+distinct from the licensed practitioners they support.
+
+---
+
 ## Notes for whoever builds the final JSON few-shot set
 
-- Examples 1, 2, 3, and 5 are real, verified GT cases as of this writing —
-  safe to use directly, field values pulled straight from the actual GT-2026
-  CSVs and cross-checked against the source article text files.
+- Examples 1, 2, 3, 5, 6, and 7 are real, verified GT cases as of this
+  writing — safe to use directly, field values pulled straight from the
+  actual GT-2026 CSVs and cross-checked against the source article text
+  files.
 - Example 4 is explicitly hypothetical/invented — do not present it as a real
   case; either keep it clearly marked as illustrative, or replace it with a
   real GT row if one turns up.
-- More examples will be appended here as drafting continues on items 17, 18,
-  and any further Prompt Updates/Development checklist items in
-  `development-of-v59.md`.
+- Example 7's "incorrect" tuple is not what original GT had (GT simply left
+  both fields null) — it's the tempting-but-wrong fix that was proposed and
+  rejected mid-pass. Worth keeping as a few-shot pair anyway since it
+  demonstrates the specific reasoning error (mistaking a defined job for a
+  licensed one), but flag this provenance difference if the JSON format
+  distinguishes "actual GT error" from "proposed-and-rejected error."
+- More examples will be appended here as drafting continues on further Prompt
+  Updates/Development checklist items in `development-of-v59.md`.
