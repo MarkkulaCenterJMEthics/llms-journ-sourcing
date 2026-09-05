@@ -402,6 +402,61 @@ language available.
 
 ---
 
+## Example 11 — Source Justification carry-forward across non-adjacent paragraphs, and what does NOT count as SJ (illustrates Note 22/24's SJ carry-forward rule)
+
+**REAL test-annotation output, not GT.** RAI-004 (2026-09 CNBC test-annotation,
+"From Silicon Valley to DC, the tech world is suddenly obsessed with one
+concept in AI: Distillation"). Source: Anthropic (Named Organization), rows
+17-19 of three non-adjacent paragraphs.
+
+Row 17 (first appearance — establishes the Source Justification):
+| Field | Value |
+|---|---|
+| Sourced Statements | "However, Anthropic has a different view, because the company sees how its models are being used and has a burgeoning business to protect. In February, the company said its Claude capabilities were being distilled on an "industrial scale" by China's DeepSeek, Moonshot, and MiniMax, which used about 24,000 fake accounts, generating 16 million exchanges." |
+| Type of Source | Named Organization |
+| Name of Source | Anthropic |
+| Title of Source | (null — never valid for Named Organization) |
+| Source Descriptors | (null — no bare category word for Anthropic is stated in this text) |
+| Source Justification | "because the company sees how its models are being used and has a burgeoning business to protect" |
+
+Row 18 (next paragraph — no new SJ-qualifying text of its own):
+| Field | Value |
+|---|---|
+| Sourced Statements | "Anthropic, which is valued at close to $1 trillion and has aspirations of going public in the near future, said stopping illicit distillation was a matter of national security." |
+| Type of Source | Named Organization |
+| Name of Source | Anthropic |
+| Title of Source | (null) |
+| Source Descriptors | (null) |
+| Source Justification | "because the company sees how its models are being used and has a burgeoning business to protect" *(carried forward from row 17 — "valued at close to $1 trillion and has aspirations of going public" is company background, not a stakeholdership/relevance signal, so it does NOT independently qualify as SJ and does not replace the carried-forward value)* |
+
+Row 19 (a further paragraph later — still no new SJ-qualifying text):
+| Field | Value |
+|---|---|
+| Sourced Statements | ""Anthropic and other US companies build systems that prevent state and non-state actors from using AI to, for example, develop bioweapons or carry out malicious cyber activities," the company said in its February post. And stopping it requires "rapid, coordinated action among industry players, policymakers, and the global AI community."" |
+| Type of Source | Named Organization |
+| Name of Source | Anthropic |
+| Title of Source | (null) |
+| Source Descriptors | (null) |
+| Source Justification | "because the company sees how its models are being used and has a burgeoning business to protect" *(carried forward again, same reasoning as row 18)* |
+
+Supporting story-text material: none needed beyond the rows' own text — the
+question here is not about missing context, it's about correctly judging
+which candidate phrases qualify as SJ (per its own definition) versus which
+are just company background, and whether the earlier SJ should still carry
+forward when a later row doesn't independently qualify.
+
+Illustrates: (a) Note 22/24's SJ carry-forward rule working correctly across
+non-adjacent paragraphs, not just an immediately-following one; (b) a
+judgment call on the *boundary* of valid SJ — "valued at close to $1 trillion
+and has aspirations of going public" describes the company but doesn't
+explain why Anthropic is quoted specifically about distillation, so it's
+correctly excluded even though it appears in the same sentence as an
+attribution; (c) the earlier, still-relevant SJ value keeps carrying forward
+rather than being nulled out just because the current row's own text doesn't
+independently support a new one.
+
+---
+
 ## Notes for whoever builds the final JSON few-shot set
 
 - Examples 1, 2, 3, 5, 6, 7, 8, 9, and 10 are real, verified GT cases as of this
@@ -417,5 +472,11 @@ language available.
   demonstrates the specific reasoning error (mistaking a defined job for a
   licensed one), but flag this provenance difference if the JSON format
   distinguishes "actual GT error" from "proposed-and-rejected error."
+- Example 11 has a different provenance from the others: it's drawn from a
+  live v60 test-annotation run (RAI-004, a CNBC article not part of GT-2026),
+  not from an existing GT CSV. Field values were produced by actually applying
+  the current system_prompt_v60/user_prompt_v60 instructions to the article
+  text, not pulled from human-annotated ground truth — flag this distinction
+  if the JSON format needs to track example provenance.
 - More examples will be appended here as drafting continues on further Prompt
   Updates/Development checklist items in `development-of-v59.md`.
