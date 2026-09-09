@@ -457,6 +457,89 @@ independently support a new one.
 
 ---
 
+## Example 12 — Non-contiguous same-source statements within one paragraph, interrupted by a different source (illustrates the "contiguous" test in the Sourced Statement definition / Note 9)
+
+**REAL.** Story #109, "Waymo driverless cars are coming to the West Valley"
+(sanjosespotlight.com), from the user's "1-Examples for API completion" doc
+(this story is not yet in `extracted_articles_boilerplate/` or GT-2026; ICR
+annotation files for it exist at `inter_coder_reliability/109-SZ-Waymo-ann1.csv`
+and `109-AV-Waymo-ann2.csv`).
+
+Full correct tuples, in order of appearance (rows 2-4 are the same paragraph):
+
+Row 1 (separate, earlier paragraph):
+| Field | Value |
+|---|---|
+| Sourced Statement | "After meeting with a Waymo representative, Los Gatos Mayor Rob Moore said he was surprised to learn local municipalities have no authority over autonomous vehicle operations." |
+| Type of Source | Named Person |
+| Name of Source | Rob Moore |
+| Title of Source | Los Gatos Mayor |
+| Source Descriptors | (null) |
+| Source Justification | (null) |
+
+Row 2 (next paragraph, sentence 1 — Source A):
+| Field | Value |
+|---|---|
+| Sourced Statement | "Moore said Waymo previously told him Los Gatos could potentially see the company's autonomous vehicles operating within the next several months." |
+| Type of Source | Named Person |
+| Name of Source | Rob Moore |
+| Title of Source | Los Gatos Mayor |
+| Source Descriptors | (null) |
+| Source Justification | (null) |
+
+Row 3 (same paragraph, sentence 2 — Source B, interrupts A):
+| Field | Value |
+|---|---|
+| Sourced Statement | "Some residents have expressed concerns about how autonomous vehicles could affect traffic safety in Los Gatos, particularly as the town already deals with complaints surrounding reckless e-bike riders." |
+| Type of Source | Unnamed Group of People |
+| Name of Source | (null) |
+| Title of Source | (null) |
+| Source Descriptors | residents |
+| Source Justification | (null) |
+
+Row 4 (same paragraph, sentence 3 — back to Source A, explicitly re-attributed):
+| Field | Value |
+|---|---|
+| Sourced Statement | "Still, he said he sees potential safety benefits in autonomous vehicle technology." |
+| Type of Source | Named Person |
+| Name of Source | Rob Moore |
+| Title of Source | Los Gatos Mayor |
+| Source Descriptors | (null) |
+| Source Justification | (null) |
+
+Full incorrect tuple as proposed in the source doc (rows 2-4 wrongly collapsed into one):
+| Field | Value |
+|---|---|
+| Sourced Statement | "Moore said Waymo previously told him Los Gatos could potentially see the company's autonomous vehicles operating within the next several months. Some residents have expressed concerns about how autonomous vehicles could affect traffic safety in Los Gatos, particularly as the town already deals with complaints surrounding reckless e-bike riders. Still, he said he sees potential safety benefits in autonomous vehicle technology." |
+| Type of Source | Named Person *(wrong for the middle sentence)* |
+| Name of Source | Rob Moore *(wrong for the middle sentence)* |
+| Title of Source | Los Gatos Mayor *(wrong for the middle sentence)* |
+| Source Descriptors | (null) *(loses "residents" entirely)* |
+| Source Justification | (null) |
+
+Supporting story-text material: the middle sentence's UGOP status doesn't need
+outside context — "residents" is stated plainly in the sentence itself. The
+relevant context is structural: sentence 1 and sentence 3 of the paragraph are
+both Rob Moore, but sentence 2 (a different source, Unnamed Group of People)
+sits between them.
+
+Illustrates: the Sourced Statement definition's contiguous-merge rule ("in the
+same paragraph, there maybe multiple contiguous statements... attributed to
+the same source... one instance") only merges a same-source run when nothing
+else interrupts it. Sentence 1 and sentence 3 here are not contiguous — a
+different source's sentence breaks the run — so they stay separate rows (Row 2
+and Row 4) despite being the same source, in the same paragraph, with the same
+Title of Source. Treating "heterogeneous sourcing" within one paragraph as a
+single row (the incorrect tuple) silently drops the UGOP attribution and its
+"residents" descriptor entirely. Row 1 additionally illustrates the
+already-established different-paragraph rule (same source, different
+paragraph → separate instance, don't merge) — this example exercises both
+rules in one worked case. This resolution required no schema change and no
+new prompt language: the existing "contiguous" wording already covers the
+case correctly, once traced carefully.
+
+---
+
 ## Notes for whoever builds the final JSON few-shot set
 
 - Examples 1, 2, 3, 5, 6, 7, 8, 9, and 10 are real, verified GT cases as of this
@@ -478,5 +561,11 @@ independently support a new one.
   the current system_prompt_v60/user_prompt_v60 instructions to the article
   text, not pulled from human-annotated ground truth — flag this distinction
   if the JSON format needs to track example provenance.
+- Example 12 is also REAL but drawn from the user's separate "1-Examples for
+  API completion" doc (story #109, not yet migrated into
+  `extracted_articles_boilerplate/` or GT-2026) rather than from a GT CSV —
+  flag this provenance the same way as Example 11 if the JSON format tracks it.
 - More examples will be appended here as drafting continues on further Prompt
-  Updates/Development checklist items in `development-of-v59.md`.
+  Updates/Development checklist items in `development-of-v59.md`, and as the
+  user's "1-Examples for API completion" doc (and any further examples given
+  in that same doc format) get folded in.
