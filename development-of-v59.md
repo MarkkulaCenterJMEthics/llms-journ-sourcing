@@ -142,24 +142,18 @@ capturing now so the plan is written down before it's needed.
    signal) and 21 (Document vs. Named Organization for a company's own
    research paper) remain open design questions, deliberately deferred, not
    part of this pass.
-2. **[OPEN — blocked on exact JSON format spec from user] Build the few-shot
-   JSON payload for the OpenRouter API completions call, to ship alongside
-   `system_prompt_v60`/`user_prompt_v60_csv`.** Raw material is already
-   collected in `v59-worked-examples.md` (11 examples as of this writing —
-   10 real GT-derived cases plus 1 real v60 test-annotation case — each with
-   a full correct 6-field tuple, an incorrect companion tuple where real, and
-   verbatim quoted story-text context with file+line citations). Still
-   needed: (a) the user specifies the exact JSON shape the OpenRouter
-   completions payload expects (a prior smaller payload was tested per the
-   user's item-10-drafting-era message, but the exact target format for this
-   v59/v60-schema-compliant version hasn't been given yet); (b) once
-   specified, convert each `v59-worked-examples.md` entry into a
-   correct-annotation/incorrect-annotation JSON pair; (c) decide whether
-   HYPOTHETICAL examples (currently just Example 4) are excluded from the
-   final set or replaced with real cases first, per the file's own
-   provenance-tracking notes; (d) keep appending new examples to
-   `v59-worked-examples.md` as they surface (e.g., from student testing)
-   before this conversion happens, so nothing gets built from a stale subset.
+2. **[DONE] Build the few-shot JSON payload for the OpenRouter API completions
+   call, shipped alongside `system_prompt_v60`/`user_prompt_v60_csv`.** Built
+   as `few_shot_examples/examples_bank.json` (13 real, correct-only examples,
+   HYPOTHETICAL Example 4 excluded per decision), `few_shot_examples/
+   build_payload.py` (reference request-builder, verified end-to-end against
+   a real story), and `few_shot_examples/README.md` (design reasoning:
+   OpenRouter's unified multi-turn API, message ordering, correct-only vs.
+   contrastive tradeoff, and per-provider prompt-caching mechanics/support).
+   Sent to the student for API testing 2026-09-08. `v59-worked-examples.md`
+   now has 14 examples total (13 real + 1 hypothetical, unconverted); keep
+   appending new ones there as they surface, converting into the bank
+   afterward the same way.
 3. **Bring benchmark code up to v59 schema compliance.** A student fixes the
    benchmark project's code -- both the LLM annotation extraction script and
    the evaluation script -- to handle the v59 6-field schema (the new Source
