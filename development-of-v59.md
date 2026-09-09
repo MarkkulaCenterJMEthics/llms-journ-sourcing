@@ -166,16 +166,67 @@ capturing now so the plan is written down before it's needed.
    correctly end-to-end on v59 -- deliberately done *before* bringing in the
    much larger expanded GT set, so any code bugs surface on a small, familiar
    dataset first.
-5. **In parallel: migrate the story 50-161 GT batch to v59.** This batch was
-   originally annotated under the older v55 schema and needs the same kind of
-   migration work done on GT-2026 (stories 1-43) in this document -- AS/UP
-   reclassification, Source Descriptors population, schema-violation cleanup,
-   etc. Stories from roughly 162+ are expected to already be annotated
-   natively in v59 (no migration needed, or minimal). One of us (not
-   necessarily Claude Code) handles this migration; it can proceed in
-   parallel with steps 2-4 above since it doesn't depend on the JSON payload
-   or benchmark code fixes.
-6. **Expand the benchmark to the full GT set and get final scores.** Once the
+5. **[IN PROGRESS] Migrate the GT-II batch (82 files / 71 distinct stories,
+   roughly the story 50-161 range) to v59/60 schema.** This is the "50-161
+   GT batch" referenced in earlier drafts of this roadmap, now concretely
+   scoped: 82 XLSx files delivered by student annotators
+   (`~/Documents/GT-II-finishedfiles-XLSx/`, not yet in this repo), 71
+   distinct stories once de-duplicated, originally annotated under v55.
+   Needs the same kind of migration work done on GT-2026 -- Anonymous Source
+   reclassification (item 1), Source Descriptors population (item 2),
+   schema-violation cleanup -- applied to all 82 files individually (not
+   just 71), since 9 stories are double-coded by two independent annotators
+   (AV and SZ) and both copies of each need migrating separately and blind
+   to each other, not merged first. Explicitly watch for recurrence of items
+   7 (SS segmentation), 8 (SJ methodology-boilerplate false positives), 9
+   (unnamed org rep role), and 20/21/22 (secondary-source signal, Document
+   vs. Named Org self-reference, spokesperson backward-resolution) while
+   migrating -- use the same conservative manifest-text defaults already
+   established for these rather than blocking on them; log real recurring
+   instances, don't re-litigate the open design questions mid-migration.
+   - **[DONE] ICR-coverage sanity check, done before migration starts.**
+     Counted Sourced-Statement rows across the combined GT-I (43 stories,
+     648 rows) + GT-II (71 stories, ~1,205 rows) corpus against the rows
+     already double-coded for inter-coder reliability: 6 GT-I stories (#1
+     Harris Poll, #4 SFO Labor Day, #11 Nebraska felons/voting, #31 Vermont
+     bill, #36 Apple AI, #37 DogWalker) plus 9 GT-II stories (#52, #55, #76,
+     #94, #108, #109, #112, #122, #125 -- confirmed via GT-II's file-naming
+     convention: annotator AV always prefixes her filename with "#", SZ
+     never does, so a story number appearing in both naming forms is a
+     confirmed AV/SZ double-coded pair). Result: 15 of 114 combined stories
+     (13.2%) and 220 of 1,853 combined rows (11.9%) are ICR-covered --
+     comfortably inside the 10-20% academic coverage requirement, using
+     either measure. User can expand GT-III's dual-coding deliberately if a
+     future check comes in lower, rather than by default.
+   - Convert all 82 XLSx files to CSV first (fixing the known
+     `Type of source` -> `Type of Source` header-casing gotcha along the way
+     -- see `inter_coder_reliability/CLAUDE.md`'s Data Files section for the
+     same issue in the existing ICR CSVs).
+   - One of us (not necessarily Claude Code) handles the substantive
+     migration judgment calls, same as GT-2026.
+6. **[PENDING, after step 5] Update the ICR code for the v59/60 6-field
+   schema.** `v13all-icrclaude.py` and `icr_prep_proto.py`'s `REQUIRED_COLS`
+   both currently hard-code the 5-field v55 schema. Per user decision:
+   score all 5 existing columns properly against v59/60-*migrated* files
+   (not the raw v55 annotator files) -- rerunning ICR on the new schema was
+   the explicit reason for updating the code at all, so migration must
+   happen first (step 5), not after. Source Descriptors scoring is
+   explicitly deferred -- not urgent this month since it's a new field; the
+   existing 5-column approach can in principle be adapted for it later.
+7. **[PENDING, after step 6] Run ICR on the 15 migrated overlap pairs** (6
+   GT-I + 9 GT-II stories identified in step 5's coverage check) --
+   `icr_prep_proto.py` for row alignment first, then `v13all-icrclaude.py`.
+   These become the first ICR numbers computed under the v59/60 schema
+   rather than v55.
+8. **[PENDING, after step 7, do not conflate with step 5] Adjudicate the 9
+   GT-II double-coded stories into one canonical row set each** for the
+   actual benchmark GT, informed by where step 7's ICR results show
+   agreement vs. disagreement. This is downstream of and distinct from
+   migration itself (step 5 migrates both annotators' copies independently;
+   this step decides the single official version for each of those 9
+   stories) -- keep them as separate tracked steps so "migration is done"
+   doesn't get conflated with "the benchmark-ready canonical GT is done."
+9. **Expand the benchmark to the full GT set and get final scores.** Once the
    v59-compliant GT set (roughly stories 1-180 to 1-200, wherever the final
    count lands) is ready: run LLM annotation extraction only for the new
    stories (roughly 50 through the end of the set -- GT-2026's 1-43 already
