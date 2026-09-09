@@ -540,6 +540,89 @@ case correctly, once traced carefully.
 
 ---
 
+## Example 13 — Anonymous Source disclosure test, correctly applied (illustrates Note 4)
+
+**REAL.** Story #53, "U.S. blockade has turned back 6 merchant ships leaving
+Strait of Hormuz," from the user's "1-Examples for API completion" doc
+(Example 3 there).
+
+Full correct tuple:
+| Field | Value |
+|---|---|
+| Sourced Statement | ""Our net is the Gulf of Oman," said one of the officials, who explained that the U.S. warships involved wait for an opportune moment after observing vessels leave Iranian facilities and clear the strait before intercepting the merchant ships and forcing them to turn around." |
+| Type of Source | Anonymous Source |
+| Name of Source | (null) |
+| Title of Source | official |
+| Source Descriptors | (null) |
+| Source Justification | "The officials spoke on the condition of anonymity to disclose details about the operation that have not been made public." |
+
+Full incorrect tuple as proposed in the source doc:
+| Field | Value |
+|---|---|
+| Sourced Statement | (same as above, unchanged) |
+| Type of Source | Unnamed Person *(wrong — see below)* |
+| Name of Source | (null) |
+| Title of Source | official |
+| Source Descriptors | (null) |
+| Source Justification | (null) *(wrong — drops the disclosure text entirely)* |
+
+Supporting story-text material: the disclosure sentence sits earlier in the
+story, ahead of the quote itself: "The officials spoke on the condition of
+anonymity to disclose details about the operation that have not been made
+public."
+
+Illustrates: this is the Anonymous Source vs. Unnamed Person disclosure test
+(Note 4) working exactly as designed — a blanket disclosure stated earlier in
+the story ("spoke on the condition of anonymity") is what makes this
+Anonymous Source rather than the more general, residual Unnamed Person. The
+same disclosure sentence also doubles as valid Source Justification, since it
+explains the source's connection to the story (why they're being quoted
+anonymously at all) — it should not be left null just because it sits apart
+from the quote itself.
+
+---
+
+## Example 14 — Title of Source can be embedded inside Source Justification-shaped text, not just adjacent to the quote (illustrates Note 16)
+
+**REAL.** Story #94, "Venus Williams Leads the Conversation on Fashion as Art
+at the Met Gala 2026 Press Preview," from the user's "1-Examples for API
+completion" doc (Example 4 there).
+
+Full correct tuple:
+| Field | Value |
+|---|---|
+| Sourced Statement | ""I fell in love," Williams said at this morning's press conference for the 2026 Met Gala and exhibition, "Costume Art." "I fell in love with watching something come to life like that, and it gave me a deep appreciation for fashion at its core: how it's made, how it moves, how it makes you feel, and how it tells a story. And how, a lot of times, as we'll see, it makes history."" |
+| Type of Source | Named Person |
+| Name of Source | Venus Williams |
+| Title of Source | co-chair for the 2026 Met Gala |
+| Source Descriptors | (null) |
+| Source Justification | "Williams, who serves as a co-chair for the 2026 Met Gala, is no stranger to making history—for both her athletic prowess and her confident, expressive approach to dressing on and off the court. For that reason, she makes an ideal steward for this year's exhibition, which explores the way fashion and art have depicted the human body, and what that, then, says about the body's role in culture and society." |
+
+Full incorrect tuple as proposed in the source doc:
+| Field | Value |
+|---|---|
+| Sourced Statement | (same as above, unchanged) |
+| Type of Source | Named Person |
+| Name of Source | Venus Williams |
+| Title of Source | **(null)** *(missed — see below)* |
+| Source Descriptors | (null) |
+| Source Justification | "Williams, who serves as a co-chair for the 2026 Met Gala, is no stranger to making history for both her athletic prowess and her confident, expressive approach to dressing on and off the court." |
+
+Supporting story-text material: none needed beyond this row's own Source
+Justification text — the title is there, just embedded inside a longer
+descriptive sentence rather than sitting immediately next to the quote.
+
+Illustrates: Note 16 already states that Source Justification "may include
+the words annotated into Title of Source" — this is a worked case of that
+happening in practice. "Co-chair for the 2026 Met Gala" is stated only once
+in the whole passage, inside what otherwise reads as Source Justification
+prose, not next to "Williams said." A Title of Source extraction that only
+scans text immediately adjacent to the quote will miss it; the correct
+annotation still finds and extracts it separately into Title of Source,
+without removing it from Source Justification either.
+
+---
+
 ## Notes for whoever builds the final JSON few-shot set
 
 - Examples 1, 2, 3, 5, 6, 7, 8, 9, and 10 are real, verified GT cases as of this
@@ -565,6 +648,16 @@ case correctly, once traced carefully.
   API completion" doc (story #109, not yet migrated into
   `extracted_articles_boilerplate/` or GT-2026) rather than from a GT CSV —
   flag this provenance the same way as Example 11 if the JSON format tracks it.
+- Examples 13 and 14 are also REAL, drawn from the same "1-Examples for API
+  completion" doc as Example 12 (stories #53 and #94 respectively, neither
+  yet in `extracted_articles_boilerplate/` or GT-2026) — same provenance flag
+  as Example 12 applies.
+- Example 1 from the "1-Examples for API completion" doc (Waymo/Sandy Karp,
+  unnamed spokesperson resolved backward to a name given later in the story)
+  is deliberately NOT included here yet — logged instead as item 22 in
+  `development-of-v59.md`, pending the user's decision on how far the
+  backward-resolution guardrail should extend before it's drafted into a
+  prompt or added as a worked example.
 - More examples will be appended here as drafting continues on further Prompt
   Updates/Development checklist items in `development-of-v59.md`, and as the
   user's "1-Examples for API completion" doc (and any further examples given

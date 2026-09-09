@@ -1,0 +1,420 @@
+{
+  "$schema_note": "Runtime few-shot payload builder should read only article_excerpt and correct_annotation from each example. incorrect_annotation and explanation are documentation/QA fields, not sent to the model.",
+  "csv_field_order": [
+    "Sourced Statement",
+    "Type of Source",
+    "Name of Source",
+    "Title of Source",
+    "Source Descriptors",
+    "Source Justification"
+  ],
+  "examples": [
+    {
+      "example_id": "trump-title-carry-forward",
+      "source": {
+        "story": "GT-2026/25-ballot-access-trans.csv, row 6",
+        "provenance": "real",
+        "origin": "GT-2026 (extracted_articles_boilerplate/25-antitrans_laws.txt)"
+      },
+      "illustrates": "Title of Source is a global, article-wide value that carries forward to later sourced statements even when only a pronoun is used (item 12)",
+      "article_excerpt": "...served as breeding ground for the binary vision of the country embraced by former President Donald Trump and U.S. Sen. JD Vance, his running mate on the Republican ticket. [...] Anti-transgender rhetoric was front and center at the Republican National Convention in July, and Trump has taken to verbally targeting transgender people in his campaign. [...] He described Democratic vice presidential nominee Tim Walz recently as \"very heavy into the transgender world.\"",
+      "correct_annotation": [
+        {
+          "Sourced Statement": "He described Democratic vice presidential nominee Tim Walz recently as \"very heavy into the transgender world.\"",
+          "Type of Source": "Named Person",
+          "Name of Source": "Donald Trump",
+          "Title of Source": "former President",
+          "Source Descriptors": null,
+          "Source Justification": "Anti-transgender rhetoric was front and center at the Republican National Convention in July, and Trump has taken to verbally targeting transgender people in his campaign."
+        }
+      ],
+      "incorrect_annotation": [
+        {
+          "Sourced Statement": "He described Democratic vice presidential nominee Tim Walz recently as \"very heavy into the transgender world.\"",
+          "Type of Source": "Named Person",
+          "Name of Source": "former President",
+          "Title of Source": null,
+          "Source Descriptors": null,
+          "Source Justification": "Anti-transgender rhetoric was front and center at the Republican National Convention in July, and Trump has taken to verbally targeting transgender people in his campaign."
+        }
+      ],
+      "explanation": "A title (\"former President\") was captured as if it were the source's name, and no Title of Source was carried forward from the earlier introduction of Donald Trump several paragraphs before."
+    },
+    {
+      "example_id": "espinoza-no-title-inference",
+      "source": {
+        "story": "GT-2026/43-Chicago-immigration.csv, row 11",
+        "provenance": "real",
+        "origin": "GT-2026 (extracted_articles_boilerplate/43-chicago_immigration_judges_fired_by_trump_white_ho.txt)"
+      },
+      "illustrates": "Never borrow a title qualifier from the story's general topic or a different source's separately-stated title (item 17, violation half)",
+      "article_excerpt": "Jennifer Peyton, a former assistant chief immigration judge in Chicago, said she has watched more than 100 judicial colleagues be abruptly terminated... [...] Espinoza, who was sworn in as a judge in 2023, said at least 20 other judges who stood alongside her during that ceremony have been terminated. Espinoza was fired on July 11 by email while sitting on the bench, with no reason given.",
+      "correct_annotation": [
+        {
+          "Sourced Statement": "Espinoza, who was sworn in as a judge in 2023, said at least 20 other judges who stood alongside her during that ceremony have been terminated.",
+          "Type of Source": "Named Person",
+          "Name of Source": "Carla Espinoza",
+          "Title of Source": "judge",
+          "Source Descriptors": null,
+          "Source Justification": "Espinoza was fired on July 11 by email while sitting on the bench, with no reason given."
+        }
+      ],
+      "incorrect_annotation": [
+        {
+          "Sourced Statement": "Espinoza, who was sworn in as a judge in 2023, said at least 20 other judges who stood alongside her during that ceremony have been terminated.",
+          "Type of Source": "Named Person",
+          "Name of Source": "Carla Espinoza",
+          "Title of Source": "immigration judge",
+          "Source Descriptors": null,
+          "Source Justification": "Espinoza was fired on July 11 by email while sitting on the bench, with no reason given."
+        }
+      ],
+      "explanation": "\"Immigration judge\" is an unsupported inference: the article never attaches that fuller title to Espinoza specifically -- only \"judge\". A different named source (Jennifer Peyton) in the same story does hold the fuller title explicitly, but that does not transfer to Espinoza."
+    },
+    {
+      "example_id": "sutskever-coreference-carveout",
+      "source": {
+        "story": "GT-2026/32-openai_board.csv, row 17",
+        "provenance": "real",
+        "origin": "GT-2026 (2025_input_stories/32-openai_board.txt)"
+      },
+      "illustrates": "Resolving a plain reference (\"another member\") to an antecedent named one sentence earlier is ordinary coreference, not inference (item 17, carve-out half)",
+      "article_excerpt": "At one point, Mr. Altman, the chief executive, made a move to push out one of the board's members because he thought a research paper she had co-written was critical of the company. Another member, Ilya Sutskever, thought Mr. Altman was not always being honest when talking with the board. [...] At 5:15 a.m. on Monday, he posted on X, formerly Twitter, that \"I deeply regret my participation in the board's actions.\"",
+      "correct_annotation": [
+        {
+          "Sourced Statement": "At 5:15 a.m. on Monday, he posted on X, formerly Twitter, that \"I deeply regret my participation in the board's actions.\"",
+          "Type of Source": "Named Person",
+          "Name of Source": "Ilya Sutskever",
+          "Title of Source": "board member",
+          "Source Descriptors": null,
+          "Source Justification": null
+        }
+      ],
+      "incorrect_annotation": [
+        {
+          "Sourced Statement": "At 5:15 a.m. on Monday, he posted on X, formerly Twitter, that \"I deeply regret my participation in the board's actions.\"",
+          "Type of Source": "Named Person",
+          "Name of Source": "Ilya Sutskever",
+          "Title of Source": null,
+          "Source Descriptors": "member",
+          "Source Justification": null
+        }
+      ],
+      "explanation": "Leaving Title of Source null and routing bare \"member\" to Source Descriptors under-reads the guardrail: \"another member\" resolves to \"the board's members\" named one sentence earlier for this specific source, so \"board member\" is a supported Title of Source, not an inference."
+    },
+    {
+      "example_id": "roger-clark-multi-descriptor",
+      "source": {
+        "story": "GT-2026/2-Best-DDR-player.csv, row 5",
+        "provenance": "real",
+        "origin": "GT-2026"
+      },
+      "illustrates": "Multiple Source Descriptors captured together in one row, in order of appearance, none dropped in favor of the others (item 11)",
+      "article_excerpt": "\"He's the GOAT,\" according to friend Roger Clark, a San Francisco programmer and longtime DDR enthusiast. \"Everybody knows it. No one would deny it.\"",
+      "correct_annotation": [
+        {
+          "Sourced Statement": "\"He's the GOAT,\" according to friend Roger Clark, a San Francisco programmer and longtime DDR enthusiast. \"Everybody knows it. No one would deny it.\"",
+          "Type of Source": "Named Person",
+          "Name of Source": "Roger Clark",
+          "Title of Source": null,
+          "Source Descriptors": "friend, programmer, DDR enthusiast",
+          "Source Justification": "longtime DDR enthusiast. San Francisco programmer"
+        }
+      ],
+      "incorrect_annotation": null,
+      "explanation": "Positive precedent only -- no incorrect companion. Included to show three descriptors captured together without dropping any in favor of the others."
+    },
+    {
+      "example_id": "guzman-org-affiliation-to-sj",
+      "source": {
+        "story": "GT-2026/16-America's-Sleeping-Giant.csv, row 13",
+        "provenance": "real",
+        "origin": "GT-2026 (2025_input_stories/16-america_sleeping_giant.txt)"
+      },
+      "illustrates": "A non-credentialed source's organizational affiliation belongs in Source Justification, not appended to Source Descriptors (item 18)",
+      "article_excerpt": "Dozens of local leaders from the state chapters of the Poor People's Campaign were on hand in person and virtually for the high spirited kick off including Janice Guzman, an organizer with the Massachusetts Poor People's Campaign and SEIU 1199. [...] \"I work for MassHealth as a Personal Care Attendant, helping to take care of people with disabilities and who are sick and need help with their daily activities. But I do not have health insurance myself,\" Guzman told reporters. \"I am an essential worker living paycheck-to-paycheck and I have to make decisions every day. Do I put gas in my car or do I pay my bills? Or do I put food on my table?,\" said Janice Guzman, an organizer with the. \"This is why I am organizing with the Massachusetts Poor People's Campaign. We have got to get our power as people, get back the mic, raise our voices and register voters. Forward together!\"",
+      "correct_annotation": [
+        {
+          "Sourced Statement": "\"I work for MassHealth as a Personal Care Attendant, helping to take care of people with disabilities and who are sick and need help with their daily activities. But I do not have health insurance myself,\" Guzman told reporters. \"I am an essential worker living paycheck-to-paycheck and I have to make decisions every day. Do I put gas in my car or do I pay my bills? Or do I put food on my table?,\" said Janice Guzman, an organizer with the. \"This is why I am organizing with the Massachusetts Poor People's Campaign. We have got to get our power as people, get back the mic, raise our voices and register voters. Forward together!\"",
+          "Type of Source": "Named Person",
+          "Name of Source": "Janice Guzman",
+          "Title of Source": null,
+          "Source Descriptors": "organizer",
+          "Source Justification": "an organizer with the Massachusetts Poor People's Campaign and SEIU 1199"
+        }
+      ],
+      "incorrect_annotation": [
+        {
+          "Sourced Statement": "\"I work for MassHealth as a Personal Care Attendant, helping to take care of people with disabilities and who are sick and need help with their daily activities. But I do not have health insurance myself,\" Guzman told reporters. \"I am an essential worker living paycheck-to-paycheck and I have to make decisions every day. Do I put gas in my car or do I pay my bills? Or do I put food on my table?,\" said Janice Guzman, an organizer with the. \"This is why I am organizing with the Massachusetts Poor People's Campaign. We have got to get our power as people, get back the mic, raise our voices and register voters. Forward together!\"",
+          "Type of Source": "Named Person",
+          "Name of Source": "Janice Guzman",
+          "Title of Source": "Organizer, Massachusetts Poor People's Campaign",
+          "Source Descriptors": null,
+          "Source Justification": null
+        }
+      ],
+      "explanation": "The non-credentialing word \"organizer\" was wrongly routed to Title of Source with a proper-noun org name comma-attached, and the org affiliation (plus a second org, SEIU 1199) was never captured into Source Justification even though it appears in her introduction one paragraph earlier."
+    },
+    {
+      "example_id": "blackburn-paralegal-non-credentialing",
+      "source": {
+        "story": "GT-2026/18-wyoming-primary-dems.csv, row 3",
+        "provenance": "real",
+        "origin": "GT-2026"
+      },
+      "illustrates": "A real, defined professional position (paralegal) is still non-credentialing without independent licensed authority (item 19)",
+      "article_excerpt": "\"Normally I just roll my eyes and walk away because I'm fighting a losing battle and I'm fully aware of that,\" she said. \"Maybe that is why I'm well-liked, because I keep my mouth shut 10 times more than I want to.\" A paralegal for the Republican county attorney, Blackburn hears a lot of right-wing views around town.",
+      "correct_annotation": [
+        {
+          "Sourced Statement": "\"Normally I just roll my eyes and walk away because I'm fighting a losing battle and I'm fully aware of that,\" she said. \"Maybe that is why I'm well-liked, because I keep my mouth shut 10 times more than I want to.\"",
+          "Type of Source": "Named Person",
+          "Name of Source": "Becky Blackburn",
+          "Title of Source": null,
+          "Source Descriptors": "paralegal",
+          "Source Justification": "A paralegal for the Republican county attorney, Blackburn hears a lot of right-wing views around town."
+        }
+      ],
+      "incorrect_annotation": [
+        {
+          "Sourced Statement": "\"Normally I just roll my eyes and walk away because I'm fighting a losing battle and I'm fully aware of that,\" she said. \"Maybe that is why I'm well-liked, because I keep my mouth shut 10 times more than I want to.\"",
+          "Type of Source": "Named Person",
+          "Name of Source": "Becky Blackburn",
+          "Title of Source": "Paralegal for the Republican county attorney",
+          "Source Descriptors": null,
+          "Source Justification": "A paralegal for the Republican county attorney, Blackburn hears a lot of right-wing views around town."
+        }
+      ],
+      "explanation": "\"Paralegal\" is a real, defined job but not a credentialing one -- a paralegal doesn't hold the licensed authority the attorney they work for has (cannot independently represent clients in court or give formal legal advice), so it belongs in Source Descriptors, not Title of Source."
+    },
+    {
+      "example_id": "three-panel-recount-court-ugop",
+      "source": {
+        "story": "GT-2026/8-primary-recount-complete.csv, row 1",
+        "provenance": "real",
+        "origin": "GT-2026"
+      },
+      "illustrates": "UGOP Source Descriptors can name an institutional/convened body defined by what it was formed to do, not just an informal identity word (item 14)",
+      "article_excerpt": "On August 1, a three-panel recount court reviewed the election returns that officials from 24 localities transported to the Goochland County Circuit Court. Later that evening, the judges confirmed that McGuire had indeed defeated Good by 370 votes—only four fewer than what was originally determined on election night.",
+      "correct_annotation": [
+        {
+          "Sourced Statement": "Later that evening, the judges confirmed that McGuire had indeed defeated Good by 370 votes—only four fewer than what was originally determined on election night.",
+          "Type of Source": "Unnamed Group of People",
+          "Name of Source": null,
+          "Title of Source": "judges",
+          "Source Descriptors": "three-panel recount court",
+          "Source Justification": "On August 1, a three-panel recount court reviewed the election returns that officials from 24 localities transported to the Goochland County Circuit Court"
+        }
+      ],
+      "incorrect_annotation": null,
+      "explanation": "Positive precedent only. \"Three-panel recount court\" is what the group was formed to do, the same way \"protestors\" names what a crowd is doing -- a valid UGOP Source Descriptor, not just informal-identity words."
+    },
+    {
+      "example_id": "gridwise-category-word",
+      "source": {
+        "story": "GT-2026/42-Uber-Lyft-CA.csv, row 8",
+        "provenance": "real",
+        "origin": "GT-2026 (extracted_articles_boilerplate/42-california's_uber_and_lyft_drivers_may_soon_be_for.txt)"
+      },
+      "illustrates": "Named Organization Source Descriptors is a bare category word only; fuller functional elaboration belongs in Source Justification (item 15)",
+      "article_excerpt": "Even as average rideshare prices rose over 7% from 2023 to 2024, Uber driver earnings fell 3.4% and Lyft driver earnings dropped 13.9%, according to Gridwise, an app that helps drivers track mileage and optimize earnings.",
+      "correct_annotation": [
+        {
+          "Sourced Statement": "Even as average rideshare prices rose over 7% from 2023 to 2024, Uber driver earnings fell 3.4% and Lyft driver earnings dropped 13.9%, according to Gridwise, an app that helps drivers track mileage and optimize earnings.",
+          "Type of Source": "Named Organization",
+          "Name of Source": "Gridwise",
+          "Title of Source": null,
+          "Source Descriptors": "app",
+          "Source Justification": "an app that helps drivers track mileage and optimize earnings"
+        }
+      ],
+      "incorrect_annotation": [
+        {
+          "Sourced Statement": "Even as average rideshare prices rose over 7% from 2023 to 2024, Uber driver earnings fell 3.4% and Lyft driver earnings dropped 13.9%, according to Gridwise, an app that helps drivers track mileage and optimize earnings.",
+          "Type of Source": "Named Organization",
+          "Name of Source": "Gridwise",
+          "Title of Source": null,
+          "Source Descriptors": "an app that helps drivers track mileage and optimize earnings",
+          "Source Justification": null
+        }
+      ],
+      "explanation": "\"App\" is the bare category word and belongs in Source Descriptors; the fuller functional clause is a Source Justification match instead, even though it's fully duplicative of text already in the Sourced Statement."
+    },
+    {
+      "example_id": "map-no-category-word-null",
+      "source": {
+        "story": "GT-2026/25-ballot-access-trans.csv, row 5",
+        "provenance": "real",
+        "origin": "GT-2026"
+      },
+      "illustrates": "When only function/mission language is present with no bare category word, Source Descriptors is correctly left null (item 15)",
+      "article_excerpt": "At least nine states in the past two years have explicitly regulated gender in this way, according to a tally by the Movement Advancement Project (MAP), which tracks LGBTQ+ policy.",
+      "correct_annotation": [
+        {
+          "Sourced Statement": "At least nine states in the past two years have explicitly regulated gender in this way, according to a tally by the Movement Advancement Project (MAP), which tracks LGBTQ+ policy.",
+          "Type of Source": "Named Organization",
+          "Name of Source": "Movement Advancement Project",
+          "Title of Source": null,
+          "Source Descriptors": null,
+          "Source Justification": "the Movement Advancement Project (MAP), which tracks LGBTQ+ policy."
+        }
+      ],
+      "incorrect_annotation": null,
+      "explanation": "Positive precedent only. \"Which tracks LGBTQ+ policy\" is function language, not a bare category word -- correctly left out of Source Descriptors rather than force-fit there."
+    },
+    {
+      "example_id": "anthropic-sj-carry-forward",
+      "source": {
+        "story": "RAI-004, CNBC, \"From Silicon Valley to DC, the tech world is suddenly obsessed with one concept in AI: Distillation\"",
+        "provenance": "real (test-annotation output, not GT)",
+        "origin": "2026-09 test annotation, not yet in GT-2026"
+      },
+      "illustrates": "Source Justification carry-forward across non-adjacent paragraphs, and correctly excluding company background that isn't a stakeholdership/relevance signal (Note 22/24)",
+      "article_excerpt": "However, Anthropic has a different view, because the company sees how its models are being used and has a burgeoning business to protect. In February, the company said its Claude capabilities were being distilled on an \"industrial scale\" by China's DeepSeek, Moonshot, and MiniMax, which used about 24,000 fake accounts, generating 16 million exchanges. [...] Anthropic, which is valued at close to $1 trillion and has aspirations of going public in the near future, said stopping illicit distillation was a matter of national security. [...] \"Anthropic and other US companies build systems that prevent state and non-state actors from using AI to, for example, develop bioweapons or carry out malicious cyber activities,\" the company said in its February post. And stopping it requires \"rapid, coordinated action among industry players, policymakers, and the global AI community.\"",
+      "correct_annotation": [
+        {
+          "Sourced Statement": "However, Anthropic has a different view, because the company sees how its models are being used and has a burgeoning business to protect. In February, the company said its Claude capabilities were being distilled on an \"industrial scale\" by China's DeepSeek, Moonshot, and MiniMax, which used about 24,000 fake accounts, generating 16 million exchanges.",
+          "Type of Source": "Named Organization",
+          "Name of Source": "Anthropic",
+          "Title of Source": null,
+          "Source Descriptors": null,
+          "Source Justification": "because the company sees how its models are being used and has a burgeoning business to protect"
+        },
+        {
+          "Sourced Statement": "Anthropic, which is valued at close to $1 trillion and has aspirations of going public in the near future, said stopping illicit distillation was a matter of national security.",
+          "Type of Source": "Named Organization",
+          "Name of Source": "Anthropic",
+          "Title of Source": null,
+          "Source Descriptors": null,
+          "Source Justification": "because the company sees how its models are being used and has a burgeoning business to protect"
+        },
+        {
+          "Sourced Statement": "\"Anthropic and other US companies build systems that prevent state and non-state actors from using AI to, for example, develop bioweapons or carry out malicious cyber activities,\" the company said in its February post. And stopping it requires \"rapid, coordinated action among industry players, policymakers, and the global AI community.\"",
+          "Type of Source": "Named Organization",
+          "Name of Source": "Anthropic",
+          "Title of Source": null,
+          "Source Descriptors": null,
+          "Source Justification": "because the company sees how its models are being used and has a burgeoning business to protect"
+        }
+      ],
+      "incorrect_annotation": null,
+      "explanation": "\"Valued at close to $1 trillion and has aspirations of going public\" is company background, not a stakeholdership/relevance signal -- it does not independently qualify as SJ and must not replace the carried-forward value. The earlier SJ keeps carrying forward across both later, non-adjacent paragraphs."
+    },
+    {
+      "example_id": "waymo-rob-moore-non-contiguous",
+      "source": {
+        "story": "Story #109, \"Waymo driverless cars are coming to the West Valley\", sanjosespotlight.com",
+        "provenance": "real",
+        "origin": "1-Examples for API completion doc (Example 2); ICR files inter_coder_reliability/109-SZ-Waymo-ann1.csv, 109-AV-Waymo-ann2.csv"
+      },
+      "illustrates": "Same-source statements interrupted by a different source's sentence are not contiguous and stay separate rows, even within one paragraph (Sourced Statement definition / Note 9)",
+      "article_excerpt": "After meeting with a Waymo representative, Los Gatos Mayor Rob Moore said he was surprised to learn local municipalities have no authority over autonomous vehicle operations. The California Department of Motor Vehicles and California Public Utilities Commission handle all approvals.\n\nMoore said Waymo previously told him Los Gatos could potentially see the company's autonomous vehicles operating within the next several months. Some residents have expressed concerns about how autonomous vehicles could affect traffic safety in Los Gatos, particularly as the town already deals with complaints surrounding reckless e-bike riders. Still, he said he sees potential safety benefits in autonomous vehicle technology.",
+      "correct_annotation": [
+        {
+          "Sourced Statement": "After meeting with a Waymo representative, Los Gatos Mayor Rob Moore said he was surprised to learn local municipalities have no authority over autonomous vehicle operations.",
+          "Type of Source": "Named Person",
+          "Name of Source": "Rob Moore",
+          "Title of Source": "Los Gatos Mayor",
+          "Source Descriptors": null,
+          "Source Justification": null
+        },
+        {
+          "Sourced Statement": "Moore said Waymo previously told him Los Gatos could potentially see the company's autonomous vehicles operating within the next several months.",
+          "Type of Source": "Named Person",
+          "Name of Source": "Rob Moore",
+          "Title of Source": "Los Gatos Mayor",
+          "Source Descriptors": null,
+          "Source Justification": null
+        },
+        {
+          "Sourced Statement": "Some residents have expressed concerns about how autonomous vehicles could affect traffic safety in Los Gatos, particularly as the town already deals with complaints surrounding reckless e-bike riders.",
+          "Type of Source": "Unnamed Group of People",
+          "Name of Source": null,
+          "Title of Source": null,
+          "Source Descriptors": "residents",
+          "Source Justification": null
+        },
+        {
+          "Sourced Statement": "Still, he said he sees potential safety benefits in autonomous vehicle technology.",
+          "Type of Source": "Named Person",
+          "Name of Source": "Rob Moore",
+          "Title of Source": "Los Gatos Mayor",
+          "Source Descriptors": null,
+          "Source Justification": null
+        }
+      ],
+      "incorrect_annotation": [
+        {
+          "Sourced Statement": "Moore said Waymo previously told him Los Gatos could potentially see the company's autonomous vehicles operating within the next several months. Some residents have expressed concerns about how autonomous vehicles could affect traffic safety in Los Gatos, particularly as the town already deals with complaints surrounding reckless e-bike riders. Still, he said he sees potential safety benefits in autonomous vehicle technology.",
+          "Type of Source": "Named Person",
+          "Name of Source": "Rob Moore",
+          "Title of Source": "Los Gatos Mayor",
+          "Source Descriptors": null,
+          "Source Justification": null
+        }
+      ],
+      "explanation": "Collapsing all three sentences of the second paragraph into one row (attributed solely to Rob Moore) silently drops the Unnamed Group of People attribution and its \"residents\" descriptor entirely. Sentence 1 and sentence 3 are not contiguous -- a different source's sentence interrupts them -- so they must stay separate rows even though they're the same source in the same paragraph."
+    },
+    {
+      "example_id": "hormuz-anonymous-source-disclosure",
+      "source": {
+        "story": "Story #53, \"U.S. blockade has turned back 6 merchant ships leaving Strait of Hormuz\"",
+        "provenance": "real",
+        "origin": "1-Examples for API completion doc (Example 3)"
+      },
+      "illustrates": "Anonymous Source vs. Unnamed Person disclosure test working correctly, including the disclosure text itself as valid Source Justification (Note 4)",
+      "article_excerpt": "The officials spoke on the condition of anonymity to disclose details about the operation that have not been made public. [...] \"Our net is the Gulf of Oman,\" said one of the officials, who explained that the U.S. warships involved wait for an opportune moment after observing vessels leave Iranian facilities and clear the strait before intercepting the merchant ships and forcing them to turn around.",
+      "correct_annotation": [
+        {
+          "Sourced Statement": "\"Our net is the Gulf of Oman,\" said one of the officials, who explained that the U.S. warships involved wait for an opportune moment after observing vessels leave Iranian facilities and clear the strait before intercepting the merchant ships and forcing them to turn around.",
+          "Type of Source": "Anonymous Source",
+          "Name of Source": null,
+          "Title of Source": "official",
+          "Source Descriptors": null,
+          "Source Justification": "The officials spoke on the condition of anonymity to disclose details about the operation that have not been made public."
+        }
+      ],
+      "incorrect_annotation": [
+        {
+          "Sourced Statement": "\"Our net is the Gulf of Oman,\" said one of the officials, who explained that the U.S. warships involved wait for an opportune moment after observing vessels leave Iranian facilities and clear the strait before intercepting the merchant ships and forcing them to turn around.",
+          "Type of Source": "Unnamed Person",
+          "Name of Source": null,
+          "Title of Source": "official",
+          "Source Descriptors": null,
+          "Source Justification": null
+        }
+      ],
+      "explanation": "A blanket disclosure stated earlier in the story (\"spoke on the condition of anonymity\") satisfies the Anonymous Source disclosure test, so this is Anonymous Source, not the more general Unnamed Person -- and the disclosure sentence itself is valid Source Justification, not to be left null."
+    },
+    {
+      "example_id": "venus-williams-title-in-sj-text",
+      "source": {
+        "story": "Story #94, \"Venus Williams Leads the Conversation on Fashion as Art at the Met Gala 2026 Press Preview\"",
+        "provenance": "real",
+        "origin": "1-Examples for API completion doc (Example 4)"
+      },
+      "illustrates": "Title of Source can be embedded inside Source-Justification-shaped text, not just adjacent to the quote (Note 16)",
+      "article_excerpt": "\"I fell in love,\" Williams said at this morning's press conference for the 2026 Met Gala and exhibition, \"Costume Art.\" \"I fell in love with watching something come to life like that, and it gave me a deep appreciation for fashion at its core: how it's made, how it moves, how it makes you feel, and how it tells a story. And how, a lot of times, as we'll see, it makes history.\" Williams, who serves as a co-chair for the 2026 Met Gala, is no stranger to making history—for both her athletic prowess and her confident, expressive approach to dressing on and off the court. For that reason, she makes an ideal steward for this year's exhibition, which explores the way fashion and art have depicted the human body, and what that, then, says about the body's role in culture and society.",
+      "correct_annotation": [
+        {
+          "Sourced Statement": "\"I fell in love,\" Williams said at this morning's press conference for the 2026 Met Gala and exhibition, \"Costume Art.\" \"I fell in love with watching something come to life like that, and it gave me a deep appreciation for fashion at its core: how it's made, how it moves, how it makes you feel, and how it tells a story. And how, a lot of times, as we'll see, it makes history.\"",
+          "Type of Source": "Named Person",
+          "Name of Source": "Venus Williams",
+          "Title of Source": "co-chair for the 2026 Met Gala",
+          "Source Descriptors": null,
+          "Source Justification": "Williams, who serves as a co-chair for the 2026 Met Gala, is no stranger to making history—for both her athletic prowess and her confident, expressive approach to dressing on and off the court. For that reason, she makes an ideal steward for this year's exhibition, which explores the way fashion and art have depicted the human body, and what that, then, says about the body's role in culture and society."
+        }
+      ],
+      "incorrect_annotation": [
+        {
+          "Sourced Statement": "\"I fell in love,\" Williams said at this morning's press conference for the 2026 Met Gala and exhibition, \"Costume Art.\" \"I fell in love with watching something come to life like that, and it gave me a deep appreciation for fashion at its core: how it's made, how it moves, how it makes you feel, and how it tells a story. And how, a lot of times, as we'll see, it makes history.\"",
+          "Type of Source": "Named Person",
+          "Name of Source": "Venus Williams",
+          "Title of Source": null,
+          "Source Descriptors": null,
+          "Source Justification": "Williams, who serves as a co-chair for the 2026 Met Gala, is no stranger to making history for both her athletic prowess and her confident, expressive approach to dressing on and off the court."
+        }
+      ],
+      "explanation": "The title \"co-chair for the 2026 Met Gala\" is stated only once, embedded inside Source Justification prose rather than next to the quote -- a Title of Source extraction that only scans text immediately adjacent to the quote will miss it."
+    }
+  ]
+}
