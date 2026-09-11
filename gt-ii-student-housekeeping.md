@@ -1,11 +1,11 @@
-# GT-II Student Housekeeping List
+# GT Expansion (Summer 2026) Student Housekeeping List
 
 Running list of items for the student annotators to resolve. Not part of
 `development-of-v59.md` (that's the internal migration/schema punchlist) —
 this is action items to hand to the students directly, starting with the
 2026-09-11 meeting.
 
-1. **Missing double-coding for stories 60, 74, 98.** The GT Expansion List
+1. **Missing double-annotation for stories 60, 74, 98.** The GT Expansion List
    marks all three as dual-annotated (both AV and SZ columns populated), but
    only one annotator's file has actually been delivered for each so far.
    Need the second annotator's file for all three.
