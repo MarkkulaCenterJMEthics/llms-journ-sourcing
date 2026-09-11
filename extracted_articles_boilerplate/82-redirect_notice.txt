@@ -1,0 +1,13 @@
+==================================================
+Title: Redirect Notice
+Date: 2026-05-04
+URL: http://google.com/url?q=https://www.nytimes.com/2026/05/04/style/met-gala-jeff-bezos-backlash.html&sa=D&source=editors&ust=1784739797874930&usg=AOvVaw1omfy1O54NsDc_d4mVitrP
+==================================================
+
+Redirect Notice
+The previous page is sending you to
+https://www.nytimes.com/2026/05/04/style/met-gala-jeff-bezos-backlash.html
+.
+If you do not want to visit that page, you can
+return to the previous page
+.

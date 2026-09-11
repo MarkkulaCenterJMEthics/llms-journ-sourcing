@@ -1,0 +1,23 @@
+==================================================
+Title: Maine Gov. Janet Mills vetoes ban on data center construction
+Author: Jared Perlo; Sahil Kapur
+Date: 2026-04-24
+URL: https://www.nbcnews.com/politics/politics-news/maine-gov-janet-mills-says-no-ban-data-center-construction-rcna341341
+==================================================
+
+Maine Gov. Janet Mills on Friday vetoed a hallmark bill that would have halted the construction of large data centers in the New England state for 18 months.
+The governor was debating whether to sign the bill, let the bill become law without her signature or veto the legislation after the state Legislature passed the law last Tuesday. The bill was the first data center moratorium in the nation to successfully make its way through both chambers of a state legislature.
+“I believe it necessary and important to examine and plan for the potential impacts of large-scale data centers in Maine, as the use of artificial intelligence becomes more widespread,” Mills wrote in a press release Friday. Yet Mills said that she would veto the bill due to its failure to allow a data center project in Jay, Maine, to go ahead. Jay had been hit with the closure of a paper mill in 2023 that wiped out several hundred jobs.
+“This project — which is now under contract and which has received several permits — is expected to create more than 800 construction jobs, at least 100 high-paying permanent jobs, and would contribute substantial property tax revenue to the Town of Jay,” Mills wrote in the press release announcing her decision.
+Mills had told NBC News last Friday that she was reviewing the bill carefully, voicing hesitation about the absence of a carveout for the project in Jay, which she said needed the economic boost.
+The two-term governor is running for the U.S. Senate and locked in a primary race with progressive rival Graham Platner, who said in an interview last week that he believes she should sign the bill.
+Data centers — essentially warehouses full of advanced computers, networking technology and storage equipment — provide the computing infrastructure needed to power AI systems and cloud-computing services.
+Sponsored by state Rep. Melanie Sachs, the bill would have prevented the construction of any data center requiring more than 20 megawatts of power for the next year and a half. Mills had unsuccessfully attempted to secure an exception for the Jay data center.
+Many state and federal policymakers are increasingly critical of data centers, as more Americans sour on the rapid development of powerful AI. In a recent NBC News poll, only Iran and the Democratic Party were viewed less favorably than AI.
+Opposition to data center construction has emerged as a rare bipartisan issue in recent months, with data center bans proposed in states like New York, Oklahoma and Georgia.
+Opponents have cited the spiking energy bills and potential labor-market impacts of advanced AI systems as reasons to block the construction of new data centers. A highly cited December 2024 study from the Department of Energy found that data centers consumed 4.4% of America's energy supply in 2023, with the proportion slated to rise to up to 12% by 2028.
+AI skepticism has also triggered some federal efforts to rein in data center construction. Sen. Bernie Sanders, I-Vt., and Rep. Alexandria Ocasio-Cortez, D-N.Y., proposed a federal moratorium on new data centers in late March.
+Despite this dim view of AI, the global AI industry is set to spend almost $3 trillion on data centers and related infrastructure through 2028.
+Platner, a political novice who did not have a role in crafting the bill, called it a “Band-Aid” and said there must be federal standards for AI that incorporate labor protections.
+“It’s only an 18-month thing,” he said in an interview in the town of York. “My biggest problem with data centers and AI is that it’s very clear that AI is coming. And in every moment in human history where a new, transformative technology arises that increases productivity, when it’s left in the hands of corporate power, it is always used to disenfranchise people. It is always used to, frankly, impact workers negatively.”
+The winner of the primary between Mills and Platner will take on Sen. Susan Collins, R-Maine, whose campaign didn’t respond to a request for comment on the data center bill.

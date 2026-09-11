@@ -1,0 +1,60 @@
+==================================================
+Title: In Chicago, a Pentagon‑backed Lab Could Price Out Black Residents
+Author: Adam Mahoney
+Date: 2026-02-26
+URL: https://capitalbnews.org/chicago-quantum-campus-south-shore/
+==================================================
+
+CHICAGO — By the time Jerry Whirley heard that a $9 billion quantum-computing campus was coming a few blocks from his South Shore home, most of what he actually needed from his neighborhood, like somewhere to buy medicine or groceries, had already vanished.
+He didn’t learn about “Quantum City” from the governor or the mayor, but from a teach-in at his local library, where community activists explained that a Department of Defense–backed supercomputer complex was headed for them.
+“Why is there $9 billion for something nobody understands, for something people didn’t ask for,” Whirley, 38, remembers thinking, “when folks here just want a pharmacy, a grocery store, and a chance to stay in their home?”
+In 2024, state and city officials signed off on building the project atop contaminated land in one of Chicago’s remaining majority‑Black neighborhoods bordering Lake Michigan. Since then, they have committed hundreds of millions in taxpayer money in partnership with the Pentagon’s research arm to help build what they say will be the country’s first large‑scale quantum computer.
+Quantum computing — a largely unknown but rapidly advancing technology — could, in theory, be used for things like health care or infrastructure. The military wants to use this technology to more quickly deploy and detect missiles and drones, improve communication networks, and to detect or accelerate the use of cyber-attacks.
+In South Shore, where many already feel wedged between the Obama Presidential Center and a wave of speculative development, neighbors fear this project could accelerate rent hikes and property taxes, pushing out the Black families who held on through disinvestment. But when residents tried to use one of the few tools available to directly weigh in — petitioning for a ballot question asking whether the project should be paused until concerns about displacement, utility costs, and pollution were addressed — the city’s elections board blocked it.
+Residents told Capital B that their fight is less about opposing new technology than questioning why Black communities are rarely given a real say over what gets built in their neighborhood. So when the referendum was blocked, many saw it as proof that the same people most at risk of being uprooted are being shut out of shaping a multibillion‑dollar experiment in their own backyard.
+“We deserve resources, and we also, most importantly, deserve autonomy over our own communities,” said South Shore resident Jayna McGruder. “We’ve been asking for jobs and housing and health care for generations, and instead they’re giving us a war computer.”
+Eliza Glezer, assistant deputy director for the Illinois Department of Commerce and Economic Opportunity, rebutted the claim that residents have not had a fair chance to share their opinions about the project. The project has gone through “robust, ongoing community engagement,” the representative said.
+“This process ensures residents have a real voice in shaping how neighborhood revitalization happens,” Glezer added. The office of Chicago Mayor Brandon Johnson did not respond to requests for comment.
+A billion‑dollar bet, from 79th Street to Washington
+As temperatures plunged to -11 degrees, a bus wheezed to a stop on 79th Street and Exchange Avenue in mid January. On one side of the street, a row of shuttered shops sat. On the other, a liquor store and a chicken spot were open and busy.
+From here the quantum campus can feel abstract, but it is rooted in a very concrete policy story.
+In 2018, Congress passed the National Quantum Initiative Act, setting up a decade‑long program to coordinate federal spending on quantum research across the Department of Energy and defense agencies. Since then, the Pentagon has framed quantum as a matter of national security on par with early nuclear and space programs.
+“If we lose this battle to our rivals in the world, and I’m speaking specifically for example, China, that will have major repercussions for our national security that none of us want to see,” Gov. JB Pritzker said.
+On the South Side, that has meant stacking federal research grants, state capital dollars, and local incentives. In all, more than $1 billion in public and private money has been committed to the campus. It will host the companies PsiQuantum, Pasqal, Infleqtion, IBM, and the Australian firm Diraq.
+The state’s quantum bet is also about jobs, and supporters say the federal subsidies are necessary. Residents said the numbers are small — and lopsided.
+According to state records and company announcements, the supercomputer complex will employ roughly 250 people. However, Glezer, the state official, told Capital B that “once the campus is up and running,” investments attached to it “will create thousands of high-quality jobs, [and] support billions in economic output over the next decade.”
+Whirley said he has heard that kind of language before but is still not exactly sure what quantum computing means for his life.
+Quantum computing harnesses atoms and quantum physics, which allow it to crack certain problems far faster than any machine running today’s code. If a regular computer attempts to complete a task like trying keys one by one to open a lock, a quantum computer is more like trying many keys at once.
+Scholars note that quantum tools could theoretically help tackle health care access, climate resilience, and grid failures that disproportionately hurt Black neighborhoods, but only if Black communities actually shape how and for whom the technology is built. Simply giving communities access to advanced computing does not deliver justice, experts said.
+“I am all for advancement, but Americans are sloppy,” resident Stephanie Williams said. “Everybody wants it today, give it to me now — and that’s what I see this as, a fast‑food environment for a city that could really, really come up on infrastructure, education, environmental issues, and keeping Black people here.”
+As places like San Francisco, Seattle, Austin, Texas, and Charlotte, North Carolina, have lobbied to become tech hubs, thousands of residents have been pushed from their homes.
+For many South Siders, those fears don’t exist in a vacuum. Just a few blocks from the proposed quantum site, they sit alongside what’s already happening around the Obama Presidential Center with rising property taxes and rent hikes.
+“People deserve to have agency in their homes. We’re the folks that make up this place,” said Andrew Torrence, a South Shore resident.
+Torrence also spoke to what he said were larger politics at play. Last year, the National Guard was deployed in Chicago, leading to violent arrests and two shootings at the hands of law enforcement.
+“You have Black and brown folks — immigrants — right now shuttered in their homes because they’re afraid, and then there’s this supercomputer being funded by the military in these same neighborhoods.”
+This winter, the fear of law enforcement and gentrification converged when a South Shore landlord allegedly called federal immigration agents on his own tenants in order to “illegally force the Black and Hispanic tenants” from the building. The state has launched a housing discrimination investigation.
+A Pentagon‑backed lab on a site that could price out the last residents
+The quantum complex would sit on a massive site where the South Works steel mill once employed more than 20,000 people before closing in the early 1990s. It left behind lead and oil contamination, with some areas so polluted the soil cannot be cleaned to modern residential standards.
+People ended up sick, and with the jobs and tax base gone, the hospital and schools left, too. Residents worry that the Pentagon‑backed lab will be the final blow.
+“I think that people need to know that the people that they will be displacing aren’t going to have options,” said Williams, 56. “This is going to be the end of the road for them.”
+Likewise, for those that remain, the environmental and community health impacts of these supercomputers are worrisome.
+The growth of American supercomputers is leading to new fossil‑fuel pollution because of high electricity demand, depleting important water sources, and the mining for rare earth metals. All of which, advocates argue, are being concentrated in already overburdened communities.
+In the Great Lakes region, a growing share of the nation’s data centers have begun sucking dry the same freshwater that supplies drinking water to tens of millions of people.
+“We are living in a sick environment,” Williams added. “We should be leading the champion fight on environmental health issues unless you want Lake Michigan to dry up to the size of a bathtub.”
+Choosing whose future gets built
+In late 2025, residents organizing under the name Southside Together gathered signatures for a referendum that would have asked voters in three precincts whether city and state officials should pause work on the campus until concerns about displacement, utility costs, and environmental impacts were addressed.
+The petition met the signature threshold, but in January the Chicago Board of Elections voted to strike it from the March ballot, agreeing with attorneys who argued the question violated a state rule that advisory measures must cover only one subject.
+“We did everything we’re told is ‘how you participate,’” McGruder said. “And then they basically said, ‘No, you don’t even get to ask your neighbors what they want.’”
+Mayor Johnson, who campaigned on fighting environmental racism, has promised the machine will “revolutionize the fields of medicine and clean energy,” even as residents worry about the immediate impacts.
+“If you say you’re for Black and brown communities and for the environment, your actions have to match,” Williams said.
+Residents told Capital B they want funding funneled into increasing access to nutritious food and medicine, Black‑owned small businesses and co‑ops, and rehabbing vacant buildings into affordable condos.
+On a clear but chilly day, a group of anglers lined the cracked concrete slabs outside the construction site, casting for salmon in the water.
+For the people who already gather there with fishing poles, kids, and folding chairs, the question is whose future gets protected, like Whirley’s young children.
+He said he doesn’t know if his community will win, but the momentum is growing — even in his own home. “My daughter watched me on TV talking about this, and now she wants to join the campaign.”
+McGruder said it is simple: “We just need them to stop deciding for us. Once you build something like this, you don’t get to undo it.”
+Read More:
+- A Rural S.C. County Quietly Approved a $2B Data Center During the Winter Storm
+- After a White Town Rejected a Data Center, Developers Targeted a Black Area
+- America’s Digital Demand Threatens Black Communities with More Pollution
+- Meta’s AI Data Center Sparks a Crisis in the Bible Belt Over the Power of Faith
+- From Mississippi to Maryland, Black Communities Are Taking On Big Tech

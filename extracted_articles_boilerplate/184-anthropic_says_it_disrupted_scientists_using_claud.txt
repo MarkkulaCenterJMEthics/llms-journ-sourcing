@@ -1,0 +1,22 @@
+==================================================
+Title: Anthropic says it disrupted scientists using Claude AI for possible biological weapons development
+Author: Lauren Fichten
+Date: 2026-09-10
+URL: https://www.cbsnews.com/news/anthropic-ai-claude-biological-weapons-development/
+==================================================
+
+Anthropic says it disrupted scientists using Claude AI for possible biological weapons development
+Anthropic said Thursday it blocked scientists who used its Claude AI models "in ways that could support biological weapons development."
+The revelation was shared in a lengthy report that also divulged other harmful activity involving surveillance, scams, conventional weapons development and propaganda. The cases in the report are examples of "the most notable and novel threat activity" identified by Anthropic so far, the company said. Threat actors included criminals, suspected state-sponsored groups, spyware vendors and state propaganda institutions, the report said.
+Anthropic shared five cases involving activity that had the potential to support the development of biological weapons. It called biological misuse "one of the most serious risks of frontier AI models."
+The company said the cases identified "provide evidence of capability" of the AI models, but "cannot concretely demonstrate that such capability would ever be used to develop biological weapons in the real world."
+The people involved in these cases are working scientists, whom Anthropic chose not to identify. The company said it can't "assert that they intended harm."
+"When we detected and investigated these cases, we banned the users' accounts and incorporated our investigative findings into our frontier model safeguards, enforcement, and threat intelligence processes to better prevent, detect, and disrupt these activities in the future," the report says.
+Recent, more advanced models like Claude Fable 5 contain stronger safeguards than earlier models and restrict access to "a wide range of dual-use biological research queries," the report says, noting that the biological capabilities of AI can be used both for beneficial and harmful purposes.
+"The same information that can be used to develop a biological weapon could also be used to develop, for example, a vaccine or a cure for a disease," the company said.
+Propaganda and surveillance
+Anthropic also said that it identified and removed accounts using Claude for influence operations campaigns to shape public opinion, including three Iranian state-aligned accounts.
+In these cases, each operation was run by an actor working within or on behalf of an Iranian state propaganda institution, the company said. Claude was used to build content, make posts seem like they were from independent news sources and to proliferate content across social media platforms like X, Instagram and TikTok.
+One Iran-nexus threat actor used Claude to develop targeting recommendations against U.S. naval forces in the region, Anthropic said. The same account designed software for a domestic mass-surveillance platform for Iranian state systems.
+Claude was also used to build and run surveillance operations by actors in China and West Africa, and in some cases, to identify targets. Anthropic said it identified cases where AI was being used in place of an engineering workforce.
+In China, three accounts aligned with the PRC municipal security service used Claude for surveillance and transnational repression, including a municipal bureau that profiles overseas activists and organizations.
