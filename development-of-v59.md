@@ -42,6 +42,109 @@ The rule: We are now defining Anonymous Source as one that requires an actual di
 
 Explicit design decision: **the rule stays narrow on purpose.** The goal of the schema is to measure how transparent news organizations actually are about disclosing anonymity — granular, per-instance disclosure vs. loosely running with unnamed sourcing, letting the reader infer anonymity. Loosening the rule to match current GT/annotator practice would destroy the exact measurement the schema exists to produce. **Do not "fix" this by making Note 4 (system prompt) more permissive.** The correct fix runs the other direction — see punchlist below.
 
+## GT dataset upgrade/migration from schema v55 to v59/60
+
+This is the actual step-by-step process for upgrading a batch of GT stories
+from the older 5-field schema (v55) to the current 6-field schema (v59/60).
+It's written down here because it was reconstructed after the fact from the
+GT-2026 (stories 1-43) migration commit history rather than planned out in
+advance — this section is what should be *followed from the start* for
+every subsequent batch (GT-II and beyond), instead of re-deriving it again.
+
+Student annotators should read this before doing a final human review pass
+on files that have gone through this process: it explains what kinds of
+changes to expect and why, and where genuinely uncertain calls get flagged
+rather than silently decided.
+
+### Phase 0 — Structural setup (no story text needed yet)
+
+Purely mechanical, can happen before any article text is in hand:
+
+1. Add the 6th column, Source Descriptors, as an empty field to every
+   story's CSV (already done once for the whole schema; for a new raw batch
+   arriving in spreadsheet form, this means converting each file to CSV
+   with the current canonical header and an empty Source Descriptors
+   column added).
+2. Normalize file-level inconsistencies while converting: header casing
+   and singular/plural variants (e.g. "Sourced Statement" vs "Sourced
+   Statements"), inconsistent header row position, stray extra columns
+   that aren't part of the six-field schema (kept, not discarded, but
+   tracked separately rather than mixed into the main file).
+
+### Phase 1 — Anonymous Source reclassification (corpus-wide, before anything else)
+
+For every row currently typed Anonymous Source, check for an actual
+disclosure statement in the article text — explicit ("spoke on condition of
+anonymity") or a blanket statement earlier in the story covering multiple
+sources (see "The Anonymous Source / Unnamed Person boundary" above for the
+full reasoning on why this stays narrow). No disclosure found → reclassify
+to Unnamed Person (or Unnamed Group of People if the source is a group).
+
+This runs across the *whole* batch before any Source Descriptors work,
+since it determines which canonical type a row even belongs to before the
+next phase's type-by-type work begins.
+
+### Phase 2 — Source Descriptors population, one Type of Source at a time
+
+Done in this order deliberately — simplest/fewest-rules types first,
+highest-volume/most-nuanced type last:
+
+1. **Unnamed Group of People** — move any common-noun values sitting in
+   Name of Source (a legacy v55 misuse — this field must be null for this
+   type) into Title of Source or Source Descriptors correctly, per the
+   credentialing test; backfill Source Descriptors from Source
+   Justification text where the descriptor word is present there but
+   wasn't captured into its own field.
+2. **Unnamed Person** — same credentialing-test-based population of Title
+   of Source / Source Descriptors.
+3. **Document** (3 passes): Pass 1 — fix Name/Title of Source misuse
+   (schema violations) and populate Source Descriptors; Pass 2 — recover
+   any missed Name of Source values by re-checking the article text for a
+   stated document title; Pass 3 — recover genre-word descriptors (memo,
+   report, lawsuit, etc.) from Sourced Statement/Source Justification text
+   not yet captured.
+4. **Named Organization** (3 passes): Pass 1 — schema-violation audit
+   (clear invalid Title of Source values, since this type never carries
+   one; recover full organization names from text; reclassify informal/
+   generic references — e.g. "police" with no formal name stated at that
+   point — to Unnamed Person/UGOP rather than inferring the formal name
+   from elsewhere in the article; split rows jointly crediting multiple
+   organizations into one row per organization; fix naming
+   inconsistencies); Pass 2 folded into name recovery; Pass 3 — bare
+   category-word Source Descriptors population (e.g. "nonprofit," "app,"
+   "think tank" — not fuller function/mission language, which belongs in
+   Source Justification instead).
+5. **Named Person** (4 passes, largest volume): Pass 0 — general
+   annotation-error audit (formatting artifacts, Name/Title of Source
+   mix-ups, full-name recovery, joint-credit row splits, correcting
+   over-inferred titles); Pass 1 — credentialing-test audit on Title of
+   Source (non-credentialing words wrongly sitting in Title of Source,
+   including organizational-affiliation text that belongs in Source
+   Justification instead); Pass 2 — targeted missed-title recovery on
+   specific flagged candidates; Pass 3 — systematic Source Descriptors
+   recovery from Sourced Statement/Source Justification text, done in
+   batches.
+
+### Running practice throughout all of the above
+
+Not a discrete step — applies constantly across every phase:
+
+- **Always check the actual article text, not just the annotation cells.**
+  Most of the real fixes above (recovering a missed title, confirming an
+  organization's formal name is or isn't actually stated, judging whether
+  a descriptor word is genuinely present) require reading the source
+  article, not just reasoning from what's already in the CSV row.
+- **Log real findings as they're found, rather than deciding silently.**
+  Genuine ambiguities, schema gaps, or new design questions get written
+  down (in this file's punchlist, for the internal/schema-facing side of
+  this work) instead of being resolved unilaterally mid-pass. If a batch
+  turns up a pattern not covered by an existing rule, that's a signal to
+  stop and flag it, not to guess and move on.
+- **Every fix should be traceable to specific reasoning**, not just a
+  changed value — this is what lets a human reviewer (including the
+  original student annotator, doing a final check on their own story)
+  understand *why* something changed, not just *that* it changed.
+
 ## Migration punchlist
 
 ### Migration tasks
