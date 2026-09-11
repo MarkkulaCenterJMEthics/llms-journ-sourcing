@@ -25,7 +25,7 @@ this is action items to hand to the students directly, starting with the
    heat," but the hyperlink attached to it points to the Austin Chronicle's
    "The Vicious Cycle of Homeless Camp Sweeps" — the same URL as story 166.
    Needs the correct URL for story 167.
-5. **31 of the 81 story URLs fetched failed or returned unusable content**
+5. **33 of the 81 story URLs fetched failed or returned unusable content**
    (mostly NYT/Reuters/WaPo/AP/Politico paywalls or bot-blocking, a few
    empty/too-short extractions from MSN/Medium/YouTube/etc.) — full list
    below. These need PDFs.
@@ -33,4 +33,11 @@ this is action items to hand to the students directly, starting with the
      129, 130, 150, 151, 153, 157, 158, 162, 165, 169, 181
    - extraction empty/too short (URL loaded but no usable article text):
      72, 80, 100, 127, 172, 175
+   - **false success caught during review, actually paywalled — needs a PDF
+     too:** 82 (its URL in the sheet was a Google redirect wrapper; the
+     unwrapped NYT URL also fails to fetch, same as the other NYT stories
+     above), 161 (Washington Examiner — two paragraphs then a subscription
+     prompt, not the full article).
+   - **Net result: 48 stories successfully pulled into
+     `extracted_articles_boilerplate/` with real full-text content.**
 6. *(open — add items here as they surface during the GT-II migration prep)*
