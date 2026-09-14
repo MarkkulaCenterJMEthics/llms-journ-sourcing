@@ -51,9 +51,12 @@ Phase 2's type-by-type work begins.
 ## Phase 2 — Source Descriptors population, one Type of Source at a time
 
 v59/60 has 6 canonical Types of Source. Phase 2 works through all 6, done in
-this order deliberately — simplest/fewest-rules types first, highest-volume/
-most-nuanced type last. Three of the six types are simple enough to need
-only a single pass; three need multiple sub-passes, broken out below.
+this order deliberately: simplest/fewest-rules types first, then Anonymous
+Source deliberately placed ahead of the three multi-pass types (given its
+sensitivity, not its row count — see 2.3 below), then the remaining
+multi-pass types in increasing volume/nuance, highest-volume/most-nuanced
+type last. Three of the six types are simple enough to need only a single
+pass; three need multiple sub-passes, broken out below.
 
 ### 2.1 — Unnamed Group of People (single pass)
 
@@ -68,7 +71,25 @@ present there but wasn't captured into its own field.
 Same credentialing-test-based population of Title of Source / Source
 Descriptors as Unnamed Group of People.
 
-### 2.3 — Document (3 sub-passes)
+### 2.3 — Anonymous Source (single pass)
+
+Same credentialing-test-based Title of Source / Source Descriptors
+population as the other single-pass types, applied to whatever rows are
+left after Phase 1's reclassification. Placed third, ahead of the three
+multi-pass types, rather than last — Anonymous Source is a sensitive type
+(it's the schema's main lens on how transparently a newsroom discloses
+anonymity), and it deserves earlier, deliberate attention in the pass
+order rather than being handled only once the bulk of the row-count work
+is done. **Also easy to miss on its own merits**: Phase 1 reclassifies most
+Anonymous Source rows away, so very few genuine ones are usually left —
+this type has been skipped by accident on the first pass at this
+methodology twice now (once during GT-2026, caught only after the other
+five types were already marked done; once again while first writing this
+document down for GT-II), specifically *because* it's easy to forget when
+so few rows remain. Don't skip it just because the row count looks small,
+and don't let its low volume push it to the back of the queue either.
+
+### 2.4 — Document (3 sub-passes)
 
 - **Pass 1 — Schema-violation fix + Source Descriptors population.** Fix
   Name/Title of Source misuse (Document never carries a Title of Source),
@@ -79,7 +100,7 @@ Descriptors as Unnamed Group of People.
   report, lawsuit, deposition, etc.) from Sourced Statement/Source
   Justification text not yet captured into Source Descriptors.
 
-### 2.4 — Named Organization (3 sub-passes)
+### 2.5 — Named Organization (3 sub-passes)
 
 - **Pass 1 — Schema-violation audit.** Clear invalid Title of Source values
   (this type never carries one); recover full organization names from
@@ -95,7 +116,7 @@ Descriptors as Unnamed Group of People.
   not fuller function/mission language, which belongs in Source
   Justification instead).
 
-### 2.5 — Named Person (4 sub-passes, largest volume)
+### 2.6 — Named Person (4 sub-passes, largest volume)
 
 - **Pass 0 — General annotation-error audit.** Formatting artifacts,
   Name/Title of Source mix-ups, full-name recovery, joint-credit row
@@ -108,18 +129,6 @@ Descriptors as Unnamed Group of People.
   where the article states a credentialing title that was never captured.
 - **Pass 3 — Systematic Source Descriptors recovery.** From Sourced
   Statement/Source Justification text, done in batches.
-
-### 2.6 — Anonymous Source (single pass)
-
-Same credentialing-test-based Title of Source / Source Descriptors
-population as the other single-pass types, applied to whatever rows are
-left after Phase 1's reclassification. **Easy to miss**: Phase 1
-reclassifies most Anonymous Source rows away, so very few genuine ones are
-usually left — this type has been skipped by accident on the first pass at
-this methodology twice now (once during GT-2026, once again while first
-writing this document down for GT-II), specifically *because* it's easy to
-forget when so few rows remain. Don't skip it just because the row count
-looks small.
 
 ## Phase 3 — Corpus-wide Source Justification / Title quality check
 
