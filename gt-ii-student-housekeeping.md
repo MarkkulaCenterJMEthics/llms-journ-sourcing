@@ -20,6 +20,15 @@ this is action items to hand to the students directly, starting with the
    they were never paired under one shared story number the way the other
    double-coded stories were (52/55, 76/94, etc.). Needs a decision: merge
    under one number, or confirm they should stay separate and explain why.
+   - **AV's story 67 annotation file was never delivered.** The Expansion
+     List records AV_ss = 10 for story 67, but no XLSx for it exists in the
+     downloaded finished-files folder — only SZ's story 70 copy has actually
+     been received. Need AV's file for story 67.
+   - **Orphaned blank placeholder row for story 67.** Table I, row 20 of the
+     Expansion List has StoryNumber = 67 but both AV and SZ headline/count
+     columns blank on that row — no data either side, just a leftover
+     placeholder. Should be cleaned up/removed once the 67/70 merge decision
+     above is settled.
 4. **Story 167's URL looks like a copy-paste error.** Its headline is "Life
    under a Delhi flyover: how one homeless family endures the city's extreme
    heat," but the hyperlink attached to it points to the Austin Chronicle's
