@@ -50,3 +50,31 @@ this is action items to hand to the students directly, starting with the
    - **Net result: 48 stories successfully pulled into
      `extracted_articles_boilerplate/` with real full-text content.**
 6. *(open — add items here as they surface during the GT-II migration prep)*
+
+## status-2026-09-14
+
+Full cross-reference of everything delivered so far (`~/Documents/GT-II-finishedfiles-XLSx/`), run before the next batch of XLSx files comes down.
+
+**a) All XLSx → CSV conversion: ✅ Complete.**
+80 XLSx files in the folder, minus 2 deliberately excluded (133, 134 — confirmed different experiment) = 78. All 78 have a corresponding CSV in `benchmarking/GT data/GT-II/`, 1:1, zero missing, zero count mismatches.
+
+**b) No-URL stories itemized in housekeeping list: ✅ Confirmed.**
+Of the 71 distinct story numbers with an XLSx delivered, 19 fall in the no-URL bucket (53, 61, 65, 66, 91, 95, 101–107, 110, 111, 123, 124, 135, 136) — all already itemized in item 2 above. (Story 96 is also on that no-URL list but has no XLSx delivered yet, so it's a non-issue for this batch.)
+
+**c) Dual-coded files converted: ✅ Confirmed.**
+9 story numbers have 2 XLSx files each (52, 55, 76, 94, 108, 109, 112, 122, 125) — all 9 have exactly 2 corresponding CSVs. All 9 also have real article text and were fully carried through Phase 1/2 of the migration.
+
+**d) Maximum possible migration complete: ✅ Confirmed.**
+Full accounting of all 71 distinct story numbers:
+
+| Bucket | Count | Status |
+|---|---|---|
+| Successfully pulled (real article text) | 30 numbers → 39 files (incl. 9 dual-coded pairs) | Phase 0 **and** Phase 1/2 complete |
+| Fetch failed | 15 | Phase 0 done, blocked on text (item 5 above) |
+| Extraction empty/too short | 4 | Phase 0 done, blocked on text (item 5 above) |
+| False success (paywall/redirect) | 1 (82) | Phase 0 done, blocked on text (item 5 above) |
+| No URL at all | 19 | Phase 0 done, blocked on text (item 2 above) |
+| Deliberately excluded | 2 (133, 134) | Not migrated, confirmed different experiment |
+| **Total** | **71** | fully accounted for |
+
+Every structural conversion that could be done is done; every deeper annotation-quality pass (Phase 1/2) that could be run against real article text has been run, against exactly the 39 files that have it — no story with real text was missed, and nothing without real text was silently skipped without being logged.
