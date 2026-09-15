@@ -133,7 +133,7 @@ and don't let its low volume push it to the back of the queue either.
 ## Phase 3 — Corpus-wide Source Justification / Title quality check
 
 Run once, after all of Phase 2's type-by-type passes are done, across all
-six types together (this check is not type-specific). Two checks:
+six types together (this check is not type-specific). Three checks:
 
 - **(a) Source Justification must not merely state the medium of contact**
   (e.g. "said in a video posted Friday," "wrote in an email to X") — that's
@@ -144,6 +144,20 @@ six types together (this check is not type-specific). Two checks:
 - **(b) Title of Source must not carry a bare relational descriptor** (e.g.
   "Victim's granddaughter") — those are non-credentialing and belong in
   Source Descriptors instead, per the same rule used throughout Phase 2.
+- **(c) Flag single-word Source Justification values for review.** A
+  one-word SJ (e.g. "Speaker") is legal under the definition ("a few words"
+  is allowed) but is frequently too thin to actually justify the source's
+  standing in the story, and is worth a manual look every time rather than
+  assumed correct. Caught first in `GT-II/74-AV_San_Ramon_Pride.csv`
+  (Source Justification "Speaker" for a source introduced as "One speaker,
+  a student at Gale Ranch Middle School" — expanded to "speaker, a student
+  at Gale Ranch Middle School" to actually convey the source's standing).
+  Not every single-word SJ needs a fix — some genuinely are sufficient on
+  their own — but every one should be looked at, not skipped past because
+  it technically satisfies the minimum length the definition allows.
+  Applies to any batch, including new v60-native annotations once those
+  start arriving (single-word SJ is a thinness problem independent of
+  which schema version produced the row).
 
 ## Running practice throughout all of the above
 
