@@ -68,7 +68,8 @@ this is action items to hand to the students directly, starting with the
      extraction empty; 123 — fetch failed).
    - **Net result: 63 stories successfully pulled into
      `extracted_articles_boilerplate/` with real full-text content.**
-6. *(open — add items here as they surface during the GT-II migration prep)*
+6. **Real inter-annotator disagreement on how sharply to apply the Sourced Statement definition — story 74.** AV's copy (`74-AV_San_Ramon_Pride.csv` row 8) includes "Some speakers were concerned parents of LGBTQ youth and many described themselves as long-term San Ramon residents" as a Sourced Statement (Unnamed Group of People). SZ's copy of the same story left this sentence out entirely. This is a genuinely borderline case — the only attribution present is the source group "describ[ing] themselves" that way, sitting right on the line between reporter's own characterization and attributed content, similar in kind to the reporter-first-hand-observation carve-out in the core Sourced Statement definition. Worth discussing with AV and SZ together at the next review: how strictly to draw this line going forward, since it's exactly the kind of call where the schema currently leaves room for reasonable disagreement.
+7. *(open — add items here as they surface during the GT-II migration prep)*
 
 ## status-2026-09-14
 
