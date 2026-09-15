@@ -31,11 +31,23 @@ this is action items to hand to the students directly, starting with the
      columns blank on that row — no data either side, just a leftover
      placeholder. Should be cleaned up/removed once the 67/70 merge decision
      above is settled.
-4. **Story 167's URL looks like a copy-paste error.** Its headline is "Life
-   under a Delhi flyover: how one homeless family endures the city's extreme
-   heat," but the hyperlink attached to it points to the Austin Chronicle's
-   "The Vicious Cycle of Homeless Camp Sweeps" — the same URL as story 166.
-   Needs the correct URL for story 167.
+   - **Story 61 has the same disconnected-pairing issue, just under one
+     shared number instead of two.** AV's entry (Table II, AV_ss = 11) and
+     SZ's entry (Table I, SZ_ss = 8) both exist for story 61, but they sit in
+     two separate, unconnected rows rather than one shared row the way
+     properly-paired dual-coded stories (74, 52, etc.) do. Still present in
+     the 2026-09-14 Expansion List — not yet fixed. AV's actual annotation
+     file for story 61 has since been delivered and migrated, so this is
+     purely a spreadsheet bookkeeping issue at this point, not a missing-data
+     one — but worth cleaning up so future story numbers don't inherit the
+     same pattern.
+4. **[RESOLVED 2026-09-14] Story 167's URL copy-paste error is fixed.** Its
+   headline was "Life under a Delhi flyover: how one homeless family endures
+   the city's extreme heat," but the hyperlink attached to it pointed to the
+   Austin Chronicle's "The Vicious Cycle of Homeless Camp Sweeps" — the same
+   URL as story 166. The 2026-09-14 Expansion List now gives it its own
+   distinct headline and URL ("You're swamped? Join the club.,"
+   scalawagmagazine.org) — thank you, confirmed fixed.
 5. **URLs fetched that failed or returned unusable content** (mostly
    NYT/Reuters/WaPo/AP/Politico paywalls or bot-blocking, a few
    empty/too-short extractions from MSN/Medium/YouTube/etc.) — full list
