@@ -9,16 +9,20 @@ this is action items to hand to the students directly, starting with the
 
 **1. Stories needing a PDF or story text** — doesn't matter why (fetch
 failed, extraction came back empty, or the fetch technically succeeded but
-only returned a paywall teaser), this is just the full current list:
+only returned a paywall teaser), split by annotator (story 98 is the only
+one both of you logged counts for in the Expansion List — putting it on
+SZ's side for now):
 
-72, 73, 80, 82, 96, 98, 100, 106, 114, 123, 127, 128, 129, 130, 150, 151,
-153, 157, 158, 161, 162, 165, 181
+- **AV:** 72, 73, 80, 82, 96, 100, 114, 128
+- **SZ:** 98, 106, 123, 127, 129, 130, 150, 151, 153, 157, 158, 161, 162,
+  165, 181
 
 **2. Stories where we already have the text, but the annotation is still
 due:**
 
-67, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 185, 186, 187,
-188, 189, 190
+- **AV:** 67, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 185,
+  186, 187, 188, 189, 190
+- **SZ:** none
 
 (67 is AV's still-missing file for the whale-collision story, see item 3
 below. The rest are all from AV's new "solidarity reporting initiative"
