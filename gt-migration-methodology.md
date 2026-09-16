@@ -158,6 +158,18 @@ six types together (this check is not type-specific). Three checks:
   Applies to any batch, including new v60-native annotations once those
   start arriving (single-word SJ is a thinness problem independent of
   which schema version produced the row).
+- **(d) Source Descriptors compliance audit.** Re-check every populated
+  Source Descriptors value against the org-affiliation-stripping rule, the
+  atomic-word rule, the capture-exactly-as-written rule, and (for Named
+  Organization) the category-vs-composition/function distinction. Unlike
+  Title of Source, which gets a dedicated audit pass of its own (Named
+  Person Pass 1, 2.6 above), Source Descriptors was populate-once with no
+  self-check anywhere in this methodology until this item was added — the
+  gap was found 2026-09-15 and fixed forward across all existing migrated
+  data (GT-II new-material batch, GT-II original 48-story batch, GT-2026)
+  before being formalized here; see `development-of-v59.md` punchlist item
+  29 for the full history. Run corpus-wide, after all six types' Phase 2
+  population is done — not folded into each type's own population pass.
 
 ## Running practice throughout all of the above
 
