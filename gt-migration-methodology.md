@@ -37,12 +37,18 @@ Purely mechanical, can happen before any article text is in hand:
 ## Phase 1 — Anonymous Source reclassification (corpus-wide, before anything else)
 
 For every row currently typed Anonymous Source, check for an actual
-disclosure statement in the article text — explicit ("spoke on condition of
-anonymity") or a blanket statement earlier in the story covering multiple
-sources (see `development-of-v59.md`'s "Anonymous Source / Unnamed Person
-boundary" section for the full reasoning on why this stays narrow). No
-disclosure found → reclassify to Unnamed Person (or Unnamed Group of People
-if the source is a group).
+disclosure statement in the article text — explicit or a blanket statement
+earlier in the story covering multiple sources (see `development-of-v59.md`'s
+"Anonymous Source / Unnamed Person boundary" section for the full reasoning
+on why this stays narrow). No disclosure found → reclassify to Unnamed
+Person (or Unnamed Group of People if the source is a group).
+
+Disclosure phrasing varies — check for all of these aliases, not just the
+most common one: "spoke on condition of anonymity," "requested anonymity,"
+"spoke anonymously," "not authorized to speak [publicly/on the record],"
+"declined to be named," "asked not to be named," "requested not to be
+named," or any other phrasing along the lines of the source asking that
+they "not be named."
 
 This runs across the *whole* batch before any Source Descriptors work,
 since it determines which canonical type a row even belongs to before
