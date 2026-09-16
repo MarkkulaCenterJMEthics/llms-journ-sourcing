@@ -5,17 +5,45 @@ Running list of items for the student annotators to resolve. Not part of
 this is action items to hand to the students directly, starting with the
 2026-09-11 meeting.
 
-1. **Missing double-annotation for story 60.** [UPDATE 2026-09-14: AV's files
-   for 74 and 98 were delivered and have been converted/migrated — both are
-   now resolved. Only 60 remains: the GT Expansion List marks it as
-   dual-annotated, but only one annotator's file has actually been
-   delivered.] Need the second annotator's file for story 60.
-2. **1 story still has no URL anywhere in the Expansion List** (headline text
-   present, but no hyperlink attached on either side): 96. [UPDATE
+## What we need from you right now (as of 2026-09-16)
+
+**1. Stories needing a PDF or story text** — doesn't matter why (fetch
+failed, extraction came back empty, or the fetch technically succeeded but
+only returned a paywall teaser), this is just the full current list:
+
+72, 73, 80, 82, 96, 98, 100, 106, 114, 123, 127, 128, 129, 130, 150, 151,
+153, 157, 158, 161, 162, 165, 181
+
+**2. Stories where we already have the text, but the annotation is still
+due:**
+
+67, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 185, 186, 187,
+188, 189, 190
+
+(67 is AV's still-missing file for the whale-collision story, see item 3
+below. The rest are all from AV's new "solidarity reporting initiative"
+batch — texts arrived 2026-09-16, annotation XLSx files haven't yet.)
+
+See item 5 below for how the first list was derived, and the "Fixes
+applied" section for a data-integrity issue caught and fixed in this same
+update.
+
+1. **[RESOLVED 2026-09-16] Missing double-annotation for story 60 — story
+   was removed, this is a non-issue.** [UPDATE 2026-09-14: AV's files for
+   74 and 98 were delivered and have been converted/migrated — both are
+   now resolved. Only 60 remained open at that point.] The 2026-09-16 GT
+   Expansion List confirms story 60 as "invalidated - removed story" on
+   both AV's and SZ's sides — no second annotator's file is needed, the
+   entry is validly empty.
+2. **[RESOLVED 2026-09-16] No-URL story 96 now has a URL.** [UPDATE
    2026-09-14: the 2026-09-14 Expansion List update added URLs for 18 of
    the 19 other previously no-URL stories (53, 61, 65, 66, 91, 95, 101–107,
-   110, 111, 123, 124, 135, 136) — thank you. Only 96 still needs a URL or a
-   PDF.]
+   110, 111, 123, 124, 135, 136) — thank you. Only 96 remained.] The
+   2026-09-16 Expansion List adds a hyperlink to an AP News article for
+   96. However, the fetch attempt against that URL still fails (same
+   blocked-domain class as the other AP stories) — so 96 has moved onto
+   the "needs a PDF or story text" list at the top of this file rather
+   than being fully done.
 3. **Stories 67 and 70 are the same underlying article** ("California Asks
    Ships to Hit the Brakes for Whales," KQED) — AV annotated it as story 67
    (Table II, 10 rows), SZ annotated it as story 70 (Table I, 11 rows), but
@@ -66,8 +94,25 @@ this is action items to hand to the students directly, starting with the
      66, 95, 101, 102, 103, 104, 105, 107, 110, 111, 124, 135, 136), 4 failed
      and were added to the lists above (53, 91 — fetch failed; 106 —
      extraction empty; 123 — fetch failed).
-   - **Net result: 63 stories successfully pulled into
-     `extracted_articles_boilerplate/` with real full-text content.**
+   - **[UPDATE 2026-09-16]** Two new deliveries resolved a large chunk of
+     this list without needing any further URL fetch: SZ sent PDFs for 11
+     of the fetch-failed stories (50, 53, 54, 57, 58, 62, 68, 69, 71, 84,
+     91), and AV's new "solidarity reporting initiative" text batch
+     resolved 169 (fetch-failed) and 172, 175 (extraction-empty). Story 60
+     also drops off the fetch-failed list — it's an invalidated/removed
+     story (see item 1). Story 96 (previously on the separate no-URL list,
+     item 2) joins the fetch-failed list — it now has a URL but the fetch
+     itself still fails. Updated lists after all of the above:
+     - fetch failed: 73, 96, 98, 114, 123, 128, 129, 130, 150, 151, 153,
+       157, 158, 162, 165, 181
+     - extraction empty/too short: 72, 80, 100, 106, 127
+     - false success, still needs a PDF: 82, 161
+   - **Net result: 63 stories successfully pulled as of 2026-09-14, now 91
+     stories with real full-text content in
+     `extracted_articles_boilerplate/`** (63 prior + 11 via SZ's PDFs + 17
+     via AV's new text batch, covering stories 166–176 and 185–190 — see
+     the "Fixes applied" section below for a data-integrity issue caught
+     and fixed while bringing that last batch in).
 6. **Real inter-annotator disagreement on how sharply to apply the Sourced Statement definition — story 74.** AV's copy (`74-AV_San_Ramon_Pride.csv` row 8) includes "Some speakers were concerned parents of LGBTQ youth and many described themselves as long-term San Ramon residents" as a Sourced Statement (Unnamed Group of People). SZ's copy of the same story left this sentence out entirely. This is a genuinely borderline case — the only attribution present is the source group "describ[ing] themselves" that way, sitting right on the line between reporter's own characterization and attributed content, similar in kind to the reporter-first-hand-observation carve-out in the core Sourced Statement definition. Worth discussing with AV and SZ together at the next review: how strictly to draw this line going forward, since it's exactly the kind of call where the schema currently leaves room for reasonable disagreement.
 7. *(open — add items here as they surface during the GT-II migration prep)*
 
@@ -79,6 +124,30 @@ Different from the numbered list above — those are things I need *from* you (U
 2. **Thin Source Justification fixed — story 74, Bruce Hixon row.** AV's copy had Source Justification as just the single word "Speaker" for Bruce Hixon (introduced in the article as "one of the first speakers of the night"). SZ's copy of the same story already had the fuller "one of the first speakers of the night" for this same source — applied that same fuller text to AV's copy for consistency. Second thin-SJ instance caught in this same file (see item 1 above).
 3. **Source Descriptors consistency fixes applied to story 74's SZ copy.** Same two trims already applied to AV's copy (see items 1-2): Shailaja Dixit's "longtime resident of San Ramon" -> "resident of San Ramon" (dropping the duration modifier, keeping the location), and the Gale Ranch Middle School speaker's "student at Gale Ranch Middle School" -> "student" (dropping the institution name, which belongs in Source Justification instead). Not annotation errors on SZ's part — these are schema-application decisions made during migration that just hadn't been applied consistently across both annotators' copies yet.
 4. **Story 108 (Youth vs. Apocalypse) — Source Descriptors trimmed, Source Justification added.** The article's own description, "YVA is a youth-led, Bay Area-based collective of young climate justice activists," had been condensed entirely into Source Descriptors ("youth-led climate justice collective") with nothing captured in Source Justification at all, across all 6 rows where YVA is the source (both AV's and SZ's copies). Per the schema, only the bare category word belongs in Source Descriptors ("collective") and the fuller descriptive sentence belongs in Source Justification. Trimmed SD to "climate justice collective" and populated SJ with the full sentence on all 6 rows (combined via ";" on the one row that already had different context). Likely why SD had grown overloaded: that descriptive sentence sits between two quotes in the reporter's own voice, not directly attached to any single "YVA said/did X" row, so it's an easy thing to read past when annotating row-by-row.
+5. **Corpus text mismatch found and fixed for 8 story numbers (166, 167,
+   168, 170, 171, 173, 174, 176) while bringing in AV's new "solidarity
+   reporting initiative" text batch (2026-09-16).** Our local
+   `extracted_articles_boilerplate/` already had *something* saved under
+   these 8 numbers, left over from an earlier fetch/numbering pass — but
+   checking each one's actual headline against the current Expansion List
+   showed none of them matched. Two (166, 167) both held a duplicate copy
+   of the same wrong article (this is the same underlying bug already
+   flagged and marked resolved in item 4 above for story 167's URL — the
+   spreadsheet URL got fixed at the time, but the already-fetched text
+   file never got refreshed to match). Four more (168, 170, 173, 174)
+   turned out to be real articles, just sitting under the wrong number —
+   each one's true story number (190, 189, 187, 170 respectively) already
+   has its own correctly-numbered text in today's delivery, so these were
+   simply redundant duplicates. The remaining two (171, 176) don't match
+   any headline in the current 166–190 batch at all — moved aside to
+   `stale-story-text-leftovers/` (not deleted) rather than guessed at,
+   since forcing them onto a number without confirmation is exactly the
+   kind of mistake this check exists to catch. **To be clear: nothing
+   about the GT Expansion List spreadsheet itself was wrong here** — every
+   one of today's freshly delivered texts matches its assigned number's
+   headline exactly. This was purely a stale local-copy issue on our side,
+   now fixed: all 17 numbers in today's batch (166–176, 185–190) have
+   verified, correctly-matched text in `extracted_articles_boilerplate/`.
 
 ## status-2026-09-14
 
