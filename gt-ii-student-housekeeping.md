@@ -171,7 +171,7 @@ needed. Organized by annotator.
   Originally, the vote-percentage rows had Source Descriptors "vote" and
   the seat-allocation rows had "results" in 179 but "vote" in 178 —
   inconsistent between the two articles for the same underlying fact.
-  Standardized all 3 affected rows (178 row 28, 178 row 29, 179 row 7) to
+  Standardized all 3 affected rows (178 row 28, 178 row 29, 179 row 6) to
   "results" in both articles, on the reasoning that "results" is the
   broader, more accurate genre word covering both figures if they in fact
   come from one combined release. **SZ: if you know these actually came
@@ -233,6 +233,40 @@ needed. Organized by annotator.
   are separate instances. Flagging for awareness, not fixed yet — no
   action needed from you unless you want to weigh in on whether this
   should be added as its own row.
+- **Story 177 (AFD_Prediction_German_State_Election) rows 7, 9, 10, 11,
+  12 (Ulrich Siegmund) — "AfD's lead candidate" moved from Title of
+  Source to Source Descriptors/Source Justification.** "Candidate" is a
+  non-credentialing word per the schema (explicitly listed as an SD
+  example, alongside "activist," "organizer," etc.), so it shouldn't sit
+  in Title of Source at all — and this file's own comparison files,
+  178-AFD_Win_Europe and 179-AFD_Majority_Fail, already treat this exact
+  same person's "candidate" role correctly (bare "candidate" in Source
+  Descriptors, fuller phrase in Source Justification). Brought these 5
+  rows in line: Title of Source cleared, Source Descriptors → "candidate",
+  and "AfD's lead candidate" appended to the existing Source Justification
+  text via ";" (which already held "Ulrich Siegmund, 35, a former
+  fragrance salesman with a large following on TikTok who has been
+  celebrated like a pop star." on all 5 rows). **Note for later:** when
+  the systematic Source Descriptors recovery pass runs, "fragrance
+  salesman"/"salesman" in that same Source Justification text is likely
+  to come up as its own separate Source Descriptors candidate for these
+  same 5 rows — when that happens, amend this same fix rather than
+  logging it as a new item.
+- **Story 179 (AFD_Majority_Fail) — removed a duplicate row, and every
+  row number in this file shifted down by 1 as a result.** The old row 2
+  ("AfD's candidate for governor, Ulrich Siegmund, said 'we have written
+  history'...") was a partial, redundant capture of the same single
+  paragraph that the old row 3 already captured in full (all three
+  sentences of that paragraph, correctly merged per the
+  same-paragraph/implied-attribution rule). Deleted the old row 2 and
+  renumbered the "No." column sequentially. **Important for looking up
+  any other note in this file by row number: every row after the old
+  row 2 is now one row earlier than it used to be** (old row 4 →
+  current row 3, old row 12 → current row 11, old row 26 → current row
+  25, old row 32 → current row 31, etc. — subtract 1 from any row number
+  referenced elsewhere for this file before this fix). The vote/results
+  note above has already been corrected to the current row number (6,
+  not the original 7).
 
 ## status-2026-09-14
 
