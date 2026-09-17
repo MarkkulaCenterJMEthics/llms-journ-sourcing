@@ -153,6 +153,32 @@ Different from the numbered list above — those are things I need *from* you (U
    now fixed: all 17 numbers in today's batch (166–176, 185–190) have
    verified, correctly-matched text in `extracted_articles_boilerplate/`.
 
+## Flagged for annotator review (not just FYI — defend or veto)
+
+Different from both sections above: these are judgment-call fixes made
+during migration, not mechanical ones, so the annotator gets a real say —
+confirm the call or override it, and I'll do a final fix afresh if
+needed. Organized by annotator.
+
+### SZ
+
+- **Stories 178 (AFD_Win_Europe) and 179 (AFD_Majority_Fail).** Both
+  articles report the same AfD state-election outcome in back-to-back
+  sentences with no separating attribution — a vote-percentage figure and
+  a seat-allocation figure — reading as one pull from a single "final
+  results" release rather than two different documents (179 explicitly
+  calls it "Final results" in the sentence introducing the seat count).
+  Originally, the vote-percentage rows had Source Descriptors "vote" and
+  the seat-allocation rows had "results" in 179 but "vote" in 178 —
+  inconsistent between the two articles for the same underlying fact.
+  Standardized all 3 affected rows (178 row 28, 178 row 29, 179 row 7) to
+  "results" in both articles, on the reasoning that "results" is the
+  broader, more accurate genre word covering both figures if they in fact
+  come from one combined release. **SZ: if you know these actually came
+  from two distinct sources/documents (e.g., a live vote-count feed
+  separate from the official seat-allocation announcement), say so and
+  we'll split them back apart instead.**
+
 ## status-2026-09-14
 
 Full cross-reference of everything delivered so far (`~/Documents/GT-II-finishedfiles-XLSx/`), run before the next batch of XLSx files comes down.
