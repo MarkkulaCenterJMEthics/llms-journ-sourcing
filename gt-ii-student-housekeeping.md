@@ -379,6 +379,31 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   org-affiliation rule, as it did for a different source's bare
   "supporter" elsewhere in the corpus).
 
+### AV
+
+- **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
+  flagged "Unresolved."** Your draft had this row (Sourced Statement:
+  "Corporations and government officials promised diversity and
+  equity.") with Type of Source explicitly marked "Unresolved" and every
+  other field "null" — a fair call, since it's a genuinely tricky case:
+  one sentence, one verb, but two different *kinds* of unnamed
+  attribution jointly named as its subject (an unnamed group of people —
+  "government officials" — and an unnamed group of *organizations* —
+  "corporations" — which our schema doesn't have a type for at all).
+  Resolved by checking this row against its immediate neighbors: row 2
+  ("protesters filled the streets demanding change") and row 4 ("many
+  Black Minnesotans say...") are both already typed Unnamed Group of
+  People in your own draft, and row 3 fits that exact same pattern. Fixed
+  to Type of Source "Unnamed Group of People," Title of Source
+  "government officials" (credentialing, per the schema's own UGOP
+  definition, which lists "officials" directly as an example). The
+  "corporations" half isn't captured as its own structured field — there's
+  currently no type for an unnamed group of *organizations* — but it's
+  still right there in the Sourced Statement text itself, nothing is
+  lost from the row overall. Logged as an open schema gap in
+  `development-of-v59.md` (item 10) in case this pattern comes up again
+  often enough to justify adding a real type for it.
+
 ## status-2026-09-14
 
 Full cross-reference of everything delivered so far (`~/Documents/GT-II-finishedfiles-XLSx/`), run before the next batch of XLSx files comes down.
