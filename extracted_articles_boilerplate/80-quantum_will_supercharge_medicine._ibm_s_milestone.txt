@@ -1,0 +1,74 @@
+==================================================
+Title: Quantum will supercharge medicine. IBM's milestone proves the future is near.
+Source PDF: #80_Quantum_Medicine.pdf
+==================================================
+
+Quantum will supercharge medicine.
+IBM's milestone proves the future is near.
+Story by Mackenzie Tatananni
+The International Business Machines quantum computer at Cleveland Clinic.
+© COURTESY IBM
+As investors await a quantum revolution, researchers are already delivering the
+first tremors.
+Look no further than the latest study from International Business Machines,
+conducted alongside Riken and Cleveland Clinic. Scientists linked IBM quantum
+systems to two of the world's most powerful supercomputers: Fugaku at Riken
+and Miyabi-G, operated by the University of Tokyo and the University of Tsukuba.
+The end result was a protein complex spanning more than 12,000 atoms. While
+highly technical, the demonstration has clear applications in drug discovery and
+medicine, potentially delivering the transformation that quantum enthusiasts
+have long promised.
+"They're the largest known molecules to be simulated thus far with quantum
+computing," Jerry Chow, IBM's chief technology officer of quantum-centric
+computing, said ahead of the announcement.
+He is describing what IBM and Cleveland Clinic define as "biologically meaningful
+molecules." The protein simulated in this case is called trypsin, a heavyweight in
+the world of biology. Without it, the body would struggle to perform one of its
+most basic functions: breaking down proteins into the building blocks it needs to
+survive.
+A lot of quantum research has centered on this type of work, which has clear
+applications in drug development. However, investors have been eager for results
+that prove quantum computers are useful for something other than lab-scale
+demonstrations.
+"The hook here is that we want to go to a world where we have much better
+therapeutics and things that make all of our lives better," Chow explained.
+"Fundamentally core to that is understanding how molecules behave, how
+molecules interact with things such as water. In many ways, this is the largest
+demonstration to date."
+Kenneth Merz, the lead author of the study, agrees. "I always go to the drug
+discovery angle," Merz said. "We're developing methods to discover drugs to
+improve human health. But there's also this concept of divide and conquer."
+Merz, a staff scientist at Cleveland Clinic, leads a lab dedicated to building
+computational tools that apply theoretical math to biological research. The latest
+experiment shows how existing hardware can be paired with quantum machines
+to solve problems that today's computers cannot handle alone, he said.
+"You take a very big problem and break it into small pieces that are able to run
+on current-generation hardware, and then stitch it together to get the global
+answer," Merz explained.
+The team stopped short of claiming quantum advantage, a milestone many
+investors are watching closely.
+Quantum advantage refers to a system's ability to outperform classical computers
+at a range of tasks, doing so more efficiently, accurately, and inexpensively. While
+often viewed as the true tipping point for the technology, focusing solely on this
+milestone risks overlooking the incremental progress made along the way.
+Chow emphasized that any claim of quantum advantage must be validated
+against established, rigorous testing frameworks. The scientific community isn't
+there yet, and to date, there is no consensus whether or not true advantage has
+been achieved.
+"What we're seeing is this groundswell of pushing the envelope of what can be
+done," Chow continued. "We're using these machines and these capabilities to
+look in these areas where we know classical methods will struggle."
+He views the latest study as part of a larger puzzle. "It's not a singular moment in
+time for quantum advantage," Chow said. "But we're certainly in this phase where
+we're absolutely using these machines to do real exciting work."
+IBM, for its part, continues to work toward building an ultrapowerful quantum
+supercomputer by the end of the decade. The machine, nicknamed Starling, is
+slated for delivery in 2029.
+Ahead of that milestone, the company is already scaling up its physical footprint.
+IBM last month announced it would create 750 jobs in Chicago over the next five
+years to staff a new "innovation and delivery hub."
+The center will be located at the upcoming Illinois Quantum and Microelectronics
+Park, a 128-acre campus on the city's Southeast Side. Another tenant, privately
+held PsiQuantum, plans to build its large-scale, fault-tolerant computer at the
+site.
+Write to Mackenzie Tatananni at mackenzie.tatananni@barrons.com
