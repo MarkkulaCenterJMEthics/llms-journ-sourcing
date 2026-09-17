@@ -196,6 +196,43 @@ needed. Organized by annotator.
   service, or its Saxony-Anhalt state-level equivalent) and it just
   didn't make it into your draft, let me know and we'll restore this to
   Named Organization with the real name instead.**
+- **Story 177 (AFD_Prediction_German_State_Election) row 19 — trimmed an
+  overlapping Sourced Statement.** Row 19's Sourced Statement was
+  "Independent election observers are active at polling booths amid
+  speculation from the AfD that voter fraud has taken place, in
+  particular in postal voting, with specific focus on a retirement home.
+  State authorities have denied the claims." — but that second sentence
+  is a separate attribution to a different source, and it's already
+  correctly captured on its own in row 20 (Unnamed Group of People,
+  Title "State authorities"). Row 19 had it duplicated in its own SS
+  text on top of that. Trimmed row 19's SS to just the AfD-attributed
+  portion, dropping the "State authorities have denied the claims."
+  sentence since row 20 already owns it exclusively. Not a missing row
+  (that part was already done correctly) — just an overlap to clean up.
+- **Story 184 (Anthropic_Bio_Weapons) row 11 — recovered a missing second
+  sentence from the same paragraph.** Row 11's Sourced Statement was only
+  "In these cases, each operation was run by an actor working within or
+  on behalf of an Iranian state propaganda institution, the company
+  said." — but in the source article, that same paragraph has a second,
+  unattributed sentence right after it ("Claude was used to build
+  content, make posts seem like they were from independent news sources
+  and to proliferate content across social media platforms like X,
+  Instagram and TikTok.") that draws on the same implied attribution and
+  was never captured anywhere. Compare rows 12 and 13 in this same file,
+  which each correctly merged both sentences of their own paragraphs —
+  row 11 is the one that was under-captured. Added the missing sentence
+  to row 11's Sourced Statement.
+- **Story 184 (Anthropic_Bio_Weapons), the article's last paragraph —
+  left open for now, not yet a row.** The final paragraph ("In China,
+  three accounts aligned with the PRC municipal security service used
+  Claude for surveillance and transnational repression, including a
+  municipal bureau that profiles overseas activists and organizations.")
+  has no attribution tag of its own anywhere in it, and isn't captured
+  as a Sourced Statement row at all. Not merged into the preceding
+  paragraph's attribution either, per the rule that different paragraphs
+  are separate instances. Flagging for awareness, not fixed yet — no
+  action needed from you unless you want to weigh in on whether this
+  should be added as its own row.
 
 ## status-2026-09-14
 
