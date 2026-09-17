@@ -5,28 +5,35 @@ Running list of items for the student annotators to resolve. Not part of
 this is action items to hand to the students directly, starting with the
 2026-09-11 meeting.
 
-## What we need from you right now (as of 2026-09-16)
+## What we need from you right now (as of 2026-09-17)
 
-**1. Stories needing a PDF or story text** — doesn't matter why (fetch
-failed, extraction came back empty, or the fetch technically succeeded but
-only returned a paywall teaser), split by annotator (story 98 is the only
-one both of you logged counts for in the Expansion List — putting it on
-SZ's side for now):
+**Big update since the last version of this list (2026-09-16):** the
+Sep17 delivery (new PDFs from both of you, plus AV's Sep11 batch that had
+been missed) resolved almost everything that was on this list — including
+story 67, AV's long-missing whale-collision file. Full detail on
+everything that arrived and got matched up is in `development-of-v59.md`
+if you want it; here's just what's still actually needed.
 
-- **AV:** 72, 73, 80, 82, 96, 100, 114, 128
-- **SZ:** 98, 106, 123, 127, 129, 130, 150, 151, 153, 157, 158, 161, 162,
-  165, 181
+**1. Stories still needing a PDF or story text — down to 2, both SZ's:**
+
+- **165** — the PDF delivered under this number turned out to be a
+  duplicate of 181's article (the "US banning dairy products..." AP
+  story). Story 165's actual annotation is about a different article —
+  Canadian PM Mark Carney announcing Canada would move faster to reduce
+  its economic reliance on the US amid the tariff dispute (its Sourced
+  Statements start "Canadian Prime Minister Mark Carney said Tuesday that
+  Canada would move faster..."). Needed: the correct PDF or a working URL
+  for that specific article.
+- **71** — the delivered PDF is paywalled. Checked the full extracted
+  text: there's a headline, a garbled interactive chart, and then a
+  straight New York Times subscription wall — no actual article body was
+  ever captured. Needed: a different PDF (a full-text save, not a
+  paywalled browser print) or a working URL for "Global Deforestation
+  Slows, Analysis Finds. But Fires Remain a Major Threat."
 
 **2. Stories where we already have the text, but the annotation is still
-due:**
-
-- **AV:** 67, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 185,
-  186, 187, 188, 189, 190
-- **SZ:** none
-
-(67 is AV's still-missing file for the whale-collision story, see item 3
-below. The rest are all from AV's new "solidarity reporting initiative"
-batch — texts arrived 2026-09-16, annotation XLSx files haven't yet.)
+due: none right now** — the last item here (67) arrived in AV's Sep11
+batch and is ready to migrate.
 
 See item 5 below for how the first list was derived, and the "Fixes
 applied" section for a data-integrity issue caught and fixed in this same
