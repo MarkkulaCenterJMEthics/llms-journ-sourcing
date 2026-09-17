@@ -176,21 +176,32 @@ six types together (this check is not type-specific). Five checks:
   before being formalized here; see `development-of-v59.md` punchlist item
   29 for the full history. Run corpus-wide, after all six types' Phase 2
   population is done — not folded into each type's own population pass.
-- **(e) Qualifier-stacking check on Title of Source and Source
-  Descriptors.** Re-check every populated Title of Source and Source
-  Descriptors value for a political-orientation, editorializing, or
-  otherwise characterizing qualifier stacked onto an otherwise-valid
-  credentialing title or atomic descriptor (e.g., "far-right," "hard-line,"
-  "mainstream"). Apply the same test as (d)'s category-vs-elaboration
-  distinction: does removing the qualifier still leave an accurate
-  description of the same title/descriptor (elaboration — trim it), or
-  does it change what's being described (category-defining — keep it)?
-  For elaboration: trim the qualifier from Title of Source/Source
-  Descriptors, and merge it into Source Justification — appended via ";"
-  if Source Justification already has other content, set directly if it
-  was blank — **unless the exact qualifier is already present somewhere
-  in the existing Source Justification text**, in which case nothing
-  needs to be added there, only the trim from Title/SD. Found 2026-09-16
+- **(e) Qualifier-stacking check on Title of Source — Title of Source
+  only, not Source Descriptors.** Re-check every populated Title of
+  Source value for a political-orientation, editorializing, or otherwise
+  characterizing qualifier stacked onto an otherwise-valid credentialing
+  title (e.g., "far-right," "hard-line," "mainstream"). Apply the same
+  test as (d)'s category-vs-elaboration distinction: does removing the
+  qualifier still leave an accurate description of the same title
+  (elaboration — trim it), or does it change what position is being
+  described (category-defining — keep it)? For elaboration: trim the
+  qualifier from Title of Source, and merge it into Source Justification
+  — appended via ";" if Source Justification already has other content,
+  set directly if it was blank — **unless the exact qualifier is already
+  present somewhere in the existing Source Justification text**, in which
+  case nothing needs to be added there, only the trim from Title.
+  **This check does not apply to Source Descriptors.** A qualifier
+  combined with a non-credentialing descriptor (e.g., "progressive
+  rival," "far-left activist") is exactly what Source Descriptors is
+  *for* — the prompt's own definition uses "far-left activist"/"far-right
+  activist" as its canonical worked example of a reporter's reductive
+  labeling, which the schema exists to capture, not trim away. Confirmed
+  by item 34's retroactive sweep (`development-of-v59.md`), which
+  initially checked both fields, found `GT-II/63-Maine_Data_Center.csv`'s
+  "progressive rival" (Source Descriptors) as an apparent hit, and on
+  review determined it wasn't a violation at all — it clarified that this
+  check was never meant to reach Source Descriptors in the first place.
+  Found 2026-09-16
   during Phase 2.6 Pass 1's Named Person Title-of-Source audit
   (`GT-II/178-AFD_Win_Europe.csv`: Salvini, Wilders;
   `GT-II/180-UK_Israel_Ban.csv`: Ben-Gvir; `GT-II/179-AFD_Majority_Fail.csv`:
