@@ -139,7 +139,7 @@ and don't let its low volume push it to the back of the queue either.
 ## Phase 3 — Corpus-wide Source Justification / Title quality check
 
 Run once, after all of Phase 2's type-by-type passes are done, across all
-six types together (this check is not type-specific). Four checks:
+six types together (this check is not type-specific). Five checks:
 
 - **(a) Source Justification must not merely state the medium of contact**
   (e.g. "said in a video posted Friday," "wrote in an email to X") — that's
@@ -176,6 +176,33 @@ six types together (this check is not type-specific). Four checks:
   before being formalized here; see `development-of-v59.md` punchlist item
   29 for the full history. Run corpus-wide, after all six types' Phase 2
   population is done — not folded into each type's own population pass.
+- **(e) Qualifier-stacking check on Title of Source and Source
+  Descriptors.** Re-check every populated Title of Source and Source
+  Descriptors value for a political-orientation, editorializing, or
+  otherwise characterizing qualifier stacked onto an otherwise-valid
+  credentialing title or atomic descriptor (e.g., "far-right," "hard-line,"
+  "mainstream"). Apply the same test as (d)'s category-vs-elaboration
+  distinction: does removing the qualifier still leave an accurate
+  description of the same title/descriptor (elaboration — trim it), or
+  does it change what's being described (category-defining — keep it)?
+  For elaboration: trim the qualifier from Title of Source/Source
+  Descriptors, and merge it into Source Justification — appended via ";"
+  if Source Justification already has other content, set directly if it
+  was blank — **unless the exact qualifier is already present somewhere
+  in the existing Source Justification text**, in which case nothing
+  needs to be added there, only the trim from Title/SD. Found 2026-09-16
+  during Phase 2.6 Pass 1's Named Person Title-of-Source audit
+  (`GT-II/178-AFD_Win_Europe.csv`: Salvini, Wilders;
+  `GT-II/180-UK_Israel_Ban.csv`: Ben-Gvir; `GT-II/179-AFD_Majority_Fail.csv`:
+  Merz) — see `development-of-v59.md` punchlist item 33 for the full
+  worked examples, and item 20 for the two candidate prompt notes (21a,
+  24a) drafted from this finding but not yet merged into
+  `system_prompt_v60.txt`. **Note:** whether a qualifier should ever be
+  dropped outright rather than always preserved in Source Justification
+  (e.g., a case where the qualifier is purely the reporter's own value
+  judgment with no independent factual content) is a real open question,
+  deliberately deferred rather than decided here — default to always
+  preserving in Source Justification until that's worked through.
 
 ## Running practice throughout all of the above
 

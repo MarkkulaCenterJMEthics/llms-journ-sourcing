@@ -162,6 +162,13 @@ needed. Organized by annotator.
 
 ### SZ
 
+[Also see `development-of-v59.md`, Prompt Updates checklist item 20 — two
+new candidate prompt notes (drafted, not yet merged) covering the
+"editorializing qualifier stacked on a credentialing title" pattern found
+in stories 178/180's Salvini/Wilders/Ben-Gvir/Merz rows below. Worth
+discussing at the next meeting before these get formally added to
+system_prompt_v60.]
+
 - **Stories 178 (AFD_Win_Europe) and 179 (AFD_Majority_Fail).** Both
   articles report the same AfD state-election outcome in back-to-back
   sentences with no separating attribution — a vote-percentage figure and
@@ -300,6 +307,33 @@ needed. Organized by annotator.
   — comma-separated since both are credentialing, and "hard-line" dropped
   as the reporter's own editorial characterization rather than part of
   either formal role.
+- **Story 163 (Jill_Stein_Court) rows with Name of Source "Jill Stein"
+  (No. 2 and No. 14) — recovered a missed Title of Source.** The
+  article's opening sentence introduces her as "the Green Party's former
+  presidential candidate **Dr.** Jill Stein" — "Dr." is a credentialing
+  title that was never captured anywhere (only Source Descriptors
+  "candidate" and Source Justification existed). Added Title of Source →
+  "Dr." to both rows.
+- **Story 178 (AFD_Win_Europe) rows 18, 19 (Santiago Abascal, André
+  Ventura) — recovered a missed Title of Source, and rows 20, 21 (Matteo
+  Salvini) — trimmed an editorializing qualifier out of Title of
+  Source.** All four rows are connected: the sentence just before
+  Abascal/Ventura reads "Far-right leaders in Spain and Portugal also
+  hailed the AfD's win," directly naming the two countries these two
+  people represent (Abascal/Spain, Ventura/Portugal) — a direct
+  antecedent, not an inference. Added Title of Source → "leader" to both
+  (bare, not "far-right leader" — see below for why). Separately,
+  Salvini's existing Title of Source, "Italy's far-right deputy prime
+  minister," has the same "far-right" qualifier attached to a genuinely
+  credentialing title, and applying the same test already used elsewhere
+  in this batch (does removing the qualifier still leave an accurate
+  description of the same position? yes) means it should have been
+  trimmed too — "far-right" is editorializing, not part of the formal
+  job title. Fixed: Title of Source → "Italy's deputy prime minister"
+  on both Salvini rows. In every case, "far-right" is preserved, not
+  lost — it's either already present in Source Justification (Abascal/
+  Ventura, via the existing "Far-right leaders in Spain and Portugal..."
+  text) or added there via ";" (Salvini, both rows).
 
 ## status-2026-09-14
 
