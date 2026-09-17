@@ -175,22 +175,34 @@ stays instead of getting stripped (story 180's Huckabee row below); item
 inside a quote, only the reporter's characterization (story 180's
 Miliband rows -- no fix applied there, just a documented no-change call).]
 
-- **Stories 178 (AFD_Win_Europe) and 179 (AFD_Majority_Fail).** Both
-  articles report the same AfD state-election outcome in back-to-back
-  sentences with no separating attribution — a vote-percentage figure and
-  a seat-allocation figure — reading as one pull from a single "final
-  results" release rather than two different documents (179 explicitly
-  calls it "Final results" in the sentence introducing the seat count).
-  Originally, the vote-percentage rows had Source Descriptors "vote" and
-  the seat-allocation rows had "results" in 179 but "vote" in 178 —
-  inconsistent between the two articles for the same underlying fact.
-  Standardized all 3 affected rows (178 row 28, 178 row 29, 179 row 6) to
-  "results" in both articles, on the reasoning that "results" is the
-  broader, more accurate genre word covering both figures if they in fact
-  come from one combined release. **SZ: if you know these actually came
-  from two distinct sources/documents (e.g., a live vote-count feed
-  separate from the official seat-allocation announcement), say so and
-  we'll split them back apart instead.**
+- **Stories 178 (AFD_Win_Europe) and 179 (AFD_Majority_Fail) — Document
+  Source Descriptors for the vote-count/seat-count rows, corrected to
+  match each article's own manifest text.** Both articles report the
+  AfD state-election vote-percentage and seat-count figures. An earlier
+  pass standardized these to "results" in both articles, reasoning that
+  the two figures likely come from one combined release — but on a closer
+  manifest-text check, that reasoning doesn't hold the same way in both
+  articles, because each article establishes its *own* term for this data
+  at its first citation, and the two are different words:
+  - **179** explicitly says "**Final results** showed AfD falling three
+    seats short..." (the sentence right before the vote/seat figures, same
+    paragraph) — "results" is genuinely this article's own term. Rows 6
+    and 7 (both the vote-percentage and CDU's vote/seat figures) are
+    correctly "results."
+  - **178** never uses "results" as its own citation term anywhere —
+    its first citation of this same data is "...the AfD surged into first
+    place... on Sunday, **exit polls showed**..." (row 4, already SD
+    "polls"). The few uses of the word "result" elsewhere in 178 are all
+    inside quotes from reacting foreign politicians calling the outcome
+    "the result" colloquially, not the reporter's own citation of a data
+    source. Reverted rows 28 and 29 back to "polls," matching this
+    article's own established term (row 4) instead of borrowing 179's
+    word for a structurally similar but textually distinct citation.
+  **Net effect:** 178 rows 28-29 → "polls" (reverted from "results"); 179
+  row 6 stays "results"; 179 row 7 (a 4th affected row found during a
+  later full re-sweep, same paragraph/pattern as row 6) → "results."
+  **SZ: if either article's own data-citation language differs from what
+  I've described here, let me know and we'll revisit.**
 - **Stories 177 (AFD_Prediction_German_State_Election) and 179
   (AFD_Majority_Fail) — "Germany's domestic intelligence agency"
   reclassified from Named Organization to Unnamed Group of People.**
