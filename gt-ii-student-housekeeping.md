@@ -267,6 +267,39 @@ needed. Organized by annotator.
   referenced elsewhere for this file before this fix). The vote/results
   note above has already been corrected to the current row number (6,
   not the original 7).
+- **Story 182 (Missouri_Map) row 10 (Catherine Hanaway) — split "Republican"
+  out of Title of Source into Source Descriptors, matching this file's
+  own row 3 (Denny Hoskins).** Title of Source was "Missouri Republican
+  Attorney General" — but row 3, for a different source in this same
+  file, already correctly splits this exact pattern into Title "Missouri's
+  secretary of state" + Source Descriptors "Republican" (party affiliation
+  is non-credentialing, formal office is credentialing). Hanaway's row
+  didn't follow that split. Fixed: Title of Source → "Missouri Attorney
+  General", Source Descriptors → "Republican".
+- **Story 179 (AFD_Majority_Fail) row 20 (Friedrich Merz) — completed
+  Title of Source with the jurisdiction already stated in the text.**
+  Title of Source was bare "chancellor," but the article's own text says
+  "Germany's unpopular chancellor Friedrich Merz" — the country name is
+  manifestly present in the sentence, just not captured. Every other
+  government-official Title in this batch (178's prime ministers/foreign
+  ministers, 180's Foreign Secretary/Israeli Foreign Minister/Israeli
+  President, etc.) keeps its stated country/jurisdiction prefix when the
+  article gives one; this row was the one exception. Fixed: Title of
+  Source → "Germany's chancellor" (dropping only "unpopular," which is
+  the reporter's own editorial characterization, not a jurisdiction
+  qualifier — Source Justification already correctly holds "unpopular
+  chancellor Friedrich Merz" separately).
+- **Story 180 (UK_Israel_Ban) row 23 (Itamar Ben-Gvir) — split a
+  two-role Title of Source into a comma-separated list, dropping one
+  editorializing qualifier.** Title of Source was "Israel's hard-line
+  public security minister and a settler leader" — both "public security
+  minister" (a formal government office) and "settler leader" (leadership
+  is itself a credentialing category per the schema) qualify as Title
+  material, so no need to demote either one to Source Descriptors. Fixed:
+  Title of Source → "Israel's public security minister, settler leader"
+  — comma-separated since both are credentialing, and "hard-line" dropped
+  as the reporter's own editorial characterization rather than part of
+  either formal role.
 
 ## status-2026-09-14
 
