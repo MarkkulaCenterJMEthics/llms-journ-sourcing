@@ -178,6 +178,24 @@ needed. Organized by annotator.
   from two distinct sources/documents (e.g., a live vote-count feed
   separate from the official seat-allocation announcement), say so and
   we'll split them back apart instead.**
+- **Stories 177 (AFD_Prediction_German_State_Election) and 179
+  (AFD_Majority_Fail) — "Germany's domestic intelligence agency"
+  reclassified from Named Organization to Unnamed Group of People.**
+  Neither article ever states this agency's actual formal name (no "BfV"
+  or similar anywhere in the text) — it's referred to only generically,
+  the same way "police" or "the department" would be. Per the existing
+  rule that a Named Organization row needs an actual name stated at that
+  point in the text (not inferred from elsewhere), this doesn't qualify —
+  and 177 already treats an identical case ("State authorities," row 20)
+  as Unnamed Group of People, so this brings the file in line with its
+  own existing precedent. Fixed: Type of Source → Unnamed Group of
+  People, Name of Source blanked, Title of Source → "Germany's domestic
+  intelligence agency" (kept whole — "Germany's" is a jurisdiction
+  qualifier, not decorative). **SZ: if you know the actual name of this
+  agency (likely the BfV, Germany's federal domestic intelligence
+  service, or its Saxony-Anhalt state-level equivalent) and it just
+  didn't make it into your draft, let me know and we'll restore this to
+  Named Organization with the real name instead.**
 
 ## status-2026-09-14
 
