@@ -139,7 +139,7 @@ and don't let its low volume push it to the back of the queue either.
 ## Phase 3 — Corpus-wide Source Justification / Title quality check
 
 Run once, after all of Phase 2's type-by-type passes are done, across all
-six types together (this check is not type-specific). Three checks:
+six types together (this check is not type-specific). Four checks:
 
 - **(a) Source Justification must not merely state the medium of contact**
   (e.g. "said in a video posted Friday," "wrote in an email to X") — that's
