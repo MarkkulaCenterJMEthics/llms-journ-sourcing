@@ -162,12 +162,18 @@ needed. Organized by annotator.
 
 ### SZ
 
-[Also see `development-of-v59.md`, Prompt Updates checklist item 20 — two
-new candidate prompt notes (drafted, not yet merged) covering the
-"editorializing qualifier stacked on a credentialing title" pattern found
-in stories 178/180's Salvini/Wilders/Ben-Gvir/Merz rows below. Worth
-discussing at the next meeting before these get formally added to
-system_prompt_v60.]
+[Also see `development-of-v59.md`, Prompt Updates checklist items 20, 21,
+and 22 — candidate prompt additions (drafted, not yet merged) worth
+discussing at the next meeting before they're formally added to
+system_prompt_v60: item 20 covers the "editorializing qualifier stacked
+on a credentialing title" pattern (stories 178/180's Salvini/Wilders/
+Ben-Gvir/Merz rows below); item 21 covers the missing counterpart to the
+org-affiliation-stripping rule for Source Descriptors -- when an attached
+object names a generic cause/category rather than an organization, it
+stays instead of getting stripped (story 180's Huckabee row below); item
+22 covers Source Descriptors not capturing a source's own self-description
+inside a quote, only the reporter's characterization (story 180's
+Miliband rows -- no fix applied there, just a documented no-change call).]
 
 - **Stories 178 (AFD_Win_Europe) and 179 (AFD_Majority_Fail).** Both
   articles report the same AfD state-election outcome in back-to-back
@@ -253,12 +259,13 @@ system_prompt_v60.]
   and "AfD's lead candidate" appended to the existing Source Justification
   text via ";" (which already held "Ulrich Siegmund, 35, a former
   fragrance salesman with a large following on TikTok who has been
-  celebrated like a pop star." on all 5 rows). **Note for later:** when
-  the systematic Source Descriptors recovery pass runs, "fragrance
-  salesman"/"salesman" in that same Source Justification text is likely
-  to come up as its own separate Source Descriptors candidate for these
-  same 5 rows — when that happens, amend this same fix rather than
-  logging it as a new item.
+  celebrated like a pop star." on all 5 rows). **Update:** the
+  systematic Source Descriptors recovery pass has now run, and as
+  flagged above, "fragrance salesman" from that same Source
+  Justification text is a genuine second Source Descriptors facet for
+  this source. Added: Source Descriptors → "candidate, former fragrance
+  salesman" (comma-separated, both facets manifest in the article's own
+  text) on all 5 rows.
 - **Story 179 (AFD_Majority_Fail) — removed a duplicate row, and every
   row number in this file shifted down by 1 as a result.** The old row 2
   ("AfD's candidate for governor, Ulrich Siegmund, said 'we have written
@@ -334,6 +341,24 @@ system_prompt_v60.]
   lost — it's either already present in Source Justification (Abascal/
   Ventura, via the existing "Far-right leaders in Spain and Portugal..."
   text) or added there via ";" (Salvini, both rows).
+- **Story 180 (UK_Israel_Ban) row 26 (Mike Huckabee) — recovered both
+  Source Justification and Source Descriptors from the same
+  uncaptured phrase.** The article introduces him as "the U.S.
+  ambassador to Israel, Mike Huckabee, **a longtime supporter of the
+  settlements**" — that phrase was never captured anywhere (both fields
+  were blank). It independently satisfies Source Justification's own
+  definition (context on his stake/vantage point in the issue, which is
+  exactly why the reporter includes his criticism), so it goes there in
+  full, untrimmed: "a longtime supporter of the settlements." Separately,
+  Source Descriptors gets the same phrase with only the duration qualifier
+  "longtime" dropped: "supporter of the settlements" — checked against 6
+  other "supporter"/"advocate" precedents across both corpora first
+  (Paul Boden's "homeless advocate," "Tenant advocates," "Union
+  advocates," "Border Advocates," etc.) to confirm the object stays
+  attached when it names a generic cause/category rather than an
+  organization's proper name (which would instead get stripped per the
+  org-affiliation rule, as it did for a different source's bare
+  "supporter" elsewhere in the corpus).
 
 ## status-2026-09-14
 
