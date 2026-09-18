@@ -14,7 +14,7 @@ story 67, AV's long-missing whale-collision file. Full detail on
 everything that arrived and got matched up is in `development-of-v59.md`
 if you want it; here's just what's still actually needed.
 
-**1. Stories still needing a PDF or story text — 3 now, all SZ's (100's
+**1. Stories still needing a PDF or story text — 2 now, both SZ's (100's
 annotation itself is AV's, but SZ found/supplied this PDF, so putting the
 follow-up here):**
 
@@ -26,12 +26,11 @@ follow-up here):**
   Statements start "Canadian Prime Minister Mark Carney said Tuesday that
   Canada would move faster..."). Needed: the correct PDF or a working URL
   for that specific article.
-- **71** — the delivered PDF is paywalled. Checked the full extracted
-  text: there's a headline, a garbled interactive chart, and then a
-  straight New York Times subscription wall — no actual article body was
-  ever captured. Needed: a different PDF (a full-text save, not a
-  paywalled browser print) or a working URL for "Global Deforestation
-  Slows, Analysis Finds. But Fires Remain a Major Threat."
+- ~~**71**~~ — **RESOLVED 2026-09-17.** AV supplied a fresh, non-paywalled
+  NYT PDF for "Global Deforestation Slows, Analysis Finds. But Fires
+  Remain a Major Threat." (the original delivery was a paywalled browser
+  print with no real article body). Verified real extractable text (3
+  pages, ~7,200 characters), converted and cleaned. Ready for Phase 0.
 - **100** — the delivered PDF has zero extractable text on any of its 6
   pages (checked directly) — it appears to be a full-page-image render
   rather than a real text export, so no amount of cleanup can recover it;
