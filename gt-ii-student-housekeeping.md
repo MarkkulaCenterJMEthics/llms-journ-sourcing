@@ -497,6 +497,18 @@ this is exactly what Phase 2.1/2.2's credentialing-test population passes
 already exist to catch, so no separate checklist needed here; it'll be
 handled automatically whenever those phases run on this file.
 
+**New entry (2026-09-17, found during the Sep17-batch Phase 1 sweep):**
+`181-US_Canada_Dairy.csv` is missing a row entirely — a second anonymous
+official's quote in the article text has no corresponding CSV row: "The
+senior Trump administration official who briefed reporters during a
+conference call late Tuesday that was arranged by the White House said
+U.S. and Canadian trade representatives have had 'constructive
+conversations' and would speak again in coming days to see if there's a
+'path forward.'" No explicit "spoke on condition of anonymity" phrase for
+this one specifically, but it reads as an on-background White House
+briefing — worth a source-type call (Anonymous Source vs. Unnamed Person)
+whenever this file gets a full pass, not just adding the row mechanically.
+
 ## status-2026-09-14
 
 Full cross-reference of everything delivered so far (`~/Documents/GT-II-finishedfiles-XLSx/`), run before the next batch of XLSx files comes down.
