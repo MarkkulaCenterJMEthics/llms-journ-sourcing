@@ -497,17 +497,16 @@ this is exactly what Phase 2.1/2.2's credentialing-test population passes
 already exist to catch, so no separate checklist needed here; it'll be
 handled automatically whenever those phases run on this file.
 
-**New entry (2026-09-17, found during the Sep17-batch Phase 1 sweep):**
-`181-US_Canada_Dairy.csv` is missing a row entirely — a second anonymous
-official's quote in the article text has no corresponding CSV row: "The
-senior Trump administration official who briefed reporters during a
-conference call late Tuesday that was arranged by the White House said
-U.S. and Canadian trade representatives have had 'constructive
-conversations' and would speak again in coming days to see if there's a
-'path forward.'" No explicit "spoke on condition of anonymity" phrase for
-this one specifically, but it reads as an on-background White House
-briefing — worth a source-type call (Anonymous Source vs. Unnamed Person)
-whenever this file gets a full pass, not just adding the row mechanically.
+~~**New entry (2026-09-17, found during the Sep17-batch Phase 1 sweep):**
+`181-US_Canada_Dairy.csv` is missing a row...~~ **RETRACTED same day —
+false positive.** Row 24 already captures this exact statement ("The
+senior Trump administration official who briefed reporters..."),
+correctly typed Unnamed Person. It wasn't caught by the Phase 1 sweep
+because that sweep only scanned Anonymous-Source-typed rows, and this
+row is a different type — that's a real scope note for future sweeps
+(a check for missing SS candidates isn't the same thing as Phase 1's
+Anonymous Source recheck), but there's no actual missing row in this
+file. Caught by the user re-checking against the source XLSx.
 
 ## status-2026-09-14
 
