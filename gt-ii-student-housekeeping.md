@@ -152,50 +152,24 @@ update.
      stories with real full-text content in
      `extracted_articles_boilerplate/`** (63 prior + 11 via SZ's PDFs + 17
      via AV's new text batch, covering stories 166–176 and 185–190 — see
-     the "Fixes applied" section below for a data-integrity issue caught
-     and fixed while bringing that last batch in).
+     the "corpus text mismatch" item in AV's list under "Flagged for
+     annotator review" below for a data-integrity issue caught and fixed
+     while bringing that last batch in).
 6. **Real inter-annotator disagreement on how sharply to apply the Sourced Statement definition — story 74.** AV's copy (`74-AV_San_Ramon_Pride.csv` row 8) includes "Some speakers were concerned parents of LGBTQ youth and many described themselves as long-term San Ramon residents" as a Sourced Statement (Unnamed Group of People). SZ's copy of the same story left this sentence out entirely. This is a genuinely borderline case — the only attribution present is the source group "describ[ing] themselves" that way, sitting right on the line between reporter's own characterization and attributed content, similar in kind to the reporter-first-hand-observation carve-out in the core Sourced Statement definition. Worth discussing with AV and SZ together at the next review: how strictly to draw this line going forward, since it's exactly the kind of call where the schema currently leaves room for reasonable disagreement.
 7. *(open — add items here as they surface during the GT-II migration prep)*
 
-## Fixes applied during schema migration (for your awareness)
+## Flagged for annotator review
 
-Different from the numbered list above — those are things I need *from* you (URLs, PDFs, missing files, decisions). This section is the reverse: fixes I'm making to your first-draft annotations as I convert them to CSV and apply the v59/60 schema, shared here so nothing is a surprise when the final CSVs come back to you for signoff.
-
-1. **Thin Source Justification fixed — story 74, "One speaker, a student at Gale Ranch Middle School" row.** AV's original annotation had Source Justification as just the single word "Speaker" — accurate but too thin to explain the source's actual standing to be quoted (the reporter is signaling their connection to the story: they were one of the speakers, and a Gale Ranch Middle School student, at the meeting). Expanded to "speaker, a student at Gale Ranch Middle School." Flagging as a pattern worth watching for in future annotation, not just this one row.
-2. **Thin Source Justification fixed — story 74, Bruce Hixon row.** AV's copy had Source Justification as just the single word "Speaker" for Bruce Hixon (introduced in the article as "one of the first speakers of the night"). SZ's copy of the same story already had the fuller "one of the first speakers of the night" for this same source — applied that same fuller text to AV's copy for consistency. Second thin-SJ instance caught in this same file (see item 1 above).
-3. **Source Descriptors consistency fixes applied to story 74's SZ copy.** Same two trims already applied to AV's copy (see items 1-2): Shailaja Dixit's "longtime resident of San Ramon" -> "resident of San Ramon" (dropping the duration modifier, keeping the location), and the Gale Ranch Middle School speaker's "student at Gale Ranch Middle School" -> "student" (dropping the institution name, which belongs in Source Justification instead). Not annotation errors on SZ's part — these are schema-application decisions made during migration that just hadn't been applied consistently across both annotators' copies yet.
-4. **Story 108 (Youth vs. Apocalypse) — Source Descriptors trimmed, Source Justification added.** The article's own description, "YVA is a youth-led, Bay Area-based collective of young climate justice activists," had been condensed entirely into Source Descriptors ("youth-led climate justice collective") with nothing captured in Source Justification at all, across all 6 rows where YVA is the source (both AV's and SZ's copies). Per the schema, only the bare category word belongs in Source Descriptors ("collective") and the fuller descriptive sentence belongs in Source Justification. Trimmed SD to "climate justice collective" and populated SJ with the full sentence on all 6 rows (combined via ";" on the one row that already had different context). Likely why SD had grown overloaded: that descriptive sentence sits between two quotes in the reporter's own voice, not directly attached to any single "YVA said/did X" row, so it's an easy thing to read past when annotating row-by-row.
-5. **Corpus text mismatch found and fixed for 8 story numbers (166, 167,
-   168, 170, 171, 173, 174, 176) while bringing in AV's new "solidarity
-   reporting initiative" text batch (2026-09-16).** Our local
-   `extracted_articles_boilerplate/` already had *something* saved under
-   these 8 numbers, left over from an earlier fetch/numbering pass — but
-   checking each one's actual headline against the current Expansion List
-   showed none of them matched. Two (166, 167) both held a duplicate copy
-   of the same wrong article (this is the same underlying bug already
-   flagged and marked resolved in item 4 above for story 167's URL — the
-   spreadsheet URL got fixed at the time, but the already-fetched text
-   file never got refreshed to match). Four more (168, 170, 173, 174)
-   turned out to be real articles, just sitting under the wrong number —
-   each one's true story number (190, 189, 187, 170 respectively) already
-   has its own correctly-numbered text in today's delivery, so these were
-   simply redundant duplicates. The remaining two (171, 176) don't match
-   any headline in the current 166–190 batch at all — moved aside to
-   `stale-story-text-leftovers/` (not deleted) rather than guessed at,
-   since forcing them onto a number without confirmation is exactly the
-   kind of mistake this check exists to catch. **To be clear: nothing
-   about the GT Expansion List spreadsheet itself was wrong here** — every
-   one of today's freshly delivered texts matches its assigned number's
-   headline exactly. This was purely a stale local-copy issue on our side,
-   now fixed: all 17 numbers in today's batch (166–176, 185–190) have
-   verified, correctly-matched text in `extracted_articles_boilerplate/`.
-
-## Flagged for annotator review (not just FYI — defend or veto)
-
-Different from both sections above: these are judgment-call fixes made
-during migration, not mechanical ones, so the annotator gets a real say —
-confirm the call or override it, and I'll do a final fix afresh if
-needed. Organized by annotator.
+Different from the numbered "what we need from you" list above (that's
+things I need *from* you — URLs, PDFs, missing files, decisions). This
+section is fixes made to your annotations during schema migration,
+organized by annotator, one combined list each — some are judgment calls
+where you get a real say (confirm or override, and I'll do a final fix
+afresh if needed), others are more mechanical (shared so nothing is a
+surprise when the final CSVs come back to you for signoff). Not
+distinguished by subsection since it's easier to review as one list per
+person; judgment calls are generally phrased as "flagged"/"resolved" and
+mechanical ones as "fixed," if you want to tell them apart at a glance.
 
 ### SZ
 
@@ -432,6 +406,19 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   text ("a Canadian official familiar with the discussions") was rows
   8-9's EU-specific phrase and doesn't substantively describe row 18's
   Ottawa-strategy quote.
+- **Source Descriptors consistency fixes applied to your copy of story
+  74.** Same two trims already applied to AV's copy: Shailaja Dixit's
+  "longtime resident of San Ramon" -> "resident of San Ramon" (dropping
+  the duration modifier, keeping the location), and the Gale Ranch Middle
+  School speaker's "student at Gale Ranch Middle School" -> "student"
+  (dropping the institution name, which belongs in Source Justification
+  instead). Not an annotation error on your part — these are
+  schema-application decisions made during migration that just hadn't
+  been applied consistently across both annotators' copies yet.
+- **Story 108 (Youth vs. Apocalypse) — Source Descriptors trimmed, Source
+  Justification added.** Applies to both your copy and AV's — see AV's
+  list below for the full write-up (same fix, same reasoning, both
+  copies).
 
 ### AV
 
@@ -484,6 +471,60 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   fuller reasoning and the new "Not Defined" convention this established.
   Worth discussing at the next meeting since this is the second time this
   exact gap has come up in one day.
+- **Thin Source Justification fixed — story 74, "One speaker, a student
+  at Gale Ranch Middle School" row.** Your original annotation had Source
+  Justification as just the single word "Speaker" — accurate but too thin
+  to explain the source's actual standing to be quoted (the reporter is
+  signaling their connection to the story: they were one of the speakers,
+  and a Gale Ranch Middle School student, at the meeting). Expanded to
+  "speaker, a student at Gale Ranch Middle School." Flagging as a pattern
+  worth watching for in future annotation, not just this one row.
+- **Thin Source Justification fixed — story 74, Bruce Hixon row.** Your
+  copy had Source Justification as just the single word "Speaker" for
+  Bruce Hixon (introduced in the article as "one of the first speakers of
+  the night"). SZ's copy of the same story already had the fuller "one of
+  the first speakers of the night" for this same source — applied that
+  same fuller text to your copy for consistency. Second thin-SJ instance
+  caught in this same file (see the Gale Ranch item above).
+- **Story 108 (Youth vs. Apocalypse) — Source Descriptors trimmed, Source
+  Justification added.** Applies to both your copy and SZ's. The
+  article's own description, "YVA is a youth-led, Bay Area-based
+  collective of young climate justice activists," had been condensed
+  entirely into Source Descriptors ("youth-led climate justice
+  collective") with nothing captured in Source Justification at all,
+  across all 6 rows where YVA is the source. Per the schema, only the
+  bare category word belongs in Source Descriptors ("collective") and the
+  fuller descriptive sentence belongs in Source Justification. Trimmed SD
+  to "climate justice collective" and populated SJ with the full sentence
+  on all 6 rows (combined via ";" on the one row that already had
+  different context). Likely why SD had grown overloaded: that
+  descriptive sentence sits between two quotes in the reporter's own
+  voice, not directly attached to any single "YVA said/did X" row, so
+  it's an easy thing to read past when annotating row-by-row.
+- **Corpus text mismatch found and fixed for 8 story numbers (166, 167,
+  168, 170, 171, 173, 174, 176) while bringing in your new "solidarity
+  reporting initiative" text batch (2026-09-16).** Our local
+  `extracted_articles_boilerplate/` already had *something* saved under
+  these 8 numbers, left over from an earlier fetch/numbering pass — but
+  checking each one's actual headline against the current Expansion List
+  showed none of them matched. Two (166, 167) both held a duplicate copy
+  of the same wrong article (the same underlying bug already flagged and
+  marked resolved for story 167's URL — the spreadsheet URL got fixed at
+  the time, but the already-fetched text file never got refreshed to
+  match). Four more (168, 170, 173, 174) turned out to be real articles,
+  just sitting under the wrong number — each one's true story number
+  (190, 189, 187, 170 respectively) already has its own correctly-numbered
+  text in that day's delivery, so these were simply redundant duplicates.
+  The remaining two (171, 176) don't match any headline in the 166–190
+  batch at all — moved aside to `stale-story-text-leftovers/` (not
+  deleted) rather than guessed at, since forcing them onto a number
+  without confirmation is exactly the kind of mistake this check exists
+  to catch. **To be clear: nothing about the GT Expansion List
+  spreadsheet itself was wrong here** — every one of that day's freshly
+  delivered texts matches its assigned number's headline exactly. This
+  was purely a stale local-copy issue on our side, now fixed: all 17
+  numbers in that batch (166–176, 185–190) have verified,
+  correctly-matched text in `extracted_articles_boilerplate/`.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
