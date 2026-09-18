@@ -14,18 +14,24 @@ story 67, AV's long-missing whale-collision file. Full detail on
 everything that arrived and got matched up is in `development-of-v59.md`
 if you want it; here's just what's still actually needed.
 
-**1. Stories still needing a PDF or story text — 2 now, both SZ's (100's
-annotation itself is AV's, but SZ found/supplied this PDF, so putting the
-follow-up here):**
+**1. Stories still needing a PDF or story text — 1 now, SZ's:**
 
-- **165** — the PDF delivered under this number turned out to be a
-  duplicate of 181's article (the "US banning dairy products..." AP
-  story). Story 165's actual annotation is about a different article —
-  Canadian PM Mark Carney announcing Canada would move faster to reduce
-  its economic reliance on the US amid the tariff dispute (its Sourced
-  Statements start "Canadian Prime Minister Mark Carney said Tuesday that
-  Canada would move faster..."). Needed: the correct PDF or a working URL
-  for that specific article.
+- ~~**165**~~ — **RESOLVED 2026-09-17.** SZ supplied the correct PDF —
+  Independent.co.uk's "Canada will move faster from US reliance as
+  tariffs take effect and Trump response looms" (the earlier PDF under
+  this number was a duplicate of 181's AP dairy-tariffs article). Verified
+  real extractable text (4 pages, ~5,900 chars across the first 3), and
+  confirmed the headline/lede matches the annotation's own Sourced
+  Statements exactly. Converted and cleaned — two spots needed
+  reconstruction rather than mechanical cleanup: a "Skip to content" nav
+  artifact interleaved mid-sentence in two places, one of which garbled a
+  phrase character-by-character ("tShkripe taot sc oanntedn atttacks").
+  Reconstructed as "threats and attacks" by cross-referencing 181's
+  near-identical AP wire sentence (same underlying reporting team —
+  Rob Gillies/Paul Wiseman — republished by both outlets), not guessed
+  from scratch. Phase 0 done (17 rows, straightforward — already
+  v59/60-native schema, no legacy-v55 conversion needed); Phase 1 trivially
+  clean (zero Anonymous Source rows in this file).
 - ~~**71**~~ — **RESOLVED 2026-09-17.** AV supplied a fresh, non-paywalled
   NYT PDF for "Global Deforestation Slows, Analysis Finds. But Fires
   Remain a Major Threat." (the original delivery was a paywalled browser
