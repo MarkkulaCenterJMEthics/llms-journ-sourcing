@@ -215,6 +215,50 @@ six types together (this check is not type-specific). Five checks:
   deliberately deferred rather than decided here — default to always
   preserving in Source Justification until that's worked through.
 
+## Phase 4 — Missing Sourced Statement sweep (per file, after Phase 0-3 are done)
+
+Run last, one file at a time, only after that file has gone completely
+through Phase 0-3 — Phase 4 deliberately depends on the migrator already
+having full context on the story (every existing Sourced Statement, Type,
+Name, Title, Source Descriptors, and Source Justification), which is what
+makes it possible to recognize a genuinely uncaptured statement instead of
+a paraphrase or partial match of something already there.
+
+**What it checks:** unlike every phase before it, which re-examines rows
+that already exist, Phase 4 checks for *rows that don't exist at all* —
+re-read the full article text end to end and compare it against the
+complete existing row set, looking for sourced-statement candidates (a
+quote, a paraphrase attributed to someone, an "according to X" claim,
+etc.) that aren't captured by any row, even loosely. This is a recall
+check, not a precision check — the previous phases assume the row set is
+fixed and improve what's in it; this phase asks whether the row set is
+even complete.
+
+**Output is candidates, not edits.** A Phase 4 hit is never written
+directly into the CSV. Each candidate gets flagged with: the exact article
+text, why it looks like an uncaptured sourced statement, and a proposed
+row (Type of Source, Name, Title, Source Descriptors, Source
+Justification) if it were to be added — the same shape as every other
+proposed fix in this methodology, but for a net-new row instead of a
+changed value. The user reviews and approves (or rejects) each candidate
+before anything is added; nothing gets annotated into the row set
+unilaterally. This mirrors the existing review-spreadsheet workflow used
+for other batch decisions in this migration, not a new mechanism.
+
+**Known false-positive risk, watch for it:** first attempt at designing
+this check (2026-09-17) nearly produced a false positive against
+`GT-II/181-US_Canada_Dairy.csv` — a claimed "missing" row for a second
+anonymous official's quote that in fact already existed (row 24, typed
+Unnamed Person). The near-miss happened because the check that found it
+was actually the Phase 1 Anonymous-Source-only scan, not a real Phase 4
+run — it only looked at rows already typed Anonymous Source, so it never
+saw row 24 (a different type) and wrongly concluded no row existed at
+all. The lesson for Phase 4 specifically: a genuine "is this statement
+captured anywhere in the row set" check must compare against *all* rows
+regardless of type, not a type-filtered subset — otherwise it reproduces
+exactly this mistake. See `development-of-v59.md` punchlist item 37 for
+the full incident.
+
 ## Running practice throughout all of the above
 
 Not a discrete step — applies constantly across every phase:
