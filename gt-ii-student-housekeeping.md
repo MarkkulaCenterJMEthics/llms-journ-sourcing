@@ -392,6 +392,30 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   org-affiliation rule, as it did for a different source's bare
   "supporter" elsewhere in the corpus).
 
+- **Story 181 (US_Canada_Dairy) row 18 — reclassified Anonymous Source to
+  Unnamed Person; the earlier disclosure doesn't clearly cover it.** The
+  file has two separate "Canadian official" attributions: rows 8-9 (EU
+  relations) are introduced with "a Canadian official familiar with the
+  discussions said," then explicitly disclosed two sentences later ("The
+  official spoke on condition of anonymity because they were not
+  authorized to discuss the talks publicly."). Row 18 (a different topic —
+  Ottawa's response strategy to Trump) comes ~25 lines and two
+  subheadings/Carney-quote blocks later, and is introduced the same
+  way — "a Canadian official said" — using the indefinite article again
+  rather than "the official," which is the phrasing you'd expect if the
+  reporter meant to keep referring to the already-disclosed source from
+  rows 8-9. Nothing in the text confirms it's the same official (no
+  "another official" or similar to mark a *different* one either) — it's
+  genuinely ambiguous, and treating rows 8-9's disclosure as covering row
+  18 requires inferring same-source continuity the text doesn't actually
+  state. Per Phase 1's rule (an explicit or blanket disclosure must
+  actually be present, not inferred), reclassified to Unnamed Person.
+  Title of Source kept as "Canadian official" (matches rows 8-9's own
+  precedent in this file); Source Justification blanked, since the copied
+  text ("a Canadian official familiar with the discussions") was rows
+  8-9's EU-specific phrase and doesn't substantively describe row 18's
+  Ottawa-strategy quote.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
