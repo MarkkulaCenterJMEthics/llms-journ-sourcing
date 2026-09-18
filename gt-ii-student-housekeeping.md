@@ -5,6 +5,17 @@ Running list of items for the student annotators to resolve. Not part of
 this is action items to hand to the students directly, starting with the
 2026-09-11 meeting.
 
+## Excluded story numbers (standing list — not migrated, don't re-flag)
+
+- **133, 134** — confirmed a different experiment, not part of this GT
+  corpus at all.
+- **161, 162** — op-ed/opinion pieces ("Trump just slashed gas prices...",
+  "Todd Monken has 2 versatile weapons..."). Annotation XLSx exist but no
+  article text was ever sourced for them, and they sit on their own
+  "Op-Ed pieces" sheet in the GT Expansion List, separate from the main
+  sheet everything else lives on — same shape as 133/134's exclusion.
+  Confirmed excluded 2026-09-17.
+
 ## What we need from you right now (as of 2026-09-17)
 
 **Big update since the last version of this list (2026-09-16):** the
