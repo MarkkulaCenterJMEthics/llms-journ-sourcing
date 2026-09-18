@@ -14,7 +14,9 @@ story 67, AV's long-missing whale-collision file. Full detail on
 everything that arrived and got matched up is in `development-of-v59.md`
 if you want it; here's just what's still actually needed.
 
-**1. Stories still needing a PDF or story text — down to 2, both SZ's:**
+**1. Stories still needing a PDF or story text — 3 now, all SZ's (100's
+annotation itself is AV's, but SZ found/supplied this PDF, so putting the
+follow-up here):**
 
 - **165** — the PDF delivered under this number turned out to be a
   duplicate of 181's article (the "US banning dairy products..." AP
@@ -30,6 +32,18 @@ if you want it; here's just what's still actually needed.
   ever captured. Needed: a different PDF (a full-text save, not a
   paywalled browser print) or a working URL for "Global Deforestation
   Slows, Analysis Finds. But Fires Remain a Major Threat."
+- **100** — the delivered PDF has zero extractable text on any of its 6
+  pages (checked directly) — it appears to be a full-page-image render
+  rather than a real text export, so no amount of cleanup can recover it;
+  it would need OCR or a different source entirely. The story's URL (from
+  the Expansion List) is
+  https://www.msn.com/en-us/money/companies/openai-chief-altman-has-over-2-billion-stake-in-companies-that-dealt-with-openai-court-filing-shows/ar-AA237jES —
+  an MSN link, which is likely why the PDF rendered as images (MSN pages
+  often render heavy client-side content that "print to PDF" captures as
+  a picture rather than selectable text). Needed: either a cleaner PDF
+  save from that same URL, or a link to wherever the underlying wire
+  story (this looks like an AP/Reuters-style business story MSN is
+  syndicating) is hosted directly.
 
 **2. Stories where we already have the text, but the annotation is still
 due: none right now** — the last item here (67) arrived in AV's Sep11
@@ -403,6 +417,86 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   lost from the row overall. Logged as an open schema gap in
   `development-of-v59.md` (item 10) in case this pattern comes up again
   often enough to justify adding a real type for it.
+- **Story 72 (Quantum_Campus) row 17 — split what looked like two
+  sources back into one.** Sourced Statement: "A. Anne Holcomb, co-chair
+  of ETHOS and a 15-year South Shore resident, confirmed two documented
+  events." Your draft had Type of Source "Named Person and Unnamed
+  Person" and Name of Source "A. Anne Holcomb and Resident" — reading
+  this as two people, when it's actually one person (Holcomb) with two
+  facets: her formal title (co-chair of ETHOS) and a non-credentialing
+  descriptor (resident). Fixed: Type of Source → "Named Person", Name of
+  Source → "A. Anne Holcomb" only, Title of Source unchanged, Source
+  Descriptors → "South Shore resident" (dropping "15-year" as a duration
+  modifier, keeping the location — matches how this exact phrase is
+  already used elsewhere in this corpus, e.g. story 55's Andrew Torrence
+  and Jayna McGruder, also South Shore residents).
+- **Story 114 (Kansas_Gender_Transitioning_Ban) row 10 — flagged, not
+  fixed, same schema gap as story 171 above.** Sourced Statement: "Last
+  week, a New York City hospital said it was one of several to have
+  received a grand jury subpoena..." — an unnamed hospital, which is an
+  unnamed *organization*, not a group of people. Your draft had Type of
+  Source "Unnamed Group," which (if just meant as shorthand for "Unnamed
+  Group of People," as it does elsewhere in your files) would misrepresent
+  this as a group of people rather than an institution. Set Type of
+  Source to the literal placeholder "Not Defined" rather than force it
+  into either Named Organization (no name is given) or Unnamed Group of
+  People (it's not people) — see `development-of-v59.md` item 10 for the
+  fuller reasoning and the new "Not Defined" convention this established.
+  Worth discussing at the next meeting since this is the second time this
+  exact gap has come up in one day.
+
+### Checklist — Category 2 findings, to resolve during the normal Phase
+2.5 (Named Organization) pass on these specific files, not forgotten in
+the meantime
+
+While investigating the "Not Defined" cases above, a broadened scan
+turned up a different, more serious issue in two other files: named
+organizations that are completely missing their own row, not merely
+mistyped. Logging these here as a checklist for whenever Phase 2.5 runs
+on `175-Indigenous_Health_COVID.csv` and `52-East_Bay_Voters.csv`
+specifically, plus exactly how the scan found them so it can be
+reproduced fresh if needed rather than re-derived from memory.
+
+**How this was found:** a Python scan across all 90 GT-II CSVs, checking
+every row typed Unnamed Group of People or Unnamed Person for the
+presence of a broad list of institution-type nouns (hospital, company,
+agency, university, council, board, commission, department, etc.) in its
+Sourced Statement text, then manually checking each hit's full row and
+surrounding sentence to rule out false positives (most hits were fine —
+a person or group of people correctly typed as the source, with an
+institution word merely mentioned in passing).
+
+- **`175-Indigenous_Health_COVID.csv` rows 20 and 21** share one Sourced
+  Statement: "The U.S. Civil Rights Commission, National Indian Health
+  Board, Government Accountability Office, congressional committees and
+  tribal leaders warned for decades that Native American health care was
+  anemic and primed for catastrophe." Only 2 rows exist for this sentence
+  (row 20: Title "congressional committees", UGOP; row 21: Title "tribal
+  leaders", UGOP) — the three actually-named organizations (U.S. Civil
+  Rights Commission, National Indian Health Board, Government
+  Accountability Office) have no rows of their own at all. When Phase 2.5
+  runs on this file, add 3 new Named Organization rows for this same
+  Sourced Statement (per Note 12's joint-attribution splitting), one per
+  named entity.
+- **`175` row 57**: "The National Indian Health Board and tribal leaders
+  contend the constraints are unrealistic..." — only "tribal leaders"
+  (UGOP) has a row; National Indian Health Board has none. Same fix:
+  add a Named Organization row for the Board.
+- **`52-East_Bay_Voters.csv` row 8**: "The Manhattan District Attorney's
+  Office has also reportedly opened an investigation into the 2024
+  allegation, which the accuser said occurred in New York." The existing
+  row (Unnamed Person, SD "accuser") correctly captures the second half
+  of this sentence, but the first half — the Manhattan DA's Office
+  opening an investigation, a clear Named Organization fact — has no row
+  at all. Add one when Phase 2.5 runs on this file.
+
+Also logged the same day, a separate and unrelated finding in
+`72-Quantum_Campus.csv` (rows 8, 23, 33, 38): common-noun descriptive
+text sitting in Name of Source for Unnamed Group of People/Unnamed Person
+rows (e.g., Name = "State regulators", "advocates and residents") —
+this is exactly what Phase 2.1/2.2's credentialing-test population passes
+already exist to catch, so no separate checklist needed here; it'll be
+handled automatically whenever those phases run on this file.
 
 ## status-2026-09-14
 
