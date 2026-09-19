@@ -574,6 +574,27 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   128 in line with that existing precedent. "COLA proponents" kept whole
   (the generic topic "COLA" stays attached to the non-credentialing word,
   per item 35's rule) rather than trimmed to bare "proponents."
+- **Story 189 (Cameroon_Unpaid_Wages) — "publishers" and "journalists"
+  moved from Source Descriptors to Title of Source, for consistency.**
+  Row 22 had "Publishers" in SD while row 29 had "publishers" in Title —
+  same word, same file, same UGOP type, no contextual difference between
+  them. Professional/industry-role nouns are credentialing per this
+  corpus's own established precedent elsewhere ("analysts," "Doctors,"
+  "experts," "researchers," "forecasters" are all Title, not SD), so
+  moved row 22 to match row 29 rather than the other way around. Same
+  logic extended to "journalists" (rows 1, 5), also previously sitting in
+  SD — reporters/journalists are a credentialed-role class too, so both
+  moved to Title.
+- **Mechanical cleanup: 1,505 literal `"null"` string cells cleared to
+  true blank, across all 17 of AV's solidarity-batch files (166-176,
+  185-190).** A commit earlier in the Sep17 batch's Phase 0 pass claimed
+  this was already "cleared throughout," but that only covered the 3
+  specific rows called out in that commit (168 row 28, 172 row 17, 171
+  row 3) — the rest of these 17 files still had the literal string
+  "null" (not a true empty cell) scattered through Name/Title/SD/SJ
+  wherever a field was blank. Purely mechanical, no judgment involved;
+  caught while fixing story 189's Title/SD rows above and swept across
+  the whole batch once found.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
