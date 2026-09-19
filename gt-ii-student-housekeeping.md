@@ -457,7 +457,7 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   modifier, keeping the location — matches how this exact phrase is
   already used elsewhere in this corpus, e.g. story 55's Andrew Torrence
   and Jayna McGruder, also South Shore residents).
-- **Story 114 (Kansas_Gender_Transitioning_Ban) row 9 — flagged, not
+- **Story 114 (Kansas_Gender_Transitioning_Ban) row 9 — flagged and now
   fixed, same schema gap as story 171 above.** Sourced Statement: "Last
   week, a New York City hospital said it was one of several to have
   received a grand jury subpoena..." — an unnamed hospital, which is an
@@ -465,11 +465,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Source "Unnamed Group," which (if just meant as shorthand for "Unnamed
   Group of People," as it does elsewhere in your files) would misrepresent
   this as a group of people rather than an institution. Set Type of
-  Source to the literal placeholder "Not Defined" rather than force it
-  into either Named Organization (no name is given) or Unnamed Group of
-  People (it's not people) — see `development-of-v59.md` item 10 for the
-  fuller reasoning and the new "Not Defined" convention this established.
-  Worth discussing at the next meeting since this is the second time this
+  Source to the literal placeholder "Not Defined-Unnamed Org(s)" rather
+  than force it into either Named Organization (no name is given) or
+  Unnamed Group of People (it's not people) — see `development-of-v59.md`
+  item 10 for the fuller reasoning and the convention this established.
+  2026-09-18 update: also backfilled Source Descriptors with "New York
+  City hospital" (previously blank) — the org descriptor the reporter
+  did give, even without a formal name, shouldn't be lost just because
+  the row can't get a real Type; Source Justification already had
+  substantive content and was left as-is. Worth discussing at the next
+  meeting since this is the second time this
   exact gap has come up in one day.
 - **Thin Source Justification fixed — story 74, "One speaker, a student
   at Gale Ranch Middle School" row.** Your original annotation had Source
@@ -525,6 +530,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   was purely a stale local-copy issue on our side, now fixed: all 17
   numbers in that batch (166–176, 185–190) have verified,
   correctly-matched text in `extracted_articles_boilerplate/`.
+- **Story 128 (Congress_Pay_Battle) row 1 — same schema gap as stories
+  171/114 above.** Sourced Statement: "A federal court has finally
+  weighed in on the sensitive topic of congressional member pay..." — an
+  unnamed court, an unnamed organization rather than a group of people.
+  Your draft had Type of Source "Unnamed Group of People," Title "federal
+  court." Set Type to "Not Defined-Unnamed Org(s)," moved "federal court"
+  from Title (which should stay blank for org-shaped sources) into Source
+  Descriptors instead — the descriptor shouldn't be lost just because the
+  row can't get a real Type. See `development-of-v59.md` item 10 for the
+  fuller convention.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
