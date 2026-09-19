@@ -19,6 +19,39 @@ the full chronological log of every individual finding, fix, and open
 question surfaced while applying this methodology, see that same file's
 "Migration punchlist" section.
 
+## At a glance
+
+- **Phase 0** — Structural setup: XLSx→CSV conversion, header
+  normalization. Mechanical, no article text needed.
+- **Phase 1** — Anonymous Source reclassification: check every Anonymous
+  Source row for an actual disclosure statement in the text; no
+  disclosure → reclassify to Unnamed Person/Unnamed Group of People.
+  Corpus-wide, before anything else.
+- **Phase 2** — Source Descriptors population, one Type of Source at a
+  time (the credentialing test: credentialing words → Title of Source,
+  non-credentialing → Source Descriptors):
+  - **2.1** Unnamed Group of People — single pass.
+  - **2.2** Unnamed Person — single pass, same credentialing-test logic.
+  - **2.3** Anonymous Source — single pass, same logic, applied to
+    whatever's left after Phase 1's reclassification.
+  - **2.4** Document — 3 sub-passes: schema-violation fix + SD
+    population, missed-name recovery, genre-word recovery.
+  - **2.5** Named Organization — 3 sub-passes: schema-violation audit
+    (incl. Note 12 joint-org splits), name recovery, category-word SD
+    population.
+  - **2.6** Named Person — 4 sub-passes (largest volume): general
+    annotation-error audit, Title credentialing-test audit, missed-title
+    recovery, systematic SD recovery.
+- **Phase 3** — Corpus-wide Source Justification/Title quality check,
+  run once after all of Phase 2: (a) SJ can't just state medium of
+  contact, (b) Title can't carry a bare relational descriptor, (c) flag
+  single-word SJ for review, (d) SD compliance audit, (e)
+  qualifier-stacking check on Title only, not Source Descriptors.
+- **Phase 4** — Missing Sourced Statement sweep, per file, run last
+  after Phase 0-3: re-read the full article against the complete row set
+  to find candidates with no row at all. Candidates only — needs
+  explicit approval before anything's added.
+
 ## Phase 0 — Structural setup (no story text needed yet)
 
 Purely mechanical, can happen before any article text is in hand:
