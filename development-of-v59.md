@@ -58,6 +58,45 @@ methodology.md` is the procedure itself — what a student annotator or a
 new migration batch should actually follow, independent of any specific
 batch's history.
 
+## Final dataset sanity checklist (run once all batches are migrated)
+
+Two to three more batches are expected over the next couple of weeks.
+This is the list to run once the *last* of them lands — not a to-do for
+any single batch, a final pass across the whole corpus. Consolidated
+2026-09-18 from checklists scattered across this file and
+`gt-ii-student-housekeeping.md`; keep adding to it as new corpus-wide
+findings turn up, rather than letting them scatter again.
+
+**Specific known rows/files still needing a fix:**
+- Category 2 (missing Named-Org rows): `GT-II/175-Indigenous_Health_COVID.csv`
+  rows 20, 21, 57; `GT-II/52-East_Bay_Voters.csv` row 8 — see the
+  Category 2 checklist in `gt-ii-student-housekeeping.md` for the full
+  reproducible-search writeup.
+- Non-standard Type of Source values: `GT-II/58-Louisiana_Shooting.csv`
+  (casing typo, 5 rows), `GT-II/116-Trump_Christian_Independance_Day.csv`
+  row 6 (entire row unannotated), `GT-II/62-D4vd_Murder_Charges.csv` row 4
+  ("Named Group" — likely a Note 12 split, 3 named people in one row).
+- Phase 4 parked candidates (7, across `GT-II/50`, `GT-II/166`,
+  `GT-II/176`) — need re-validation once Phase 4 actually runs in its
+  proper place for that batch (after Phase 2-3 finish), not just carried
+  forward as-is.
+- Story 74 Sourced-Statement-definition disagreement between AV and SZ —
+  needs a joint discussion, not yet decided as house policy.
+- Story 100 — still blocked on text (image-only PDF), needs OCR or a
+  cleaner source.
+
+**Corpus-wide sweeps to re-run, not just trust from the last time they ran clean:**
+- Type of Source canonicalization grep (the scan that found the 3 items
+  above) — every value in the corpus against the canonical list, re-run
+  fresh rather than assuming an earlier pass caught everything.
+- Phase 3(a)-(e) corpus sweep (SJ medium-of-contact check, Title bare-
+  relational-descriptor check, single-word SJ flag, Source Descriptors
+  compliance audit, qualifier-stacking check) — ran clean once (item 34)
+  against GT-2026 + GT-II as they stood at the time, but that predates
+  this batch and the next 2-3; needs a real final run once everything's in.
+- "Not Defined-Unnamed Org(s)" grep — cheap check for whether new batches
+  produce more instances of this schema gap (item 10).
+
 ## Migration punchlist
 
 ### 🔴 HIGH PRIORITY — open
@@ -223,11 +262,14 @@ capturing now so the plan is written down before it's needed.
    now has 14 examples total (13 real + 1 hypothetical, unconverted); keep
    appending new ones there as they surface, converting into the bank
    afterward the same way.
-3. **Bring benchmark code up to v59 schema compliance.** A student fixes the
-   benchmark project's code -- both the LLM annotation extraction script and
-   the evaluation script -- to handle the v59 6-field schema (the new Source
+3. **[IN PROGRESS, tracked on GitHub tickets, not here] Bring benchmark code
+   up to v59 schema compliance.** A student is fixing the benchmark
+   project's code -- both the LLM annotation extraction script and the
+   evaluation script -- to handle the v59 6-field schema (the new Source
    Descriptors column, the narrower Anonymous Source/Unnamed Person boundary,
-   etc.) instead of the older 5-field schema they currently assume.
+   etc.) instead of the older 5-field schema they currently assume. Already
+   underway in parallel with the GT migration work in this file -- tracked
+   via issues on the `llms-journ-sourcing` GitHub repo, not duplicated here.
 4. **Re-run the benchmark on GT 1-43 only, on current models.** Once the code
    is v59-compliant, re-run annotation + evaluation against just the existing
    GT-2026 (stories 1-43) and reproduce/compare scores using current-generation
