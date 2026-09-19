@@ -618,6 +618,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   (row 8, matching this same file's existing "Community members" SD
   precedent at row 4). Backfilled SD "interviewee" and "community
   member" respectively; nothing else in these rows changed.
+- **Story 189 (Cameroon_Unpaid_Wages) rows 2, 3, 4 (Mohamed Auwal) —
+  "private media journalist" moved from Source Descriptors to Title of
+  Source, matching this same file's own "journalists"/"publishers"
+  fix.** Same inconsistency as rows 1/5/22/29 fixed earlier in this
+  batch: "journalist" is credentialing, belongs in Title. Checked
+  whether "private" was decorative before moving the whole phrase
+  together — it isn't: the article is specifically about the difference
+  between private and state-aligned media in Cameroon's press-freedom
+  context, so "private" is category-defining here, not elaboration.
+  Source Justification ("in Ngoundere, northern Cameroon") unchanged.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
