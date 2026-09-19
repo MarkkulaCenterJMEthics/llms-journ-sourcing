@@ -564,6 +564,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   expand SJ with (the surrounding text is reporter scene-setting, no
   elaboration on who the critics are), so it stays thin but not
   fabricated.
+- **Story 128 (Congress_Pay_Battle) rows 3, 8, 9 — moved non-credentialing
+  words from Title of Source to Source Descriptors.** Your draft had
+  "Plaintiffs" (rows 3, 8) and "COLA proponents" (row 9) in Title of
+  Source — both are non-credentialing (a legal-party role and a
+  stance-holder word, not professional/institutional titles), so they
+  belong in SD per the credentialing test. `170-Fire_Prevention_Homeless.csv`
+  row 14 already has "Plaintiffs" correctly in SD, so this also brings
+  128 in line with that existing precedent. "COLA proponents" kept whole
+  (the generic topic "COLA" stays attached to the non-credentialing word,
+  per item 35's rule) rather than trimmed to bare "proponents."
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
