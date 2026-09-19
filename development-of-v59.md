@@ -97,6 +97,22 @@ findings turn up, rather than letting them scatter again.
 - "Not Defined-Unnamed Org(s)" grep — cheap check for whether new batches
   produce more instances of this schema gap (item 10).
 
+**Special category — narrative/immersive-journalism pieces with
+ambiguous attribution, needs a scope decision (include with self-review,
+or exclude):** some stories are long-form narrative/feature pieces
+(floating quotes, loose "another shared"/unattributed pull-quote style)
+rather than the clearer "X said" attribution pattern most of the corpus
+has — for these, some Unnamed Person rows genuinely have no atomic
+descriptor word anywhere in the row's own text, not just a missed
+capture. Left as-is for now (Type/Name/Title/SD/SJ all blank), not
+forced. User's call still open: personally annotate these to check for
+possibly-missed Source Justifications, or leave the whole story out of
+the dataset as a genre mismatch for this schema. Known instances so far:
+- `GT-II/176-Roadblocks_to_Relief.csv` rows 10, 12
+- `GT-II/186-Homeless_Camp_Sweeps.csv` row 41
+Watch for this pattern recurring in similarly-styled feature pieces in
+future batches, not just these two files.
+
 ## Migration punchlist
 
 ### 🔴 HIGH PRIORITY — open
