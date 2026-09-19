@@ -553,6 +553,17 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Descriptors instead — the descriptor shouldn't be lost just because the
   row can't get a real Type. See `development-of-v59.md` item 10 for the
   fuller convention.
+- **Story 50 (Peru_Election) row 8 — Source Descriptors backfilled from
+  Source Justification.** Sourced Statement ends "...as critics say
+  Congress has weakened the oversight mechanisms meant to combat crime."
+  Your draft had "Critics" sitting only in Source Justification, with
+  Source Descriptors empty — "critics" is non-credentialing (a stance
+  word, not a role), so it belongs in SD. Backfilled SD "critics"; left
+  SJ as "Critics" rather than blanking it — SD and SJ aren't mutually
+  exclusive, and there's no richer context anywhere in the article to
+  expand SJ with (the surrounding text is reporter scene-setting, no
+  elaboration on who the critics are), so it stays thin but not
+  fabricated.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
