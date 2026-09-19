@@ -457,7 +457,7 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   modifier, keeping the location — matches how this exact phrase is
   already used elsewhere in this corpus, e.g. story 55's Andrew Torrence
   and Jayna McGruder, also South Shore residents).
-- **Story 114 (Kansas_Gender_Transitioning_Ban) row 10 — flagged, not
+- **Story 114 (Kansas_Gender_Transitioning_Ban) row 9 — flagged, not
   fixed, same schema gap as story 171 above.** Sourced Statement: "Last
   week, a New York City hospital said it was one of several to have
   received a grand jury subpoena..." — an unnamed hospital, which is an
@@ -589,6 +589,42 @@ row is a different type — that's a real scope note for future sweeps
 (a check for missing SS candidates isn't the same thing as Phase 1's
 Anonymous Source recheck), but there's no actual missing row in this
 file. Caught by the user re-checking against the source XLSx.
+
+### Checklist — non-standard Type of Source values found corpus-wide, PRIORITY RAISED 2026-09-18
+
+Found 2026-09-18 while discussing the "Not Defined" fallback's field
+handling (128 row 1) — the user asked to verify no other non-standard
+Type of Source values exist in the migrated corpus, expecting the
+canonicalization pass to have already caught everything. It mostly did
+(Sep17 batch: zero non-standard values, clean), but a full corpus-wide
+scan of GT-2026 + all of GT-II found 3 more, all in older, pre-Sep17
+files that predate this session's canonicalization sweep. **User's
+reaction: priority for fixing these just went up** — not clear yet how
+they were missed, since a canonicalization sweep was supposedly run as
+part of the earlier migration batches.
+
+**How this was found (reproducible):** scan every CSV's Type of Source
+column (`benchmarking/GT data/GT-2026/*.csv` + `benchmarking/GT
+data/GT-II/*.csv`) with a `collections.Counter`, flag any value outside
+the 7 canonical values (6 schema types + "Not Defined").
+
+- **`58-Louisiana_Shooting.csv` rows 1, 3, 5, 6, 11** — `"Unnamed group of
+  people"` (lowercase), the same casing-typo class already normalized
+  elsewhere this migration. Mechanical fix, not a judgment call.
+- **`116-Trump_Christian_Independance_Day.csv` row 6** — the entire row
+  is unclassified (Type, Name, Title, SD, and SJ all empty, not just
+  Type). SS: "And Interior and other federal agencies have awarded
+  no-bid contracts to firms reportedly favored by Trump..." Needs real
+  annotation work, not a value fix — "Interior" is a named federal
+  agency (Department of the Interior), so this likely wants Named
+  Organization for Interior, possibly split per Note 12 with "other
+  federal agencies" as an unnamed remainder.
+- **`62-D4vd_Murder_Charges.csv` row 4** — Type "Named Group" (not a
+  canonical value). Name of Source is "Blair Berk; Marilyn Bednarski;
+  Regina Peter" — three named individuals in one row. Looks like a
+  straightforward Note 12 violation (one row per named source) rather
+  than a real "what type is this" question — probably three separate
+  Named Person rows.
 
 ## status-2026-09-14
 
