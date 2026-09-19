@@ -406,6 +406,19 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   text ("a Canadian official familiar with the discussions") was rows
   8-9's EU-specific phrase and doesn't substantively describe row 18's
   Ottawa-strategy quote.
+- **Story 181 row 20 — reclassified Unnamed Group of People to Named
+  Organization, matching story 165's precedent for the identical
+  sentence.** Same Sourced Statement as row 19 ("Since Canada-U.S. trade
+  talks collapsed... Trump and his administration have imposed
+  additional tariffs..."), split per Note 12 into a Named Person row
+  (Trump, row 19) and an org-half row (row 20). Your draft had the
+  org-half typed Unnamed Group of People with "Trump Administration"
+  sitting in Name of Source — but "Trump Administration" isn't a common
+  noun, it's the specific, de facto name of a specific organization (the
+  executive branch under a given president), the same way `165`'s
+  identical sentence already correctly typed it Named Organization.
+  Fixed: Type of Source → Named Organization, Name of Source → "Trump
+  administration" (lowercase, matching `165`'s casing).
 - **Source Descriptors consistency fixes applied to your copy of story
   74.** Same two trims already applied to AV's copy: Shailaja Dixit's
   "longtime resident of San Ramon" -> "resident of San Ramon" (dropping
