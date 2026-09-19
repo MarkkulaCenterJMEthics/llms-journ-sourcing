@@ -595,6 +595,29 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   wherever a field was blank. Purely mechanical, no judgment involved;
   caught while fixing story 189's Title/SD rows above and swept across
   the whole batch once found.
+- **Story 186 (Homeless_Camp_Sweeps) rows 45, 46 — "ARR worker"/"HSO
+  employee" moved from Title of Source to Source Descriptors.** Both
+  Austin Resource Recovery and Austin's Homeless Strategies and
+  Operations Department are named in the article, but the sourced
+  individuals here are just described as line staff/laborers ("the
+  employee said," "two HSO employees emerged"), not officials,
+  spokespeople, or anyone in a position of authority within either
+  department. "Worker"/"employee" denote employment status, not a
+  licensed profession, expertise, or leadership role — non-credentialing,
+  same as "protestor" or "resident," unlike "Doctors" or "publisher"
+  (effectively CEO-level) elsewhere in this batch. Moved the whole
+  phrase to Source Descriptors rather than stripping the org name: with
+  no Name of Source to make the org tag redundant (unlike the
+  org-affiliation-stripping cases, e.g. Sean Crist), the org affiliation
+  is the only identifying signal these two rows have at all.
+- **Story 176 (Roadblocks_to_Relief) rows 3, 5, 8, 11 — Source
+  Descriptors backfilled from the atomic word already sitting in the
+  Sourced Statement text.** All four rows had Name/Title/SD/SJ
+  completely empty despite an explicit descriptor word right there in
+  the SS: "one interviewee" (rows 3, 5, 11) and "one community member"
+  (row 8, matching this same file's existing "Community members" SD
+  precedent at row 4). Backfilled SD "interviewee" and "community
+  member" respectively; nothing else in these rows changed.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
