@@ -102,16 +102,25 @@ ambiguous attribution, needs a scope decision (include with self-review,
 or exclude):** some stories are long-form narrative/feature pieces
 (floating quotes, loose "another shared"/unattributed pull-quote style)
 rather than the clearer "X said" attribution pattern most of the corpus
-has — for these, some Unnamed Person rows genuinely have no atomic
-descriptor word anywhere in the row's own text, not just a missed
-capture. Left as-is for now (Type/Name/Title/SD/SJ all blank), not
-forced. User's call still open: personally annotate these to check for
-possibly-missed Source Justifications, or leave the whole story out of
-the dataset as a genre mismatch for this schema. Known instances so far:
-- `GT-II/176-Roadblocks_to_Relief.csv` rows 10, 12
+has — for these, some Unnamed Person/Anonymous Source rows genuinely
+have no atomic descriptor word anywhere in the row's own text, not just
+a missed capture. Left as-is for now (Type/Name/Title/SD/SJ all blank
+or, for the disclosed Anonymous Source rows, SJ populated with the
+disclosure but Title/SD still empty), not forced. User's call still
+open: personally annotate these to check for possibly-missed Source
+Justifications, or leave the whole story out of the dataset as a genre
+mismatch for this schema. **User plans to re-read `166` and `176` in
+full** to check for source justifications that may have been missed
+elsewhere in these pieces (2026-09-18). Known instances so far:
+- `GT-II/176-Roadblocks_to_Relief.csv` rows 7 (Yolanda, Anonymous
+  Source — name given but no descriptor stated anywhere), 10, 12
 - `GT-II/186-Homeless_Camp_Sweeps.csv` row 41
+- `GT-II/166-DC_Essential_Workers.csv` rows 5-9 (Sally, Anonymous
+  Source — SS implies patient-care work at a hospital ICU but never
+  states an explicit occupational word; SJ has the disclosure phrase,
+  Title/SD empty on all 5 rows)
 Watch for this pattern recurring in similarly-styled feature pieces in
-future batches, not just these two files.
+future batches, not just these files.
 
 ## Migration punchlist
 
