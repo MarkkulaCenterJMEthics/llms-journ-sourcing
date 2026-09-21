@@ -735,6 +735,14 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Austin formally speaking through a designated representative. Fixed:
   Type → Unnamed Group of People, Title → "Officials", Name of Source
   cleared.
+- **Story 170 (Fire_Prevention_Homeless) row 8 — same reclassification,
+  found while checking a related question on story 181.** "Berkeley
+  city staff also cited problems like crime and domestic disputes." —
+  your draft had Name of Source "Berkeley," but "city staff" is a
+  generic/informal collective reference (same shape as "officials in
+  Austin" above), not Berkeley's government formally speaking. Fixed:
+  Type → Unnamed Group of People, Title → "city staff", Name of Source
+  cleared.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
