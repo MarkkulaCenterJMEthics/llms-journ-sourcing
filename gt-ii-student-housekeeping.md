@@ -589,7 +589,7 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   true blank, across all 17 of AV's solidarity-batch files (166-176,
   185-190).** A commit earlier in the Sep17 batch's Phase 0 pass claimed
   this was already "cleared throughout," but that only covered the 3
-  specific rows called out in that commit (168 row 28, 172 row 17, 171
+  specific rows called out in that commit (168 row 28, 172 row 16, 171
   row 3) — the rest of these 17 files still had the literal string
   "null" (not a true empty cell) scattered through Name/Title/SD/SJ
   wherever a field was blank. Purely mechanical, no judgment involved;
@@ -673,6 +673,17 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   genre word) on all four rows; also fixed "affadavit" → "affidavit" in
   Source Justification on all four (a misspelling that didn't match the
   article's own spelling, "federal affidavit unsealed on Monday").
+- **Story 172 (Delhi_Flyover_Homeless) row 16 — Source Descriptors
+  backfilled "data."** "Data suggests that nearly 99% of people living
+  on the streets suffer inadequate and interrupted sleep during extreme
+  heat" — no organization named, correctly stays Document (this is the
+  same row that was resolved from "Unresolved" earlier in the migration;
+  a documentation note elsewhere had mislabeled it "row 17," now
+  corrected to row 16 to match the actual CSV). Backfilled Source
+  Descriptors "data," matching the "state data"/"census data"
+  generic-citation precedent this row was originally typed under. Source
+  Justification stays empty — no additional context in this row's own
+  text to capture.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
