@@ -706,6 +706,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   establishes a new general distinction (formal spokesperson/official
   capacity vs. individual professional judgment with an org given only
   as employment context) worth watching for elsewhere in the corpus.
+- **Story 168 (Texas_Power_Outages) row 5 — reclassified Named
+  Organization "Austin" to Unnamed Group of People, same pattern as
+  story 67 above.** "Officials in Austin, for example, said Feb. 19
+  that restoring water services would likely be a multiday process for
+  the whole city." Your draft had Name of Source "Austin" (a city, not
+  a clearly-designated representative capacity) — this reads as
+  "officials" (an unnamed group) located in Austin, not the City of
+  Austin formally speaking through a designated representative. Fixed:
+  Type → Unnamed Group of People, Title → "Officials", Name of Source
+  cleared.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
