@@ -661,6 +661,18 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   already had the bare genre word "polls." Backfilled SD "polls" on all
   four rows; SJ left unchanged (independent fields, same as row 8's
   earlier fix in this same file).
+- **Story 69 (Trump_Assassination_Suspect) rows 4, 5, 8, 9 — Source
+  Descriptors backfilled "affidavit"; fixed a spelling error in Source
+  Justification.** Considered and confirmed these stay Document, not
+  Named Organization, even though "F.B.I." is named — the affiant (the
+  individual F.B.I. agent who swore the affidavit) is never named, so
+  there's no named individual to attribute it to either; the affidavit
+  is evidentiary/procedural material from a legal proceeding, not the
+  F.B.I. releasing an institutional publication the way an organization
+  releases a report. Backfilled Source Descriptors "affidavit" (bare
+  genre word) on all four rows; also fixed "affadavit" → "affidavit" in
+  Source Justification on all four (a misspelling that didn't match the
+  article's own spelling, "federal affidavit unsealed on Monday").
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
