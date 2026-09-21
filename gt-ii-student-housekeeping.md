@@ -654,6 +654,13 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   question here, only one org). Fixed: Type → Named Organization, Name
   of Source → "World Resources Institute". Title/SD stay empty; Source
   Justification ("Report by World Resources Institute") unchanged.
+- **Story 50 (Peru_Election) rows 1, 5, 6, 7 — Source Descriptors
+  backfilled "polls" from Source Justification.** All four cite polls
+  generically ("according to polls," "in the polls") with no
+  organization named — correctly stays Document. SD was empty while SJ
+  already had the bare genre word "polls." Backfilled SD "polls" on all
+  four rows; SJ left unchanged (independent fields, same as row 8's
+  earlier fix in this same file).
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
