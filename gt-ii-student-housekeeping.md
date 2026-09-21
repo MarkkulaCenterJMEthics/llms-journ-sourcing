@@ -684,6 +684,28 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   generic-citation precedent this row was originally typed under. Source
   Justification stays empty — no additional context in this row's own
   text to capture.
+- **Story 67 (California_Ships_Whales) row 12 — reclassified Named
+  Organization to Unnamed Group of People; NOAA doesn't formally stand
+  behind individual scientists' beliefs.** "Federal scientists at the
+  National Oceanic and Atmospheric Administration believe changes in
+  gray whale feeding grounds..." — your draft had this typed Named
+  Organization (Name "National Oceanic and Atmospheric Administration")
+  with "Federal Scientists" sitting in Title of Source, which Named
+  Organization can never carry (a schema violation on its own). But the
+  deeper issue: NOAA employs hundreds of scientists, and there's no
+  reason to assume the agency has put its institutional stamp of
+  approval behind these particular scientists' individual research
+  beliefs, unlike a spokesperson whose statement genuinely represents
+  an org's official position. The reporter is signaling *where these
+  scientists work*, not attributing an official NOAA position. Fixed:
+  Type → Unnamed Group of People, Title kept "Federal Scientists"
+  (already correct there), Name of Source cleared — the NOAA affiliation
+  isn't lost, it's still right there in the Sourced Statement text, just
+  not promoted to a structured Named Organization row. See
+  `development-of-v59.md` item 41 for the fuller reasoning — this
+  establishes a new general distinction (formal spokesperson/official
+  capacity vs. individual professional judgment with an org given only
+  as employment context) worth watching for elsewhere in the corpus.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
