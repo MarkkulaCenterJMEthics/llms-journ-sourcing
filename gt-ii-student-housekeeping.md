@@ -772,6 +772,19 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Joey, Angel, Jazz) against the full article text — none of them are
   ever given a fuller name anywhere, so those stay as-is; Reyes was the
   one genuine case.
+- **Story 169 (Black_Mothers_Gun_Violence) rows 5, 6, 7, 8 (Shea
+  Kuykendoll) — "student advocate" moved from Title of Source to
+  Source Descriptors.** "She is a student advocate at the University of
+  Memphis" — "advocate" is non-credentialing, same pattern as the
+  established "homeless advocate" precedent (Paul Boden, GT-2026).
+  "Student" is the cause/topic being advocated for, so it stays attached
+  to "advocate" (per the same rule that keeps "homeless advocate" whole
+  rather than trimming to bare "advocate"); "at the University of
+  Memphis" is the actual organizational affiliation, which strips out —
+  it's already captured in Source Justification, so nothing is lost.
+  Fixed: Title of Source cleared, Source Descriptors "mother" →
+  "mother, student advocate" (accumulating alongside the existing
+  descriptor), Source Justification left untouched.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
