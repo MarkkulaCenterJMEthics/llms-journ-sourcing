@@ -647,6 +647,13 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   than part of the org's actual name), Source Descriptors cleared (was
   "poll" — same reasoning). Not split into 3 rows, matching the same
   polling-consortium convention as story 50 above.
+- **Story 71 (Global_Deforestation_Slows) rows 1, 2 — same
+  reclassification, single-org case.** "A report published... by World
+  Resources Institute" — a single named org releasing a report under
+  its own name, same rule as stories 50/171 above (no joint-credit
+  question here, only one org). Fixed: Type → Named Organization, Name
+  of Source → "World Resources Institute". Title/SD stay empty; Source
+  Justification ("Report by World Resources Institute") unchanged.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
