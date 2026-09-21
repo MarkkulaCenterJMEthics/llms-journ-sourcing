@@ -628,6 +628,25 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   between private and state-aligned media in Cameroon's press-freedom
   context, so "private" is category-defining here, not elaboration.
   Source Justification ("in Ngoundere, northern Cameroon") unchanged.
+- **Story 50 (Peru_Election) row 4 — Document reclassified to Named
+  Organization.** Sourced Statement cites "recent surveys by Datum
+  International and the Institute of Peruvian Studies" — two named
+  polling organizations releasing survey data under their own names,
+  which per an existing GT-2026 rule (a named org formally releasing/
+  standing behind a document in its own name is Named Organization, not
+  Document) should never have been typed Document to begin with. Fixed:
+  Type → Named Organization, Name of Source → "Datum International and
+  the Institute of Peruvian Studies" — captured with "and" exactly as
+  the article phrases it, not split into two rows (see the Note 12
+  polling-consortium clarification, `development-of-v59.md` item 23).
+- **Story 171 (Bracing_Next_George_Floyd) rows 11, 12 — same fix.**
+  Name of Source was already correctly "NPR/PBS NewsHour/Marist poll"
+  (three named orgs), but Type was still Document — the original
+  capture was half-done. Fixed: Type → Named Organization, Name trimmed
+  to "NPR/PBS NewsHour/Marist" (dropped "poll," genre language rather
+  than part of the org's actual name), Source Descriptors cleared (was
+  "poll" — same reasoning). Not split into 3 rows, matching the same
+  polling-consortium convention as story 50 above.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
