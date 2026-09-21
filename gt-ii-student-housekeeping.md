@@ -761,6 +761,17 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   not moment-specific the way a human source's descriptor can be) — no
   fix needed on your part, this reflects new schema guidance being
   applied, not an error in your annotation.
+- **Story 186 (Homeless_Camp_Sweeps) rows 36, 37, 39, 40, 42, 67, 68 —
+  full name recovered for Reyes.** The article introduces him once, at
+  first mention, as "Alfredo Reyes, a worker with the advocacy group
+  VOCAL-TX" (line 9) — every later reference uses only "Reyes," and
+  your draft had Name of Source as just "Reyes" across all 7 rows.
+  Fixed to "Alfredo Reyes," matching the one full-name instance in the
+  article. Checked the other first-name/surname-only sources in this
+  same file (Puma, Betty, August, Niedzielski, Mike-Mike, Brianna,
+  Joey, Angel, Jazz) against the full article text — none of them are
+  ever given a fuller name anywhere, so those stay as-is; Reyes was the
+  one genuine case.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
