@@ -419,6 +419,25 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   identical sentence already correctly typed it Named Organization.
   Fixed: Type of Source → Named Organization, Name of Source → "Trump
   administration" (lowercase, matching `165`'s casing).
+- **Story 181 rows 1, 2, 5 — confirmed Named Organization is correct for
+  bare country/region names used as geopolitical shorthand.** "The
+  United States is banning..." (White House), "Canada had responded to
+  tariff moves..." (Canada), "the U.S. imposed 50% tariffs..." (United
+  States) — all three were already correctly typed Named Organization.
+  Checked the actual prompt directly and confirmed this exact case
+  (a bare sovereign-region name standing in for its government) isn't
+  explicitly addressed anywhere yet — logged as a real prompt gap
+  (`development-of-v59.md` item 26), not just a local judgment call, and
+  drafted as a generalization of the existing "San Mateo County
+  officials" pattern (Note 8) to every level of regional granularity.
+  No CSV change needed here, these three rows were already right.
+- **Story 181 row 5 — fixed a transcription error in Sourced Statements.**
+  Your copy had "n Aug. 22, the U.S. imposed 50% tariffs..." — missing
+  the "O" from "On." Checked against the article text directly (which
+  correctly reads "On Aug. 22, the U.S. imposed 50% tariffs..."),
+  confirmed this was a transcription slip on your side, not an
+  extraction artifact, and fixed the Sourced Statement text to match the
+  article verbatim.
 - **Source Descriptors consistency fixes applied to your copy of story
   74.** Same two trims already applied to AV's copy: Shailaja Dixit's
   "longtime resident of San Ramon" -> "resident of San Ramon" (dropping
