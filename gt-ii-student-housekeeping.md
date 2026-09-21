@@ -785,7 +785,18 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Fixed: Title of Source cleared, Source Descriptors "mother" →
   "mother, student advocate" (accumulating alongside the existing
   descriptor), Source Justification left untouched.
-
+- **Story 188 (Trans_Women_Incarcerated) rows 19, 20, 21, 22, 23, 27,
+  28 (Bamby Salcedo) — Title of Source backfilled from later in the
+  same story.** Rows 45-46 already correctly had Title "CEO and
+  President of Los Angeles-based TransLatin@ Coalition" (the article
+  reveals this at "Salcedo is now the CEO and President..."), but the
+  earlier rows — describing her incarceration decades ago, before that
+  title is stated — had Title empty. Per the existing carry-forward
+  rule (a title is a global identifier for the source across the whole
+  article, applied even when the reporter introduces someone by name
+  first and states their title later), backfilled the same Title onto
+  all 7 earlier rows to match. Source Descriptors and Source
+  Justification unchanged.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
