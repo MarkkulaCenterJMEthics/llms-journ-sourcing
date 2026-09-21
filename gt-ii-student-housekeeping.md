@@ -743,6 +743,24 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Austin" above), not Berkeley's government formally speaking. Fixed:
   Type → Unnamed Group of People, Title → "city staff", Name of Source
   cleared.
+- **Story 174 (PPP_Loans_Low_Income) — Source Descriptors populated for
+  8 Named Organization rows.** Direct same-row captures: row 7 and row
+  23 (U.S. Small Business Administration, both say "the agency" in
+  their own Sourced Statement text) → SD "agency"; row 13 (Color Of
+  Change, "a racial justice organization") → SD "racial justice
+  organization"; row 29 (Wells Fargo, "the fourth-largest PPP lender")
+  → SD "lender". Carry-forward captures (the category word is stated in
+  a different sentence about the same organization elsewhere in the
+  article, not this specific row's own text): rows 16 and 27 (also SBA)
+  → SD "agency"; row 17 (Bank of America, "the top PPP lender" appears
+  in a different sentence) → SD "lender"; row 43 (Square, "both top PPP
+  lenders" appears in a different sentence) → SD "lender". The
+  carry-forward extension to Named Organization category words is a new
+  principle confirmed this session — see `development-of-v59.md` item
+  27 for the reasoning (an org's category is a stable, story-wide fact,
+  not moment-specific the way a human source's descriptor can be) — no
+  fix needed on your part, this reflects new schema guidance being
+  applied, not an error in your annotation.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
