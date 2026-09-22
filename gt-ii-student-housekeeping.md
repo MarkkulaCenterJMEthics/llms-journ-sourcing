@@ -831,6 +831,17 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   org-attached phrasing); Source Descriptors → "outreach worker" on all
   4 rows (org name "Punks With Lunch" stripped, per the org-affiliation
   rule). Source Justification unchanged throughout.
+- **Story 174 (PPP_Loans_Low_Income) — pulled from active migration,
+  needs a direct session with you (2026-09-21).** While reviewing a
+  Title-of-Source question for KB Brown/Katie Brown ("owner of
+  Wolfpack Promotionals" — a strong precedent for this exists
+  elsewhere in the corpus), the user checked the original XLSx directly
+  and decided this file needs full attention together with you rather
+  than continuing through the normal process. The Phase 2.4/2.5 work
+  already done and committed on this file stays as-is; only the
+  remaining Phase 2.6 work is paused. Will come back to this in a
+  future batch pass — see `development-of-v59.md` item 42.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
