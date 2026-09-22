@@ -851,6 +851,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   United Academy of Language"), and "instructor" is the same kind of
   credentialed position in the U.S. Backfilled the same Title onto all
   3 earlier rows to match.
+- **Story 185 (The_Uncounted) rows 45, 46, 47, 48, 49, 51, 52 (Ana) —
+  Source Descriptors backfilled "unhoused, mother" from Source
+  Justification.** SJ already reads "an unhoused mother from Mexico who
+  has lived near the park for years" on every row, but SD was empty
+  throughout. Checked both the atomic-word rule and corpus precedent
+  before deciding what to keep: bare "mother" is the overwhelming norm
+  across the corpus (20+ instances with no qualifier in story 169
+  alone), and while location qualifiers are consistently kept on
+  "resident" ("South Shore resident," "resident of San Ramon," etc. —
+  location is constitutive of what "resident" means), no precedent
+  exists anywhere for a nationality/origin qualifier attached to
+  "mother" or "unhoused." "From Mexico" reads as elaborating detail
+  (the prompt's own "witnesses with criminal records" example — trim
+  it), not a tightly-bound label like "former felons." Backfilled SD
+  "unhoused, mother" (bare); Title and Source Justification unchanged.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
