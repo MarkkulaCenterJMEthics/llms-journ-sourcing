@@ -797,6 +797,25 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   first and states their title later), backfilled the same Title onto
   all 7 earlier rows to match. Source Descriptors and Source
   Justification unchanged.
+- **Story 190 (West_Texas_Drag_Queens) rows 9, 10, 36 (Miss Calvina) —
+  Title of Source and Source Descriptors both populated from a
+  credentialing fact stated in a different source's sentence.** The
+  article never introduces Miss Calvina with a title directly — the
+  fact comes embedded in a sentence about Grace Rogers (a different
+  named source in this file): "She attended the drag queen story hour
+  to support Miss Calvina, who works as the choir director and organist
+  at her Episcopal church in Lubbock." Still unambiguously about Miss
+  Calvina by name, satisfying the no-inference rule. Split the two
+  roles per the credentialing test: "choir director" is a formal
+  leadership position (same bucket as other "director" titles already
+  established as credentialing) — kept whole with its org/location
+  context, matching the "director, the Brennan Center" convention.
+  "Organist" is a skilled occupation without institutional authority —
+  same bucket as the trades explicitly excluded from Title (plumber,
+  carpenter) — moved to Source Descriptors instead. Fixed: Title →
+  "choir director, Episcopal church, Lubbock", Source Descriptors
+  "drag queen" → "drag queen, organist", Source Justification
+  unchanged.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
