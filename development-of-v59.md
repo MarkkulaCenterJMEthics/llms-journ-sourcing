@@ -106,6 +106,13 @@ findings turn up, rather than letting them scatter again.
   "poll," "index," etc. once item 40's batch-level cases are resolved,
   since the gap may predate this batch. See item 40 for the full
   inventory and reasoning.
+- Unattributed narration of a source's own inner experience captured as
+  Sourced Statement instead of Source Justification — check prevalence
+  across all current annotations, re-confirm the exact SS guidance,
+  decide whether Notes 9/10's existing implied-attribution logic is
+  sufficient or a new explicit rule is needed, then settle every
+  unclear case the prevalence check turns up. See item 44 for the full
+  reasoning and how this differs from item 7's SS-segmentation question.
 
 **Special category — narrative/immersive-journalism pieces with
 ambiguous attribution, needs a scope decision (include with self-review,
@@ -464,6 +471,10 @@ capturing now so the plan is written down before it's needed.
     8. `GT-II/50-Peru_Election.csv`, Veronica Mendoza — "vendor" (from Juliaca) — row 9: "a vendor from Juliaca, a city in Peru's southern highlands."
     - **Checked and ruled out as false positives during the same scan** (not candidates, no action needed): `128` Mike Johnson, `168` Ashlynn Hoffner/Lisa Blevins, `169` Janelle Scott/Lorrain Taylor/Natalie Manning/Sharmaine Brown, `170` Cheryl Davila, `172` Chandni Singh/Indu Prakash Singh/Nikita Popat/Shahida, `175` David Conejo/Gabriella Lee/Gary Morsch/Ina Burmeister/Jamie Barboan/Joseph Kalt/Melvina Musket/Rajiv Patel, `185` Ale Del Pinal/David Modersbach/Jeremiah/Seth Gomez, `186` Alfredo Reyes (the "homeless" hit is his own past-history SJ text, already flagged separately under the Phase 3 SJ/SS-duplication question, not re-litigated here)/August/Brianna/David Gray/Lily Hughes/Paul Tardie/Snehal Patel, `189` Mbomda Djomeni Casimir, `190` Bryan Slaton/Grace Rogers (already fully, correctly captured — Title "retired high school government teacher", rest in SJ)/Marjorie Taylor Greene/Sarah Deckard.
     - **Resume here**: go through candidates 1-8 one at a time, full row dump first for each, same process as the rest of this session.
+
+44. **[OPEN — new corpus-wide sweep item, for the end-of-all-batches SS pass, not this batch] Unattributed narration of a source's own inner experience (what they felt, saw, remembered) sometimes gets captured as Sourced Statement when it should be Source Justification instead — distinct from item 7's segmentation question.** User's framing (2026-09-22): in some annotations, "annotators have pulled in 'inferred' statements which are the reporters stating what the sources experienced, felt and saw, but they are being reported as if the reporter is stating them as fact" — no attribution verb, no "X said/felt/recalled." Usually such lines are a better fit for Source Justification (context on the source's experience/standing) than Sourced Statement (which requires the reporter to be drawing content *from* the source, signaled by attribution, explicit or implied). Checked the current guidance directly (`new_prompts/system_prompt_v60.md` lines 89-102): the main Sourced Statement definition already excludes "what they are witnessing first hand or what they conclude about a source or a source's actions" when unattributed — but that exclusion is framed around the *reporter's own* observation/analysis, not the specific case of the reporter narrating the *source's own* subjective inner experience as apparent fact, which is a third category not explicitly named. Notes 9/10 already cover the user's stated exception (implied attribution continuing from an explicitly-attributed statement one or two lines earlier) — so the "usually SJ, but can be SS if it's a clear implied continuation of a directly-attributed statement" test the user described is *already* the guidance's actual shape, just not stated as cleanly as a single named rule.
+    - **Three-part task for the end-of-all-batches sweep, as the user specified**: (a) check the prevalence of this pattern across all current annotations — is it rare or common; (b) re-confirm the exact current SS guidance (done above, but re-verify against whatever prompt version is canonical when the sweep actually runs, in case it's changed); (c) decide whether the existing Note 9/10 guidance is sufficient as a rule, or whether a new explicit rule needs to be added distinguishing "unattributed narration of the reporter's own observation/conclusion" (already excluded) from "unattributed narration of the source's own experience, not following a direct attribution" (the new case) — then use that decision to settle every unclear/ambiguous instance the prevalence check (a) turns up, rather than deciding them ad hoc as they're found.
+    - **Not scoped to any single batch** — this is explicitly a corpus-wide, end-of-migration sweep, added to the Final dataset sanity checklist below.
 
 ## Where to go for more
 
