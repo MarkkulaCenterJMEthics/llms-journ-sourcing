@@ -876,7 +876,14 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   unhoused, so it wasn't captured. Backfilled SD "resident of North
   Oakland" (matching the "resident of San Ramon"/"South Shore resident"
   location-kept precedent) on all 8 rows.
-
+- **Story 186 (Homeless_Camp_Sweeps) row 16 (Jennifer Miller) — Source
+  Descriptors populated "unhoused."** "Jennifer Miller said that she
+  had been unhoused for three years..." — checked prevalence across
+  all of GT-II first: 26 existing "unhoused"/"homeless" SD instances,
+  every one bare, zero with a duration qualifier attached anywhere in
+  the corpus. Trimmed "for three years" per that consistent precedent
+  (same pattern as "longtime resident" -> "resident"). SD "unhoused";
+  Title and Source Justification unchanged.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
