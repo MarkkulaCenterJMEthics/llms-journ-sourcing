@@ -816,6 +816,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "choir director, Episcopal church, Lubbock", Source Descriptors
   "drag queen" → "drag queen, organist", Source Justification
   unchanged.
+- **Story 185 (The_Uncounted) rows 27, 41, 43, 53 (Katie O'Bryant) —
+  reconciled two different title phrasings for the same role into one
+  global Title, with the non-credentialing half moved to Source
+  Descriptors.** The article uses two different phrasings at two
+  points: "Punks With Lunch outreach worker Katie O'Bryant" (line 130,
+  row 41's existing Title) and "Outreach coordinator Katie O'Bryant"
+  (line 137, rows 43/53's existing Title); row 27 had no title at all.
+  "Outreach worker" is a generic employment role without institutional
+  authority — same bucket as the "ARR worker"/"HSO employee" cases
+  fixed in Phase 2.5, non-credentialing. "Coordinator" is a real
+  institutional job title, credentialing. Fixed: Title → "Outreach
+  coordinator" on all 4 rows (backfilled to row 27, replacing row 41's
+  org-attached phrasing); Source Descriptors → "outreach worker" on all
+  4 rows (org name "Punks With Lunch" stripped, per the org-affiliation
+  rule). Source Justification unchanged throughout.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
