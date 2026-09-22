@@ -841,7 +841,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   already done and committed on this file stays as-is; only the
   remaining Phase 2.6 work is paused. Will come back to this in a
   future batch pass — see `development-of-v59.md` item 42.
-
+- **Story 173 (Mountain_View_RV_Dwellers) rows 1, 2, 3 (Misty Masvalo)
+  — Title of Source backfilled from later in the same story.** Rows
+  4-7 and 23-24 already correctly had Title "part-time yoga instructor
+  and preschool teacher," but rows 1-3 — earlier in the article, before
+  that occupation is stated — had it empty. Confirmed "teacher" (K-12/
+  school-context) is credentialing per real precedent already in
+  GT-2026 (`6-OUSD-basic-job.csv`, "Sixth-grade science teacher, Frick
+  United Academy of Language"), and "instructor" is the same kind of
+  credentialed position in the U.S. Backfilled the same Title onto all
+  3 earlier rows to match.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
