@@ -866,6 +866,17 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   (the prompt's own "witnesses with criminal records" example — trim
   it), not a tightly-bound label like "former felons." Backfilled SD
   "unhoused, mother" (bare); Title and Source Justification unchanged.
+- **Story 185 (The_Uncounted) rows 21, 22, 23, 24, 34, 35, 36, 40
+  (Thad) — Source Descriptors backfilled "resident of North Oakland."**
+  Row 21's own text directly identifies him: "we spoke with Thad, a
+  36-year-old resident of North Oakland." A second possible descriptor,
+  "unhoused" (row 40: "Thad, like many unhoused people who use drugs,
+  obtains Narcan..."), was considered and set aside — that's a
+  simile/comparison, not a direct statement that Thad himself is
+  unhoused, so it wasn't captured. Backfilled SD "resident of North
+  Oakland" (matching the "resident of San Ramon"/"South Shore resident"
+  location-kept precedent) on all 8 rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
