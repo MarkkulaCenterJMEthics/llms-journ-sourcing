@@ -637,6 +637,22 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   (row 8, matching this same file's existing "Community members" SD
   precedent at row 4). Backfilled SD "interviewee" and "community
   member" respectively; nothing else in these rows changed.
+- **Correction to the above, found during the Phase 3 Source
+  Descriptors compliance audit: "interviewee" doesn't actually qualify
+  as a Source Descriptor — blanked on rows 3, 5, 11.** Not an
+  annotator error (this was our own earlier migration fix, not your
+  original draft) — a genuinely new gap identified this session.
+  "Interviewee" names the source's role in the journalism process
+  itself (the fact of being interviewed), not an identity, action, or
+  relationship within the story, the way "protestor" or "resident"
+  does — the same underlying problem as a bare "person"/"individual"
+  count-noun carrying no discriminating information. Row 13's
+  "community members, interviewees" trimmed to "community members"
+  only, same reasoning. Row 8's "community member" (row 4's
+  "Community members" precedent) is unaffected — that's a real
+  identity/relationship word, not a sourcing-process word. Drafted as
+  a new prompt addition, `development-of-v59.md` item 31 in the
+  Prompt Updates checklist.
 - **Story 189 (Cameroon_Unpaid_Wages) rows 2, 3, 4 (Mohamed Auwal) —
   "private media journalist" moved from Source Descriptors to Title of
   Source, matching this same file's own "journalists"/"publishers"
