@@ -1214,6 +1214,47 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   already fixed to "Rep. (D-Md.)," but row 12 was missed at the time.
   Fixed to match: "Rep. (D-Md.)." Source Descriptors/Justification
   unchanged.
+- **Story 174 (PPP_Loans_Low_Income) — unsuspended, resumed with Phase
+  4a/4b first, out of the normal phase order (2026-09-23).** Since
+  `174` was the very file that originally surfaced the Phase 4b
+  pattern (item 44), and since the whole 166-190 range is being sent
+  back to the annotator anyway, the user chose to run Phase 4a/4b on
+  this file before returning to the paused Phase 2.6 work — trimming
+  the row set to what should actually be there before polishing
+  Title/SD/SJ on rows that might get dropped. **Phase 4a: no missing
+  rows found.** **Phase 4b: 12 rows removed** — every one either had no
+  attribution verb at all and narrated a source's own inner/subjective
+  experience as apparent fact (the item-44 pattern), or contained one
+  such clause inside an otherwise-factual row:
+  - Rows 1-2 (KB Brown / Katie Brown): "As the pandemic hit, orders
+    cratered... **They knew** they would need help..."
+  - Rows 3-4: "...they never got one of the forgivable COVID-19
+    loans... **still don't fully understand** what went wrong in a
+    process that **felt** Byzantine and inequitable to them."
+  - Row 26 (Rosa Daniels): "...**Not sure what she would do** if she
+    didn't get the loan, Daniels tried another institution..."
+  - Row 31 (Rosa Daniels): "**What made the uncertain wait for a PPP
+    loan so stressful for Daniels and her daughter** was that it came
+    as the bakery struggled from a one-two punch..."
+  - Rows 40-41 (KB Brown / Katie Brown): "The Browns, **unsure what was
+    happening, thought** the funding would eventually arrive..."
+  - Rows 46-47: "**From the Browns' perspective**, the PPP was opaque
+    and confounding..."
+  - Rows 56-57: "...**Because the Browns thought they'd been
+    approved**, they brought back two furloughed employees..."
+  Considered and left alone (factual/procedural narration about the
+  same sources, not inner-state — same bucket as an already-rejected
+  Phase 4a conduct-narration candidate on a different file): "Wolfpack
+  Promotionals saw business dwindle... tried their bank... applied to
+  PayPal and Square" (old rows 36-37, now the surviving row 30-31).
+  Row numbers renumbered sequentially after removal (61 rows → 49).
+  **Heads-up from the user**: they separately asked you to consider
+  lived-experience content like this as possible Source Justification
+  material when you re-review these stories (due back Friday) — so
+  some of what was just removed here may resurface as new SJ text on
+  the revised file. When that comes back, this migration will diff the
+  revision against the already-migrated CSVs rather than re-migrating
+  from scratch (see `development-of-v59.md` item 44's workflow note).
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
