@@ -1156,6 +1156,38 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   used for this same word in row 1. Added as row 7 (Unnamed Group of
   People, Title "Forecasters"); everything from the old row 7 onward
   renumbered up by one to keep article order (final sequence: 1-12).
+- **Story 69 (Trump_Assassination_Suspect) row 8 split into two rows,
+  found during Phase 4a (missing Sourced Statement sweep) — a
+  genuinely mis-combined row, not a missing one.** The old row 8's
+  Sourced Statement combined two separately-attributed clauses into
+  one row: "...the affidavit said" (one source) and "...according to a
+  copy of the roughly 1,000-word document shared by two law
+  enforcement officials who were not authorized to disclose the
+  information" (a different source). Discussed directly before
+  settling on the fix — first considered duplicating the full sentence
+  across two rows (the Note 12 joint-attribution pattern used
+  elsewhere in this batch), but the two clauses are actually two
+  distinct, separable statements, not one statement jointly
+  attributable to two sources, so a true split (each row gets only its
+  own clause) fit better here. Split into: **row 8** — "Shortly before
+  the attack, Mr. Allen sent an email to his family and a former
+  employer in which he expressed deep anger at the administration and
+  the president, the affidavit said." (Document, Source Descriptors
+  "affidavit," Source Justification "federal affidavit" — carried
+  forward from rows 4/5, the same affidavit already established
+  earlier in this file). **New row 9** — "Administration officials
+  were the suspect's 'targets, prioritized from highest-ranking to
+  lowest,' according to a copy of the roughly 1,000-word document
+  shared by two law enforcement officials who were not authorized to
+  disclose the information." (Anonymous Source — this migration's
+  narrow disclosure test is met here, "not authorized to disclose the
+  information" is the anonymity-granted signal; Title of Source "law
+  enforcement officials," matching this file's existing credentialing
+  treatment of "officials"; Source Justification captured verbatim
+  from the article text, "roughly 1,000-word document shared by two
+  law enforcement officials who were not authorized to disclose the
+  information."). Everything from the old row 9 onward renumbered up
+  by one (final sequence: 1-18).
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
