@@ -983,6 +983,24 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   standing item (`development-of-v59.md` item 46) for a dedicated SJ
   review across all 17 "solidarity journalism initiative" stories
   (166-176, 185-190) — not run yet, and not part of this fix.
+- **Story 175 (Indigenous_Health_COVID) rows 73, 74, 75 (Michael
+  Weahkee) — dropped a stray leading article from Source Descriptors,
+  found during the Phase 3 Source Descriptors compliance audit.** Your
+  value was "an enrolled member of the Zuni Tribe" — a full corpus grep
+  (GT-2026 + all of GT-II) found this was the *only* Source Descriptors
+  value anywhere carrying a leading "a"/"an"; every other multi-word
+  value drops it. Fixed to "enrolled member of the Zuni Tribe." Checked
+  first whether "Zuni Tribe" itself should be stripped under the
+  org-affiliation rule (same test as story 186's VOCAL-TX above) —
+  decided no: tribal-nation membership is an identity/heritage category,
+  the same bucket as "Diné" (kept bare elsewhere in this file) or a
+  place name, not an organizational affiliation whose *work* is being
+  cited. "Enrolled" also kept, not trimmed as decoration — formal tribal
+  enrollment is a distinct legal/citizenship status from an informal
+  heritage claim, a category-defining qualifier rather than a decorative
+  one. Row 60 (Mary Owen, "member of Alaska's Tlingit band") reviewed
+  alongside this and left unchanged — already correctly formatted, same
+  reasoning applies. Source Justification unchanged on all 4 rows.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
