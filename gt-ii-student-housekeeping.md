@@ -1001,6 +1001,22 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   one. Row 60 (Mary Owen, "member of Alaska's Tlingit band") reviewed
   alongside this and left unchanged — already correctly formatted, same
   reasoning applies. Source Justification unchanged on all 4 rows.
+- **Story 128 (Congress_Pay_Battle) row 3 — one-word casing fix, found
+  during a Phase 3 Source Descriptors casing review.** SD was
+  "Plaintiffs" (capital), but the prompt's own rule is to capture SD
+  exactly as the reporter wrote it in that row's own text — and this
+  row's Sourced Statement has lowercase "plaintiffs" mid-sentence
+  ("Many of the plaintiffs have publicly argued..."), not a
+  sentence-initial capital. Likely carried forward from row 8, which
+  *does* legitimately have "Plaintiffs" capitalized (its own sentence
+  starts with the word). Fixed row 3 only, to "plaintiffs"; row 8
+  unchanged. Checked the rest of the batch's other capitalized SD
+  values (Speakers/speakers, Activists/activists, Supporters,
+  Opponents, Citizens, Community members, Workers unions, "Advocates,
+  homeless communities," "Formerly incarcerated trans women") against
+  their own rows' text — all of those matched their own sentence's
+  actual casing, so no other changes; this was the one genuine
+  mismatch.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
