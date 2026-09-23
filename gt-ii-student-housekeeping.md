@@ -899,6 +899,19 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   of [Name]." Drafted the broadened rule as item 30 in the Prompt
   Updates checklist. Applied bare "friend" on all 5 rows; Title and
   Source Justification unchanged.
+- **Story 190 (West_Texas_Drag_Queens) rows 1, 2, 3, 4, 7, 11, 12, 13,
+  18, 21, 37, 38, 39, 40 (Destiny Adams) — Title backfilled, new Source
+  Descriptors added, both applied globally.** Rows 11-40 already
+  correctly had Title "a former field director for the Democratic
+  Party" (stated at row 11), but rows 1-4 and 7 — earlier in the
+  article, before that's revealed — had it empty. Backfilled to match.
+  Separately, row 7's own text ("However, parents, drag queens, and
+  event organizers like Adams say drag queen story times are safe...")
+  identifies her as an "event organizer" — "like Adams" attaches to
+  the last item in that list, not "drag queens." Added Source
+  Descriptors "event organizer" across all 14 rows, per the same
+  carry-forward principle used for Title.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
