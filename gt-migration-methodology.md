@@ -300,6 +300,30 @@ regardless of type, not a type-filtered subset — otherwise it reproduces
 exactly this mistake. See `development-of-v59.md` punchlist item 37 for
 the full incident.
 
+**Second known false-positive risk, watch for it:** a distinct,
+uncaptured clause naming a specific actor doing something distinctive
+is not automatically a sourced-statement candidate — it also has to
+actually be a *statement* (a claim, viewpoint, or experience drawn from
+the source), not mere conduct/behavior narration. Caught 2026-09-23 on
+`GT-II/166-DC_Essential_Workers.csv`: three parked candidates ("Local
+rideshare drivers offered free rides...", "José Andrés' World Central
+Kitchen delivered pizzas...", "crews of National Park Service and
+Capitol employees were out collecting [trash]...") all looked like
+plausible misses (distinct clauses, specific named actors, no existing
+row) but are actually reporter narration of what these people/orgs
+*did* — no claim, viewpoint, or statement is being attributed, just
+action. The Sourced Statement definition already excludes this
+explicitly: "when journalists report out what they are witnessing
+first hand or what they conclude about a source or a source's actions,
+and they are not attributing it, those lines are not sourced
+statements." All three rejected, no rows added. **Screening rule for
+every future 4a run:** before proposing a candidate, check not just
+"is this clause captured anywhere" but "is this actually a statement
+drawn from the source" — a specific named actor performing a specific
+documented action is not sufficient on its own; there has to be an
+actual claim, viewpoint, or experience being attributed, not just
+conduct being described.
+
 ### 4b — Over-capture / unattributed-narration sweep (precision)
 
 **What it checks:** the mirror image of 4a — rows that *do* exist but
