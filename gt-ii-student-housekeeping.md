@@ -944,6 +944,45 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   a valid SD word for other rows (3, 8), and Hoyer's own text directly
   names him as "one of the plaintiffs." Source Justification ("plaintiff")
   left unchanged.
+- **Story 189 (Cameroon_Unpaid_Wages) rows 6, 7, 8, 9, 10, 11, 13, 14,
+  15, 41, 42 — "journalist"/"senior journalist" moved from Source
+  Descriptors to Title of Source, applying the same rule already used
+  for Mohamed Auwal in this same file consistently across everyone
+  else.** Found during the Phase 3 Source Descriptors compliance audit
+  — these 5 people (Yerima Kini Nsom, Moma Sandrine, Maureen Ndi,
+  Dingana Raymond, Wawa Jackson Nfor) still had it in SD, an
+  inconsistency with Auwal's earlier fix in this same file. Title →
+  "journalist"/"senior journalist" as appropriate; existing Source
+  Justification content (Nsom's "with over 25 years experience,"
+  Sandrine's "who left the private sector and got into public
+  service," Raymond's "in Bamenda, North-West Cameroon") left
+  unchanged.
+- **Story 167 (Youre_Swamped) row 5 — "journalists" moved from Source
+  Descriptors to Title of Source, same rule.** "both randoms on the
+  Internet and whole ass journalists—ask..." — an Unnamed Group of
+  People row; matches the same credentialing treatment already
+  established for occupational-group words (e.g., "Federal
+  Scientists") elsewhere in this batch.
+- **Story 186 (Homeless_Camp_Sweeps) rows 36, 37, 39, 40, 42, 67, 68
+  (Alfredo Reyes) and row 44 (JJ Ramirez) — org name stripped from
+  Title and Source Descriptors, found during the Phase 3 Source
+  Descriptors compliance audit.** Reyes's Title was "worker with the
+  advocacy group VOCAL-TX" — a double violation: "worker" is a
+  non-credentialing word that shouldn't be in Title at all (same rule
+  as "vendor" for story 50 above), and "VOCAL-TX" is a specific named
+  organization that gets stripped from an attached descriptor per the
+  org-affiliation-stripping rule (used earlier this batch on Jennifer
+  Orthwein's "friend of Jones" and Steve Miller's "critic of Tumbleweed
+  + Sage," both above). Fixed: Title cleared, Source Descriptors →
+  "worker." Ramirez's Source Descriptors was "member of VOCAL-TX" —
+  same fix, → "member." **Source Justification deliberately left
+  untouched on all 8 rows** — whether VOCAL-TX belongs in SJ is a
+  separate, content-dependent editorial call (does the org's work tie
+  directly to the specific attributed statement?), not an automatic
+  consequence of stripping the org name from SD/Title. Logged as a new
+  standing item (`development-of-v59.md` item 46) for a dedicated SJ
+  review across all 17 "solidarity journalism initiative" stories
+  (166-176, 185-190) — not run yet, and not part of this fix.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
