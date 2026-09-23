@@ -857,6 +857,54 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   already done and committed on this file stays as-is; only the
   remaining Phase 2.6 work is paused. Will come back to this in a
   future batch pass — see `development-of-v59.md` item 42.
+- **Pattern flagged across the whole solidarity journalism initiative
+  set (166-176, 185-190) — please re-review, don't wait for us to fix
+  it during migration (2026-09-22).** A number of Sourced Statement
+  rows across these stories are the reporter narrating what a source
+  knew, believed, saw, felt, or lived through — in the reporter's own
+  third-person voice, with no attribution verb ("said," "recalled,"
+  "told us," etc.) and no quotation marks anywhere in the row. These
+  read as background/context about the source, which is what Source
+  Justification is for — not a statement the article is attributing
+  *from* the source, which is what Sourced Statement requires. Two
+  clear examples, both following the same shape — unattributed
+  narration rows immediately followed by a properly-attributed row
+  from the same source:
+  - **Story 174, rows 1-4 (KB Brown / Katie Brown):** "As the pandemic
+    hit, orders cratered at KB and Katie Brown's print shop in
+    Minneapolis. They knew they would need help..." and "But despite
+    trying three lenders, they never got one of the forgivable
+    COVID-19 loans... They had to furlough their four employees and
+    still don't fully understand what went wrong..." — no attribution
+    anywhere in either row. Row 5, right after, is properly attributed:
+    "'I just don't think the program was slated towards really small
+    businesses,' said KB Brown..."
+  - **Story 175, rows 24-27 (Jamie Barboan):** "Barboan, 44, knew the
+    equipment was helping her mom stay alive. But she worried she
+    would hear the sound for the rest of her life." and "Her brother,
+    Andreas Tolth, was 39. She thought he would be OK. He never drank
+    or smoked." — no attribution anywhere in either row. Row 28, right
+    after, is properly attributed: "she had heard others warn, 'Once
+    they're in the hospital, you won't see them (again).'"
+  - **Also worth a look, not yet confirmed as the same pattern:** story
+    175 row 85 (Kris Pikaart) and story 190 rows 31-32 (Donabela
+    Kanela, Vanessa P. Nevaeh).
+  - **Two related-looking rows that may actually be something
+    different, not necessarily part of this same fix:** story 169 row
+    22 (Trish Lowry) is first-person voice with no quote marks — could
+    be an "as-told-to"-style paraphrase choice rather than the same
+    issue; story 186 row 67 (Alfredo Reyes) sits directly inside a
+    scene built from his own adjacent quoted material, so it may
+    already be legitimately covered by the "implied continuation from
+    a directly-attributed statement nearby" allowance.
+  **Ask**: when you get a chance to re-review these 17 stories, pull
+  rows like this out of Sourced Statements — but first check whether
+  the content should move into Source Justification for the nearest
+  downstream attributed row from the same source (per the two examples
+  above), rather than being dropped entirely. Once you send back
+  revised files, we'll diff them against what's already migrated to
+  reconcile rather than starting over. Full writeup and reasoning in
+  `development-of-v59.md` item 44.
 - **Story 173 (Mountain_View_RV_Dwellers) rows 1, 2, 3 (Misty Masvalo)
   — Title of Source backfilled from later in the same story.** Rows
   4-7 and 23-24 already correctly had Title "part-time yoga instructor
