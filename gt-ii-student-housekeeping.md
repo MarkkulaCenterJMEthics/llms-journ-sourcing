@@ -1255,6 +1255,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   the revised file. When that comes back, this migration will diff the
   revision against the already-migrated CSVs rather than re-migrating
   from scratch (see `development-of-v59.md` item 44's workflow note).
+- **Story 174 row 46 (renumbered, KB Brown) — trimmed one unattributed
+  sentence, a borderline case reviewed separately after the main
+  removal batch above.** "Then both got COVID-19. They're still
+  recovering, trying to keep the shop going with orders they can
+  scrounge together. Business is down 85% to 90%, maybe more, KB Brown
+  estimated. **He's frustrated big companies that didn't seem to need
+  help got it anyway this year while some very small firms like his
+  were left out.**" — the last sentence has no attribution verb of its
+  own and could be read either as an implied continuation of "KB Brown
+  estimated" (same sentence-group, immediately adjacent) or as another
+  instance of the same unattributed inner-state pattern just removed
+  elsewhere in this file ("frustrated" is exactly this kind of
+  language). Trimmed per the user's call, favoring the same
+  precision-over-recall default already established for Phase 4a's
+  implied-continuation checks.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
