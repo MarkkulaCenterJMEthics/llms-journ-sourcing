@@ -47,10 +47,19 @@ question surfaced while applying this methodology, see that same file's
   contact, (b) Title can't carry a bare relational descriptor, (c) flag
   single-word SJ for review, (d) SD compliance audit, (e)
   qualifier-stacking check on Title only, not Source Descriptors.
-- **Phase 4** — Missing Sourced Statement sweep, per file, run last
-  after Phase 0-3: re-read the full article against the complete row set
-  to find candidates with no row at all. Candidates only — needs
-  explicit approval before anything's added.
+- **Phase 4** — Sourced Statement row-set audit, per file, run last
+  after Phase 0-3: re-read the full article against the complete row
+  set, both directions. Candidates only either way — needs explicit
+  approval before anything's added, removed, or moved.
+  - **4a (recall)** — find real sourced-statement candidates with no
+    row at all.
+  - **4b (precision)** — find existing rows with no manifest
+    attribution signal (no quote marks, no attribution verb) that read
+    as reporter narration of a source's background/inner experience
+    rather than something drawn from the source — flag for removal,
+    with a check for whether the content should migrate into Source
+    Justification on the nearest downstream properly-attributed row
+    from the same source first.
 
 ## Phase 0 — Structural setup (no story text needed yet)
 
@@ -248,17 +257,27 @@ six types together (this check is not type-specific). Five checks:
   deliberately deferred rather than decided here — default to always
   preserving in Source Justification until that's worked through.
 
-## Phase 4 — Missing Sourced Statement sweep (per file, after Phase 0-3 are done)
+## Phase 4 — Sourced Statement row-set audit (per file, after Phase 0-3 are done)
 
 Run last, one file at a time, only after that file has gone completely
 through Phase 0-3 — Phase 4 deliberately depends on the migrator already
 having full context on the story (every existing Sourced Statement, Type,
 Name, Title, Source Descriptors, and Source Justification), which is what
 makes it possible to recognize a genuinely uncaptured statement instead of
-a paraphrase or partial match of something already there.
+a paraphrase or partial match of something already there (4a), or a
+genuinely unattributed narration row instead of a legitimate implied
+continuation of nearby attributed material (4b).
+
+Two sub-checks, same file, same pass — both ask whether the row set as a
+whole is *right*, just from opposite directions. Both produce candidates
+only, never direct edits (see below); run 4a first, then 4b, since 4b's
+"nearest downstream attributed row" check is easier once 4a has already
+settled whether the row set is complete.
+
+### 4a — Missing Sourced Statement sweep (recall)
 
 **What it checks:** unlike every phase before it, which re-examines rows
-that already exist, Phase 4 checks for *rows that don't exist at all* —
+that already exist, 4a checks for *rows that don't exist at all* —
 re-read the full article text end to end and compare it against the
 complete existing row set, looking for sourced-statement candidates (a
 quote, a paraphrase attributed to someone, an "according to X" claim,
@@ -266,17 +285,6 @@ etc.) that aren't captured by any row, even loosely. This is a recall
 check, not a precision check — the previous phases assume the row set is
 fixed and improve what's in it; this phase asks whether the row set is
 even complete.
-
-**Output is candidates, not edits.** A Phase 4 hit is never written
-directly into the CSV. Each candidate gets flagged with: the exact article
-text, why it looks like an uncaptured sourced statement, and a proposed
-row (Type of Source, Name, Title, Source Descriptors, Source
-Justification) if it were to be added — the same shape as every other
-proposed fix in this methodology, but for a net-new row instead of a
-changed value. The user reviews and approves (or rejects) each candidate
-before anything is added; nothing gets annotated into the row set
-unilaterally. This mirrors the existing review-spreadsheet workflow used
-for other batch decisions in this migration, not a new mechanism.
 
 **Known false-positive risk, watch for it:** first attempt at designing
 this check (2026-09-17) nearly produced a false positive against
@@ -286,11 +294,70 @@ Unnamed Person). The near-miss happened because the check that found it
 was actually the Phase 1 Anonymous-Source-only scan, not a real Phase 4
 run — it only looked at rows already typed Anonymous Source, so it never
 saw row 24 (a different type) and wrongly concluded no row existed at
-all. The lesson for Phase 4 specifically: a genuine "is this statement
+all. The lesson for 4a specifically: a genuine "is this statement
 captured anywhere in the row set" check must compare against *all* rows
 regardless of type, not a type-filtered subset — otherwise it reproduces
 exactly this mistake. See `development-of-v59.md` punchlist item 37 for
 the full incident.
+
+### 4b — Over-capture / unattributed-narration sweep (precision)
+
+**What it checks:** the mirror image of 4a — rows that *do* exist but
+arguably shouldn't, because they carry no manifest attribution signal at
+all (no quotation marks, no attribution verb like "said," "recalled,"
+"told us," "according to") and instead read as the reporter's own
+third-person narration of what a source knew, believed, saw, felt, or
+lived through. This is background/context about the source — what Source
+Justification is for — not a statement the article is attributing *from*
+the source, which is what Sourced Statement requires. Added
+2026-09-22, arising from `development-of-v59.md` punchlist item 44 and a
+concrete instance found across the "solidarity journalism initiative"
+story range (`GT-II/174-PPP_Loans_Low_Income.csv` rows 1-4,
+`GT-II/175-Indigenous_Health_COVID.csv` rows 24-27) — both cases showed
+the same shape: a run of unattributed narration rows immediately followed
+by a properly-attributed row from the same source.
+
+For each hit, check whether it's a clean violation or falls under an
+existing exception before flagging it as a removal candidate:
+- **Implied continuation (Notes 9/10 exception, already established):**
+  a row immediately adjacent to other directly-attributed material from
+  the same source, functioning as a continuation of that attribution,
+  is not a violation — don't flag it. (`GT-II/186-Homeless_Camp_Sweeps.csv`
+  row 67 was reviewed and looked like this kind of case, not a clean hit.)
+- **First-person voice without quotation marks** may be a stylistic
+  "as-told-to"/paraphrase choice rather than reporter-voice narration —
+  treat as a separate, distinct question, not automatically the same
+  failure (`GT-II/169-Black_Mothers_Gun_Violence.csv` row 22 was flagged
+  this way, not folded into the main pattern).
+
+**Standing scope, going forward:** this is now a permanent part of Phase
+4 for every future batch/file, not a one-off check — folding it into the
+regular phase-based process means it gets caught automatically instead of
+relying on someone noticing the pattern again by hand.
+
+**Explicit exception for the Sep17 batch:** do **not** run 4b on
+`GT-II/166` through `GT-II/176`, or `GT-II/185` through `GT-II/190` (the
+17-story range where this pattern was found). The original annotator is
+separately re-reviewing those files directly and will hand back revised
+XLSx with these rows already addressed; the migration side will diff the
+revision against the already-migrated CSVs to reconcile once that lands,
+rather than duplicating the work here. 4a still runs normally on this
+range.
+
+### Output and review (applies to both 4a and 4b)
+
+**Output is candidates, not edits.** A Phase 4 hit — either sub-check —
+is never written directly into the CSV. Each candidate gets flagged
+with the exact article text, why it looks like a miss (4a) or an
+over-capture (4b), and a proposed disposition: for 4a, a full proposed
+row (Type of Source, Name, Title, Source Descriptors, Source
+Justification) if it were to be added; for 4b, whether to drop the row
+entirely or migrate its content into Source Justification on the
+nearest downstream properly-attributed row from the same source. The
+user reviews and approves (or rejects) each candidate before anything is
+added, removed, or moved; nothing gets annotated into the row set
+unilaterally. This mirrors the existing review-spreadsheet workflow used
+for other batch decisions in this migration, not a new mechanism.
 
 ## Running practice throughout all of the above
 
