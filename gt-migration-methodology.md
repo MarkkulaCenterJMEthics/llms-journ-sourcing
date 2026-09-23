@@ -324,6 +324,30 @@ documented action is not sufficient on its own; there has to be an
 actual claim, viewpoint, or experience being attributed, not just
 conduct being described.
 
+**Third known false-positive risk, watch for it:** a plausible implied-
+continuation setup (Notes 9/10) is not enough on its own — the
+following passage also has to actually read as continuing to draw from
+the named source, not as the reporter independently reporting bare
+facts they verified themselves. Caught 2026-09-23 on
+`GT-II/67-California_Ships_Whales.csv`: a row ending "She's seen
+compliance grow over time as well" (Jessica Morten) sits right before
+a paragraph giving specific compliance numbers (20% in 2015, 70% "last
+year") and program details — a clean-looking setup for implied
+continuation. Rejected on review: the paragraph itself gives no signal
+tying it to Morten specifically; it reads as the reporter stating
+verified facts directly, not as a continuation of her quoted voice.
+User's framing: "it could also be the reporter independently got
+access to the same material, figured out the numbers, and somehow
+decided not to attribute this... it's written as if the reporter is
+reporting the numbers directly — bare facts they verified for
+themselves." **Screening rule:** when in doubt whether a passage is a
+genuine implied continuation or the reporter's own independently-
+verified reporting, treat this the same as any other deliberately
+narrow boundary in this schema (e.g., the Anonymous Source/Unnamed
+Person line) — don't flag it as a candidate. A plausible setup line
+before the passage is necessary but not sufficient; the passage itself
+needs to actually read as continuing the source's voice.
+
 ### 4b — Over-capture / unattributed-narration sweep (precision)
 
 **What it checks:** the mirror image of 4a — rows that *do* exist but
