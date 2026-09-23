@@ -919,6 +919,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   entity (the coffee shop), strips the same way a named organization or
   person would. SD "critic"; Title ("pastor of the Temple Baptist
   Church in Lubbock") and Source Justification unchanged.
+- **Story 50 (Peru_Election) rows 9.0, 10.0 (Veronica Mendoza) —
+  "Vendor from Juliaca" moved from Title of Source to Source
+  Descriptors.** Your draft had this correctly captured, but in the
+  wrong field — "vendor" is a non-credentialing, informal occupation
+  (no institutional authority), same bucket as the trades explicitly
+  excluded from Title. "Juliaca" is a generic place, so it stays
+  attached to the descriptor rather than getting stripped, matching the
+  "resident of San Ramon" location-kept pattern. Fixed: Title cleared,
+  Source Descriptors "vendor from Juliaca" (moved as one whole phrase,
+  not split).
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
