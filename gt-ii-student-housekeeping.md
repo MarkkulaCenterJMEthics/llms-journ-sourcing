@@ -653,6 +653,24 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   identity/relationship word, not a sourcing-process word. Drafted as
   a new prompt addition, `development-of-v59.md` item 31 in the
   Prompt Updates checklist.
+- **Story 176 — two new rows added, found during Phase 4a (missing
+  Sourced Statement sweep), inserted after the old row 5.** Note this
+  shifts every row number from the old row 6 onward by +2 — the two
+  entries just above (row numbers 8, 11, 13) refer to this file's
+  *pre-Phase-4a* numbering; those same rows are now 10, 13, and 15
+  respectively. Two genuinely uncaptured statements, both in the same
+  passage: (1) "Many shared that the documentation required — for
+  example, three prior pay stubs, a drivers license, or a Social
+  Security Number — made applying to social services nearly
+  impossible." — Unnamed Group of People, "shared" is already an
+  established attribution verb elsewhere in this same file (old rows
+  6, 10). (2) "'I needed a cosigner, so not everything is under my
+  name,' one shared when expressing their difficulty in filling out a
+  rental assistance application." — Unnamed Person, a direct quote
+  with clear attribution ("one shared"), Source Justification carrying
+  the trailing context clause. New rows inserted as 6 and 7; everything
+  from the old row 6 onward renumbered by +2 to preserve article order
+  (final sequence: 1-15).
 - **Story 189 (Cameroon_Unpaid_Wages) rows 2, 3, 4 (Mohamed Auwal) —
   "private media journalist" moved from Source Descriptors to Title of
   Source, matching this same file's own "journalists"/"publishers"
