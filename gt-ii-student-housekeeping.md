@@ -1188,6 +1188,32 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   law enforcement officials who were not authorized to disclose the
   information."). Everything from the old row 9 onward renumbered up
   by one (final sequence: 1-18).
+- **Story 128 (Congress_Pay_Battle) row 13 (Tom Cole) — merged a setup
+  sentence into the existing quote row, found during Phase 4a.** "House
+  Appropriations Chair Tom Cole (R-Okla.) cast doubt, however, on any
+  immediate impact." had no row, but discussed directly whether it
+  needed its own row or was the same source's material — checked and
+  confirmed it's in the exact same unbroken paragraph as the existing
+  quote row, immediately adjacent, same person, no other source in
+  between. Merged into row 13 rather than added as a separate row:
+  Sourced Statements now reads "House Appropriations Chair Tom Cole
+  (R-Okla.) cast doubt, however, on any immediate impact. 'We don't
+  know anything really about the opinion yet,' Cole cautioned." Also
+  moved "House Appropriations Chair" from Source Justification into
+  Title of Source (it's literally how the article introduces him at
+  that point, not justification text), and added the party/
+  constituency code the article also gives right there — "House
+  Appropriations Chair (R-Okla.)" — matching this same file's own
+  precedent for Hoyer (Title "Rep. (D-Md.)," row 4).
+- **Story 128 row 12 (Steny Hoyer) — fixed a second instance of the
+  same copy-paste error already caught once on row 4 (Phase 3c, item
+  45).** Found while double-checking row 13's new Title against every
+  other Hoyer/Cole row in the file. Row 12 still had Title "Republican
+  Representative, Oklahoma" — that's Cole's title, not Hoyer's (Hoyer
+  is a Democrat from Maryland); row 4 had the identical error and was
+  already fixed to "Rep. (D-Md.)," but row 12 was missed at the time.
+  Fixed to match: "Rep. (D-Md.)." Source Descriptors/Justification
+  unchanged.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
