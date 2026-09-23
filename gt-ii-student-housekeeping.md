@@ -884,6 +884,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   the corpus. Trimmed "for three years" per that consistent precedent
   (same pattern as "longtime resident" -> "resident"). SD "unhoused";
   Title and Source Justification unchanged.
+- **Story 188 (Trans_Women_Incarcerated) rows 51, 52, 55, 56, 62
+  (Jennifer Orthwein) — Source Descriptors populated "friend," trimmed
+  from "friend of Jones."** SJ already reads "now a friend of Jones."
+  You raised a sharp question here: doesn't this contradict keeping
+  "resident of San Ramon" whole elsewhere? Resolved — no contradiction,
+  both already follow the same existing rule (item 21), it just wasn't
+  phrased broadly enough. "Jones" is a specific named person (already a
+  distinct source in this same story) — structurally the same role a
+  specific named organization plays in the org-affiliation-stripping
+  rule, so it strips the same way. "San Ramon" is a generic place, not
+  a specific named entity, so it stays. Checked precedent directly: all
+  7 existing "friend" SD values in the corpus are bare, never "friend
+  of [Name]." Drafted the broadened rule as item 30 in the Prompt
+  Updates checklist. Applied bare "friend" on all 5 rows; Title and
+  Source Justification unchanged.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
