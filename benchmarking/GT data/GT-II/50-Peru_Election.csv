@@ -6,13 +6,16 @@ No,Sourced Statements,Type of Source,Name of Source,Title of Source,Source Descr
 3.0,"“This is very volatile, very contingent, very much driven by chance,” said Alberto Vergara, a Peruvian political scientist. “Nobody knows who to vote for. No one really stands out. Most are pretty mediocre. None have real political parties. The vast majority are very unknown.”",Named Person,Alberto Vergara,Peruvian Political Scientist,,
 4.0,"Keiko Fujimori, a four-time presidential candidate and daughter of former President Alberto Fujimori, is among the leading contenders, polling between 11 and 14 percent, according to recent surveys by Datum International and the Institute of Peruvian Studies.
 ",Named Organization,Datum International and the Institute of Peruvian Studies,,,recent surveys by Datum International and the Institute of Peruvian Studies
-5.0,"His daughter is one of a cluster of candidates with support in the high single digits to low teens, according to recent polls. They include Rafael López Aliaga, known as “Porky,” a conservative businessman and the former mayor of Lima, the capital, with hard-line positions on crime and social issues; Carlos Álvarez, a comedian who has gained traction with an anti-establishment message; and Ricardo Belmont, a populist, socially conservative former talk show host who also served as Lima’s mayor, and who has also seen a recent bump in support.
+5.0,"She is a deeply polarizing figure: Supporters credit her father's government with stabilizing the economy and defeating violent insurgencies in the 1990s, while critics associate it with authoritarianism and corruption.",Unnamed Group of People,,,supporters,
+6.0,"She is a deeply polarizing figure: Supporters credit her father's government with stabilizing the economy and defeating violent insurgencies in the 1990s, while critics associate it with authoritarianism and corruption.",Unnamed Group of People,,,critics,
+7.0,"His daughter is one of a cluster of candidates with support in the high single digits to low teens, according to recent polls. They include Rafael López Aliaga, known as “Porky,” a conservative businessman and the former mayor of Lima, the capital, with hard-line positions on crime and social issues; Carlos Álvarez, a comedian who has gained traction with an anti-establishment message; and Ricardo Belmont, a populist, socially conservative former talk show host who also served as Lima’s mayor, and who has also seen a recent bump in support.
 
 ",Document,,,polls,polls
-6.0,There has been no consistent front-runner in the polls.,Document,,,polls,polls
-7.0,"Crime and corruption are voters’ top concerns, according to polls. ",Document,,,polls,polls
-8.0,"The crisis has exposed deep weaknesses in policing and in state institutions, further eroding trust, as critics say Congress has weakened the oversight mechanisms meant to combat crime.
+8.0,There has been no consistent front-runner in the polls.,Document,,,polls,polls
+9.0,"Crime and corruption are voters’ top concerns, according to polls. ",Document,,,polls,polls
+10.0,"The crisis has exposed deep weaknesses in policing and in state institutions, further eroding trust, as critics say Congress has weakened the oversight mechanisms meant to combat crime.
 ",Unnamed Group of People,,,critics,Critics
-9.0,"Verónica Mendoza, 43, a vendor from Juliaca, a city in Peru’s southern highlands, said she hadn’t decided who would get her vote on Sunday.
+11.0,"Such issues have gained traction in Peru, but polling reflects a fragmented electorate and an anti-establishment, anti-Congress sentiment, not a clear ideological shift, analysts say.",Unnamed Group of People,,analysts,,
+12.0,"Verónica Mendoza, 43, a vendor from Juliaca, a city in Peru’s southern highlands, said she hadn’t decided who would get her vote on Sunday.
 ",Named Person,Veronica Mendoza,,vendor from Juliaca,
-10.0,"“We’re not well-informed,” she said. “They haven’t really reached people. The campaign has been very limited.” She had supported Mr. Castillo, the leftist president, but said this time she might vote for Mr. Belmont, the conservative populist.",Named Person,Veronica Mendoza,,vendor from Juliaca,
+13.0,"“We’re not well-informed,” she said. “They haven’t really reached people. The campaign has been very limited.” She had supported Mr. Castillo, the leftist president, but said this time she might vote for Mr. Belmont, the conservative populist.",Named Person,Veronica Mendoza,,vendor from Juliaca,

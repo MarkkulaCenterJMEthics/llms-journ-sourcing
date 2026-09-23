@@ -1074,6 +1074,37 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   their own rows' text — all of those matched their own sentence's
   actual casing, so no other changes; this was the one genuine
   mismatch.
+- **Story 50 (Peru_Election) — new row added, found during Phase 4a
+  (missing Sourced Statement sweep).** "Such issues have gained
+  traction in Peru, but polling reflects a fragmented electorate and
+  an anti-establishment, anti-Congress sentiment, not a clear
+  ideological shift, analysts say." had no row at all, despite being a
+  distinct, separately-attributed "analysts say" claim from the one
+  already captured in row 2 ("Analysts say the vote will not be driven
+  by ideology"). The preceding sentence in the same paragraph
+  ("Regionally, there has been a shift toward conservative, law-and-
+  order politics...") is the reporter's own synthesis with no
+  attribution signal, so it was left out — only the attributed
+  sentence was added. New row inserted as row 9.0 (Type Unnamed Group
+  of People, Title "analysts," matching row 2's exact wording), with
+  the two rows after it (old 9.0/10.0, Veronica Mendoza) renumbered to
+  10.0/11.0 to keep article order.
+- **Story 50 (Peru_Election) — two more new rows added, same Phase 4a
+  sweep, a Note 12-style split.** "She is a deeply polarizing figure:
+  Supporters credit her father's government with stabilizing the
+  economy and defeating violent insurgencies in the 1990s, while
+  critics associate it with authoritarianism and corruption." — a
+  two-sided characterization with no row at all, sitting right after
+  the Keiko Fujimori polling row. Split into two rows, both carrying
+  the *same full* Sourced Statement text (not divided into half-
+  sentences) since the two characterizations are two sides of one
+  continuous statement: Type Unnamed Group of People on both, Source
+  Descriptors "supporters" / "critics" respectively (not Title —
+  matches this same file's existing "critics" SD precedent at row 10,
+  a stance word, non-credentialing). No Source Justification on either
+  — nothing beyond what's already in the Sourced Statement text.
+  Inserted as rows 5.0/6.0; everything from the old row 5.0 onward
+  renumbered up by two to keep article order (final sequence: 1-13).
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
