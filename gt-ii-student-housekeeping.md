@@ -895,14 +895,9 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
     journey/"world through the eyes" of the source in order to set up
     for quotes that come later, which makes such lines candidates for
     SJ.
-  **Ask**: when you get a chance to re-review these 17 stories, pull
-  rows like this out of Sourced Statements — but first check whether
-  the content should move into Source Justification for the nearest
-  downstream attributed row from the same source (per the two examples
-  above), rather than being dropped entirely. Once you send back
-  revised files, we'll diff them against what's already migrated to
-  reconcile rather than starting over. Full writeup and reasoning in
-  `development-of-v59.md` item 44.
+  Once you send back revised files, we'll diff them against what's
+  already migrated to reconcile rather than starting over. Full
+  writeup and reasoning in `development-of-v59.md` item 44.
 - **Story 173 (Mountain_View_RV_Dwellers) rows 1, 2, 3 (Misty Masvalo)
   — Title of Source backfilled from later in the same story.** Rows
   4-7 and 23-24 already correctly had Title "part-time yoga instructor
