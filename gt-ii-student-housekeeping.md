@@ -1020,6 +1020,22 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   People row; matches the same credentialing treatment already
   established for occupational-group words (e.g., "Federal
   Scientists") elsewhere in this batch.
+- **Story 167 (Youre_Swamped) — new row added, found during Phase 4a
+  (missing Sourced Statement sweep).** "Never before had The National
+  Weather Service declared a flash flood emergency in New York City."
+  had no row at all. Borderline call, discussed directly: this line
+  sits inside an essay-voice paragraph the author is narrating
+  themselves ("Climate change is coming for everybody... Ida made that
+  clear...") with no "according to NWS" framing — but "declared" is a
+  speech-act verb, the same family as "announced," and a flash flood
+  emergency declaration can only be attributed to NWS itself. For
+  consistency in applying the Sourced Statement guidance to
+  declaration-type verbs, added as its own row (only this one
+  sentence, not the surrounding essay commentary): Type Named
+  Organization, Name of Source "The National Weather Service" (matches
+  existing corpus precedent verbatim, `168-Texas_Power_Outages.csv`).
+  Added as row 6 (end of file, matching its position in the article
+  text, after the existing rows 1-5).
 - **Story 186 (Homeless_Camp_Sweeps) rows 36, 37, 39, 40, 42, 67, 68
   (Alfredo Reyes) and row 44 (JJ Ramirez) — org name stripped from
   Title and Source Descriptors, found during the Phase 3 Source
