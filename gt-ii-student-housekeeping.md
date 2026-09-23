@@ -1270,6 +1270,22 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   language). Trimmed per the user's call, favoring the same
   precision-over-recall default already established for Phase 4a's
   implied-continuation checks.
+- **Story 174 — the original KB Brown/Katie Brown Title question,
+  finally resolved: "owner of Wolfpack Promotionals," backfilled
+  across all rows for both (2026-09-23).** This was the question that
+  paused the file back on 2026-09-21 (see the entry above). Discussed
+  the sourcing directly before applying: the article never states
+  "owner of Wolfpack Promotionals" as one phrase — it says "KB and
+  Katie Brown, the owners of the Minneapolis print shop" in one
+  sentence, then names the shop "Wolfpack Promotionals" as the subject
+  of the very next sentence, same paragraph. Confirmed this is the
+  same kind of adjacent-sentence resolution already accepted elsewhere
+  in this migration (the Ilya Sutskever "another member" -> "board
+  member" case), not the kind of distant cross-article inference this
+  migration deliberately excludes (item 13). Applied to every KB
+  Brown/Katie Brown row (current numbering): KB Brown — 1, 30, 36, 46,
+  47; Katie Brown — 31, 32, 33, 37, 48, 49. Source Descriptors/
+  Justification unchanged on all 11 rows.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
