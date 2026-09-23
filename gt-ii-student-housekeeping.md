@@ -889,14 +889,12 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   - **Also worth a look, not yet confirmed as the same pattern:** story
     175 row 85 (Kris Pikaart) and story 190 rows 31-32 (Donabela
     Kanela, Vanessa P. Nevaeh).
-  - **Two related-looking rows that may actually be something
-    different, not necessarily part of this same fix:** story 169 row
-    22 (Trish Lowry) is first-person voice with no quote marks — could
-    be an "as-told-to"-style paraphrase choice rather than the same
-    issue; story 186 row 67 (Alfredo Reyes) sits directly inside a
-    scene built from his own adjacent quoted material, so it may
-    already be legitimately covered by the "implied continuation from
-    a directly-attributed statement nearby" allowance.
+  - In general check whether such content should move into Source
+    Justification for downstream attributed rows from the same source.
+    Because the reporter may be narrating the lived experience/
+    journey/"world through the eyes" of the source in order to set up
+    for quotes that come later, which makes such lines candidates for
+    SJ.
   **Ask**: when you get a chance to re-review these 17 stories, pull
   rows like this out of Sourced Statements — but first check whether
   the content should move into Source Justification for the nearest
