@@ -348,6 +348,29 @@ Person line) — don't flag it as a candidate. A plausible setup line
 before the passage is necessary but not sufficient; the passage itself
 needs to actually read as continuing the source's voice.
 
+**Sharpened further, same day, on `GT-II/71-Global_Deforestation_Slows.csv`:**
+even a *strong*-looking implied-continuation setup — a row ending "...it
+found that policy changes in other tropical countries had yielded
+results, too," immediately followed by a paragraph giving the actual
+Malaysia/Colombia policy examples — was still rejected. This is a
+sharper version of the same lesson, not a new one: the user's reasoning
+was explicitly about precision/recall trade-off risk at the level of
+*consistent LLM application*, not just this one passage's ambiguity —
+"what I'm not sure about [is] whether this is [a] step too far to
+expect that LLMs will consistently be apply it in different language
+variations to draw the connection one way or other... If we want push
+the system to cast the SS net wider for higher recall, we might get
+into false positives." **Standing default for 4a's implied-continuation
+checks going forward: favor precision over recall.** Unless the
+connection is as tight as the prompt's own Notes 9/10 worked examples
+(a short, unbroken run of sentences immediately following a stated
+attribution, with no competing plausible reading), don't flag it — even
+when the setup line makes the connection subjectively very likely.
+Ideally the reporter would have supplied their own attribution signal;
+when they didn't, that gap is itself part of the measurable signal this
+schema exists to capture (see item 13's same underlying reasoning), not
+something Phase 4a should paper over by inference.
+
 ### 4b — Over-capture / unattributed-narration sweep (precision)
 
 **What it checks:** the mirror image of 4a — rows that *do* exist but
