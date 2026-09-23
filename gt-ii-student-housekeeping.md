@@ -911,7 +911,14 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   the last item in that list, not "drag queens." Added Source
   Descriptors "event organizer" across all 14 rows, per the same
   carry-forward principle used for Title.
-
+- **Story 190 rows 17, 19, 20 (Steve Miller) — Source Descriptors
+  populated "critic," trimmed from "critic of Tumbleweed + Sage."** SJ
+  already reads "Miller had been a vocal critic of Tumbleweed + Sage in
+  the weeks leading up to the event." Same rule just applied to
+  Orthwein above (item 30): "Tumbleweed + Sage" is a specific named
+  entity (the coffee shop), strips the same way a named organization or
+  person would. SD "critic"; Title ("pastor of the Temple Baptist
+  Church in Lubbock") and Source Justification unchanged.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
