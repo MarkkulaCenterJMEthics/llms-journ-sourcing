@@ -1139,6 +1139,23 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   — nothing beyond what's already in the Sourced Statement text.
   Inserted as rows 5.0/6.0; everything from the old row 5.0 onward
   renumbered up by two to keep article order (final sequence: 1-13).
+- **Story 68 (Georgia_Wildfires_Spreading) — new row added, found
+  during Phase 4a (missing Sourced Statement sweep).** "Forecasters
+  warned of 'super fog.'" had no row, sitting right after the National
+  Weather Service Atlanta office's air-quality warning (row 6).
+  Discussed directly whether this is really a separate attribution or
+  just a continuing paraphrase of what NWS already said in the
+  preceding line — resolved as its own attribution, not a merge, per
+  the standing rule already established earlier in this migration
+  (`development-of-v59.md` item 13): classify each attribution by what
+  is actually stated at that specific point in the text, don't infer
+  or merge it with an adjacent, differently-worded attribution just
+  because the connection is plausible. "Forecasters" doesn't say NWS
+  at that point, so it gets its own row rather than being folded into
+  row 6 — matching the exact Title wording ("Forecasters") already
+  used for this same word in row 1. Added as row 7 (Unnamed Group of
+  People, Title "Forecasters"); everything from the old row 7 onward
+  renumbered up by one to keep article order (final sequence: 1-12).
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
