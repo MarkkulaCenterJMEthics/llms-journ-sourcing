@@ -929,6 +929,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "resident of San Ramon" location-kept pattern. Fixed: Title cleared,
   Source Descriptors "vendor from Juliaca" (moved as one whole phrase,
   not split).
+- **Story 128 (Congress_Pay_Battle) row 4 (Steny Hoyer) — corrected a
+  wrong Title of Source, found during the Phase 3 single-word-SJ
+  check.** Your draft had Title "Republican Representative, Oklahoma"
+  — but Hoyer's own row states "Rep. Steny Hoyer (D-Md.)," a Democrat
+  from Maryland. That title actually belongs to Tom Cole (row 13, a
+  genuine Republican Representative from Oklahoma) — looks like a
+  copy-paste error between the two rows. Fixed to "Rep. (D-Md.)",
+  captured exactly as the article phrases it and matching an identical
+  precedent already in GT-2026 (`31-SV-GT-vermont_bill.csv`, Rep.
+  Saudia LaMont's Title is "Rep. D-Morristown," pulled the same way
+  from "Rep. Saudia LaMont, D-Morristown"). Also added Source
+  Descriptors "plaintiff" — this file already treats "plaintiff(s)" as
+  a valid SD word for other rows (3, 8), and Hoyer's own text directly
+  names him as "one of the plaintiffs." Source Justification ("plaintiff")
+  left unchanged.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
