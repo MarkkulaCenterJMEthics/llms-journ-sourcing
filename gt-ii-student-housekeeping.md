@@ -1371,6 +1371,27 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   misread as lowercase l) and "lowa" → "Iowa" (row 13's attorneys-
   general list). Fixed throughout. 15 rows → 14, renumbered
   sequentially. Full Phase 0-4 migration for this file to follow.
+- **Story 100, Phase 0/2 continued — three schema-violation fixes.**
+  (1) Rows 1-2 had a generic genre word, "Court Document," sitting in
+  Document's Name of Source field — checked the whole corpus (GT-2026
+  + GT-II) and confirmed no other row anywhere does this; Name of
+  Source is reserved for an actual stated document title, a generic
+  genre reference belongs in Source Descriptors instead. Moved: Name
+  cleared, SD "court document" on both rows. (2) The old row 6
+  actually combined two separate document references into one row —
+  "The document also revealed Altman had sold off a stake in Reddit
+  by the end of 2025" (continuing the same court document from rows
+  1-2) and "...according to SEC filings at the time" (a distinct,
+  generic reference for a different fact). Split into two rows: the
+  court-document continuation (SD "court document") and a new row for
+  the SEC filings reference (SD "SEC filings," Name blank, same fix as
+  item 1). (3) Row 13 (Unnamed Group of People) had "attorneys
+  general" sitting in Name of Source — a schema violation, since UGOP
+  rows can never carry Name of Source. Moved to Title of Source
+  (credentialing — a formal legal/government position). Also added
+  Source Descriptors "Republicans" from the same row's own text ("all
+  Republicans"), trimming the quantifier "all" per the established
+  atomic-word convention. 14 rows → 15 (the split added one row).
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime

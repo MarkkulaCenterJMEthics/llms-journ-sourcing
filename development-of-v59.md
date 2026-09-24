@@ -88,8 +88,16 @@ findings turn up, rather than letting them scatter again.
   row 15 (a stray MSN-sidebar sentence never in the actual article,
   "Jobs focused on AI are growing, according to LinkedIn") and fixed
   OCR typos carried over from the original manual annotation ("OpenAl"
-  → "OpenAI", "lowa" → "Iowa"). 15 rows → 14. Full Phase 0-4 migration
-  still to run.
+  → "OpenAI", "lowa" → "Iowa"). 15 rows → 14. Three schema-violation
+  fixes applied next: (1) rows 1-2's Document Name of Source "Court
+  Document" (a generic genre word, confirmed unique to this file
+  corpus-wide) moved to Source Descriptors, Name cleared; (2) the old
+  row 6 combined two separate document references into one row (the
+  court document continuing, plus a distinct "SEC filings" reference)
+  — split into two rows; (3) row 13's UGOP "attorneys general" was
+  sitting in Name of Source (a schema violation for UGOP) — moved to
+  Title of Source, plus SD "Republicans" added from the same row's
+  text. 14 rows → 15. Full Phase 0-4 migration still to run.
 - `GT-II/174-PPP_Loans_Low_Income.csv` — pulled from the Sep17 batch
   (item 42), needs the user's direct review with the original annotator
   before Phase 2.6 (and beyond) resumes on this file. Left with an open
