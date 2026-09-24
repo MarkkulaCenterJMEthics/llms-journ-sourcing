@@ -1,0 +1,62 @@
+==================================================
+Title: OpenAI chief Altman has over $2 billion stake in companies that dealt with OpenAI, court filing shows
+Author: Kenrick Cai
+Date: May 13, 2026
+Source PDF: 100 - OpenAI chief Altman has over $2 billion stake in companies that dealt with OpenAI, court filing shows.pdf
+==================================================
+
+OpenAI chief Altman has over $2 billion stake in companies that dealt with OpenAI, court filing shows
+
+Summary Companies
+Altman recused himself from OpenAI deals involving his investments, testified in court
+Ten Republican state attorneys general urge SEC to scrutinize OpenAI documents before IPO
+Musk lawsuit alleges breach of trust, seeks $150 billion damages and Altman's removal
+OAKLAND, California, May 13 (Reuters) - OpenAI Chief Executive Sam Altman holds more than $2
+billion in companies that have done business with the artificial intelligence company, a court
+document showed as Altman faces claims of self-dealing from state attorneys general and Elon Musk,
+as well as a U.S. congressional investigation.
+The list of investments was shown in court on Tuesday in hearings on Musk's lawsuit seeking $150
+billion in damages as well as Altman’s removal as an officer and board member. Musk's claims include
+breach of charitable trust and unjust enrichment. Altman has rejected those claims and in court
+described recusing himself from key discussions with companies in which he invested.
+Jumpstart your morning with the latest legal news delivered straight to your inbox from The Daily
+Docket newsletter. Sign up here.
+Ten U.S. attorneys general on Tuesday also asked the U.S. Securities and Exchange Commission to
+scrutinize documents from OpenAI ahead of an expected initial public offering, and the U.S. House of
+Representatives' Committee on Oversight and Government Reform last week asked Altman for
+information on OpenAI policies to prevent conflicts of interest.
+In court on Tuesday, Musk’s lead trial lawyer Steven Molo exhibited a document that revealed
+Altman’s holdings in nine companies that had done business with OpenAI and their fair market value
+as of December 31, 2025.
+COMPANY STAKES
+Subscribe
+Altman does not hold direct equity in OpenAI, although he has amassed a $4 billion net worth,
+according to Forbes estimates, through venture capital investments he made prior to and during his
+tenure at OpenAI. The list of companies with OpenAI deals included a $1.7 billion stake in fusion power
+company Helion Energy, a $633 million stake in financial software company Stripe, and $258 million
+in anti-aging pharmaceutical company Retro Biosciences, all of which have OpenAI deals.
+The document also revealed Altman had sold off a stake in Reddit (RDDT.N) by the end of 2025.
+Altman's holdings were worth more than $600 million on the day the company went public in 2024,
+according to SEC filings at the time. The other companies on the list included chip maker Cerebras,
+people management software maker Degree, which is known as Lattice, AI device maker Humane, AI
+software maker Software Applications and AI pharmaceutical company Trialspark, now known as
+Formation Bio.
+Altman was friends with Helion’s founders and first invested in the company in 2015, he testified. The
+company, which is aiming to build the world’s first fusion power plant, does not generate any revenue
+but has been valued in the private market at $5.4 billion.
+Altman testified that he asked OpenAI’s board to explore working with Helion in late 2022 and that he
+vouched for it being a good deal. Helion first signed an agreement to secure future energy for OpenAI
+in 2024. Altman stepped down from Helion’s board in March 2026, as the companies explored a
+larger deal.
+Altman said of the 2024 deal that he was “recused from it on both sides” and did not sign the
+agreement.
+Molo said Altman had an “obvious conflict” in spearheading negotiations for a May 2024 content
+partnership between OpenAI and Reddit.
+“We decided that the board would approve any final terms,” Altman said. “I had other people in the
+room with me. This was a well-discussed standard corporate recusal.” Molo also questioned Altman
+about a $10 billion computing deal with Cerebras, in which Altman holds a stake worth $3.2 million.
+The attorneys general of Alabama, Arkansas, Florida, Idaho, Iowa, Louisiana, Montana, Nebraska,
+Oklahoma, and West Virginia, all Republicans, told the SEC, "Altman’s conduct to date raises serious
+legal questions and demands close scrutiny." The SEC declined to comment.
+Reporting by Kenrick Cai and Deepa Seetharaman in Oakland, California; editing by Peter Henderson and Nick
+Zieminski
