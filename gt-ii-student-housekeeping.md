@@ -942,6 +942,22 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Once you send back revised files, we'll diff them against what's
   already migrated to reconcile rather than starting over. Full
   writeup and reasoning in `development-of-v59.md` item 44.
+  **New example found 2026-09-24, story 185 row 50** (San Francisco
+  Department of Public Health): "The San Francisco Department of
+  Public Health intends to maintain a registry of people at 'high
+  risk' of overdose, and deploy firefighter paramedics and public
+  health workers to meet with survivors within 72 hours of an
+  overdose to connect them with services and treatment. Hospitals,
+  911 responders, and community groups are supposed to identify
+  people who have just survived overdose, and report them to the
+  program. It's part of a $13.2 million effort to prevent overdoses in
+  San Francisco. No such government-led efforts are currently underway
+  in Alameda County." No attribution verb anywhere in it, and the last
+  sentence is explicitly the reporter's own comparative observation
+  (SF vs. Alameda County) — same pattern as the KB/Katie Brown example
+  above, just for a Named Organization row instead of Named Person.
+  Left as-is for now, flagged for your review rather than fixed on our
+  side, matching the exclusion for this whole story range.
 - **Story 173 (Mountain_View_RV_Dwellers) rows 1, 2, 3 (Misty Masvalo)
   — Title of Source backfilled from later in the same story.** Rows
   4-7 and 23-24 already correctly had Title "part-time yoga instructor
