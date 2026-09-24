@@ -464,6 +464,19 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   convention: SJ now reads "a Canadian official familiar with the
   discussions; spoke on condition of anonymity because they were not
   authorized to discuss the talks publicly" on both rows.
+- **Story 181 — new row added, found during the same Phase 4a pass.**
+  "Canadians have sharply cut travel to the United States and
+  boycotted U.S. goods, moves Carney praised as signs of national
+  resolve." had no row — a genuine attribution (Carney's own
+  characterization of the boycotts), sitting a couple of sentences
+  after the last Trump-administration row. Added as row 21 (Named
+  Person, Mark Carney, Title "Canadian Prime Minister," matching all
+  his other rows in this file); everything renumbered sequentially
+  (final: 1-27). A neighboring sentence — "Trump's trade war and
+  repeated talk of making Canada the 51st state have fueled anger
+  across the country" — was considered and rejected: "repeated talk"
+  there is the reporter's own causal framing referencing an
+  already-captured pattern (row 6), not a new attributed statement.
 
 ### AV
 
