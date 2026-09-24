@@ -1301,6 +1301,18 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   for combining multiple Source Justification facts about the same
   source, before deciding; needs a precedent search first. Both rows
   (6, 7) left as-is for now.
+- **Story 172 (Delhi_Flyover_Homeless) — new row added, found during
+  Phase 4a (missing Sourced Statement sweep).** "'Sometimes, when
+  there is no money, we don't cook at all,' Shahida says. 'Those days
+  we either stay hungry or rely on alms from passersby.'" had no row
+  at all — a direct quote sitting between the two Nikita Popat rows
+  (17, 18 at the time), interleaved in the article's own paragraph
+  order. Added as row 18 (Named Person, Shahida), pushing the second
+  Popat row and everything after down by one. Source Justification
+  carried forward from row 5 (Shahida's first quote), matching how
+  this same file already treats her later rows (e.g. row 19/20) under
+  the currently-active forward-carry-forward convention (item 48's
+  proposed row-level policy hasn't been adopted yet).
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
