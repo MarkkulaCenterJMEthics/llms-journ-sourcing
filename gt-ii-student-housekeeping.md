@@ -1286,6 +1286,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Brown/Katie Brown row (current numbering): KB Brown — 1, 30, 36, 46,
   47; Katie Brown — 31, 32, 33, 37, 48, 49. Source Descriptors/
   Justification unchanged on all 11 rows.
+- **Story 174 rows 20-21 (Rosa Daniels) — Source Descriptors "Black"
+  backfilled backward from row 23, found during Phase 2.6.** Row 23
+  (later in the article) has SD "Black" (from "said Daniels, who is
+  Black"); rows 20-21 (earlier) had it blank. Applied the same
+  both-directions backfill logic already established for Title of
+  Source (item 28) — a stable identity fact isn't moment-specific, so
+  it should backfill backward the same way a title does, not just
+  forward. Backfilled SD "Black" onto rows 20-21. **A parallel
+  question — whether row 7's SJ ("whose own firm received a PPP
+  loan," Anirban Basu) should backfill backward to row 6 the same
+  way — is paused, not applied.** User wants to check how backward SJ
+  backfill interacts with the existing ";"-concatenation convention
+  for combining multiple Source Justification facts about the same
+  source, before deciding; needs a precedent search first. Both rows
+  (6, 7) left as-is for now.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
