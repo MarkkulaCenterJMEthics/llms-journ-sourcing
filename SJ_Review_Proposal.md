@@ -670,7 +670,7 @@ justification text to appear anywhere relative to the statement.
 
 ---
 
-## Open discussion points for tomorrow's meeting
+## Open discussion points for annotators' meeting
 
 1. **Which row does a justification "belong to," when more than one row
    could plausibly carry it?** Not necessarily the mechanically-first
