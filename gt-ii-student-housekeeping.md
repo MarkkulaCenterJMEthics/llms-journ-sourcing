@@ -451,6 +451,19 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Justification added.** Applies to both your copy and AV's — see AV's
   list below for the full write-up (same fix, same reasoning, both
   copies).
+- **Story 181 (US_Canada_Dairy) rows 8, 9 — added the missing anonymity
+  disclosure sentence to Source Justification, found during Phase 4a.**
+  Both rows were already correctly typed Anonymous Source with SJ "a
+  Canadian official familiar with the discussions," but the article's
+  own disclosure sentence — "The official spoke on condition of
+  anonymity because they were not authorized to discuss the talks
+  publicly" — sits several lines further down (past a stray extraction
+  artifact) and had never been captured anywhere. This is the actual
+  textual basis for the Anonymous Source Type assignment on these rows,
+  not optional color. Added via the existing ";"-concatenation
+  convention: SJ now reads "a Canadian official familiar with the
+  discussions; spoke on condition of anonymity because they were not
+  authorized to discuss the talks publicly" on both rows.
 
 ### AV
 

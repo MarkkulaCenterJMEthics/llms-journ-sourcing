@@ -72,6 +72,42 @@ mechanical strip.
 
 ---
 
+## A worked example that sharpens the open question
+
+Found and applied 2026-09-24, on `GT-II/181-US_Canada_Dairy.csv`, rows 8-9
+(Type: Anonymous Source, Title: "Canadian official"). Both rows already had a
+valid Source Justification fragment: *"a Canadian official familiar with the
+discussions."* Further down the article — several sentences later, after an
+unrelated paragraph and a stray extraction artifact — sits the disclosure
+sentence that's the actual reason this source is typed Anonymous Source at
+all: *"The official spoke on condition of anonymity because they were not
+authorized to discuss the talks publicly."* That sentence had never been
+captured anywhere. It was added to both rows via the currently-active
+";"-concatenation convention: *"a Canadian official familiar with the
+discussions; spoke on condition of anonymity because they were not
+authorized to discuss the talks publicly."*
+
+This case is compatible in spirit with the row-level proposal above — it's
+exactly the "annotator scans the whole article, finds a second genuinely
+relevant fact, and judges it belongs on this row" behavior the proposal
+wants to keep. But it's also a clean example of the harder edge the proposal
+doesn't yet resolve: this isn't a case of the *same* text independently
+belonging on *multiple different rows* (the scenario the proposal's "may be
+captured on each such row... a deliberate judgment call" language covers) —
+it's **two distinct, individually-valid facts landing on the same row**,
+discovered at different points in the search, that need to be held together
+rather than one replacing the other. For a source type like Anonymous
+Source specifically, the disclosure sentence isn't optional color — without
+it, the row's own Type assignment has no textual support. Worth using this
+example directly in tomorrow's discussion: does the row-level proposal keep
+some form of same-row concatenation for cases like this, or does it expect
+the annotator to somehow capture both facts without a joining mechanism (a
+single combined sentence, written in their own words, which would break the
+"extract only the actual text, don't synthesize" rule)? This is a genuinely
+open sub-question the current draft doesn't cover.
+
+---
+
 ## Prevalence data: how often does the "pull from downstream" pattern actually happen?
 
 Two questions, checked directly against both corpora, motivated by a
