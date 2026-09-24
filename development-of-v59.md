@@ -82,8 +82,14 @@ findings turn up, rather than letting them scatter again.
   forward as-is.
 - Story 74 Sourced-Statement-definition disagreement between AV and SZ —
   needs a joint discussion, not yet decided as house policy.
-- Story 100 — still blocked on text (image-only PDF), needs OCR or a
-  cleaner source.
+- Story 100 — **unblocked 2026-09-24.** User supplied a new Reuters PDF
+  (the original was an image-only MSN embed); converted and added to
+  `extracted_articles_boilerplate/`. First cleanup pass done: dropped
+  row 15 (a stray MSN-sidebar sentence never in the actual article,
+  "Jobs focused on AI are growing, according to LinkedIn") and fixed
+  OCR typos carried over from the original manual annotation ("OpenAl"
+  → "OpenAI", "lowa" → "Iowa"). 15 rows → 14. Full Phase 0-4 migration
+  still to run.
 - `GT-II/174-PPP_Loans_Low_Income.csv` — pulled from the Sep17 batch
   (item 42), needs the user's direct review with the original annotator
   before Phase 2.6 (and beyond) resumes on this file. Left with an open

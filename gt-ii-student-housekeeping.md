@@ -1355,6 +1355,22 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   this same file already treats her later rows (e.g. row 19/20) under
   the currently-active forward-carry-forward convention (item 48's
   proposed row-level policy hasn't been adopted yet).
+- **Story 100 (OpenAI_Court) — unblocked and cleaned up, first pass
+  (2026-09-24).** This story was blocked on text since the original
+  delivered PDF (an MSN embed) was image-only; the user supplied a new
+  Reuters PDF with real extractable text, which was converted and
+  added to `extracted_articles_boilerplate/`. Checking the existing
+  15-row draft (annotated by reading the image PDF directly, since no
+  extractable text existed at the time) against the real Reuters text
+  found two things: (1) **row 15**, "Jobs focused on AI are growing,
+  according to LinkedIn." — does not appear anywhere in the actual
+  8-page Reuters article; looks like a stray MSN sidebar/related-
+  content snippet that got mixed into the manual annotation. Dropped.
+  (2) OCR-style typos carried over from the original manual read:
+  "OpenAl" → "OpenAI" (rows 1, 5, 8, 10 at the time — capital I
+  misread as lowercase l) and "lowa" → "Iowa" (row 13's attorneys-
+  general list). Fixed throughout. 15 rows → 14, renumbered
+  sequentially. Full Phase 0-4 migration for this file to follow.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
