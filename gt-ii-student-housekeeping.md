@@ -1392,6 +1392,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Source Descriptors "Republicans" from the same row's own text ("all
   Republicans"), trimming the quantifier "all" per the established
   atomic-word convention. 14 rows → 15 (the split added one row).
+- **Story 100 — PAUSED mid-Phase-4a, resume next session.** Six more
+  candidates found re-checking the article paragraph-by-paragraph
+  (more than any other file in this batch, expected since this was
+  manually annotated from an image-only PDF originally). Full detail,
+  exact proposed text, and confidence levels are in
+  `development-of-v59.md`'s item 42-adjacent log (the "PAUSED
+  2026-09-24, PICK UP HERE" entry right after the three schema-
+  violation fixes above) — not repeated here to avoid drift between
+  the two copies. Nothing applied yet; resume there.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
