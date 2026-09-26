@@ -1453,7 +1453,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   yet on whether/how the Molo SJ text should extend to this row).
   Inserted after the SEC-filings row (old row 10), before Altman's
   Helion-friendship testimony (old row 11); renumbered (18 rows → 19).
-  Candidates E-F still to come.
+- **Candidates E and F, dropped — no CSV change.** E ("The company,
+  which is aiming to build the world's first fusion power plant, does
+  not generate any revenue but has been valued in the private market
+  at $5.4 billion.") and F ("Helion first signed an agreement to
+  secure future energy for OpenAI in 2024. Altman stepped down from
+  Helion's board in March 2026, as the companies explored a larger
+  deal.") were both judged weak SS candidates by the reviewer and
+  dropped without being added. This closes Phase 4a for story 100 —
+  all six candidates (A-F) resolved.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
