@@ -1400,7 +1400,24 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   `development-of-v59.md`'s item 42-adjacent log (the "PAUSED
   2026-09-24, PICK UP HERE" entry right after the three schema-
   violation fixes above) — not repeated here to avoid drift between
-  the two copies. Nothing applied yet; resume there.
+  the two copies.
+- **Story 100, resumed 2026-09-25 — candidate A applied.** "Ten U.S.
+  attorneys general... asked the U.S. Securities and Exchange
+  Commission to scrutinize documents from OpenAI ahead of an expected
+  initial public offering, and the U.S. House of Representatives'
+  Committee on Oversight and Government Reform last week asked Altman
+  for information on OpenAI policies to prevent conflicts of
+  interest." Split into two rows (same "genuinely separable
+  statements, not a joint one" test as story 69's row 8 split):
+  Unnamed Group of People "attorneys general" (Title "attorneys
+  general," SD "Republicans," carried forward from the same group's
+  established row) and Named Organization "U.S. House of
+  Representatives' Committee on Oversight and Government Reform."
+  Kept the article's own lowercase "the" at the start of the second
+  row's text rather than capitalizing it for readability, per the
+  user's explicit call to match the article exactly. Inserted after
+  row 3; everything renumbered (15 rows → 17). Candidates B-F still to
+  come.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
