@@ -1440,7 +1440,20 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   document"), the same Molo-exhibited-document SJ text used on rows
   1/2/8 was added here too. Inserted after the Forbes row (old row 7),
   before "The document also revealed..." row (old row 8); everything
-  renumbered (17 rows → 18). Candidates D-F still to come.
+  renumbered (17 rows → 18).
+- **Candidate D, applied as a new Document row, SJ left null.** "The
+  other companies on the list included chip maker Cerebras, people
+  management software maker Degree, which is known as Lattice, AI
+  device maker Humane, AI software maker Software Applications and AI
+  pharmaceutical company Trialspark, now known as Formation Bio."
+  Same court-document company list continuing (matches rows 8/9/10,
+  all also SJ-null). Type: Document, Name/Title: null, SD: "court
+  document", SJ: null — the SJ call here is deferred pending the
+  still-undecided row-level SJ policy revision (item 48; no decision
+  yet on whether/how the Molo SJ text should extend to this row).
+  Inserted after the SEC-filings row (old row 10), before Altman's
+  Helion-friendship testimony (old row 11); renumbered (18 rows → 19).
+  Candidates E-F still to come.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
