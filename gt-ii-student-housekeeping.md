@@ -1462,6 +1462,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   deal.") were both judged weak SS candidates by the reviewer and
   dropped without being added. This closes Phase 4a for story 100 —
   all six candidates (A-F) resolved.
+- **Phase 3 (compliance audit) and Phase 4b (unattributed-narration
+  check), both run 2026-09-25 — clean, no changes on either.** Phase 3:
+  SJ substantive not medium-of-contact; "Musk's lead trial lawyer"
+  judged credentialing not bare-relational; no single-word SJ; Source
+  Descriptors ("court document," "SEC filings," "Republicans") atomic/
+  exact/consistent with corpus convention; no Title qualifier-stacking.
+  Phase 4b: every one of the 19 rows traces to an explicit manifest
+  attribution in the article text — none read as unattributed reporter
+  narration. **Story 100 is now fully done, Phases 0-4, 19 final rows.**
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
