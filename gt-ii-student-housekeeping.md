@@ -1416,8 +1416,19 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Kept the article's own lowercase "the" at the start of the second
   row's text rather than capitalizing it for readability, per the
   user's explicit call to match the article exactly. Inserted after
-  row 3; everything renumbered (15 rows → 17). Candidates B-F still to
-  come.
+  row 3; everything renumbered (15 rows → 17).
+- **Candidate B, resolved as an SJ addition rather than a new row.**
+  "In court on Tuesday, Musk's lead trial lawyer Steven Molo exhibited
+  a document that revealed Altman's holdings in nine companies that
+  had done business with OpenAI and their fair market value as of
+  December 31, 2025." User caught that "exhibited a document" is
+  conduct narration (same exclusion as story 166's rideshare-drivers
+  case, story 185's row 50), not a statement — but the content usefully
+  explains why the "court document" is in the story, which is exactly
+  what Source Justification is for. Added verbatim as SJ to all three
+  rows that reference this same document (rows 1, 2, 8) — not row 9,
+  which is the separate "SEC filings" reference. Candidates C-F still
+  to come.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
