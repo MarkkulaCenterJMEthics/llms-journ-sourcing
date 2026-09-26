@@ -1427,8 +1427,20 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   explains why the "court document" is in the story, which is exactly
   what Source Justification is for. Added verbatim as SJ to all three
   rows that reference this same document (rows 1, 2, 8) — not row 9,
-  which is the separate "SEC filings" reference. Candidates C-F still
-  to come.
+  which is the separate "SEC filings" reference.
+- **Candidate C, applied as a new Document row, with the same SJ carried
+  onto it.** "The list of companies with OpenAI deals included a $1.7
+  billion stake in fusion power company Helion Energy, a $633 million
+  stake in financial software company Stripe, and $258 million in
+  anti-aging pharmaceutical company Retro Biosciences, all of which have
+  OpenAI deals." This is the same court document's list continuing
+  (row 8 itself opens "The other companies on the list included...").
+  Type: Document, Name/Title: null, SD: "court document". Per the
+  user's call ("the SJ seems like it will apply here — it's the same
+  document"), the same Molo-exhibited-document SJ text used on rows
+  1/2/8 was added here too. Inserted after the Forbes row (old row 7),
+  before "The document also revealed..." row (old row 8); everything
+  renumbered (17 rows → 18). Candidates D-F still to come.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
