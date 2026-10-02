@@ -60,6 +60,28 @@ if you want it; here's just what's still actually needed.
   save from that same URL, or a link to wherever the underlying wire
   story (this looks like an AP/Reuters-style business story MSN is
   syndicating) is hosted directly.
+- **212 (SZ)** — the supplied PDF converts cleanly, but its text is
+  missing content the annotation (rows 12-15) actually cites: Araqchi
+  briefing Prince Faisal bin Farhan, the Saudi-led coalition
+  intercepting Houthi drones/missiles, a Turkey/Pakistan defense
+  meeting in Riyadh, and a UN children's-agency statement on Yemen.
+  This looks like a Reuters "rolling update" story (the page itself is
+  marked "Updated September 26, 2026") — the supplied PDF is likely an
+  earlier snapshot captured before a regional-roundup section was
+  appended later that day. **Needed: a fresher PDF capture of the same
+  URL**, taken after that update:
+  https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/
+- **193 (SZ)** — row 23's sentence ("Ireland's national broadcaster RTÉ
+  said it would not drop Sheeran's music from its radio stations
+  following the backlash...") does not appear anywhere in our source
+  text for this story, and the source here is a plain `.txt` file, not
+  a PDF extraction, so this isn't an extraction artifact. Likely the
+  same pattern as 212: the live Newsweek article was probably updated
+  with this reaction after whatever snapshot we have was taken.
+  **Needed: a fresh full copy of the current live article text**
+  (https://www.newsweek.com/ireland-disowns-ed-sheeran-over-macklemore-12454999),
+  so we can confirm row 23 and re-check nothing else was added or
+  changed since our copy was captured.
 
 **2. Stories where we already have the text, but the annotation is still
 due: none right now** — the last item here (67) arrived in AV's Sep11
@@ -517,6 +539,50 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Justification says "who runs SpaceXAI" while the row's own Sourced
   Statement text correctly says "who runs xAI" — a typo merging two
   company names, worth a quick fix whenever this file comes up again.
+- **Phase 1 (Anonymous Source reclassification), run 2026-10-02 —
+  clean, no changes.** Zero rows across all 21 files (335 total rows)
+  are currently typed Anonymous Source, so there was nothing to check
+  for a disclosure statement. Type breakdown: Document 39, Named
+  Organization 86, Named Person 166, Unnamed Group of People 36,
+  Unnamed Person 8.
+- **Phase 2.1 (Unnamed Group of People), run 2026-10-02 — 3 files
+  edited.** `192` row 2: SD "tech bosses" moved to Title as "U.S. tech
+  bosses" (credentialing role, same bucket as row 4's "industry
+  leaders," already correctly in Title). `196` rows 12/13: casing fix,
+  "U.S. Officials"/"Danish Officials" -> lowercase "officials," to
+  match the article's own capture-exactly-as-written text. `207` row
+  8: reclassified Unnamed Group of People -> Named Organization /
+  Monster — this row cites the same Monster recruitment-platform study
+  as the file's own rows 2, 3, 9, and 10 (all already correctly Named
+  Organization/Monster); row 8 alone had been left inconsistent. SD
+  ("recruitment platform") kept, SJ left untouched pending the
+  separate SJ review pass. Two candidates from this pass were raised
+  and then retracted after corpus-wide checks: a proposed Title
+  backfill for "people familiar with..." phrasing (`206` row 16, `208`
+  row 26) turned out to contradict a clean 20-instance precedent that
+  this phrasing is SJ-only, never Title; and a proposed Title expansion
+  for `208` row 2 ("officials" -> "current and former officials") was
+  reconsidered and dropped — for a *group* Title, "current and former
+  officials" is semantically just "officials from both groups," so the
+  bare role noun already carries the full credentialing content (no
+  precedent existed either way; this was a fresh call, not a lookup).
+- **Phase 2.4 (Document), run 2026-10-02 — 1 file edited (3 casing
+  fixes).** `204` rows 7/9: SD "Proclamation" -> lowercase
+  "proclamation," matching the article's own mid-sentence "The
+  proclamation..." text. Row 8: SD "studies" -> capitalized "Studies,"
+  matching the article's sentence-initial "Studies have found...".
+  Everything else (schema violations, missed-document-name recovery,
+  genre-word recovery) came back clean across all 39 Document rows.
+  One adjacent finding (`210` row 14, AdImpact/Wall Street Journal)
+  was raised and retracted — see `development-of-v59.md` item 20 for
+  the secondary-sourcing design discussion; no CSV change there.
+- **Phase 2.2 (Unnamed Person) and Phase 2.3 (Anonymous Source), both
+  run 2026-10-02 — clean, no changes on either.** 2.2: re-checked the
+  same 8 rows from Phase 1's reverse check for Title/SD placement, all
+  already correctly structured. 2.3: zero Anonymous Source rows exist
+  in the batch (confirmed in Phase 1) — explicitly logged rather than
+  silently skipped, since this phase has been missed by accident twice
+  before when row counts looked small.
 
 ### AV
 

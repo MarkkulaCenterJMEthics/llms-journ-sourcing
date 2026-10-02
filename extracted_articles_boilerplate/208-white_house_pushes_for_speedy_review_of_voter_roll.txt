@@ -1,0 +1,196 @@
+==================================================
+Title: White House pushes for speedy review of voter rolls in hunt for noncitizen voters
+Author: Reuters
+URL: https://www.reuters.com/legal/government/white-house-pushes-speedy-review-voter-rolls-hunt-noncitizen-voters-2026-09-24/
+Source PDF: 208 - White House pushes for speedy review of voter rolls in hunt for noncitizen voters _ Reuters.pdf
+==================================================
+
+Learn more about
+Subscribe
+White House pushes for speedy review of voter rolls in hunt for
+noncitizen voters
+By Kristina Cooke and Peter Eisler
+September 24, 2026 3:02 AM PDT · Updated September 24, 2026
+A North Carolina Election Integrity Team sign in Spanish warning non-citizens not to vote and that doing so could lead to deportation, a
+notice that advocacy groups say could intimidate... Purchase Licensing Rights Read more
+Summary
+DHS is reviewing at least 47 state voter rolls under its Unlawful Voter Initiative, email shows
+
+Agency using commercial data service to supplement redacted voter rolls, internal email shows
+Experts and officials warn process could lead to citizens being falsely flagged as illegal voters
+Sept 24 (Reuters) - The White House has pushed federal agencies to accelerate their review of at least
+47 state voter rolls obtained by the Department of Homeland Security, according to an internal email
+seen by Reuters, part of an unprecedented effort to find noncitizens among registered voters as
+midterm elections near.
+DHS has surged hundreds of officers from across the US security and immigration apparatuses in
+recent months to comb the rolls for evidence of voter fraud under its Unlawful Voter Initiative, current
+and former officials said.
+Jumpstart your morning with the latest legal news delivered straight to your inbox from The Daily
+Docket newsletter. Sign up here.
+The September 1 email sent by a DHS official briefs colleagues on the review of voter rolls. It shows
+how the effort is being directed by the White House — and that agency officials are struggling to meet
+the goals set out for them. At one point, it notes that a DHS official "has offered to raise with the WH
+COS if we can't get forward progress," a reference to White House Chief of Staff Susie Wiles.
+The email also reveals that the agency is using a commercial data broker to find sensitive voter
+information not included in publicly available rolls, which officials and experts warn could lead to
+citizens being falsely flagged as illegal voters and potentially detained.
+The review is the latest attempt by President Donald Trump to vindicate his longstanding assertion
+that noncitizen voting is widespread in US elections – a claim that has collapsed repeatedly for lack of
+evidence.
+His administration has also urged Republicans to “nationalize” voting in at least 15 places and sought
+to restrict mail-in balloting, even though the US Constitution gives states, not the federal government,
+primary authority over election administration.
+Critics say the hunt for noncitizen voters is part of a broader strategy to undermine confidence in
+elections and warn it could disenfranchise legal voters. Multiple studies and audits - including a
+Reuters analysis in July - have found that the number of unauthorized votes cast in US elections is
+statistically insignificant.
+Reuters found this week that states may have added more than 30,000 noncitizens to their voter rolls
+since 2000 due to software glitches and clerical errors, but it was unclear how many had cast a ballot,
+
+and experts said the numbers were too small relative to the country’s 170 million registered voters to
+affect elections.
+A Reuters review in July found that only 129 people had been charged under the “Voting by Aliens”
+statute since its 1996 enactment. The Trump administration has charged at least 20 more under the
+statute in the months since.
+The White House said in a statement that all cases of potential noncitizen voting would be pursued.
+DHS said its investigative efforts are "conducted diligently and professionally in accordance with the
+law," providing "an essential guarantee in the authenticity of our election results."
+FALSE POSITIVES
+It is unclear how DHS obtained the voter rolls from the 47 states referenced in the September email.
+Since returning to office last year, Trump’s administration has demanded unredacted voter rolls from
+nearly every state. While at least 16 states have agreed to hand over complete rolls with no redactions,
+according to the Brennan Center for Justice at NYU Law, most have refused to comply.
+As a consequence, DHS appears to have relied on public versions of voter rolls with certain personal
+data removed, such as drivers’ license and Social Security numbers. To fill the gaps, the email shows,
+DHS has “enriched” the redacted rolls with information bought from Accurint, a private service that
+collects and sells personal data.
+LexisNexis, which owns Accurint, declined to comment.
+Federal investigators are matching the augmented voter roll data with records from other government
+databases -- including Immigration and Customs Enforcement, US Citizenship and Immigration
+Services (USCIS), the US State Department and the Social Security Administration -- to identify
+potential noncitizens, the email showed.
+“We have 1,620 cases moving right now that are under investigation,” DHS Secretary Markwayne
+Mullin told Fox News on Saturday, “and that list grows every single day.”
+But some names in the voter rolls obtained by DHS lacked key details, such as year of birth, making it
+difficult to match them across various databases, according to the email.
+And a US official said the leads sent to agents in recent weeks often included false positives, including
+citizens who had similar names as immigrants. Another person familiar with the effort said it also
+mistakenly swept in US citizens born abroad.
+DHS had only “some degree of confidence” that the individuals flagged by the review were
+noncitizens who had "registered to vote and/or voted,” the email said.
+Even being flagged "has very real life consequences," including additional scrutiny during air travel
+and possible complications for those seeking naturalization, said Kerry Doyle, a former DHS deputy
+
+general counsel.
+"When there is a flag in the system, it's very difficult to fix it. It totally upends your life," Doyle said.
+WHITE HOUSE ROLE
+At USCIS, which typically processes legal immigration applications, hundreds of fraud detection and
+national security officers were reassigned to the effort for at least three weeks starting in August,
+according to three people familiar with the matter.
+Officers were given a goal of vetting five names per hour, one of the people said, noting the target was
+rarely met.
+Agents with Homeland Security Investigations, a branch of ICE that usually investigates cross-border
+crimes such as human trafficking, were also instructed to surge resources to determine whether
+potential noncitizens could be charged with voting illegally, the US official said.
+After a late August call with the White House, the email said, DHS officials held a meeting in which
+"the ICE team appeared both unaware of what their leadership had committed to and also indicated
+they weren't sure they could actually execute, particularly at the volume being sought.”
+Some states have said the administration has been unable to back up its assertions of rampant voter
+fraud.
+In Nevada, for example, DHS said in July it had identified nearly 16,000 potential noncitizens on state
+voter rolls. Pressed by the state for evidence, DHS said the figure was preliminary and it had verified
+just 185 of those cases, according to the office of Nevada’s secretary of state.
+The office said DHS declined to provide additional information requested by the state to verify the
+initial claims.
+Reporting by Kristina Cooke in San Francisco and Peter Eisler in Washington. Additional reporting by Tom Hals.
+Editing by Jesse Mesner-Hage and Deepa Babington
+Our Standards: The Thomson Reuters Trust Principles.
+Suggested Topics:
+Government Public Policy U.S. Election Security Voting Rights & Elections Immigration
+Purchase Licensing Rights
+Kristina Cooke
+
+Thomson Reuters
+Kristina Cooke is a Pulitzer Prize-winning investigative reporter at Reuters focused on immigration and
+criminal justice. She was part of a team awarded the Pulitzer Prize for National Reporting in 2026 for a series
+on President Donald Trump’s campaign of political retribution. In 2025, she shared the Pulitzer Prize for
+Investigative Reporting for a series on the fentanyl crisis. Her investigation with colleagues into migrant child
+labor in the United States was a finalist for the Pulitzer Prize for National Reporting in 2023, and a recipient of
+the Polk and other awards. She speaks English, German and Spanish and is based in San Francisco.
+Peter Eisler
+Thomson Reuters
+Peter Eisler is a reporter on Reuters’ Enterprise and Investigations team. His work focuses on political and
+criminal justice issues. In 2026, he shared the Pulitzer Prize for National Reporting, awarded for a series of
+stories examining President Donald Trump’s campaign of retribution against his perceived political foes.
+Read Next / Editor's Picks
+Litigation
+FDA nominee Overton says all US vaccines safe as senators press on
+shots, abortion, vaping
+September 24, 2026
+Government
+Judge dismisses Trump lawsuit against Iowa newspaper and
+pollster
+September 24, 2026
+Litigation
+Trump rolled back regulations for oil company campaign donors,
+Democrats say
+September 24, 2026
+Government
+Trump ramps up noncitizen voting prosecutions ahead of midterms
+
+September 23, 2026
+Latest Browse
+Home World
+Authors Business
+Topic Sitemap Markets
+Archive Sustainability
+Article Sitemap Legal
+Breakingviews
+Media
+Technology
+Videos
+Investigations
+Pictures
+Sports
+Graphics
+Science
+Podcasts
+Lifestyle
+About Reuters
+About Reuters
+Media Center
+Advertise with Us
+Careers
+Reuters News Agency
+Brand Attribution Guidelines
+Reuters and AI
+Reuters Leadership
+Reuters Fact Check
+
+Reuters Diversity Report
+Commercial Disclosure (Japan)
+Stay Informed
+Download the App (iOS)
+Download the App (Android)
+Newsletters
+Subscribe
+Information you can trust
+Reuters, the news and media division of Thomson Reuters, is the world’s largest multimedia news provider, reaching
+billions of people worldwide every day. Reuters provides business, financial, national and international news to
+professionals via desktop terminals, the world's media organizations, industry events and directly to consumers.
+Follow Us
+LSEG Products
+Workspace
+Access unmatched financial data, news and content in a highly-customised workflow experience on desktop, web and
+mobile.
+Data Catalogue
+Browse an unrivalled portfolio of real-time and historical market data and insights from worldwide sources and experts.
+World-Check
+Screen for heightened risk individual and entities globally to help uncover hidden risks in business relationships and
+human networks.
+Advertise With Us Advertising Guidelines Purchase Licensing Rights
+All quotes delayed a minimum of 15 minutes. See here for a list of exchanges and delays.
+
+Cookies Terms & Conditions Privacy Copyright Digital Accessibility Corrections
+Data Disclosure and Sources Site Feedback Manage Cookies & Your Privacy Choices
+© 2026 Reuters. All rights reserved

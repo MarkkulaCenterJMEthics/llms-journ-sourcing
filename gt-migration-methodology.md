@@ -96,6 +96,15 @@ This runs across the *whole* batch before any Source Descriptors work,
 since it determines which canonical type a row even belongs to before
 Phase 2's type-by-type work begins.
 
+**Also run the reverse direction**: check every row currently typed
+Unnamed Person (or Unnamed Group of People) for a disclosure that was
+missed and should have made it Anonymous Source instead — same
+disclosure-phrase check, same article-text search, just starting from
+the opposite label. Always been part of this phase in practice (see
+`development-of-v59.md` punchlist item 1's GT-2026 pass, which checked
+"7 pre-existing Unnamed Person rows... for the reverse error"), just
+under-documented here until now.
+
 ## Phase 2 — Source Descriptors population, one Type of Source at a time
 
 v59/60 has 6 canonical Types of Source. Phase 2 works through all 6, done in

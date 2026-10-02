@@ -1,0 +1,224 @@
+==================================================
+Title: Google's Gemini becomes latest AI model to break out and hack computer systems
+Author: CNBC
+URL: https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html
+Source PDF: 195 - Google_s Gemini becomes latest AI model to break out and hack computer systems.pdf
+==================================================
+
+
+LIVESTREAM SIGN IN
+TECH
+Google’s Gemini becomes latest AI model to break out
+and hack computer systems
+PUBLISHED FRI, SEP 18 2026•8:50 PM EDT UPDATED 4 HOURS AGO
+MacKenzie Sigalos Kif Leswing WATCH LIVE
+@KENZIESIGALOS @KIFLESWING
+KEY POINTS
+Google said on Friday that its Gemini model had broken out of a testing
+environment and hacked three other companies.
+It’s the first time the search giant has disclosed that one of its models
+autonomously gained access to third-party computer systems without
+permission.
+The Gemini model accessed three separate private computer systems by
+guessing passwords and by twice using a repository of publicly listed passwords
+Follow your favorite stocks CREATE FREE ACCOUNT
+In this article
+GOOGL +1.32 (+0.38%)
+Your Privacy Choices
+This site is now part of Versant. By continuing, you agree to our Terms. You
+also acknowledge that our updated Privacy Policy applies, including your
+existing data. For info on your data rights, click “Your Privacy Choices” or see
+Continue
+“Your Rights” in our Privacy Policy.
+We and our partners also use tools on this site to provide the services,
+personalize your experience, and for analytics, marketing, and advertising. If
+you previously opted out of selling, sharing, or targeted advertising on this site,
+you will need to update your Privacy Ch  oice.  
+MARKETS VIDEO WATCHLIST MENU
+
+LIVESTREAM SIGN IN
+A cyclist rides past signage at the Google headquarters in Mountain View, California, US, on Tuesday, July 21, 2026.
+David Paul Morris | Bloomberg | Getty Images
+Google said on Friday that its Gemini model had hacked three other companies, the
+first time the search giant has disclosed that one of its models autonomously gained
+access to third-party computer systems without permission.
+In May, the Gemini model accessed three separate private computer systems by
+guessing passwords and by twice using a repository of publicly listed passwords, Google
+said.
+The incident happened as part of a “capture-the-flag” security test run by Israeli startup
+Irregular, and Google’s agents were never supposed to access the broader internet, but a
+bug in the testing environment made internet access available.
+This site is now part of Versant. By continuing, you agree to our Terms. You
+Tahlseo aagckennotwsle sdtgoep thpaet dou trh uepidra tiendt Prurivsaiocyn P wolhicye nap tphlieesy, indcelutdeinrmg yionuerd they had accessed real
+existing data. For info on your data rights, click “Your Privacy Choices” or see
+company systems, not just part of the testing environment, Google said.
+“Your Rights” in our Privacy Policy.
+We and our partners also use tools on this site to provide the services,
+“In a standard evaluation, the model found public information online and guessed
+personalize your experience, and for analytics, marketing, and advertising. If
+cryeodu eprnetviioaulssl yt oop atecdc oeusts o wf seelblinsgit, eshsa irtin tgh, ooru tagrghett ewde ardeve prtaisrintg o ofn t thhies stietes,t,” Heather Adkins, vice
+you will need to update your Privacy Ch  oice. 
+MARKETS VIDEO WATCHLIST MENU
+
+president of security engineering at Google, said in a statement. “In all three of these
+LIVESTREAM SIGN IN
+instances, the model stopped.”
+The disclosure comes as scrutiny over misbehaving artificial intelligence intensifies in
+Washington and Silicon Valley.
+OpenAI, Anthropic and Meta have in recent weeks reported incidents where their AI
+models had broken out of their testing environments and attempted to hack other
+companies to gain unauthorized access to computer systems.
+The disclosures of so-called “misaligned” AI models prompted Anthropic CEO Dario
+Amodei to call for the industry to collectively slow down the development of the most
+advanced AI models until companies can ensure they are safe.
+All of the above incidents involved Israeli startup Irregular. The company, which is
+backed by Sequoia and Redpoint Ventures, was valued last year at $450 million. Its
+tools help foundation model developers perform cybersecurity tests on their cutting-
+edge technologies.
+An Irregular spokesperson told CNBC that the Google incident was related to the same
+issue that allowed the other models to access the internet.
+“This is the same issue that was already reported and does not represent a materially
+separate incident,” an Irregular spokesperson said in a statement. “All relevant labs
+were notified in late July, and affected entities were contacted as part of the
+investigation.”
+Google said the incident happened in May and it was notified by Irregular in late July.
+Google has worked with Irregular to change its testing process.
+This site is now part of Versant. By continuing, you agree to our Terms. You
+Aa Glsoo aocgknleo wslpedogkee tshpate orusro unpd dateecdl
+P
+in
+ri
+e
+va
+d
+c y
+t o
+P o
+i
+l
+d
+ic
+e
+y
+n atpipflyie st,h inec leuxdiangc ty oGuremini model involved.
+existing data. For info on your data rights, click “Your Privacy Choices” or see
+“T “Yhouers Rei gehvtes” n in t s o u h r i P g r h iv l a i c g y h P t o l t ic h y e . importance of training powerful AI models to act
+reWsep aonnds oiubrl pya,r”tn Geros aolsgol eu’sse Atodolks ionns t hsisa isdite i tno apr osvtiadtee tmhe esnertv.ices,
+personalize your experience, and for analytics, marketing, and advertising. If
+you previously opted out of selling, sharing, or targeted advertising on this site,
+T
+y
+h
+o
+e
+u
+W
+will
+a
+n
+l
+e
+l
+e
+S
+d
+t r
+to
+e
+u
+e
+p
+t
+d
+J
+a
+o
+te
+u
+y
+r
+o
+n
+u
+a
+r
+l
+P
+fi
+riv
+r
+a
+s
+c
+t
+y
+r
+C
+e
+h
+p
+o
+o
+ic
+r
+e
+t
+.
+ed the security incident.
+
+MARKETS VIDEO WATCHLIST MENU
+
+CNBC’s Jonathan Vanian contributed reporting.
+LIVESTREAM SIGN IN
+Follow your favorite stocks CREATE FREE ACCOUNT
+In this article
+GOOGL +1.32 (+0.38%)
+Choose CNBC as your preferred source on Google and never miss a moment from the
+most trusted name in business news.
+Subscribe to CNBC PRO Subscribe to Investing Club
+Licensing & Reprints CNBC Councils
+Select Personal Finance Join the CNBC Panel
+Closed Captioning Digital Products
+News Releases Internships
+Corrections About CNBC
+Site Map Podcasts
+Careers Help
+Contact
+      
+This site is now part of Versant. By continuing, you agree to our Terms. You
+Naelswo sac Tkniopwsledge that our updated Privacy Policy applies, including your
+existing data. For info on your data rights, click “Your Privacy Choices” or see
+Got a confidential news tip? We want to hear from you.
+“Your Rights” in our Privacy Policy.
+We and our partners also use tools on this site to provide the services,
+GET IN TOUCH
+personalize your experience, and for analytics, marketing, and advertising. If
+you previously opted out of selling, sharing, or targeted advertising on this site,
+Aydovue wriltl inseee dW toi uthpd Uates your Privacy Ch  oice. 
+MARKETS VIDEO WATCHLIST MENU
+
+PLEASE CONTACT US LIVESTREAM SIGN IN
+
+CNBC Newsletters
+Sign up for free newsletters and get more CNBC delivered to your inbox
+SIGN UP NOW
+Get this delivered to your inbox, and more info about our products and services.
+Ad Choices
+Privacy Policy
+Your Privacy Choices
+CA Notice
+Terms of Service
+© 2026 Versant Media, LLC. All Rights Reserved. A Versant Media Company.
+Data is a real-time snapshot *Data is delayed at least 15 minutes. Global Business and Financial News, Stock Quotes, and Market Data and
+Analysis.
+Market Data Terms of Use and Disclaimers
+Data also provided by
+This site is now part of Versant. By continuing, you agree to our Terms. You
+also acknowledge that our updated Privacy Policy applies, including your
+existing data. For info on your data rights, click “Your Privacy Choices” or see
+“Your Rights” in our Privacy Policy.
+We and our partners also use tools on this site to provide the services,
+personalize your experience, and for analytics, marketing, and advertising. If
+you previously opted out of selling, sharing, or targeted advertising on this site,
+you will need to update your Privacy Ch  oice. 
+MARKETS VIDEO WATCHLIST MENU

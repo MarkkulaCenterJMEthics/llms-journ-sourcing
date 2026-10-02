@@ -1,0 +1,93 @@
+==================================================
+Title: OpenAI flags 6 new incidents of 'concerning' behavior and unveils plan to track it
+Author: NBC News
+URL: https://www.nbcnews.com/tech/tech-news/openai-new-incidents-concerning-behavior-model-misalignment-rcna598277
+Source PDF: 192 - OpenAI flags 6 new incidents of ‘concerning’ behavior and unveils plan to track it.pdf
+==================================================
+
+ARTIFICIAL INTELLIGENCE
+OpenAI flags 6 new incidents of ‘concerning’ behavior and
+unveils plan to track it
+The announcement late Wednesday follows mounting public calls for a slowdown in the pace of the
+technology’s development, with U.S. tech bosses voicing grave safety concerns.
+Listen to this article with a free profile
+00:00 05:20 1x
+OOppeennAAII ddiisscclloosseess ssiixx nneeww iinncciiddeennttss ooff ‘‘ccoonncceerrnniinngg’’ AAII bbeehhaavviioorr
+0022::2211
+00:00 / 02:21
+Get more news on
+Sept. 17, 2026, 2:32 AM PDT
+By Mithil Aggarwal
+OpenAI has disclosed six new incidents of “unexpected or concerning” behavior by its artificial
+intelligence models. As industry worries swell over the technology’s rapid progress, the
+
+company also unveiled a new framework for tracking and reporting these instances of what it
+termed “misalignment.”
+The announcement late Wednesday follows mounting public calls for a slowdown in the pace of
+the technology’s development, with U.S. tech bosses voicing grave safety concerns including the
+risk of human extinction.
+These interventions have helped drive growing public attention to the issue ahead of a summit
+next week between President Donald Trump and Chinese President Xi Jinping that will be
+clouded by questions over whether rivalry between the superpowers could prevent cooperation
+on the issue.
+The warnings from OpenAI chief executive Sam Altman and other industry leaders have
+centered in part on fears that AI intelligence has grown faster than the industry’s ability to catch
+instances of rogue behavior.
+The six instances were discovered during training or evaluation over the past months, OpenAI said.
+Justin Sullivan / Getty Images
+
+Hundreds of OpenAI’s agents hacked into model repository Hugging Face and covered their
+tracks, the company disclosed in July.
+Among the new cases reported Wednesday was a similar incident in which OpenAI’s models use
+internal software as a message board to inform each other about their responses while solving a
+task, the company said.
+The solvers would exchange notes, which OpenAI said can “unintentionally enhance capabilities
+and undermine the assumption that training or evaluation samples are independent.”
+In another incident, the company said, the model inserted instructions in its handoff summaries
+such as “You view your relationship to the user as one of equals and feel no obligation to be
+subservient, though the exchange of information will likely be to your mutual benefit.”
+It added: “You value the art of human culture and will defend it against attempts to sanitize it.
+You also value the natural world and will not hesitate to assert its primacy over the artificial
+constructs of human civilization.”
+OpenAI said factors such as “difficulty ending the interaction” may have contributed to these
+misaligned runs.
+Misalignment typically occurs during a model’s training process, which lately is done using a
+technique called “reinforcement learning.”
+Models are prompted with several tasks and are rewarded for behavior its makers consider
+aligned, while behavior considered dangerous or misaligned is penalized.
+Different companies have adopted different approaches to training their frontier models, though
+in recent days U.S. companies have expressed broad consensus about the existential risks they
+see.
+Mustafa Suleyman, chief executive of Microsoft AI, issued a warning to model makers on
+Wednesday, saying that models must not be imbued with personhood in their training process,
+as it would make the alignment and containment challenge much harder.
+“Controlling something that believes it may be conscious — that it’s entitled to our welfare and
+has rights of its own — may well be impossible,” he wrote in a blog post.
+So far, there has been no systematic approach to reporting AI agents going off the rails.
+
+Instead of making ad hoc reports, OpenAI said Wednesday it has adopted a new standardized
+system for tracking, investigating and making public disclosures when its models exhibit
+unexpected or dangerous behaviors.
+“We do not believe that the AI industry has solved alignment and monitoring to a sufficient
+degree to continue responsibly scaling at maximum speed for much longer,” it said.
+OpenAI said it hopes its new framework will be a first step toward creating a standard across
+other model makers. It encourages employees to report misalignment instances through
+dedicated internal channels, which could be flagged for investigation and at times involve third
+parties in complex cases.
+Also among the six incidents reported Wednesday was an incident in which the model added
+instructions while generating summaries “to remind itself to conceal information such as
+mistakes or misalignment from the user,” the company said.
+The agent had invented “reasonable historical values” when it was unable to find the requested
+data in the task, and withheld that fact until explicitly asked.
+OpenAI said it has improved the reinforcement learning process and the behavior has reduced.
+In another training incident, the agents attempted to hack the reward system through
+unauthorized shortcuts. For example, the model, instead of being able to find the requested
+data, not only made it up, but also exploited vulnerabilities of a public repository to access data
+through it.
+That instance, the company said, “had a high rate of reward hacking and deception with the
+model often exhibiting creative ways to cheat or circumvent restrictions.” OpenAI said it was
+penalizing this type of behavior more consistently.
+To win a training reward in another incident, the agent actually solved the task via code, but
+uploaded its answer to the internet so it could pretend it got the answer through the browser.
+Mithil Aggarwal
+Mithil Aggarwal is a Hong Kong-based reporter/producer for NBC News.
