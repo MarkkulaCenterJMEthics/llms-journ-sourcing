@@ -477,6 +477,23 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   across the country" — was considered and rejected: "repeated talk"
   there is the reporter's own causal framing referencing an
   already-captured pattern (row 6), not a new attributed statement.
+- **New combined batch, Phase 0 intake, 2026-10-02: stories 191-211 (21
+  files, 335 rows), converted from the Sep24 + Sep29 xlsx deliveries.**
+  These were already authored in the full v59/60 7-column schema
+  (Source Descriptors column present natively), so Phase 0 was pure
+  mechanical conversion to CSV in `benchmarking/GT data/GT-II/` — no
+  column-adding needed. Two filename-only typos corrected (no
+  annotation content touched): `205-Morgage_Rates` -> `205-Mortgage_
+  Rates.csv`; `211-Taisa_Fortune` -> `211-Tasia_Fortune.csv` (matches
+  the subject's real name, "Tasia Fortune," per the source PDF).
+  **Story 212 deliberately excluded from this batch** — its supplied
+  PDF is missing content the annotation cites (see `development-of-
+  v59.md`'s item 42-adjacent story-212 log); held until a fresher PDF
+  capture is available. Flagged 4 non-canonical Type of Source values
+  for the next pass (canonicalization): `191` row 3 "Documentary
+  Source / Unnamed Source"; `203` row 9 "Named Publication", row 10
+  "Anonymous Group"; `205` rows 1/8/16 "Unnamed Group of people"
+  (casing).
 
 ### AV
 
