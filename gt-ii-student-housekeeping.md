@@ -494,6 +494,29 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Source / Unnamed Source"; `203` row 9 "Named Publication", row 10
   "Anonymous Group"; `205` rows 1/8/16 "Unnamed Group of people"
   (casing).
+- **Type of Source canonicalization pass on those 4 rows, done
+  2026-10-02.** `203` row 9: "Named Publication" -> Named Organization
+  (Name "Wall Street Journal" already correct). `203` row 10:
+  "Anonymous Group" -> Unnamed Group of People (no anonymity-disclosure
+  phrase present for "administration officials" anywhere in the
+  article, so this follows the standing Phase 1 rule directly); also
+  fixed a schema violation along the way — "administration officials"
+  was sitting in Name of Source, moved to Title of Source (UGOP rows
+  can never have Name of Source populated). `205` rows 1/8/16: pure
+  casing fix, "Unnamed Group of people" -> "Unnamed Group of People" —
+  nothing else needed touching. `191` row 3 needed real article
+  context, not just a label swap: it had a Type-of-Source value
+  ("Named Person") sitting in the Name field — an annotation-entry
+  glitch. The sentence ("...Musk, Zuckerberg and Huang all reportedly
+  pushed back...") is a tight implied continuation of an explicit "The
+  Wall Street Journal reported" two sentences earlier in the same
+  paragraph cluster (row 2) — reclassified to Named Organization / The
+  Wall Street Journal, SD and SJ both blanked (neither held anything
+  substantive once the Type/Name fix made them moot). **Flagged but not
+  fixed, out of scope for this pass**: `191` rows 8/9's Source
+  Justification says "who runs SpaceXAI" while the row's own Sourced
+  Statement text correctly says "who runs xAI" — a typo merging two
+  company names, worth a quick fix whenever this file comes up again.
 
 ### AV
 
