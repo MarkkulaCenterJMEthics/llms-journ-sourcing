@@ -583,6 +583,32 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   in the batch (confirmed in Phase 1) — explicitly logged rather than
   silently skipped, since this phase has been missed by accident twice
   before when row counts looked small.
+- **Phase 2.5 (Named Organization), run 2026-10-02 — 7 files edited
+  across Pass 1/2 (schema/naming) and Pass 3 (category-word SD).**
+  Pass 1/2: `193` row 12 (SD "Rap Trio" -> lowercase "rap trio"), row
+  19 (SD "Broadcaster" -> lowercase "broadcaster"); `200` row 2 (Name
+  "US Central Bank" -> "Federal Reserve" — a genuine naming-
+  inconsistency fix, not an inference: the article's very next
+  sentence after naming "the Federal Reserve" describes the same
+  entity generically as "the US central bank," and there's only one
+  US central bank); `198` row 2 (SD "notes" blanked — it described the
+  medium the Pentagon spoke through, not what kind of entity the
+  Pentagon is, so it didn't fit the category-word test). Pass 3: `192`
+  row 1 (SD -> "company," already the established value elsewhere in
+  this file, just missed on row 1); `200` row 2 again (SD -> "central
+  bank," newly possible after the naming fix above supplied a genuine
+  category word from the row's own text); `203` row 7 (SD ->
+  "association," matching `197`'s already-accepted "center" precedent
+  for a category word that's also a substring of the entity's full
+  name); `195` row 1 (SD -> "search giant" — a genuinely novel call
+  with no corpus precedent either way, applied per the user's
+  reasoning that "search" functions as the category and "giant" as
+  size, not an editorializing qualifier — flagged for a second look
+  during the later corpus-wide Pass 3 review, not fully settled as
+  precedent yet). **Two items flagged, not CSV changes**: `193` row 23
+  (RTÉ) and `212`, both added to the "What we need from you right now"
+  list above requesting a fresh article capture from SZ — see that
+  section for detail.
 
 ### AV
 
