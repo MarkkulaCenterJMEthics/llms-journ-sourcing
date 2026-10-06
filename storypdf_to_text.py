@@ -35,6 +35,37 @@ URL_FOOTER = re.compile(r'^https?://\S+\s+\d+/\d+$')
 DEFAULT_OUTPUT_FOLDER = "extracted_articles_boilerplate"
 
 
+def find_overlapping_text_layers(pdf_path):
+    """
+    Scan every page for two or more distinct fonts occupying the same
+    line (same rounded 'top' position) -- the signature of a PDF with
+    an overlapping text layer (e.g. a "Read Next" sidebar widget
+    rendered at the same coordinates as a body paragraph). page.chars
+    interleaves both layers character-by-character in reading order, so
+    plain extract_text() silently produces garbled text with no error --
+    e.g. "There Ris enao dev Nideenxcte here" instead of "There is no
+    evidence here", found in story 200's PDF (2026-10-02).
+
+    Returns a list of (page_index, top, fonts_seen) tuples for any line
+    with more than one distinct fontname. Caller should manually
+    inspect each flagged line (e.g. separate page.chars by fontname at
+    that top position) rather than trust extract_text() for it --
+    distinct fonts on one line are sometimes legitimate (bold name +
+    regular text), so this is a flag to check, not an auto-fix.
+    """
+    flagged = []
+    with pdfplumber.open(pdf_path) as pdf:
+        for page_index, page in enumerate(pdf.pages):
+            by_top = {}
+            for c in page.chars:
+                by_top.setdefault(round(c['top'], 1), []).append(c)
+            for top, chars_at_top in by_top.items():
+                fonts = set(c['fontname'] for c in chars_at_top)
+                if len(fonts) > 1:
+                    flagged.append((page_index, top, fonts))
+    return flagged
+
+
 def extract_pdf_text(pdf_path):
     """
     Extract text from a PDF, page by page, stripping the repeating
@@ -42,6 +73,19 @@ def extract_pdf_text(pdf_path):
     cleaned full-text body (pages joined by a blank line), or None if no
     text could be extracted at all.
     """
+    overlaps = find_overlapping_text_layers(pdf_path)
+    if overlaps:
+        print(
+            f"WARNING: {len(overlaps)} line(s) with overlapping text layers "
+            f"detected (multiple fonts at the same position) -- plain text "
+            f"extraction may be garbled at these spots. Inspect manually "
+            f"(separate page.chars by fontname at each flagged position) "
+            f"before trusting the output there:",
+            file=sys.stderr,
+        )
+        for page_index, top, fonts in overlaps:
+            print(f"  page {page_index}, top {top}: fonts {fonts}", file=sys.stderr)
+
     with pdfplumber.open(pdf_path) as pdf:
         pages = [(p.extract_text() or "").strip() for p in pdf.pages]
 

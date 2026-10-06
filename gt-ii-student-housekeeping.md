@@ -60,7 +60,10 @@ if you want it; here's just what's still actually needed.
   save from that same URL, or a link to wherever the underlying wire
   story (this looks like an AP/Reuters-style business story MSN is
   syndicating) is hosted directly.
-- **212 (SZ)** — the supplied PDF converts cleanly, but its text is
+- **212 (SZ)** — ✅ **RESOLVED 2026-10-06**: fresh capture received
+  (`SZ-212 - Iran awaits US move after WSJ report says Trump rejects
+  peace plan _ Reuters.pdf`); all 15 annotated rows now found in the
+  text. Original note kept below for the record. — the supplied PDF converts cleanly, but its text is
   missing content the annotation (rows 12-15) actually cites: Araqchi
   briefing Prince Faisal bin Farhan, the Saudi-led coalition
   intercepting Houthi drones/missiles, a Turkey/Pakistan defense
@@ -609,6 +612,41 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   (RTÉ) and `212`, both added to the "What we need from you right now"
   list above requesting a fresh article capture from SZ — see that
   section for detail.
+- **Phase 2.6 Pass 0 (Named Person, general annotation-error audit),
+  started 2026-10-02 — `200` rows 9/10 fixed, a tooling gap found and
+  closed along the way.** Row 9 was truncated ("...painted by White
+  [House]." — missing "economic officials"); row 10 was genuinely
+  garbled from an overlapping PDF text layer (a "Read Next" sidebar
+  widget rendered at the same position as the body paragraph, so plain
+  text extraction interleaved both: "There Ris enao dev Nideenxcte
+  here" instead of "There is no evidence here"). Both fixed with
+  verified text — row 9 from a clean re-extraction, row 10 by
+  separating the two overlapping fonts directly in the PDF's character
+  data. The underlying boilerplate text file was also rewritten with
+  the correct text (no longer garbled). **Process change**:
+  `storypdf_to_text.py` now auto-detects overlapping text layers and
+  warns about them on every conversion; see `development-of-v59.md`
+  item 50 and `gt-migration-methodology.md`'s Phase 0 section for the
+  new guardrail. **Open question, not yet started**: whether a
+  retroactive sweep of already-migrated stories' PDFs is needed to
+  catch any pre-existing garbling from before this guardrail existed —
+  flagged by the user, not yet scoped.
+- **`212` article text replaced, 2026-10-06 — fresh-capture gap
+  resolved.** SZ supplied a newer PDF of the same Reuters URL (captured
+  after the regional-roundup update; headline changed to "Iran awaits US
+  move after WSJ report says Trump rejects peace plan"). Converted and
+  saved as `212-iran_awaits_us_move_after_wsj_report_says_trump_re.txt`,
+  replacing the old `212-trump_rejects_iranian_proposal_to_open_hormuz_and_.txt`.
+  Checked every annotated Sourced Statement against the new text: all
+  15 rows present (rows 12-15, the original gap, now exact matches;
+  rows 1/9/10/11, also weak against the old text, now exact too). Row
+  4 is the only non-exact match, and only because the annotation drops
+  the quotation marks around Araqchi's direct quote; the wording is
+  identical. The 3 overlapping-text-layer warnings were all
+  bold-next-to-regular cases (byline, photo-caption "[1/3]", "Our
+  Standards" footer), none touching annotated text. Trimmed:
+  video-player chrome at top, site chrome after "Our Standards." No
+  annotation content touched; `212` is now ready for Phase 0.
 
 ### AV
 

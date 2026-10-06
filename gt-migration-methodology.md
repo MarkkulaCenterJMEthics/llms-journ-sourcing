@@ -76,6 +76,32 @@ Purely mechanical, can happen before any article text is in hand:
    that aren't part of the six-field schema (kept, not discarded, but
    tracked separately rather than mixed into the main file).
 
+**Article-text acquisition guardrail, run whenever a story's PDF is
+converted to `extracted_articles_boilerplate/` text (`storypdf_to_text.py`),
+before any phase that reads that text (everything from Phase 1 onward):**
+check for overlapping PDF text layers, not just whether text extracts at
+all. A PDF can extract text with no error and still be silently garbled --
+found 2026-10-02 on `GT-II/200-US_Factory_Fail.csv`'s source PDF, where a
+"Read Next" sidebar widget was rendered at the exact same coordinates as a
+body paragraph; `pdfplumber`'s default `extract_text()` interleaves both
+layers character-by-character with no warning ("There Ris enao dev
+Nideenxcte here" instead of "There is no evidence here"). `storypdf_to_text.py`
+now runs `find_overlapping_text_layers()` automatically and prints a
+warning (page + line position) for any line where more than one distinct
+font occupies the same position -- not every hit is a real problem (a
+bold name next to regular text on the same line is common and benign), so
+each flagged line needs a manual check, not an automatic fix: separate
+`page.chars` by `fontname` at that exact `top` position and read each
+layer's text independently to find the real body-text line. Never
+reconstruct a garbled line by guessing what it probably says, even when
+the intended meaning seems obvious from context -- that's synthesis, not
+a verified pull, and violates the same no-inference guardrail used
+everywhere else in this methodology (items 13/17 in `development-of-v59.md`).
+If a second independently-captured copy of the same text exists (e.g. a
+wire story republished elsewhere, as in item for story `165`), prefer
+cross-referencing that over the font-separation trick when both are
+available.
+
 ## Phase 1 — Anonymous Source reclassification (corpus-wide, before anything else)
 
 For every row currently typed Anonymous Source, check for an actual
