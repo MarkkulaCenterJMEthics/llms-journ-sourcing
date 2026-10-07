@@ -65,7 +65,7 @@ present as text, so a text-only LLM can never find them — keep in GT or not?
 r10–12 ("Nividia" -> "Nvidia", already decided: leave), 6 r15 and 63 r1
 (not yet examined), 72 r14/r26 (AV skipped/added a few words).
 
-**GT-side clutter (needs a GT edit, pending approval):** `77` row 7 Sourced Statement and Source Justification, and row 8 Source Justification, contain a copied link label: "legislation(opens in new tab) inside City Hall".
+**GT-side clutter — DONE 2026-10-07:** `77` row 7 Sourced Statement and Source Justification, and row 8 Source Justification, contain a copied link label: "legislation(opens in new tab) inside City Hall".
 
 ### Tier 5 — site clutter at story endings (27 of 160 files)
 

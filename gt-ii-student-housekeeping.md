@@ -1665,6 +1665,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Phase 4b: every one of the 19 rows traces to an explicit manifest
   attribution in the article text — none read as unattributed reporter
   narration. **Story 100 is now fully done, Phases 0-4, 19 final rows.**
+- **`77-SF_Drug_Detention.csv` rows 7/8 — copied link label removed,
+  2026-10-07.** Row 7's Sourced Statement and Source Justification, and
+  row 8's Source Justification, read "signed the legislation(opens in
+  new tab) inside City Hall" — "(opens in new tab)" is the website's
+  accessibility label on a hyperlink, not article text, carried over
+  when the sentence was copied. Changed to "signed the legislation
+  inside City Hall" in all three cells, matching the article. Found
+  during the corpus text sweep (`corpus-text-sweep-2026-10-07.md`); a
+  scan of every GT CSV for similar copied web clutter found no other
+  cases.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
