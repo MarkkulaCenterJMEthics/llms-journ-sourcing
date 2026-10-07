@@ -35,35 +35,53 @@ URL_FOOTER = re.compile(r'^https?://\S+\s+\d+/\d+$')
 DEFAULT_OUTPUT_FOLDER = "extracted_articles_boilerplate"
 
 
-def find_overlapping_text_layers(pdf_path):
+def find_overlapping_glyphs(page, min_hits=3):
     """
-    Scan every page for two or more distinct fonts occupying the same
-    line (same rounded 'top' position) -- the signature of a PDF with
-    an overlapping text layer (e.g. a "Read Next" sidebar widget
-    rendered at the same coordinates as a body paragraph). page.chars
-    interleaves both layers character-by-character in reading order, so
-    plain extract_text() silently produces garbled text with no error --
-    e.g. "There Ris enao dev Nideenxcte here" instead of "There is no
-    evidence here", found in story 200's PDF (2026-10-02).
+    Find lines where glyphs physically overlap each other on the page --
+    the signature of a second text layer printed on top of the body
+    (a "Read Next" sidebar in story 200, a cookie/privacy pop-up in 195,
+    a sticky "Watch CBS News" bar in 205). Extraction merges the two
+    layers into one line with no error, e.g. "There Ris enao dev
+    Nideenxcte here" instead of "There is no evidence here" (200).
 
-    Returns a list of (page_index, top, fonts_seen) tuples for any line
-    with more than one distinct fontname. Caller should manually
-    inspect each flagged line (e.g. separate page.chars by fontname at
-    that top position) rather than trust extract_text() for it --
-    distinct fonts on one line are sometimes legitimate (bold name +
-    regular text), so this is a flag to check, not an auto-fix.
+    Replaces an earlier check (2026-10-02) that only flagged two
+    distinct fonts at exactly the same rounded 'top'. That check missed
+    195 (pop-up lines sat 0.4pt off the body lines) and 197 (same-font
+    doubling), and falsely flagged benign bold-name-next-to-regular
+    lines. Comparing actual glyph boxes catches the real problem without
+    those false hits, since side-by-side glyphs never overlap.
+
+    Expects a page that has already been through dedupe_chars(), so
+    exact-duplicate glyphs (faux-bold doubling) don't count as overlap.
+    Returns [(top, overlapping_pair_count)] for lines with at least
+    min_hits overlapping glyph pairs.
     """
-    flagged = []
-    with pdfplumber.open(pdf_path) as pdf:
-        for page_index, page in enumerate(pdf.pages):
-            by_top = {}
-            for c in page.chars:
-                by_top.setdefault(round(c['top'], 1), []).append(c)
-            for top, chars_at_top in by_top.items():
-                fonts = set(c['fontname'] for c in chars_at_top)
-                if len(fonts) > 1:
-                    flagged.append((page_index, top, fonts))
-    return flagged
+    chars = [c for c in page.chars if c['text'].strip()]
+    grid = {}
+    for c in chars:
+        for gx in range(int(c['x0'] // 10), int(c['x1'] // 10) + 1):
+            for gy in range(int(c['top'] // 10), int(c['bottom'] // 10) + 1):
+                grid.setdefault((gx, gy), []).append(c)
+    seen = set()
+    hits = {}
+    for cell in grid.values():
+        for i in range(len(cell)):
+            for j in range(i + 1, len(cell)):
+                a, b = cell[i], cell[j]
+                key = (min(id(a), id(b)), max(id(a), id(b)))
+                if key in seen:
+                    continue
+                seen.add(key)
+                w = min(a['x1'], b['x1']) - max(a['x0'], b['x0'])
+                h = min(a['bottom'], b['bottom']) - max(a['top'], b['top'])
+                if w <= 0 or h <= 0:
+                    continue
+                area_a = (a['x1'] - a['x0']) * (a['bottom'] - a['top'])
+                area_b = (b['x1'] - b['x0']) * (b['bottom'] - b['top'])
+                if w * h > 0.3 * min(area_a, area_b):
+                    top = round(min(a['top'], b['top']))
+                    hits[top] = hits.get(top, 0) + 1
+    return sorted((top, n) for top, n in hits.items() if n >= min_hits)
 
 
 def extract_pdf_text(pdf_path):
@@ -73,21 +91,48 @@ def extract_pdf_text(pdf_path):
     cleaned full-text body (pages joined by a blank line), or None if no
     text could be extracted at all.
     """
-    overlaps = find_overlapping_text_layers(pdf_path)
-    if overlaps:
+    # dedupe_chars() removes exact-duplicate glyphs printed at (nearly)
+    # the same spot -- faux-bold doubling that otherwise extracts as
+    # "OOcceeaann" (story 197, every character doubled). Safe on normal
+    # text, but where a line is overprinted many times (212's video
+    # caption, 9 copies) it can also merge a genuine double letter
+    # ("all-out" -> "al-out"), so every line it changes is printed for
+    # a manual look rather than changed silently.
+    pages = []
+    dedupe_changed = []
+    overlaps = []
+    with pdfplumber.open(pdf_path) as pdf:
+        for page_index, page in enumerate(pdf.pages):
+            deduped = page.dedupe_chars()
+            plain_text = (page.extract_text() or "").strip()
+            text = (deduped.extract_text() or "").strip()
+            if text != plain_text:
+                plain_lines = set(plain_text.split('\n'))
+                dedupe_changed += [(page_index, line) for line in text.split('\n')
+                                   if line not in plain_lines]
+            overlaps += [(page_index, top, n) for top, n in find_overlapping_glyphs(deduped)]
+            pages.append(text)
+
+    if dedupe_changed:
         print(
-            f"WARNING: {len(overlaps)} line(s) with overlapping text layers "
-            f"detected (multiple fonts at the same position) -- plain text "
-            f"extraction may be garbled at these spots. Inspect manually "
-            f"(separate page.chars by fontname at each flagged position) "
-            f"before trusting the output there:",
+            f"NOTE: duplicate-glyph removal changed {len(dedupe_changed)} line(s) "
+            f"-- check each reads correctly (genuine double letters can be "
+            f"merged where text was overprinted many times):",
             file=sys.stderr,
         )
-        for page_index, top, fonts in overlaps:
-            print(f"  page {page_index}, top {top}: fonts {fonts}", file=sys.stderr)
-
-    with pdfplumber.open(pdf_path) as pdf:
-        pages = [(p.extract_text() or "").strip() for p in pdf.pages]
+        for page_index, line in dedupe_changed:
+            print(f"  page {page_index}: {line[:120]}", file=sys.stderr)
+    if overlaps:
+        print(
+            f"WARNING: {len(overlaps)} line(s) with overlapping glyphs (a second "
+            f"text layer printed on top of another) -- extracted text at these "
+            f"spots is probably two layers merged together. Separate page.chars "
+            f"by fontname/size near each position to recover the body layer; "
+            f"never guess what a garbled line says:",
+            file=sys.stderr,
+        )
+        for page_index, top, n in overlaps:
+            print(f"  page {page_index}, top ~{top}: {n} overlapping glyph pairs", file=sys.stderr)
 
     if not any(pages):
         return None

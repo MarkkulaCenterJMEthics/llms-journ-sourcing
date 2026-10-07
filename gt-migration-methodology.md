@@ -86,13 +86,23 @@ found 2026-10-02 on `GT-II/200-US_Factory_Fail.csv`'s source PDF, where a
 body paragraph; `pdfplumber`'s default `extract_text()` interleaves both
 layers character-by-character with no warning ("There Ris enao dev
 Nideenxcte here" instead of "There is no evidence here"). `storypdf_to_text.py`
-now runs `find_overlapping_text_layers()` automatically and prints a
-warning (page + line position) for any line where more than one distinct
-font occupies the same position -- not every hit is a real problem (a
-bold name next to regular text on the same line is common and benign), so
-each flagged line needs a manual check, not an automatic fix: separate
-`page.chars` by `fontname` at that exact `top` position and read each
-layer's text independently to find the real body-text line. Never
+handles two failure modes automatically (upgraded 2026-10-07, after the
+first version of this check missed stories 195 and 197):
+(1) **Duplicate glyphs** (faux-bold doubling, every character printed
+twice -- story 197 extracted as "OOcceeaann"): always removed via
+`dedupe_chars()`. Every line this changes is printed for a manual look,
+because where text is overprinted many times (212's video caption, 9
+copies) it can also merge a genuine double letter ("all-out" -> "al-out").
+(2) **Overlapping text layers** (a sidebar, cookie/privacy pop-up, or
+sticky nav bar printed over body text -- stories 200, 195, 205):
+`find_overlapping_glyphs()` flags any line where glyph boxes physically
+overlap, with a page + position for each. Not auto-fixed: separate
+`page.chars` by `fontname`/`size` near each flagged position and keep
+only the body layer (e.g. 195's pop-up was all 9.7pt gray text, the body
+13.5pt black). The earlier same-font-at-same-exact-height check was
+replaced because it missed a pop-up sitting 0.4pt off the body lines
+(195) and same-font doubling (197), and falsely flagged harmless
+bold-name-next-to-regular-text lines. Never
 reconstruct a garbled line by guessing what it probably says, even when
 the intended meaning seems obvious from context -- that's synthesis, not
 a verified pull, and violates the same no-inference guardrail used
