@@ -647,6 +647,30 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Standards" footer), none touching annotated text. Trimmed:
   video-player chrome at top, site chrome after "Our Standards." No
   annotation content touched; `212` is now ready for Phase 0.
+- **Phase 2.6 Pass 0 (Named Person) completed across 191-211,
+  2026-10-07 — 166 rows screened, fixes applied:**
+  - `202` row 4: Trump's Title "Mayor" -> "President" (copy-paste slip
+    from the Mamdani half of the joint-row split on row 3).
+  - `208` row 7: Title typo "Pesident" -> "President".
+  - `199` rows 3/4: Title "GOP Senate nominee/Dr." -> "Dr." The article's
+    "GOP Senate nominee" describes Mike Rogers, not El-Sayed ("His
+    opponent Dr. Abdul El-Sayed"); El-Sayed's party is never stated, so
+    nothing inferred in its place.
+  - `191` row 8: Sourced Statement "who runs xAI" -> "who runs SpaceXAI"
+    to match the article verbatim (your own SJ on this row already had
+    it right).
+  - `204` row 5: trailing period removed from Title; Sourced Statement
+    dashes restored to the article's "El Niño — from six inches to a
+    foot — would".
+  - `192` row 14: Sourced Statement dashes restored to the article's
+    "— that it's entitled ... of its own —".
+  - `209` (11 Heidi Overton rows): double space in Title removed.
+  - Batch-wide: 23 invisible zero-width characters (copy-paste
+    carryover from Reuters pages) stripped from `200`, `203`, `206`,
+    `208`, `209`, across all field types. No visible text changed.
+  No changes needed: stage names (Macklemore, CMAT, JMSN), in-article
+  brackets (`194` "[by]", `207` "annihilat[ing]"), `191` "Nvidia"
+  (article misspells it "Nividia").
 
 ### AV
 
