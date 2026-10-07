@@ -31,13 +31,13 @@ Status column as they land.
 
 | Story | Problem | Fix | Status |
 |---|---|---|---|
-| 173 | Article ends ~line 35; then ~2,440 lines (~95KB) of the page's `window.__INITIAL_STATE__` JSON | Cut everything after the article | open |
-| 72 | Inline link URLs (`residents (https://…) packed`); reversed-text print headers mid-sentence at page breaks (`ihc//:sptth( ETANOD )… 9/17/26, 12:43 PM …`); 9 rows < 90 | Re-extract or hand clean | open |
-| 210 | Guardian "Your offer is expiring / Support us / Maybe later" pop-up x6, some mid-sentence (breaks rows 1, 2, 9); one doubled video caption | Remove pop-up lines | open |
-| 191 | Line 26 garbled: `repSokript etod ,c ownhteincth` ("reported, which" + "Skip to content") | Font-separation recovery from PDF | open |
-| 36 | NYT page footer mid-sentence (`…by the https://www.nytimes.com/…html 1/6 political…`) | Remove | open |
-| 76, 77, 78 | Inline "(opens in new tab)" link labels | Remove | open |
-| 192 | Doubled video caption line (`OOppeennAAII…`) + player timestamp | Remove | open |
+| 173 | Article ends ~line 35; then ~2,440 lines (~95KB) of the page's `window.__INITIAL_STATE__` JSON | Cut everything after the article | **DONE** — 98.9KB -> 5.3KB, 24/24 rows exact |
+| 72 | Inline link URLs (`residents (https://…) packed`); reversed-text print headers mid-sentence at page breaks (`ihc//:sptth( ETANOD )… 9/17/26, 12:43 PM …`); 9 rows < 90 | Re-extract or hand clean | **DONE** — 5 page-break blocks + 14 inline URLs removed, orphaned punctuation rejoined; 25 -> 32/38 exact (remaining 6 are annotation-side: quote style/case, AV elisions in r14/r26) |
+| 210 | Guardian "Your offer is expiring / Support us / Maybe later" pop-up x6, some mid-sentence (breaks rows 1, 2, 9); one doubled video caption | Remove pop-up lines | **DONE** — 18 pop-up lines + doubled caption + video-embed labels removed; a 2nd garbled line found (`The paidY aoduverr…`) and recovered by font separation; 18/18 exact |
+| 191 | Line 26 garbled: `repSokript etod ,c ownhteincth` ("reported, which" + "Skip to content") | Font-separation recovery from PDF | **DONE** — recovered "reported, which advocated…"; row 2 now exact |
+| 36 | NYT page footer mid-sentence (`…by the https://www.nytimes.com/…html 1/6 political…`) | Remove | **DONE** — 5 page footers removed; 16/16 exact |
+| 76, 77, 78 | Inline "(opens in new tab)" link labels | Remove | **DONE** — 17 labels removed; 76 10 -> 13/13, 78 15 -> 18/19 (r9 punctuation only). 77 r7 drops because the GT row itself copied the label — see Tier 4 |
+| 192 | Doubled video caption line (`OOppeennAAII…`) + player timestamp | Remove | **DONE** — 6 player-clutter lines removed; 20/20 exact |
 
 ### Tier 2 — annotated content missing/different in our text (likely article-version drift, as with 212/193)
 
@@ -63,7 +63,9 @@ present as text, so a text-only LLM can never find them — keep in GT or not?
 
 13 r7 (attribution elided mid-quote), 100 r9 ("(RDDT.N)" dropped), 191
 r10–12 ("Nividia" -> "Nvidia", already decided: leave), 6 r15 and 63 r1
-(not yet examined).
+(not yet examined), 72 r14/r26 (AV skipped/added a few words).
+
+**GT-side clutter (needs a GT edit, pending approval):** `77` row 7 Sourced Statement and Source Justification, and row 8 Source Justification, contain a copied link label: "legislation(opens in new tab) inside City Hall".
 
 ### Tier 5 — site clutter at story endings (27 of 160 files)
 

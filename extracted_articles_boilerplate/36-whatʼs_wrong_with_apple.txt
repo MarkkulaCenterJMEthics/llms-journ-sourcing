@@ -24,7 +24,6 @@ The company’s issues underscored how its reputation for innovation, once
 considered a fundamental element of its brand, has become an albatross, fueling
 angst among employees and frustration among customers. And company insiders
 worry that Apple, despite its years of gravity-defying profits, is hamstrung by the
-https://www.nytimes.com/2025/04/11/technology/apple-issues-trump-tariffs.html 1/6
 political infighting, penny pinching and talent drain that often bedevil large
 companies, according to more than a dozen former and current employees and
 advisers.
@@ -52,7 +51,6 @@ three people familiar with the project who spoke on the condition of anonymity.
 After the delay, Craig Federighi, Apple’s software chief, told employees that the
 company would reshuffle its executives, removing responsibility for developing the
 new Siri from John Giannandrea, the company’s head of A.I., and giving it to Mike
-https://www.nytimes.com/2025/04/11/technology/apple-issues-trump-tariffs.html 2/6
 Rockwell, the head of its Vision Pro headset.
 “Apple needs to understand what happened because this is bigger than just
 rearranging the deck chairs,” said Michael Gartenberg, a technology analyst who
@@ -67,7 +65,6 @@ Cook, to buy more A.I. chips, known as graphics processing units, or GPUs, five
 people with knowledge of the request said. The chips, which can perform hundreds
 of computations at the same time, are critical to building the neural networks of A.I.
 systems, like chatbots, that can answer questions or write software code.
-https://www.nytimes.com/2025/04/11/technology/apple-issues-trump-tariffs.html 3/6
 Apple’s chief executive, Tim Cook, at the company’s
 headquarters in Cupertino, Calif., last year. Justin Sullivan/Getty
 Images
@@ -78,7 +75,6 @@ Mr. Cook approved a plan to double the team’s chip budget, but Apple’s finan
 chief, Luca Maestri, reduced the increase to less than half that, the people said.
 They said Mr. Maestri had encouraged the team to make the chips they had more
 efficient.
-https://www.nytimes.com/2025/04/11/technology/apple-issues-trump-tariffs.html 4/6
 The lack of GPUs meant the team developing A.I. systems had to negotiate for data
 center computing power from its providers like Google and Amazon, two of the
 people said. The leading chips made by Nvidia were in such demand that Apple
@@ -108,7 +104,6 @@ familiar with the way the company operates.
 “It’s clearly a breakdown of leadership and communication and internal processes,”
 said Benedict Evans, an independent analyst who previously worked as a venture
 capitalist at Andreessen Horowitz.
-https://www.nytimes.com/2025/04/11/technology/apple-issues-trump-tariffs.html 5/6
 Apple hasn’t canceled its revamped Siri. The company plans to release a virtual
 assistant in the fall capable of doing things like editing and sending a photo to a
 friend on request, three people with knowledge of its plans said.

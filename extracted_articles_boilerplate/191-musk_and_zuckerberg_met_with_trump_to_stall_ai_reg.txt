@@ -23,7 +23,7 @@ according to a report.
 Elon Musk, Meta chief executive Mark Zuckerberg and Nvidia’s Jensen Huang all reached out directly to the US President in
 recent weeks to share concerns about proposed oversight to the AI industry.
 The efforts began following a proposal put forward by Google DeepMind’s Demis Hassabis on 14 July, The Wall Street Journal
-repSokript etod ,c ownhteincth advocated for a new regulatory body to set standards for AI safety.
+reported, which advocated for a new regulatory body to set standards for AI safety.
 
 The framework was supported by Anthropic boss Dario Amodei, but Musk, Zuckerberg and Huang all reportedly pushed back in
 private meetings inside the Oval Office.
