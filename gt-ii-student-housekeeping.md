@@ -15,6 +15,18 @@ this is action items to hand to the students directly, starting with the
   "Op-Ed pieces" sheet in the GT Expansion List, separate from the main
   sheet everything else lives on — same shape as 133/134's exclusion.
   Confirmed excluded 2026-09-17.
+- **127** — the real story 127 is an influencer video ("Fetterman
+  Secret Israel Handler EXPOSED", YouTube), listed on the GT Expansion
+  List's "GT for InfluencerVideos" sheet alongside 133/134 — excluded
+  for the same reason. Separately, the file delivered as
+  `127 - Everest Climbers.xlsx` is **not** that video: it's a
+  mislabeled copy of SZ's story-125 annotation (all 6 Sourced
+  Statements identical to `125-SZ_Mount_Everest.csv`, and verbatim in
+  125's article text). Its Phase-0 CSV (`GT-II/127-Everest_Climbers.csv`)
+  was removed 2026-10-07 — nothing lost, since 125 is already fully
+  migrated with both SZ's and AV's annotations. (Original XLSx
+  untouched; CSV recoverable from git, commit 11aa5a8.) Confirmed
+  excluded 2026-10-07.
 
 ## What we need from you right now (as of 2026-09-17)
 
