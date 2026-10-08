@@ -68,7 +68,7 @@ Annotate the article **body** only. The body includes **photo captions**
 paragraphs overlaid on a pinned graphic, e.g. story 113). It does **not**
 include the subtitle/dek under the headline, Reuters-style "Summary"
 bullets, or other summary boxes ("In summary", "Overview:", "KEY POINTS") --
-these recap the body and are rarely independent of it. **Graphics are excluded too (adopted 2026-10-09):** the text
+these recap the body and are rarely independent of it. **Graphics are excluded too (adopted 2026-10-08):** the text
 benchmark covers only the text payload sent to the models -- body, photo
 captions, scrollytelling panels. Text belonging to charts, maps, tables or
 other data graphics (titles, descriptions, labels, notes, source lines),
