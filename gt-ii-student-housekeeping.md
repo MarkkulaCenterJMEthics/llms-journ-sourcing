@@ -699,6 +699,30 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   annotated the article's summary line, not the body. Nothing lost: the
   memo is already annotated from the body in rows 4 and 8.
 
+- **Version-mix and rewording fixes, 2026-10-08 (from the corpus text
+  sweep's version check).** `135-Laos_Divers.csv`: rows 5, 12 and 21
+  were annotated from an earlier version of the CBS story (the live
+  article was updated during the rescue; the Internet Archive's May 29
+  snapshot matches those three rows exactly), while the other 18 rows
+  match the later version we have. Rewritten to the later version's
+  wording so the story is annotated against one version: row 5 ends
+  "...'ticking clock,' Paasi had previously told CBS News." (was "lead
+  rescue diver Mikko Paasi told CBS News chief correspondent Matt
+  Gutman"); row 12 "the rescued miner" / "the person's name" (was "a
+  person" / "their name"), and "It was not immediately clear how the
+  miner was rescued" dropped (not in this version); row 21 "who also
+  helped lead the 2018 Thai cave rescue" in both Sourced Statement and
+  Source Justification (was "who helped lead the rescue of a youth
+  soccer team from a flooded cave in Thailand in 2018"), plus
+  "well-thought-out". `124-Ebola_Dulles.csv` row 3: "who have been in
+  the Democratic Republic of Congo" (the row had shortened it to
+  "Congo"). `150-Mark_Walter_Insurance.csv` row 3: restored the
+  article's own sentence order ("U.S. federal prosecutors and the SEC
+  are investigating Walter's business empire..." -- the row had
+  rewritten it in the passive). Please quote sentences exactly as they
+  appear in the article, even when shortening or rephrasing seems
+  harmless.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
