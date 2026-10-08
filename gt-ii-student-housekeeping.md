@@ -86,6 +86,15 @@ if you want it; here's just what's still actually needed.
   appended later that day. **Needed: a fresher PDF capture of the same
   URL**, taken after that update:
   https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/
+- **53 (SZ)** — sent to SZ 2026-10-08. Our copy of the Washington Post
+  article (converted 2026-10-07 from the PDF in SZ's folder) seems to be
+  a different version from the one annotated: its headline reads "U.S.
+  blockade has turned back 6 merchant ships leaving Strait of Hormuz,"
+  not the Expansion List's, and row 1 ("More than a dozen American
+  warships positioned in the Gulf of Oman and Arabian Sea are acting as
+  a 'net,' officials said.") isn't in the text. **Needed: a fresh PDF,
+  or the version SZ worked from**:
+  https://www.washingtonpost.com/national-security/2026/04/14/us-blockade-hormuz/
 - **193 (SZ)** — row 23's sentence ("Ireland's national broadcaster RTÉ
   said it would not drop Sheeran's music from its radio stations
   following the backlash...") does not appear anywhere in our source
