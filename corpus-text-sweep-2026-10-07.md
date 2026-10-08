@@ -66,6 +66,8 @@ Needs a live-page comparison or annotator confirmation of which version they use
 135 r13 (photo caption), 113 r84/85 (emails quoted from screenshots). Not
 present as text, so a text-only LLM can never find them — keep in GT or not?
 
+**Tier 3 status (2026-10-08) — OPEN, graphics rule undecided.** Traced so far: 65 r15 = Datawrapper chart description (embed iA... `iiZQd`); 112-SZ r6 = CNN flight-map graphic intro (credits Spanish Health Ministry, Oceanwide Expeditions; fact not in body; also 2 orgs in one row, Note 12); 5 r7 = table title (no URL to trace); 113 r84/r85 = emails in screenshots, pure images (no alt text). Graphic labels reaching model input: 68 (3 NOAA/AirNow chart source lines), 205 ("Chart: CBS News Data Team • Source: Freddie Mac via FRED"). Body sentences that describe a graphic (12 r2, 164 r9) are body text, fine. Leading proposal (not yet approved): text benchmark covers only the text payload; move the 5 graphic rows to a side file (`GT-II/graphics-only-rows.csv`) rather than delete; move 68/205 chart labels to a `Graphic:` header field. **Before deciding:** the user asked for a verified check (the scans above were keyword-based): for the ~108 URL stories, enumerate every embedded graphic/figure on the live page, extract its text, and test (1) whether it's in our article files / model input and (2) whether any GT row annotates it; for the ~50 PDF-only stories, list chart-like text blocks for visual review.
+
 ### Tier 4 — minor annotator edits (text fine)
 
 13 r7 (attribution elided mid-quote), 100 r9 ("(RDDT.N)" dropped), 191
