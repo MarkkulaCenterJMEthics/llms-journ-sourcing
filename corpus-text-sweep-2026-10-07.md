@@ -58,7 +58,7 @@ Needs a live-page comparison or annotator confirmation of which version they use
 - **B. Our text missing page content.** Decided: photo captions count as article text (they sometimes carry attribution). **Captions DONE:** all real captions added in place for 55 (7), 122 (1), 135 (1) — 55 r1/r20, 122-SZ r21, 135 r13 now exact. **Scrollytelling DONE:** 113's 3 panels inserted in place (r42/r43 now exact). **124 r10 resolved by a new rule** (item 51 in `development-of-v59.md`): subtitles/summary lines aren't annotatable, so the row was removed; subtitles moved out of the body corpus-wide.
 - **C. DONE 2026-10-08 — Annotator mixed two versions:** 135 r5/r12/r21 match the Internet Archive's earliest May 29 snapshot exactly; the other 16 rows match the later version we have. Rewritten to the later version's sentences (all 3 now exact).
 - **D. DONE 2026-10-08 — Annotator rewording (live = our text):** 124 r3, 33 r20, 150 r3 restored to the verbatim article sentence; 30 r10 removed instead (reworded duplicate of r11 pointing to a chart). See `development-of-v59.md` item 52 and SZ's housekeeping log.
-- **E. Unresolved:** 164 r1 — matches neither our text nor live CNN; no usable archive copy.
+- **E. DONE 2026-10-08:** 164 r1 — matched neither our text nor live CNN; no usable archive copy, and the annotator couldn't locate the version used. Replaced with our copy's opening sentence word for word (logged under SZ).
 
 ### Tier 3 — annotations of visual elements (policy question)
 

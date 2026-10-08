@@ -723,6 +723,19 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   appear in the article, even when shortening or rephrasing seems
   harmless.
 
+- **`164-Lonnie_Bunch.csv` row 1 Sourced Statement replaced, 2026-10-08.**
+  The original ("Lonnie Bunch III said Tuesday that he will retire as the
+  head of the Smithsonian Institution, a role that placed him at the
+  center of President Donald Trump's efforts to reshape how federal
+  cultural and historical institutions present American history.")
+  matches neither our copy of the CNN article nor today's live page, and
+  no archived copy exists -- likely an earlier version of the story; the
+  annotator couldn't locate the version used. Replaced with our copy's
+  opening sentence, word for word: "Lonnie Bunch III said he will retire
+  as the head of the Smithsonian Institution, a role that placed him at
+  the center of President Donald Trump's efforts to reshape the world's
+  largest museum organization." Other fields unchanged.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
