@@ -86,7 +86,7 @@ if you want it; here's just what's still actually needed.
   appended later that day. **Needed: a fresher PDF capture of the same
   URL**, taken after that update:
   https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/
-- **53 (SZ)** — sent to SZ 2026-10-08. Our copy of the Washington Post
+- **53 (SZ)** — ✅ **RESOLVED 2026-10-08**: fresh PDF received (`53 - Iranian sea trade blocked as six ships forced to turn back.pdf`) and swapped in; it's the version SZ annotated (headline matches the Expansion List). Row 1 turned out to be this version's subtitle — see the removal entry below. Original note kept for the record: sent to SZ 2026-10-08. Our copy of the Washington Post
   article (converted 2026-10-07 from the PDF in SZ's folder) seems to be
   a different version from the one annotated: its headline reads "U.S.
   blockade has turned back 6 merchant ships leaving Strait of Hormuz,"
