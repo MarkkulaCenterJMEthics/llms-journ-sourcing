@@ -362,6 +362,41 @@ def save_json_and_csv(response, model_name, input_file, base_output_dir, run_num
     except Exception as e:
         print(f"CSV not generated for {base_name}: {e}")
 
+HEADER_RULE = "=" * 50
+LEGACY_HEADER_FIELD = re.compile(r'^(Headline|Subtitle|Date|Publisher):', re.M)
+
+
+def article_body(text):
+    """
+    Return only the article's title and body for the model, dropping the
+    metadata header (author, date, URL, source PDF, subtitle). GT
+    annotates the body only -- photo captions and scrollytelling panels
+    count as body, subtitles and summary bullets don't -- so the model
+    should see exactly that. Handles both header formats in
+    extracted_articles_boilerplate/: the "=====" block with Title:/
+    Author:/... fields, and the older Headline:/Subtitle:/Date:/
+    Publisher: block (GT-2026 stories) ended by the first blank line.
+    """
+    text = text.lstrip('﻿')
+    title = ''
+    if text.startswith(HEADER_RULE) and text.count(HEADER_RULE) >= 2:
+        _, header, body = text.split(HEADER_RULE, 2)
+        match = re.search(r'^Title:\s*(.*)$', header, re.M)
+        title = match.group(1).strip() if match else ''
+    elif LEGACY_HEADER_FIELD.match(text):
+        header, _, body = text.partition('\n\n')
+        match = re.search(r'^Headline:\s*(.*)$', header, re.M)
+        title = match.group(1).strip() if match else ''
+    else:
+        body = text
+    body = body.strip()
+    # Many bodies already open with the headline; don't repeat it
+    squash = lambda s: re.sub(r'\W+', '', s).lower()
+    if title and not squash(body[:len(title) + 40]).startswith(squash(title)[:40]):
+        body = f"{title}\n\n{body}"
+    return body
+
+
 def extract_json_strings(content):
     json_pattern = re.compile(r"\{.*?\}", re.DOTALL)
     json_matches = json_pattern.findall(content)
@@ -409,7 +444,7 @@ def process_files(input_dir, output_dir, selected_models, loop_times, prefix_str
         # Process each file in the input directory
         for input_file in glob.glob(os.path.join(input_dir, "*.txt")):
             with open(input_file, "r", encoding="utf-8") as file:
-                article_text = file.read()
+                article_text = article_body(file.read())
 
             print(f"\nProcessing file: {input_file}")
 
