@@ -1,17 +1,16 @@
 ==================================================
 Title: Scientists create supercharged vitamin K that helps the brain heal itself
 Date: 2026-09-14
+Subtitle: Scientists created a supercharged form of vitamin K that could help the brain regrow lost neurons and fight diseases like Alzheimer’s.
+Summary: Scientists in Japan have created powerful new vitamin K-based compounds that may help the brain regenerate lost neurons — a breakthrough that could one day change how diseases like Alzheimer’s and Parkinson’s are treated. By combining vitamin K with components related to vitamin A, the researchers developed compounds that were about three times more effective at turning neural stem cells into neurons than natural vitamin K alone.
 URL: https://www.sciencedaily.com/releases/2026/05/260526233433.htm
 ==================================================
 
 Scientists create supercharged vitamin K that helps the brain heal itself
-Scientists created a supercharged form of vitamin K that could help the brain regrow lost neurons and fight diseases like Alzheimer’s.
 - Date:
 - May 27, 2026
 - Source:
 - Shibaura Institute of Technology
-- Summary:
-- Scientists in Japan have created powerful new vitamin K-based compounds that may help the brain regenerate lost neurons — a breakthrough that could one day change how diseases like Alzheimer’s and Parkinson’s are treated. By combining vitamin K with components related to vitamin A, the researchers developed compounds that were about three times more effective at turning neural stem cells into neurons than natural vitamin K alone.
 - Share:
 Diseases such as Alzheimer's, Parkinson's, and Huntington's slowly damage the brain by destroying neurons, the cells that carry messages through the nervous system. As these cells are lost, people can experience memory problems, cognitive decline, and movement difficulties that often become severe enough to require constant care.
 Current medicines can ease some symptoms, and recent Alzheimer's therapies such as lecanemab and donanemab can slow decline in certain people with early disease, but they do not restore lost memories or rebuild damaged brain tissue. That is why researchers are pursuing another ambitious idea: helping the brain replace neurons that have been lost.

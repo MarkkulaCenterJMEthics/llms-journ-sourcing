@@ -1,5 +1,6 @@
 ==================================================
 Title: US housing market remains under pressure in July; factory output rises
+Summary: Single-family housing starts drop to lowest rate since Nov 2022 though permits for future construction rise | Factory output bolstered by demand for high-tech equipment and supplies for AI investment | Defense sector production also up amid Iran war
 Source PDF: 151 - US housing market remains under pressure in July_ factory output rises _ Reuters.pdf
 ==================================================
 
@@ -9,12 +10,6 @@ By Reuters
 August 18, 2026 5:55 AM PDT · Updated August 18, 2026
 Construction workers paint a residential housing project during a heat wave, in Carlsbad, California, U.S. July 8, 2025. REUTERS/Mike
 Blake Purchase Licensing Rights
-Summary
-
-Single-family housing starts drop to lowest rate since Nov 2022 though permits for future construction
-rise
-Factory output bolstered by demand for high-tech equipment and supplies for AI investment
-Defense sector production also up amid Iran war
 Aug 18 (Reuters) - U.S. single-family homebuilding fell sharply in July to the lowest in more than
 three-and-a-half-years and contract signings for purchases of existing homes also slid in the latest
 signal that the housing market remains under pressure from higher mortgage rates and economic

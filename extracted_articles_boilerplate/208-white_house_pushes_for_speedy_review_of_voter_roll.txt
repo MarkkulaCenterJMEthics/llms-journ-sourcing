@@ -1,6 +1,7 @@
 ==================================================
 Title: White House pushes for speedy review of voter rolls in hunt for noncitizen voters
 Author: Reuters
+Summary: DHS is reviewing at least 47 state voter rolls under its Unlawful Voter Initiative, email shows | Agency using commercial data service to supplement redacted voter rolls, internal email shows | Experts and officials warn process could lead to citizens being falsely flagged as illegal voters
 URL: https://www.reuters.com/legal/government/white-house-pushes-speedy-review-voter-rolls-hunt-noncitizen-voters-2026-09-24/
 Source PDF: 208 - White House pushes for speedy review of voter rolls in hunt for noncitizen voters _ Reuters.pdf
 ==================================================
@@ -13,11 +14,6 @@ By Kristina Cooke and Peter Eisler
 September 24, 2026 3:02 AM PDT · Updated September 24, 2026
 A North Carolina Election Integrity Team sign in Spanish warning non-citizens not to vote and that doing so could lead to deportation, a
 notice that advocacy groups say could intimidate... Purchase Licensing Rights Read more
-Summary
-DHS is reviewing at least 47 state voter rolls under its Unlawful Voter Initiative, email shows
-
-Agency using commercial data service to supplement redacted voter rolls, internal email shows
-Experts and officials warn process could lead to citizens being falsely flagged as illegal voters
 Sept 24 (Reuters) - The White House has pushed federal agencies to accelerate their review of at least
 47 state voter rolls obtained by the Department of Homeland Security, according to an internal email
 seen by Reuters, part of an unprecedented effort to find noncitizens among registered voters as

@@ -1,6 +1,7 @@
 ==================================================
 Title: OpenAI flags 6 new incidents of 'concerning' behavior and unveils plan to track it
 Author: NBC News
+Subtitle: The announcement late Wednesday follows mounting public calls for a slowdown in the pace of the technology’s development, with U.S. tech bosses voicing grave safety concerns.
 URL: https://www.nbcnews.com/tech/tech-news/openai-new-incidents-concerning-behavior-model-misalignment-rcna598277
 Source PDF: 192 - OpenAI flags 6 new incidents of ‘concerning’ behavior and unveils plan to track it.pdf
 ==================================================
@@ -8,8 +9,6 @@ Source PDF: 192 - OpenAI flags 6 new incidents of ‘concerning’ behavior and 
 ARTIFICIAL INTELLIGENCE
 OpenAI flags 6 new incidents of ‘concerning’ behavior and
 unveils plan to track it
-The announcement late Wednesday follows mounting public calls for a slowdown in the pace of the
-technology’s development, with U.S. tech bosses voicing grave safety concerns.
 Sept. 17, 2026, 2:32 AM PDT
 By Mithil Aggarwal
 OpenAI has disclosed six new incidents of “unexpected or concerning” behavior by its artificial

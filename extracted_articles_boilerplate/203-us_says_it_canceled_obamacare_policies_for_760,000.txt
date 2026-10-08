@@ -1,6 +1,7 @@
 ==================================================
 Title: US says it canceled Obamacare policies for 760,000 people last month
 Author: Reuters
+Summary: Emergency rule freezes new Obamacare broker registrations through February 1, 2027 | CMS to bar some 569 brokers over 'statistically implausible' 2026 applications | Unauthorized enrollments could cause up to $6.6 billion in improper 2026 federal spending, CMS says
 URL: https://www.reuters.com/legal/government/us-says-it-canceled-315000-obamacare-policies-last-month-2026-09-22/
 Source PDF: 203 - US says it canceled Obamacare policies for 760,000 people last month _ Reuters.pdf
 ==================================================
@@ -13,11 +14,6 @@ By Reuters
 September 22, 2026 7:27 AM PDT · Updated 1 hour ago
 Signs for former Obamacare health insurance plans lay next to a fence in Columbia, South Carolina, U.S., January 28, 2023.
 REUTERS/Shannon Stapleton Purchase Licensing Rights
-Summary Companies
-Emergency rule freezes new Obamacare broker registrations through February 1, 2027
-
-CMS to bar some 569 brokers over 'statistically implausible' 2026 applications
-Unauthorized enrollments could cause up to $6.6 billion in improper 2026 federal spending, CMS says
 Sept 22 (Reuters) - The US Centers for Medicare & Medicaid Services said on Tuesday it canceled
 315,000 Obamacare health plans covering about 760,000 people last month, citing unverified
 citizenship or immigration documentation and suspected improper enrollments.

@@ -1,6 +1,7 @@
 ==================================================
 Title: Musk and Zuckerberg met with Trump to stall AI regulation plans, report says
 Author: The Independent
+Subtitle: Regulatory pushback comes amid widespread concerns at the pace of AI development
 URL: https://www.the-independent.com/tech/ai-safety-musk-zuckerberg-trump-b3051985.html
 Source PDF: 191 - Musk and Zuckerberg met with Trump to stall AI regulation plans, report says _ The Independent.pdf
 ==================================================
@@ -9,7 +10,6 @@ News Sports Culture Lifestyle Money Travel Premium Climate
 Tech
 Musk and Zuckerberg met with Trump to stall AI regulation plans,
 report says
-Regulatory pushback comes amid widespread concerns at the pace of AI development
 Anthony Cuthbertson
 8Comments
 Thursday 17 September 2026 11:37 EDT

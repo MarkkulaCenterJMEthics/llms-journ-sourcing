@@ -692,6 +692,12 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   No changes needed: stage names (Macklemore, CMAT, JMSN), in-article
   brackets (`194` "[by]", `207` "annihilat[ing]"), `191` "Nvidia"
   (article misspells it "Nividia").
+- **`124-Ebola_Dulles.csv` row 10 removed, 2026-10-08 (23 -> 22 rows,
+  renumbered).** New standing rule, adopted 2026-10-08: annotate the article body only -- photo captions and scrolling-graphic text panels count as body; subtitles (the summary line under the headline) and summary boxes don't, since they recap the body. Row 10 ("A draft DHS memo directs commercial
+  airline passengers who traveled to the Democratic Republic of the
+  Congo, South Sudan or Uganda in the past 21 days to land at Dulles.")
+  annotated the article's summary line, not the body. Nothing lost: the
+  memo is already annotated from the body in rows 4 and 8.
 
 ### AV
 
@@ -1696,6 +1702,13 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   during the corpus text sweep (`corpus-text-sweep-2026-10-07.md`); a
   scan of every GT CSV for similar copied web clutter found no other
   cases.
+- **`69-Trump_Assassination_Suspect.csv` row 1 removed, 2026-10-08 (18 ->
+  17 rows, renumbered).** New standing rule, adopted 2026-10-08: annotate the article body only -- photo captions and scrolling-graphic text panels count as body; subtitles (the summary line under the headline) and summary boxes don't, since they recap the body. Row 1 ("The authorities say the
+  California man stormed a black-tie gala on Saturday seeking to kill
+  the president.") annotated the article's subtitle. Nothing lost: row
+  2 (now row 1) covers the same claim from the body ("A California man
+  who the authorities say ran through a security perimeter and fired a
+  gun outside a packed black-tie gala...").
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime

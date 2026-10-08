@@ -2,15 +2,12 @@
 Title: OpenAI chief Altman has over $2 billion stake in companies that dealt with OpenAI, court filing shows
 Author: Kenrick Cai
 Date: May 13, 2026
+Summary: Altman recused himself from OpenAI deals involving his investments, testified in court | Ten Republican state attorneys general urge SEC to scrutinize OpenAI documents before IPO | Musk lawsuit alleges breach of trust, seeks $150 billion damages and Altman's removal
 Source PDF: 100 - OpenAI chief Altman has over $2 billion stake in companies that dealt with OpenAI, court filing shows.pdf
 ==================================================
 
 OpenAI chief Altman has over $2 billion stake in companies that dealt with OpenAI, court filing shows
 
-Summary Companies
-Altman recused himself from OpenAI deals involving his investments, testified in court
-Ten Republican state attorneys general urge SEC to scrutinize OpenAI documents before IPO
-Musk lawsuit alleges breach of trust, seeks $150 billion damages and Altman's removal
 OAKLAND, California, May 13 (Reuters) - OpenAI Chief Executive Sam Altman holds more than $2
 billion in companies that have done business with the artificial intelligence company, a court
 document showed as Altman faces claims of self-dealing from state attorneys general and Elon Musk,

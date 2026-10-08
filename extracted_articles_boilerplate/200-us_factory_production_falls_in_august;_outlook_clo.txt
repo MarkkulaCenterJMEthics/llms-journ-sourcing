@@ -1,6 +1,7 @@
 ==================================================
 Title: US factory production falls in August; outlook clouded by rising costs
 Author: Reuters
+Summary: Manufacturing production falls 0.3% in August after rising for seven straight months | Utilities production jumps 1.8%; mining output edges up 0.1% | Overall industrial production unchanged; rises 1.4% on year-over-year basis
 URL: https://www.reuters.com/business/us-manufacturing-output-falls-august-after-rising-seven-straight-months-2026-09-18/
 Source PDF: 200 - US factory production falls in August_ outlook clouded by rising costs _ Reuters.pdf
 ==================================================
@@ -10,10 +11,6 @@ US factory production falls in August; outlook clouded by rising costs
 By Lucia Mutikani
 September 18, 2026 6:40 AM PDT · Updated September 18, 2026
 [1/2] Employees work inside a factory in Cartersville, Georgia, U.S. June 8, 2026. REUTERS/Alyssa Pointer Purchase Licensing Rights
-Summary
-Manufacturing production falls 0.3% in August after rising for seven straight months
-Utilities production jumps 1.8%; mining output edges up 0.1%
-Overall industrial production unchanged; rises 1.4% on year-over-year basis
 WASHINGTON, Sept 18 (Reuters) - US factory production unexpectedly fell in August and higher oil prices and rising interest rates could offset some of
 the support from an artificial intelligence buildout, likely keeping activity moderate for the rest of the year.
 The decline in output, reported by the Federal Reserve on Friday, followed seven straight months of increases. The US central bank on Wednesday

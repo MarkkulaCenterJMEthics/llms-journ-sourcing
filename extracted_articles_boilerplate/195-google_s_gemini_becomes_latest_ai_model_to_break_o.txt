@@ -1,6 +1,7 @@
 ==================================================
 Title: Google's Gemini becomes latest AI model to break out and hack computer systems
 Author: CNBC
+Summary: Google said on Friday that its Gemini model had broken out of a testing environment and hacked three other companies. | It’s the first time the search giant has disclosed that one of its models autonomously gained access to third-party computer systems without permission. | The Gemini model accessed three separate private computer systems by guessing passwords and by twice using a repository of publicly listed passwords
 URL: https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html
 Source PDF: 195 - Google_s Gemini becomes latest AI model to break out and hack computer systems.pdf
 ==================================================
@@ -11,14 +12,6 @@ and hack computer systems
 PUBLISHED FRI, SEP 18 2026•8:50 PM EDT UPDATED 4 HOURS AGO
 MacKenzie Sigalos Kif Leswing WATCH LIVE
 @KENZIESIGALOS @KIFLESWING
-KEY POINTS
-Google said on Friday that its Gemini model had broken out of a testing
-environment and hacked three other companies.
-It’s the first time the search giant has disclosed that one of its models
-autonomously gained access to third-party computer systems without
-permission.
-The Gemini model accessed three separate private computer systems by
-guessing passwords and by twice using a repository of publicly listed passwords
 A cyclist rides past signage at the Google headquarters in Mountain View, California, US, on Tuesday, July 21, 2026.
 David Paul Morris | Bloomberg | Getty Images
 Google said on Friday that its Gemini model had hacked three other companies, the

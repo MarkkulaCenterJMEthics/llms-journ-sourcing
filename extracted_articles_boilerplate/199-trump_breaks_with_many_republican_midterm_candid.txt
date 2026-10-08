@@ -2,11 +2,11 @@
 Title: Trump breaks with many Republican midterm candidates, voters on key tech issues
 Author: ABC News; Diana Paulsen
 Date: 2026-09-18
+Subtitle: Polling shows voter skepticism of AI, data centers and Flock cameras.
 URL: https://abcnews.com/Politics/trump-breaks-republican-midterm-candidates-voters-key-tech/story?id=136540625
 ==================================================
 
 Trump breaks with many Republican midterm candidates, voters on key tech issues
-Polling shows voter skepticism of AI, data centers and Flock cameras.
 In the final months before the high-stakes midterm election, President Donald Trump has come out against regulation on controversial tech issues from artificial intelligence to data centers to Flock cameras -- positions that don't jibe with several Republican candidates' running in this midterm election.
 Trump has dismissed concerns from lawmakers and AI developers about potential dangers of AI development, calling it a "hoax" and arguing against comprehensive federal regulation. Trump said in social media posts that regulation would put American AI development at a disadvantage to China.
 In Michigan, GOP Senate nominee Mike Rogers has called for a "national security framework" on AI and to "slow down development of AI in order to allow the government and its partners to catch up."

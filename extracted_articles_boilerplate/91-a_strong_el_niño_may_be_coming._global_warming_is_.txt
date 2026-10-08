@@ -1,5 +1,6 @@
 ==================================================
 Title: A Strong El Niño May Be Coming. Global Warming Is Changing Its Effects.
+Subtitle: As the planet warms, past episodes of the natural weather phenomenon may no longer be a reliable guide of how the next one plays out.
 URL: https://www.nytimes.com/2026/05/04/climate/el-nino-global-warming.html
 Author: Raymond Zhong
 Date: May 4, 2026
@@ -8,8 +9,6 @@ Source PDF: 91 - A Strong El Niño May Be Coming. Global Warming Is Changing Its
 
 A Strong El Niño May Be Coming. Global Warming Is
 Changing Its Effects.
-As the planet warms, past episodes of the natural weather phenomenon may no longer be a reliable
-guide of how the next one plays out.
 By Raymond Zhong Graphics by Harry Stevens
 May 4, 2026
 Forecasters say a powerful El Niño weather pattern could form later this year, with a chance of
