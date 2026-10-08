@@ -1,6 +1,7 @@
 ==================================================
 Title: Mortgage rates are back above 7%. How much higher could they climb?
 Author: CBS News
+Graphic: U.S. average 30-year fixed-rate mortgage | The rate on a conventional 30-year mortgage is back above 7%, according to Freddie Mac. | Chart: CBS News Data Team•Source: Freddie Mac via FRED
 URL: https://www.cbsnews.com/news/mortgage-rates-7-percent-rise-forecast/
 Source PDF: 205 - Mortgage rates are back above 7_. How much higher could they climb_ - CBS News.pdf
 ==================================================
@@ -34,22 +35,6 @@ on a 30-year home loan even higher, at 7.12%
 "Higher inflation, the prospect of tighter monetary policy, potentially stronger
 economic growth and ballooning federal debt have pushed up mortgage rates," Joel
 Kan, vice president and deputy chief economist for the MBA, said in an email.
-U.S. average 30-year fixed-rate mortgage
-The rate on a conventional 30-year mortgage is back above 7%, according to Freddie Mac.
-10.00%
-9.00
-8.00
-7.00
-77..0033%%
-6.00
-5.00
-4.00
-3.00
-2.00
-1.00
-0.00
-2020 2021 2022 2023 2024 2025 2026
-Chart: CBS News Data Team•Source: Freddie Mac via FRED
 Mortgage rates tend to track yields on the 10-year Treasury note, which have spiked
 in recent months as the war in Iran drives up energy costs and fuels inflation. Bond
 buyers are seeking higher yields to compensate for what they view as riskier

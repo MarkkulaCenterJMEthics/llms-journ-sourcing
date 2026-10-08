@@ -745,6 +745,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   the dozen-plus Navy ships, "Our net is the Gulf of Oman," and no
   escalation).
 
+- **Graphic-derived rows moved to the graphics side file, 2026-10-09.**
+  New standing rule, adopted 2026-10-09: we only annotate text the models actually receive -- article body, photo captions, and scrolling-graphic text panels. Text that belongs to a chart, map, table, or an image of a document isn't part of that, so rows annotating it were moved (not deleted) to `GT-II/graphics-only-rows.csv`, kept in case we ever evaluate models on page images. `65-Housing_Tech_and_Taxes.csv` row 15 (the description of an
+  embedded chart: "This chart shows Bay Area tech salaries...") -- 48 ->
+  47 rows, renumbered; the same Census comparison is already annotated
+  from the body (now row 17). `112-SZ_Hantavirus.csv` row 6 (the intro
+  text of CNN's evacuation-flights map: "122 passengers and crew of the
+  MV Hondius have been evacuated... Here's where they went:") -- 13 ->
+  12 rows, renumbered.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -1755,6 +1764,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   2 (now row 1) covers the same claim from the body ("A California man
   who the authorities say ran through a security perimeter and fired a
   gun outside a packed black-tie gala...").
+- **Graphic-derived rows moved to the graphics side file, 2026-10-09.**
+  New standing rule, adopted 2026-10-09: we only annotate text the models actually receive -- article body, photo captions, and scrolling-graphic text panels. Text that belongs to a chart, map, table, or an image of a document isn't part of that, so rows annotating it were moved (not deleted) to `GT-II/graphics-only-rows.csv`, kept in case we ever evaluate models on page images. `113-California_Homes_Uninsured.csv` rows 84 and 85 (the two
+  Farmers Insurance emails, which appear in the article only as
+  screenshots: "Hi Joel. We finally got the list..." and "Jon, CDI
+  customer complaints...") -- 99 -> 97 rows, renumbered.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime

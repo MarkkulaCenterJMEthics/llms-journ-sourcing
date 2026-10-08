@@ -68,7 +68,16 @@ Annotate the article **body** only. The body includes **photo captions**
 paragraphs overlaid on a pinned graphic, e.g. story 113). It does **not**
 include the subtitle/dek under the headline, Reuters-style "Summary"
 bullets, or other summary boxes ("In summary", "Overview:", "KEY POINTS") --
-these recap the body and are rarely independent of it. In the article
+these recap the body and are rarely independent of it. **Graphics are excluded too (adopted 2026-10-09):** the text
+benchmark covers only the text payload sent to the models -- body, photo
+captions, scrollytelling panels. Text belonging to charts, maps, tables or
+other data graphics (titles, descriptions, labels, notes, source lines),
+and images of documents (e.g. email screenshots), is excluded from both
+the article text (moved to a `Graphic:` header field) and the scored GT
+(graphic-derived rows are kept in `GT-II/graphics-only-rows.csv` for
+possible future multimodal evaluation). Body sentences that describe a
+graphic and attribute its data ("The map below shows... according to
+Census data") remain body text. In the article
 text files, subtitles and summary boxes live in the header block
 (`Subtitle:` field), not the body, and `v10-extract-multiple-LLMs.py`
 sends the models only the title + body (`article_body()`), so models and

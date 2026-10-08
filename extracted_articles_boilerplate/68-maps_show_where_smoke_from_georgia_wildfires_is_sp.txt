@@ -1,6 +1,7 @@
 ==================================================
 Title: Maps Show Where Smoke From Georgia Wildfires Is Spreading North
 Subtitle: The smoke could reach as far as Pennsylvania and Ohio on Friday. Hereʼs how to track its path and its effect on air quality.
+Graphic: 2 p.m. Friday | © Mapbox © OpenStreetMap | Source: National Oceanic and Atmospheric Administration • Notes: Data is as of 2 p.m. Eastern on May 1. | Forecast is based on models and may underestimate smoke because of cloud cover or other obstructions. | Contours show estimates of wildfire smoke near the surface. • By Madison Dong and Bea Malsky || Air quality Good Hazardous | © Mapbox © OpenStreetMap | Source: AirNow • Note: Data is as of 2 p.m. Eastern on May 1, 2026 || CITIES AIR QUALITY A.Q.I. | Riverside, Calif. Moderate 74 | Los Angeles Moderate 69 | Anaheim, Calif. Moderate 65 | San Diego Moderate 64 | San Jose, Calif. Moderate 63 | Bakersfield, Calif. Moderate 61 | Fresno, Calif. Moderate 60 | Long Beach, Calif. Moderate 59 | Irvine, Calif. Moderate 59 | Santa Ana, Calif. Moderate 59 | Source: AirNow · Data is as of 2 p.m. Eastern on May 1, 2026
 Source PDF: 68 - Maps Smoke From Georgia Fires Spreads North As Far As West Virginia - The New York Times.pdf
 ==================================================
 
@@ -26,13 +27,6 @@ Here’s what to know about what’s going on:
 Follow a map of the smoke forecast.
 Smoke forecast Light Medium Heavy
 
-2 p.m. Friday
-+
--
-© Mapbox © OpenStreetMap
-Source: National Oceanic and Atmospheric Administration • Notes: Data is as of 2 p.m. Eastern on May 1.
-Forecast is based on models and may underestimate smoke because of cloud cover or other obstructions.
-Contours show estimates of wildfire smoke near the surface. • By Madison Dong and Bea Malsky
 Dozens of fires were sparked in Georgia and Florida in the last week, but most of
 the smoke can be traced to four main fires that became more active on Monday and
 Tuesday and pumped out copious smoke.
@@ -61,12 +55,6 @@ below 10 feet, leading to dangerous conditions on roads.
 “You can go from perfect visibility to zero feet in a very short distance,” Mr. Snyder
 said.
 How to look up the air quality near you.
-Air quality Good Hazardous
-
-+
--
-© Mapbox © OpenStreetMap
-Source: AirNow • Note: Data is as of 2 p.m. Eastern on May 1, 2026
 As the smoke intensifies and wanes again, the air quality can change quickly in any
 one place. Here’s a guide to understanding air quality readings and when they turn
 hazardous for different people.
@@ -74,18 +62,4 @@ The AirNow website and app, run by the Environmental Protection Agency, offers
 fire and smoke maps that are informed by data from portable sensors that track
 smoke plumes.
 You can also put your city into the chart below:
-Search for a city...
-CITIES AIR QUALITY A.Q.I.
-Riverside, Calif. Moderate 74
-Los Angeles Moderate 69
-Anaheim, Calif. Moderate 65
-
-San Diego Moderate 64
-San Jose, Calif. Moderate 63
-Bakersfield, Calif. Moderate 61
-Fresno, Calif. Moderate 60
-Long Beach, Calif. Moderate 59
-Irvine, Calif. Moderate 59
-Santa Ana, Calif. Moderate 59
-Source: AirNow · Data is as of 2 p.m. Eastern on May 1, 2026
 Amy Graff is a Times reporter covering weather, wildfires and earthquakes.
