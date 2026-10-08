@@ -736,6 +736,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   the center of President Donald Trump's efforts to reshape the world's
   largest museum organization." Other fields unchanged.
 
+- **`53-Iran_Sea_Trade_Blocked.csv` row 1 removed, 2026-10-08 (14 -> 13
+  rows, renumbered).** With the fresh PDF of the version you annotated,
+  row 1 ("More than a dozen American warships positioned in the Gulf of
+  Oman and Arabian Sea are acting as a 'net,' officials said") turned
+  out to be the article's subtitle. Under the body-only rule it isn't
+  annotatable, and the body already covers it (now rows 2, 8 and 10:
+  the dozen-plus Navy ships, "Our net is the Gulf of Oman," and no
+  escalation).
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
