@@ -754,6 +754,12 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   MV Hondius have been evacuated... Here's where they went:") -- 13 ->
   12 rows, renumbered.
 
+- **`122-SZ_SJ9_Climate_Policy.csv` row 1: name typo fixed, 2026-10-08.**
+  Name of Source "Sott Hughes" -> "Scott Hughes" (spelled correctly
+  everywhere else in the file). The typo came from the original row
+  that jointly credited all five candidates; when that row was split
+  into one row per candidate, it carried over into row 1.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
