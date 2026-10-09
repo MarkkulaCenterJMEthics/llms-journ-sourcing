@@ -774,6 +774,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   'Erin Burnett OutFront' on Tuesday." Please paste sentences exactly
   as they appear; don't add words, even when they seem helpful.
 
+- **Invisible/odd characters cleaned up, 2026-10-08 (no visible text changed; makes rows match the article text exactly): non-breaking spaces -> normal spaces, non-breaking hyphens -> normal hyphens, the "ʼ" modifier apostrophe -> "’", zero-width characters removed, and the "ﬁ" ligature -> "fi". These usually come from copying text out of web pages or PDFs.** Files: `101-Cyclone_Freddy.csv`, `102-Detroit_Tenants.csv`,
+  `123-Iran_Uranium.csv` (5 rows had "ﬁ" for "fi" -- they now match the
+  article), `150-Mark_Walter_Insurance.csv`,
+  `156-Trump_Immigration_Collapse.csv`, `180-UK_Israel_Ban.csv`.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -1813,6 +1818,7 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   taken a neutral position on the quantum park." is a new row 27 (38 ->
   39 rows, renumbered). The three sentences about Friends of the Parks'
   demands in between are the reporter's framing and stay out.
+- **Invisible/odd characters cleaned up, 2026-10-08 (no visible text changed; makes rows match the article text exactly): non-breaking spaces -> normal spaces, non-breaking hyphens -> normal hyphens, the "ʼ" modifier apostrophe -> "’", zero-width characters removed, and the "ﬁ" ligature -> "fi". These usually come from copying text out of web pages or PDFs.** Files: `55-Pentagon_Lab.csv`, `56-Philz_Pride_Flags.csv`.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime

@@ -85,7 +85,7 @@ Re-run on current files and model input (`article_body()`), after Tiers 1/2/3/7 
 
 **Tier 6 — unusual characters.** Model input nearly clean: 21 modifier apostrophes "ʼ" in 7 files (35, 36, 58, 68, 82, 106, 129); 13 non-breaking hyphens (41, 55); 1 non-breaking space (32) — mechanical normalize to ' and -. In GT CSVs: 159 mojibake (in Tier 4 list); 13 zero-width characters (123, 150, 156); 5 "ﬁ" ligatures (123); non-breaking hyphens (55-Pentagon_Lab, 41, GT-2026-document-rows.csv); 1 "ʼ" (102) — same class as the SZ-batch Pass 0 strip.
 
-**Suggested order (agreed to revisit):** (1) ~~Tier 4 clear errors, 7 rows~~ DONE; (2) ~~attribution stitching~~ rule = verbatim/contiguous (item 55); Groups A/B/C DONE (6 r15 no change; 63 r1, 72 r26 split at paragraph breaks); (3) Tier 6 mechanical cleanup in text and GT; (4) Tier 5 trims file by file, heavy first.
+**Suggested order (agreed to revisit):** (1) ~~Tier 4 clear errors, 7 rows~~ DONE; (2) ~~attribution stitching~~ rule = verbatim/contiguous (item 55); Groups A/B/C DONE (6 r15 no change; 63 r1, 72 r26 split at paragraph breaks); (3) ~~Tier 6 mechanical cleanup~~ DONE (item 56); (4) Tier 5 trims file by file, heavy first.
 
 ### Tier 4 — minor annotator edits (text fine)
 

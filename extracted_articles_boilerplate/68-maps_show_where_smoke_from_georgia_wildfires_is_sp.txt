@@ -1,6 +1,6 @@
 ==================================================
 Title: Maps Show Where Smoke From Georgia Wildfires Is Spreading North
-Subtitle: The smoke could reach as far as Pennsylvania and Ohio on Friday. Hereʼs how to track its path and its effect on air quality.
+Subtitle: The smoke could reach as far as Pennsylvania and Ohio on Friday. Here’s how to track its path and its effect on air quality.
 Graphic: 2 p.m. Friday | © Mapbox © OpenStreetMap | Source: National Oceanic and Atmospheric Administration • Notes: Data is as of 2 p.m. Eastern on May 1. | Forecast is based on models and may underestimate smoke because of cloud cover or other obstructions. | Contours show estimates of wildfire smoke near the surface. • By Madison Dong and Bea Malsky || Air quality Good Hazardous | © Mapbox © OpenStreetMap | Source: AirNow • Note: Data is as of 2 p.m. Eastern on May 1, 2026 || CITIES AIR QUALITY A.Q.I. | Riverside, Calif. Moderate 74 | Los Angeles Moderate 69 | Anaheim, Calif. Moderate 65 | San Diego Moderate 64 | San Jose, Calif. Moderate 63 | Bakersfield, Calif. Moderate 61 | Fresno, Calif. Moderate 60 | Long Beach, Calif. Moderate 59 | Irvine, Calif. Moderate 59 | Santa Ana, Calif. Moderate 59 | Source: AirNow · Data is as of 2 p.m. Eastern on May 1, 2026
 Source PDF: 68 - Maps Smoke From Georgia Fires Spreads North As Far As West Virginia - The New York Times.pdf
 ==================================================
@@ -9,7 +9,7 @@ alabama-air-quality-smoke.html
 Maps Show Where Smoke From Georgia
 Wildfires Is Spreading North
 By Amy Graff
-Amy Graff is a reporter on The Timesʼs weather team.
+Amy Graff is a reporter on The Times’s weather team.
 April 23, 2026
 Smoke from fires burning in Florida and Georgia was pushing into the Appalachian
 Mountains and into parts of West Virginia on Friday, and forecasters said it could
@@ -37,7 +37,7 @@ and South Carolina. By Friday it was pushing north over the Appalachian
 Mountains.
 The National Weather Service office serving Atlanta warned that the air quality in
 the area could be unhealthy for people who are sensitive to ozone and smoke.
-Forecasters warned of ʻsuper fog.ʼ
+Forecasters warned of ʻsuper fog.’
 How intense the smoke becomes in the next few days will depend on the fires’
 behavior and the weather.
 
