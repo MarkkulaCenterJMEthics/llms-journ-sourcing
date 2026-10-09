@@ -1795,6 +1795,10 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   of seven of the eight dead children.") had been pasted twice -- the
   duplicate removed. `121-Meta_Job_Cuts.csv` row 5: "internal Al tools"
   (lowercase L) -> "internal AI tools," matching the article.
+- **`72-Quantum_Campus.csv` row 14: duplicated sentence removed,
+  2026-10-08.** "After residents rebelled at the Bowen meeting, Moreno
+  said, the city stopped holding public meetings." had been pasted twice,
+  run together; one copy kept. The row now matches the article exactly.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
