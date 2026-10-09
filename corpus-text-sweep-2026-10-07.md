@@ -76,7 +76,7 @@ Re-run on current files and model input (`article_body()`), after Tiers 1/2/3/7 
 
 **Tier 4 — annotations not matching the article exactly: 82 of 3,328 rows.**
 - ~55 trivial (trailing "." where the article continues with ","; curly vs straight quotes; a missing space; "WHO and CDC" vs "WHO and the CDC"). Leave — fuzzy evaluation absorbs these.
-- **Clear errors (7 rows) — fix:** 58 r5 (first sentence pasted twice); 159 r14, r15 (mojibake "Iranâ€™s" -> "Iran's"); 121 r5 ("Al tools" with lowercase L -> "AI tools"); 101 r5 (annotator inserted "DoDMA" before "Spokesperson Chipiliro Khamula says…" — inference, not in the sentence); 22 r7, GT-2026 ("212 Black lives" vs article "214"); 112-SZ r1 ("he told CNN's Erin Burnett" vs article "he said on CNN's 'Erin Burnett OutFront'").
+- **Clear errors (7 rows) — DONE 2026-10-08 (`development-of-v59.md` item 54):** 58 r5 (first sentence pasted twice); 159 r14, r15 (mojibake "Iranâ€™s" -> "Iran's"); 121 r5 ("Al tools" with lowercase L -> "AI tools"); 101 r5 (annotator inserted "DoDMA" before "Spokesperson Chipiliro Khamula says…" — inference, not in the sentence); 22 r7, GT-2026 ("212 Black lives" vs article "214"); 112-SZ r1 ("he told CNN's Erin Burnett" vs article "he said on CNN's 'Erin Burnett OutFront'").
 - **Pattern needing a rule (~11 rows) — attribution stitching:** where a multi-sentence quote is interrupted by its attribution, the annotator cut the attribution and stitched the quote together, or skipped a sentence: 19 r9 (drops `the spokesperson said in a statement`), 7 r5/r12/r20 (`the lawyers stated in their brief`, `he said`, `she wrote`), 13 r7 (`Henderson told a WLOK-AM audience earlier this summer`), 31 r10 (`, she said,`), 6 r15 and 63 r1 (skip a whole sentence between two passages), 72 r14/r26 (AV, skip/add words). Question for the user: must a Sourced Statement be one contiguous verbatim span? Recommendation: yes — restore to include the attribution (same as Tier 2 D fixes). Mostly GT-2026 rows.
 - Small trims (leave or decide case by case): 100 r9 drops "(RDDT.N)"; 124 r1 drops "(WHO)"; 58 r7 "The Times" vs "The New York Times".
 - Already decided/pending: 193 r23 (awaiting SZ fresh Newsweek capture); 191 r10–12 "Nividia" (leave); 194 r9 ş vs ș; 68 r5 (article misspells "Synder", annotator corrected).
@@ -85,7 +85,7 @@ Re-run on current files and model input (`article_body()`), after Tiers 1/2/3/7 
 
 **Tier 6 — unusual characters.** Model input nearly clean: 21 modifier apostrophes "ʼ" in 7 files (35, 36, 58, 68, 82, 106, 129); 13 non-breaking hyphens (41, 55); 1 non-breaking space (32) — mechanical normalize to ' and -. In GT CSVs: 159 mojibake (in Tier 4 list); 13 zero-width characters (123, 150, 156); 5 "ﬁ" ligatures (123); non-breaking hyphens (55-Pentagon_Lab, 41, GT-2026-document-rows.csv); 1 "ʼ" (102) — same class as the SZ-batch Pass 0 strip.
 
-**Suggested order (agreed to revisit):** (1) Tier 4 clear errors, 7 rows — full before-rows first; (2) user's rule on attribution stitching, then lay out the ~11 rows; (3) Tier 6 mechanical cleanup in text and GT; (4) Tier 5 trims file by file, heavy first.
+**Suggested order (agreed to revisit):** (1) ~~Tier 4 clear errors, 7 rows~~ DONE; (2) user's rule on attribution stitching, then lay out the ~11 rows; (3) Tier 6 mechanical cleanup in text and GT; (4) Tier 5 trims file by file, heavy first.
 
 ### Tier 4 — minor annotator edits (text fine)
 

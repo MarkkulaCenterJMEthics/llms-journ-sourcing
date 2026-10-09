@@ -760,6 +760,20 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   that jointly credited all five candidates; when that row was split
   into one row per candidate, it carried over into row 1.
 
+- **Copy errors fixed, 2026-10-08 (corpus text sweep, Tier 4).**
+  `159-Iran_Deal.csv` rows 14 and 15: garbled characters from copying
+  ("Iranâ€™s" -> "Iran's", "UAEâ€™s" -> "UAE's"). `101-Cyclone_Freddy.csv`
+  row 5: the Sourced Statement began "DoDMA Spokesperson Chipiliro
+  Khamula says...", but the article's sentence says only "Spokesperson
+  Chipiliro Khamula says..." -- "DoDMA" removed so the quote matches
+  the article (DoDMA is named in the sentence before). Related, left
+  for the Title of Source pass: all of Khamula's rows (5-8, 20, 21, 31)
+  have Title "DoDMA Spokesperson", but the article states only
+  "Spokesperson". `112-SZ_Hantavirus.csv` row 1: "he told CNN's Erin
+  Burnett on Tuesday" -> the article's own wording, "he said on CNN's
+  'Erin Burnett OutFront' on Tuesday." Please paste sentences exactly
+  as they appear; don't add words, even when they seem helpful.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -1775,6 +1789,12 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Farmers Insurance emails, which appear in the article only as
   screenshots: "Hi Joel. We finally got the list..." and "Jon, CDI
   customer complaints...") -- 99 -> 97 rows, renumbered.
+- **Copy errors fixed, 2026-10-08 (corpus text sweep, Tier 4).**
+  `58-Louisiana_Shooting.csv` row 5: the first sentence ("The police
+  identified the gunman as Shamar Elkins, 31, and said he was the father
+  of seven of the eight dead children.") had been pasted twice -- the
+  duplicate removed. `121-Meta_Job_Cuts.csv` row 5: "internal Al tools"
+  (lowercase L) -> "internal AI tools," matching the article.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
