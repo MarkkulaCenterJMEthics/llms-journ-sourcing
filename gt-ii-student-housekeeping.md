@@ -1799,6 +1799,20 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   2026-10-08.** "After residents rebelled at the Bowen meeting, Moreno
   said, the city stopped holding public meetings." had been pasted twice,
   run together; one copy kept. The row now matches the article exactly.
+- **Rows split at paragraph breaks, 2026-10-08.** New rule (adopted
+  today): all statements from the same source within one paragraph go
+  in one row, a new paragraph starts a new row, and a reporter's own
+  sentence that isn't from the source is left out. Sentences are always
+  copied whole and exact. `63-Maine_Data_Center.csv` row 1 spanned two
+  paragraphs: it now ends at "...to go ahead.", and the second Mills
+  quote ("This project — ... Mills wrote in the press release announcing
+  her decision.") is a new row 2 with the same Type/Name/Title/SJ (9 ->
+  10 rows, renumbered). `72-Quantum_Campus.csv` row 26 spanned two
+  paragraphs: it now ends at '..."lakefront," he said.', and "He said
+  Friends of the Parks is part of the coalition demanding a CBA; it has
+  taken a neutral position on the quantum park." is a new row 27 (38 ->
+  39 rows, renumbered). The three sentences about Friends of the Parks'
+  demands in between are the reporter's framing and stay out.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime

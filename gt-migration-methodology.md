@@ -77,7 +77,9 @@ the article text (moved to a `Graphic:` header field) and the scored GT
 (graphic-derived rows are kept in `GT-II/graphics-only-rows.csv` for
 possible future multimodal evaluation). Body sentences that describe a
 graphic and attribute its data ("The map below shows... according to
-Census data") remain body text. In the article
+Census data") remain body text.
+
+**Sourced Statement extraction (adopted 2026-10-08):** A Sourced Statement is made of exact, full sentences copied from the article — never remove or change words inside a sentence, including an attribution clause within a quoted sentence. All statements attributed to the same source within one paragraph form one row. If the reporter's own sentence (not attributed to that source) sits between them, leave it out and join the source's sentences with a single space. A new paragraph starts a new row. (`development-of-v59.md` item 55.) In the article
 text files, subtitles and summary boxes live in the header block
 (`Subtitle:` field), not the body, and `v10-extract-multiple-LLMs.py`
 sends the models only the title + body (`article_body()`), so models and

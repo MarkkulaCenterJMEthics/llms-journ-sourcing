@@ -45,6 +45,8 @@ Item numbers in parentheses point to `development-of-v59.md`: "Prompt Updates" i
 11. "Teacher" / "instructor" (K-12 context) as valid Title of Source examples (Prompt Updates 29).
 12. Org-affiliation stripping applies to a named person too, not just a named organization (Prompt Updates 30).
 13. Generic sourcing-role words ("interviewee," "source") aren't meaningful Source Descriptors (Prompt Updates 31).
+14. **Sourced Statement extraction: exact full sentences; one row per source per paragraph; interleaved reporter sentences left out.** *Added 2026-10-08* (`development-of-v59.md` item 55). The v60 user prompt's step 1 says "extract the exact full sentences" and that same-source statements "in the same paragraph… are one instance", but is silent on (a) attribution clauses inside a quoted sentence (annotators had cut them out, stitching the quote together) and (b) a reporter's own sentence sitting between two statements from the same source. Rule as adopted, for step 1 (and a matching note under the Sourced Statement definition in the system prompt):
+   > A Sourced Statement is made of exact, full sentences copied from the article — never remove or change words inside a sentence, including an attribution clause within a quoted sentence. All statements attributed to the same source within one paragraph form one row. If the reporter's own sentence (not attributed to that source) sits between them, leave it out and join the source's sentences with a single space. A new paragraph starts a new row.
 
 ## Major
 
