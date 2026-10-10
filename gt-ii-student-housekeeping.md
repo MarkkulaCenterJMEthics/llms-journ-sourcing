@@ -788,6 +788,13 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   left blank -- the name ("Yemen's Saudi-led coalition") is in its
   Source Justification instead.
 
+- **Unnamed Group of People rows tidied, 2026-10-10 (Phase 2.1).**
+  `84-Paradise_Lake_Fire.csv` row 1: "Fire officials" moved from Name
+  of Source to Title of Source; row 3: "Residents" moved from Name of
+  Source to Source Descriptors. For Unnamed Group of People, Name of
+  Source stays blank; a credentialed role (officials) goes in Title, a
+  general description (residents) in Source Descriptors.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -1847,6 +1854,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   and Regina Peter"), Source Justification "Lawyers for Mr. Burke" (20 ->
   22 rows, renumbered). When one statement is credited to several named
   people, each gets their own row (system prompt Note 12).
+- **Unnamed Group of People rows tidied, 2026-10-10 (Phase 2.1).**
+  `57-Trump_Jesus_Memes.csv` row 4: Title "advisers" added ("some of
+  Mr. Trump's advisers" -- "Mr. Trump's" left out since it names a
+  specific person). `58-Louisiana_Shooting.csv` row 11: "Elkin's family
+  members" moved out of Title of Source into Source Descriptors as
+  "family members" -- a family relationship describes the source but
+  isn't a credentialed title ("Elkin's" also wasn't in the text).
+  `62-D4vd_Murder_Charges.csv` row 9: the literal word "null" in Name of
+  Source and Source Justification replaced with blanks.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
