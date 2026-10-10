@@ -795,6 +795,22 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Source stays blank; a credentialed role (officials) goes in Title, a
   general description (residents) in Source Descriptors.
 
+- **`53-Iran_Sea_Trade_Blocked.csv` rows 3 and 4 merged, 2026-10-10
+  (Phase 2.2).** Row 3 had "An estimated 90 percent of Iran's economy is
+  fueled by international sea trade." with the start of the sentence
+  ("Adm. Brad Cooper said late Tuesday") cut off; row 4 had the next
+  quote typed as an Unnamed Person ("Centcom commander"). Both are from
+  Cooper -- "the Centcom commander" refers back to him in the very next
+  sentence -- and both are in the same paragraph, so under the
+  paragraph rule they form one row: "Adm. Brad Cooper said late Tuesday
+  an estimated 90 percent of Iran's economy is fueled by international
+  sea trade. "In less than 36 hours ... by sea," the Centcom commander
+  said in a separate post." Named Person, Brad Cooper (13 -> 12 rows).
+  **Open for discussion:** the two statements reached the reporter by
+  different routes ("said late Tuesday" vs. "said in a separate post"),
+  so we want to talk through whether that should ever keep them as
+  separate rows. For now the paragraph rule applies.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
