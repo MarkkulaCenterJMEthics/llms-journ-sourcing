@@ -1828,6 +1828,14 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   39 rows, renumbered). The three sentences about Friends of the Parks'
   demands in between are the reporter's framing and stay out.
 - **Invisible/odd characters cleaned up, 2026-10-08 (no visible text changed; makes rows match the article text exactly): non-breaking spaces -> normal spaces, non-breaking hyphens -> normal hyphens, the "ʼ" modifier apostrophe -> "’", zero-width characters removed, and the "ﬁ" ligature -> "fi". These usually come from copying text out of web pages or PDFs.** Files: `55-Pentagon_Lab.csv`, `56-Philz_Pride_Flags.csv`.
+- **`57-Trump_Jesus_Memes.csv` row 4 reclassified, 2026-10-10 (Phase 1).**
+  Anonymous Source -> Unnamed Group of People. The source is "some of
+  Mr. Trump's advisers", and the article never says they were granted
+  anonymity (no "spoke on condition of anonymity", "not authorized to
+  speak", "asked not to be named", or similar). We use Anonymous Source
+  only when the article states that anonymity was granted. Name and Title,
+  which held the literal word "null", are now blank (the convention for
+  empty fields).
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
