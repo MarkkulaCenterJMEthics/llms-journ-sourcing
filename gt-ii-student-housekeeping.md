@@ -779,6 +779,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   article), `150-Mark_Walter_Insurance.csv`,
   `156-Trump_Immigration_Collapse.csv`, `180-UK_Israel_Ban.csv`.
 
+- **`212-Trump_Rejects_Peace_Iran.csv` converted to CSV (Phase 0),
+  2026-10-10.** Your XLSX was already in the full 7-column format, so this
+  was format conversion only: 15 rows, whitespace trimmed, one hidden
+  zero-width character removed from row 15's Source Justification. All
+  15 Sourced Statements match the article text you supplied. Flagged
+  for a later pass: row 13 is a Named Organization with Name of Source
+  left blank -- the name ("Yemen's Saudi-led coalition") is in its
+  Source Justification instead.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
