@@ -1836,6 +1836,17 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   only when the article states that anonymity was granted. Name and Title,
   which held the literal word "null", are now blank (the convention for
   empty fields).
+- **Type of Source spellings fixed and a joint row split, 2026-10-10.**
+  `58-Louisiana_Shooting.csv` rows 1, 3, 5, 6, 11: "Unnamed group of
+  people" -> "Unnamed Group of People" (capitalization only).
+  `62-D4vd_Murder_Charges.csv` row 4: was one row typed "Named Group"
+  (not one of the six types) crediting three lawyers together ("Blair
+  Berk; Marilyn Bednarski; Regina Peter"). Split into three Named Person
+  rows (now rows 4-6), one per lawyer, same Sourced Statement, Title
+  "lawyer" (the article says "the lawyers, Blair Berk, Marilyn Bednarski
+  and Regina Peter"), Source Justification "Lawyers for Mr. Burke" (20 ->
+  22 rows, renumbered). When one statement is credited to several named
+  people, each gets their own row (system prompt Note 12).
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
