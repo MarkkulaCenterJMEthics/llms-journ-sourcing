@@ -1879,6 +1879,17 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   isn't a credentialed title ("Elkin's" also wasn't in the text).
   `62-D4vd_Murder_Charges.csv` row 9: the literal word "null" in Name of
   Source and Source Justification replaced with blanks.
+- **Document rows tidied, 2026-10-10 (Phase 2.4 Pass 1).** A Document
+  never has a Title of Source, and Name of Source is only the document's
+  own title when the reporter states one; a general word for the kind
+  of document goes in Source Descriptors, as written in the sentence.
+  `58-Louisiana_Shooting.csv` rows 9 and 14: Title "Police records" /
+  "Records" -> blank, Source Descriptors "Records"; row 10: Title
+  "Police records" -> blank, Source Descriptors "police description".
+  `62-D4vd_Murder_Charges.csv` rows 11 and 13: Name "Felony complaint"
+  -> blank, Source Descriptors "felony complaint" (row 11) and
+  "complaint" (row 13), each as worded in its sentence; the literal word
+  "null" in Title and Source Justification replaced with blanks.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
