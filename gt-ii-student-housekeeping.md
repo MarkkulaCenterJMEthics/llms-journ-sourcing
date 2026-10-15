@@ -811,6 +811,19 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   so we want to talk through whether that should ever keep them as
   separate rows. For now the paragraph rule applies.
 
+- **Named Organization rows tidied, 2026-10-15 (Phase 2.5 Pass 1).**
+  `53-Iran_Sea_Trade_Blocked.csv`: names now match the article -- row 1
+  "US Military" -> "U.S. military"; rows 2 and 12 "US Central Command"
+  -> "U.S. Central Command" (row 12's sentence says "Centcom", the same
+  organization). Rows 1 and 12 also had the attribution cut from their
+  sentences; both are now the full sentences ("...by sea, the U.S.
+  military said, hours after military officials said U.S. warships
+  confronted six merchant vessels departing an Iranian port and forced
+  them to turn back." / "...non-Iranian ports," Centcom said in its
+  statement."). `212-Trump_Rejects_Peace_Iran.csv` row 13: Name of
+  Source was blank -- now "Yemen's Saudi-led coalition" (that text had
+  been put in Source Justification, which is now blank).
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -1890,6 +1903,17 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   -> blank, Source Descriptors "felony complaint" (row 11) and
   "complaint" (row 13), each as worded in its sentence; the literal word
   "null" in Title and Source Justification replaced with blanks.
+- **Named Organization rows tidied, 2026-10-15 (Phase 2.5 Pass 1).**
+  A Named Organization never has a Title of Source, and its name follows
+  the article's wording. `57-Trump_Jesus_Memes.csv` row 7: Title "CNN
+  website" removed. `58-Louisiana_Shooting.csv` row 8: "The Army" ->
+  "Army". `62-D4vd_Murder_Charges.csv` rows 3, 8, 10: the literal word
+  "null" in Title and Source Justification replaced with blanks (names
+  kept; "Los Angeles County district attorney's office" follows the
+  article's own identification of Mr. Hochman as the Los Angeles County
+  district attorney). `98-AV_Trump_China.csv` row 5: "Commerce
+  Departments Bureau..." -> "Commerce Department's Bureau of Industry
+  and Security", as written.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
