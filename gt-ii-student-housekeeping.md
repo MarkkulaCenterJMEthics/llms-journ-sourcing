@@ -1923,6 +1923,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   district attorney). `98-AV_Trump_China.csv` row 5: "Commerce
   Departments Bureau..." -> "Commerce Department's Bureau of Industry
   and Security", as written.
+- **Named Person rows, first check, 2026-10-15 (Phase 2.6 Pass 0).**
+  `57-Trump_Jesus_Memes.csv` (8 rows) and `62-D4vd_Murder_Charges.csv`
+  (12 cells across its Named Person rows): the literal word "null"
+  replaced with blanks. `54-Coachella_Influencer.csv` rows 8-9: Title
+  typo "Beauty Conent Creator" -> "Beauty Content Creator".
+  `58-Louisiana_Shooting.csv`: row 2 Title typo "Shreveport Major" ->
+  "Shreveport Mayor"; old row 12 credited two people in one row
+  ("Mahelia Elkins and Mr. Jackson") -- split into one row each (now
+  rows 12-13), each person's relationship in Source Descriptors
+  ("mother", "stepfather") rather than in Title, and the opening
+  sentence ("On Easter Sunday, Mr. Elkins called his mother...") left out
+  of the Sourced Statement, since it's the reporter's own context, not
+  something attributed to them; old row 15 (now 16): "Mr. Jackson" ->
+  "Marcus Jackson" (his full name is in the article), Title "Elkin's
+  stepfather" -> blank, Source Descriptors "stepfather".
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
