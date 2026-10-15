@@ -824,6 +824,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Source was blank -- now "Yemen's Saudi-led coalition" (that text had
   been put in Source Justification, which is now blank).
 
+- **Organization category words, 2026-10-15 (Phase 2.5 Pass 3).**
+  For a Named Organization, Source Descriptors holds a bare word for what
+  kind of organization it is, when the article uses that word for it.
+  `53-Iran_Sea_Trade_Blocked.csv` row 11: added "network" (the sentence
+  refers to Iranian Press TV as "the network").
+  `212-Trump_Rejects_Peace_Iran.csv` row 11: removed "report" -- that's
+  the Journal's article, the medium, not what kind of organization The
+  Wall Street Journal is.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
