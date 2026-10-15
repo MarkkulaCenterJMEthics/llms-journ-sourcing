@@ -79,6 +79,8 @@ possible future multimodal evaluation). Body sentences that describe a
 graphic and attribute its data ("The map below shows... according to
 Census data") remain body text.
 
+**Name of Source is the full name as stated in the article (applied 2026-10-15):** use the fullest form the article itself uses for the person -- never a fuller name from outside knowledge, even for unambiguous public figures. Where an article only says "Mr. Trump" / "President Trump" / "Trump", the Name is "Trump"; where it says "Donald Trump" anywhere, use that. (`development-of-v59.md` item 49, Pass 0 note.)
+
 **Sourced Statement extraction (adopted 2026-10-08):** A Sourced Statement is made of exact, full sentences copied from the article — never remove or change words inside a sentence, including an attribution clause within a quoted sentence. All statements attributed to the same source within one paragraph form one row; a new paragraph starts a new row. If the reporter's own sentences (narration, scene-setting, or context not attributed to that source) sit before or between the source's statements in a paragraph, leave them out and join the source's sentences with a single space. A context sentence left out this way may still qualify as Source Justification. (`development-of-v59.md` item 55.) In the article
 text files, subtitles and summary boxes live in the header block
 (`Subtitle:` field), not the body, and `v10-extract-multiple-LLMs.py`

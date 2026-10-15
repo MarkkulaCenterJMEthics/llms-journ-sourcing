@@ -833,6 +833,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   the Journal's article, the medium, not what kind of organization The
   Wall Street Journal is.
 
+- **Name of Source "Donald Trump" -> "Trump", 2026-10-15.** Name of Source is the person's full name *as stated in the article*. Where the article only ever says "Mr. Trump", "President Trump" or "Trump" -- never "Donald Trump" -- the Name is "Trump".
+  `69-Trump_Assassination_Suspect.csv` row 16;
+  `202-Trump_Mamdani_Affordable.csv` rows 4, 8;
+  `207-US_Iran_Unexpected_Problems.csv` rows 4, 7.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -1938,6 +1943,14 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   something attributed to them; old row 15 (now 16): "Mr. Jackson" ->
   "Marcus Jackson" (his full name is in the article), Title "Elkin's
   stepfather" -> blank, Source Descriptors "stepfather".
+- **Name of Source "Donald Trump" -> "Trump", 2026-10-15.** Name of Source is the person's full name *as stated in the article*. Where the article only ever says "Mr. Trump", "President Trump" or "Trump" -- never "Donald Trump" -- the Name is "Trump".
+  `57-Trump_Jesus_Memes.csv` rows 1, 6, 14.
+- **`58-Louisiana_Shooting.csv` row 14: source is Shamar Elkins,
+  2026-10-15.** "Mr. Elkins told them through tears that he wanted to
+  take his own life. He told Mr. Jackson that..." -- the person speaking
+  here is Shamar Elkins (the article names him: "The police identified
+  the gunman as Shamar Elkins"); Mr. Jackson is only who he told. It had
+  been credited jointly to "Mahelia Elkins and Mr. Jackson".
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
