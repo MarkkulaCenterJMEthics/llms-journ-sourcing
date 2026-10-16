@@ -848,7 +848,6 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   States of America" -> "President" (the article says "President
   Trump").
 
-
 - **Descriptors and titles from the candidate list, 2026-10-16.** The
   article introduces the District 9 candidates in one sentence: "...serial
   entrepreneur Mike Hennessy, longtime city employee Gordon Chester,
@@ -863,6 +862,7 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   employee" and row 16 Title "longtime city employee" removed (Chester);
   rows 5, 11 Source Descriptors "District 9 candidate, tech worker" and
   row 11 Title "tech worker" removed (Ator).
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
