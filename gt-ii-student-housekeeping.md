@@ -838,6 +838,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   `202-Trump_Mamdani_Affordable.csv` rows 4, 8;
   `207-US_Iran_Unexpected_Problems.csv` rows 4, 7.
 
+- **Titles, 2026-10-16 (Phase 2.6 Pass 1).** A title must be stated
+  for the person in the article, word for word where possible.
+  `53-Iran_Sea_Trade_Blocked.csv` row 3: "Admiral" -> "Adm.; Centcom
+  commander" (both stated: "Adm. Brad Cooper" and "the Centcom
+  commander"); row 5: "Chinese Foreign Ministry spokesperson" ->
+  "Foreign Ministry spokesperson" ("Chinese" isn't in the article).
+  `69-Trump_Assassination_Suspect.csv` row 16: "President of the United
+  States of America" -> "President" (the article says "President
+  Trump").
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -1951,6 +1961,22 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   here is Shamar Elkins (the article names him: "The police identified
   the gunman as Shamar Elkins"); Mr. Jackson is only who he told. It had
   been credited jointly to "Mahelia Elkins and Mr. Jackson".
+- **Titles, 2026-10-16 (Phase 2.6 Pass 1).** A title must be stated
+  for the person in the article, and it names a position of authority or
+  expertise; occupations and descriptions go in Source Descriptors.
+  `57-Trump_Jesus_Memes.csv`: rows 1, 6, 14 "President of the United
+  States" -> "President" (the article says "President Trump"); rows 8-9
+  "a longtime Republican pollster" -> "Republican pollster" ("longtime"
+  isn't part of a title); row 10 "a former White House press secretary
+  for Mr. Trump" -> "former White House press secretary".
+  `98-AV_Trump_China.csv` row 4: "President, United States" ->
+  "President". `58-Louisiana_Shooting.csv` row 7: Title "UPS employee"
+  removed (the article says he "used to work at UPS"; that's not a
+  title). `54-Coachella_Influencer.csv`: "content creator" is an
+  occupation, not a credentialed title, so for rows 1-2, 6-10, 13-16 it
+  moved from Title to Source Descriptors ("content creator", "beauty
+  content creator", and for Cathie O'Brien "human resources
+  professional, content creator").
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
