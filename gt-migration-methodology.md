@@ -248,7 +248,15 @@ and don't let its low volume push it to the back of the queue either.
 - **Pass 2 — Targeted missed-title recovery.** Specific flagged candidates
   where the article states a credentialing title that was never captured.
 - **Pass 3 — Systematic Source Descriptors recovery.** From Sourced
-  Statement/Source Justification text, done in batches.
+  Statement/Source Justification text, done in batches. **Plus, since
+  2026-10-16 (`development-of-v59.md` item 62): Source Descriptors is
+  story-level.** Also check the rest of the article body for words the
+  reporter uses to characterize the source -- narrative, scene-setting
+  or list sentences that aren't that source's sourced statements ("The
+  police identified the gunman as Shamar Elkins") -- and put them on
+  every row for that source. Not counted: characterizations inside
+  another source's quote. Atomic-word rule applies ("longtime city
+  employee" -> "city employee").
 
 ## Phase 3 — Corpus-wide Source Justification / Title quality check
 
