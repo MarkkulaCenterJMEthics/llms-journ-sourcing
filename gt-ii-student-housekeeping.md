@@ -1982,6 +1982,13 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Burke's family") and 21 (Patrick Steinfeld, "a lawyer for the
   family"): Title "lawyer". The title is the role itself; who the lawyer
   represents is a client relationship, not part of the title.
+- **Source Descriptors added, 2026-10-16 (Phase 2.6 Pass 3).** Words the
+  reporter uses to describe the person, taken from the row's own text.
+  `62-D4vd_Murder_Charges.csv` row 22: "father" (Jesus Rivas, "her
+  father"). `57-Trump_Jesus_Memes.csv` row 15: "onetime candidate" (Sarah
+  Palin, "onetime candidate for vice president").
+  `54-Coachella_Influencer.csv` rows 1, 2, 10: "content creator, fan"
+  (Cedoni Francis, "a die-hard fan of Mr. Bieber").
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
