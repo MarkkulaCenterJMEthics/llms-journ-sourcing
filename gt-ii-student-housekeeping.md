@@ -848,6 +848,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   States of America" -> "President" (the article says "President
   Trump").
 
+
+- **Descriptors and titles from the candidate list, 2026-10-16.** The
+  article introduces the District 9 candidates in one sentence: "...serial
+  entrepreneur Mike Hennessy, longtime city employee Gordon Chester,
+  licensed marriage and family therapist Genny Altwer and tech worker
+  Rick Ator." These apply to every row for that person, not only the rows
+  near that sentence. Owner/founder/entrepreneur and licensed professions
+  are titles; jobs without stated authority go in Source Descriptors, and
+  "longtime" is left out (it only says how long).
+  `122-SZ_SJ9_Climate_Policy.csv`: row 2 Title "serial entrepreneur"
+  (Hennessy); row 4 Title "licensed marriage and family therapist"
+  (Altwer); rows 3, 16 Source Descriptors "District 9 candidate, city
+  employee" and row 16 Title "longtime city employee" removed (Chester);
+  rows 5, 11 Source Descriptors "District 9 candidate, tech worker" and
+  row 11 Title "tech worker" removed (Ator).
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -1989,6 +2004,22 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Palin, "onetime candidate for vice president").
   `54-Coachella_Influencer.csv` rows 1, 2, 10: "content creator, fan"
   (Cedoni Francis, "a die-hard fan of Mr. Bieber").
+- **Descriptors from anywhere in the article, 2026-10-16.** A word the
+  reporter uses to describe a person counts for all of that person's rows,
+  even when it appears in a sentence that isn't one of their sourced
+  statements. `58-Louisiana_Shooting.csv` row 14: Source Descriptors
+  "gunman, father" (Shamar Elkins: "The police identified the gunman as
+  Shamar Elkins, 31, and said he was the father of seven of the eight dead
+  children").
+  `122-SJ_Climate.csv` (from the candidate-list sentence, "...serial
+  entrepreneur Mike Hennessy, longtime city employee Gordon Chester,
+  licensed marriage and family therapist Genny Altwer and tech worker Rick
+  Ator"): rows 15-16 Source Descriptors "District 9 candidate" (Hennessy,
+  matching the other candidates); row 9 Title "licensed marriage and
+  family therapist" (Altwer); rows 13-14 Source Descriptors "District 9
+  candidate, city employee" (Chester; "longtime" left out, it only says
+  how long); rows 7-8 Source Descriptors "District 9 candidate, tech
+  worker" (Ator; an occupation, not a title).
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
