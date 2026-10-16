@@ -863,6 +863,14 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   rows 5, 11 Source Descriptors "District 9 candidate, tech worker" and
   row 11 Title "tech worker" removed (Ator).
 
+- **Source Justification, 2026-10-16 (Phase 3).** Source Justification
+  says why the source matters to the story, not how the reporter got the
+  statement, and not the statement repeated.
+  `212-Trump_Rejects_Peace_Iran.csv` row 15: blanked (it repeated the
+  Sourced Statement's own attribution, "United Nations children's agency
+  said on Friday, reporting a rise in acute malnutrition among
+  children.").
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2020,6 +2028,23 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   candidate, city employee" (Chester; "longtime" left out, it only says
   how long); rows 7-8 Source Descriptors "District 9 candidate, tech
   worker" (Ator; an occupation, not a title).
+- **Source Justification, 2026-10-16 (Phase 3).** Source Justification
+  says why the source matters to the story -- not how the reporter got
+  the statement (a news conference, an interview), and not an unrelated
+  sentence. `58-Louisiana_Shooting.csv` row 2: blanked ("described the
+  killings in a news conference"); row 7: "who used to work at UPS with
+  Mr. Elkins, said in an interview with The Times" -> "who used to work
+  at UPS with Mr. Elkins"; row 11: blanked ("according to family members
+  who spoke with The Times." -- the attribution itself; "family members"
+  is already in Source Descriptors). `57-Trump_Jesus_Memes.csv` row 7
+  (CNN): blanked ("A conga line of reporters also call and ask him..." is
+  about reporters calling Mr. Trump, not about CNN).
+  `62-D4vd_Murder_Charges.csv` row 18: Name and Title were the literal
+  word "null" -- now blank.
+- **Title as stated, 2026-10-16 (Phase 3).** `58-Louisiana_Shooting.csv`
+  row 2: "Shreveport Mayor" -> "Mayor of Shreveport". The article says
+  "Mayor Tom Arceneaux of Shreveport"; the title keeps the city (the place
+  he holds the office), in the article's own word order.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
