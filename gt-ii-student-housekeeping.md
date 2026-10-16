@@ -871,6 +871,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   said on Friday, reporting a rise in acute malnutrition among
   children.").
 
+- **Missed statement and cut-off attributions, 2026-10-16 (Phase 4a).**
+  `53-Iran_Sea_Trade_Blocked.csv`: new row 12, Anonymous Source (Title
+  "US officials"): "U.S. warships are not escorting the intercepted
+  vessels back to the Iranian ports, both officials said." -- no row had
+  it; old row 12 is now row 13. Rows 2 and 5: the attribution at the end
+  of the sentence had been cut off; a Sourced Statement keeps the whole
+  sentence, including "..., U.S. Central Command said in a post on social
+  media." (row 2) and "...," Foreign Ministry spokesperson Guo Jiakun
+  said." (row 5).
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
