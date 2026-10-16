@@ -1977,6 +1977,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   moved from Title to Source Descriptors ("content creator", "beauty
   content creator", and for Cathie O'Brien "human resources
   professional, content creator").
+- **Missing titles added, 2026-10-16 (Phase 2.6 Pass 2).**
+  `62-D4vd_Murder_Charges.csv` rows 7 (Kent Schaffer, "a lawyer for Mr.
+  Burke's family") and 21 (Patrick Steinfeld, "a lawyer for the
+  family"): Title "lawyer". The title is the role itself; who the lawyer
+  represents is a client relationship, not part of the title.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
