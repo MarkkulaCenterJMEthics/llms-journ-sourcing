@@ -2094,6 +2094,18 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
     Ingleton Smith's row 16 quote (credited there to "one influencer
     manager"). A caption that just repeats a statement from the body
     isn't annotated.
+- **Missed statement and exact copying, 2026-10-16 (Phase 4a).**
+  `57-Trump_Jesus_Memes.csv` (now 16 rows; numbers below are the new
+  ones): new row 1, Trump: "In a 12-hour span this week, President Trump
+  promised that the war with Iran was ending soon. He threatened to fire
+  the chair of the Federal Reserve." -- "promised" and "threatened"
+  report things he said. Left out of the row: "He picked a fight with the
+  pope on social media." (the reporter describing his behavior, not
+  something he said) and "He posted an illustration of himself..." (the
+  same post row 2 already covers). Row 6: "reshoring" -> "re-shoring" (as
+  in the article); row 9: quotation marks restored around "He has always
+  been like this,"; row 14: quotation marks restored around "When you're
+  wrong, ... just get past it,".
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
