@@ -79,6 +79,16 @@ possible future multimodal evaluation). Body sentences that describe a
 graphic and attribute its data ("The map below shows... according to
 Census data") remain body text.
 
+**Narrowed 2026-10-16 -- captions that repeat the body are not annotated**
+(`development-of-v59.md` item 63). A photo caption whose quote or
+statement is wholly or nearly identical to a Sourced Statement from the
+body, or to part of one (an excerpt), is **not** annotatable -- even when
+the caption attributes it differently (e.g. to "one influencer manager"
+where the body names the person). The body row already captures it.
+Annotate a caption only when it carries a sourced statement that isn't in
+the body. First case: `GT-II/54-Coachella_Influencer.csv`, where the top
+photo caption re-quotes part of Shannae Ingleton Smith's row 11 quote.
+
 **Name of Source is the full name as stated in the article (applied 2026-10-15):** use the fullest form the article itself uses for the person -- never a fuller name from outside knowledge, even for unambiguous public figures. Where an article only says "Mr. Trump" / "President Trump" / "Trump", the Name is "Trump"; where it says "Donald Trump" anywhere, use that. (`development-of-v59.md` item 49, Pass 0 note.)
 
 **Sourced Statement extraction (adopted 2026-10-08):** A Sourced Statement is made of exact, full sentences copied from the article — never remove or change words inside a sentence, including an attribution clause within a quoted sentence. All statements attributed to the same source within one paragraph form one row; a new paragraph starts a new row. If the reporter's own sentences (narration, scene-setting, or context not attributed to that source) sit before or between the source's statements in a paragraph, leave them out and join the source's sentences with a single space. A context sentence left out this way may still qualify as Source Justification. (`development-of-v59.md` item 55.) In the article
