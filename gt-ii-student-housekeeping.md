@@ -2056,36 +2056,42 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "Mayor Tom Arceneaux of Shreveport"; the title keeps the city (the place
   he holds the office), in the article's own word order.
 - **Missed statements and paragraph splits, 2026-10-16 (Phase 4a).**
-  `54-Coachella_Influencer.csv` (now 21 rows; row numbers below are the
+  `54-Coachella_Influencer.csv` (now 22 rows; row numbers below are the
   new ones):
   - New row 1, Cedoni Francis: "Now a full-time content creator with
     over 250,000 followers on TikTok, Ms. Francis said she had previously
     received invitations to attend the music festival, held each spring
     in the Southern California desert, from brands a few months before
     the event." -- it says "Ms. Francis said", but no row had it.
-  - Source Descriptors on all four of her rows (1, 2, 3, 13) is now
+  - New row 2, Cedoni Francis: "When she didn't have any offers by March,
+    she took matters into her own hands, posting a six-slide presentation
+    on TikTok pitching herself and her talents, using marketing skills
+    honed at a previous job at Google." -- a separate row from row 1
+    because it reports her TikTok post (which the reporter could see),
+    not what she told the reporter; same as Katie Begley's row 18.
+  - Source Descriptors on all five of her rows (1, 2, 3, 4, 14) is now
     "content creator, fan, graduate student": the article calls her "a
     graduate student at Columbia Business School", and a describing word
     counts for all of a person's rows even when it isn't in the row's own
     text.
-  - New row 12, Unnamed Group of People (Source Descriptors
+  - New row 13, Unnamed Group of People (Source Descriptors
     "influencers"): "In the weeks leading up to the festival, several
     influencers described on TikTok having been invited and then
     subsequently uninvited on brand trips to Coachella."
-  - New row 17, Katie Begley (Source Descriptors "content creator"): the
+  - New row 18, Katie Begley (Source Descriptors "content creator"): the
     paragraph "Katie Begley, a content creator better known as Popstar
     Katie, posted a TikTok in which she laid out her plans for such a
     trip. She bought her flights, ... she was still looking for a place to
     stay." -- it reports what her TikTok said, so it's her statement, not
-    only background (the same text also stays as row 18's Source
+    only background (the same text also stays as row 19's Source
     Justification).
   - One row per paragraph: Shannae Ingleton Smith's old row 4 is now rows
-    5 and 6 ("It's a 'rite of passage,' she said..." is its own
-    paragraph); old row 11 is now rows 14 and 15 ("...chalked it up to
+    6 and 7 ("It's a 'rite of passage,' she said..." is its own
+    paragraph); old row 11 is now rows 15 and 16 ("...chalked it up to
     'Coachella fatigue.'" ends Ms. Francis's paragraph; the "Brands have
     picked up..." quote starts a new one).
   - Not annotated: the top photo caption, which only repeats part of Ms.
-    Ingleton Smith's row 15 quote (credited there to "one influencer
+    Ingleton Smith's row 16 quote (credited there to "one influencer
     manager"). A caption that just repeats a statement from the body
     isn't annotated.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
