@@ -2106,6 +2106,9 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   in the article); row 9: quotation marks restored around "He has always
   been like this,"; row 14: quotation marks restored around "When you're
   wrong, ... just get past it,".
+  Row 5 (Mr. Trump's advisers): Source Justification "some of Mr.
+  Trump's advisers" blanked -- it only repeats who the source is (the
+  attribution and the Title), not why they matter.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
