@@ -27,6 +27,12 @@ this is action items to hand to the students directly, starting with the
   migrated with both SZ's and AV's annotations. (Original XLSx
   untouched; CSV recoverable from git, commit 11aa5a8.) Confirmed
   excluded 2026-10-07.
+- **59, 136** — not news stories. 59 ("The Robot Rat Race", Institute
+  for Global Affairs) is a foundation's explainer, and 136 ("Scientists
+  create supercharged vitamin K...", ScienceDaily) is a republished
+  research summary. Their GT-II CSVs (`59-Robot_Rat_Race.csv`,
+  `136-Vitamin_K.csv`) and article texts were removed 2026-10-21
+  (recoverable from git, commit 5261112). Original XLSx untouched.
 
 ## What we need from you right now (as of 2026-09-17)
 
