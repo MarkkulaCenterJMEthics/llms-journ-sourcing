@@ -887,6 +887,18 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   media." (row 2) and "...," Foreign Ministry spokesperson Guo Jiakun
   said." (row 5).
 
+- **Name of Source cleared for unnamed sources, 2026-10-23.** Unnamed Person and Unnamed Group of People sources have no Name of
+  Source; the words that had been put there now go in Title of Source if
+  they name a role with authority or expertise (officials, regulators,
+  economists, officers, leaders), and in Source Descriptors otherwise
+  (residents, advocates, organizers, investors).
+  `123-Iran_Uranium.csv` rows 14-15: Name "Iranian Officials" -> Title
+  "Iranian officials". `151-US_Housing_Pressure.csv` rows 3, 5: Name
+  "Economists" -> Title "economists" (row 3's Title "Economists polled by
+  Reuters" trimmed: how the estimate was gathered isn't part of the
+  title). `106-Palestine_Protest_Arrests.csv` row 1: Name "Officer" ->
+  Title "officer".
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2115,6 +2127,28 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Row 5 (Mr. Trump's advisers): Source Justification "some of Mr.
   Trump's advisers" blanked -- it only repeats who the source is (the
   attribution and the Title), not why they matter.
+- **Name of Source cleared for unnamed sources, 2026-10-23.** Unnamed Person and Unnamed Group of People sources have no Name of
+  Source; the words that had been put there now go in Title of Source if
+  they name a role with authority or expertise (officials, regulators,
+  economists, officers, leaders), and in Source Descriptors otherwise
+  (residents, advocates, organizers, investors).
+  `72-Quantum_Campus.csv`: row 3 -> Source Descriptors "neighborhood
+  watchdog groups"; row 7 -> Title "community leaders", Source
+  Descriptors "Southeast Side residents, environmental justice
+  advocates"; row 12 -> Source Descriptors "Southeast Side organizers";
+  row 22 -> Source Descriptors "legal assistant"; row 33 -> Title "state
+  regulators"; row 34 -> Source Descriptors "resident"; row 38 -> Source
+  Descriptors "advocates, residents". `80-Quantum_Medicine.csv` row 3:
+  Name "investors" -> Source Descriptors "investors" (this row will be
+  removed later: its Sourced Statement isn't a valid one -- see the
+  Sourced Statement validity sweep).
+- **Missing Type of Source, 2026-10-23.** `116-Trump_Christian_Independance_Day.csv`
+  row 6 ("And Interior and other federal agencies have awarded no-bid
+  contracts ... citing an 'urgency' exemption...") had no Type and no
+  Name. Now Named Organization, Name "Interior Department" (the article
+  names it in the sentence before). The reason the agencies cite comes
+  from Interior; "other federal agencies" aren't named, so they aren't a
+  separate row.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
