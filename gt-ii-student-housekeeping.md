@@ -2228,6 +2228,17 @@ Of the 71 distinct story numbers with an XLSx delivered, 19 fall in the no-URL b
 **c) Dual-coded files converted: ✅ Confirmed.**
 9 story numbers have 2 XLSx files each (52, 55, 76, 94, 108, 109, 112, 122, 125) — all 9 have exactly 2 corresponding CSVs. All 9 also have real article text and were fully carried through Phase 1/2 of the migration.
 
+  *Update 2026-10-23:* a **13th dual-coded pair** was found while
+  computing talk statistics: `67-California_Ships_Whales.csv` (AV side,
+  `#67 - California Ships Whales.xlsx`; listed under the Aashka/AV
+  column of the GT Expansion List) and `70-South_Bay_Whales.csv` (SZ,
+  `70 - South Bay Whales.xlsx`; Suha/SZ column) are the same KQED
+  article ("California Asks Ships to Hit the Brakes for Whales", same
+  URL and text). It was delivered under two story numbers, so it was
+  never flagged as an overlap. Treat 67/70 as a dual-coded pair from
+  now on (for counting, SZ's 70 is used). The full list is now 52, 55,
+  61, 67/70, 74, 76, 94, 98, 108, 109, 112, 122, 125.
+
 **d) Maximum possible migration complete: ✅ Confirmed.**
 Full accounting of all 71 distinct story numbers:
 
