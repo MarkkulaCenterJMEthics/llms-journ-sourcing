@@ -196,6 +196,25 @@ The same formula (`Do`, `De`, `alpha = 1 - (Do/De)(N-1)`) applied to every colum
 
 *This documentation was written as a clear methodology baseline before evaluating Gwet's AC1/AC2 as an alternative reliability measure, so any difference in results could be attributed to the formula, not to ambiguity about what data each one actually consumed — see the "Gwet's AC1" section below for what came of that.*
 
+### Re-run with the GT-2026 migration's SJ fixes (2026-10-22)
+
+The same 100 rows, re-run with the unchanged script on corrected copies in `ICRcombined/Oct22-100R-GT2026-SJfix/` (the July files are untouched). Only technical misses were fixed; ICR is meant to measure interpretive disagreement:
+
+- SJ that only states the medium of contact removed: row 2 ("said by email", both sides) and row 62 (ann1, "said in an email"; ann2 was already blank).
+- Rows 58 and 86: both coders had the same SJ, so both sides got the GT-2026 value (58: Wilburn's lived-experience sentence; 86: "Steve Smith of Civic Nebraska" trimmed off).
+- 18 cells in ann1 with broken character encoding (e.g. `‚Äú` for a curly quote) repaired.
+- Not applied: the 11 SJ values the migration copied forward onto a source's later rows (a convention, not a coder disagreement; dropped in v60sj), and DogWalker, whose GT-2026 file came from a third coder.
+
+| Column | July | Oct 22 |
+|---|---|---|
+| `Sourced Statements` | `0.8947` | `0.9114` |
+| `Source Justification` | `0.7008` | `0.7136` |
+| `Type of Source` | `0.9655` (AC1 `0.9766`) | `0.9655` (AC1 `0.9766`) |
+| `Name of Source` | `0.9449` | `0.9494` |
+| `Title of Source` | `0.9394` | `0.9394` |
+
+Re-running the July files through the current script reproduces the July numbers exactly, so every change comes from the data fixes. The `Sourced Statements` and `Name of Source` gains are entirely from the encoding repair. This is not a v59/v60-schema ICR: `Source Descriptors` isn't scored and Sourced Statement boundaries aren't re-cut; that waits for the ICR redesign (`development-of-v59.md` item 60).
+
 ## Data-quality fix: relational descriptions don't belong in `Title of Source` (found 2026-07-24)
 
 While reviewing the `Type of Source` canonicalization work above, a real annotation error turned up: one story (Nebraska carjacking/murder case — the source of the "Melanie Roberts, victim's granddaughter" quotes; also informally nicknamed `DogWalker` in this dataset after a detail of the crime) had `Victim's granddaughter` recorded in `Title of Source` for its `Melanie Roberts` rows, with `Source Justification` left as a `none` placeholder.
