@@ -2149,6 +2149,37 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   names it in the sentence before). The reason the agencies cite comes
   from Interior; "other federal agencies" aren't named, so they aren't a
   separate row.
+- **Missed statements, 2026-10-30 (Phase 4a).** `58-Louisiana_Shooting.csv`
+  (now 21 rows; row numbers below are the new ones). This is a
+  live-updated New York Times explainer ("Published April 20, 2026,
+  Updated April 21, 2026"), and our text is the April 21 version. The
+  original annotation (workbook sheet "58 - Sydney - Manual") stops at
+  Marcus Jackson's quote and words one sentence differently ("The Times"
+  for "The New York Times"), so it was most likely done on an earlier
+  version of the article. These rows are added so the annotation matches
+  the text we use; they don't reflect a careless annotation.
+  - New row 3, Unnamed Group of People (Title "Police"): "The killings
+    occurred during a shooting rampage that spanned at least three
+    locations ..., the police said. Officers responded ... Later, they
+    said that there was another crime scene at a second residence."
+  - New row 8, Unnamed Group of People (Source Descriptors "relatives"):
+    "Mr. Elkins's relatives said he worked for UPS."
+  - New row 19, Betty Walker: "Betty Walker — the woman who had raised
+    Mr. Elkins as her son, though she was not his biological mother —
+    said on Monday that three years ago, she witnessed a disagreement
+    between the gunman and Ms. Pugh, his wife-to-be." (Source
+    Justification: "the woman who had raised Mr. Elkins as her son,
+    though she was not his biological mother").
+  - New row 20, Shaneiqua Pugh (Source Descriptors "wife"): "While
+    their daughters played outside, Ms. Pugh said that she was
+    considering leaving Mr. Elkins and taking her children with her."
+    The statement is Ms. Pugh's, though Ms. Walker witnessed it, the same
+    way row 16 credits Mr. Elkins for words his parents relayed.
+  - New row 21, Betty Walker: "Ms. Walker said he became furious and
+    declared that if they tried to leave, 'I'll kill you, my kids and
+    myself.'"
+  - Row 9 (Willie Vasher): "in an interview with The Times" -> "in an
+    interview with The New York Times", as in the article.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
