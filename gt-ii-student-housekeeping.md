@@ -2180,6 +2180,29 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
     myself.'"
   - Row 9 (Willie Vasher): "in an interview with The Times" -> "in an
     interview with The New York Times", as in the article.
+- **Paragraph boundaries and exact copying, 2026-11-02 (Phase 4a).**
+  `62-D4vd_Murder_Charges.csv` (now 25 rows; numbers below are the new
+  ones). A Sourced Statement holds one paragraph; a new paragraph starts
+  a new row.
+  - Rows 4-9: the lawyers' two paragraphs had been one row per lawyer.
+    Now each lawyer (Blair Berk, Marilyn Bednarski, Regina Peter) has a
+    row for "Lawyers for Mr. Burke have said they will 'vigorously defend
+    David's innocence.'" (rows 4-6) and a row for "'The actual evidence
+    in this case...' the lawyers... said in a statement on Monday." (rows
+    7-9).
+  - Row 12 (officials): added the sentence before it in the same
+    paragraph, "The case has captivated the public since the authorities
+    announced in September that they had discovered human remains in a
+    Tesla registered to Mr. Burke." -- the authorities and the officials
+    are the same unnamed group.
+  - Row 2: the opening sentence ("Because of the special circumstances,
+    the charge carries a maximum sentence...") left out -- it's the
+    reporter's own explanation before Mr. Hochman's statement; the row is
+    now "Mr. Hochman said his office had not decided whether to pursue
+    the death penalty."
+  - Row 14: added the paragraph's last sentence, "At the time, she was 13
+    years old." (it continues the complaint's account).
+  - Row 17: quotation marks restored around "A parent's nightmare,".
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
