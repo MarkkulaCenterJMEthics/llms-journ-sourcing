@@ -2215,6 +2215,14 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Tom Cole (R-Okla.) cast doubt, however, on any immediate impact.") and
   row 14 ("'We don't know anything really about the opinion yet,' Cole
   cautioned.").
+- **Row removed, 2026-11-02 (Phase 4b).** `62-D4vd_Murder_Charges.csv`
+  old row 21 removed (now 24 rows): "In November, a judge granted a
+  request from the Los Angeles Police Department to place a security hold
+  on a report from the medical examiner." No one is quoted or cited; it's
+  the reporter stating what a court did. The medical examiner's report is
+  what the hold applies to, not where the sentence comes from. The rest
+  of that paragraph (Mr. Hochman saying the report would be released
+  soon) is already row 21 now.
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
