@@ -899,6 +899,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   title). `106-Palestine_Protest_Arrests.csv` row 1: Name "Officer" ->
   Title "officer".
 
+- **One row per paragraph, 2026-11-02 (Phase 4a).** `84-Paradise_Lake_Fire.csv`
+  (now 5 rows): James Lico's old rows 4 and 5 are now row 4 ("Lico noted
+  the complexity of this portion, stating, '...' He added, '...'"), and
+  old rows 6 and 7 are now row 5 ("'We appreciate the patience...' Lico
+  said. 'There is urgency...'"). Each pair is a single paragraph on the
+  KTVN page (one `<p>` in the page's HTML), so it is one row. The page
+  shows each quote in italics with "Lico said." in bold, which makes the
+  quotes look like separate pieces -- an easy split to make.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
