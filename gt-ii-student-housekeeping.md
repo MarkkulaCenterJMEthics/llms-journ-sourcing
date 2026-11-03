@@ -931,6 +931,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
     by..." is an explicit attribution that had no row. (The organization
     that issues rules in its own name is the source.)
 
+- **Sourced Statement copied exactly, 2026-11-02 (Phase 4a).**
+  `212-Trump_Rejects_Peace_Iran.csv` row 4: quotation marks restored around
+  "If there is seriousness on the US side to come to a deal and reopen the
+  Strait of Hormuz, everything is now prepared,".
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
