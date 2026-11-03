@@ -908,6 +908,14 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   shows each quote in italics with "Lico said." in bold, which makes the
   quotes look like separate pieces -- an easy split to make.
 
+- **Sourced Statement completed, 2026-11-02 (Phase 4a).** `91-El_Nino.csv`
+  row 10 (Wenju Cai): added the next sentence of the same paragraph, "The
+  rapid switch caused a high-pressure system over the western Pacific to
+  channel warm, wet air from the tropics and ram it toward China." -- it
+  continues Dr. Cai's explanation. Rows 12 and 13 (also Dr. Cai, same
+  paragraph) stay separate rows: row 12 is what he said, row 13 is what
+  his team's study found.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
