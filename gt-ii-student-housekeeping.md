@@ -2203,6 +2203,18 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   - Row 14: added the paragraph's last sentence, "At the time, she was 13
     years old." (it continues the complaint's account).
   - Row 17: quotation marks restored around "A parent's nightmare,".
+- **One row per paragraph, 2026-11-02 (after the text re-flow).** Once
+  the PDF-converted story texts were re-flowed to one paragraph per line
+  (see `extracted_articles_boilerplate/REFLOW_2026-11.md`), two rows turned
+  out to span two paragraphs; each is now two rows.
+  `57-Trump_Jesus_Memes.csv` (now 17 rows): Stephanie Grisham's row 11 ->
+  row 11 ("He'll double down... said Stephanie Grisham, a former White
+  House press secretary for Mr. Trump.") and row 12 ("But she added:
+  'He's being erratic, even for him.'"). `128-Congress_Pay_Battle.csv`
+  (now 18 rows): Tom Cole's row 13 -> row 13 ("House Appropriations Chair
+  Tom Cole (R-Okla.) cast doubt, however, on any immediate impact.") and
+  row 14 ("'We don't know anything really about the opinion yet,' Cole
+  cautioned.").
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
