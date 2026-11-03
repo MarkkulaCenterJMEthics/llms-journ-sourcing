@@ -916,6 +916,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   paragraph) stay separate rows: row 12 is what he said, row 13 is what
   his team's study found.
 
+- **Phase 4a fixes, 2026-11-02.** `98-Trump_China.csv` (5 rows):
+  - Row 1: comma restored ("...some of the executives, according to the
+    White House official...").
+  - Row 2 (Elon Musk): old rows 2 and 3 merged -- both are in one
+    paragraph ("The billionaire... feuded with Trump... Musk eventually
+    said that he regretted some of his posts on X about Trump.").
+  - New row 4, Named Organization "Commerce Department's Bureau of
+    Industry and Security": "Nvidia must ensure that there is an adequate
+    supply in the U.S., and the H200 chips must undergo a third-party
+    review before being exported to China, according to new rules set by
+    the Commerce Department's Bureau of Industry and Security. But the new
+    rules lower the bar for exports." -- "according to new rules set
+    by..." is an explicit attribution that had no row. (The organization
+    that issues rules in its own name is the source.)
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
