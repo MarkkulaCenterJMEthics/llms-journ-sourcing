@@ -936,6 +936,22 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "If there is seriousness on the US side to come to a deal and reopen the
   Strait of Hormuz, everything is now prepared,".
 
+- **Photo captions no longer annotated, 2026-11-05.** Photo captions
+  (and their photo credits) are not part of the annotated text any more;
+  they now sit in each story's header as a `Caption:` field, so the models
+  don't see them either. Rows that came from a caption were moved to
+  `GT-II/caption-only-rows.csv` (kept, not deleted).
+  `55-Chicago_Pentagon.csv` (now 24 rows): old row 1 (Andrew Torrence,
+  "...said he moved to the neighborhood with the hopes of setting down
+  roots...") and old row 20 (Jayna McGruder, "...said she first realized
+  the impact of inequality...") -- both from photo captions; both people
+  still have their other rows from the article body.
+  `122-SZ_SJ9_Climate_Policy.csv` (now 20 rows): old row 21 (organizers
+  behind the candidate forum) -- from a photo caption.
+  `135-Laos_Divers.csv` (now 20 rows): old row 13 ("This video grab
+  provided by the Association Of Volunteers For Lao People, shows
+  rescuers evacuating...") -- from a video-still caption.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd

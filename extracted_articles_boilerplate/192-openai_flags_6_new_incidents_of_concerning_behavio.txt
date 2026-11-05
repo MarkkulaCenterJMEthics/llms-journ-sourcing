@@ -4,6 +4,7 @@ Author: NBC News
 Subtitle: The announcement late Wednesday follows mounting public calls for a slowdown in the pace of the technology’s development, with U.S. tech bosses voicing grave safety concerns.
 URL: https://www.nbcnews.com/tech/tech-news/openai-new-incidents-concerning-behavior-model-misalignment-rcna598277
 Source PDF: 192 - OpenAI flags 6 new incidents of ‘concerning’ behavior and unveils plan to track it.pdf
+Caption: Justin Sullivan / Getty Images
 ==================================================
 
 ARTIFICIAL INTELLIGENCE
@@ -15,7 +16,6 @@ The announcement late Wednesday follows mounting public calls for a slowdown in 
 These interventions have helped drive growing public attention to the issue ahead of a summit next week between President Donald Trump and Chinese President Xi Jinping that will be clouded by questions over whether rivalry between the superpowers could prevent cooperation on the issue.
 The warnings from OpenAI chief executive Sam Altman and other industry leaders have centered in part on fears that AI intelligence has grown faster than the industry’s ability to catch instances of rogue behavior.
 The six instances were discovered during training or evaluation over the past months, OpenAI said.
-Justin Sullivan / Getty Images
 Hundreds of OpenAI’s agents hacked into model repository Hugging Face and covered their tracks, the company disclosed in July.
 Among the new cases reported Wednesday was a similar incident in which OpenAI’s models use internal software as a message board to inform each other about their responses while solving a task, the company said.
 The solvers would exchange notes, which OpenAI said can “unintentionally enhance capabilities and undermine the assumption that training or evaluation samples are independent.”

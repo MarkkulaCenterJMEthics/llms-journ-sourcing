@@ -2,12 +2,13 @@
 Title: US housing market remains under pressure in July; factory output rises
 Summary: Single-family housing starts drop to lowest rate since Nov 2022 though permits for future construction rise | Factory output bolstered by demand for high-tech equipment and supplies for AI investment | Defense sector production also up amid Iran war
 Source PDF: 151 - US housing market remains under pressure in July_ factory output rises _ Reuters.pdf
+Caption: Construction workers paint a residential housing project during a heat wave, in Carlsbad, California, U.S. July 8, 2025. REUTERS/Mike Blake
 ==================================================
 
 US housing market remains under pressure in July; factory output rises
 By Reuters
 August 18, 2026 5:55 AM PDT · Updated August 18, 2026
-Construction workers paint a residential housing project during a heat wave, in Carlsbad, California, U.S. July 8, 2025. REUTERS/Mike Blake Aug 18 (Reuters) - U.S. single-family homebuilding fell sharply in July to the lowest in more than three-and-a-half-years and contract signings for purchases of existing homes also slid in the latest signal that the housing market remains under pressure from higher mortgage rates and economic uncertainty from the Iran war.
+Aug 18 (Reuters) - U.S. single-family homebuilding fell sharply in July to the lowest in more than three-and-a-half-years and contract signings for purchases of existing homes also slid in the latest signal that the housing market remains under pressure from higher mortgage rates and economic uncertainty from the Iran war.
 The manufacturing sector, meanwhile, continues to ride the coattails of the artificial intelligence build out, with a Federal Reserve measure of factory output hitting its highest in more than four years last month, led by production gains for high-tech equipment and industrial and construction supplies.
 Single-family housing starts, which account for the bulk of homebuilding, dropped 9.9% last month to a seasonally adjusted annual rate of 808,000 units, the Commerce Department's Census Bureau said on Tuesday. That was the lowest since November 2022.
 Single-family homebuilding slid 15.7% year-on-year in July.

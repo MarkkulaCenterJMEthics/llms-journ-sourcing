@@ -369,10 +369,10 @@ LEGACY_HEADER_FIELD = re.compile(r'^(Headline|Subtitle|Date|Publisher):', re.M)
 def article_body(text):
     """
     Return only the article's title and body for the model, dropping the
-    metadata header (author, date, URL, source PDF, subtitle). GT
-    annotates the body only -- photo captions and scrollytelling panels
-    count as body, subtitles and summary bullets don't -- so the model
-    should see exactly that. Handles both header formats in
+    metadata header (author, date, URL, source PDF, subtitle, captions).
+    GT annotates the body only -- scrollytelling panels count as body;
+    subtitles, summary bullets, graphics and photo captions don't -- so
+    the model should see exactly that. Handles both header formats in
     extracted_articles_boilerplate/: the "=====" block with Title:/
     Author:/... fields, and the older Headline:/Subtitle:/Date:/
     Publisher: block (GT-2026 stories) ended by the first blank line.

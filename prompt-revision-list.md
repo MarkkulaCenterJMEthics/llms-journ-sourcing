@@ -9,7 +9,7 @@ Item numbers in parentheses point to `development-of-v59.md`: "Prompt Updates" i
 
 ## Minor (v61)
 
-1. **Body-only annotation scope.** *Added 2026-10-08; caption-repeat exception added 2026-10-16 (`development-of-v59.md` item 63).* Reminder set for 2026-10-09: decide the exact prompt wording and where it goes.* Rule adopted 2026-10-08 (`development-of-v59.md` items 51 and 53). The current user prompt's step 1 only says "ignore the Subtitle"; it doesn't cover captions, scrolling-graphic text panels, summary boxes, graphics, or images of documents. The human-facing instruction below is final and in use. For the LLM prompt, replace the subtitle sentence in step 1 (and the "(Ignore the Subtitle text if it exists)" note in the opening line) with a short version, e.g.: *"Annotate only the body of the article: its paragraphs, photo captions, and any article-style text panels. Ignore the headline, subtitle, summary boxes ('Summary', 'Key points', etc.), and any text from charts, maps or tables. Skip a photo caption that only repeats a statement already in the body."* Since extraction now strips subtitles, summary boxes and graphic text before the model sees the article (`article_body()` in `v10-extract-multiple-LLMs.py`), this line is a backstop for anything that slips through.
+1. **Body-only annotation scope.** *Added 2026-10-08; revised 2026-11-05: photo captions no longer count (`development-of-v59.md` item 69).* Reminder set for 2026-10-09: decide the exact prompt wording and where it goes.* Rule adopted 2026-10-08 (`development-of-v59.md` items 51 and 53). The current user prompt's step 1 only says "ignore the Subtitle"; it doesn't cover scrolling-graphic text panels, summary boxes, photo captions, graphics, or images of documents. The human-facing instruction below is final and in use. For the LLM prompt, replace the subtitle sentence in step 1 (and the "(Ignore the Subtitle text if it exists)" note in the opening line) with a short version, e.g.: *"Annotate only the body of the article: its paragraphs and any article-style text panels. Ignore the headline, subtitle, summary boxes ('Summary', 'Key points', etc.), photo captions, and any text from charts, maps or tables."* Since extraction now strips subtitles, summary boxes, captions and graphic text before the model sees the article (`article_body()` in `v10-extract-multiple-LLMs.py`), this line is a backstop for anything that slips through.
 
    Human-facing instruction (as adopted):
 
@@ -17,23 +17,21 @@ Item numbers in parentheses point to `development-of-v59.md`: "Prompt Updates" i
    >
    > Annotate sourced statements **only in the body of the article**. The body includes:
    > - every paragraph of the article's main text, from first to last
-   > - **photo captions** (the text under a photo), because they sometimes say where information came from -- but not a caption that only repeats a statement already in the body (see below)
    > - **text panels in a scrolling graphic** (sometimes called "scrollytelling"), when they read as ordinary article paragraphs
    >
    > **Do not annotate:**
    > - the **headline** or the **subtitle** (the summary line just under the headline)
+   > - **photo captions** (the text under a photo, and its credit line)
    > - **summary boxes**, such as "Summary," "Key points," "In summary," "Overview," or "Need to know"
    > - anything that belongs to a **chart, map, table, or other data graphic**: its title, description, labels, notes, or "Source:" line
    > - text that appears **only inside an image**, such as a screenshot of an email or document
    > - **bylines, datelines, author bios,** newsletter sign-ups, ads, "Read more" links, and other page navigation
    >
-   > **Captions that repeat the body:** if a photo caption quotes or restates something that is already a sourced statement in the body (word for word, nearly so, or as an excerpt), don't annotate the caption, even if it credits the statement differently (for example, "one influencer manager said" where the body names the person). Annotate a caption only when it has a sourced statement that the body doesn't.
-   >
    > **One thing that is body text:** a sentence in the article that describes a graphic and says where its data comes from, such as *"The map below shows which ZIP codes have the most older homes, according to Census data."* Annotate it as usual.
    >
-   > **Why:** Subtitles and summary boxes repeat what the body already says. Graphics and images aren't part of the plain text the models receive. Annotating only the body means human and model annotations are measured against the same text.
+   > **Why:** Subtitles and summary boxes repeat what the body already says. Photo captions, graphics and images aren't part of the plain text the models receive. Annotating only the body means human and model annotations are measured against the same text.
    >
-   > **If a statement seems important but you only find it in a subtitle, summary box or graphic,** look for the same information in the body. If the body has it, annotate the body version. If it doesn't, leave it out.
+   > **If a statement seems important but you only find it in a subtitle, summary box, caption or graphic,** look for the same information in the body. If the body has it, annotate the body version. If it doesn't, leave it out.
 
 2. Title of Source qualifier-trim notes, co-referenced (Prompt Updates 20).
 3. Source Descriptors: the missing counterpart to the org-affiliation-stripping paragraph (Prompt Updates 21).

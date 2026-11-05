@@ -63,14 +63,14 @@ question surfaced while applying this methodology, see that same file's
 
 ## Standing rule — what counts as annotatable article text (adopted 2026-10-08)
 
-Annotate the article **body** only. The body includes **photo captions**
-(they sometimes carry attribution) and **scrollytelling panels** (reported
-paragraphs overlaid on a pinned graphic, e.g. story 113). It does **not**
-include the subtitle/dek under the headline, Reuters-style "Summary"
+Annotate the article **body** only. The body includes **scrollytelling
+panels** (reported paragraphs overlaid on a pinned graphic, e.g. story 113).
+It does **not** include **photo captions** (revised 2026-11-05, see below),
+the subtitle/dek under the headline, Reuters-style "Summary"
 bullets, or other summary boxes ("In summary", "Overview:", "KEY POINTS") --
 these recap the body and are rarely independent of it. **Graphics are excluded too (adopted 2026-10-08):** the text
-benchmark covers only the text payload sent to the models -- body, photo
-captions, scrollytelling panels. Text belonging to charts, maps, tables or
+benchmark covers only the text payload sent to the models -- body and
+scrollytelling panels. Text belonging to charts, maps, tables or
 other data graphics (titles, descriptions, labels, notes, source lines),
 and images of documents (e.g. email screenshots), is excluded from both
 the article text (moved to a `Graphic:` header field) and the scored GT
@@ -79,7 +79,17 @@ possible future multimodal evaluation). Body sentences that describe a
 graphic and attribute its data ("The map below shows... according to
 Census data") remain body text.
 
-**Narrowed 2026-10-16 -- captions that repeat the body are not annotated**
+**Revised 2026-11-05 -- photo captions are not annotated at all**
+(`development-of-v59.md` item 69). Caption text (with its photo credit) is
+moved out of the body into a `Caption:` header field, so the models never
+see it, and caption-derived GT rows are kept in
+`GT-II/caption-only-rows.csv`. Reason: the article texts were inconsistent
+-- captions survived in only 34 of 165 texts (PDF conversions kept them,
+web fetches mostly dropped them) -- and only 4 GT rows (0.13%) came from
+captions. Scrollytelling panels stay in the body: they are the story's own
+reported paragraphs. The 2026-10-16 narrowing below is superseded.
+
+~~**Narrowed 2026-10-16 -- captions that repeat the body are not annotated**~~
 (`development-of-v59.md` item 63). A photo caption whose quote or
 statement is wholly or nearly identical to a Sourced Statement from the
 body, or to part of one (an excerpt), is **not** annotatable -- even when

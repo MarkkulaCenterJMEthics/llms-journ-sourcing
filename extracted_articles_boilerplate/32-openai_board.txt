@@ -2,12 +2,12 @@ Headline: Before Altman’s Ouster, OpenAI’s Board Was Divided and Feuding
 Subtitle: Sam Altman confronted a member over a research paper that discussed the company, while directors disagreed for months about who should fill board vacancies.
 Date: Nov. 21, 2023
 Publisher: The New York Times
+Caption: Sam Altman called an OpenAI board member’s research paper a danger to the company weeks before he was ousted as its chief executive.Justin Sullivan/Getty Images | Helen Toner, an OpenAI board member, defended the research paper she co-wrote. Matt Winkelmeyer/Getty Images
 
 Before Altman’s Ouster, OpenAI’s Board Was Divided and Feuding
 Sam Altman confronted a member over a research paper that discussed the company, while directors disagreed for months about who should fill board vacancies.
 Nov. 21, 2023
 
-Sam Altman called an OpenAI board member’s research paper a danger to the company weeks before he was ousted as its chief executive.Justin Sullivan/Getty Images
 Before Sam Altman was ousted from OpenAI last week, he and the company’s board of directors had been bickering for more than a year. The tension got worse as OpenAI became a mainstream name thanks to its popular ChatGPT chatbot.
 At one point, Mr. Altman, the chief executive, made a move to push out one of the board’s members because he thought a research paper she had co-written was critical of the company.
 Another member, Ilya Sutskever, thought Mr. Altman was not always being honest when talking with the board. And some board members worried that Mr. Altman was too focused on expansion while they wanted to balance that growth with A.I. safety.
@@ -20,7 +20,6 @@ The board had told Mr. Brockman that he would no longer be OpenAI’s chairman b
 OpenAI’s board troubles can be traced to the start-up’s nonprofit beginnings. In 2015, Mr. Altman teamed with Elon Musk and others, including Mr. Sutskever, to create a nonprofit to build A.I. that was safe and beneficial to humanity. They planned to raise money from private donors for their mission. But within a few years, they realized that their computing needs required much more funding than they could raise from individuals.
 After Mr. Musk left in 2018, they created a for-profit subsidiary that began raising billions of dollars from investors, including $1 billion from Microsoft. They said that the subsidiary would be controlled by the nonprofit board and that each director’s fiduciary duty would be to “humanity, not OpenAI investors,” the company said on its website.
 
-Helen Toner, an OpenAI board member, defended the research paper she co-wrote. Matt Winkelmeyer/Getty Images
 Among the tensions leading up to Mr. Altman’s ouster and quick return involved his conflict with Helen Toner, a board member and a director of strategy at Georgetown University’s Center for Security and Emerging Technology. A few weeks before Mr. Altman’s firing, he met with Ms. Toner to discuss a paper she had co-written for the Georgetown center.
 Mr. Altman complained that the research paper seemed to criticize OpenAI’s efforts to keep its A.I. technologies safe while praising the approach taken by Anthropic, a company that has become OpenAI’s biggest rival, according to an email that Mr. Altman wrote to colleagues and that was viewed by The New York Times.
 In the email, Mr. Altman said that he had reprimanded Ms. Toner for the paper and that it was dangerous to the company, particularly at a time, he added, when the Federal Trade Commission was investigating OpenAI over the data used to build its technology.
