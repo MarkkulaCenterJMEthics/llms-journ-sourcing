@@ -952,6 +952,25 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   provided by the Association Of Volunteers For Lao People, shows
   rescuers evacuating...") -- from a video-still caption.
 
+- **Source Descriptors filled on every row for the same source, 2026-11-05.**
+  A source's Source Descriptors now apply to all of that source's rows in
+  a story, not only the row whose sentence states the descriptor.
+  `122-SZ_SJ9_Climate_Policy.csv` rows 13 and 14 (Scott Hughes): blank ->
+  "District 9 candidate" (as on row 1). `163-Jill_Stein_Court.csv` rows 5
+  and 6 (Washington University): blank -> "university" (as on row 11).
+- **Organization category words filled from the article, 2026-11-05.**
+  When the article calls an organization by a category word ("the
+  nonprofit," "a think tank"), that word goes in Source Descriptors on all
+  of the organization's rows. `65-Housing_Tech_and_Taxes.csv` rows 20 and
+  28 (Joint Venture Silicon Valley): "nonprofit" -> "nonprofit, think tank"
+  ("Joint Venture Silicon Valley, a think tank that studies the region").
+  `76-Ghiradelli_Square.csv` rows 2 and 8 (1823 Partners): blank -> "asset
+  management firm, company" ("the asset management firm has ties to...";
+  "1823 Partners is an independent company"). `95-China_Death_Penalty.csv`
+  rows 6 and 7 (PLA Daily): blank -> "newspaper" ("the official PLA Daily
+  newspaper"). *(95's annotator isn't recorded in the repo; filed here
+  under SZ -- move to AV if that's wrong.)*
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2276,6 +2295,30 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   what the hold applies to, not where the sentence comes from. The rest
   of that paragraph (Mr. Hochman saying the report would be released
   soon) is already row 21 now.
+- **Source Descriptors filled on every row for the same source, 2026-11-05.**
+  A source's Source Descriptors now apply to all of that source's rows in
+  a story, not only the row whose sentence states the descriptor.
+  `168-Texas_Power_Outages.csv` rows 11-14 and 29-33 (Brianna Blake):
+  blank -> "mother" (as on rows 10 and 28). `166-DC_Essential_Workers.csv`
+  rows 1-4, 15, 16 (Tamara Keitt-Barnes): -> "nanny, Prince George's County
+  resident" (rows 1 and 15 had "nanny, resident" and "nanny"; the others
+  were blank; "Prince George's County resident" is how the article
+  describes her). `122-SJ_Climate.csv` rows 10-12 (Scott Hughes): blank ->
+  "District 9 candidate", matching SZ's copy. `128-Congress_Pay_Battle.csv`
+  row 12 (Steny Hoyer): blank -> "plaintiff" (as on row 4).
+  `175-Indigenous_Health_COVID.csv` row 78 (Phillip Smith): blank -> "Diné"
+  (as on rows 79 and 80).
+- **Organization category words filled from the article, 2026-11-05.**
+  When the article calls an organization by a category word, that word
+  goes in Source Descriptors on all of the organization's rows.
+  `76-AV_Ghiradelli_Deal.csv` row 5 (1823 Partners): blank -> "asset
+  management firm, company", matching SZ's copy.
+  `113-California_Homes_Uninsured.csv` row 95 (Farmers): blank -> "home
+  insurer" ("Farmers, the second-largest home insurer in California").
+  `116-Trump_Christian_Independance_Day.csv` row 7 (Event Strategies):
+  blank -> "company" ("Event Strategies, a company that organized the
+  rally...").
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
