@@ -971,6 +971,32 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   newspaper"). *(95's annotator isn't recorded in the repo; filed here
   under SZ -- move to AV if that's wrong.)*
 
+- **Source Descriptors must be the reporter's own word, 2026-11-05.** A
+  Source Descriptor has to be a word the article actually uses for that
+  source; a label worked out from other facts in the story doesn't count.
+  `105-Texas_Plantation_Prison.csv`: Robert Hockley (rows 4-11, 13, 22,
+  35, 36, 43, 46, 47) "formerly incarcerated" -> blank (the article never
+  calls him that; his release is in his Source Justification and row 43);
+  Craig Anderson (rows 12, 20, 23, 24) "formerly incarcerated" -> "recently
+  released" ("as the recently released Anderson told us"); Mary McConnell
+  (row 25) "wife of an incarcerated person" -> blank; Tona Southards
+  Naranjo (row 29) "mother" -> blank (the article says "her son Jon" but
+  never calls her his mother). `102-Detroit_Tenants.csv` rows 23-25
+  (Sammie Lewis): "organizer" -> blank, and Source Justification "an
+  organizer with Detroit Eviction Defense;who has been with the group for
+  a couple years" -> "who has been with the group for a couple years"
+  (the first part isn't in the article). `103-Durham_Tenants.csv` rows
+  7-10, 19, 26-28, 33 (Leslie St Dre): "tenant organizer" -> "neighbor"
+  ("her neighbors, Leslie... and Jadelynn St Dre"; the article also says
+  "The St Dres weren't ERA tenants"). `61-Atlantic_Current.csv` row 6
+  (Science Advances): "study" -> "research" ("The new research, published
+  in the journal Science Advances"). `78-BART_Closures.csv` rows 1, 7, 8,
+  19 (Emily Yarrington): "resident" -> blank. `55-Chicago_Pentagon.csv`
+  rows 2, 11, 23 (Jerry Whirley): "South Shore homeowner" -> blank (the
+  article says "a few blocks from his South Shore home", not homeowner).
+  *(103, 105 and 78: annotator not recorded in the repo; filed here
+  under SZ -- move to AV if that's wrong.)*
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2318,6 +2344,18 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   `116-Trump_Christian_Independance_Day.csv` row 7 (Event Strategies):
   blank -> "company" ("Event Strategies, a company that organized the
   rally...").
+- **Source Descriptors must be the reporter's own word, 2026-11-05.** A
+  Source Descriptor has to be a word the article actually uses for that
+  source. `61-AV_Atlantic_Current.csv` row 9 (Science Advances): "study"
+  -> "research", matching SZ's copy. `113-California_Homes_Uninsured.csv`
+  rows 80-83 (the emails): "internal email" -> blank (the article only
+  says people "emailed" or "wrote"); rows 17, 93, 94 (Richard Salazar;
+  Linda and Richard Salazar): "Grizzly Flats homeowner" -> blank (the
+  article says "one of the few replaced homes belongs to Linda and Richard
+  Salazar", never homeowner). `55-Pentagon_Lab.csv` rows 2, 11, 22 (Jerry
+  Whirley): "South Shore homeowner" -> blank, matching SZ's copy. *(Still
+  open: the same rows' Source Justification is "South Shore Home Owner",
+  which isn't the article's wording either.)*
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
