@@ -997,6 +997,48 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   *(103, 105 and 78: annotator not recorded in the repo; filed here
   under SZ -- move to AV if that's wrong.)*
 
+- **Organization Source Descriptors trimmed to the category word, 2026-11-05.**
+  For an organization, the Source Descriptor is the bare word for what kind
+  of group it is, copied from the article; descriptive words around it
+  stay in Source Justification. `104-Irish_Centre.csv` row 2 (Frick Park
+  Friends): "collective of neighbors" -> "collective", and Source
+  Justification blank -> "a collective of disgruntled neighbors" (the
+  article's words; it's why they're in the story -- they live next to the
+  proposed building). `108-SZ_YVA.csv` rows 5 and 9 (Youth vs Apocalypse):
+  "climate justice collective" -> "collective" (the article says "a
+  youth-led, Bay Area-based collective of young climate justice
+  activists", which is already the Source Justification). *(104:
+  annotator not recorded in the repo; filed here under SZ.)*
+
+- **Source Descriptors: kind-words kept, describing words left out, 2026-11-05.**
+  A Source Descriptor keeps the words directly in front of it that say
+  what kind of person or group it is (a topic word like "affordable
+  housing," a word like "presidential" or "full-time," an identity or
+  political word like "unhoused" or "far-right," and for people, a place
+  like "Florida"). It leaves out words that rate or describe this one
+  source ("longtime," "top," "disgruntled") and anything that comes after
+  it ("of four," "of the settlements"); those stay in Source Justification.
+  `178-AFD_Win_Europe.csv`: row 11 Elon Musk "billionaire" -> "nativist US
+  tech billionaire"; rows 12, 13 Ulrich Siegmund "candidate" -> "lead
+  candidate"; row 15 AfD "party" -> "far-right party"; row 2 (group)
+  "figures" -> "nationalist figures". `163-Jill_Stein_Court.csv`: rows 2,
+  14 Jill Stein "candidate" -> "former presidential candidate"; rows 7-10
+  KSDK "news station" -> "local news station".
+  `177-AFD_Prediction_German_State_Election.csv` rows 6, 8-11 (Siegmund):
+  "candidate, former fragrance salesman" -> "lead candidate, former
+  fragrance salesman". `180-UK_Israel_Ban.csv`: row 26 Randy Fine
+  "Republican" -> "Florida Republican"; row 25 Mike Huckabee "supporter of
+  the settlements" -> "supporter". `183-Trump_Promise.csv` row 16 (Bernie
+  Moreno): "Republican" -> "Ohio Republican". `107-Jackson_Water.csv` rows
+  12-14 (Shenetha James): "mother of four" -> "mother".
+  `152-Socialists_Florida.csv` row 3 (Oliver Larkin): "activist and union
+  organizer" -> "activist, union organizer". `103-Durham_Tenants.csv` rows
+  3, 17, 20, 32 (Eno River Association): "land trust and conservation
+  nonprofit" -> "land trust, conservation nonprofit".
+  `105-Texas_Plantation_Prison.csv` row 21 (group): "current inmates and
+  their families" -> "current inmates, families". *(107 and 152: annotator
+  not recorded in the repo; filed here under SZ.)*
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2356,6 +2398,40 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Whirley): "South Shore homeowner" -> blank, matching SZ's copy. *(Still
   open: the same rows' Source Justification is "South Shore Home Owner",
   which isn't the article's wording either.)*
+- **Organization Source Descriptors trimmed to the category word, 2026-11-05.**
+  `108-Youth_POC_Climate.csv` rows 2, 5, 9, 12 (Youth vs. Apocalypse):
+  "climate justice collective" -> "collective", matching SZ's copy (the
+  article says "a youth-led, Bay Area-based collective of young climate
+  justice activists", which is already the Source Justification).
+- **Source Descriptors: kind-words kept, describing words left out, 2026-11-05.**
+  A Source Descriptor keeps the words directly in front of it that say
+  what kind of person or group it is (a topic word like "affordable
+  housing," a word like "presidential" or "full-time," an identity or
+  political word like "unhoused" or "far-right," and for people, a place
+  like "Florida"). It leaves out words that rate or describe this one
+  source ("longtime," "top," "disgruntled") and anything that comes after
+  it ("of four," "of the settlements"); those stay in Source Justification.
+  `173-Mountain_View_RV_Dwellers.csv` rows 21, 22 (Lenny Siegel): "advocate"
+  -> "affordable housing advocate". `113-California_Homes_Uninsured.csv`
+  row 26 (United Policyholders): "consumer advocacy group" -> "insurance
+  consumer advocacy group". `174-PPP_Loans_Low_Income.csv` rows 13 (Bank
+  of America) and 24 (Wells Fargo): "lender" -> "PPP lender".
+  `54-Coachella_Influencer.csv` rows 1-4, 14 (Cedoni Francis): "content
+  creator, fan, graduate student" -> "full-time content creator, fan,
+  graduate student". `185-The_Uncounted.csv` rows 45-49, 51, 52 (Ana):
+  "unhoused, mother" -> "unhoused mother". `187-Trans_Youth_Dont_Say_Gay.csv`
+  rows 19-21 (Maryn Russ): "non-binary, student" -> "non-binary sixth
+  grade student". `168-Texas_Power_Outages.csv` rows 3, 34 (group):
+  "residents" -> "Texas residents". `175-Indigenous_Health_COVID.csv`: row
+  60 Mary Owen "member of Alaska's Tlingit band" -> "member", Source
+  Justification blank -> "a member of Alaska's Tlingit band"; rows 73-75
+  Michael Weahkee "enrolled member of the Zuni Tribe" -> "enrolled member",
+  row 73 Source Justification blank -> "an enrolled member of the Zuni
+  Tribe" (belonging to the community the story is about is why they're in
+  it). `167-Youre_Swamped.csv`: row 2 (group) "social media" -> blank (it
+  doesn't describe people; the row itself may not be a sourced statement
+  -- flagged for review); row 4 (group) "randoms on the Internet" ->
+  "randoms".
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
