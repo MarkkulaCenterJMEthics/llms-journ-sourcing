@@ -1039,6 +1039,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   their families" -> "current inmates, families". *(107 and 152: annotator
   not recorded in the repo; filed here under SZ.)*
 
+- **Source Descriptors lowercased, 2026-11-06.**
+  A Source Descriptor is copied in the article's own case. A capital
+  letter that is there only because the word starts a sentence ("Critics
+  have also warned...") isn't part of it, so the descriptor is lowercase
+  unless it's a proper noun.
+  `84-Paradise_Lake_Fire.csv` row 3 (group): "Residents" -> "residents".
+  `177-AFD_Prediction_German_State_Election.csv` row 15 and
+  `179-AFD_Majority_Fail.csv` row 29 (groups): "Critics" -> "critics".
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2432,6 +2441,24 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   doesn't describe people; the row itself may not be a sourced statement
   -- flagged for review); row 4 (group) "randoms on the Internet" ->
   "randoms".
+- **Source Descriptors lowercased, 2026-11-06.**
+  A Source Descriptor is copied in the article's own case. A capital
+  letter that is there only because the word starts a sentence ("Critics
+  have also warned...") isn't part of it, so the descriptor is lowercase
+  unless it's a proper noun.
+  All rows below are groups of people. `128-Congress_Pay_Battle.csv` row 8
+  "Plaintiffs" -> "plaintiffs"; `166-DC_Essential_Workers.csv` row 13
+  "Workers unions" -> "workers unions"; `170-Fire_Prevention_Homeless.csv`
+  row 14 "Plaintiffs" -> "plaintiffs", row 21 "Advocates, homeless
+  communities" -> "advocates, homeless communities";
+  `176-Roadblocks_to_Relief.csv` row 4 "Community members" -> "community
+  members"; `186-Homeless_Camp_Sweeps.csv` row 18 "Speakers" -> "speakers";
+  `187-Trans_Youth_Dont_Say_Gay.csv` row 3 "Supporters" -> "supporters",
+  row 4 "Opponents" -> "opponents"; `188-Trans_Women_Incarcerated.csv` row
+  8 "Activists" -> "activists", row 29 "Formerly incarcerated trans women"
+  -> "formerly incarcerated trans women", row 31 "Opponents" ->
+  "opponents"; `189-Cameroon_Unpaid_Wages.csv` row 33 "Citizens" ->
+  "citizens".
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
