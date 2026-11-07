@@ -2459,6 +2459,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   -> "formerly incarcerated trans women", row 31 "Opponents" ->
   "opponents"; `189-Cameroon_Unpaid_Wages.csv` row 33 "Citizens" ->
   "citizens".
+- **Unnamed spokesperson credited to the spokesperson the story names, 2026-11-06.**
+  When a story names exactly one person as speaking for an organization,
+  an earlier "a spokesperson said" for that organization is that person.
+  `109-Waymo_West_Valley.csv` row 1 ("A spokesperson said the latest
+  expansion covers approximately 60 square miles..."): Named Organization
+  / Waymo -> Named Person / Sandy Karp / Title "Spokesperson" (she is named
+  in the next paragraph), matching SZ's copy. The row's Source Descriptors
+  ("autonomous ride-sharing company") and Source Justification (the
+  article's opening line about Waymo) were Waymo's, so both are now blank,
+  as in SZ's copy.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
