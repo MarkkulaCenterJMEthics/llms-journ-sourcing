@@ -1,6 +1,6 @@
-# Prompt revision list (next: v61)
+# Prompt revision list (v61 built 2026-11-06)
 
-Current prompt version: **v60** (`new_prompts/system_prompt_v60.*`, `new_prompts/user_prompt_v60_csv.*`). This list collects what goes into the next revision, split by size:
+**v61 BUILT 2026-11-06** (`new_prompts/system_prompt_v61.*`, `new_prompts/user_prompt_v61_csv.*`), from v60sj plus every Minor item below and the consolidated Source Descriptors section; rebuild script `~/Documents/v61_SD_sweeps_2026-11-05/build_v61_prompts.py`. Not yet committed; going to a student for a sanity test first, then the benchmark run after the GT migration. Previous: v60 / v60sj. This list collects what goes into the next revision, split by size:
 
 - **Minor:** wording that clarifies or extends an existing rule. No schema change, no new design decision.
 - **Major:** a new schema field, a new design principle, or a behavior change that still needs a design decision or sign-off before it can be drafted.

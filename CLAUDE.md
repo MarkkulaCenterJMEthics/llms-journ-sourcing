@@ -109,6 +109,8 @@ inter_coder_reliability/ # ICR analysis between human annotators
 
 Prompts live in `new_prompts/` as `system_prompt_v{N}.txt` / `user_prompt_v{N}.txt`. Current active versions are v50–v55. The extraction script behavior branches at v50: v50+ expects a flat `Sourcing Table` array in the JSON response; pre-v50 expects nested source-type keys.
 
+**v61 (built 2026-11-06, the v59 git branch):** `system_prompt_v61.txt`/`.md` and `user_prompt_v61_csv.txt`/`.md`, built from v60sj plus the v61 items in `prompt-revision-list.md` (6-field schema with Source Descriptors). Note: `v10-extract-multiple-LLMs.py` can't load it as-is (it expects `user_prompt_{version}.txt` and an integer version) -- see `development-of-v59.md` punchlist item 24.
+
 **v59 (this branch, in development):** adds the `Source Descriptors` field described above — see `development-of-v59.md` for the design background. `system_prompt_v59.txt`/`.md` and `user_prompt_v59_csv.txt`/`.md` are the canonical prompt files once added to `new_prompts/`; extraction/eval script changes to handle the new 6-field schema are still pending (tracked in `development-of-v59.md`'s migration punchlist).
 
 ## Supported Models (via OpenRouter)

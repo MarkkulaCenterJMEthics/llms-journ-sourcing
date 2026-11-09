@@ -1048,6 +1048,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   `177-AFD_Prediction_German_State_Election.csv` row 15 and
   `179-AFD_Majority_Fail.csv` row 29 (groups): "Critics" -> "critics".
 
+- **Title copied as written, 2026-11-06.** `53-Iran_Sea_Trade_Blocked.csv`
+  rows 6-10 and 12 (Anonymous Source): Title of Source "US officials" ->
+  "U.S. officials", the way the article writes it ("two U.S. officials
+  said").
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2469,6 +2474,10 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   ("autonomous ride-sharing company") and Source Justification (the
   article's opening line about Waymo) were Waymo's, so both are now blank,
   as in SZ's copy.
+- **Source Descriptors lowercased, 2026-11-06 (missed in the first pass).**
+  `58-Louisiana_Shooting.csv` rows 11 and 17 (Document): "Records" ->
+  "records" -- the capital is there only because "Records show..." starts
+  the sentence.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
