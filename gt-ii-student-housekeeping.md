@@ -1053,6 +1053,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "U.S. officials", the way the article writes it ("two U.S. officials
   said").
 
+- **Anonymous Source: the two sources counted as one disclosed pair, 2026-11-09.**
+  `123-Iran_Uranium.csv` row 1 ("...two senior Iranian sources said,
+  hardening Tehran's stance..."): Unnamed Group of People -> Anonymous
+  Source. The article says "one of the two Iranian sources, who spoke on
+  condition of anonymity," and credits the two sources together in rows 1,
+  8, 10, 13 and 16, so the disclosure covers the pair; row 10 (same pair,
+  same wording) was already Anonymous Source.
+
+- **Phase 2.1 (groups of people), late-text stories, 2026-11-09.**
+  `157-Pentagon_Iran_Military_Presence.csv` row 20 ("More hawkish voices
+  in Washington have sought to influence the Pentagon's planning..."):
+  Source Descriptors blank -> "voices in Washington" ("hawkish" describes
+  them and is left out; the place is kept). *(157: annotator not recorded
+  in the repo; filed here under SZ.)*
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2478,6 +2493,18 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   `58-Louisiana_Shooting.csv` rows 11 and 17 (Document): "Records" ->
   "records" -- the capital is there only because "Records show..." starts
   the sentence.
+- **Phase 2.1 (groups of people), late-text stories, 2026-11-09.**
+  `82-Met_Gala_Bezos.csv`: row 2 Source Descriptors blank -> "social media
+  users"; row 11 Title of Source blank -> "lawmakers" ("the gala drew
+  rebukes from lawmakers"); rows 22 and 24 Source Descriptors blank ->
+  "critics" ("his critics," "Critics of Bezos' involvement"); row 5
+  ("Reports of skittish stars and upset fashionistas have peppered
+  tabloid pages...") Unnamed Group of People -> Document, Source
+  Descriptors "reports" -- no group of people is speaking; the reporter
+  cites unnamed tabloid reports. `114-Kansas_Gender_Transitioning_Ban.csv`:
+  row 11 Title of Source blank -> "lawyers" ("Lawyers for the teenagers";
+  the clients aren't part of the title); row 13 Source Descriptors blank
+  -> "Republican supporters" ("Republican supporters of the law").
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
