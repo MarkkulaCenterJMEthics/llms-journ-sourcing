@@ -1097,6 +1097,14 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "pro-Israel group". *(129, 130 and 157: annotator not recorded in the
   repo; filed here under SZ.)*
 
+- **Phase 2.5 (organizations), late-text stories, 2026-11-10.**
+  `123-Iran_Uranium.csv` rows 4 and 17 ("Israeli officials have told
+  Reuters..."): Named Organization / Israel -> Unnamed Group of People,
+  Title of Source "Israeli officials" -- "Israeli" describes the officials
+  but doesn't name an organization; matches rows 14 and 15 ("Iranian
+  officials"). `129-Blue_Texas.csv` rows 4 and 5: Name of Source "New York
+  Times/Sienna" -> "New York Times/Siena", as the article spells it.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2572,6 +2580,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   contained other revelations...") blanked -- it described the case
   documents, not him. Matches row 24 (Jeff Dailey, "indicated in a 2018
   deposition," already Named Person).
+- **Phase 2.5 (organizations), late-text stories, 2026-11-10.**
+  `114-Kansas_Gender_Transitioning_Ban.csv` row 1 ("...a state judge ruled
+  on Friday"): Named Organization / "Kansas State Judge" -> Unnamed Person,
+  Title of Source "state judge" -- no judge or court is named in that
+  sentence. `72-Quantum_Campus.csv` row 37 ("...according to an NBC5 and
+  DePaul University investigation published this week"): one row for NBC5
+  became two -- NBC5, and a new row 38 for DePaul University with the same
+  Sourced Statement, since the sentence credits both. 72 now has 40 rows;
+  old rows 38 and 39 are now 39 and 40.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
