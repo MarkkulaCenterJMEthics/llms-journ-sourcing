@@ -1068,6 +1068,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   them and is left out; the place is kept). *(157: annotator not recorded
   in the repo; filed here under SZ.)*
 
+- **Phase 2.3 (Anonymous Source), late-text stories, 2026-11-09.**
+  `123-Iran_Uranium.csv` row 1: Title of Source "two senior Iranian
+  Sources" -> blank ("sources" names the source's role in the reporting,
+  not a position; the story's other "sources" rows are already blank).
+  `130-Cuban_Troops.csv` row 5: Title of Source blank -> "defense official"
+  ("said a defense official, granted anonymity...").
+  `157-Pentagon_Iran_Military_Presence.csv` row 8: Title of Source blank ->
+  "U.S. official" ("said a U.S. official"). *(130 and 157: annotator not
+  recorded in the repo; filed here under SZ.)*
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
