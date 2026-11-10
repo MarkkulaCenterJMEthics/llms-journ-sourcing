@@ -2505,6 +2505,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   row 11 Title of Source blank -> "lawyers" ("Lawyers for the teenagers";
   the clients aren't part of the title); row 13 Source Descriptors blank
   -> "Republican supporters" ("Republican supporters of the law").
+- **Statements that reached the article through someone else, 2026-11-09.**
+  When the reporter got a statement from a person or outlet who heard it
+  from the original speaker, the person or outlet the reporter heard it
+  from is the source. `72-Quantum_Campus.csv` row 22 ("A legal assistant at
+  the company told Holcomb at a coalition meeting: ...") Unnamed Person /
+  "legal assistant" -> Named Person / A. Anne Holcomb, with her Title
+  (co-chair of ETHOS) and Source Descriptors ("South Shore resident"); row
+  34 ("'Jobs come and go,' one resident told ABC7, ...") Unnamed Person /
+  "resident" -> Named Organization / ABC7 (same reasoning as 210 row 14,
+  "told the Wall Street Journal").
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in

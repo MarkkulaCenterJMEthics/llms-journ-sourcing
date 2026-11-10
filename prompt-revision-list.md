@@ -81,6 +81,14 @@ Item numbers in parentheses point to `development-of-v59.md`: "Prompt Updates" i
 
    The two-or-more-spokespeople case is left unstated on purpose (user, 2026-11-06): it was only a proposed guardrail, never decided or tested, and Note 8's default (Named Organization) covers it.
 
+## Prospective (v62)
+
+Not in v61. Collected for the next revision; each needs more examples or testing first.
+
+1. **Relayed speech: the source is whoever the reporter heard the statement from** (`development-of-v59.md` item 73). A note with invented examples, built from 72 r22 (a statement relayed by a named source), 72 r34 and 210 r14 (a statement given to another outlet).
+2. **Gender and sexual-identity words in Source Descriptors: generic reference vs. characterization** (`development-of-v59.md` item 74). Candidate rule drafted; needs examples-based testing because the test leaves a lot to annotator and model judgment. Case to review: 188 Jasmine Rose Jones.
+3. **Capture the organization connected to a Document, and the document behind a Named Organization** (Prompt Development 33). A schema change; revisit after the v61 benchmark run.
+
 ## v61 Source Descriptors section — consolidated draft (2026-11-06)
 
 Folds in Minor 3, 4, 18 and 19 (and Minor 9, already merged into 19). Base is v60sj. Examples use invented names (item 71).
