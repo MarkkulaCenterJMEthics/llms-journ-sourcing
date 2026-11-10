@@ -1078,6 +1078,25 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "U.S. official" ("said a U.S. official"). *(130 and 157: annotator not
   recorded in the repo; filed here under SZ.)*
 
+- **Phase 2.4 (documents), late-text stories, 2026-11-09.**
+  For a document, Name of Source is only the document's own title, and the
+  kind of document ("report," "polls") goes in Source Descriptors. When the
+  article names the organization the document comes from, that
+  organization is the source (Named Organization).
+  `129-Blue_Texas.csv`: rows 1 and 3 Name "National Polls" -> blank,
+  Source Descriptors "national polls"; row 2 Name "Presidential Election
+  Results" -> blank, Source Descriptors "presidential election results";
+  rows 6 and 7 Name "Polls" -> blank, Source Descriptors "polls".
+  `130-Cuban_Troops.csv` row 2: Name "Flight Tracking Sites" -> blank,
+  Source Descriptors "flight tracking sites".
+  `157-Pentagon_Iran_Military_Presence.csv`: row 19 Document "policy
+  proposal from Defense Priorities" -> Named Organization / Defense
+  Priorities, Source Descriptors "think tank"; row 21 Document "report by
+  Jewish Institute for National Security of America" -> Named Organization
+  / Jewish Institute for National Security of America, Source Descriptors
+  "pro-Israel group". *(129, 130 and 157: annotator not recorded in the
+  repo; filed here under SZ.)*
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2525,6 +2544,34 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   34 ("'Jobs come and go,' one resident told ABC7, ...") Unnamed Person /
   "resident" -> Named Organization / ABC7 (same reasoning as 210 row 14,
   "told the Wall Street Journal").
+- **Phase 2.4 (documents), late-text stories, 2026-11-09.**
+  For a document, Name of Source is only the document's own title, and the
+  kind of document ("report," "polls") goes in Source Descriptors. When the
+  article names the organization the document comes from, that
+  organization is the source (Named Organization).
+  `72-Quantum_Campus.csv` row 18: Name "remediation report" -> blank,
+  Source Descriptors "remediation report". `73-TSA_ICE.csv`: row 4 Document
+  "Defense Deparment bulletin" -> Named Organization / Defense Department
+  ("according to a Defense Department bulletin"); row 6 Document "American
+  Airlines website" -> Named Organization / American Airlines ("a note on
+  American Airlines' website"); row 5 Name "U.S. D.H.S. privacy impact
+  statement" -> blank, Source Descriptors "privacy impact statement" (the
+  article doesn't name DHS there). `82-Met_Gala_Bezos.csv` row 25: Source
+  Descriptors blank -> "polls" ("polls show").
+  `114-Kansas_Gender_Transitioning_Ban.csv`: row 14 Document -> Named
+  Organization / Trump administration ("a report commissioned by the Trump
+  administration"); row 10 Source Descriptors blank -> "lawsuit" ("The
+  Kansas lawsuit, filed... by the American Civil Liberties Union of
+  Kansas..., claimed" -- the article credits the lawsuit itself, so it
+  stays a document).
+- **A named person speaking in a deposition is the source, 2026-11-09.**
+  `113-California_Homes_Uninsured.csv` row 85 ("...said Ari Berman, the
+  plaintiff's insurance agent, in a deposition"): Document / "deposition"
+  -> Named Person / Ari Berman, Title of Source "insurance agent"; Source
+  Justification ("The documents from the Woolsey Fire survivors' case
+  contained other revelations...") blanked -- it described the case
+  documents, not him. Matches row 24 (Jeff Dailey, "indicated in a 2018
+  deposition," already Named Person).
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
