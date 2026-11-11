@@ -1123,6 +1123,19 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   International Studies." *(130: annotator not recorded in the repo; filed
   here under SZ.)*
 
+- **Phase 2.6 Pass 1 (titles of named people), late-text stories, 2026-11-11.**
+  `130-Cuban_Troops.csv` rows 3, 4 (Mark Cancian): Title -> "senior analyst
+  at the Center for Strategic and International Studies; former Pentagon
+  official" (both positions the article gives). `157-Pentagon_Iran_Military_Presence.csv`
+  rows 11, 12 (Michael Ratney): Title "Deputy Chief of Mission in Qatar" ->
+  "former diplomat" (the article says he is "a former diplomat who served
+  as" ambassador and deputy chief of mission; the old Title read as a
+  current post). `158-Better_Home_Finance_CEO_Fired.csv`, all 22 Vishal Garg
+  rows: Title "the founder and former chief of mortgage lender Better Home
+  & Finance" -> "founder and former chief, Better Home & Finance" ("mortgage
+  lender" describes the company, not his position). *(130, 157 and 158:
+  annotator not recorded in the repo; filed here under SZ.)*
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2634,6 +2647,23 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "Attorney General, Kansas" -> "Attorney General" and row 7 (Laura Kelly)
   "Governor, Kansas" -> "Gov." -- the article doesn't attach "Kansas" to
   either title.
+- **Phase 2.6 Pass 1 (titles of named people), late-text stories, 2026-11-11.**
+  A Title of Source is a position of authority or expertise; other words
+  for who a person is go in Source Descriptors. An elected official's Title
+  includes the party the article gives with it.
+  `72-Quantum_Campus.csv` rows 6, 8, 9, 11, 25, 30 (Sanya Bhartiya): Title
+  "environmental justice organizer with Southside Together" -> blank,
+  Source Descriptors "environmental justice organizer" ("organizer" isn't
+  a position title; the group she works with is left out).
+  `73-TSA_ICE.csv` row 9 (John Garamendi): Title "California
+  Representative" -> "Rep. D-Calif." ("Rep. John Garamendi, D-Calif.").
+  `82-Met_Gala_Bezos.csv` row 13 (Jon Reinish): Title "veteran Democratic
+  political strategist" -> "political strategist," Source Descriptors
+  "Democratic" (he doesn't hold office; "veteran" describes him and is left
+  out). `114-Kansas_Gender_Transitioning_Ban.csv`: rows 4, 5, 12 (Kris W.
+  Kobach) Title "Attorney General" -> "Attorney General, a Republican"; row
+  7 (Laura Kelly) "Gov." -> "Gov., a Democrat" -- the party the article
+  gives for each official.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
