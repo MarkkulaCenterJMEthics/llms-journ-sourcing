@@ -1112,6 +1112,17 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "holding company" ("TWG Global, Walter's holding company"). *(150:
   annotator not recorded in the repo; filed here under SZ.)*
 
+- **Phase 2.6 Pass 0 (named people), late-text stories, 2026-11-11.**
+  `106-Palestine_Protest_Arrests.csv` rows 5, 16, 17 (George Lobb): Title
+  "Lawyer with..." / "a lawyer with..." -> "lawyer with the Austin Lawyers
+  Guild." `123-Iran_Uranium.csv` row 11 (Mohammad Baqer Qalibaf): Title
+  "Iran's peace negotiator" -> "Iran's top peace negotiator" (a rank word
+  is part of a rank title, like "senior vice president").
+  `130-Cuban_Troops.csv` rows 3, 4 (Mark Cancian): "Senior analyst at
+  Center for..." -> "senior analyst at the Center for Strategic and
+  International Studies." *(130: annotator not recorded in the repo; filed
+  here under SZ.)*
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2605,6 +2616,24 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "guerrilla activist group, anti-billionaire group" (two separate
   phrases in the article). `114-Kansas_Gender_Transitioning_Ban.csv` row
   15 (Williams Institute): blank -> "demographics research center".
+- **Phase 2.6 Pass 0 (named people), late-text stories, 2026-11-11.**
+  Titles written the way the article writes them, and the same for every
+  row of a person. `82-Met_Gala_Bezos.csv`: old row 29 ("Micheal Gross,"
+  the quote "Every eye in the world is going to be on that...") removed --
+  it repeated the end of row 28 (Michael Gross), so 82 now has 28 rows;
+  row 26 (Cynthia Nixon) Title of Source "null" -> blank; row 1 (Zohran
+  Mamdani) Title "New York Mayor" -> "mayor" (the article says "the city's
+  newly elected mayor" and "Mayor Mamdani"; "New York" isn't attached to
+  his title). `80-Quantum_Medicine.csv` row 10 (Jerry Chow): Title
+  "chief technology officer of quantum-centric computing, IBM" -> "IBM's
+  chief technology officer of quantum-centric computing," as on his other
+  rows. `114-Kansas_Gender_Transitioning_Ban.csv`: row 3 (Carl Folsom III)
+  Title -> "judge, State District Court in Douglas County," as on row 6;
+  row 2 (Harper Seldin) "American Civil Liberties Union Lawyer" -> "lawyer
+  for the American Civil Liberties Union"; rows 4, 5, 12 (Kris W. Kobach)
+  "Attorney General, Kansas" -> "Attorney General" and row 7 (Laura Kelly)
+  "Governor, Kansas" -> "Gov." -- the article doesn't attach "Kansas" to
+  either title.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
