@@ -1105,6 +1105,13 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   officials"). `129-Blue_Texas.csv` rows 4 and 5: Name of Source "New York
   Times/Sienna" -> "New York Times/Siena", as the article spells it.
 
+- **Phase 2.5 (organizations' Source Descriptors), late-text stories, 2026-11-10.**
+  The article's word for what kind of organization it is goes in Source
+  Descriptors on all of that organization's rows.
+  `150-Mark_Walter_Insurance.csv` rows 1, 2, 4, 5 (TWG Global): blank ->
+  "holding company" ("TWG Global, Walter's holding company"). *(150:
+  annotator not recorded in the repo; filed here under SZ.)*
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2589,6 +2596,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   became two -- NBC5, and a new row 38 for DePaul University with the same
   Sourced Statement, since the sentence credits both. 72 now has 40 rows;
   old rows 38 and 39 are now 39 and 40.
+- **Phase 2.5 (organizations' Source Descriptors), late-text stories, 2026-11-10.**
+  The article's word for what kind of organization it is goes in Source
+  Descriptors on all of that organization's rows.
+  `72-Quantum_Campus.csv` row 5 (Related Midwest): blank -> "master
+  developer" ("the 440-acre site's master developer").
+  `82-Met_Gala_Bezos.csv` rows 3 and 4 (Everyone Hates Elon): blank ->
+  "guerrilla activist group, anti-billionaire group" (two separate
+  phrases in the article). `114-Kansas_Gender_Transitioning_Ban.csv` row
+  15 (Williams Institute): blank -> "demographics research center".
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in

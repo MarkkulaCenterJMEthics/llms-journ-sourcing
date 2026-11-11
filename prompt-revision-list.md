@@ -81,6 +81,16 @@ Item numbers in parentheses point to `development-of-v59.md`: "Prompt Updates" i
 
    The two-or-more-spokespeople case is left unstated on purpose (user, 2026-11-06): it was only a proposed guardrail, never decided or tested, and Note 8's default (Named Organization) covers it.
 
+## v61 patches after the build (2026-11-10)
+
+Applied to the built v61 files (and the rebuild script):
+- **Title of Source definition + user step 7:** an elected official's Title includes the constituency and the party designation the reporter attaches to the office, as written ("Rep. D-Riverton," "Democratic state Sen.," "Senator, Republican of Ohio"); non-partisan seats (school boards, some judicial seats) often carry none -- never add one; a party word for someone not in elected office is a Source Descriptor. Matches AP style and most of the GT (~33 elected officials with party in the Title).
+- **Note 21a rewritten:** a political-orientation qualifier on a title ("far-right") comes off the Title and becomes a Source Descriptor; other editorializing qualifiers ("embattled") stay out of both fields and are Source Justification only if they meet that definition; party designation of an elected official and qualifiers that change the position stay in the title.
+- **Note 23a deleted** (it moved trimmed qualifiers into SJ unconditionally).
+- **SD rule 4:** the Tolland "Republican Sheriff" bullet replaced with "a place or party designation that belongs to an elected official's title."
+- **SD definition, new opening sentence:** "A Source Descriptor is a reporter's term signaling a category the source belongs to: a role in the story, a relationship, a social, political or place identity, or an occupation that isn't a credentialing title. For an organization it is the kind of entity; for a document, its genre. A word that describes or rates this particular source ('embattled,' 'disgruntled,' 'longtime') signals no category and is not a Source Descriptor." (Checked against all 111 distinct Named Person SD values in the GT: every one names a category.)
+- **Note 2 and user step 8:** "belongs in / typically belongs in Source Justification instead" -> "may be Source Justification if it meets that definition."
+
 ## Prospective (v62)
 
 Not in v61. Collected for the next revision; each needs more examples or testing first.
@@ -88,6 +98,8 @@ Not in v61. Collected for the next revision; each needs more examples or testing
 1. **Relayed speech: the source is whoever the reporter heard the statement from** (`development-of-v59.md` item 73). A note with invented examples, built from 72 r22 (a statement relayed by a named source), 72 r34 and 210 r14 (a statement given to another outlet).
 2. **Gender and sexual-identity words in Source Descriptors: generic reference vs. characterization** (`development-of-v59.md` item 74). Candidate rule drafted; needs examples-based testing because the test leaves a lot to annotator and model judgment. Case to review: 188 Jasmine Rose Jones.
 3. **Capture the organization connected to a Document, and the document behind a Named Organization** (Prompt Development 33). A schema change; revisit after the v61 benchmark run.
+4. **A political or identity word attached only to an organization's name** ("the center-right American Enterprise Institute," "the conservative Christian Democratic Union"): v61's organization SD is a category word only, so these are left out. Decide whether an organization can carry a standalone political/identity descriptor the way a person can. Cases: 157 AEI, 177 CDU.
+5. **A political word describing the organization inside a person's title** ("leader of the far-right Dutch Freedom party"): does the person get the SD? Case: 178 Geert Wilders.
 
 ## v61 Source Descriptors section — consolidated draft (2026-11-06)
 
