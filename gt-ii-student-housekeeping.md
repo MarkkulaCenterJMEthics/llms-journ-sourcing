@@ -1142,6 +1142,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Corps officer"). *(130: annotator not recorded in the repo; filed here
   under SZ.)*
 
+- **Phase 2.6 Pass 3 (named people's Source Descriptors), late-text stories, 2026-11-12.**
+  `106-Palestine_Protest_Arrests.csv`: rows 2, 3, 4, 7 (Anne-Marie Jardine)
+  -> "international relations and global studies senior"; rows 9-12, 14
+  (Benjamin Kern) -> "demonstrator" ("one of the demonstrators"); rows 15,
+  18 (Ibraheem) -> "protester" ("another protester"); rows 19, 21, 22
+  (Citlalli Soto-Ferate) -> "health and society senior."
+  `153-Guinea_Pig_Sanctuary.csv` row 2 (Janet Woodman) -> "volunteer" ("a
+  volunteer at the nonprofit"). *(153: annotator not recorded in the repo;
+  filed here under SZ.)*
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2670,6 +2680,17 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Kobach) Title "Attorney General" -> "Attorney General, a Republican"; row
   7 (Laura Kelly) "Gov." -> "Gov., a Democrat" -- the party the article
   gives for each official.
+- **Phase 2.6 Pass 3 (named people's Source Descriptors), late-text stories, 2026-11-12.**
+  The article's own label for a person goes in Source Descriptors on all of
+  that person's rows. `72-Quantum_Campus.csv` rows 17, 20, 21, 29, 40 (A.
+  Anne Holcomb): blank -> "South Shore resident," as on rows 16 and 22 ("a
+  15-year South Shore resident"). `82-Met_Gala_Bezos.csv`: row 1 (Zohran
+  Mamdani) -> "democratic socialist"; row 6 (Mayan Rajendran) -> "passer-by"
+  ("one passer-by"); row 26 (Cynthia Nixon) -> "actress, progressive
+  activist" ("the 'Gilded Age' actress and progressive activist"); row 27
+  (Bill de Blasio) -> "Democrat" ("Former Mayor Bill de Blasio, a two-term
+  Democrat"; he no longer holds office, so his party isn't part of his
+  title).
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
