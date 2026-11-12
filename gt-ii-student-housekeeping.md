@@ -1136,6 +1136,12 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   lender" describes the company, not his position). *(130, 157 and 158:
   annotator not recorded in the repo; filed here under SZ.)*
 
+- **Phase 2.6 Pass 2 (missed titles), late-text stories, 2026-11-12.**
+  `130-Cuban_Troops.csv` row 7 (Joe Plenzler): Title of Source blank ->
+  "retired Marine Corps officer" ("said Joe Plenzler, a retired Marine
+  Corps officer"). *(130: annotator not recorded in the repo; filed here
+  under SZ.)*
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
