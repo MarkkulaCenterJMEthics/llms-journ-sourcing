@@ -1182,6 +1182,43 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   solitary cell at 11 p.m." and "Soto-Ferate was released at
   approximately 8 a.m."
 
+- **Phase 4a, `123-Iran_Uranium.csv`, 2026-11-13.** Four sourced
+  statements had no row; added (now 27 rows). Rows 5 and 6: "Israel, the
+  United States and other Western states have long accused Iran of seeking
+  nuclear weapons..." -- one Named Organization row each for Israel and
+  United States (a statement credited to two sources is repeated, one row
+  per source; "other Western states" names no source and gets no row).
+  Row 18: "Before the war, Iran signalled willingness to ship out half of
+  its stockpile..." -> Named Organization / Iran. Row 21: "Tehran has vowed
+  a crushing response if attacked." -> Named Organization / Iran (the
+  annotator's name for Tehran in rows 7 and 27).
+
+- **Phase 4b, `123-Iran_Uranium.csv`, 2026-11-13.** Sourced Statements
+  made to match the article text (words run together in the PDF
+  conversion): row 3 "reportersat" -> "reporters at", row 4 "willbe" ->
+  "will be", row 8 "itssupport" -> "its support", row 11 "redlines" ->
+  "red lines", row 12 "asense" -> "a sense", row 15 "itsenriched" -> "its
+  enriched"; row 13: opening quote mark restored before "obvious and
+  hidden moves by the enemy".
+
+- **Anonymity disclosure in Source Justification, 2026-11-13.** The
+  reporter's disclosure that a source asked for or was granted anonymity
+  is Source Justification on every row for that source (the basis for the
+  Anonymous Source type; now v61 Note 22a). Rows missing it were filled;
+  existing valid SJ text kept, with the disclosure after "; ".
+  `123-Iran_Uranium.csv` rows 1, 9, 10, 12, 15, 19, 22, 23: -> "who spoke
+  on condition of anonymity because of the sensitivity of the matter"
+  (replaces the labels "one of the two Iranian sources" in row 9 and "two
+  senior Iranian sources" in row 12, which are attribution wording only).
+  `53-Iran_Sea_Trade_Blocked.csv` rows 6, 7, 8, 9, 10, 12: blank -> "The
+  officials spoke on the condition of anonymity to disclose details about
+  the operation that have not been made public."
+  `157-Pentagon_Iran_Military_Presence.csv` rows 1, 2, 4, 5, 6, 7, 8, 9,
+  10, 18: + "who like others spoke on the condition of anonymity to
+  discuss the sensitive analysis" (a blanket disclosure covering all of
+  the story's anonymous sources); the "...familiar with..." SJs in rows 1,
+  2, 7, 9, 10, 18 kept in front of it.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2828,6 +2865,19 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   demographics research center at the University of California, Los
   Angeles" (that describes the Williams Institute) -> blank. That
   description moved to row 17 (Williams Institute), whose SJ was blank.
+
+- **Anonymity disclosure in Source Justification, 2026-11-13.** The
+  reporter's disclosure that a source asked for or was granted anonymity
+  is Source Justification on every row for that source (now v61 Note 22a);
+  existing valid SJ text kept, with the disclosure after "; ".
+  `77-SF_Drug_Detention.csv` rows 11, 12: + "who asked not to be named".
+  `176-Roadblocks_to_Relief.csv` rows 1, 2, 9: + "El Tímpano is only using
+  the first names of interviewees to protect their privacy." (the story's
+  footnote). `189-Cameroon_Unpaid_Wages.csv` rows 2, 3, 4: + "indicates
+  changed names for protection" (the footnote for the starred name).
+  `98-AV_Trump_China.csv` row 1: blank -> "who was not authorized to
+  comment publicly and spoke on the condition of anonymity" (as in
+  `98-Trump_China.csv`).
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
