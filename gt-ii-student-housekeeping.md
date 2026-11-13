@@ -2730,6 +2730,23 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Hot Zone One is kitty-corner to New Sullivan Elementary School." -- both
   give details of the five Hot Zones the report identified, so they come
   from the same report.
+- **Phase 4b, `72-Quantum_Campus.csv`, 2026-11-12.**
+  One row per source per paragraph; the reporter's own sentences are left
+  out of a Sourced Statement. New row 1 (Unnamed Group of People,
+  Source Descriptors "residents"): "On the evening of March 18, 2025,
+  several dozen residents packed the auditorium at Bowen High School...,
+  demanding answers about the $9 billion Quantum Campus..." -- "demanding
+  answers" is the residents' own expression, so it's a sourced statement.
+  Row 2 (the woman in the audience, old row 1): Sourced Statement trimmed to
+  "'How are you going to deal with the contaminated land?' she asked." (the
+  first paragraph is now the residents' row, and "A woman in the audience
+  cut to the heart of it." is the reporter's lead-in); Source Justification
+  "A woman in the audience" -> "A woman in the audience cut to the heart of
+  it." (her presence at the meeting and why her question matters). Sanya
+  Bhartiya's and Moises Moreno's rows that ran across two paragraphs were
+  each split in two (old rows 6 and 14; new rows 8 and 17 hold the second
+  paragraphs). 72 now has 45 rows; every row from old row 1 on moved down
+  by one, from old row 7 by two, and from old row 15 by three.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
