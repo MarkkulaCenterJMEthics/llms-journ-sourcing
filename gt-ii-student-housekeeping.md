@@ -1219,6 +1219,24 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   the story's anonymous sources); the "...familiar with..." SJs in rows 1,
   2, 7, 9, 10, 18 kept in front of it.
 
+- **Phase 4a, `129-Blue_Texas.csv`, 2026-11-13.** New row 8: "Back in
+  2018, Beto O’Rourke never led a poll collected by RealClearPolitics
+  against Ted Cruz." -> Named Organization / RealClearPolitics (the named
+  organization the polls come from). Now 8 rows. *(129: annotator not
+  recorded in the repo; filed here under SZ.)*
+
+- **Phase 4b, `129-Blue_Texas.csv`, 2026-11-13.** Source Justifications
+  that weren't about the source: row 1 (national polls) "But there’s
+  another reason Democrats might pull off a statewide win... demographics."
+  (the columnist's thesis) -> blank; row 3 (national polls) "Latest
+  National Polls" (a label only) -> blank; row 4 (New York Times/Siena)
+  "and the Republican grip on Texas is in danger as a result. The latest
+  New York Times/Siena poll is representative" -> "The latest New York
+  Times/Siena poll is representative" (the first half is row 3's
+  statement); row 6 (polls) "He’ll be facing Mr. Paxton, who enters the
+  general election campaign already damaged..." (describes Paxton, the
+  poll's subject) -> blank.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
