@@ -1164,6 +1164,24 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   `123-Iran_Uranium.csv` row 11 (Mohammad Baqer Qalibaf) "Iran's top peace
   negotiator" (same as his Title) -> blank.
 
+- **Phase 4 (rows checked against the article), `106-Palestine_Protest_Arrests.csv`, 2026-11-13.**
+  New row 22 (group, Source Descriptors "protesters"): "About 150
+  protesters stood outside the jail all night calling for those inside to
+  be released." -- a call made by the group, so a sourced statement. 106
+  now has 23 rows (the last Soto-Ferate row moved from 22 to 23). The
+  reporter's own sentences about what happened to each person in custody
+  were left out of their rows, whether they came before or after what the
+  person said: row 7 (Anne-Marie Jardine) without "At about midnight,
+  Jardine was put in a solitary cell." and "She was released at around 8
+  a.m. on Thursday, April 25 with other protesters."; row 18 (Ibraheem)
+  without "At 11:50 p.m., officers moved Ibraheem to a solitary cell, where
+  he remained for 12 hours before his release."; row 19 (Citlalli
+  Soto-Ferate) without "When Soto-Ferate arrived at the jail, she and her
+  fellow demonstrators were processed and changed into prison clothes.";
+  row 21 (Soto-Ferate) without "Officers also moved Soto-Ferate to a
+  solitary cell at 11 p.m." and "Soto-Ferate was released at
+  approximately 8 a.m."
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
