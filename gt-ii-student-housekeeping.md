@@ -1297,6 +1297,26 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "Smothermon is the owner of the Guinea Pig Sanctuary, in Salisbury,
   Massachusetts, roughly 40 miles (64 kilometers) north of Boston."
 
+- **Phase 4a, `157-Pentagon_Iran_Military_Presence.csv`, 2026-11-13.**
+  New rows 11 and 12, Named Organization / The Washington Post (the
+  outlet credits its own earlier reporting): "Six U.S. service members
+  were killed in a March strike on Port Shuaiba... The Washington Post
+  reported in May." and "While defending its personnel in the region, the
+  U.S. military has also expended more than 1,000 sophisticated
+  air-defense interceptors... The Post reported in March." Old rows 11-21
+  -> 13-23. *(157: annotator not recorded in the repo; filed here under
+  SZ.)*
+
+- **Phase 4b, `157-Pentagon_Iran_Military_Presence.csv`, 2026-11-13.**
+  The article text uses straight quote marks and apostrophes; Sourced
+  Statements made to match it in rows 1, 2, 4, 5, 6, 7, 10, 13, 14, 16,
+  17, 18, 20, 21, 22, 23 (curly -> straight), and the Source
+  Justifications of rows 7 and 20 ("Pentagon's"). Row 23 (Jewish Institute
+  for National Security of America): "Ovda Airbase" -> "Ovda base", as the
+  text has it. Rows 13 and 14 (Michael Ratney): Source Justification
+  completed -- "a former diplomat who served as the U.S. ambassador to
+  Saudi Arabia" + "and the deputy chief of mission in Qatar."
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
