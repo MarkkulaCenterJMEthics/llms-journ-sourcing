@@ -1255,6 +1255,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   official, granted anonymity to speak candidly about military operations"
   (comma restored, verbatim).
 
+- **Phase 4a, `150-Mark_Walter_Insurance.csv`, 2026-11-13.** New row 5:
+  "Ratings agency S&P Global revised its outlook on Delaware Life to
+  negative last month..." -> Named Organization / S&P Global, Source
+  Descriptors "ratings agency". Old row 5 -> 6. *(150: annotator not
+  recorded in the repo; filed here under SZ.)*
+
+- **Phase 4b, `150-Mark_Walter_Insurance.csv`, 2026-11-13.** Row 4
+  (TWG Global spokesperson): Sourced Statement's curly quote marks ->
+  straight, as in the text.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
