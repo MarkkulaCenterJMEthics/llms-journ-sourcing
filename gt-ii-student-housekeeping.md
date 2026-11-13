@@ -2747,6 +2747,17 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   each split in two (old rows 6 and 14; new rows 8 and 17 hold the second
   paragraphs). 72 now has 45 rows; every row from old row 1 on moved down
   by one, from old row 7 by two, and from old row 15 by three.
+- **Phase 4 (rows checked against the article), `73-TSA_ICE.csv`, 2026-11-13.**
+  No missed statements. Row 2 (Reuters): the reporter's background sentence
+  ("The traveler records were gathered by TSA's Secure Flight Program,
+  created in 2007...") left out; the row is now "Tips from the TSA led to
+  more than 800 arrests by ICE, Reuters found." When a statement reached
+  this Forbes story through another outlet, that outlet is the source: row
+  8 ("...three immigration attorneys told Reuters") Unnamed Group of
+  People / "immigration attorneys" -> Named Organization / Reuters; row 9
+  ("...Rep. John Garamendi, D-Calif., told the New York Times at the
+  time") Named Person / John Garamendi -> Named Organization / New York
+  Times.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
