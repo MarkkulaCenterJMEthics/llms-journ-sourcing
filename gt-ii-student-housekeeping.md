@@ -2772,6 +2772,24 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   row (IBM): "IBM last month announced it would create 750 jobs in Chicago
   over the next five years to staff a new 'innovation and delivery hub.'"
   80 now has 10 rows: old rows 4-10 are now 3-9, and the IBM row is 10.
+- **Phase 4 (rows checked against the article), `82-Met_Gala_Bezos.csv`, 2026-11-13.**
+  No missed statements. One row per source per paragraph: Micah Uetricht's,
+  Bill de Blasio's and Michael Gross's rows each ran into the next
+  paragraph and were split in two; Amy Odell's two rows from one paragraph
+  were merged. Old row 7 (Blakely Thornton, "He wasn't the only one asking
+  that question. Other critics have included past boosters like Blakely
+  Thornton...") removed -- it introduces him but credits him with nothing;
+  his Source Justification moved to his remaining row ("an influencer who
+  interviewed celebrities on the red carpet last year"). Old row 21 ("The
+  split screen of the gala's opulence juxtaposed with the economic
+  struggle..., where an estimated 1 in 4 residents live in poverty, has
+  long been evident") removed -- the reporter's own framing, no source
+  named. The polls row: the reporter's following sentence ("The mayor's
+  early and successful embrace of affordability...") left out. The polls
+  and critics rows put back in article order. 82 still has 28 rows; old ->
+  new: 8-12 -> 7-11, new 12 (Uetricht's second paragraph), 13-14 same,
+  16-20 -> 15-19, 22-23 -> 20-21, 25 -> 22, 24 -> 23, 26-27 -> 24-25, new
+  26 (de Blasio's second paragraph), 28 -> 27, new 28 (Gross's quote).
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
