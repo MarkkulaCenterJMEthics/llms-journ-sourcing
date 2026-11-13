@@ -2709,6 +2709,27 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   isn't that, so those were cleared.
   `82-Met_Gala_Bezos.csv`: row 18 (Fern Mallis) "null" -> blank; row 25
   (polls) "polls show" -> blank.
+- **Phase 4a (missed sourced statements), `72-Quantum_Campus.csv`, 2026-11-12.**
+  All of a source's statements in one paragraph go in one row.
+  Row 13 (Moises Moreno): added the rest of his paragraph, "The governor
+  came in. They didn't invite community. They just came in and made the big
+  announcement," he said. Row 19 (ETHOS): added "According to their
+  findings, every sample came back hazardous to human health. Some were
+  classified extremely hazardous." ahead of "ETHOS believes there is a
+  sixth Hot Zone not in the report" (same paragraph; the report sentences
+  between them belong to row 18). Row 23 (Isabela Jaimes): old rows 23 and
+  24 were one paragraph, now one row, with the paragraph's last sentence
+  added ("And that's usually because they enter into non-disclosure
+  agreements..."). New rows: 24, Document "federal websites" ("According to
+  federal websites, its portfolio includes stealth weapons..."); 31, Named
+  Organization GreenLatinos ("GreenLatinos also raised what the statement
+  left unanswered..."); 33, Named Person Sharon Waller, Title "Dr." ("That
+  question connects to what Dr. Sharon Waller documented in last week's
+  report..."). 72 now has 42 rows; old rows 31-40 are now 32 and 34-42.
+  Row 18 (remediation report): added "Three are in the PsiQuantum parcel.
+  Hot Zone One is kitty-corner to New Sullivan Elementary School." -- both
+  give details of the five Hot Zones the report identified, so they come
+  from the same report.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
