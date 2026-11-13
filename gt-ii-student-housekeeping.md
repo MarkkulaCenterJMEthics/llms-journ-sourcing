@@ -1265,6 +1265,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   (TWG Global spokesperson): Sourced Statement's curly quote marks ->
   straight, as in the text.
 
+- **Phase 4a, `151-US_Housing_Pressure.csv`, 2026-11-13.** New row 1:
+  "The manufacturing sector, meanwhile, continues to ride the coattails of
+  the artificial intelligence build out, with a Federal Reserve measure of
+  factory output hitting its highest in more than four years last
+  month..." -> Named Organization / Federal Reserve (as written). Sentences
+  that carry on a release's own figures appended: row 5 (National
+  Association of Realtors) + "They were down 2.3% on the month to the
+  lowest level since January."; row 8 (Mortgage Bankers Association) +
+  "Still, at 6.77% it remains near the highest in more than a year." Old
+  rows 1-11 -> 2-12.
+
+- **Phase 4b, `151-US_Housing_Pressure.csv`, 2026-11-13.** Rows 3 (Ben
+  Ayers), 11 and 12 (Bernard Yaros): Sourced Statements' curly quote marks
+  -> straight, as in the text.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
