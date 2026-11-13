@@ -1237,6 +1237,24 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   general election campaign already damaged..." (describes Paxton, the
   poll's subject) -> blank.
 
+- **Phase 4a, `130-Cuban_Troops.csv`, 2026-11-13.** New row 1: "The
+  president has floated an invasion of the island after economic and
+  political pressure failed to topple the Communist government." -> Named
+  Person / Donald Trump, Title "president" (as written; named in the
+  paragraph before). Old rows 1-7 -> 2-8. *(130: annotator not recorded in
+  the repo; filed here under SZ.)*
+
+- **Phase 4b, `130-Cuban_Troops.csv`, 2026-11-13.** Row 4 (Mark
+  Cancian): Sourced Statement's opening straight quote -> curly, as in the
+  text. Rows 4 and 5 (Cancian): Source Justification "The Nimitz arrived in
+  the region on the same day as the U.S. indicted former president Raul
+  Castro, in what appeared a public show of force;  a former Pentagon
+  official" -> "a former Pentagon official" (the dropped sentence is about
+  the ship, not Cancian). Row 6 (anonymous defense official): Source
+  Justification "a defense official granted anonymity..." -> "a defense
+  official, granted anonymity to speak candidly about military operations"
+  (comma restored, verbatim).
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
