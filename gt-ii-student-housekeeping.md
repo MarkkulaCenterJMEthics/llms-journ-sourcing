@@ -1152,6 +1152,18 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   volunteer at the nonprofit"). *(153: annotator not recorded in the repo;
   filed here under SZ.)*
 
+- **Phase 3 checks, late-text stories, 2026-11-12.**
+  Source Justification should say why the source is in the story. A word
+  "null," the attribution alone ("polls show"), or a repeat of the Title
+  isn't that, so those were cleared.
+  `157-Pentagon_Iran_Military_Presence.csv`: row 8 "U.S. official" (same as
+  its Title) -> blank; rows 9 and 10 "person familiar with the posture
+  adjustments said" -> "person familiar with the posture adjustments"
+  (the word "said" is the attribution). `130-Cuban_Troops.csv` row 7 (Joe
+  Plenzler) "Retired Marine Corps Officer" (same as his Title) -> blank.
+  `123-Iran_Uranium.csv` row 11 (Mohammad Baqer Qalibaf) "Iran's top peace
+  negotiator" (same as his Title) -> blank.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -2691,6 +2703,12 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   (Bill de Blasio) -> "Democrat" ("Former Mayor Bill de Blasio, a two-term
   Democrat"; he no longer holds office, so his party isn't part of his
   title).
+- **Phase 3 checks, late-text stories, 2026-11-12.**
+  Source Justification should say why the source is in the story. A word
+  "null," the attribution alone ("polls show"), or a repeat of the Title
+  isn't that, so those were cleared.
+  `82-Met_Gala_Bezos.csv`: row 18 (Fern Mallis) "null" -> blank; row 25
+  (polls) "polls show" -> blank.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in

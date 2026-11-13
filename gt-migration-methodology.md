@@ -319,43 +319,31 @@ six types together (this check is not type-specific). Five checks:
   29 for the full history. Run corpus-wide, after all six types' Phase 2
   population is done — not folded into each type's own population pass.
 - **(e) Qualifier-stacking check on Title of Source — Title of Source
-  only, not Source Descriptors.** Re-check every populated Title of
+  only, not Source Descriptors.** *(Revised 2026-11-12 to match the v61
+  patch of 2026-11-10, Note 21a.)* Re-check every populated Title of
   Source value for a political-orientation, editorializing, or otherwise
   characterizing qualifier stacked onto an otherwise-valid credentialing
-  title (e.g., "far-right," "hard-line," "mainstream"). Apply the same
-  test as (d)'s category-vs-elaboration distinction: does removing the
-  qualifier still leave an accurate description of the same title
-  (elaboration — trim it), or does it change what position is being
-  described (category-defining — keep it)? For elaboration: trim the
-  qualifier from Title of Source, and merge it into Source Justification
-  — appended via ";" if Source Justification already has other content,
-  set directly if it was blank — **unless the exact qualifier is already
-  present somewhere in the existing Source Justification text**, in which
-  case nothing needs to be added there, only the trim from Title.
-  **This check does not apply to Source Descriptors.** A qualifier
-  combined with a non-credentialing descriptor (e.g., "progressive
-  rival," "far-left activist") is exactly what Source Descriptors is
-  *for* — the prompt's own definition uses "far-left activist"/"far-right
-  activist" as its canonical worked example of a reporter's reductive
-  labeling, which the schema exists to capture, not trim away. Confirmed
-  by item 34's retroactive sweep (`development-of-v59.md`), which
-  initially checked both fields, found `GT-II/63-Maine_Data_Center.csv`'s
-  "progressive rival" (Source Descriptors) as an apparent hit, and on
-  review determined it wasn't a violation at all — it clarified that this
-  check was never meant to reach Source Descriptors in the first place.
-  Found 2026-09-16
-  during Phase 2.6 Pass 1's Named Person Title-of-Source audit
-  (`GT-II/178-AFD_Win_Europe.csv`: Salvini, Wilders;
-  `GT-II/180-UK_Israel_Ban.csv`: Ben-Gvir; `GT-II/179-AFD_Majority_Fail.csv`:
-  Merz) — see `development-of-v59.md` punchlist item 33 for the full
-  worked examples, and item 20 for the two candidate prompt notes (21a,
-  24a) drafted from this finding but not yet merged into
-  `system_prompt_v60.txt`. **Note:** whether a qualifier should ever be
-  dropped outright rather than always preserved in Source Justification
-  (e.g., a case where the qualifier is purely the reporter's own value
-  judgment with no independent factual content) is a real open question,
-  deliberately deferred rather than decided here — default to always
-  preserving in Source Justification until that's worked through.
+  title (e.g., "far-right," "embattled," "veteran"). Does removing the
+  qualifier still leave an accurate description of the same position? If
+  it changes which position is described ("interim director," a rank
+  word like "top" or "senior"), it is part of the title and stays. If not,
+  trim it from Title of Source, then:
+  - **a political-orientation word** ("far-right," "progressive,"
+    "nationalist") becomes its own Source Descriptor (the reporter's
+    characterization of the source);
+  - **any other qualifier** ("embattled," "veteran," "controversial") stays
+    out of both fields -- it goes into Source Justification **only if it
+    meets the SJ definition**, never as an automatic move.
+  **Not covered by this check:** an elected official's party designation
+  ("Rep. D-Riverton," "Democratic state Sen.," "Gov., a Democrat") is part
+  of the Title (Title of Source definition); for someone not in elected
+  office, a party word is a Source Descriptor. **This check does not apply
+  to Source Descriptors:** a qualifier attached to a non-credentialing
+  descriptor ("progressive rival," "far-left activist") is exactly what
+  Source Descriptors captures. History: found 2026-09-16 (178 Salvini,
+  Wilders; 180 Ben-Gvir; 179 Merz -- `development-of-v59.md` items 20, 33,
+  34); the earlier version of this check moved every trimmed qualifier
+  into Source Justification, which the 2026-11-10 patch replaced.
 
 ## Phase 4 — Sourced Statement row-set audit (per file, after Phase 0-3 are done)
 
