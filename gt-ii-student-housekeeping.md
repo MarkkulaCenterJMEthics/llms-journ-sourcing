@@ -2758,6 +2758,20 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   ("...Rep. John Garamendi, D-Calif., told the New York Times at the
   time") Named Person / John Garamendi -> Named Organization / New York
   Times.
+- **Phase 4 (rows checked against the article), `80-Quantum_Medicine.csv`, 2026-11-13.**
+  Old row 3 (group "investors": "A lot of quantum research has centered on
+  this type of work... However, investors have been eager for results...")
+  removed -- the reporter describes investors' mood; nothing is credited to
+  them. Old row 7 (Kenneth Merz) repeated row 6's sentence ("The latest
+  experiment shows how existing hardware can be paired with quantum
+  machines..., he said") and ran into the next paragraph; it is now only
+  his next-paragraph quote ("You take a very big problem and break it into
+  small pieces..."). Old row 8 (Jerry Chow): added the rest of his
+  paragraph, "The scientific community isn't there yet, and to date, there
+  is no consensus whether or not true advantage has been achieved." New
+  row (IBM): "IBM last month announced it would create 750 jobs in Chicago
+  over the next five years to staff a new 'innovation and delivery hub.'"
+  80 now has 10 rows: old rows 4-10 are now 3-9, and the IBM row is 10.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
