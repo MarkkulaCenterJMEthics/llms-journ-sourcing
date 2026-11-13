@@ -1280,6 +1280,23 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Ayers), 11 and 12 (Bernard Yaros): Sourced Statements' curly quote marks
   -> straight, as in the text.
 
+- **Phase 4a, `153-Guinea_Pig_Sanctuary.csv`, 2026-11-13.** New row 2:
+  "Maui is friendly and gives kisses. Gritty is older, but shy. Rio has
+  spunk and likes to run around." -> Unnamed Group of People, Source
+  Descriptors "volunteers" (the personalities the volunteers "tick off," as
+  the paragraph before says). Old rows 2-9 -> 3-10. *(153: annotator not
+  recorded in the repo; filed here under SZ.)*
+
+- **Phase 4b, `153-Guinea_Pig_Sanctuary.csv`, 2026-11-13.** Sourced
+  Statements made to match the text: rows 3 (Janet Woodman), 6, 7, 10
+  (Kimie Smothermon) -- straight apostrophes and row 10's straight closing
+  quote -> curly. Smothermon's Source Justification (rows 1, 5, 6, 7, 8,
+  9, 10): second sentence dropped ("On any given day, 350 to 400 guinea
+  pigs are housed in a modest workspace, split into cages stacked from
+  the floor to ceiling." describes the workspace, not her); now
+  "Smothermon is the owner of the Guinea Pig Sanctuary, in Salisbury,
+  Massachusetts, roughly 40 miles (64 kilometers) north of Boston."
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
