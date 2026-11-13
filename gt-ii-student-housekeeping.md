@@ -2821,6 +2821,13 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Institute): added "That amounts to about 1 percent of the U.S. population
   in that age group." 114 now has 17 rows; old rows 10-14 are now 11-15,
   old row 15 is 17.
+- **Phase 4b, `114-Kansas_Gender_Transitioning_Ban.csv`, 2026-11-13.**
+  Two Source Justifications described a different source and were cleared:
+  row 14 (Republican supporters of the law) "a report commissioned by the
+  Trump administration" -> blank; row 15 (Trump administration) "a
+  demographics research center at the University of California, Los
+  Angeles" (that describes the Williams Institute) -> blank. That
+  description moved to row 17 (Williams Institute), whose SJ was blank.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
