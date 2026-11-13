@@ -2808,6 +2808,19 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   new: 8-12 -> 7-11, new 12 (Uetricht's second paragraph), 13-14 same,
   16-20 -> 15-19, 22-23 -> 20-21, 25 -> 22, 24 -> 23, 26-27 -> 24-25, new
   26 (de Blasio's second paragraph), 28 -> 27, new 28 (Gross's quote).
+- **Phase 4a (missed sourced statements), `114-Kansas_Gender_Transitioning_Ban.csv`, 2026-11-13.**
+  New row 10 (Supreme Court): "Last year, the Supreme Court upheld a
+  Tennessee ban on transition treatments for minors in the case United
+  States v. Skrmetti. That ruling, which found that states had the ability
+  under federal law to restrict those procedures, was a crushing blow to
+  the transgender rights movement." New row 16 (unnamed organizations,
+  Source Descriptors "medical societies"): the same sentence as row 15 --
+  "The major American medical societies endorse them, but a report
+  commissioned by the Trump administration concluded..." -- credits both
+  the medical societies and the administration's report. Row 17 (Williams
+  Institute): added "That amounts to about 1 percent of the U.S. population
+  in that age group." 114 now has 17 rows; old rows 10-14 are now 11-15,
+  old row 15 is 17.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
