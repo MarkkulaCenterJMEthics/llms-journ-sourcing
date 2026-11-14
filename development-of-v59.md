@@ -68,6 +68,7 @@ any single batch, a final pass across the whole corpus. Consolidated
 findings turn up, rather than letting them scatter again.
 
 **Specific known rows/files still needing a fix:**
+- Outlet self-citation fixes from the 2026-11-13 prevalence check (v62 item 10 in `prompt-revision-list.md`): `GT-II/75-SCOTUS_Black_Rep_Congress.csv` r1 Document / SD "analysis" -> Named Organization / NPR ("according to an NPR analysis", Minor 22); `GT-II/208-Review_Voter_Rolls.csv` r10 and r12 Document -> Named Organization / Reuters, and r11 needs a second row, Named Organization / Reuters, for "Reuters found this week that..." (same sentence as the experts' statement; replication rule) -- do 208's with its SZ-batch migration; `GT-II/113-California_Homes_Uninsured.csv` r43 Name "The Chronicle" -> "San Francisco Chronicle" (as r3); `GT-II/103-Durham_Tenants.csv` new row Named Organization / INDY Week for "As the INDY previously reported, the tenants... were shocked when notices to vacate were posted on their doors in September." First-person cases (29, 116, 189) wait for the v62 decision.
 - SD compliance findings from the 2026-11-05 scan (item 70): 103 r7, 105 r4/r25/r29, 113 r80/r12, 61 r6 (SZ) / r9 (AV), 108 SZ r5 / AV r2 -- SD words not stated in the article, or paraphrased. Fix in the final Phase 3(d) run.
 - Category 2 (missing Named-Org rows): `GT-II/175-Indigenous_Health_COVID.csv`
   rows 20, 21, 57; `GT-II/52-East_Bay_Voters.csv` row 8 — see the
