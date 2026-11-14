@@ -1317,6 +1317,29 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   completed -- "a former diplomat who served as the U.S. ambassador to
   Saudi Arabia" + "and the deputy chief of mission in Qatar."
 
+- **Phase 4a, `158-Better_Home_Finance_CEO_Fired.csv`, 2026-11-13.** Two
+  rows added (now 25). New row 6, Named Person / Vishal Garg: "He
+  attributed that success to the company's decision to train AI models...
+  which Garg said doubled productivity and slashed loan origination costs
+  in half." New row 23, Named Organization / MPAMAG: "It noted that he was
+  removed by a unanimous board vote taken without his participation..."
+  (continues the Better Home & Finance statement that MPAMAG reports, row
+  22). Old rows 6-21 -> 7-22, old 22-23 -> 24-25. *(158: annotator not
+  recorded in the repo; filed here under SZ.)*
+
+- **Phase 4b, `158-Better_Home_Finance_CEO_Fired.csv`, 2026-11-13.** Now
+  22 rows (numbers below are before renumbering). Row 1 ("...told CNN he
+  had been ousted...") -> Named Organization / CNN, Title blank (relayed
+  speech: the source is the outlet the statement was given to). Rows 11,
+  12, 13 merged into one row (one paragraph, one source: "Garg told how
+  Lewis... He then bemoaned..."); rows 14 and 15 merged likewise ("'It's
+  not about me,'... a seat on the board."). Row 19 ("Spiro then sent the
+  board a letter last week demanding it reinstate Garg...") -> Named
+  Person / Alex Spiro, Title "attorney" (he speaks through the letter).
+  Rows 22 and 23 ("a representative for Garg said...") -> Unnamed Person,
+  Title "representative", Name blank. Missing opening quote marks restored
+  in rows 2, 7, 8, 16, 21; final period restored in row 20.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
