@@ -1340,6 +1340,60 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Title "representative", Name blank. Missing opening quote marks restored
   in rows 2, 7, 8, 16, 21; final period restored in row 20.
 
+- **Phase 2.6 Pass 1 (Title credentialing), SZ batch 191-211, batch A
+  (191-199), 2026-11-13.** Titles as the article writes them:
+  `192-OpenAI_Concerning_Behavior.csv` row 3 (Sam Altman) "OpenAI CEO" ->
+  "OpenAI chief executive"; rows 13, 14 (Mustafa Suleyman) "Chief Executive
+  of Microsoft AI" -> "chief executive of Microsoft AI".
+  `194-Mice_Part_Human_Brain.csv` rows 1, 2, 3, 6, 9 (Sergiu Pașca)
+  "Professor of Psychiatry" -> "professor of psychiatry"; rows 10, 11
+  (Madeline Lancaster) Title -> "group leader at the MRC Laboratory of
+  Molecular Biology in Cambridge" on both, and row 10's Source Descriptors
+  (the same title text) -> blank. `195-Gemini_Hack.csv` rows 4, 14 (Heather
+  Adkins) -> "vice president of security engineering at Google".
+  `197-Humpback_Whale.csv` rows 5, 6 (Kathi George) -> "director of
+  cetacean conservation biology". `193-Ireland_Ed_Sheeran.csv` rows 22, 27
+  (Andrew E. Quinn): Title "journalist" on both (a profession), row 27's
+  Source Descriptors "journalist" -> blank. `199-Trump_Tech_Issues.csv` row
+  5 (Ken Paxton): Title "Republican Senate candidate, attorney general" ->
+  "the state's attorney general", Source Descriptors "candidate" ->
+  "Republican Senate candidate" (a candidacy is not an office; the party
+  word goes with it); row 19 (Josh Shapiro): Title "Gov." -> "Democratic
+  Gov." (the party designation the reporter attaches to the office).
+  Rows 2, 11 (Mike Rogers): Title "GOP Senate nominee" -> blank, Source
+  Descriptors -> "GOP Senate nominee" (a nominee has won the party's
+  primary but holds no office; the story gives him no other title).
+
+- **Phase 2.6 Pass 1 (Title credentialing), SZ batch 191-211, batch B
+  (200-211, plus 194 row 5), 2026-11-13.** `200-US_Factory_Fail.csv`: the
+  firm each economist works at added to the Title, as written -- row 3
+  "chief US economist at Pantheon Macroeconomics", row 6 "lead U.S.
+  economist at Oxford Economics", rows 8, 9 "chief economist at
+  FWDBONDS", row 10 "chief economist at High Frequency Economics".
+  `204-El_Nino_Emergency.csv` rows 3, 4, 5 (Patrick Barnard): "Research
+  director at... Santa Cruz." -> "research director at the Center for
+  Coastal Climate Resilience at the University of California, Santa Cruz"
+  (case as written, stray period dropped). `206-Trump_Welcomes_Xi.csv` row
+  12 (Edgard Kagan): Source Descriptors "Center for Strategic and
+  International Studies" -> blank (an affiliation, already in the Source
+  Justification). `209-FDA_Nominee.csv`: the state the reporter attaches
+  added to each senator's Title -- rows 2, 3, 5, 6 (Bill Cassidy) "US
+  Senator" -> "US Senator, Louisiana; physician" ("Cassidy, himself a
+  physician" -- a licensed profession); rows 9, 10 (Ed Markey) "Democratic
+  Senator, Massachusetts"; rows 14, 16, 19 (Patty Murray) "Democratic
+  Senator, Washington"; row 20 (Susan Collins) "Republican Senator,
+  Maine"; row 22 (Chris Murphy) "Democratic Senator, Connecticut".
+  `210-Fox_Trump_Ad.csv` rows 12, 13 (Jamie Raskin): Title "Representative"
+  -> "representative, a Maryland Democrat; constitutional scholar" (the
+  party and state given for an elected official, plus his stated
+  expertise), Source Descriptors "Democrat" -> blank.
+  `211-Tasia_Fortune.csv` rows 2, 4 (Samuel Dukes): "Det." -> "Jackson
+  police Det." (as written). `194-Mice_Part_Human_Brain.csv` row 5 (Emily
+  Jackson): Title -> "professor of law at London School of Economics";
+  "chair of a recent report on neural organoids for the Nuffield Council
+  on Bioethics" moved to the Source Justification (her role on a specific
+  work, beside a position title).
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
