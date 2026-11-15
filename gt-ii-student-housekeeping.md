@@ -1432,6 +1432,31 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   `203-Cancelled_Obamacare.csv` rows 3, 4, 8, 12 (CMS): blank -> "health
   agency" ("The health agency").
 
+- **Phase 3 (corpus checks a-e), SZ batch 191-211, 2026-11-14.** (a) Source
+  Justifications that were only the attribution or how the reporter got
+  the statement: `208-Review_Voter_Rolls.csv` row 1 "according to an
+  internal email seen by Reuters" -> blank, row 19 "DHS Secretary Markwayne
+  Mullin told Fox News on Saturday" -> blank; `198-Pentagon_UFO.csv` row 2
+  "In notes accompanying the documents" -> blank; `210-Fox_Trump_Ad.csv`
+  row 16 (AdImpact) "a firm that tracks political ads, told the Wall Street
+  Journal" -> "a firm that tracks political ads", row 14 (Wall Street
+  Journal) the same text -> blank (it describes AdImpact). (d) Source
+  Descriptors: sentence-start capitals lowercased -- `194` row 7 "tests",
+  `196` row 9 "allies" and row 14 "polling", `199` row 16 "advocates",
+  `204` row 8 "studies"; `193` row 23 (RTÉ) "Broadcaster" -> "national
+  broadcaster" ("Ireland's national broadcaster"; the place is left out
+  for an organization); `203` row 7 (National Association of Benefits and
+  Insurance Professionals) "association" -> "trade group, association".
+  Titles of unnamed groups in the article's case: `194` row 8
+  "researchers," `196` row 10 "analysts," `200` row 5 "economists" (the
+  text has them lowercase); and sentence-start capitals lowercased --
+  `194` row 4 "experts," `200` row 4 "economists," `202` row 13
+  "officials," `205` row 8 "experts," `206` row 14 "analysts," `211` rows
+  1 "investigators" and 3 "authorities."
+  `193-Ireland_Ed_Sheeran.csv` row 11 (Beoga): Source Descriptors "Irish
+  folk band" -> "Irish folk band, Irish folk group" (both phrases the
+  story uses; "Irish folk" names the kind of music, so "Irish" stays).
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
