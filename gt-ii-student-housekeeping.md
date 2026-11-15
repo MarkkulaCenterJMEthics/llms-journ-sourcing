@@ -1394,6 +1394,44 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   on Bioethics" moved to the Source Justification (her role on a specific
   work, beside a position title).
 
+- **Phase 2.6 Pass 3 (Source Descriptors, story-level), SZ batch 191-211,
+  Named Person rows, 2026-11-14.** Source Descriptors are the reporter's
+  own words from anywhere in the story, in the article's case.
+  `193-Ireland_Ed_Sheeran.csv`: rows 1, 6, 24, 25, 26 (Ed Sheeran)
+  "Songwriter"/"Singer" -> "songwriter, singer, artist" ("Grammy-award
+  winning songwriter," "The singer," "the two artists"); rows 2, 3, 4
+  (Macklemore) "Rapper" -> "artist" (the text never calls him a rapper;
+  "the two artists"); row 10 (Aaron Rowe) "Singer" -> "Irish singer,
+  Dublin singer"; rows 13-18 lowercased as written ("actor," "singer,"
+  "broadcaster," "singer," "actor," "musician"). `199-Trump_Tech_Issues.csv`:
+  rows 6, 7 (James Talarico) "opponent" -> "Democratic opponent"; row 12
+  (Jon Husted) "candidate" -> blank (not a word the text uses for him);
+  row 17 (Tom Tiffany) "candidate" -> "Republican candidate"; row 18
+  (David Crowley) "opponent" -> "democratic opponent"; row 20 (Stacy
+  Garrity) "challenger" -> "Republican challenger". `210-Fox_Trump_Ad.csv`
+  row 18 (JMSN) "artist" -> "Detroit-born artist, singer".
+  `211-Tasia_Fortune.csv` row 6 (Christy Spivey) "Fortune's mother" ->
+  "mother".
+  `209-FDA_Nominee.csv` rows 1, 7, 8, 11, 12, 13, 15, 17, 18, 21, 23 (Heidi
+  Overton): blank -> "America First ally" (from "turning to an "America
+  First" ally"; "FDA nominee" appears only in the headline, which is not
+  annotated).
+  `193-Ireland_Ed_Sheeran.csv` row 8 (Ruth Coppinger): Title blank ->
+  "politician" ("Among politicians, Alan Kelly, a Labour TD, ... while Ruth
+  Coppinger of People Before Profit..."; she is named as one of the group,
+  and "politician" is treated as a title). Row 7 (Alan Kelly) keeps the
+  more specific "Labour TD."
+
+- **Phase 2.6 Pass 3 (Source Descriptors, story-level), SZ batch 191-211,
+  organization rows, 2026-11-14.** An organization's Source Descriptor
+  goes on every row for it. `192-OpenAI_Concerning_Behavior.csv` rows 5, 8,
+  10, 11, 15, 16, 17, 19 (OpenAI): blank -> "company" ("the company").
+  `195-Gemini_Hack.csv` rows 2, 3, 12, 13 (Google): blank -> "search giant"
+  ("the search giant"). `200-US_Factory_Fail.csv` row 1 (Federal Reserve):
+  blank -> "central bank" ("The US central bank").
+  `203-Cancelled_Obamacare.csv` rows 3, 4, 8, 12 (CMS): blank -> "health
+  agency" ("The health agency").
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
