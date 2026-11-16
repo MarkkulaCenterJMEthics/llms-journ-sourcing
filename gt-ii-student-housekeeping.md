@@ -1534,6 +1534,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   election, President Donald Trump has come out against regulation on
   controversial tech issues..." (old rows 1-23 -> 2-24).
 
+- **Phase 4, `200-US_Factory_Fail.csv`, `201-Trump_Backs_Off_Greenland.csv`,
+  `202-Trump_Mamdani_Affordable.csv`, and `196-Greenland_Agreement.csv`,
+  2026-11-16.** 200 rows 1 and 2 (Federal Reserve) merged -- same source,
+  one paragraph ("The decline in output, reported by the Federal Reserve on
+  Friday, followed seven straight months of increases. The US central bank
+  on Wednesday raised interest rates..."); row 9 (Christopher Rupkey, now
+  row 8): quotation marks around the statement restored, as in the text;
+  now 9 rows. 202 row 1: Document, Source Descriptors "mock-up" -> Named
+  Person / Zohran Mamdani, Title "Mayor" ("At that meeting, the mayor
+  pitched the president a massive housing project..."); rows 2 and 3
+  (Zohran Mamdani) merged -- same source, one paragraph; now 12 rows. 196
+  row 7: Unnamed Person, Title "State Department official" -> Named
+  Organization / State Department, Title blank (an unnamed official of a
+  named organization, as in 201 row 8). 201: no changes.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
