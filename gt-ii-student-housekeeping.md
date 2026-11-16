@@ -1457,6 +1457,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   folk band" -> "Irish folk band, Irish folk group" (both phrases the
   story uses; "Irish folk" names the kind of music, so "Irish" stays).
 
+- **Phase 4 (text fidelity), SZ batch 191-211, 2026-11-15.** Sourced
+  Statements made to match the article text exactly (61 rows; mechanical
+  only). Curly vs straight quote marks and apostrophes, as the text has
+  them: `191` rows 2, 8, 13, 14; `196` rows 1, 6; `198` rows 1, 2, 5, 7, 8,
+  10, 12, 14, 16; `199` rows 13, 15; `206` row 1; `207` rows 6, 7; `208`
+  rows 11, 15, 16, 17, 23, 29, 31; `210` row 18; `211` rows 2, 6.
+  Quotation marks the annotator had left out, restored: `199` rows 4, 23;
+  `200` rows 3, 8, 10; `201` rows 1, 3, 7, 9, 13; `202` rows 8, 9, 11;
+  `203` row 6; `205` rows 15, 17, 19; `206` row 12; `208` row 25; `209`
+  rows 6, 7; `210` row 13. Other characters: `191` rows 10, 11, 12
+  "Nvidia's" -> "Nividia’s" (the article's own spelling); `194` row 9
+  "Pașca" -> "Paşca" (as spelled in that paragraph; Name unchanged); `196`
+  row 7 and `206` row 4 dash spacing/type; `207` row 4 em dashes; `207`
+  row 11 and `209` row 9 double space -> single.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
