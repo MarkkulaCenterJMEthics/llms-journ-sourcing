@@ -1502,6 +1502,23 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Rows 2, 3, 4 (Macklemore): Source Descriptors "artist" -> "rapper,
   artist" ("The rapper went on to perform...").
 
+- **Phase 4, `195-Gemini_Hack.csv`, `196-Greenland_Agreement.csv`,
+  `197-Humpback_Whale.csv`, 2026-11-16.** 195 rows 10 and 11 (Irregular)
+  merged into one row -- one statement in one paragraph ("“This is the same
+  issue... separate incident,” an Irregular spokesperson said in a
+  statement. “All relevant labs were notified in late July...”"); later
+  rows renumbered (now 14). 196 row 3 (Greenland): Source Justification
+  "The governments of Greenland and Denmark, which has sovereignty over the
+  island," -> blank (the attribution phrase); row 4 (Denmark): -> "which has
+  sovereignty over the island." 197 row 2 removed (Unnamed Group of People,
+  scientists: "The rare inland visit from a whale has attracted the
+  attention of scientists who want to know what kind of condition it’s in
+  and how it wound up so far from the sea." -- credits the group with no
+  claim); later rows renumbered (now 9).
+  195 row 12 removed (Named Organization, Google: "A Google spokesperson
+  declined to identify the exact Gemini model involved." -- a refusal to
+  the reporter with nothing said); row 13 -> 12 (now 13 rows).
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
