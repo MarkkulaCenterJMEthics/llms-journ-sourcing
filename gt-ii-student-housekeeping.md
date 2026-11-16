@@ -1484,6 +1484,24 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   the research at Stanford University." -> "professor of psychiatry who
   led the research at Stanford University" (as on his other rows).
 
+- **Phase 4, `193-Ireland_Ed_Sheeran.csv`, 2026-11-16.** The article text
+  was updated to the Newsweek version of Sep 21, 2026 (user's PDF); it now
+  includes the RTÉ paragraph that row 23 (now 27) was annotated from, and a
+  new section, "Why the Macklemore Dispute Resonates in Ireland." Rows added
+  for that section (now rows 7-10; old rows 7-27 -> 11-31): row 7, Named
+  Organization / Ireland’s Department of Foreign Affairs ("Ireland’s
+  Department of Foreign Affairs says the country was the first member...
+  That position appeared in a joint declaration by the foreign ministers of
+  Ireland and Bahrain in 1980."); row 8, Named Organization / Irish
+  government ("The Irish government presented recognition as support for
+  Palestinian self-determination..."); row 9, Named Person / Simon Harris,
+  Title "then-Taoiseach" ("Announcing the decision, then-Taoiseach Simon
+  Harris compared it... "Today we use the same language..."");
+  row 10, Document, Source Descriptors "survey" ("A nationally
+  representative survey of 1,547 people in Ireland last month found...").
+  Rows 2, 3, 4 (Macklemore): Source Descriptors "artist" -> "rapper,
+  artist" ("The rapper went on to perform...").
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
