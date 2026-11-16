@@ -1472,6 +1472,18 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   row 7 and `206` row 4 dash spacing/type; `207` row 4 em dashes; `207`
   row 11 and `209` row 9 double space -> single.
 
+- **Phase 4, `192-OpenAI_Concerning_Behavior.csv` and
+  `194-Mice_Part_Human_Brain.csv`, 2026-11-15.** 192 row 2 (U.S. tech
+  bosses): Source Justification "U.S tech bosses" -> "U.S. tech bosses"
+  (as written). 194 row 6 (Sergiu Pașca): the rest of the paragraph
+  appended -- "The newborn mice received several injections, each
+  containing about 100,000 human brain cells... In total, the rodents
+  lacked about 14m mouse brain cells and ended up with about 4m human ones
+  – half the brain by volume." (carries on the account he "describes" in
+  Nature); row 1: Source Justification "a professor of psychiatry who led
+  the research at Stanford University." -> "professor of psychiatry who
+  led the research at Stanford University" (as on his other rows).
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
