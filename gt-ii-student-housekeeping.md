@@ -1519,6 +1519,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   declined to identify the exact Gemini model involved." -- a refusal to
   the reporter with nothing said); row 13 -> 12 (now 13 rows).
 
+- **Phase 4, `198-Pentagon_UFO.csv` and `199-Trump_Tech_Issues.csv`,
+  2026-11-16.** 198 row 4 (researchers): Title "Researchers" ->
+  "researchers" (sentence-start capital). 198 row 14: Unnamed Person,
+  Title "reporting officer" -> Named Organization / The Pentagon ("“The
+  reporting officer described the phenomenon...,” the military said in notes
+  accompanying one of the clips" -- the military's statement is the primary
+  attribution; the notes are the Pentagon's, as in row 2). 199 rows 8, 14,
+  21: Document, Source Descriptors "poll" -> Named Organization / Marquette
+  ("a Marquette poll," "The Marquette poll"), Source Descriptors blank;
+  row 9: Document -> Named Organization / Quinnipiac University ("A March
+  Quinnipiac University poll"). 199 new row 1, Named Person / Donald Trump,
+  Title "President": "In the final months before the high-stakes midterm
+  election, President Donald Trump has come out against regulation on
+  controversial tech issues..." (old rows 1-23 -> 2-24).
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
