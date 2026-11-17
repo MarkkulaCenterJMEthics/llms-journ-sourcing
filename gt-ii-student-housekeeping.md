@@ -1585,6 +1585,20 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   official Chinese news agency" -- the organization is described, not
   named).
 
+- **Phase 4, `208-Review_Voter_Rolls.csv`, 2026-11-16.** The outlet's own
+  reporting credited by name is Named Organization / Reuters (v62 item 10):
+  row 10 ("Multiple studies and audits - including a Reuters analysis in
+  July - have found...") kept as Document with Source Descriptors
+  "studies, audits" (was "studies, audits, analysis"), plus a new row 11,
+  Named Organization / Reuters, same Sourced Statement; new row 12, Named
+  Organization / Reuters, for "Reuters found this week that states may have
+  added more than 30,000 noncitizens..." (same Sourced Statement as the
+  experts' row, now 13); old row 12 (now 14), "A Reuters review in July
+  found...": Document -> Named Organization / Reuters, Source Descriptors
+  blank, and the trailing "The Trump administration has charged at least
+  20 more under the statute in the months since." taken out (a later
+  update, not from the review). Now 34 rows.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
