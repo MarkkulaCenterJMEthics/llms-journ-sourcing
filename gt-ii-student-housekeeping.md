@@ -1549,6 +1549,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Organization / State Department, Title blank (an unnamed official of a
   named organization, as in 201 row 8). 201: no changes.
 
+- **Phase 4, `203-Cancelled_Obamacare.csv`, `204-El_Nino_Emergency.csv`,
+  `205-Mortgage_Rates.csv`, 2026-11-16.** 203 row 2: Document, Source
+  Descriptors "documents" -> Named Organization / CMS, Source Descriptors
+  "health agency" ("...comes as the agency says it will bar some 569
+  brokers who it says..." -- the claim is the agency's; the rule-making
+  documents stay in the Source Justification); row 10 removed (Unnamed
+  Group of People, administration officials -- their estimate is reported
+  through the Wall Street Journal, row 9, which is the primary
+  attribution); row 11 (now 10): Document, Source Descriptors "report" ->
+  Named Organization / US Department of Health and Human Services ("A
+  report by the US Department of Health and Human Services..."); now 11
+  rows. 205 row 18 (Jake Krimmel): the reporter's lead-in "Home prices are
+  already showing signs of softening." taken out of the Sourced Statement.
+  204: no changes.
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
