@@ -1564,6 +1564,27 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   already showing signs of softening." taken out of the Sourced Statement.
   204: no changes.
 
+- **Phase 4, `206-Trump_Welcomes_Xi.csv` and
+  `207-US_Iran_Unexpected_Problems.csv`, 2026-11-16.** 206: new row 1,
+  Unnamed Group of People, Source Descriptors "protesters" ("Outside the
+  gate, a group of loud protesters shouted slogans like "China out of Hong
+  Kong"..."); new row 12, Named Person / Edgard Kagan, Title "former senior
+  White House official for East Asia," Source Justification "now with the
+  Center for Strategic and International Studies" ("Edgard Kagan, a former
+  senior White House official for East Asia, said the contrasting rhetoric
+  demonstrates the different strategy of each leader."); old row 6 removed
+  (Unnamed Group of People: "That move left some US allies in Asia and even
+  some of Trump's fellow Republicans concerned that..." -- a reported
+  concern, not a claim); now 17 rows. 207 row 5 removed (Unnamed Group of
+  People, analysts: "With U.S.-Iran talks in New York this week, analysts
+  had hoped for some details on when the action may de-escalate." -- a
+  reported hope, not a claim); now 11 rows.
+  206 row 5: Named Organization, Name "official Chinese news agency" ->
+  Document, Source Descriptors "readout," Source Justification "from the
+  official Chinese news agency" ("...according to a readout from the
+  official Chinese news agency" -- the organization is described, not
+  named).
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
