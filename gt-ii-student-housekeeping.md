@@ -1606,6 +1606,20 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   a drug used by millions since its US approval 26 years ago." Old rows
   20-23 -> 21-24 (now 24 rows).
 
+- **Phase 4, `210-Fox_Trump_Ad.csv` and `211-Tasia_Fortune.csv`,
+  2026-11-16.** 210: new row 2, Unnamed Group of People, Source Descriptors
+  "Democrats," same Sourced Statement as row 1 ("...a White House-produced,
+  pro-Trump ad that some Democrats said could be illegal government
+  propaganda..." -- two sources joined in one sentence, one row each); old
+  row 11 removed (an exact duplicate of row 10, the ad's closing tribute);
+  old row 17 (now 17): closing quotation mark restored ("...golden age of
+  America.”"); now 18 rows. 211 row 1 ("Investigators believe Tasia
+  Fortune was already dead..., a detective testified Friday."): Unnamed
+  Group of People, Title "investigators" -> Named Person / Samuel Dukes,
+  Title "Jackson police Det.," Source Justification as on his other rows
+  (the detective who testified, named in the next paragraph; the
+  investigators' belief is part of his testimony).
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
