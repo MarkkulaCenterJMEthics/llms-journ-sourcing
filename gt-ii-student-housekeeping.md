@@ -3280,6 +3280,65 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   comment publicly and spoke on the condition of anonymity" (as in
   `98-Trump_China.csv`).
 
+- **Solidarity reconciliation with AV's revised files, 2026-11-16.** AV's
+  revisions brought into the migrated CSVs (each difference checked against
+  the Sep17 original to tell her edits from migration edits; migration
+  edits kept). `167-Youre_Swamped.csv`: both rows for "Every hurricane
+  season... people—both randoms on the Internet and whole ass
+  journalists—ask: "Why don't people on the Gulf Coast just move?""
+  removed (the "randoms" and "journalists" rows; AV removed one of them;
+  a question, not a claim, so neither stays); now 4 rows.
+  `171-Bracing_Next_George_Floyd.csv`: rows 7 (Artika Tyner, "remembers
+  hearing protests outside of her window...") and 14 (Jerome Treadwell,
+  "Treadwell and other organizers have been calling out racist
+  incidents...") removed and their sentences made the Source
+  Justification of Tyner's row 8 and Treadwell's rows 15 and 16 (AV's
+  revision); row 2 removed ("Corporations and government officials
+  promised diversity and equity." -- AV's removal accepted); row 1
+  (protesters "demanding change") kept despite AV's removal (a group's
+  demand is a Sourced Statement); now 13 rows.
+  `190-West_Texas_Drag_Queens.csv` rows 9, 10 (Miss Calvina): Source
+  Justification extended to the full sentence, "...she saw this event as an
+  opportunity to teach literacy in a different way." (AV's revision).
+  `189-Cameroon_Unpaid_Wages.csv`: AV's file has no changes of her own.
+
+- **Phase 4b (deferred solidarity 4b), `190-West_Texas_Drag_Queens.csv`,
+  2026-11-16.** Rows narrating what a source did or felt, with nothing
+  crediting the source, removed: Destiny Adams rows 1 (arriving at the
+  coffeehouse; hosting the event), 2 (her doubts), 3 (her surprise), 11
+  (opening the shop), 12 (her vision for it), 21 (hiring security), 37
+  (exhausted and grateful), 39 (fielding inquiries); row 14 (Victoria
+  Hughes's background -- already her Source Justification); rows 31 and 32
+  (Donabela Kanela and Vanessa P. Nevaeh "saw their presence... as a way to
+  fight back against misconceptions about their community" -- moved to
+  their rows 33 and 34 as Source Justification). Destiny Adams's remaining
+  rows: Source Justification blank -> "In a few hours, Adams would be
+  hosting a Pride event featuring the first-ever drag queen story time in
+  her small, conservative town of Wolfforth, a suburb of Lubbock with a
+  population under 6,000." Trailing or lead-in reporter text taken out of
+  Sourced Statements: row 9 (Miss Calvina, "Having worked seven years..."
+  -- already her Source Justification), row 17 (Steve Miller, "Miller had
+  been a vocal critic..." -- already his Source Justification), row 35
+  (Grace Rogers, "She attended the drag queen story hour..."), row 25
+  (Bryan Slaton, the lead-in "Since the next legislative session doesn't
+  convene until Jan. 10, 2023, Slaton has yet to submit any
+  legislation."), row 26 (Slaton, "A similar law already exists for
+  employees of sexually oriented businesses."). Now 29 rows.
+
+- **Phase 4b (deferred solidarity 4b), `189-Cameroon_Unpaid_Wages.csv`,
+  2026-11-16.** Row 42 removed (Wawa Jackson Nfor: "Before going to jail,
+  Jackson worked for a media house that used to pay him less than FCFA
+  25,000... He had no contract with his employer." -- narration, nothing
+  credits him); row 41 (Jackson): the lead-in "Another journalist, Wawa
+  Jackson Nfor, was in prison in Nkambe for 33 months without trial." taken
+  out of the Sourced Statement, and Source Justification blank -> that
+  sentence plus the removed row-42 text (his own experience). Rows 25, 26,
+  27 (Nkafu Institute, Denis and Lenora Foretia Foundation, Atlas
+  Network): the lead-in "Cameroon’s public debt has risen very quickly
+  within the last five years." taken out. Row 46 (Mbomda Djomeni Casimir):
+  the trailing "This provides hope for journalists like Mohamed Auwal*, who
+  fears retribution for coming forward." taken out. Now 45 rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
