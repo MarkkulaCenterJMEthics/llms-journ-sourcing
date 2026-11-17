@@ -152,9 +152,35 @@ findings turn up, rather than letting them scatter again.
   44's "concrete instance" note), moving valid content downstream into
   Source Justification first. When the revised XLSx files come back,
   diff them against the already-migrated CSVs for this same story
-  range to reconcile, rather than re-migrating from scratch. Not
-  started yet — depends on the annotator's revision, not on any
-  migration-side action.
+  range to reconcile, rather than re-migrating from scratch.
+  **[RECEIVED 2026-11-16]** `~/Documents/GT-II-finishedfiles-XLSx/AV-Solidarity-redone-Oct-Sep/`
+  (17 XLSX, all in the 6-field schema). Compared with the Sep17
+  delivery (`v59-60 Finished Files-Sep17/`): **14 revised** -- 9
+  dated October (167, 168, 171, 172, 175, 185, 186, 189, 190) and 5
+  dated late September whose contents differ from the originals (166,
+  170, 173, 174, 176); **3 unchanged** -- 169 (renamed "#169 -
+  Interview"), 187 and 188 are byte-identical to the originals. Most
+  revisions remove or merge rows (narration taken out of SS, often into
+  SJ): rows original -> revised -> current GT CSV: 166 16/13/16, 167
+  5/4/6, 168 41/30/41, 170 35/22/35, 171 16/12/16, 172 33/29/34, 173
+  24/18/24, 174 61/48/49, 175 119/78/119, 176 13/12/15, 185 55/45/55,
+  186 68/65/68, 189 46/46/46, 190 40/40/40. 174 is revised too, though
+  it was outside the deferred set (it had its own 4a+4b). Some revisions
+  run against settled decisions -- e.g. 176 Roberto and Yolanda changed
+  from Anonymous Source to Named Person (first names only; the story's
+  footnote says first names are used to protect privacy).
+  **Plan (not started; slot after the SZ batch's Phase 4):** (1) convert
+  the 14 revised files to CSV in a staging folder, not over the GT;
+  (2) per story, diff AV's revision against the current GT CSV and sort
+  each difference -- AV's own editorial change, or a migration change
+  made since Sep17 (logged under AV in housekeeping: SD/Title rules,
+  Note 22a, case, fidelity, story-level SD, splits); (3) build the
+  reconciled CSV from AV's revision, re-apply the settled rule-based
+  changes, and bring every conflict with a settled decision to the user
+  (e.g. 176); (4) then run the deferred 4b (and 4a where rows changed)
+  on all 14, plus item 57 (172 Title), item 46 (SJ affiliation check),
+  176 r4 (bulleted list); (5) 169, 187, 188: no revision, so run their
+  deferred 4b on the current CSVs.
 - **Compile and reconcile a consolidated "principles/rules" list against
   the prompt** — every explicit rule invoked during this migration's
   decision-making (Prompt Updates checklist items, plus standalone
