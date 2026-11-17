@@ -1599,6 +1599,13 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   20 more under the statute in the months since." taken out (a later
   update, not from the review). Now 34 rows.
 
+- **Phase 4, `209-FDA_Nominee.csv`, 2026-11-16.** New row 20, Unnamed Group
+  of People, Source Descriptors "abortion-rights groups": "If confirmed,
+  Overton would inherit an FDA review of mifepristone that abortion-rights
+  groups call politically motivated and warn could tighten restrictions on
+  a drug used by millions since its US approval 26 years ago." Old rows
+  20-23 -> 21-24 (now 24 rows).
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
