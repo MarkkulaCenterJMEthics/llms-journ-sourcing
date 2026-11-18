@@ -3726,6 +3726,56 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
   `extracted_articles_boilerplate/REFLOW_2026-11.md`. Story 26 turned out
   not to be wrapped (left as is); 17 still needs a PDF.
 
+- **`1-Harris-Poll.csv`, Phase 4, 2026-11-18.** Rows 1 and 2: the final
+  period, cut off, restored from the text. Row 16 removed ("The latest
+  poll's survey period partially overlapped with the Aug. 19-22 Democratic
+  National Convention... it remains to be seen whether the same level of
+  enthusiasm for Harris will continue." -- the reporter's analysis, not a
+  poll finding). Aimee Allison's Source Justification "A liberal group..."
+  -> "a liberal group..." as in the text. Now 16 rows.
+
+- **`2-Best-DDR-player.csv`, Phase 4, 2026-11-18.** One row per source per
+  paragraph: Chris Chike's rows 1-2 merged into "“It wasn't anything
+  serious,” he told Gazetteer SF over FaceTime from his home in Hayward.
+  “I wasn't extremely good at the game or anything.”" (both had been
+  quote fragments without quote marks or attribution); his rows 9-10
+  merged into the full paragraph "“I don’t think I would have any other
+  reason... like me.”"; Roger Clark's rows 12-13 merged into the full
+  paragraph "“Whenever you meet someone who plays DDR... working in the
+  tech industry here." Rows 3 (comments, Unnamed Group of People) and 4
+  (one commenter, Unnamed Person) each held half of one sentence -> both
+  the full sentence "Multiple contemporaneous comments called him a
+  “god”; one commenter heralded the task as “the pinnacle of human brain
+  potential.”" Added: Clark, "Clark recalled the song required about 800
+  steps at 220 beats per minute for two minutes, a feat of agility not
+  entirely dissimilar to an Olympic sprint."; Chike, "He describes it as
+  a blessing in disguise." Chike's Source Justification on all his rows
+  -> "Chris Chike is, by most accounts, the greatest Dance Dance Revolution
+  player in the world." (was two versions, one with "he told Gazetteer SF
+  over FaceTime from his home in Hayward"). Now 19 rows.
+
+- **`3-SF renewed-sweeps.csv`, Phase 4, 2026-11-18.** Row 2 removed
+  (Document, "Despite Public Works’ policy and procedure for documenting,
+  bagging, and tagging most belongings" -- half a sentence; the policy is
+  context here, and its rules are quoted in its own row); row 3 (Antonio
+  Robinson) -> the full sentence "Despite Public Works’ policy... Robinson
+  said he was unable to find any of his property...". Joey O’Brien's row
+  "More than anything, however, he begged..." now starts at "O’Brien was
+  polite and contrite, admitting that he had broken several windows in
+  the past while suffering a mental breakdown." (attributed, same
+  paragraph); its Source Justification, which was that sentence -> his
+  Source Justification from his other rows. Hazel Williams row (started
+  mid-sentence, "as a recent batch of public records...") -> the full
+  sentence "Despite promises from law enforcement and city officials that
+  this property will be preserved, there is plenty of evidence... taking
+  them to the city’s storage facility on Cesar Chavez St." Robinson's row
+  8 ("“All they do is tell me to go back to the Hunters Point Navigation
+  Center...”"): Source Justification "“I had bad experiences,”" (a piece
+  of the row's own quote) -> his opening-paragraph Source Justification
+  ("On a grey Thursday morning last week, Antonio Robinson watched...").
+  His other local Source Justifications left for the SJ sweep. Now 24
+  rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
