@@ -3626,6 +3626,54 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   has still not trickled down to the communities that need it most." 85
   rows.
 
+- **Deferred 4b, `169-Black_Mothers_Gun_Violence.csv`, 2026-11-18.** Shea
+  Kuykendoll: Title blank -> "student advocate, University of Memphis";
+  Source Descriptors "mother, student advocate" -> "mother". Sharmaine
+  Brown's Source Justification: the repeated last sentence ("Her son died
+  of a gunshot wound in 2015." -- the text says it twice) dropped. 53 rows.
+
+- **Deferred 4b, `187-Trans_Youth_Dont_Say_Gay.csv`, 2026-11-18.** Rows 1-2
+  (critics / Ron DeSantis) and 7-8 (DeSantis / critics) each split one
+  sentence between two sources -> both rows of each pair now the full
+  sentence ("What critics call the "Don't Say Gay" bill, Gov. Ron DeSantis
+  called in an email to supporters “a Florida bill that sensibly
+  prohibits...”" and "The governor has repeatedly said the bill does not
+  specify gay — or any other queer identity — but critics say that's not
+  true."). Removed: Rain Weinstein row 6 ("He's one of several youth
+  documenting his experiences... TikTok account..." -- now his Source
+  Justification, blank before); Salem Smith row 16 ("...is worried that
+  kids who aren’t exposed... will suffer...") and Maryn Russ row 19 ("...is
+  worried about the provision...") -- reported concerns. Weinstein's row
+  26: "This includes Texas... investigations have already started." taken
+  out. Weinstein Title "senior at Palm Harbor University High School" ->
+  blank (Source Descriptors already "transgender, senior"; matches Sage
+  Ackerman and the rest of the GT). Russ Source Descriptors "non-binary
+  sixth grade student" -> "non-binary, sixth grade student". Now 25 rows.
+
+- **Deferred 4b, `188-Trans_Women_Incarcerated.csv`, 2026-11-18.** Title of
+  Source, leading article dropped: Rodrigo Heng-Lehtinen ("the incoming
+  executive director..."), Richard Saenz ("a senior attorney with Lambda
+  Legal"), Jennifer Orthwein ("a public interest attorney in
+  California"). Jasmine Rose Jones row 1: "Jasmine Rose Jones is a woman."
+  taken out; Title blank -> her Title from her other rows. Jones row 3:
+  "At the time, Jones did not feel like she could report the assaults..."
+  taken out. Trimmed at sentence boundaries: academic research row ("And
+  that is still the case nearly 30 years after... Farmer v Brennan..."
+  out), activists row ("Now, they are working to change policies..."
+  out), Dee Farmer row ("Farmer v Brennan centered on the alleged prison
+  rape of a trans woman, Dee Farmer." out), NCTE survey row ("Once they are
+  incarcerated, trans people are at significantly higher risk of
+  violence." out), Bamby Salcedo row ("Salcedo is now the CEO and
+  President of Los Angeles-based TransLatin@ Coalition..." out). Removed
+  (actions): Farmer row 15 ("Activists like Dee Farmer are still fighting
+  to institute..." -- now her Source Justification, blank before); George
+  W. Bush row 34 (signed PREA into law); Gavin Newsom row 47 (signed SB
+  132 into law); Orthwein row 51 ("...filed a lawsuit on June 11..." --
+  now her Source Justification, replacing "now a friend of Jones", which
+  it contains). Added: Named Organization / Department of Justice, "The
+  Department of Justice tells CNN that the Federal Bureau of Prisons
+  “follows and enforces PREA standards...”". Now 59 rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
