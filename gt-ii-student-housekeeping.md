@@ -3339,6 +3339,74 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   the trailing "This provides hope for journalists like Mohamed Auwal*, who
   fears retribution for coming forward." taken out. Now 45 rows.
 
+- **Solidarity reconciliation + deferred 4b, `176-Roadblocks_to_Relief.csv`
+  and `166-DC_Essential_Workers.csv`, 2026-11-17.** Roberto (176), Yolanda
+  (176) and Sally (166) stay Anonymous Source (first names only, with the
+  story's privacy disclosure) -- AV's change to Named Person not taken.
+  176: row 1 (Roberto narration, "For Roberto, a 55-year-old father...
+  he never heard back.") removed and made the Source Justification of his
+  quote row, followed by "; El Tímpano is only using the first names of
+  interviewees to protect their privacy." (AV's revision); the "One
+  interviewee learned that she missed a deadline..." row: those first two
+  sentences moved from Sourced Statement to Source Justification, the row
+  now starting "She tried going in person..." (AV's revision); "several
+  shared that once their children turned 18..." -> the full sentence ("For
+  instance, while undocumented immigrants can receive CalFresh...");
+  new rows, Unnamed Group of People: "Despite the urgency of their need for
+  assistance, many have expressed a wariness..." and "That said, the
+  overwhelming sentiment community members have expressed throughout the
+  pandemic is that of frustration." (Source Descriptors "community
+  members"); the cosigner quote row's quotation marks made curly, as in the
+  text. AV's Source Descriptors "interviewee" not taken (a word for the
+  source's role in the reporting). Now 16 rows. 166: row 1 (Tamara
+  Keitt-Barnes) -> the full sentence, "A nanny for Capitol Hill families,
+  Prince George’s County resident Keitt-Barnes said..." (AV); row 7 (Sally
+  driving home, her dog) removed (AV); the "For Keitt-Barnes, the nanny from
+  Prince George’s County, it was a long day..." row removed and made the
+  Source Justification of her last row (AV); row 12 (Washington Post
+  reporter's firsthand account): Named Organization / Washington Post ->
+  Unnamed Person, Title "Washington Post reporter" (AV; the reporter speaks
+  for themself, not the Post); new row, Unnamed Group of People: "After the
+  chaos settled, a video of masked Capitol custodial staff... prompting
+  outrage as people attempted to coordinate donation efforts for the
+  employees, and called for hazard pay."; "Workers unions called for
+  downtown hospitality workers to be evacuated..." kept (AV had removed
+  it); Jaime Contreras's Source Justification kept (AV's version restated
+  his statement). Now 15 rows.
+
+- **Solidarity reconciliation + deferred 4b, `173-Mountain_View_RV_Dwellers.csv`
+  and `174-PPP_Loans_Low_Income.csv`, 2026-11-17.** 173: Misty Masvalo's
+  narration rows removed -- 1 (living in a retrofitted van), 4 (her
+  wages), 6 (buying the van), 7 (watching the ballot measure) (AV's
+  revision), and 3 ("Masvalo wants to find permanent housing...") and 23
+  ("Masvalo’s van is eight feet tall... She feels her job is
+  important...") (our 4b); her remaining rows' Source Justification ->
+  the row-1 paragraph + "; Masvalo’s van is eight feet tall, which means
+  she’d be affected by Measure C if it passes."; row 18 removed
+  (supporters "hold a widely held belief..." -- a belief, not a
+  statement; AV); homeowners "who complain that oversized vehicles block
+  bike lanes..." kept (AV had removed it); AV's Source Justifications for
+  Prody Hazarika and Margaret Abe-Koga not taken (they restated their own
+  statements). Now 17 rows. 174: row 2 (Congress: "Congress wanted the
+  U.S. Small Business Administration to ensure that PPP loans prioritized
+  small businesses in "underserved" markets...") removed and made the
+  Source Justification of the SBA row (AV); rows 30, 31 (the Browns'
+  narration, "That’s exactly what it was for KB and Katie Brown...")
+  removed (AV); Katie Brown's rows: Source Justification blank -> "As the
+  pandemic hit, orders cratered at KB and Katie Brown’s print shop in
+  Minneapolis. They knew they would need help — exactly what the Paycheck
+  Protection Program was meant to provide." (AV), and KB Brown's row 1 adds
+  the same after "; " to his existing one; the Rosa Daniels row: the
+  lead-in "That’s what happened to Rosa Daniels and her daughter, Dana
+  Myers." taken out (the row stays -- "Daniels said...") and AV's
+  Source Justifications that restated it not taken; the "Bank of America
+  issued more than 340,000, according to the SBA’s records" row kept (AV
+  had removed it); new rows for KB Brown and Katie Brown: "From the
+  Browns’ perspective, the PPP was opaque and confounding." (from AV's
+  revision, first sentence only); AV's other new row ("The Browns, unsure
+  what was happening, thought the funding would eventually arrive...") not
+  taken (narration). Now 48 rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
