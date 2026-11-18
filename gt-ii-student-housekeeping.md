@@ -3776,6 +3776,71 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
   His other local Source Justifications left for the SJ sweep. Now 24
   rows.
 
+- **`5-Humboldt-SF-homeless-bus.csv`, Phase 4, 2026-11-18.** Removed row 1
+  (Named Organization / The Standard, "County supervisors learned of this
+  from reporting in The Standard" -- narration of how they found out).
+  The letter's two rows merged into the full paragraph ("“We are
+  concerned...,” Humboldt’s letter says. “We urge you...”"); Paul Boden's
+  two quote rows merged into the full paragraph ("“The aim isn’t to
+  achieve a goal...,” Boden said. “The No. 1 answer...”"). Added: Named
+  Organization / San Francisco mayor’s office, "When asked for comment,
+  the San Francisco mayor’s office said it had not received the letter."
+  Rex Bohn's Source Justification "said at Tuesday’s board meeting." ->
+  blank (attribution only). Now 10 rows.
+
+- **`6-OUSD-basic-job.csv`, Phase 4, 2026-11-18.** One row per source per
+  paragraph -- merged: Max Simmons (2 rows), Stuart Loebl (2), Valarie
+  Bachelor (2; one had lost its period, the other its opening quote), the
+  report (2: "At the 40 schools... according to the report. Stage
+  three... every five years."). "School sites will continue to be tested
+  in five stages, district leaders said": final period restored. Removed:
+  "Community members, many of whom raised concerns two weeks ago, were
+  skeptical." (an attitude, not a statement). Title of Source: Simmons
+  "OUSD Student Director" / "OUSD’s student directors" -> "OUSD’s student
+  director" (the text's "one of OUSD’s student directors", singular);
+  Loebl "Sixth-grade science teacher, Frick United Academy of Language" ->
+  "sixth-grade science teacher at Frick" (as written); Bachelor "Director"
+  -> "Director; chair of OUSD’s facilities committee", Source
+  Justification "chair of OUSD’s facilities committee" -> blank. Now 20
+  rows.
+
+- **`7-District7-Candidate-Sues.csv`, Phase 4, 2026-11-18.** Full sentence
+  for two rows that started mid-sentence: Kaufman Legal Group ("Love’s
+  lawyers, from the political law firm Kaufman Legal Group, said in their
+  petition that Love had gathered 67 signatures...") and Tonya Love ("In
+  an Instagram post last week, Love told her followers..."). Quote marks
+  restored on the lawyers' brief, Judge Michael Markman's "My
+  understanding..." and Love's "We are moving forward..."; final period
+  restored on "The lawyers asked the court...". Name "Voter's Choice Act"
+  -> "Voter’s Choice Act" (as in the text). Removed: "The message was
+  cheered on by several community members and organizations such as the
+  East Oakland Collective nonprofit." (a reaction). Added: David Newton,
+  "In an interview with The Oaklandside last week, Newton was resigned to
+  his failure to gather enough signatures–he picked up 37–but said he
+  would work with whoever came out ahead...", Source Descriptors
+  "nephew", Source Justification "One person who tried but failed to
+  gather enough signatures to run for the district seat was David Newton,
+  a nephew of Black Panther Party founder Huey Newton." Row 20 ("After
+  Love’s lawyers submitted their petition on Aug. 20, ... but lawyers for
+  the county asked for the hearing to be moved up to today...") retyped
+  Named Organization / Kaufman Legal Group -> Named Organization /
+  Alameda County (the attribution is to the county's lawyers, as in "The
+  county attorneys countered in a brief..."); Source Descriptors
+  "political law firm" -> blank. Now 22 rows.
+
+- **`8-primary-recount-complete.csv`, Phase 4, 2026-11-18.** Quote marks
+  restored on John McGuire's and Bob Good's statements; Governor Glenn
+  Youngkin's two rows merged into the full paragraph. Title of Source as
+  written: McGuire "State Senator, (R-Goochland)" -> "State Senator
+  (R-Goochland)"; Good "Representative, (R-Farmville)" -> "Rep.
+  (R-Farmville); Chair for the House Freedom Caucus" (the chair moved from
+  his Source Justification, now blank). McGuire's Source Justification
+  "declared his victory in a recent statement" -> blank (attribution
+  only). Added: Document (Source Descriptors "law"), "Under Virginia law,
+  localities relative to this election are required to cover the cost of
+  a recount when the margin of error is at or below .5 percent." Now 5
+  rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
