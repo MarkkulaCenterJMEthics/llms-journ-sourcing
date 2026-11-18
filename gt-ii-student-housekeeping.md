@@ -3906,6 +3906,68 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
   - `38-UC-enrollment.csv`: Title of Source as in the text: David Alvarez "The chair of the Assembly’s budget subcommittee on education finance & a Democrat from Chula Vista" -> "chair of the Assembly’s budget subcommittee on education finance & a Democrat from Chula Vista".
   - `40-SeattleProtest.csv`: Sourced Statement made the full sentence from the text (quote marks/period/attribution restored): row 6 (Ana Marie Cauce).
 
+- **Step 2 (judgment) batch 1, stories 13-24, 2026-11-18.**
+  - `13-pilot-curb-evictions.csv`: removed "But Henderson has been happy
+    with the results since then." (a feeling). 13 rows.
+  - `14-many-police-calls.csv`: Robin Joy's two Title forms -> "Crime
+    Research Group’s statistical director" (as written) on all her rows;
+    "State consultants" -> "state consultants" (capital from sentence
+    start); the study row's Source Justification "study by the Vermont
+    nonprofit Crime Research Group" (a piece of its own row) -> blank; the
+    "Those who spoke said..." row's Source Justification "the latest
+    selectboard meeting Tuesday night." -> the full sentence "Bennett was
+    one of several social service leaders to attend the latest selectboard
+    meeting Tuesday night."; Jim Baker's "recounted at a recent public
+    meeting." kept (user: speaking at the public meeting gives him standing
+    in the story). Added: Named Organization / Groundworks Collaborative,
+    "Groundworks Collaborative, for example, helps local people without
+    permanent housing (its outreach team reports contact with 159 such
+    individuals so far this year)." 24 rows.
+  - `15-Newsom-declares-emergency.csv`: removed "Impacted residents, many of
+    whom are older... have experienced a range of difficult emotions..."
+    (feelings). Gavin Newsom Title "Governor" -> "Gov." (as written).
+    Added: officials (Unnamed Group of People, Title "officials"), "The
+    moves come as officials raised safety concerns about downed power
+    lines, and equipment damaged by the landslide, which they said could
+    cause fires."; John Cruikshank, "Cruikshank has called on state and
+    federal officials to declare a state of emergency — so far, that step
+    has not been taken." 16 rows.
+  - `16-America's-Sleeping-Giant.csv`: William Barber Title "Rev.Dr." ->
+    "Rev. Dr.". Added: Named Organization / Poor People’s Campaign, "This
+    week in Washington at the National Press Club the Poor People’s
+    Campaign, under the leadership of Barber and Rev. Dr. Liz Theoharis,
+    announced their plans for a mass mobilization..." 11 rows.
+  - `17-homelessness-santa-clara.csv`: removed Juanita Campa's "Campa’s next
+    goal? To get her son... enrolled in kindergarten." and "Campa also hopes
+    to move her family into a more permanent living situation." (a goal, a
+    hope). Annya Artigas's two Title forms -> "director of Social Emotional
+    Learning at the Alum Rock district" (as written). 18 rows.
+  - `18-wyoming-primary-dems.csv`: Chuck Gray Title "Wyoming Secretary of
+    State" -> "Wyoming’s Republican secretary of state" (as written); his
+    Source Justification (the attribution sentence) -> blank; Pat Jordan's
+    first row Source Justification (a piece of its own row) -> blank (his
+    second row keeps it). Added: Named Organization / Associated Press,
+    "There were none with such a low percentage of Democratic registrations
+    in the presidential election years of 2012, 2008 and 2004, according to
+    the AP data." 14 rows.
+  - `20-bill-easier-access.csv`: Dave Cortese Title "Senator, (D-San Jose)"
+    -> "Sen. (D-San Jose)" (as written); Cathy Kennedy "Registered Nurse,
+    and President, California Nurses Assocation" -> "Registered Nurse and
+    president of the CNA" (as written). 8 rows.
+  - `22-Judge-rules-breona-taylor.csv`: removed the "Castle Doctrine" row
+    ("— negating Walker’s constitutional rights..." -- the reporter's
+    clause, now inside the judge's full-sentence row). Hawk Newsome's two
+    Title forms -> "co-founder of Black Lives Matter of Greater New York and
+    Black Opportunities" (as written). 15 rows.
+  - `23-black-landowners-11mins.csv`: removed "The construction would also
+    have an impact on other Black residents in the community, who believe
+    it would affect their quality of life." (a group's belief, far from a
+    standard attribution form). 15 rows.
+  - `24-what-happens-to-migrants.csv`: added Document / Project 2025
+    (Source Descriptors "plan"), "Additional anti-asylum measures in
+    Project 2025 include increasing the credible fear threshold..." 12
+    rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
