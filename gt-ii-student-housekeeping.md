@@ -3468,6 +3468,31 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Justifications that weren't in the text or restated the row. Now 22
   rows.
 
+- **Solidarity reconciliation + deferred 4b, `172-Delhi_Flyover_Homeless.csv`,
+  2026-11-17.** Removed (narration; AV's revision): Shahida rows 7 ("When
+  her partner left shortly after Jannat’s birth...") and 23 ("In such
+  situations, the family visits a local doctor..."). Shahida's rows: the
+  reporter's scene narration taken off the front of rows 5 ("Shahida has
+  lived through these realities..."), 6 ("But this year Shahida is
+  enduring..."), 8 (the shanty history), 9 (the flyover), 10 (the honk),
+  12 (the water tap), 13 (asleep again, the rashes), 14 ("After trying to
+  nap again, Shahida gives up."), 15 ("Nights on the street are spent in
+  fear of harassment."), 20 (after cooking), 28 ("A shower at the public
+  toilet costs 10 rupees.") -- rows 5 and 9 from AV's revision, the rest
+  ours; Abida row 21: "The afternoon passes waiting for the sun to
+  weaken." taken out; Centre for Holistic Development row: "The
+  consequences are deadly." taken out. Shahida's Source Justification, on
+  all her rows -> her existing one + "; But this year Shahida is enduring
+  Delhi’s extreme heat with a baby, her nine-month-old daughter, Jannat.;
+  When her partner left shortly after Jannat’s birth, Shahida moved back
+  with her family under the flyover. Today, the family of 10 – including
+  her mother, father, two sisters, a brother-in-law and four children –
+  all live on the pavement." (AV's revision had a Source Justification
+  that grew row by row -- not taken). Kept despite AV's revision: the two
+  India Meteorological Department temperature rows (credited by the
+  story's end note), "Data suggests that nearly 99%..." (Document). Now
+  32 rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
