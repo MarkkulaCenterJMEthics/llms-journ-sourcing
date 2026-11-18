@@ -3674,6 +3674,48 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Department of Justice tells CNN that the Federal Bureau of Prisons
   “follows and enforces PREA standards...”". Now 59 rows.
 
+### GT-I update
+
+Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from Phase 4, which started 2026-11-18. The same changes are also recorded under item 76 in `development-of-v59.md`.
+
+- **Batch fidelity pass, 32 files, 226 rows, 2026-11-18.** Sourced
+  Statements made to match the story text exactly: (A) 217 rows had
+  spaces or line breaks at the start or end, now removed (stories 2-7,
+  9-16, 18-20, 22-25, 27, 29, 31-34, 38-40, 42); (B) 5 rows had a double
+  space inside where the text has one (16 rows 12, 13; 33 row 14; 34 rows
+  4, 5); (C) 3 rows began with a quote mark the text doesn't have (37
+  rows 1, 3; 40 row 2) -- removed, and those texts are to be checked
+  against the PDF in case the text dropped it; (D) `6-OUSD-basic-job.csv`
+  row 15 (Marina Muñoz) skipped the sentence "Muñoz spoke in Spanish and
+  had her comments translated by OUSD interpreter Rebeca Walker-Marquez."
+  between her two quotes and had a straight quote mark where the text has
+  a curly one -> now the full continuous passage from the text. (E)
+  `22-Judge-rules-breona-taylor.csv` had duplicate row numbers (1-4, then
+  2-13) -> renumbered 1-16.
+
+- **Whitespace in all fields, 39 files, 2026-11-18.** Spaces or line breaks
+  at the start or end removed: Sourced Statements 47 more rows (missed
+  by the first pass), Name of Source 34, Title of Source 30, Source
+  Justification 119. Double spaces and line breaks inside a field
+  collapsed to one space in 2 Titles (23 row 14 "hearing officer,
+  Georgia Public Service Commission"; 11 row 1 "Outreach specialist,
+  Nebraska AIDS Project") and 7 Source Justifications (27 row 18; 11 rows
+  16-20; 41 row 1). Sourced Statements keep their inner line breaks where
+  the text has them (17 rows 6, 19 -- a hard-wrapped text).
+
+- **`7-District7-Candidate-Sues.csv` row 1 (Tonya Love), 2026-11-18.** The
+  Sourced Statement ran across two paragraphs -> split into two rows, one
+  per paragraph, same fields: "According to a post by Love on Instagram
+  earlier this hour, the judge did not rule in Love’s favor." and "As a
+  result, Love said that she would not be running for the District 7
+  seat." Now 22 rows.
+
+- **`29-tim-scott-deregulate.csv` row 2 (Document, the ROAD to Housing
+  Act), 2026-11-18.** Same: split into "Nevertheless, the bill does
+  include at least one idea to increase housing supply." and "That
+  includes a repeal of the federal regulation requiring that manufactured
+  housing sit on a permanent steel chassis." Now 18 rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
