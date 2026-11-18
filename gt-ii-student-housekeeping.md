@@ -3560,6 +3560,72 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   revision: Betty and August rows ("...which they said happened in
   March."); Reyes's Source Justification. Now 67 rows.
 
+- **Solidarity reconciliation, `175-Indigenous_Health_COVID.csv`, batch 1
+  (AV's revision), 2026-11-17.** Removed (narration; AV): Melvina Musket
+  rows 1, 3-9, 11, 116, 118, 119; Jamie Barboan rows 23-27, 29, 31; Kris
+  Pikaart rows 42, 81, 82, 84, 85; Gabriella Lee rows 46-49; Rajiv Patel
+  rows 91, 93, 94; Michelle Lujan Grisham row 35 ("...issued an order for
+  bar closures" -- an action); Kevin Foley row 38 ("Some staffers got sick
+  or quit, forcing the detox center to shut down..." -- unattributed);
+  Sanjay Choudhrie row 66 ("The gym never housed more than 10 patients..."
+  -- unattributed). Source Justifications (blank before): Musket ->
+  "Melvina Musket stared at her dying father through the cellphone
+  screen.; On June 11, their mother died, five days after her husband.";
+  Barboan -> "Her brother, Andreas Tolth, was 39.; After a monthlong
+  battle, he died from the coronavirus in July."; Pikaart -> "As the
+  crisis grew, Pikaart set up final phone and video calls with families,
+  becoming a conduit in the human tragedy.; For six months, Pikaart has
+  been surrounded by critical illness and death."; Lee -> "Lee’s uncle got
+  sicker and sicker until he could barely breathe."; Phillip Smith -> "Dr.
+  Phillip Smith, 70, spent most of his career as a national Indian Health
+  Service administrator before retiring to head Utah’s Monument Valley
+  Health Clinic, which also got hit hard by COVID-19." (taken off the
+  front of his row 78, which now starts "He said Gallup Indian Medical
+  Center has long lacked..."); Gary Morsch -> his row 112's first two
+  sentences ("Gary Morsch, an emergency doctor from Olathe, Kansas,
+  recognized the pandemic threat early..."), the row now starting "Morsch
+  said his teams filled in...". Foley row 37: "They were given
+  metal-framed beds in large common rooms. Although screening for fevers
+  had begun already, sickness crept inside." taken out. Kept despite AV's
+  revision: the five "warned for decades" rows; Patel's "As she helped
+  patients and families, others on the Rehoboth McKinley hospital staff
+  were overwhelmed by the patient surge, according to Dr. Rajiv Patel..."
+  and "Patel, whose wife is Diné, resigned citing safety concerns."; "But
+  she had heard others warn, “Once they’re in the hospital, you won’t see
+  them (again).”" kept as Named Person / Jamie Barboan (AV had retyped it
+  Unnamed Group of People "others"; the others' warning is nested in what
+  Barboan told the reporter) and given her Source Justification. Now 85
+  rows.
+
+- **`175-Indigenous_Health_COVID.csv`, batch 2 (deferred 4b), 2026-11-17.**
+  Title of Source: David Conejo "the medical center’s former chief
+  executive" -> "medical center’s former chief executive"; Ina Burmeister
+  "a Rehoboth McKinley spokesperson" -> "Rehoboth McKinley spokesperson";
+  Jonathan Iralu: leading "the" dropped; Gary Morsch "an emergency doctor
+  from Olathe, Kansas; founder of COVID Care Force; former Army
+  physician" -> "emergency doctor; founder of COVID Care Force; former Army
+  physician"; Kevin Foley "heads the town’s detox center" (one row) ->
+  "executive director at Na’Nizhoozhi Center" (as on his other row); Kris
+  Pikaart "Hospital chaplain" -> "chaplain at Rehoboth McKinley Christian
+  Hospital"; Tom Udall "U.S. Sen., vice chair of the Committee on Indian
+  Affairs" -> "U.S. Sen., D-N.M.; vice chair of the Committee on Indian
+  Affairs"; Rajiv Patel "supervised the hospital’s eight-bed intensive
+  care unit" -> "Dr.", Source Justification blank -> "who supervised the
+  hospital’s eight-bed intensive care unit"; Randy Chatto blank ->
+  "community leader". Sourced Statements: medical experts row -- "The
+  federal government, which oversees health care for Native Americans
+  under treaty obligations, used a modified influenza plan to address the
+  pandemic." taken out; Arizona Republic row trimmed to "In the first two
+  weeks of May, Navajo police issued nearly 500 citations to curfew
+  violators, according to The Arizona Republic."; Pikaart's first row
+  trimmed to "Hospital chaplain Kris Pikaart said she saw 50 patients
+  die..." (the drip-line sentences before and after taken out); activists
+  row "and even today, activists on the Navajo Nation stress..." (started
+  mid-sentence) -> the full sentence "Tribes have until Dec. 30 to spend it
+  – and even today, activists on the Navajo Nation stress that the money
+  has still not trickled down to the communities that need it most." 85
+  rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
