@@ -3716,6 +3716,16 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
   includes a repeal of the federal regulation requiring that manufactured
   housing sit on a permanent steel chassis." Now 18 rows.
 
+- **Story texts 35 and 36 re-flowed, 2026-11-18 (text files, no CSV
+  change).** Both were hard-wrapped (cut at a PDF's line width); now one
+  paragraph per line, using the PDFs the user supplied. Only whitespace
+  changed. All rows in `35-Trump-Tariffs-Rattling-Meta.csv` (7) and
+  `36-Whats-Wrong-With-Apple.csv` (16) match the text word for word. In
+  36 the photo caption moved to the header and a newsletter promo line was
+  removed (neither had a row). Details in
+  `extracted_articles_boilerplate/REFLOW_2026-11.md`. Story 26 turned out
+  not to be wrapped (left as is); 17 still needs a PDF.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
