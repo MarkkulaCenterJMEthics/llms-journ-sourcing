@@ -3407,6 +3407,34 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   what was happening, thought the funding would eventually arrive...") not
   taken (narration). Now 48 rows.
 
+- **Solidarity reconciliation + deferred 4b, `168-Texas_Power_Outages.csv`,
+  2026-11-17.** Removed: rows 1 and 2 (from the series blurb at the top,
+  "top state lawmakers called for investigations..." and "Texans demanded
+  accountability..." -- not body text); row 6 (Texas officials "have
+  signed an order..." -- an action); Lisa Blevins rows 16 (the household
+  in the car -- now the Source Justification of her next row) and 19 (her
+  son's family); Ashlynn Hoffner rows 20-23 and KD Hoffner row 25 (their
+  night, narrated). Narration moved from Sourced Statement to Source
+  Justification: Brianna Blake row 12 (the row now "There was “no
+  alternative” to keep the heat going, she said."), Lisa Blevins row 15
+  (now "Blevins, 58, said she couldn’t take her daughter anywhere..."),
+  Sarra Rushing row 36 (now "The local government could have done a
+  better job preparing residents for the storm, she said."). Hoffner
+  Source Justifications: KD -> "Ashlynn Hoffner, in Richardson, called
+  emergency responders around 4:30 a.m. as her partner’s oxygen machine
+  ran low on battery.; The couple will drive to Plano tomorrow so KD
+  Hoffner can get dialysis needed for chronic kidney and heart issues.";
+  Ashlynn -> the first of those sentences. Row 5: Title "Officials" ->
+  "officials in Austin." National Weather Service row: the outlet's own
+  guidance ("Some cities are providing warming centers... find nonprofits
+  who are helping people here.") taken out. Kept despite AV's revision:
+  state and city officials "urging patience" (a group's statement), "Many
+  faulted the government..." (a group's statement), the ERCOT official as
+  Named Organization / Electric Reliability Council of Texas, Sergio
+  Tristan's paragraph as one row, Brianna Blake's Source Justification on
+  all her rows. Most of AV's changes taken (her narration-to-SJ moves).
+  Now 31 rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
