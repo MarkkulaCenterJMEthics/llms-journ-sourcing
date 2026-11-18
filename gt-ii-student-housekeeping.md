@@ -3493,6 +3493,46 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   story's end note), "Data suggests that nearly 99%..." (Document). Now
   32 rows.
 
+- **Solidarity reconciliation + deferred 4b, `185-The_Uncounted.csv`,
+  2026-11-17.** Removed (narration; AV's revision): Jeremiah rows 1, 3, 4,
+  5 (the BART ride and the overdose reversal); David Modersbach row 13
+  ("Modersbach works to understand this picture..."); Thad rows 21 ("In
+  the first story in this series, we spoke with Thad...") and 40 ("Thad,
+  like many unhoused people who use drugs, obtains Narcan..."); Ana rows
+  46, 47, 51 (Biddulph's Facebook photo, going to work, Berkeley NEED).
+  Also removed (ours): Ana row 45 ("The morning of the overdose, Ana spent
+  time with Eric Cumby...") and Modersbach row 15 ("...Modersbach hopes to
+  assemble a community task force..." -- a hope). Source Justifications:
+  Thad's rows (blank) -> "In the first story in this series, we spoke
+  with Thad, a 36-year-old resident of North Oakland. Thad has survived
+  three overdoses since the pandemic began, all after smoking fentanyl."
+  (AV); Jeremiah's (blank) -> "Wherever he goes, Jeremiah carries
+  Narcan—that’s a brand name for the opioid overdose revival drug
+  naloxone."; Modersbach's adds "; Modersbach works to understand this
+  picture by cobbling together whatever mortality information he can
+  find."; Ana's adds "; The morning of the overdose, Ana spent time with
+  Eric Cumby." Trimmed of the reporter's explanation or scene-setting: the
+  BART "ridership plummeted" row, Jeremiah's "This wasn’t the first time..."
+  -- since restored (see below), the Alameda County Public Health Department row's last
+  sentence, Thad's "Thad knows fentanyl is potent... He carries Narcan..."
+  and "EMS workers have a name..." sentences, the EMS row's "Street Spirit
+  reached out..." lead-in, Ale Del Pinal's "Punks With Lunch is a spunky
+  volunteer organization..." lead-in, Ana's "Toxicology reports take
+  months..." sentence, the San Francisco Department of Public Health
+  row's "No such government-led efforts..." sentence, Katie O’Bryant's
+  "Standing in the Punks With Lunch office, " lead-in -- since restored (see below). Alameda County row
+  ("Alameda County submits data...") trimmed to "Multiple coroner’s bureau
+  staff confirmed to Street Spirit that their records do not consistently
+  note whether someone was unhoused when they died." and retyped Named
+  Organization / Alameda County -> Unnamed Group of People, Title
+  "coroner’s bureau staff". Then (user rule: one sentence is never cut to
+  keep only its attributed part): "many people who use drugs say police
+  represent the opposite." -> "While harm reduction advocates employ
+  empathy and acceptance in their work, many people who use drugs say
+  police represent the opposite."; the Jeremiah and Katie O’Bryant
+  lead-ins above put back, since each was part of the same sentence. Now
+  43 rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
