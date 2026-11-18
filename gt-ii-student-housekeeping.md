@@ -3841,6 +3841,40 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
   a recount when the margin of error is at or below .5 percent." Now 5
   rows.
 
+- **`9-steph-curry-gold.csv`, Phase 4, 2026-11-18.** Stephen Curry's two
+  rows from one paragraph merged into the full paragraph ("“Everything
+  happens for a reason...,” the 36-year-old Curry said Wednesday... “But
+  this summer’s been amazing...”"). Now 9 rows.
+
+- **`10-Nebraska-voting-rights.csv`, Phase 4, 2026-11-18.** Title of
+  Source capitals not in the text lowercased: TJ King "Outreach
+  specialist, Black and Pink" -> "outreach specialist, Black and Pink";
+  Nicole Porter "Senior director of advocacy, The Sentencing Project" ->
+  "senior director of advocacy, The Sentencing Project". 8 rows.
+
+- **`11-Nebraska-felons-crim-justice.csv`, Phase 4, 2026-11-18.** Name of
+  Source "Brennan Center for Justice." -> "Brennan Center for Justice".
+  Title of Source, capitals not in the text lowercased: King "outreach
+  specialist, Nebraska AIDS Project", Patrick Berry "counsel, Democracy
+  program at the Brennan Center", Porter "director of advocacy, The
+  Sentencing Project", Margaret Love "co-founder and director, Collateral
+  Consequences Resource Center"; Kathy Wilcot's two versions -> "member of
+  the University of Nebraska Board of Regents" (as written). Steve Smith:
+  Title "Civic Nebraska" (an organization name, no position) -> blank;
+  Source Justification -> "of Civic Nebraska, part of a large coalition
+  of groups supporting the measure". Love's row: "At the time Nebraska was
+  in step with other states." taken off the front (her attribution is on
+  the next sentence). King's Source Justification on two rows "King, 51,
+  fought addiction for years and spent five years in prison after being
+  convicted; volunteers at various organizations;" -> "King, 51, fought
+  addiction for years and spent five years in prison after being
+  convicted of possessing the party drug Ecstasy and theft by deception,
+  ending probation last August.; volunteers at various organizations".
+  Added: Steven Scott, "He sees the two-year wait period as one link in a
+  long chain of barriers for those trying to reenter society." (it had
+  been inside his Source Justification, which now keeps "Steven Scott,
+  33, was paroled in 2015... including 2020."). Now 21 rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
