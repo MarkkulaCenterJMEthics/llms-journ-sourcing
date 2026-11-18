@@ -3435,6 +3435,39 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   all her rows. Most of AV's changes taken (her narration-to-SJ moves).
   Now 31 rows.
 
+- **Solidarity reconciliation + deferred 4b, `170-Encampment_Fires.csv`,
+  2026-11-17.** Removed (narration of actions/events; AV's revision): Cheryl
+  Davila row 3 ("pushed to create an official program..." -- now the
+  Source Justification of her other two rows); Caltrans row 7 ("the
+  Seabreeze Camp was scheduled to be dismantled by Caltrans..."); Mama
+  West rows 16-18 (tent fires, the puppy, Animal Control); Derrick Soo
+  rows 23, 26, 29, 31, 33 (fire safety system, solar grid, air fryer,
+  fire retardant paint, Conestoga huts); Kyle Mitchell rows 24, 25 (tools
+  purchased, extinguisher refills). Also removed (ours): Soo row 34 ("Since
+  2016, Soo has been advocating for the sanctioning of his camp..." --
+  narration; AV had kept it trimmed). Soo's remaining rows: Source
+  Justification -> "In deep East Oakland, leader Derick Soo set up a fire
+  safety system for the 77th Avenue Rangers and advocated for temporary
+  access to a nearby fire hydrant.; Since 2016, Soo has been advocating
+  for the sanctioning of his camp, and he also helps camp residents get
+  connected to housing services." Mama West's row: second sentence ("She
+  threw it in the sand...") taken out; Source Justification adds "; In
+  2021, Mama West’s tent has caught fire three times as winds spread the
+  flames from fires set by neighbors for cooking and warmth." Mitchell's
+  row: trimmed to "Other options when propane is not available and money
+  is tight are bottles filled with hot water or heated stones, according
+  to Mitchell."; Source Justification blank -> "Mitchell has purchased fire
+  suppression tools for the Rangers like extinguishers, alarms, Thermoses
+  and power banks." Berkeleyside row: trimmed to its last sentence ("Two
+  people accepted a four-person tent... according to a Berkeleyside
+  report..."; AV), type kept Named Organization. Oakland Fire Department
+  fire-figures row: kept (AV had removed it), lead sentence "These tools
+  can make a difference, especially when it’s cold." taken out. Row 8
+  Title "city staff" -> "Berkeley city staff". Not taken from AV: Paul-
+  Kealoha Blake's Title moved to Source Justification; Source
+  Justifications that weren't in the text or restated the row. Now 22
+  rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
