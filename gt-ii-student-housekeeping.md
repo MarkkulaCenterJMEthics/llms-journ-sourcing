@@ -3533,6 +3533,33 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   lead-ins above put back, since each was part of the same sentence. Now
   43 rows.
 
+- **Solidarity reconciliation + deferred 4b, `186-Homeless_Camp_Sweeps.csv`,
+  2026-11-17.** Puma's rows 6 and 7 trimmed to start at the quote ("“You
+  see the trash?” he asked..." and "“I got stability here...”") -- the
+  scene narration before them taken out (AV's revision). Removed: Alfredo
+  Reyes row 67 ("Reyes revisited the St. Elmo camp on the morning of
+  Monday, June 8...") (narration; AV); row 3 (Homeless Strategies and
+  Operations Department: "Under the program, sweeps are happening more
+  frequently..." -- no attribution); row 46 ("As we did, a car drove up
+  and two HSO employees emerged. We asked to speak with them. “No
+  thanks,” one replied." -- a refusal to comment). Trimmed at sentence
+  boundaries: Austin Homeless Strategies and Operations Department row
+  ("The public got its first briefing..." taken out), David Gray ("He
+  also presented a map..." taken out), Reyes ("He is HIV positive..."
+  taken out -- it is his Source Justification; and "Reyes spoke low and
+  fast." taken out), Angel ("Angel’s voice was also quiet." taken out).
+  Paul Tardie Title "a staffer at the Texas Harm Reduction Alliance" ->
+  "staffer at the Texas Harm Reduction Alliance". Snehal Patel Title "an
+  internal medicine physician who has treated homeless patients" ->
+  "internal medicine physician"; Source Justification blank -> "who has
+  treated homeless patients". Added: Reyes, "Reyes told them the camp was
+  about to be swept, that the city had arrived."; Unnamed Group of People
+  (Source Descriptors "members"), "Members of VOCAL-TX, Austin Mutual Aid,
+  the Texas Harm Reduction Alliance, and other grassroots organizations
+  denounced the sweeps to members of the media." Kept despite AV's
+  revision: Betty and August rows ("...which they said happened in
+  March."); Reyes's Source Justification. Now 67 rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
