@@ -3875,6 +3875,37 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
   been inside his Source Justification, which now keeps "Steven Scott,
   33, was paroled in 2015... including 2020."). Now 21 rows.
 
+- **Step 1 of Phase 4 for GT-I: settled mechanical fixes, 2026-11-18 (user
+  approved as one table).** Rules applied: one sentence is never cut (a
+  Sourced Statement that started or ended mid-sentence becomes the full
+  sentence); one row per source per paragraph (merged); a Title capital
+  that isn't in the text (or only comes from the start of a sentence)
+  lowercased, except titles written before a name; a leading "a/an/the"
+  dropped from Titles. Includes two merges missed in the 1-12 pass (1, 3).
+  - `1-Harris-Poll.csv`: one source, one paragraph -> rows merged: rows 2+3 (Reuters/Ipsos).
+  - `3-SF renewed-sweeps.csv`: one source, one paragraph -> rows merged: rows 1+2 (Antonio Robinson).
+  - `6-OUSD-basic-job.csv`: Title of Source as in the text: group row "Teachers" -> "teachers".
+  - `13-pilot-curb-evictions.csv`: Sourced Statement made the full sentence from the text (quote marks/period/attribution restored): row 7 (Deborah Henderson). Title of Source as in the text: group row "Judge" -> "judge"; Deborah Henderson "Judge" -> "judge".
+  - `14-many-police-calls.csv`: Title of Source as in the text: Jim Baker "Consultant, state public safety enhancement initiative" -> "consultant, state public safety enhancement initiative"; group row "Authorities" -> "authorities"; Libby Bennett "Executive director, Groundworks" -> "executive director, Groundworks"; Daniel Quipp "Chair of the selectboard" -> "chair of the selectboard".
+  - `15-Newsom-declares-emergency.csv`: Title of Source as in the text: Jim Hanggi "Spokesperson, Southern California Edison" -> "spokesperson, Southern California Edison".
+  - `16-America's-Sleeping-Giant.csv`: Sourced Statement made the full sentence from the text (quote marks/period/attribution restored): row 5 (Poor People’s Campaign). one source, one paragraph -> rows merged: rows 2+3 (Robert Paul Hartley); rows 5+6 (Poor People’s Campaign); rows 7+8 (William Barber).
+  - `17-homelessness-santa-clara.csv`: Title of Source as in the text: Annya Artigas "the director of Social Emotional Learning at the Alum Rock district" -> "director of Social Emotional Learning at the Alum Rock district"; Maureen Smith "Professor, San Jose State University" -> "professor, San Jose State University".
+  - `18-wyoming-primary-dems.csv`: Sourced Statement made the full sentence from the text (quote marks/period/attribution restored): row 5 (Becky Blackburn); row 6 (Becky Blackburn). Title of Source as in the text: Ross Diercks "Former Democratic state representative" -> "former Democratic state representative".
+  - `19-oakland-sues-SW-airlines.csv`: Sourced Statement made the full sentence from the text (quote marks/period/attribution restored): row 9 (Southwest Airlines); row 12 (Measure FF). one source, one paragraph -> rows merged: rows 4+5 (lawsuit). Title of Source as in the text: Eric Swygert "Elected ramp representative with the Transport Workers Union of America Local 555" -> "elected ramp representative with the Transport Workers Union of America Local 555".
+  - `20-bill-easier-access.csv`: Title of Source as in the text: group row "Program officials" -> "program officials".
+  - `22-Judge-rules-breona-taylor.csv`: Sourced Statement made the full sentence from the text (quote marks/period/attribution restored): row 1 (Charles R. Simpson III). Title of Source as in the text: Christopher 2X "Founder, Game Changers" -> "founder, Game Changers"; Donald Trump "Former President" -> "former President".
+  - `23-black-landowners-11mins.csv`: Title of Source as in the text: Jason Shaw "Chairman of the board, Georgia Public Service Commission" -> "chairman of the board, Georgia Public Service Commission"; Benjamin Tarbutton III "Owner, Sandersville Railroad" -> "owner, Sandersville Railroad".
+  - `24-what-happens-to-migrants.csv`: Sourced Statement made the full sentence from the text (quote marks/period/attribution restored): row 1 (Spanish-speaking readers). Title of Source as in the text: Donald Trump "Former President" -> "former President".
+  - `25-ballot-access-trans.csv`: Title of Source as in the text: Lucas Cameron-Vaughn "Attorney, ACLU of Tennessee" -> "attorney, ACLU of Tennessee"; group row "Politicians" -> "politicians"; group row "Experts" -> "experts".
+  - `28-scranton-ukrainian-weapons.csv`: one source, one paragraph -> rows merged: rows 6+7 (Jim Jarick). Title of Source as in the text: group row "Officials" -> "officials"; Bob Durkin "President and chief executive officer of the Scranton Chamber of Commerce" -> "president and chief executive officer of the Scranton Chamber of Commerce"; Danielle Weinschenk "Lead Public Affairs Specialist at the Tobyhanna Army Depot" -> "lead Public Affairs Specialist at the Tobyhanna Army Depot"; Jim Jarick "Senior technology center engineer at the Tobyhanna Army Depot" -> "senior technology center engineer at the Tobyhanna Army Depot"; Mark Cancian "Senior advisor at the Center for Strategic and International Studies" -> "senior advisor at the Center for Strategic and International Studies".
+  - `31-SV-GT-vermont_bill.csv`: Sourced Statement made the full sentence from the text (quote marks/period/attribution restored): row 4 (Aaliyah Wilburn).
+  - `34-human-ca_guanranteed_income.csv`: Title of Source as in the text: Sean Kline "Director, Stanford Basic Income Lab" -> "director, Stanford Basic Income Lab"; Amy Castro "Director, Penn's Center for Guaranteed Income Research" -> "director, Penn's Center for Guaranteed Income Research"; Brian Arredondo "Coach" -> "coach"; group row "Researchers" -> "researchers"; Ely Fournier "Director, Strength Based Community Change" -> "director, Strength Based Community Change".
+  - `35-Trump-Tariffs-Rattling-Meta.csv`: Title of Source as in the text: Eric Seufert "an independent mobile advertising analyst" -> "independent mobile advertising analyst".
+  - `36-Whats-Wrong-With-Apple.csv`: Title of Source as in the text: Michael Gartenberg "Technology Analyst" -> "technology analyst".
+  - `37-DogWalker.csv`: Title of Source as in the text: group row "Investigators" -> "investigators".
+  - `38-UC-enrollment.csv`: Title of Source as in the text: David Alvarez "The chair of the Assembly’s budget subcommittee on education finance & a Democrat from Chula Vista" -> "chair of the Assembly’s budget subcommittee on education finance & a Democrat from Chula Vista".
+  - `40-SeattleProtest.csv`: Sourced Statement made the full sentence from the text (quote marks/period/attribution restored): row 6 (Ana Marie Cauce).
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
