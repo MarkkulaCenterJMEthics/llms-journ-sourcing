@@ -3923,6 +3923,10 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   outlet credited by name for its own analysis, v62 item 10 / Minor 22);
   Source Justification (the paragraph before, about redistricting experts)
   -> blank -- it is about the experts, not the analysis.
+- **Phase 4 Step 2 batch 1, held item, 2026-11-19.** `56` row 5 (the
+  confidential memo, Document): kept as Document; Source Justification
+  "confidential memo issued by Sadarangani to Philz employees" -> "in a
+  confidential memo to Philz employees" (the text's own words).
 
 ### GT-I update
 
