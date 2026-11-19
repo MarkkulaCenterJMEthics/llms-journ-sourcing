@@ -1743,6 +1743,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   the new research" (the text's words); row 7 Sourced Statement trimmed to
   "This makes the work “very credible”, said Rahmstorf." -- the two
   sentences before it are the reporter's (Note 12a).
+- **Phase 4 Step 2 batch 1, held item, 2026-11-19.** `111` row 8
+  ("...according to the most recent HUD report."): Document -> Named
+  Organization / Department of Housing and Urban Development (as the article
+  names it), Source Descriptors "report" -> blank -- a HUD report is the
+  department's own product (Minor 22).
 
 ### AV
 
@@ -3912,6 +3917,12 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   extended to the whole paragraph: "In the statement, Philz CEO Mahesh
   Sadarangani apologized for the decision to remove Pride flags..." added
   before the quotes (Note 12a).
+- **Phase 4 Step 2 batch 1, held item, 2026-11-19.** `75` row 1
+  ("...according to an NPR analysis conducted earlier this year."): Document
+  -> Named Organization / NPR, Source Descriptors "analysis" -> blank (an
+  outlet credited by name for its own analysis, v62 item 10 / Minor 22);
+  Source Justification (the paragraph before, about redistricting experts)
+  -> blank -- it is about the experts, not the analysis.
 
 ### GT-I update
 
