@@ -3968,6 +3968,67 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
     Project 2025 include increasing the credible fear threshold..." 12
     rows.
 
+- **Step 2 (judgment) batch 2, stories 26-29, 31, 32, 35-43, 2026-11-18.**
+  - `26-biden-harris-11M.csv`: added three Named Organization / U.S.
+    Department of Education rows: "On Tuesday, the U.S. Department of
+    Education (Department) announced over $11 million in grants..." (also
+    Miguel Cardona's Source Justification), "The Department projects that
+    these grantees will serve approximately 3,700 participants...", "The
+    Department also announced $3.7 million in grant funding for the Native
+    American Language (NAL@ED) projects." 4 rows.
+  - `27-general-assembly-landlords.csv`: added Named Organization / MLK50
+    (the outlet's own finding), "But, in a sample of 1,090 recent eviction
+    cases, MLK50 found that 145 (about 13%) appeared on the court’s schedule
+    for a second time..." 20 rows.
+  - `28-scranton-ukrainian-weapons.csv`: added Tobyhanna Army Depot ("...
+    estimates that the company has a $2.4 billion dollar impact on the
+    area..."), Congressman Matt Cartwright ("...pointed to a $277 million
+    Raytheon contract to illustrate this point."), Ukraine ("Ukraine has said
+    that it will need more ammunition..."), Biden administration ("The Biden
+    administration announced this month it would be sending an additional
+    $250 million..."). Olksandr Popov Title "Colonel" -> "Col." (as
+    written). 14 rows.
+  - `31-SV-GT-vermont_bill.csv`: Saudia LaMont's Source Justifications
+    "daughter was reacting to several instances of students touching and
+    petting her hair without her consent" (a piece of its own row) and
+    "citing surveys" (plain attribution) -> blank. Kept: "said during a
+    preliminary vote on the bill" (speaking in a legislative proceeding).
+    21 rows.
+  - `35-Trump-Tariffs-Rattling-Meta.csv`: removed "The reasons for Meta’s
+    slide are less obvious. But close watchers of the social networking and
+    metaverse company know it is just as vulnerable..." (generic "close
+    watchers" who "know"). 6 rows.
+  - `39-84pct-coral-reefs.csv`: added Donald Trump (Title "President"),
+    "The group’s update comes as President Donald Trump has moved
+    aggressively in his second term to boost fossil fuels and roll back
+    clean energy programs, which he says is necessary for economic growth."
+    8 rows.
+  - `40-SeattleProtest.csv`: Victor Balta Title "UW Spokesperson" -> "UW
+    spokesperson"; Name "Mendal Weingarten" -> "Mendel Weingarten" (as in
+    the text). Added Named Organization / UW, "Students United for
+    Palestinian Equality and Return (SUPER UW) held a rally on campus
+    Thursday, the day after UW announced it was suspending 21 students for
+    the destructive protest."; Ana Marie Cauce, "University President Ana
+    Marie Cauce quickly condemned the protest, which is estimated to have
+    caused at least $1 million in damage." (it had been the Source
+    Justification of her statement row -- and stays its Source
+    Justification: the lead-in to her quote). 11 rows.
+  - `41-Christians-K12.csv`: row numbers had a gap (no row 4) ->
+    renumbered. Added Document (Source Descriptors "lawsuit"), "In July, a
+    Black Los Angeles-area mother filed a lawsuit on behalf of her son,
+    D.W., who endured years of racist bullying... including being called a
+    “monkey” and “snitch.”" 9 rows.
+  - `42-Uber-Lyft-CA.csv`: the two Castellanos rows' Names -> "Castellanos
+    v. State of California". 13 rows.
+  - `43-Chicago-immigration.csv`: Jennifer Peyton's row trimmed -- "Peyton
+    is still unsure why she was terminated." taken off (the row keeps "She
+    said she wakes up at night wondering why."). Added Carla Espinoza,
+    "Espinoza has asked for a reason for her termination and specifically
+    whether her gender, sex or heritage played a role." (it had been the
+    Source Justification of her "“I am waiting for a response,”" row,
+    which keeps it as its Source Justification -- the lead-in to her
+    quote). 16 rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
