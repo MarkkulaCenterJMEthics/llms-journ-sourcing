@@ -1620,6 +1620,93 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   (the detective who testified, named in the next paragraph; the
   investigators' belief is part of his testimony).
 
+- **Phase 4 Step 1 (mechanical fixes), original GT-II batch, 2026-11-18.**
+  Settled rules only; changes approved as one batch table (Part A).
+  Sourced Statements made to match the article text exactly -- curly vs
+  straight quote marks and apostrophes as the text has them (and a double
+  space -> single in `152` rows 12, 13): `65` rows 1, 2, 3, 5, 8, 9, 10,
+  13, 16, 18, 20, 22, 23, 24, 26, 27, 29, 30, 31, 32, 33, 36, 38, 40, 41,
+  43, 45, 46, 47; `66` rows 5, 6, 7, 8, 9, 11; `70` rows 2, 3, 5, 6, 9;
+  `74-San_Ramon_Pride.csv` rows 2, 4, 6, 9; `78` rows 1, 4, 8, 10, 11, 13,
+  14, 15, 16, 19; `101` rows 3, 4, 6, 7, 10, 11, 13, 17, 18, 21, 23, 24,
+  25, 27, 28, 30; `102` rows 1, 5, 6, 8, 10, 13, 15, 16, 17, 21, 22, 23,
+  25; `103` rows 1, 2, 6, 7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 19, 20, 22,
+  23, 24, 26, 27, 28, 29, 31; `104` rows 2, 3, 4, 5, 6, 8, 9, 10, 11, 14,
+  15, 16, 19; `105` rows 1, 3, 4, 6, 8, 10, 12, 15, 19, 20, 21, 22, 23,
+  24, 26, 27, 28, 29, 31, 32, 33, 34, 36, 38, 40, 41, 42, 44, 45, 46, 47;
+  `107` rows 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17;
+  `108-SZ_YVA.csv` rows 1, 2, 3, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+  19, 20, 21; `109-SZ_Waymo.csv` rows 1, 2, 4, 7, 8, 10, 12, 14, 15; `110`
+  rows 2, 3, 4, 7, 8, 9; `111` rows 1, 3, 5, 6; `112-SZ_Hantavirus.csv`
+  rows 1, 2, 4, 7, 9, 12; `122-SZ_SJ9_Climate_Policy.csv` rows 7, 14, 18,
+  19; `124` rows 4, 8; `152` rows 12, 13; `159` rows 8, 9. Title of
+  Source: words the article doesn't capitalize lowercased (capitals the
+  reporter uses, including organization names, kept), and a leading
+  article dropped: `51` rows 9, 10, 11 "Astronaut" -> "astronaut";
+  `61-Atlantic_Current.csv` row 1 "Scientists" -> "scientists"; `70` row 8
+  "Federal scientists" -> "federal scientists"; `78` rows 9, 10
+  "Transportation Engineer at Government Agency" -> "transportation
+  engineer at government agency"; `78` rows 11, 12, 13, 14, 16 "Building
+  engineer at the San Francisco International Airport" -> "building
+  engineer at the San Francisco International Airport";
+  `94-SZ_Met_Gala.csv` row 6 "the museum’s director and CEO" -> "museum’s
+  director and CEO"; `94-SZ_Met_Gala.csv` rows 7, 8, 9, 10, 11 "the
+  curator in charge of the Costume Institute" -> "curator in charge of the
+  Costume Institute"; `101` rows 2, 3, 4 "Group village headman" -> "group
+  village headman"; `101` row 30 "Group village headman Nkhulambe" ->
+  "group village headman Nkhulambe"; `105` rows 15, 17 "Spokesperson,
+  Texas Department of Criminal Justice" -> "spokesperson, Texas Department
+  of Criminal Justice"; `105` row 19 "Founder of Worth Rises" -> "founder
+  of Worth Rises"; `108-SZ_YVA.csv` rows 6, 16, 17, 19 "YVA Organizer" ->
+  "YVA organizer"; `108-SZ_YVA.csv` row 14 "YVA Cofounder, YVA Program
+  director" -> "YVA cofounder, YVA program director"; `109-SZ_Waymo.csv`
+  rows 1, 2 "Spokesperson" -> "spokesperson"; `111` row 1 "Spokesperson,
+  National Homelessness Law Center" -> "spokesperson, National
+  Homelessness Law Center"; `111` row 3 "Spokesperson for Gov. Gavin
+  Newsom" -> "spokesperson for Gov. Gavin Newsom"; `112-SZ_Hantavirus.csv`
+  rows 7, 9, 12 "Incident Manager for the CDC's hantavirus response" ->
+  "incident manager for the CDC's hantavirus response";
+  `122-SZ_SJ9_Climate_Policy.csv` rows 19, 20 "Event Moderator" -> "event
+  moderator"; `154` rows 3, 4, 17, 18 "Senior fellow at the
+  Washington-based Foundation for Defense of Democracies" -> "senior
+  fellow at the Washington-based Foundation for Defense of Democracies".
+  Row numbers: `74-San_Ramon_Pride.csv` ("1.0, 2.0..." -> "1, 2...");
+  `104-Irish_Centre.csv` ("1.0, 2.0..." -> "1, 2..."); `109-SZ_Waymo.csv`
+  ("1.0, 2.0..." -> "1, 2..."); `111-CA_Homelessness.csv` (duplicate row
+  number 1 -> 1, 2, 3...).
+- **Phase 4 Step 1 Part B (text fidelity), original GT-II batch,
+  2026-11-19.** Approved item by item with full before-rows. Sourced
+  Statements only; row numbers are before the splits unless shown with an
+  arrow. Fragment -> the full sentence(s) from the article, lead-in included
+  (v61 Note 12a): `61-Atlantic_Current.csv` rows 2, 3, 4; `78` rows 5, 18. A
+  row crossing a paragraph break -> one row per paragraph, other fields
+  copied (Note 12a; breaks checked against the live pages): `65` row 21 ->
+  rows 21, 22; `66` row 10 -> rows 10, 11; `70` row 4 -> rows 4, 5; `101`
+  row 1 -> rows 1, 2, row 12 -> rows 13, 14, row 14 -> rows 16, 17, row 15
+  -> rows 18, 19, row 29 -> rows 33, 34, row 31 -> rows 36, 37; `103` row 3
+  -> rows 3, 4, row 5 -> rows 6, 7; `105` row 7 -> rows 7, 8, row 17 -> rows
+  18, 19; `112-SZ_Hantavirus.csv` row 3 -> rows 3, 4. Wording made to match
+  the article text (typos, dropped/changed words, dashes, ellipses, quote
+  marks): `65` rows 4, 6, 39; `122-SZ_SJ9_Climate_Policy.csv` rows 11, 16,
+  20; `124` row 1; `135` row 3; `159` row 5. Rows renumbered after the
+  splits: `65` (47 -> 48 rows); `66` (11 -> 12 rows); `70` (9 -> 10 rows);
+  `101` (31 -> 37 rows); `103` (33 -> 35 rows); `105` (47 -> 49 rows);
+  `112-SZ_Hantavirus.csv` (12 -> 13 rows). Same-source merges deferred until
+  after 4b (Step 3).
+- **Story-text fix and matching GT fix, 2026-11-19 (Phase 4 Step 1 Part B).**
+  The article text for `78` had "return-to-workorder"; corrected to
+  "return-to-work order" as on the live page (logged in
+  `extracted_articles_boilerplate/REFLOW_2026-11.md`). `78` row 9 Sourced
+  Statement: straight apostrophes -> curly as the text has them
+  ("state's" -> "state’s", "she's" -> "she’s").
+- **Story-text re-flow and matching GT fix, 2026-11-19 (Phase 4 Step 1 Part B).**
+  The `110` article text (one run-on line from the web fetch) was re-flowed to
+  the PDF's 15 paragraphs; headline/byline, promo and footer removed; photo
+  captions moved to a `Caption:` header line (see
+  `extracted_articles_boilerplate/REFLOW_2026-11.md`). `110` row 10 Sourced
+  Statement: straight quote marks -> curly and the space before the comma
+  removed, as the text has it ("...ever 😂 ," -> "...ever 😂,”").
+
 ### AV
 
 - **Story 171 (Bracing_Next_George_Floyd) row 3 — resolved a row you'd
@@ -3673,6 +3760,87 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   it contains). Added: Named Organization / Department of Justice, "The
   Department of Justice tells CNN that the Federal Bureau of Prisons
   “follows and enforces PREA standards...”". Now 59 rows.
+
+- **Phase 4 Step 1 (mechanical fixes), original GT-II batch, 2026-11-18.**
+  Settled rules only; changes approved as one batch table (Part A).
+  Sourced Statements made to match the article text exactly -- curly vs
+  straight quote marks and apostrophes as the text has them: `63` row 10;
+  `87` rows 5, 8, 15; `89` rows 2, 3, 4, 5, 7, 9, 11, 12, 13, 15;
+  `94-Met_Gala.csv` rows 1, 3, 6, 7, 9; `109-Waymo_West_Valley.csv` rows
+  1, 2, 4, 7, 8, 12; `116` rows 2, 4. Quotation marks the text doesn't
+  have around these sentences, removed: `122-SJ_Climate.csv` rows 2, 4, 5,
+  6, 9, 10, 11, 15, 18. Title of Source: words the article doesn't
+  capitalize lowercased (capitals the reporter uses, including
+  organization names, kept), and a leading article dropped: `56` rows 7, 8
+  "Executive Director of San Francisco Pride" -> "executive director of
+  San Francisco Pride"; `61-AV_Atlantic_Current.csv` rows 1, 2, 3, 8
+  "Scientists" -> "scientists"; `61-AV_Atlantic_Current.csv` row 4
+  "Researcher, Inria Centre de recherche Bordeaux Sud-Ouest" ->
+  "researcher, Inria Centre de recherche Bordeaux Sud-Ouest";
+  `61-AV_Atlantic_Current.csv` rows 5, 6, 7, 10, 11 "Professor, Potsdam
+  Institute for Climate Impact Research" -> "professor, Potsdam Institute
+  for Climate Impact Research"; `74-AV_San_Ramon_Pride.csv` row 10 "Former
+  mayor" -> "former mayor"; `74-AV_San_Ramon_Pride.csv` row 16 "Teacher in
+  San Ramon" -> "teacher in San Ramon"; `75` row 5 "Law Professor and
+  Associate Dean at Case Western Reserve University" -> "law professor and
+  associate dean at Case Western Reserve University"; `77` rows 3, 4, 5
+  "Chief Legal Counsel at the San Francisco Sheriff's Office" -> "chief
+  legal counsel at the San Francisco Sheriff's Office"; `77` rows 7, 8
+  "Drug Rehab Director" -> "drug rehab director"; `77` rows 11, 12 "Nearby
+  Business Manager" -> "nearby business manager"; `87` row 5 "Shipping
+  executives" -> "shipping executives"; `94-Met_Gala.csv` rows 1, 2, 3, 4,
+  7 "Co-chair for the 2026 Met Gala" -> "co-chair for the 2026 Met Gala";
+  `94-Met_Gala.csv` row 5 "Museum's director and CEO" -> "museum's
+  director and CEO"; `94-Met_Gala.csv` rows 6, 8, 9 "Curator in charge of
+  the Costume Institute" -> "curator in charge of the Costume Institute";
+  `108-Youth_POC_Climate.csv` rows 6, 17, 18, 20 "YVA Organizer" -> "YVA
+  organizer"; `108-Youth_POC_Climate.csv` rows 7, 8, 10, 11, 16, 19 "YVA
+  Education and Organizing Coordinator" -> "YVA education and organizing
+  coordinator"; `108-Youth_POC_Climate.csv` row 15 "YVA Program Director"
+  -> "YVA program director"; `109-Waymo_West_Valley.csv` rows 1, 2
+  "Spokesperson" -> "spokesperson"; `112-Hantavirus_Ship.csv` row 10
+  "Federal officials" -> "federal officials"; `112-Hantavirus_Ship.csv`
+  rows 11, 13, 15 "CDC Incident Manager" -> "CDC incident manager"; `113`
+  row 4 "President of the Personal Insurance Federation of California" ->
+  "president of the Personal Insurance Federation of California"; `113`
+  row 5 "Director of strategic communication for the Insurance Information
+  Institute" -> "director of strategic communication for the Insurance
+  Information Institute"; `113` row 7 "Head of 360 Value" -> "head of 360
+  Value"; `113` rows 8, 9, 27, 69, 96 "Executive Director of United
+  Policyholders" -> "executive director of United Policyholders"; `113`
+  row 16 "Co-founder of the West Slope Foundation" -> "co-founder of the
+  West Slope Foundation"; `113` rows 18, 19, 20, 21, 22 "Inventor of
+  Component-Cost Algorithms" -> "inventor of component-cost algorithms";
+  `113` row 23 "Professor and Author" -> "professor and author"; `113`
+  rows 35, 63, 64 "Head of 360Value" -> "head of 360Value";
+  `122-SJ_Climate.csv` rows 10, 11, 12 "Chief of Staff for terming out
+  incumbent Vice Mayor Pam Foley" -> "chief of staff for terming out
+  incumbent Vice Mayor Pam Foley"; `122-SJ_Climate.csv` rows 17, 18, 19
+  "Event Moderator" -> "event moderator". Row numbers:
+  `89-Sydney_SCC_Trump_Cuts.csv` ("1.0, 2.0..." -> "1, 2...");
+  `109-Waymo_West_Valley.csv` ("1.0, 2.0..." -> "1, 2...").
+- **Phase 4 Step 1 Part B (text fidelity), original GT-II batch,
+  2026-11-19.** Approved item by item with full before-rows. Sourced
+  Statements only; row numbers are before the splits unless shown with an
+  arrow. Fragment -> the full sentence(s) from the article, lead-in included
+  (v61 Note 12a): `56` rows 4, 5; `74-AV_San_Ramon_Pride.csv` rows 1, 7, 17;
+  `113` rows 62, 81; `122-SJ_Climate.csv` rows 16, 17. A row crossing a
+  paragraph break -> one row per paragraph, other fields copied (Note 12a;
+  breaks checked against the live pages): `77` row 13 -> rows 13, 14, row 14
+  -> rows 15, 16; `109-Waymo_West_Valley.csv` row 9 -> rows 9, 10, row 14 ->
+  rows 15, 16; `113` row 80 -> rows 80, 81, row 97 -> rows 98, 99. Wording
+  made to match the article text (typos, dropped/changed words, dashes,
+  ellipses, quote marks): `64` row 7; `87` rows 2, 7, 10, 13, 18, 21; `89`
+  rows 10, 17; `94-Met_Gala.csv` rows 2, 4, 5, 8; `113` rows 39, 66, 77;
+  `122-SJ_Climate.csv` rows 1, 3, 7, 8, 12, 14. Rows renumbered after the
+  splits: `77` (19 -> 21 rows); `109-Waymo_West_Valley.csv` (14 -> 16 rows);
+  `113` (97 -> 99 rows). Same-source merges deferred until after 4b (Step
+  3).
+- **Matching GT fix, 2026-11-19 (Phase 4 Step 1 Part B).** `113` row 35
+  Sourced Statement "...on top of demand surge." -> "...on top of demand
+  surge ." -- the article text and its PDF both have the space before the
+  period. (The same day the `113` text had "premiums" restored and a
+  paragraph break moved, from the PDF; no GT row quoted that sentence.)
 
 ### GT-I update
 
