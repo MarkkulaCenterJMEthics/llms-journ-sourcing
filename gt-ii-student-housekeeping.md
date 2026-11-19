@@ -4079,6 +4079,46 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
   18 rows match the text. Step 1 and Step 2 re-run on the re-flowed text:
   no further changes.
 
+- **Step 2 (judgment) batch 4, stories 33 and 34, 2026-11-18 (three SJ
+  items in 33 and two in 34 held for the user).**
+  - `33-human-border_patrol_towers.csv`: removed a duplicate row (a second
+    copy of "Customs and Border Protection says the surveillance equipment
+    is necessary..."). "In the San Diego area, border agents have been
+    telling migrants... the system will detect anyone who tries to walk
+    away, advocates say." retyped from Title "Border agents" to Source
+    Descriptors "advocates" (the advocates are the attributed source; the
+    agents' telling is nested). Added: state officials (Unnamed Group of
+    People, Title "state officials"), the same sentence as the border
+    advocates' row ("Border advocates are urging..., but state officials
+    say they can’t afford to while facing a budget deficit."). Names "Dept
+    of Homeland Security" -> "Department of Homeland Security", "Newsom's
+    Office" -> "Newsom’s office". The Border Chronicles podcast row kept as
+    is (user). Source Justifications blanked: the federal-contracts row's
+    "The spending comes as the Biden Administration is facing increased
+    political pressure..." (about the politics, not the source); the
+    privacy and human rights advocates' "Some of the towers can track
+    movement miles away." (user: inferring that the towers' reach is why
+    the advocates are voiced is a leap). "The Department of Homeland
+    Security “has also acknowledged the need for better coordination,
+    communication, and oversight,” it said in its 2021 report on its border
+    technology." retyped Document (Source Descriptors "report") -> Named
+    Organization / Department of Homeland Security, Source Justification
+    "it said in its 2021 report on its border technology." -> "its 2021
+    report on its border technology" (user: "its" makes it the
+    organization's own report). 28 rows.
+  - `34-human-ca_guanranteed_income.csv`: Ely Fournier Title "director,
+    Strength Based Community Change" (not in the text) -> blank; Sean
+    Kline's Source Justification "director of the Stanford Basic Income
+    Lab. Which studies..." (not verbatim) -> "Stanford Basic Income Lab,
+    which studies guaranteed income programs across the country"; "Penn's"
+    -> "Penn’s" (Name and Amy Castro's Title). Removed Kipp Kahlia's
+    "Kahlia thought if she was going to meet clients..., showing up in an
+    old, dinged up car wouldn’t do a lot for her image." (a reported
+    thought). The advocates row's Source Justification "In 2021 child
+    poverty decreased to 9% from 17.6% in 2019." -> blank. Kept (user):
+    the opponents row's Source Justification "some opponents" and Brian
+    Arredondo's "a coach for program participants." 26 rows.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
