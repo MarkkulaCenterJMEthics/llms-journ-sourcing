@@ -1717,6 +1717,32 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   and had mixed quote marks -> two rows, one per paragraph, with the text's
   punctuation (other fields copied); rows after it renumbered (24 -> 25
   rows; old rows 6-24 are now 7-25). Row numbers above are before the split.
+- **Phase 4 Step 2 batch 1 (4a recall, 4b precision, SJ, Title), original
+  GT-II batch, 2026-11-19.** Approved item by item with full before-rows.
+  `155`: 4 rows added -- State prosecutors "have objected to the defense's
+  claim" (Unnamed Group of People, Title "state prosecutors"); Jamie
+  McDonald, U.S. attorney for the Southern District of New York, "said his
+  office would seek the maximum sentence"; Mangione "admitted ambushing
+  Thompson... He also told the court..." (plea hearing); authorities on the
+  arrest ("Mangione was arrested five days later... authorities said.");
+  rows put in text order (11 rows; old 1, 2, 4, 3, 5, 6, 7 are now 1, 2, 3,
+  7, 8, 10, 11; new rows 4, 5, 6, 9). `95` rows 3, 4, 5 (the CSIS report):
+  Document -> Named Organization / Center for Strategic and International
+  Studies, Source Descriptors "report" -> blank (v61 Minor 22: the reporter
+  names the report's producer). `111`: row added for "The Trump
+  administration wants to end housing first, which it says isn’t working..."
+  (Named Organization / Trump administration; now row 6, old rows 6-8 ->
+  7-9); Title of Source as written: row 2 "spokesperson, National
+  Homelessness Law Center" -> "spokesperson for the National Homelessness
+  Law Center", row 5 "Senior California Policy Fellow, National Alliance to
+  End Homelessness" -> "senior California policy fellow for the National
+  Alliance to End Homelessness". `61-Atlantic_Current.csv`: Name of Source
+  "Professor Stefan Rahmstorm" -> "Stefan Rahmstorf" (rows 3, 4, 5, 7, 8)
+  and "Dr. Valentin Portmann" -> "Valentin Portmann" (row 2), as the text
+  spells them; row 2 SJ "led the new research on Atlantic Current" -> "led
+  the new research" (the text's words); row 7 Sourced Statement trimmed to
+  "This makes the work “very credible”, said Rahmstorf." -- the two
+  sentences before it are the reporter's (Note 12a).
 
 ### AV
 
@@ -3865,6 +3891,27 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   (Glezer) -> 2 rows; row 15 (Torrence) -> 3 rows. Rows renumbered (23 -> 26
   rows): old 5 -> 5, 6; old 6-14 -> 7-15; old 15 -> 16, 17, 18; old 16-23 ->
   19-26. Row numbers above are before the splits.
+- **Phase 4 Step 2 batch 1 (4a recall, 4b precision, SJ, Title), original
+  GT-II batch, 2026-11-19.** Approved item by item with full before-rows.
+  `75` Title of Source for elected officials, with party and constituency as
+  written (v61): row 2 Yvette Clarke "New York Representative" ->
+  "Democratic Rep. of New York; chair of the caucus"; rows 3, 4 Terri Sewell
+  "Alabama Representative" -> "Rep., Democrat from Alabama".
+  `76-AV_Ghiradelli_Deal.csv` rows 3, 4 Anant Bhalla Title "JAB Insurance
+  U.S. Holdings CEO" -> "CEO of 1823 Partners; global head of insurance at
+  JAB Holdings" (as the text has it); rows 1, 2 ("sources say") Unnamed
+  Person -> Unnamed Group of People (plural). `121`: row added for "Meta had
+  78,865 employees at the end of 2025, up 6% from a year earlier, according
+  to the company." (Named Organization / Meta; now row 5, old rows 5-8 ->
+  6-9). `56`: 3 rows added -- staff at a Noe Valley Philz "told the
+  Chronicle..." (Unnamed Group of People, SD "staff"); the Philz baristas'
+  Change.org petition against the move (Unnamed Group of People, SD "Philz
+  baristas"); State Sen. Scott Wiener, D-San Francisco, "spoke out against
+  the decision" (Named Person, Title "State Sen. D-San Francisco"); now rows
+  6, 7, 8, old rows 6-8 -> 9-11. Row 2 (Sadarangani) Sourced Statement
+  extended to the whole paragraph: "In the statement, Philz CEO Mahesh
+  Sadarangani apologized for the decision to remove Pride flags..." added
+  before the quotes (Note 12a).
 
 ### GT-I update
 
