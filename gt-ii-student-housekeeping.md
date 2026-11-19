@@ -3927,6 +3927,30 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   confidential memo, Document): kept as Document; Source Justification
   "confidential memo issued by Sadarangani to Philz employees" -> "in a
   confidential memo to Philz employees" (the text's own words).
+- **Phase 4 Step 2 batch 2a, original GT-II batch, 2026-11-19.** Approved
+  item by item with full before-rows. `116`: Source Justification "null" ->
+  blank (old rows 3, 4, 8); old row 1 SJ (three passages joined with "...")
+  -> "The Sunday gathering was organized by Freedom250, a private group
+  established by the Trump administration"; old row 2 SJ (event context and
+  Hegseth) -> blank; old row 5 (the heckler who accused attendees of
+  "supporting a pedophile") Unnamed Group of People / SD "attendees" ->
+  Unnamed Person / SD "heckler", SJ (about the counterprotests) -> blank --
+  the speaker is the heckler; old row 4 Weissman Title "Co-President, Public
+  Citizen" -> "Public Citizen Co-President" (as written). 3 rows added:
+  Freedom From Religion Foundation's truck "calling to “Celebrate Democracy,
+  Not Theocracy.”" (Named Organization); federal officials "announced
+  “Operation Summer Surge”..." (Unnamed Group of People, Title "federal
+  officials"); "the administration says" the Interior fund will pay for
+  beautification (Named Organization / Trump administration). Now 12 rows:
+  old 1-4 -> 1-4, 5 -> 6, 6-9 -> 9-12; new rows 5, 7, 8. `63`: no change
+  (row 5 "Many state and federal policymakers..." kept, user). `64`: row
+  added for "...authorities said Saturday." (p2; Unnamed Group of People,
+  Title "authorities"; now row 1, old rows 1-10 -> 2-11); old row 8 extended
+  with the next sentence of its paragraph ("He was charged with battery and
+  burglary..."), old row 9 with "He completed the program in 2024 and the
+  charges were discontinued." (implied attribution, Notes 9/10); old rows 2,
+  3 Maurer Title "Chief Deputy, Hillsborough County" -> "Hillsborough County
+  Chief Deputy" (as written).
 
 ### GT-I update
 
