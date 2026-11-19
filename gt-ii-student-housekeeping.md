@@ -1706,6 +1706,17 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   `extracted_articles_boilerplate/REFLOW_2026-11.md`). `110` row 10 Sourced
   Statement: straight quote marks -> curly and the space before the comma
   removed, as the text has it ("...ever 😂 ," -> "...ever 😂,”").
+- **Phase 4 Step 1 (text fidelity) on story 52/55 SZ files, 2026-11-19.**
+  Approved with full before-rows. Sourced Statements made to match the
+  article text: outer quote marks the text does not have removed, and the
+  text's double quotes restored where the row had turned them into single
+  quotes -- `52-East_Bay_Voters.csv` rows 11, 12, 13;
+  `55-Chicago_Pentagon.csv` rows 6, 10, 11, 12, 13, 14, 15, 16, 18, 22;
+  `55-Chicago_Pentagon.csv` row 21 final period added.
+  `55-Chicago_Pentagon.csv` row 5 (Eliza Glezer) crossed a paragraph break
+  and had mixed quote marks -> two rows, one per paragraph, with the text's
+  punctuation (other fields copied); rows after it renumbered (24 -> 25
+  rows; old rows 6-24 are now 7-25). Row numbers above are before the split.
 
 ### AV
 
@@ -3841,6 +3852,19 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   surge ." -- the article text and its PDF both have the space before the
   period. (The same day the `113` text had "premiums" restored and a
   paragraph break moved, from the PDF; no GT row quoted that sentence.)
+- **Phase 4 Step 1 (text fidelity) on `55-Pentagon_Lab.csv`, 2026-11-19.**
+  Approved with full before-rows. Row 1 fragment -> the full sentence ("He
+  didn’t learn about “Quantum City” from the governor or the mayor, but from
+  a teach-in at his local library, where community activists explained...",
+  v61 Note 12a). Rows 5 and 10 Title of Source "Assistant deputy director
+  for the Illinois Department of Commerce and Economic Opportunity, State
+  Official" -> "assistant deputy director for the Illinois Department of
+  Commerce and Economic Opportunity, state official" (the text writes both
+  in lowercase). Row 10 Sourced Statement: a stray leading ". " removed.
+  Paragraph crossings -> one row per paragraph (other fields copied): row 5
+  (Glezer) -> 2 rows; row 15 (Torrence) -> 3 rows. Rows renumbered (23 -> 26
+  rows): old 5 -> 5, 6; old 6-14 -> 7-15; old 15 -> 16, 17, 18; old 16-23 ->
+  19-26. Row numbers above are before the splits.
 
 ### GT-I update
 
