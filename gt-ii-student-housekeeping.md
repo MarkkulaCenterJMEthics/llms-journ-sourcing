@@ -4029,6 +4029,56 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
     which keeps it as its Source Justification -- the lead-in to her
     quote). 16 rows.
 
+- **Step 2 (judgment) batch 3, stories 25 and 30, 2026-11-18.**
+  - `25-ballot-access-trans.csv`: Quinn Diaz's row (only the paragraph's
+    second sentence) -> the full paragraph ("To Quinn Diaz, a public
+    policy associate at advocacy group Equality Florida, the failure of
+    most anti-LGBTQ+ bills... But the new gender marker regulation...,
+    they argued."); Diaz's two Title forms -> "public policy associate at
+    advocacy group Equality Florida" (as written). Removed (feelings):
+    Hazel Krebs's "Hazel Krebs... felt the weight of that increased
+    scrutiny..." and "Krebs, who plans to vote in November, is worried...
+    But she is determined..." -- the latter added to her closing quote's
+    Source Justification after "; " (the lead-in to that quote). Rose
+    Saxe's Source Justification (another source's statement, "politicians
+    supporting these policies frame them as protecting cisgender women.")
+    -> blank. Name "Center of Democracy and Civic Engagement" -> "Center
+    for Democracy and Civic Engagement" (as in the text). Added: advocates
+    (Unnamed Group of People), "The ripple effect could extend beyond
+    trans people, these advocates warn."; Named Organization / Department
+    of Highway Safety and Motor Vehicles, "In January, a Florida agency
+    announced it would no longer update a trans person’s driver’s license
+    with their correct gender identity."; advocacy groups and lawmakers
+    (Unnamed Group of People), "Some advocacy groups and lawmakers in
+    Florida also argue the state’s new regulations conflict with the
+    federal Real ID Act..." Lucas Cameron-Vaughn's Source Justification
+    "Those that intentionally target government identification that
+    people use in everyday life, like driver’s licenses, are particularly
+    challenging." -> blank (after a second look at all his rows: the
+    sentence is about the laws, not his standing; nothing in the text ties
+    him to the ACLU's lawsuit). 38 rows.
+  - `30-la-lower-rent-hikes.csv`: Hugo Soto-Martinez Title "City Council
+    Member" -> "Councilmember" (as written); his "has already called for
+    capping increases at 3%" row's Source Justification blank -> "one of
+    the council members who requested the report be commissioned"; his
+    email row's Source Justification "In an email reacting to the Economic
+    Roundtable report" (plain channel) -> blank. Title "L.A. City Council
+    members" -> "L.A. city council members" (as written). Name "Laist" ->
+    "LAist". Added (Unnamed Group of People): landlord advocates,
+    "Landlord advocates strongly disputed the report’s conclusions.";
+    landlords, "The city faced strong criticism from landlords who argued
+    too little was being done to help property owners." The report row
+    "Over the course of 193 pages, the report offers an extensive
+    analysis..." kept (user). 38 rows.
+
+- **`17-homelessness-santa-clara.csv` and its story text, 2026-11-18.**
+  The text was hard-wrapped; re-flowed to one paragraph per line from the
+  PDF the user supplied (only whitespace changed). Two Sourced Statements
+  held the old line breaks (rows 4 "Three other counties in the Bay
+  Area..." and 17 "Back on the East Side, Campa said...") -> spaces. All
+  18 rows match the text. Step 1 and Step 2 re-run on the re-flowed text:
+  no further changes.
+
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
 the meantime
