@@ -1785,6 +1785,18 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "astronaut" -> "Josef Aschbacher" / "Director General of European Space
   Agency (ESA)" -- relayed speech: the reporter heard it from Aschbacher in
   an interview (dev doc item 73).
+- **Minor 22 Document-name fixes after a re-read of the v61/v62 rules,
+  2026-11-19.** A Document's Name of Source is the document's own title only
+  if the reporter gives it. `155` row 1 ("...court records show."): Name
+  "Court Records" -> blank, Source Descriptors -> "court records". `70` row
+  1 ("His Save Willy Act would establish..."): Name blank -> "Save Willy
+  Act" (the reporter gives the bill's title). `61-Atlantic_Current.csv` row
+  6 (the Science Advances research): Name "Science Advances" -> blank (the
+  journal published affiliated researchers' work; it is not the research's
+  title or its producer); Source Justification -> "published in the journal
+  Science Advances; explored four different ways of using real-world
+  observations to assess the models" (user: publication signals the
+  research's scientific standing).
 
 ### AV
 
@@ -4041,6 +4053,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "year’s", "body’s"). Now 8 rows (old 5-9 -> 4-8). Row 7 ("As Williams
   pointed out, Bolton stressed...", typed Venus Williams) left as an ICR
   disagreement (user: Bolton is the source).
+- **Minor 22 Document-name fixes after a re-read of the v61/v62 rules,
+  2026-11-19.** `64` row 11 ("Hillsborough County Court records also
+  showed..."): Name "Hillsborough County Court records" -> blank, Source
+  Descriptors -> "Hillsborough County Court records" (court records
+  credited; the court named in passing). `61-AV_Atlantic_Current.csv` row 9
+  (the Science Advances research): Name "Science Advances" -> blank; Source
+  Justification -> "published in the journal Science Advances; explored four
+  different ways of using real-world observations to assess the models"
+  (user: publication signals the research's scientific standing).
 
 ### GT-I update
 
