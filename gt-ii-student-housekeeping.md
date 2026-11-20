@@ -4062,6 +4062,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Justification -> "published in the journal Science Advances; explored four
   different ways of using real-world observations to assess the models"
   (user: publication signals the research's scientific standing).
+- **Follow-up, 2026-11-19.** `64` row 11 Source Descriptors "Hillsborough
+  County Court records" -> "court records": v61 SD rule 4 keeps a place only
+  for a person or group of people (an organization leaves out where it is
+  based); a document's SD is its genre. The county stays in the Sourced
+  Statement.
 
 ### GT-I update
 
