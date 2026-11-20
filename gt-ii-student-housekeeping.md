@@ -1873,6 +1873,12 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "Some residents have expressed concerns..." (Unnamed Group of People, SD
   "residents"; now row 8, old 8-15 -> 9-16); row 5 Title "elected leaders in
   West Valley" -> "elected leaders in the West Valley".
+- **Phase 4 Step 2 batch 3c, held items, 2026-11-19.** `109-SZ_Waymo.csv`:
+  Rob Moore row 7 (p8) -> "Moore said Waymo previously told him... Still, he
+  said he sees potential safety benefits in autonomous vehicle technology."
+  -- his two sentences in the paragraph, joined; the residents' sentence
+  between them is its own row (Note 12a). (The residents' sentence was taken
+  out of his row.)
 
 ### AV
 
@@ -4176,6 +4182,12 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   People, SD "residents"; now row 8, old 8-16 -> 9-17); row 5 Title "Elected
   Leaders in West Valley" -> "elected leaders in the West Valley" (as
   written, sentence-start capital lowercased).
+- **Phase 4 Step 2 batch 3c, held items, 2026-11-19.**
+  `109-Waymo_West_Valley.csv`: Rob Moore row 7 (p8) -> "Moore said Waymo
+  previously told him... Still, he said he sees potential safety benefits in
+  autonomous vehicle technology." -- his two sentences in the paragraph,
+  joined; the residents' sentence between them is its own row (Note 12a).
+  (His "Still, he said..." sentence was added.)
 
 ### GT-I update
 
