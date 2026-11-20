@@ -1,0 +1,9 @@
+# outputs the scripts write next to themselves
+*.json
+step1_report.md
+step1_partB_*.md
+step2_report*.md
+gti_report.md
+fidx_compact.md
+__pycache__/
+backup_*/
