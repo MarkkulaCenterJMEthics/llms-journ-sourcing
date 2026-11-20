@@ -3987,6 +3987,17 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   organizations produced the work as their own; it may be affiliated
   researchers' work). Old rows 12, 13 -> 11, 12; now 12 rows. Row 12 (now
   11, NOAA "Federal scientists... believe...") kept.
+- **Phase 4 Step 1 (text fidelity) on `67-California_Ships_Whales.csv`,
+  2026-11-19.** Approved with full before-rows. Sourced Statements: line
+  breaks at the end of the cell removed (rows 1, 2, 3, 4, 5, 7, 8, 9, 11,
+  12); straight apostrophes -> curly as the text has them (rows 6, 9). Title
+  of Source: "Director of marine resource protection, California Marine
+  Sanctuary Foundation" -> "director of marine resource protection,
+  California Marine Sanctuary Foundation" (rows 3, 5-9); "Federal
+  Scientists" -> "federal scientists" (row 11) and "Researchers" ->
+  "researchers" (row 4) -- capitals only from the start of the sentence;
+  "South Bay Representative" -> "South Bay Rep." (rows 1, 12; elected
+  official, as written). Same values as the twin file 70.
 
 ### GT-I update
 
