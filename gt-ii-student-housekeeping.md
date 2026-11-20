@@ -1769,6 +1769,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   added for China's "stated aim of landing an astronaut on the Moon by
   around 2030" (Named Organization / China; now row 8, old rows 8-11 ->
   9-12).
+- **Phase 4 Step 2 batch 2c (dual pair; technical fixes only), original
+  GT-II batch, 2026-11-19.** `94-SZ_Met_Gala.csv`: Bolton row 7 extended
+  with the lead-in sentence of his paragraph ("Andrew Bolton, the curator in
+  charge of the Costume Institute, weighed in on why...", Note 12a); old row
+  4 ("From that homemade tennis skirt... Williams has come to...") removed
+  -- the reporter's characterization; old row 9 trimmed to "Or, as Bolton
+  noted: “Even in its absence...”" -- the sentence before it ("In that way,
+  the clothed human form is a reflection...") is the reporter's, between
+  Bolton's statements (item 55). Now 10 rows (old 5-11 -> 4-10). Row 1
+  ("Venus Williams remembers...") kept (user).
 
 ### AV
 
@@ -4008,6 +4018,23 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   them (interpretive differences from SZ's 70, for ICR): row 1 Liccardo (the
   whole Save Willy Act paragraph as Named Person); no row for "The
   legislation introduced Wednesday by Sam Liccardo...".
+- **Phase 4 Step 2 batch 2c (dual pairs; technical fixes only), original
+  GT-II batch, 2026-11-19.** `74-AV_San_Ramon_Pride.csv`: Title of Source as
+  written -- Anuradha Gupta rows 5, 6, 8 "Chapter President, PFLAG
+  Danville-San Ramon Valley" -> "chapter president of PFLAG Danville-San
+  Ramon Valley"; Robert Jweinat row 13 "San Ramon City Councilmember" ->
+  "Councilmember". The rest of the difference from SZ's copy is the open
+  AV/SZ Sourced Statement disagreement (joint discussion), left as is.
+  `94-Met_Gala.csv`: Bolton row 6 extended with the lead-in sentence of his
+  paragraph ("Andrew Bolton, the curator in charge of the Costume Institute,
+  weighed in on why, exactly, “Costume Art” felt like the right choice for
+  the gallery’s debut show.", Note 12a); old row 4 ("From that homemade
+  tennis skirt to full-fledged fashion icon, Williams has come to...")
+  removed -- the reporter's characterization, no attribution; straight
+  apostrophes curled as in the text (Hollein Title "museum’s"; Williams SJ
+  "year’s", "body’s"). Now 8 rows (old 5-9 -> 4-8). Row 7 ("As Williams
+  pointed out, Bolton stressed...", typed Venus Williams) left as an ICR
+  disagreement (user: Bolton is the source).
 
 ### GT-I update
 
