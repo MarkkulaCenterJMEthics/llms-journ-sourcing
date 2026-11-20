@@ -3998,6 +3998,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "researchers" (row 4) -- capitals only from the start of the sentence;
   "South Bay Representative" -> "South Bay Rep." (rows 1, 12; elected
   official, as written). Same values as the twin file 70.
+- **Phase 4 Step 2 on `67-California_Ships_Whales.csv` (dual pair with 70;
+  technical fixes only), 2026-11-19.** Jessica Morten rows 3, 5, 6, 7, 8, 9:
+  Title of Source "director of marine resource protection, California Marine
+  Sanctuary Foundation" -> "director of marine resource protection at the
+  California Marine Sanctuary Foundation" (as written); Source Justification
+  "worked at the program for the last 10 years" -> "who has worked on the
+  program for the last 10 years" (the text's words). Kept as AV annotated
+  them (interpretive differences from SZ's 70, for ICR): row 1 Liccardo (the
+  whole Save Willy Act paragraph as Named Person); no row for "The
+  legislation introduced Wednesday by Sam Liccardo...".
 
 ### GT-I update
 
