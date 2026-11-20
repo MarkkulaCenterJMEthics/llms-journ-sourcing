@@ -1797,6 +1797,23 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Science Advances; explored four different ways of using real-world
   observations to assess the models" (user: publication signals the
   research's scientific standing).
+- **Phase 4 Step 2 batch 3a (dual pair 52), original GT-II batch,
+  2026-11-19.** `52-East_Bay_Voters.csv`: Source Descriptors "Livermore
+  resident" (Julie Valentine) and "Hayward resident" (Melissa Estepa) ->
+  blank (item 70: the text says "of Livermore", "of Hayward"; a Name of
+  Place is not a descriptor). Title of Source for elected officials, as
+  written: Eric Swalwell -> "Rep.", Ro Khanna -> "Rep. D-Santa Clara", Sam
+  Liccardo -> "Rep. D-San José", Jared Huffman -> "Rep. D-California".
+  Source Justification on the public-letter rows "More than 50 former
+  staffers of Swalwell issued in a public letter" -> "...issued a public
+  letter" (the text's words). 4 rows added: Julie Valentine "questioned the
+  timing of the allegations" (her lead-in paragraph; the same sentence is
+  still her quote row's SJ -- for the item 58 sweep); Swalwell "announced
+  Sunday that he was dropping out..."; Named Organization / San Francisco
+  Chronicle for the accuser's allegations from its published interviews
+  (relayed through an outlet, item 73); Named Organization / CNN ("reported
+  that three additional women..."). Now 17 rows: new rows 1, 5, 6, 7; old
+  1-3 -> 2-4, 4-13 -> 8-17.
 
 ### AV
 
@@ -4067,6 +4084,23 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   for a person or group of people (an organization leaves out where it is
   based); a document's SD is its genre. The county stays in the Sourced
   Statement.
+- **Phase 4 Step 2 batch 3a (dual pair 52), original GT-II batch,
+  2026-11-19.** `52-Swalwell_Allegations.csv`: Source Descriptors "Livermore
+  resident" (Julie Valentine) and "Hayward resident" (Melissa Estepa) ->
+  blank (item 70: the text says "of Livermore", "of Hayward"; a Name of
+  Place is not a descriptor). Title of Source for elected officials, as
+  written: Eric Swalwell -> "Rep.", Ro Khanna -> "Rep. D-Santa Clara", Sam
+  Liccardo -> "Rep. D-San José", Jared Huffman -> "Rep. D-California". Name
+  of Source typos: "Alameda County District Attourney's Office" -> "Alameda
+  County District Attorney’s Office", "House Commitee on Ethics" -> "House
+  Committee on Ethics". 4 rows added: Julie Valentine "questioned the timing
+  of the allegations" (her lead-in paragraph; the same sentence is still her
+  quote row's SJ -- for the item 58 sweep); Swalwell "announced Sunday that
+  he was dropping out..."; Named Organization / San Francisco Chronicle for
+  the accuser's allegations from its published interviews (relayed through
+  an outlet, item 73); Named Organization / CNN ("reported that three
+  additional women..."). Now 17 rows: new rows 1, 5, 6, 7; old 1-3 -> 2-4,
+  4-13 -> 8-17.
 
 ### GT-I update
 
