@@ -1879,6 +1879,22 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   -- his two sentences in the paragraph, joined; the residents' sentence
   between them is its own row (Note 12a). (The residents' sentence was taken
   out of his row.)
+- **Phase 4 Step 2 batch 3d (156), original GT-II batch, 2026-11-19.**
+  Approved with full before-rows. `156` (now 20 rows): old row 5
+  ("...according to Ipsos polling.") Name "Reuters/Ipsos" -> "Ipsos" (as
+  credited there); old row 7 (Newsom) extended with the first sentence of
+  its paragraph ("The move was widely criticized at the time, including by
+  California Governor Gavin Newsom, who sued Trump over the
+  federalization."). Rows added: White House "has consistently rejected the
+  idea..." (Named Organization); Trump "promised to crack down... what he
+  described as the largest deportation operation..." (Named Person,
+  President); "Despite the drop in support, Trump and his allies have
+  defended the crackdown..." -- one row each (Named Person / Donald Trump;
+  Unnamed Group of People, SD "allies"); "...with 38 percent of respondents
+  saying that he was doing a good job on immigration." (Named Organization /
+  Reuters/Ipsos, the poll series of the surrounding paragraphs; SJ as on the
+  other Reuters/Ipsos rows). New rows 3, 7, 10, 11, 12; old 3-5 -> 4-6, 6-7
+  -> 8-9, 8-15 -> 13-20.
 
 ### AV
 
