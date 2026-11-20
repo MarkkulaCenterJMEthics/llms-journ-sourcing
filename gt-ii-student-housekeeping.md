@@ -1748,6 +1748,27 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Organization / Department of Housing and Urban Development (as the article
   names it), Source Descriptors "report" -> blank -- a HUD report is the
   department's own product (Minor 22).
+- **Phase 4 Step 2 batch 2b, original GT-II batch, 2026-11-19.** Approved
+  item by item with full before-rows. `70`: 3 rows added -- "Researchers
+  estimate it has reduced the risk of death by ship strike for whales in the
+  area by 40%." (Unnamed Group of People, Title "researchers"); Sam
+  Liccardo's bill as a Document (SD "legislation"): "His Save Willy Act
+  would establish a “whale desk”..." and "The legislation introduced
+  Wednesday by Sam Liccardo would seek to help whales..." (user: what a bill
+  says is the bill's content). Now 13 rows: old 1-2 -> 2-3, 3-9 -> 5-11, 10
+  -> 13; new rows 1, 4, 12. Not changed: the Sonoma State University /
+  Marine Mammal Center research row stays Document, and the NOAA scientists
+  row stays Unnamed Group of People (user: scientists at an agency do not
+  speak for it, item 41). `51`: old row 11 ("“That,” says Aschbacher, “would
+  create a very different life on planet Earth.”") Name "Alexander Gerst" ->
+  "Josef Aschbacher", Title "astronaut" -> "Director General of European
+  Space Agency (ESA)" -- the speaker is Aschbacher; old row 7 final period
+  added; Barber rows (old 5, 6, 7) Name "Dr. Simeon Barber" -> "Simeon
+  Barber", Title "Space Scientist from Open Univeristy" -> "Dr., space
+  scientist from the Open University" (the "Dr., <position>" form); row
+  added for China's "stated aim of landing an astronaut on the Moon by
+  around 2030" (Named Organization / China; now row 8, old rows 8-11 ->
+  9-12).
 
 ### AV
 
@@ -3951,6 +3972,12 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   charges were discontinued." (implied attribution, Notes 9/10); old rows 2,
   3 Maurer Title "Chief Deputy, Hillsborough County" -> "Hillsborough County
   Chief Deputy" (as written).
+- **Phase 4 Step 2 batch 2b, original GT-II batch, 2026-11-19.** `63`: 2
+  rows added for "Sen. Bernie Sanders, I-Vt., and Rep. Alexandria
+  Ocasio-Cortez, D-N.Y., proposed a federal moratorium on new data centers
+  in late March." -- one per lawmaker (Named Person / Bernie Sanders, Title
+  "Sen. I-Vt."; Named Person / Alexandria Ocasio-Cortez, Title "Rep.
+  D-N.Y."); now rows 9, 10, old rows 9-10 -> 11-12.
 
 ### GT-I update
 
