@@ -1856,6 +1856,23 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "The second core claim is fraud... The third claim is unjust enrichment,
   which argues..." (now row 6). Now 19 rows; the rows after each new row
   move down by one or two.
+- **Phase 4 Step 2 batch 3c (dual pairs; technical fixes), original GT-II
+  batch, 2026-11-19.** `112-SZ_Hantavirus.csv`: row added for "Kornfeld said
+  they all seem to be planning to stay in quarantine for the full
+  recommended 42 days..." (now row 5, old 5-13 -> 6-14); old row 7 (p10,
+  CDC) Sourced Statement restored to the text's exact wording ("officials
+  with the CDC said", "the officials said", curly quotes -- the row had
+  "officials with the US Centers for Disease Control and Prevention" and
+  "the CDC officials"); old row 10 (Fitter) trimmed to "But the “CDC
+  currently recommends testing only for people with symptoms,” Fitter said."
+  (the sentence before it is the reporter's); old rows 11, 12 "...WHO and
+  CDC say." -> "...WHO and the CDC say." (as the text); Title of Source:
+  Fitter "incident manager for the CDC's hantavirus response" -> "Dr.,
+  incident manager for the CDC’s hantavirus response", Kornfeld "Oregon
+  oncologist" -> "Dr., Oregon oncologist". `109-SZ_Waymo.csv`: row added for
+  "Some residents have expressed concerns..." (Unnamed Group of People, SD
+  "residents"; now row 8, old 8-15 -> 9-16); row 5 Title "elected leaders in
+  West Valley" -> "elected leaders in the West Valley".
 
 ### AV
 
@@ -4143,6 +4160,22 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   an outlet, item 73); Named Organization / CNN ("reported that three
   additional women..."). Now 17 rows: new rows 1, 5, 6, 7; old 1-3 -> 2-4,
   4-13 -> 8-17.
+- **Phase 4 Step 2 batch 3c (dual pairs; technical fixes), original GT-II
+  batch, 2026-11-19.** `112-Hantavirus_Ship.csv`: old row 14 ("The risk to
+  the general public remains low, WHO and the CDC say.", Name "World Health
+  Organization and Centers for Disease Control and Prevention") -> one row
+  per organization (World Health Organization; US Centers for Disease
+  Control and Prevention -- new row 15, old 15 -> 16); row 9 Name "Centers
+  for Disease Control and Prevention" -> "US Centers for Disease Control and
+  Prevention" (as row 7 and the text); Title of Source: David Fitter "CDC
+  incident manager" -> "Dr., incident manager for the CDC’s hantavirus
+  response", Stephen Kornfeld "Oregon oncologist" -> "Dr., Oregon
+  oncologist" ("Dr., <position>" form). `109-Waymo_West_Valley.csv`: row
+  added for "Some residents have expressed concerns about how autonomous
+  vehicles could affect traffic safety in Los Gatos..." (Unnamed Group of
+  People, SD "residents"; now row 8, old 8-16 -> 9-17); row 5 Title "Elected
+  Leaders in West Valley" -> "elected leaders in the West Valley" (as
+  written, sentence-start capital lowercased).
 
 ### GT-I update
 
