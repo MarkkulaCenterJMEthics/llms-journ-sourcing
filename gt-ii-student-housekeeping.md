@@ -3978,6 +3978,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   in late March." -- one per lawmaker (Named Person / Bernie Sanders, Title
   "Sen. I-Vt."; Named Person / Alexandria Ocasio-Cortez, Title "Rep.
   D-N.Y."); now rows 9, 10, old rows 9-10 -> 11-12.
+- **Story 67 (California_Ships_Whales) research rows, 2026-11-19 (Phase 4
+  Step 2 batch 2b, decided with its twin 70).** Rows 10 and 11 ("Recent
+  research out of Sonoma State University and the Marine Mammal Center in
+  Sausalito estimates...") were the same sentence typed Named Organization
+  twice (Sonoma State University; Marine Mammal Center in Sausalito) -> one
+  row, Document, Source Descriptors "research" (user: we don't know the two
+  organizations produced the work as their own; it may be affiliated
+  researchers' work). Old rows 12, 13 -> 11, 12; now 12 rows. Row 12 (now
+  11, NOAA "Federal scientists... believe...") kept.
 
 ### GT-I update
 
