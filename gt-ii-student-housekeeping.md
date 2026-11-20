@@ -1779,6 +1779,12 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   the clothed human form is a reflection...") is the reporter's, between
   Bolton's statements (item 55). Now 10 rows (old 5-11 -> 4-10). Row 1
   ("Venus Williams remembers...") kept (user).
+- **Phase 4 Step 2 batch 2b follow-up, 2026-11-19.** `51` rows 10, 11 ("ESA
+  astronaut Alexander Gerst once told Aschbacher...", "Gerst told the ESA
+  boss that he wishes...") Named Person "Alexander Gerst" / Title
+  "astronaut" -> "Josef Aschbacher" / "Director General of European Space
+  Agency (ESA)" -- relayed speech: the reporter heard it from Aschbacher in
+  an interview (dev doc item 73).
 
 ### AV
 
