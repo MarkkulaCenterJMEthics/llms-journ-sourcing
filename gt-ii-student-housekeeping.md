@@ -1849,6 +1849,13 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   2 Live Crew's album... obscene in 1990." (Unnamed Person, Title "federal
   judge"). Kyle Kondik Title: trailing period removed (old rows 5-7). Rows
   now: new 4, 6, 10, 12; old 4 -> 5, 5-7 -> 7-9, 8 -> 11, 9-13 -> 13-17.
+- **Phase 4 Step 2 batch 3b, held item, 2026-11-19.** `66`: 2 Document rows
+  added for what the lawsuit itself says (v61 Minor 22: the reporter credits
+  the suit), Source Descriptors "lawsuit": "Musk’s suit essentially accuses
+  OpenAI of straying from its founding nonprofit mission..." (now row 3) and
+  "The second core claim is fraud... The third claim is unjust enrichment,
+  which argues..." (now row 6). Now 19 rows; the rows after each new row
+  move down by one or two.
 
 ### AV
 
