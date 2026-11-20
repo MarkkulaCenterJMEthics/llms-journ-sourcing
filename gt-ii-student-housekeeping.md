@@ -1814,6 +1814,41 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   (relayed through an outlet, item 73); Named Organization / CNN ("reported
   that three additional women..."). Now 17 rows: new rows 1, 5, 6, 7; old
   1-3 -> 2-4, 4-13 -> 8-17.
+- **Phase 4 Step 2 batch 3b (66, 152), original GT-II batch, 2026-11-19.**
+  Approved item by item with full before-rows. `66` (now 17 rows, put in
+  text order): 4 rows added -- Musk "alleges that in the early days of
+  OpenAI..." (Named Person, speaking through his lawsuit); "(OpenAI alleges
+  that Musk knew back in 2017...)" (Named Organization / OpenAI); Musk "is
+  asking the court for a number of different remedies..." (Named Person);
+  "Former OpenAI researchers and AI safety nonprofits... say they
+  believe..." (Unnamed Group of People, Title "former OpenAI researchers";
+  the unnamed nonprofits go to item 75); old row 5 ("...legal experts and
+  people close to the case say it’s unlikely.") split into one row per group
+  (Title "legal experts"; SD "people close to the case"), SJ "people close
+  to the case" -> blank; old row 10 (Gómez) trimmed to start at "Luís
+  Calderón Gómez..." -- "Almost certainly not, but..." is the reporter's;
+  Brockman Title "President and cofounder of OpenAI" -> "OpenAI’s President
+  and cofounder" (as written); Calvin Title "general counsel for Encode, a
+  nonprofit that has supported several AI safety bills and objected to the
+  OpenAI restructuring" -> "general counsel for Encode", the clause -> his
+  SJ. Rows now: legal experts 1, people close to the case 2, Musk 3, OpenAI
+  4, defendants (old 1-4) 5-8, Musk 9, OpenAI spokesperson (old 9) 10,
+  former researchers 11, Hilton (old 6) 12, Calvin (old 7) 13, Horwitz (old
+  8) 14, Gómez (old 10, 11) 15, 16, Hilton (old 12) 17. `152` (now 17 rows):
+  statements the reporter took from other outlets' interviews credited to
+  the outlet (dev doc item 73): old row 3 Larkin ("...Larkin said during an
+  Aug. 11 interview with Florida Today...") -> Named Organization / Florida
+  Today (Larkin's SD and SJ cleared), and its last sentence "Larkin has been
+  endorsed by the DSA." trimmed (reporter's); old row 4 Moskowitz ("In South
+  Florida, that means...") -> Named Organization / Florida Politics, SD
+  "online news site", Title and SJ cleared; row added for "Moskowitz, when
+  asked by Florida Politics, an online news site, ... said they need to stop
+  arguing..." (Florida Politics). Rows added: Tara Newsom "Newsom of St.
+  Petersburg agrees."; Document / SD "polls" ("...polls indicate GOP voters
+  in the Aug. 18 primary will likely choose him..."); "A federal judge ruled
+  2 Live Crew's album... obscene in 1990." (Unnamed Person, Title "federal
+  judge"). Kyle Kondik Title: trailing period removed (old rows 5-7). Rows
+  now: new 4, 6, 10, 12; old 4 -> 5, 5-7 -> 7-9, 8 -> 11, 9-13 -> 13-17.
 
 ### AV
 
