@@ -1924,6 +1924,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   notices is “everyday life.”" (p23, implied attribution with her quoted
   words; SD "youth participant", SJ as on her other row); now row 15, her
   quote row 15 -> 16, Brown 16 -> 17.
+- **Phase 4 Step 2 batch 4b (104), original GT-II batch, 2026-11-20.** `104`
+  (now 18 rows): old row 1 removed (the headline, "“No Frick’n way”:
+  Neighbors oppose transforming former Irish Centre into high-end
+  apartments" -- body-only rule); Ray Baum row (old 12) trimmed to end at
+  "...so requested a delay." -- the sentence after it ("Coalition members
+  met earlier this week and agreed to support two of the three variance
+  requests...") is the reporter's (v62 item 9); David Vatz rows (old 13-16)
+  Source Descriptors blank -> "Squirrel Hill resident" (the text: "David
+  Vatz, a Squirrel Hill resident and founder of Pro-Housing Pittsburgh").
+  All rows move up by one.
 
 ### AV
 
