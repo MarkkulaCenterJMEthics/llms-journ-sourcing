@@ -1895,6 +1895,30 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Reuters/Ipsos, the poll series of the surrounding paragraphs; SJ as on the
   other Reuters/Ipsos rows). New rows 3, 7, 10, 11, 12; old 3-5 -> 4-6, 6-7
   -> 8-9, 8-15 -> 13-20.
+- **Phase 4 Step 2 batch 4a (107), original GT-II batch, 2026-11-20.**
+  Approved item by item with full before-rows. `107` (now 16 rows, in text
+  order): old row 1 removed (the headline, "Jackson’s Running Water Is
+  ‘High-Pressure Poison,’ Residents Say" -- body-only rule); old row 16
+  removed (Kynndle Robinson "doesn’t understand why..., but as far as she
+  knows, government officials don’t care..." -- a reported belief, v62 item
+  21); row added for Kansas Gray "Growing up on the city’s south side,
+  Kansas Gray, 37, remembers having brown water most times. He recalls his
+  mom telling him that water from the faucet was poisonous." (SD "community
+  activist"). Residents row SD "Jackson residents" -> "residents" (item 70).
+  Leaders row Title "Jackson leaders" -> "leaders"; Tate Reeves Title
+  "Republican Governor" -> "Republican Gov." (as written). Titles not in the
+  article blanked: Tim Finch "outreach manager for Operation Good", Kansas
+  Gray "owner of South Side Barber & Beauty Shop"; Maisie Brown Title
+  "organizer with the Mississippi Student Water Crisis Advocacy Team" ->
+  blank, SD "organizer" (non-credentialing). Finch SJ quote marks curled as
+  in the text; Gray SJ -> his two p11 sentences only (dropped "Kansas Gray,
+  owner of South Side Barber & Beauty Shop; a community activist", not in
+  the text). Finch rows trimmed to his own sentences (item 55): old row 6
+  drops "Finch, who now works with youth..., is conflicted about..."; old
+  row 7 drops "Last week, he worked with a small team of youth
+  volunteers..." between his statements. Row numbers now: leaders 1, Finch
+  2, Reeves 3, residents 4, Finch 5-7, Gray 8-11 (8 new), James 12-14,
+  Robinson 15, Brown 16.
 
 ### AV
 

@@ -9,6 +9,10 @@ from gtlib import read_csv, write_csv, GT_DIRS, load_body, locate, story_num, CO
 
 def para_pos(ss, paras):
     loc = locate(ss, paras)
+    if not loc:  # a row whose sentences were joined across a left-out sentence: use its first sentence
+        from gtlib import sentence_spans
+        sp = sentence_spans(ss.strip())
+        loc = locate(ss.strip()[sp[0][0]:sp[0][1]], paras) if sp else None
     if loc: return (loc[0][0][0], loc[0][0][1])
     return (10**6, 0)
 
