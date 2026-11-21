@@ -1919,6 +1919,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   volunteers..." between his statements. Row numbers now: leaders 1, Finch
   2, Reeves 3, residents 4, Finch 5-7, Gray 8-11 (8 new), James 12-14,
   Robinson 15, Brown 16.
+- **Phase 4 Step 2 batch 4a, held item, 2026-11-20.** `107`: row added for
+  Kynndle Robinson, "Living with discolored water and frequent boil water
+  notices is “everyday life.”" (p23, implied attribution with her quoted
+  words; SD "youth participant", SJ as on her other row); now row 15, her
+  quote row 15 -> 16, Brown 16 -> 17.
 
 ### AV
 
