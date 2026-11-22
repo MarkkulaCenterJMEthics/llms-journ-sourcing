@@ -1984,6 +1984,29 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   convenience..." (now row 2) and "BART lists 15 completed TODs accounting
   for some 4,200 residential units..." (now row 8). Old rows 2-6 -> 3-7,
   7-19 -> 9-21.
+- **Phase 4 Step 2 batch 4e (135, 159), original GT-II batch, 2026-11-22.**
+  Approved item by item with full before-rows. `135` (now 19 rows): Mikko
+  Paasi rows 3, 5, 7 trimmed to start at his attributed sentence -- the
+  unattributed opening sentences ("The miner was scuba diving for the first
+  time...", "The round trip to where the group is trapped takes a trained
+  team of divers about five hours.", "The rescuers carried five oxygen
+  tanks...") could be the reporter's narration (user); old row 13 removed
+  ("The rescue team had hoped to be able to pump the water out of the
+  cave..." -- a reported hope, v62 item 21); old rows 14-20 -> 13-19. Row 1
+  (unnamed diver) kept as Unnamed Person (user). `159` (now 23 rows): the
+  article text had two all-caps related-story headlines inside the body
+  ("TRUMP WARNS IRAN FIGHTING ISN'T OVER..." and "GULF COUNTRIES STRONGLY
+  CONDEMN IRAN'S DRONE ATTACK ON BAHRAIN...") -- removed from the text
+  (REFLOW_2026-11.md); no GT row used them. Rows added: Named Organization /
+  United States for "Iran insists it must retain authority..., while the
+  United States has demanded unrestricted commercial navigation." (two
+  sources in one sentence, v62 item 18; now row 3); Named Organization /
+  Iran and / United States for "Instead, the framework broke down as Iran
+  and the United States accused each other of violating its terms and
+  resumed military action." (now rows 11, 12). Old row 16 ("...as reports
+  indicate the war has strained U.S. munitions inventories.") Name "Reports"
+  -> blank, Source Descriptors -> "reports" (v61 Minor 22: a Document's Name
+  is its own title only). Old rows 3-9 -> 4-10, 10-20 -> 13-23.
 
 ### AV
 
