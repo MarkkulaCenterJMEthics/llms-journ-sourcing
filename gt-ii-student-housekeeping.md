@@ -2080,6 +2080,14 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   computing does not deliver justice, experts said." (Title "experts"). Row
   added for Andrew Torrence: "Torrence also spoke to what he said were
   larger politics at play." (as the AV copy).
+- **Phase 4 Step 2 batch 5e, held item 5e.3, 2026-11-22.**
+  `55-Chicago_Pentagon.csv`: Title of Source as written -- JB Pritzker
+  "Governor" -> "Gov." ("Gov. JB Pritzker"); Brandon Johnson "Mayor" ->
+  "Chicago Mayor" (first formal introduction, p10: "The office of Chicago
+  Mayor Brandon Johnson..."; v61 elected-office rule, constituency as
+  written); Eliza Glezer -> "assistant deputy director for the Illinois
+  Department of Commerce and Economic Opportunity; state official" (p9 and
+  p18; titles joined with "; ", v62 item 24).
 
 ### AV
 
@@ -4483,6 +4491,14 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   attorneys' argument is nested). Row added: "All of which, advocates argue,
   are being concentrated in already overburdened communities." (Unnamed
   Group of People, SD "advocates", as the SZ copy).
+- **Phase 4 Step 2 batch 5e, held item 5e.3, 2026-11-22.**
+  `55-Pentagon_Lab.csv`: Title of Source as written -- JB Pritzker
+  "Governor" -> "Gov." ("Gov. JB Pritzker"); Brandon Johnson "Mayor" ->
+  "Chicago Mayor" (first formal introduction, p10: "The office of Chicago
+  Mayor Brandon Johnson..."; v61 elected-office rule, constituency as
+  written); Eliza Glezer -> "assistant deputy director for the Illinois
+  Department of Commerce and Economic Opportunity; state official" (p9 and
+  p18; titles joined with "; ", v62 item 24).
 
 ### GT-I update
 
