@@ -1962,6 +1962,28 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Altwer 6-8, fellow candidates 9-12, leaders 13, San Jose 14, "most
   District 9 candidates" 15, Ator 16, Altwer 17, Hughes 18-19, residents 20,
   Chester 21, Hennessy 22-23, Khanna 24-26.
+- **Phase 4 Step 2 batch 4d (78), original GT-II batch, 2026-11-22.**
+  Approved item by item with full before-rows. The article text had "BART
+  lists15 completed TODs" -- corrected to "BART lists 15" (logged in
+  `extracted_articles_boilerplate/REFLOW_2026-11.md`). `78` (now 21 rows):
+  old row 16 ("“It would be really difficult for my commute,” he said.")
+  Tanner Firlotte -> Nathan Arza (Title and SJ as on his other row) -- the
+  quote ends the Arza section; old row 13 (Firlotte) extended with the
+  second sentence of its paragraph ("Riders losing their stations wouldn’t
+  be the only ones pushed back behind the wheel, he worries: If fares rise
+  by 30%, as BART has warned, even commuters... could start driving...");
+  old row 4 ("BART’s latest “alternative service plan” doesn’t name which
+  stations would shutter, but agency staff have presented the board with a
+  list...") Document / Name "alternative service plan" -> Named Organization
+  / BART (v61 Minor 22, Note 8); old row 6 ("A 2018 law goes further...")
+  Name "2018 law" -> blank, Source Descriptors -> "law" (not the law's
+  title); Melissa Lopez Title "transportation engineer at government agency"
+  -> "transportation engineer" (as written). Rows added (Named Organization
+  / BART): "But, as BART warns of potential service cuts in January and
+  closing 15 stations as soon as next July, she stands to give up more than
+  convenience..." (now row 2) and "BART lists 15 completed TODs accounting
+  for some 4,200 residential units..." (now row 8). Old rows 2-6 -> 3-7,
+  7-19 -> 9-21.
 
 ### AV
 
