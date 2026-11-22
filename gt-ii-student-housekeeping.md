@@ -2051,6 +2051,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   families" for "Reports first emerged earlier this month that a new
   aircraft carrier would be sent..., amid concerns raised by sailors'
   families over deteriorating conditions..." (one row per source).
+- **Title of Source format: titles separated by "; ", "Dr." as its own title
+  (v62 item 24), 2026-11-22.** `124` Celine Gounder (rows 12, 15, 16, 17)
+  "infectious disease specialist and epidemiologist, editor-at-large for
+  public health at KFF Health News" -> "Dr.; infectious disease specialist
+  and epidemiologist; editor-at-large for public health at KFF Health News";
+  Vasee Moorthy (row 13) -> "Dr.; special adviser in the office of the WHO
+  chief scientist". "Dr., <position>" -> "Dr.; <position>": `209` Heidi
+  Overton (rows 1, 7, 8, 11, 12, 13, 15, 17, 18, 22, 24); `51` Simeon Barber
+  (rows 5, 6, 7); `112-SZ_Hantavirus.csv` Stephen Kornfeld (rows 1-5) and
+  David Fitter (rows 9, 11, 14).
 
 ### AV
 
@@ -4428,6 +4438,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Organization / United Arab Emirates for "...in an attack that officials
   there blamed on Iranian drones." (as the file's "Officials in Iran" ->
   Iran).
+- **Title of Source format: titles separated by "; ", "Dr." as its own title
+  (v62 item 24), 2026-11-22.** `112-Hantavirus_Ship.csv` "Dr., <position>"
+  -> "Dr.; <position>": Stephen Kornfeld (rows 1-5, "Dr.; Oregon
+  oncologist") and David Fitter (rows 11, 13, 16, "Dr.; incident manager for
+  the CDC’s hantavirus response").
 
 ### GT-I update
 
