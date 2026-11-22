@@ -1939,6 +1939,29 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Descriptors "people close to the case" -> blank, Source Justification ->
   "people close to the case" -- the phrase names their relation to the
   story, not a category (v62 item 23).
+- **Phase 4 Step 2 batch 4c (dual pair 122; technical fixes), original GT-II
+  batch, 2026-11-21.** `122-SZ_SJ9_Climate_Policy.csv` (now 26 rows, put in
+  text order): four Named Person rows added for "But Altwer and her fellow
+  candidates also voiced concern..." (Hughes, Hennessy, Chester, Ator -- v61
+  Minor 23; Altwer already had a row); row 1 Scott Hughes Title blank ->
+  "chief of staff for terming out incumbent Vice Mayor Pam Foley" (as on his
+  other rows); old row 10 split -- "But more recently, leaders have
+  acknowledged the city is off course." (leaders) and "San Jose’s most
+  recent greenhouse gas inventory found emissions increased slightly between
+  2021 and 2023." (new row, Named Organization / San Jose, Minor 22); old
+  row 15 ("Candidates also weighed in on the city’s plans... This effort has
+  faced pushback from residents who are concerned...") -> the residents'
+  sentence only, Source Descriptors "candidates" -> "residents" (user: the
+  candidates' "weighed in" carries no content); Anika Khanna: Title "event
+  moderator" -> "event’s moderator", Source Descriptors "member" ->
+  "sophomore, member", Source Justification -> "Anika Khanna, the event’s
+  moderator and a sophomore at Lynbrook High School" (the text's phrase);
+  row added for "Still, Khanna, who is also a Silicon Valley Youth Climate
+  Action member, said she is glad the forum... put climate concerns firmly
+  on the candidates’ radars." (p22). Rows now: forum (all candidates) 1-5,
+  Altwer 6-8, fellow candidates 9-12, leaders 13, San Jose 14, "most
+  District 9 candidates" 15, Ator 16, Altwer 17, Hughes 18-19, residents 20,
+  Chester 21, Hennessy 22-23, Khanna 24-26.
 
 ### AV
 
@@ -4248,6 +4271,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   autonomous vehicle technology." -- his two sentences in the paragraph,
   joined; the residents' sentence between them is its own row (Note 12a).
   (His "Still, he said..." sentence was added.)
+- **Phase 4 Step 2 batch 4c (dual pair 122; technical fixes), original GT-II
+  batch, 2026-11-21.** `122-SJ_Climate.csv` (now 26 rows, in text order):
+  v61 Minor 23 (a collective term the story defines by naming its members
+  resolves to those sources, one row each; p2 names the five candidates) --
+  old row 1 ("...all of the candidates expressed broad support...", Unnamed
+  Group of People "candidates") -> five Named Person rows (Scott Hughes,
+  Mike Hennessy, Gordon Chester, Genny Altwer, Rick Ator; Title, SD and SJ
+  as on each one's other rows), now rows 1-5; old row 5 ("But Altwer and her
+  fellow candidates also voiced concern...", Unnamed Group of People) ->
+  four Named Person rows for the fellow candidates (Hughes, Hennessy,
+  Chester, Ator), now rows 9-12 after Altwer's row 8. Anika Khanna (now rows
+  24-26): Title "event moderator" -> "event’s moderator" (as written),
+  Source Descriptors blank -> "sophomore, member" (p21 "a sophomore at
+  Lynbrook High School", p22 "a Silicon Valley Youth Climate Action
+  member"). Old rows 2-4, 6-19 keep their order (now 6-8, 13-26).
 
 ### GT-I update
 
