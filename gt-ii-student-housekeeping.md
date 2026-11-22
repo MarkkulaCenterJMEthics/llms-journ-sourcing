@@ -4371,6 +4371,20 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   ("“You can’t talk about the [climate] problem as though it’s about polar
   bears and melting ice caps...” says Ibarra...") -- now row 4, old rows
   4-22 -> 5-23.
+- **Phase 4 Step 2 batch 5b (77), original GT-II batch, 2026-11-22.**
+  Approved item by item with full before-rows. `77` (now 22 rows): Daniel
+  Lurie Title "San Francisco Mayor" -> "Mayor" and Paul Miyamoto Title
+  "Sherriff" -> "Sheriff" (as written); old row 15 removed ("Donald Kempf,
+  40, was curious about how much help the center could provide." -- a
+  reported feeling, v62 item 21); Matt Dorsey row trimmed to "He later
+  called back to say the sheriff assured him people can be detained at the
+  center." (the next sentence, "...Dorsey again hung up to call the mayor’s
+  homelessness chief...", is the reporter's narration). Rows added:
+  "Officials are pitching it not as a jail but as a “third place” — an
+  alternative to jails and hospitals." (Unnamed Group of People, Title
+  "officials"); "Homeless people who were near the RESET Center on
+  Thursday... said they would take advantage of its showers and comfortable
+  chairs..." (Unnamed Group of People, SD "homeless").
 
 ### GT-I update
 
