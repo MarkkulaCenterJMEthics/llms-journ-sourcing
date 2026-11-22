@@ -2007,6 +2007,24 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   indicate the war has strained U.S. munitions inventories.") Name "Reports"
   -> blank, Source Descriptors -> "reports" (v61 Minor 22: a Document's Name
   is its own title only). Old rows 3-9 -> 4-10, 10-20 -> 13-23.
+- **Phase 4 Step 2 batch 5a (dual pair 108; technical fixes), original GT-II
+  batch, 2026-11-22.** `108-SZ_YVA.csv`: Title of Source as written: Aniya
+  Butler "YVA organizer" -> "YVA’s hip-hop and climate justice initiative
+  coordinator" with Source Descriptors "organizer" (p8 "YVA organizer Aniya
+  Butler", p29 "Aniya is YVA’s hip-hop and climate justice initiative
+  coordinator"); Hannah Estrada "YVA education and organizing coordinator"
+  -> "YVA’s education and organizing coordinator"; Sim Bilal Title -> blank,
+  Source Descriptors "organizer" (non-credentialing; "an organizer with
+  Youth Climate Strike in Los Angeles"). Youth vs. Apocalypse's p7
+  suggestion row -> "One suggestion: Use this upcoming Earth Day, April 22,
+  to plan activities at your school. YVA suggests young people offer to do
+  presentations..." (sentences 2-3 of the paragraph). (The reporter's
+  first-person question "I ask YVA leaders what lessons they would share..."
+  taken out, item 55; Bilal Title was "Youth Climate Strike Organizer".)
+  Cory Jong row 12 trimmed to start at "She cared about energy efficiency
+  and recycling in college..." -- "Cory Jong teaches eighth-grade ethnic
+  studies at Urban Promise Academy in Oakland, CA." is the reporter's
+  introduction (item 55).
 
 ### AV
 
@@ -4331,6 +4349,28 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Source Descriptors blank -> "sophomore, member" (p21 "a sophomore at
   Lynbrook High School", p22 "a Silicon Valley Youth Climate Action
   member"). Old rows 2-4, 6-19 keep their order (now 6-8, 13-26).
+- **Phase 4 Step 2 batch 5a (dual pair 108; technical fixes), original GT-II
+  batch, 2026-11-22.** `108-Youth_POC_Climate.csv` (now 23 rows): Title of
+  Source as written: Aniya Butler "YVA organizer" -> "YVA’s hip-hop and
+  climate justice initiative coordinator" with Source Descriptors
+  "organizer" (p8 "YVA organizer Aniya Butler", p29 "Aniya is YVA’s hip-hop
+  and climate justice initiative coordinator"); Hannah Estrada "YVA
+  education and organizing coordinator" -> "YVA’s education and organizing
+  coordinator"; Sim Bilal Title -> blank, Source Descriptors "organizer"
+  (non-credentialing; "an organizer with Youth Climate Strike in Los
+  Angeles"). Youth vs. Apocalypse's p7 suggestion row -> "One suggestion:
+  Use this upcoming Earth Day, April 22, to plan activities at your school.
+  YVA suggests young people offer to do presentations..." (sentences 2-3 of
+  the paragraph). ("One suggestion..." added; Bilal Name "Sam Bilal" -> "Sim
+  Bilal", Title was "LA Youth Climate Strike Organizer".) Diane Feinstein
+  Title "California Senator" -> "California senator" (as written). Row 2
+  ("It wasn’t until Youth vs. Apocalypse (YVA) came to her class that it
+  clicked for her: “They’re poisoning our lungs...”") Named Organization /
+  Youth vs. Apocalypse -> Named Person / Lizbeth Ibarra (her realization, in
+  her words; SJ as on her other rows). Row added for Ibarra's p5 quote
+  ("“You can’t talk about the [climate] problem as though it’s about polar
+  bears and melting ice caps...” says Ibarra...") -- now row 4, old rows
+  4-22 -> 5-23.
 
 ### GT-I update
 
