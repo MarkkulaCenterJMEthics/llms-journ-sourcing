@@ -1934,6 +1934,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Source Descriptors blank -> "Squirrel Hill resident" (the text: "David
   Vatz, a Squirrel Hill resident and founder of Pro-Housing Pittsburgh").
   All rows move up by one.
+- **Follow-up, 2026-11-21.** `66` row 2 ("...legal experts and people close
+  to the case say it’s unlikely.", the people-close-to-the-case row): Source
+  Descriptors "people close to the case" -> blank, Source Justification ->
+  "people close to the case" -- the phrase names their relation to the
+  story, not a category (v62 item 23).
 
 ### AV
 
