@@ -2061,6 +2061,25 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Overton (rows 1, 7, 8, 11, 12, 13, 15, 17, 18, 22, 24); `51` Simeon Barber
   (rows 5, 6, 7); `112-SZ_Hantavirus.csv` Stephen Kornfeld (rows 1-5) and
   David Fitter (rows 9, 11, 14).
+- **Phase 4 Step 2 batch 5e (dual pair 55; technical fixes), original GT-II
+  batch, 2026-11-22.** `55-Chicago_Pentagon.csv` (now 30 rows): old row 8
+  ("The state’s quantum bet is also about jobs, and supporters say the
+  federal subsidies are necessary. Residents said the numbers are small —
+  and lopsided.") split one row per source -- residents keep the second
+  sentence; new row for the first (Unnamed Group of People, SD
+  "supporters"). Rows added: "Since then, they have committed hundreds of
+  millions in taxpayer money... to help build what they say will be the
+  country’s first large-scale quantum computer." (Unnamed Group of People,
+  Title "state and city officials"); "The petition met the signature
+  threshold, but in January the Chicago Board of Elections voted to strike
+  it from the March ballot, agreeing with attorneys who argued..." (Named
+  Organization / Chicago Board of Elections -- its own ruling; the
+  attorneys' argument is nested). Old row 13 split -- "Scholars note that
+  quantum tools could theoretically help..." (Title "scholars, experts" ->
+  "scholars") and new row "Simply giving communities access to advanced
+  computing does not deliver justice, experts said." (Title "experts"). Row
+  added for Andrew Torrence: "Torrence also spoke to what he said were
+  larger politics at play." (as the AV copy).
 
 ### AV
 
@@ -4443,6 +4462,27 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   -> "Dr.; <position>": Stephen Kornfeld (rows 1-5, "Dr.; Oregon
   oncologist") and David Fitter (rows 11, 13, 16, "Dr.; incident manager for
   the CDC’s hantavirus response").
+- **Phase 4 Step 2 batch 5e (dual pair 55; technical fixes), original GT-II
+  batch, 2026-11-22.** `55-Pentagon_Lab.csv` (now 30 rows): Name "Janya
+  McGruder" -> "Jayna McGruder"; Jerry Whirley SJ "South Shore Home Owner"
+  (not in the text) -> "heard that a $9 billion quantum-computing campus was
+  coming a few blocks from his South Shore home" (item 70); Torrence row
+  trimmed to "Torrence also spoke to what he said were larger politics at
+  play." (the next sentence is the reporter's background); old row 8 ("The
+  state’s quantum bet is also about jobs, and supporters say the federal
+  subsidies are necessary. Residents said the numbers are small — and
+  lopsided.") split one row per source -- residents keep the second
+  sentence; new row for the first (Unnamed Group of People, SD
+  "supporters"). Rows added: "Since then, they have committed hundreds of
+  millions in taxpayer money... to help build what they say will be the
+  country’s first large-scale quantum computer." (Unnamed Group of People,
+  Title "state and city officials"); "The petition met the signature
+  threshold, but in January the Chicago Board of Elections voted to strike
+  it from the March ballot, agreeing with attorneys who argued..." (Named
+  Organization / Chicago Board of Elections -- its own ruling; the
+  attorneys' argument is nested). Row added: "All of which, advocates argue,
+  are being concentrated in already overburdened communities." (Unnamed
+  Group of People, SD "advocates", as the SZ copy).
 
 ### GT-I update
 
