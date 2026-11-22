@@ -4385,6 +4385,23 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "officials"); "Homeless people who were near the RESET Center on
   Thursday... said they would take advantage of its showers and comfortable
   chairs..." (Unnamed Group of People, SD "homeless").
+- **Phase 4 Step 2 batch 5c (87), original GT-II batch, 2026-11-22.**
+  Approved item by item with full before-rows. `87` (now 20 rows): row 1
+  (Trump administration) extended to the full sentence -- "The Trump
+  administration is trying to do that: It announced it had successfully
+  guided two US vessels out of the strait Monday." (v61 Note 12a); removed:
+  Scott Bessent "He hopes Project Freedom will be able to get that oil to
+  the market soon." (a reported hope, v62 item 21), "But that is a largely
+  symbolic gesture, because the strait remains closed." (the reporter's
+  analysis, not Bessent's), and the oil analysts row "Project Freedom falls
+  well short of a full reopening... a long process that oil analysts believe
+  will be required..." (a general reported belief inside the reporter's
+  sentence, item 21). Rows added: Named Person / Donald Trump, President,
+  for "Energy prices did not tumble after President Donald Trump announced
+  the new US effort to “guide” ships through the Strait of Hormuz."; Named
+  Organization / United Arab Emirates for "...in an attack that officials
+  there blamed on Iranian drones." (as the file's "Officials in Iran" ->
+  Iran).
 
 ### GT-I update
 
