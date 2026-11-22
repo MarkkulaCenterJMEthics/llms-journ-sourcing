@@ -2025,6 +2025,32 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   and recycling in college..." -- "Cory Jong teaches eighth-grade ethnic
   studies at Urban Promise Academy in Oakland, CA." is the reporter's
   introduction (item 55).
+- **Phase 4 Step 2 batch 5d (124, 160), original GT-II batch, 2026-11-22.**
+  Approved item by item with full before-rows. `124` (now 21 rows): the
+  article text had station promo lines in the body ("Stream NBC4 newscasts
+  for free right here, right now.", "Transportation", "Reporter Adam Tuss
+  and the News4 team are covering you down on the roads and in transit.") --
+  removed from the text (REFLOW_2026-11.md); no GT row used them. Row 8
+  ("...,” the document said.") Source Descriptors "memo" -> "order" (the
+  document is the CDC order of the paragraph before, not the DHS memo);
+  Maria Reppas Title "Communications Director for VDH" -> "communications
+  director for VDH" (as written); old row 16 removed ("From the few
+  outbreaks health experts have seen, Bundibugyo might be slightly less
+  deadly..." -- the reporter's claim, no speech act). `160` (now 29 rows):
+  old row 10 ("Putin’s arrival sparked an outcry from Japanese
+  officials...") Named Organization / Japan -> Unnamed Group of People,
+  Title "Japanese officials" (a nationality adjective is not a name, as
+  123's "Israeli officials"). Rows added: Named Organization / China for
+  "China went on to conduct what it called a joint maritime drill... though
+  Jakarta downplayed..." (two sources in one sentence); Named Organization /
+  White House for "The White House has repeatedly reaffirmed its support for
+  Taiwan, though Trump stated..."; Named Person / Donald Trump, President,
+  for "...as well as Trump’s announcement Sunday that he would order the
+  Pentagon to scale back joint military exercises with South Korea.";
+  Document / SD "reports" and Unnamed Group of People / SD "sailors'
+  families" for "Reports first emerged earlier this month that a new
+  aircraft carrier would be sent..., amid concerns raised by sailors'
+  families over deteriorating conditions..." (one row per source).
 
 ### AV
 
