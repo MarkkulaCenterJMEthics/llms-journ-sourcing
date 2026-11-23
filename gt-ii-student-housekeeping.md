@@ -2185,6 +2185,10 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   because everyone left for a better place, but because some, like Mary
   Likopa, returned to dangerously disaster-prone zones out of desperation."
   (the text's sentence).
+- **Phase 4 Step 2 batch 7b, 7b.8 continued, 2026-11-22.** `101` Mary Likopa
+  rows (11, 12): SD blank -> "widow" ("The 42-year-old widow perches
+  on..."). Row 11 kept in full (user): the sentences after "she says" carry
+  on her account (v62 item 9).
 
 ### AV
 
