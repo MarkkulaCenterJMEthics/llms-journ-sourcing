@@ -2095,6 +2095,17 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   (Steven Rimmer rows 9-11, 14, 16, 17, 19) -> blank: the article says they
   "formed" the associations and never uses "co-founder"; their founding
   stays in their Source Justification.
+- **Phase 4 Step 2 batch 6a (102), continued, 2026-11-22.** Source
+  Justification made the text's words: "Patrick and Turner formed the
+  Sherwood Heights Tenants Association to make tenant's voices heard that
+  last June." -> "...to do just that last June." (Deborah Patrick and Roger
+  Turner rows); "Rimmer helped form the citywide Detroit Tenants Association
+  DTA last August." -> "...(DTA) last August." (Steven Rimmer, the "DTA’s
+  first priority..." row). Row added: "The association has a list of demands
+  around fixing up the buildings, especially the plumbing and electrical
+  systems. Members also won’t agree to any rent increases until the biggest
+  issues are resolved." (Named Organization / Sherwood Heights Tenants
+  Association; now row 7, old rows 7-25 -> 8-26).
 
 ### AV
 
