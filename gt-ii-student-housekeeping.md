@@ -2106,6 +2106,29 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   systems. Members also won’t agree to any rent increases until the biggest
   issues are resolved." (Named Organization / Sherwood Heights Tenants
   Association; now row 6, old rows 6-25 -> 7-26).
+- **Phase 4 Step 2 batch 6b (154), original GT-II batch, 2026-11-22.**
+  Approved item by item with full before-rows. `154` (now 32 rows): rows
+  added -- Donald Trump, President: "WASHINGTON – President Donald Trump is
+  putting another U.S. ally he says was insufficiently supportive of the
+  Iran war on notice..." (p2), "Over the past several days, he has lobbed
+  similar allegations at South Korea and made public overtures to Kim Jong
+  Un..." (p5), "Then, on Aug. 16, Trump said the United States was dialing
+  down military exercises..." (p18), "Asked about Kim in the Oval Office on
+  Aug. 17, Trump brought up... his earlier allegation..." (p27); Named
+  Person / Lee Jae Myung, "South Korean President", "Over the weekend, South
+  Korean President Lee Jae Myung called for talks to end the war."; Named
+  Organization / South Korea, "Last year, South Korea also committed to
+  spending $25 billion... and pledged to spend $33 billion..." (a specific
+  claim, user). Center for International Policy study row: Document / SD
+  "study" -> Named Organization / Center for International Policy (Minor
+  22). Name "Kim Min-Seok" -> "Kim Min-seok". Title of Source as written:
+  Sydney Seiler -> "senior adviser with the Center for Strategic and
+  International Studies focused on Korea"; Alexander Gray -> "former chief
+  of staff on the National Security Council" (p33); Mark Montgomery ->
+  "Retired Rear Adm.; senior fellow at the Washington-based Foundation for
+  Defense of Democracies" (rank as a title, v62 item 24), SJ "Retired Rear
+  Adm." -> blank. New rows 1, 4, 13, 15, 23, 32; old rows 1-2 -> 2-3, 3-10
+  -> 5-12, 11 -> 14, 12-18 -> 16-22, 19-26 -> 24-31.
 
 ### AV
 
