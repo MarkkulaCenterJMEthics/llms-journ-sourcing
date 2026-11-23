@@ -2134,6 +2134,32 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   latest in a string of close U.S. allies Trump has threatened to penalize
   with reduced military support since the United States and Israel went to
   war with Iran earlier this year." (a threat credited to him; Note 12a).
+- **Phase 4 Step 2 batch 7a (103), original GT-II batch, 2026-11-22.**
+  Approved item by item with full before-rows. `103` (now 40 rows). Rows
+  added: Named Organization / Eno River Association (SD "land trust,
+  conservation nonprofit") for "Five days after the meeting... the ERA
+  announced it would push back eviction dates..."; Named Organization / Eno
+  River Tenants Association for "Tenants’ shared goals were recast as a list
+  of demands for the ERA..." (petitions test) and for "Soon after, in early
+  May, the ERTA emailed petition supporters with major news..." (split out
+  of Leslie St Dre's row); two Unnamed Group of People rows for "Many ERA
+  members and several newer board members stated they were hearing about the
+  land transfer’s human impact...": one SD "members", one Title "board
+  members" (user: a board member is a formal governance title, so a separate
+  source from members). Leslie St Dre rows trimmed to her own sentence:
+  "Tenants were still in limbo after the first meeting. But at the next,
+  Leslie says..." -> "But at the next, Leslie says the ERA came prepared to
+  make decisions." (reporter opener dropped; ERTA email to its own row);
+  "For the mediator role, the ERTA recommended Manju Rajendran...
+  Rajendran’s “liberatory lens” was crucial, Leslie says..." -> from
+  "Rajendran’s “liberatory lens”..." (item 55). "The ERA has also waived
+  tenants’ rental payments..., according to the insert.": Named Organization
+  / Eno River Association / SD "land trust, conservation nonprofit" ->
+  Document / Name blank / SD "insert" (Minor 22: the attribution credits the
+  document). Sheba Everett (all rows): Title "chief spokesperson of the
+  ERTA" -> "chief spokesperson of the ERTA; preschool teacher" (user), SD
+  blank -> "tenant". Graham Jones (all rows): SD "tenant" -> "tenant,
+  trailrunner".
 
 ### AV
 
