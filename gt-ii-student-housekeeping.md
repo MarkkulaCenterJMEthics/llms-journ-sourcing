@@ -2160,6 +2160,25 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   ERTA" -> "chief spokesperson of the ERTA; preschool teacher" (user), SD
   blank -> "tenant". Graham Jones (all rows): SD "tenant" -> "tenant,
   trailrunner".
+- **Phase 4 Step 2 batch 7b (101), original GT-II batch, 2026-11-22.**
+  Approved item by item with full before-rows. `101` (37 rows). Title of
+  Source: Nkhulambe "group village headman Nkhulambe" -> "group village
+  headman" ("We’re not beggars..." row); Chipiliro Khamula "DoDMA
+  Spokesperson" -> "Spokesperson" (as written; all 8 rows); Sosten Chiotha
+  -> "climatologist; director of the NGO Leadership for Environment and
+  Development in Southern and Eastern Africa" (all 4 rows; v62 item 24). Row
+  removed: "Based on the official average of one household comprising 4.3
+  people, the DoDMA figures... would indicate..." (DoDMA; the reporter's own
+  calculation). Row added: Named Organization / DoDMA for "The country’s
+  Department of Disaster Management Affairs (DoDMA) has put the economic
+  damage at over USD 500 million." Hyoung-Joon Lim row trimmed: "With fewer
+  resources, since July 2023 WFP has cut food rations... “We’ve had to make
+  some very tough choices,” Lim adds." -> the quote only (item 55).
+  "Climatologist Friederike Otto told Table Briefings that...": Named Person
+  / Friederike Otto / Title "Climatologist" -> Named Organization / Table
+  Briefings / Title blank (item 73, relayed speech). Lucy Chikapa SD
+  "resident of Chilobwe" -> "mother, resident of Chilobwe". Villagers row SD
+  stays "villagers" (v62 item 25).
 
 ### AV
 
