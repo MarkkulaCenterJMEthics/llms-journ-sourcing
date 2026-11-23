@@ -2179,6 +2179,12 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Briefings / Title blank (item 73, relayed speech). Lucy Chikapa SD
   "resident of Chilobwe" -> "mother, resident of Chilobwe". Villagers row SD
   stays "villagers" (v62 item 25).
+- **Phase 4 Step 2 batch 7b, 7b.8, 2026-11-22.** `101` Mary Likopa rows (11,
+  12): Source Justification "returned to her home in a dangerously
+  disaster-prone zone out of desperation" (a paraphrase) -> "This is not
+  because everyone left for a better place, but because some, like Mary
+  Likopa, returned to dangerously disaster-prone zones out of desperation."
+  (the text's sentence).
 
 ### AV
 
