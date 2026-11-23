@@ -2129,6 +2129,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Defense of Democracies" (rank as a title, v62 item 24), SJ "Retired Rear
   Adm." -> blank. New rows 1, 4, 13, 15, 23, 32; old rows 1-2 -> 2-3, 3-10
   -> 5-12, 11 -> 14, 12-18 -> 16-22, 19-26 -> 24-31.
+- **Phase 4 Step 2 batch 6b, held item, 2026-11-22.** `154` row 3 (Trump,
+  p4) extended with the first sentence of its paragraph: "South Korea is the
+  latest in a string of close U.S. allies Trump has threatened to penalize
+  with reduced military support since the United States and Israel went to
+  war with Iran earlier this year." (a threat credited to him; Note 12a).
 
 ### AV
 
