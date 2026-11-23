@@ -2105,7 +2105,7 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   around fixing up the buildings, especially the plumbing and electrical
   systems. Members also won’t agree to any rent increases until the biggest
   issues are resolved." (Named Organization / Sherwood Heights Tenants
-  Association; now row 7, old rows 7-25 -> 8-26).
+  Association; now row 6, old rows 6-25 -> 7-26).
 
 ### AV
 
