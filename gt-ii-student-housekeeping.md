@@ -2088,6 +2088,13 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   written); Eliza Glezer -> "assistant deputy director for the Illinois
   Department of Commerce and Economic Opportunity; state official" (p9 and
   p18; titles joined with "; ", v62 item 24).
+- **Phase 4 Step 2 batch 6a (102), original GT-II batch, 2026-11-22.**
+  `102`: Title of Source "co-founder of the Sherwood Heights Tenants
+  Association" (Deborah Patrick rows 1, 2, 8; Roger Turner rows 3-6) and
+  "co-founder of the Tenants Association of New Center Plaza and Marlenor"
+  (Steven Rimmer rows 9-11, 14, 16, 17, 19) -> blank: the article says they
+  "formed" the associations and never uses "co-founder"; their founding
+  stays in their Source Justification.
 
 ### AV
 
