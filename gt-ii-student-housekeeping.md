@@ -4545,6 +4545,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   written); Eliza Glezer -> "assistant deputy director for the Illinois
   Department of Commerce and Economic Opportunity; state official" (p9 and
   p18; titles joined with "; ", v62 item 24).
+- **Phase 4 Step 2 batch 6c (89), original GT-II batch, 2026-11-22.** `89`
+  (now 29 rows): Source Justification "null" -> blank on 26 rows (all but
+  the row with a real SJ). Rows added: Named Organization / Santa Clara
+  County for "The county said about 265 of those positions are currently
+  filled, or roughly 40%, but Williams said he is hoping to avoid any
+  layoffs." (two sources in one sentence; James Williams keeps his row);
+  Named Person / Matt Mahan, Title "Mayor" (as written), for "San José,
+  whose Mayor Matt Mahan heavily touted his work to spend more of the city’s
+  affordable housing funds..."
 
 ### GT-I update
 
