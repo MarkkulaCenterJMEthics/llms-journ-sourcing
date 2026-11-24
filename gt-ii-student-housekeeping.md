@@ -2296,6 +2296,32 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   September." (v62 item 10: the outlet credited by name for its own earlier
   reporting; the story is INDY Week's own). Now row 2; old rows 2-40 ->
   3-41.
+- **Phase 4 Step 2 batch 9b (113 rows 37-69), original GT-II batch,
+  2026-11-24.** Approved item by item with full before-rows. `113` (now 106
+  rows, re-sorted into text order: the "In one case examined by
+  regulators..." / "In another case, the department said..." rows and the
+  two 2019-memo rows had been out of order). "But in practice, the Chronicle
+  found..." Name "The Chronicle" -> "San Francisco Chronicle". Rows added,
+  Named Organization / Verisk (SD "insurance analytics firm"): "Agents are
+  supposed to verify the prefilled details, Verisk training materials
+  instruct." (Minor 22: producer named) and "It taps a pricing database the
+  company says relies on millions of claims that builders and adjusters
+  submit." Memo row "The company acknowledged in the memo that agents rarely
+  altered 360Value’s prefilled data." extended to its whole paragraph (from
+  "Verisk had examined the accuracy of one prefill characteristic..."). Mike
+  Kubo rows: "An astrobiology researcher at NASA, Kubo was hardly an expert
+  in building homes." dropped from the "But the number felt like “a
+  joke,”..." row (reporter's characterization); "Kubo found that this newer
+  report was riddled with errors..." extended with "Those matched the house
+  that burned down." Two-group rows split into one row per group (user):
+  "Even when 360Value’s prefill information is accurate..., building
+  contractors and public adjusters across the state told the Chronicle." ->
+  Title "public adjusters" and SD "building contractors"; "Insurance agents
+  and industry representatives interviewed by the Chronicle said..." ->
+  Title "insurance agents" and Title "industry representatives" (was SD),
+  same SJ on both. SD: Matt Everson "contractor" -> "contractor in Sonoma
+  County"; licensing agreement row "licensing agreement" -> "user licensing
+  agreement".
 
 ### AV
 
