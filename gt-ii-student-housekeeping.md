@@ -2359,6 +2359,25 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "judge", "The judge ruled that because underinsurance is so specific to
   each person..."; Amy Bach, "She’s heard stories from consumers who say
   they asked insurance companies for more coverage, only to be told no."
+- **Phase 4 Step 3 (merges) batch 3-1, original GT-II batch, 2026-11-24.**
+  Same source, same paragraph -> one row (v61 Note 12a); other fields from
+  the first row; no differing SJs. `94` (now 7 rows): Venus Williams "Venus
+  Williams remembers, at 14 years old, her mother sewing her first tennis
+  skirt." + "“I fell in love,” Williams said..."; Andrew Bolton "It’s for
+  all those reasons that Bolton saw “Costume Art”..." + "“At once deeply
+  personal and profoundly social...”"; Andrew Bolton "As Williams pointed
+  out, Bolton stressed..." + "Or, as Bolton noted: “Even in its absence,
+  dress persists...”" joined with a single space, leaving out the reporter's
+  sentence between them ("In that way, the clothed human form is a
+  reflection both of its times..."). `105` (now 51 rows): Amanda Hernandez
+  "A Texas Department of Criminal Justice spokesperson points out..." +
+  "Also, prisoners stopped picking cotton by hand..."; Texas Department of
+  Criminal Justice "Most of the state’s roughly 100 prisons today are only
+  partially air-conditioned..., per data from TDCJ." + "(We presented the
+  TDCJ with a list of 13 prisons... “I don’t have that information.”)"
+  joined with a single space, leaving out the outlet's analysis between them
+  ("But the rates are much worse among the prisons which we know were built
+  on former slave plantations...").
 
 ### AV
 
@@ -4779,6 +4798,20 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Named Person / Matt Mahan, Title "Mayor" (as written), for "San José,
   whose Mayor Matt Mahan heavily touted his work to spend more of the city’s
   affordable housing funds..."
+- **Phase 4 Step 3 (merges) batch 3-1, original GT-II batch, 2026-11-24.**
+  Same source, same paragraph -> one row (v61 Note 12a); other fields from
+  the first row; no differing SJs. `89` (now 26 rows): James Williams rows
+  merged -- "“We will be attempting very vigorously...” he said." + "What
+  exactly happens to those employees...", "Williams said the county has been
+  aiming to preserve or expand services..." + "He pointed to plans for new
+  “satellite clinics...”", "Williams said the county has “moved
+  mountains”..." + "But he called directly on the governor and
+  legislature...". `108` (now 22 rows): Lizbeth Ibarra "“Still, growing up,
+  we’d talk about Chevron in a good way...” Ibarra recalls." + "It wasn’t
+  until Youth vs. Apocalypse (YVA) came to her class...". `109` (now 16
+  rows): Kitty Moore "Cupertino Mayor Kitty Moore said city officials are
+  also approaching Waymo cautiously..." + "She said Waymo representatives
+  told city officials...".
 
 ### GT-I update
 
