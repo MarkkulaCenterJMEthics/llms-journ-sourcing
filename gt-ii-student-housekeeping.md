@@ -2289,6 +2289,13 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   in a wildfire just four months after her agent set her policy limit with
   360Value, the insurer’s own claims process found she was underinsured by
   76%."
+- **Phase 4 Step 2, 103 follow-up, 2026-11-23.** `103` (now 41 rows): row
+  added, Named Organization / INDY, for "As the INDY previously reported,
+  the tenants, some of whom have inhabited the homes for a decade or more,
+  were shocked when notices to vacate were posted on their doors in
+  September." (v62 item 10: the outlet credited by name for its own earlier
+  reporting; the story is INDY Week's own). Now row 2; old rows 2-40 ->
+  3-41.
 
 ### AV
 
