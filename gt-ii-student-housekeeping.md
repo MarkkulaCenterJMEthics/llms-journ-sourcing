@@ -2267,6 +2267,28 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   sentence (reporter background dropped). The TDCJ "A spokesperson
   responded, “I don’t have that information.”" row kept (user: a substantive
   reply to factual material, not a non-response).
+- **Phase 4 Step 2 batch 9a (113 rows 1-33, p1-p69), original GT-II batch,
+  2026-11-23.** Approved item by item with full before-rows. `113` (now 102
+  rows). Title of Source as written: Mike Kubo (all rows) blank ->
+  "astrobiology researcher at NASA"; Trish Hopkinson (all rows) "head of 360
+  Value" / "head of 360Value" -> "Verisk’s head of 360Value"; Dan Veroff
+  "Insurance Law Attorney" -> "attorney specializing in insurance law"; Jay
+  Feinman "professor and author" -> "professor emeritus at Rutgers Law
+  School; author of “Delay, Deny, Defend: Why Insurance Companies Don't Pay
+  Claims and What You Can Do About It”" (v62 item 24); Peter Wells (all
+  rows) "inventor of component-cost algorithms" -> "inventor of the
+  technology". Veroff's and Feinman's SJs kept (user: not zero-sum with
+  Title). Richard Salazar's own rows: SD blank -> "Vietnam War veteran".
+  "Researchers in Colorado analyzed insurance claims data..." row: SJ
+  "Regulators and consumer advocates have identified widespread
+  underinsurance..." (another source's statement) -> blank. Rows added:
+  "Regulators and consumer advocates have identified widespread
+  underinsurance following wildfires..." twice, as Unnamed Group of People /
+  Title "regulators" and Unnamed Group of People / SD "consumer advocates";
+  Named Organization / CSAA for "And when a CSAA policyholder lost her home
+  in a wildfire just four months after her agent set her policy limit with
+  360Value, the insurer’s own claims process found she was underinsured by
+  76%."
 
 ### AV
 
