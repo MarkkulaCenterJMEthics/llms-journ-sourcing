@@ -2250,6 +2250,23 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   narrated-experience rows ("His first sight of the cotton field...", "He
   was in shock...", "That’s how he learned...", "When Hockley refused to
   pick cotton...", "Back at Clemens...").
+- **Phase 4 Step 2 batch 8c (105 rows 25-50), original GT-II batch,
+  2026-11-23.** Approved item by item with full before-rows. `105` (now 53
+  rows). Step 1 NOTFOUND row fixed: the Robert Hockley row that joined two
+  paragraphs ("...dehumanize prisoners.He points out...", no final period)
+  split into "Hockley suspects that the lack of air conditioning was never
+  an oversight. Instead, he sees it as..." and a new row "He points out how
+  some improvements that might seem compassionate... report misbehavior to
+  officers." Rows added for "The lawsuit claims there have been more than
+  270 heat deaths since 2001, and advocates identified a dozen last summer
+  alone.": Document / SD "lawsuit" and Unnamed Group of People / SD
+  "advocates". "State data shows..." SD "state data" -> "data". Michele
+  Deitch row trimmed to her quote (the "is familiar with the conditions..."
+  sentence is her SJ). Geologist row SJ "geologist from mid-1800s" (not in
+  the text) -> blank. Telegraph and Texas Register row trimmed to its quote
+  sentence (reporter background dropped). The TDCJ "A spokesperson
+  responded, “I don’t have that information.”" row kept (user: a substantive
+  reply to factual material, not a non-response).
 
 ### AV
 
