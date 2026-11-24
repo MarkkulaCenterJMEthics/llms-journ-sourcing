@@ -2322,6 +2322,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   same SJ on both. SD: Matt Everson "contractor" -> "contractor in Sonoma
   County"; licensing agreement row "licensing agreement" -> "user licensing
   agreement".
+- **Phase 4 Step 2 batch 9b.1, 2026-11-24.** `113` (now 108 rows): the two
+  Colorado-study rows ("Three-quarters of policyholders in the sample were
+  underinsured." and "Nine in 10 homeowners in their dataset...") each split
+  into two Unnamed Group of People rows, Title "researchers" -> "researchers
+  at the University of Colorado at Boulder" and "researchers at the
+  University of Wisconsin" (user: researchers at two universities are two
+  groups; SJ replicated). "Researchers in Colorado analyzed insurance claims
+  data..." keeps Title "researchers" (user: "in Colorado" may stand for the
+  university, but not inferred).
 
 ### AV
 
