@@ -2331,6 +2331,34 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   groups; SJ replicated). "Researchers in Colorado analyzed insurance claims
   data..." keeps Title "researchers" (user: "in Colorado" may stand for the
   university, but not inferred).
+- **Phase 4 Step 2 batch 9c (113 rows 76-108), original GT-II batch,
+  2026-11-24.** Approved item by item with full before-rows. `113` (now 110
+  rows, in text order). Ruth Stroup Title "Retired Farmers Agent" ->
+  "retired Farmers agent" (as written). "In fact, California insurance
+  department reports show...": Document / SD "insurance department reports"
+  -> Named Organization / California Department of Insurance / SD blank
+  (Minor 22: producer named). Vardaman's report: "Vardaman’s team had
+  noticed..." Unnamed Group of People / SD "risk management team" ->
+  Document / SD "report", extended with "The tools drew from the same
+  data... But that wasn’t happening."; "A big part of the problem,
+  Vardaman’s report found..." extended with "Nine characteristics had the
+  greatest impact..."; "The problems went further. Vardaman’s team found
+  instances..., " (cut off at a comma; Unnamed Group of People / risk
+  management team) and "Vardaman’s team found instances..., which his
+  colleague pointed out..." (Unnamed Person / SD "colleague") merged into
+  one Document / SD "report" row with the full sentence (internal records:
+  the people named in them are not sources). Email rows (Cleveland/Vardaman,
+  five rows): SD blank -> "email"; "Inaccuracies continued to skew
+  360Value’s calculations, Cleveland wrote." extended with "Farmers and
+  Verisk employees had identified multiple features that were “frequently
+  incorrect”...". "Soon after adopting 360Value for “main street” homes..."
+  extended with "The company also “locked” certain values...". "The Salazars
+  don’t remember their agent ever mentioning an algorithm..." Name "Linda
+  and Richard Salazar" -> "Linda Salazar", plus a replicated Richard Salazar
+  row (SD "Vietnam War veteran"). Rows added: Unnamed Person / Title
+  "judge", "The judge ruled that because underinsurance is so specific to
+  each person..."; Amy Bach, "She’s heard stories from consumers who say
+  they asked insurance companies for more coverage, only to be told no."
 
 ### AV
 
