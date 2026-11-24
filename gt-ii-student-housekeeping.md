@@ -2215,6 +2215,12 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   moved from Washington, D.C., to the Bay Area... said she loves the
   region." SD added: A.J. Fernandez "grand-nephew"; Kassandra Gutierrez
   "single parent". The "experts say" row keeps "experts" in Title (user).
+- **Phase 4 Step 2 batch 8a, continued, 2026-11-23.** `65` Kelly Snider:
+  Title "developer and professor in the Department of Urban and Regional
+  Planning at San José State University" -> "developer; professor in the
+  Department of Urban and Regional Planning at San José State University"
+  (two titles, v62 item 24). Kassandra Gutierrez's Title "case worker at a
+  mental health care agency in Oakland" kept (user).
 
 ### AV
 
