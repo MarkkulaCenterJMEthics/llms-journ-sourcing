@@ -2221,6 +2221,35 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Department of Urban and Regional Planning at San José State University"
   (two titles, v62 item 24). Kassandra Gutierrez's Title "case worker at a
   mental health care agency in Oakland" kept (user).
+- **Phase 4 Step 2 batch 8b (105 rows 1-24), original GT-II batch,
+  2026-11-23.** Approved item by item with full before-rows. `105` (now 50
+  rows). "A Texas Department of Criminal Justice spokesperson points
+  out...": Named Organization / Texas Department of Criminal Justice ->
+  Named Person / Amanda Hernandez / Title "Texas Department of Criminal
+  Justice spokesperson" (v62 item 23: the one spokesperson the story names).
+  Amanda Hernandez's other rows: Title "spokesperson, Texas Department of
+  Criminal Justice" -> "Texas Department of Criminal Justice spokesperson"
+  (as written). "The spokesperson declined to answer whether the TDCJ
+  agrees... But generally, the agency frames fieldwork as a benefit to
+  prisoners.": trimmed to the second sentence (the first is a non-response,
+  item 16) and Amanda Hernandez -> Named Organization / Texas Department of
+  Criminal Justice. "Per the disciplinary rules, minor penalties...": Named
+  Organization / Texas Department of Criminal Justice -> Document / Name
+  blank / SD "disciplinary rules" (Minor 22). State audit rows: SD "state
+  audit" -> "audit report"; "Regardless of any perceived benefit to inmates,
+  the benefit to taxpayers is not clear." dropped from the "The 2021 audit
+  found..." row (reporter's assessment). "“When you think about cotton
+  picking in Texas...” said Bianca Tylek... in an interview with the
+  Marshall Project in 2021.": Named Person / Bianca Tylek / Title "founder
+  of Worth Rises" / SJ "Founder of Worth Rises, a nonprofit opposing forced
+  labor," -> Named Organization / The Marshall Project / Title and SJ blank
+  (item 73). "Current inmates and their families describe...": SD "current
+  inmates, families" -> "current inmates", plus a second Unnamed Group of
+  People row with SD "families". Craig Anderson (all rows): SD "recently
+  released" -> "released". Held for the item 44 sweep: Robert Hockley's
+  narrated-experience rows ("His first sight of the cotton field...", "He
+  was in shock...", "That’s how he learned...", "When Hockley refused to
+  pick cotton...", "Back at Clemens...").
 
 ### AV
 
