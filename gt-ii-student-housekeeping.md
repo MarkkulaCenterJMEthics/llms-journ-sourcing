@@ -2189,6 +2189,32 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   rows (11, 12): SD blank -> "widow" ("The 42-year-old widow perches
   on..."). Row 11 kept in full (user): the sentences after "she says" carry
   on her account (v62 item 9).
+- **Phase 4 Step 2 batch 8a (65), original GT-II batch, 2026-11-23.**
+  Approved item by item with full before-rows. `65` (now 52 rows). Step 1
+  NOTFOUND row fixed: the story text's quote broken mid-sentence
+  ("...filling up [my car]" / "wasn’t such an issue...") was rejoined
+  (REFLOW_2026-11.md); Kassandra Gutierrez's row now matches that paragraph
+  (curly quotes) and its last quote, "“It’s such a fast increase that no one
+  can really catch up.”" (its own paragraph), is a new Gutierrez row. Title
+  of Source blanked (not in the text): Richard Kogura "owner of his family's
+  Japanese gift shop", Phil Cosentino "family farm owner". Erika McEntarfer
+  (all rows): Title "research scholar at SIEPR" -> "former head of the U.S.
+  Bureau of Labor Statistics; research scholar at SIEPR", and the "former
+  head of..." part removed from her SJ. "“Between 2012 and the pandemic,
+  prices in the Bay Area increased faster...” researchers at SIEPR said.":
+  Named Organization / Stanford Institute for Economic Policy Research ->
+  Unnamed Group of People / Title "researchers at SIEPR" (item 41, v62 item
+  22). "Average rental rates... the Silicon Valley index reported.": Named
+  Organization / Joint Venture Silicon Valley / SD "nonprofit, think tank"
+  -> Document / Silicon Valley Index / SD blank (Minor 22). Stasia Hansen's
+  "Black workers have historically..." row trimmed to its first sentence;
+  "They are also more likely, according to the index, to be paid less..."
+  added as Document / Silicon Valley Index. Rows added: Richard Walker,
+  "Walker, the Berkeley professor emeritus, said the inequality gripping the
+  Bay Area is difficult to escape..."; Erika McEntarfer, "McEntarfer, who
+  moved from Washington, D.C., to the Bay Area... said she loves the
+  region." SD added: A.J. Fernandez "grand-nephew"; Kassandra Gutierrez
+  "single parent". The "experts say" row keeps "experts" in Title (user).
 
 ### AV
 
