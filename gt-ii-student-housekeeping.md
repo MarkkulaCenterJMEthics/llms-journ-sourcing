@@ -2378,6 +2378,27 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   joined with a single space, leaving out the outlet's analysis between them
   ("But the rates are much worse among the prisons which we know were built
   on former slave plantations...").
+- **Phase 4 Step 3 (merges) batch 3-2, original GT-II batch, 2026-11-24.**
+  `113` (now 109 rows): Verisk "Publicly, Verisk promotes its prefill data
+  as “reliable”..." + "The company told the Chronicle such studies exist,
+  but refused to provide them..." joined with a single space, leaving out
+  the reporter's sentence between them; the merged row takes the second
+  row's SJ "Yet Verisk has never published an in-depth study on the
+  reliability of its prefill or pricing data." (the first row's SJ was
+  blank). `124` (now 19 rows): duplicate World Health Organization row "The
+  World Health Organization (WHO) reports there are now more than 600
+  suspected Ebola cases..." removed (the copy at the top of the file, out of
+  text order; the copy in place kept); Lina Moses "“Of course, it’s
+  problematic because vaccines are some of our best tools...”" + "But other
+  public health tools — public education, contact tracing, quick testing —
+  still work, she said." merged. `152` (now 16 rows): Alaska Survey Research
+  "An Alaska Survey Research poll on Aug. 11 reported..." + "A New York
+  Times/Siena poll in June had Sullivan 2 points ahead, and an Alaska Survey
+  Research poll in April..." merged (the New York Times/Siena row on the
+  second sentence stays). `160` (now 28 rows): China "China has issued
+  scathing remarks in response annual training recently conducted by
+  Taiwan..." + "China went on to conduct what it called a joint maritime
+  drill..." merged (the Jakarta row on the second sentence stays).
 
 ### AV
 
@@ -4812,6 +4833,19 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   rows): Kitty Moore "Cupertino Mayor Kitty Moore said city officials are
   also approaching Waymo cautiously..." + "She said Waymo representatives
   told city officials...".
+- **Phase 4 Step 3 (merges) batch 3-2, original GT-II batch, 2026-11-24.**
+  `121` (now 8 rows): The New York Times "The New York Times reported
+  Wednesday that some employees had signed petitions..." + "The Times also
+  reported that workers exchanged messages remotely..." merged. `122` (now
+  23 rows): Rick Ator "“My concern is making sure we’re not pushing
+  unexpected costs onto existing homeowners,” Ator told San José
+  Spotlight..." + "“If the code is structured to apply only at the natural
+  point of replacement...”" merged; Scott Hughes "Meanwhile, Hughes said he
+  has supported efforts to bring more trees..." + "That includes a $20,000
+  rebate program..." merged; Gordon Chester duplicate row "“We don’t need
+  these data centers. I am okay with seeing them be far away...”" removed
+  (the row "“I’m not the biggest fan of data centers, generally,” Chester
+  said at the forum..." already holds the whole paragraph).
 
 ### GT-I update
 
