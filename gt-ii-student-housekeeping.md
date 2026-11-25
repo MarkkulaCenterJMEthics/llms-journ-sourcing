@@ -2408,7 +2408,7 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Justification) in 163, 177, 178, 179, 180, 183, 184; two 163 rows ("Welch
   said in a statement shared with Newsweek over email that..." and "“I was
   charged with assaulting a police officer. Can you believe it?” she said.")
-  held for the user to see in full. Text fidelity: `164` Lonnie Bunch III
+  applied after the user saw them in full (trailing line break only). Text fidelity: `164` Lonnie Bunch III
   row, straight apostrophes -> the text's curly ones; `164` Greg Werkheiser
   row, comma restored ("...changes to Washington, said in a statement...");
   `180` Itamar Ben-Gvir row, curly apostrophes. Full sentences: `178` André
@@ -2423,6 +2423,35 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Magdeburg, Gerhard Feige"). Elected/cabinet title capitals checked against
   the text and kept (President, Foreign Secretary, Israeli Foreign Minister,
   Prime Minister, Missouri Attorney General).
+- **Phase 4 Step 2 Z1 on SZ-9 (164, 182, 184, 163), 2026-11-24.** Approved
+  item by item with full before-rows. `164` (now 10 rows): row added, Lonnie
+  Bunch III, "In a July interview with CNN’s Christiane Amanpour, Bunch
+  said, “It’s our job to tell an accurate, complex and truthful history.”"
+  (CNN is the story's own outlet); "Two of nine public regents’ terms have
+  expired..., according to a term chart on the Smithsonian website.":
+  Document / SD "chart" -> Named Organization / Smithsonian Institution / SD
+  blank (Minor 22: producer named). `182` (now 8 rows): Brett Kavanaugh row
+  "The ruling ends the confusion that had unfolded when the judge issued his
+  order soon after Supreme Court Justice Brett Kavanaugh on Sept. 8 declined
+  to block..." removed (a court action reported as an event, as 113's "a
+  judge denied..."); Denny Hoskins Title "Missouri’s secretary of state" ->
+  "Missouri’s secretary of state, Republican", SD "Republican" -> blank;
+  Catherine Hanaway Title "Missouri Attorney General" -> "Missouri
+  Republican Attorney General", SD "Republican" -> blank (elected officials:
+  party in the Title, as written). `184` (now 14 rows): rows added --
+  Document / SD "report", "Threat actors included criminals, suspected
+  state-sponsored groups, spyware vendors and state propaganda institutions,
+  the report said."; Named Organization / Anthropic / SD "company", "In
+  China, three accounts aligned with the PRC municipal security service used
+  Claude for surveillance and transnational repression..." (carries on
+  Anthropic's account). `163` (now 15 rows): "According to a report from the
+  outlet Spectrum News from March of 2025...": Document / SD "report" ->
+  Named Organization / Spectrum News / SD "outlet" (v62 item 10, Minor 22);
+  Jill Stein SD "former presidential candidate" -> "former presidential
+  candidate, environmental activist, politician"; row added, Jill Stein,
+  "She is a prominent figure in third-party politics and has regularly
+  argued that the Democratic and Republican parties do not adequately
+  address issues including climate change."
 
 ### AV
 
