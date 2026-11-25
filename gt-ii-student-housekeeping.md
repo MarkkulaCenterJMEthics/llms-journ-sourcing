@@ -2499,6 +2499,12 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   new Named Organization / ARD row (SD "public broadcaster"; item 73), and
   Siegmund keeps the first and third sentences joined with a single space
   (Note 12b).
+- **Phase 4 Step 3 on SZ-9, 2026-11-24.** `179` (now 27 rows): Franziska
+  Hoppermann "Franziska Hoppermann, general secretary of the CDU, called it
+  a “defeat overall” for the Christian Democrats." + "“And it is also a
+  defeat for all those who have borne responsibility...” she added..."
+  merged (same source, same paragraph). MERGE? pairs in 177, 178 and 180 are
+  different sources and stay.
 
 ### AV
 

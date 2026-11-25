@@ -171,8 +171,16 @@ def expand_to_sentences(p, a, b):
     pre = p[sa:a]
     # ...but a speech lead-in ("Barber continued:") is part of the sentence (user 2026-11-19: SS = full sentence)
     speech = re.search(r"\b(said|says|say|told|tells|added|adds|continued|continues|wrote|writes|explained|noted|asked|stated|declared|replied|recalled|argued|warned)\b", pre, re.I)
-    if sa < a and len(pre) <= 60 and not speech and re.search(r"(^[-•*]\s*$)|([:—–]\s*[\"“]?$)", pre) \
-            and not re.search(r"[\"“]$", pre.rstrip()) or (sa < a and re.fullmatch(r"[-•*]\s*", pre)):
+    # (2026-11-24) a numbered/lettered list-item heading ("2.) Iran says it violates the ceasefire:")
+    # is a label even when it holds a speech verb: the marker sits just before the sentence span
+    listitem = re.search(r"(^|\s)\(?(\d{1,2}|[a-zA-Z])[.)]+\)?\s*$", p[:sa]) or re.match(r"\s*\(?(\d{1,2}|[a-zA-Z])[.)]+\)?\s", pre)
+    # (2026-11-24) a clause lead-in ("The Trump administration is trying to do that:") is part of the
+    # sentence; only a short or heading-like label (<=4 words, Title Case / ALL CAPS, dateline) is not
+    words = re.findall(r"[A-Za-z’'][\w’'-]*", pre)
+    headinglike = len(words) <= 4 or all(w[0].isupper() for w in words if len(w) > 3) or pre.strip().isupper()
+    labelend = re.search(r"([:—–]\s*[\"“]?$)", pre) and not re.search(r"[\"“]$", pre.rstrip())
+    if sa < a and len(pre) <= 60 and labelend and (listitem or (not speech and headinglike)) \
+            or (sa < a and re.fullmatch(r"[-•*]\s*", pre)):
         sa = a
     # only punctuation after a closing quote (e.g. '”.') -> leave as is
     if sb > b and re.fullmatch(r"[.,;]+", p[b:sb]) and p[b - 1] in CLOSE_Q:
@@ -198,7 +206,8 @@ def key_source(r):
 # Checked 2026-11-18 against every file already logged in gt-ii-student-housekeeping.md (all agree).
 SHEET_AV = {56, 63, 64, 75, 77, 87, 89, 113, 116, 121}
 SHEET_SZ = {51, 65, 66, 70, 78, 95, 101, 102, 103, 104, 105, 107, 110, 111, 124, 135, 152, 154,
-            155, 156, 159, 160}
+            155, 156, 159, 160,
+            163, 164, 177, 178, 179, 180, 182, 183, 184}   # SZ-9 (2026-11-24)
 DUAL = {61, 74, 76, 94, 108, 109, 112, 122, 125, 52, 55}
 
 

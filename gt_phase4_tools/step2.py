@@ -222,6 +222,41 @@ def analyze(path):
         if c:
             res["title"].append(dict(row=",".join(nos), src=nm, title=t, kind=c["kind"],
                                      text=[f"{k}: {p}" for k, p in c["text"]]))
+    # (2026-11-24) Title of an unnamed source, and SD of any source: words the text never uses
+    # (caught late in Step 3: 155 "legal team" for "His attorneys argued")
+    body_l = " ".join(paras).lower().replace("’", "'").replace("‘", "'")
+    STOPW = {"the", "and", "for", "with", "from", "who", "that", "this", "its", "their", "his", "her"}
+    def missing(v):
+        out = []
+        for w in re.findall(r"[A-Za-z][A-Za-z’'-]+", v.replace("’", "'")):
+            lw = w.lower().replace("’", "'").strip("'")
+            if len(lw) < 3 or lw in STOPW:
+                continue
+            forms = {lw, lw.rstrip("s"), lw + "s", re.sub(r"ies$", "y", lw), re.sub(r"y$", "ies", lw)}
+            stem = lw.rstrip("s")
+            if not any(re.search(r"(?<![a-z])" + re.escape(f) + r"(?![a-z])", body_l) for f in forms if f) \
+                    and not (len(stem) >= 4 and re.search(r"(?<![a-z])" + re.escape(stem) + r"(?:ed|ing|er|ers|s)?(?![a-z])", body_l)):
+                out.append(w)
+        return out
+    seen = {}
+    for r in rows:
+        typ = r["Type of Source"].strip()
+        for fld in (["Title of Source"] if typ != "Named Person" else []) + ["Source Descriptors"]:
+            v = r[fld].strip()
+            if not v:
+                continue
+            miss = missing(v)
+            if miss:
+                key = (r["Name of Source"].strip(), fld, v)
+                seen.setdefault(key, []).append(r["No"].strip())
+                seen[key + ("m",)] = miss
+    for key, nos in list(seen.items()):
+        if len(key) == 4:
+            continue
+        nm, fld, v = key
+        res["title"].append(dict(row=",".join(nos), src=nm or "(unnamed)", title=v,
+                                 kind=f"{'SD' if fld.startswith('Source') else 'Title'} word(s) not in the text: " + ", ".join(seen[key + ("m",)]),
+                                 text=[]))
     return res
 
 

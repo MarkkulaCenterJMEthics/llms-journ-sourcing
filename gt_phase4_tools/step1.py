@@ -94,6 +94,11 @@ def title_case_fix(t, name, paras):
             keep[i] = True
         elif mid(W[i]):
             keep[i] = True       # reporter capitalizes this word mid-sentence
+        elif re.search(r"[“\"][^”\"]*$", t[:toks[i].start()]):
+            keep[i] = True       # (2026-11-24) inside quotation marks in the Title (a book title)
+        elif name_toks and re.search(r"(?<![\w’'])" + re.escape(W[i]) + r"(?:\s+[A-Z][\w.’'-]*)*\s+(?:" +
+                                     "|".join(map(re.escape, name_toks)) + r")\b", body):
+            keep[i] = True       # (2026-11-24) capitalized title before the name, as written ("Judge Gregory Carro")
     # phrases: capitalized words with connectors between, tested on the source text
     def adjacent(i, j):   # tokens i and j separated only by whitespace in t
         return t[toks[i].end():toks[j].start()].strip() == ""

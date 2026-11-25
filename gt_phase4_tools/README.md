@@ -5,9 +5,21 @@ Scripts used for Phase 4 of the GT migration (Sourced Statement row-set audit) o
 decision made with them: `development-of-v59.md` items 76 (GT-I) and 77 (original GT-II batch);
 per-annotator change log: `gt-ii-student-housekeeping.md`.
 
-Snapshot committed 2026-11-19, mid-way through Phase 4 on the original GT-II batch. Until Phase 4 on
-that batch and SZ-9 is finished, the working copy is `~/Documents/gt_phase4_tools/`; this folder is
-refreshed from it when the phase is done.
+First snapshot committed 2026-11-19, mid-way through Phase 4 on the original GT-II batch. Refreshed
+2026-11-24, after Phase 4 Steps 1-3 finished on the original batch and SZ-9. The working copy stays at
+`~/Documents/gt_phase4_tools/` for the consistency pass and sweeps.
+
+Changes in the 2026-11-24 refresh (dev doc item 77, 11-24 entries):
+- `gtlib.expand_to_sentences`: a numbered/lettered list-item heading ("2.) ...:") is a label even
+  with a speech verb; a clause lead-in ending in a colon is part of the sentence -- only short
+  (<=4 words) or heading-like labels are left out; speech lead-ins ("Barber continued:") stay in.
+- `step2.py`: Title of an unnamed source and SD of any source are checked for words the text never
+  uses (stem match, quote-style safe).
+- `step1.py` TCAP: keeps capitals inside quotation marks in a Title, and a capitalized title written
+  right before the name ("Judge Gregory Carro").
+- `gtlib` annotator map: SZ-9 stories -> SZ.
+- Rows joined across text a source didn't say (v61 Note 12a; v62 item 26 / Note 12b) don't match
+  as one unbroken span, so `step1.py` reports them as NOTFOUND; that is expected.
 
 ## Workflow
 
