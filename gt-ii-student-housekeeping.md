@@ -2452,6 +2452,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "She is a prominent figure in third-party politics and has regularly
   argued that the Democratic and Republican parties do not adequately
   address issues including climate change."
+- **Phase 4 Step 2 Z2 on SZ-9 (183, 177, 178), 2026-11-24.** Approved item
+  by item with full before-rows. `183`: Bipartisan Policy Center row trimmed
+  to "As of 8 September, the US has collected about $210bn in tariff and
+  excise tax revenue in 2026." (first sentence is its SJ; the third is the
+  reporter's own calculation); Bernie Moreno Title "US senator" -> "US
+  senator, Ohio Republican", SD "Ohio Republican" -> blank (elected
+  official: party in the Title). `177` (now 17 rows): removed -- "The CDU,
+  on about 23%, under its state prime minister, Sven Schulze, hopes to be
+  able to construct a multiparty coalition..." (a hope, no speech act; item
+  21) and "Siegmund has sought to capitalise on a mood of ostalgie..."
+  (reporter's analysis). `178` (now 26 rows): Matteo Salvini and Geert
+  Wilders SD blank -> "far-right" (Note 21a); Ulrich Siegmund SD "lead
+  candidate" -> "lead candidate in Saxony-Anhalt"; removed -- "AfD won 43.8%
+  of the vote..." and "The centre-left Social Democrats scored 9.3%..."
+  (election results with no attribution, typed as Document / polls).
 
 ### AV
 
