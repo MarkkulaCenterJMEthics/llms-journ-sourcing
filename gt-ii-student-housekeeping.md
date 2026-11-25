@@ -2489,6 +2489,16 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   crime rate has fallen dramatically." (the "sought... to capitalise on a
   mood of “ostalgie”" sentence is reporter's analysis); Name "BSW Party" ->
   "BSW".
+- **Phase 4 Step 2 Z3, 179 follow-up, 2026-11-24.** `179` (now 28 rows):
+  Ulrich Siegmund row "AfD’s candidate for governor, Ulrich Siegmund, said
+  “we have written history”... He told public broadcaster ARD that voters
+  had sent a signal... “A very good campaigner for us in this election
+  campaign was Friedrich Merz,” Siegmund said." split by the channel the
+  text names: the middle sentence "He told public broadcaster ARD that
+  voters had sent a signal that “things cannot carry on like this”." is a
+  new Named Organization / ARD row (SD "public broadcaster"; item 73), and
+  Siegmund keeps the first and third sentences joined with a single space
+  (Note 12b).
 
 ### AV
 
