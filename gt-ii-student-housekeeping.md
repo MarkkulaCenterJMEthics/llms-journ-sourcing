@@ -2402,6 +2402,27 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
 - **Phase 4 Step 3 batch 3-3, original GT-II batch, 2026-11-24.** `155`:
   "His attorneys argued that the state's double jeopardy law protects
   him..." Title "legal team" -> "attorneys" (as written; Minor 11).
+- **Phase 4 Step 1 on SZ-9 (163, 164, 177, 178, 179, 180, 182, 183, 184),
+  2026-11-24.** Approved as one table with full rows. Whitespace: 45
+  trailing line breaks/spaces removed (Sourced Statements and Source
+  Justification) in 163, 177, 178, 179, 180, 183, 184; two 163 rows ("Welch
+  said in a statement shared with Newsweek over email that..." and "“I was
+  charged with assaulting a police officer. Can you believe it?” she said.")
+  held for the user to see in full. Text fidelity: `164` Lonnie Bunch III
+  row, straight apostrophes -> the text's curly ones; `164` Greg Werkheiser
+  row, comma restored ("...changes to Washington, said in a statement...");
+  `180` Itamar Ben-Gvir row, curly apostrophes. Full sentences: `178` André
+  Ventura row extended to its whole sentence ("Santiago Abascal, of the
+  Spanish Vox party, called it a “spectacular result...”, while André
+  Ventura... praised a “historic victory”."); `180` Randy Fine row starts
+  "U.S. Rep. Randy Fine..."; `180` Andy Burnham office row, final period
+  restored; `183` Bipartisan Policy Center row ends "...in legal
+  challenges." Titles: `177` "State authorities" -> "state authorities"
+  (capital only from sentence start); `177` and `179` Gerhard Feige "Bishop
+  of Magdeburg" -> "bishop of Magdeburg" (the text: "The bishop of
+  Magdeburg, Gerhard Feige"). Elected/cabinet title capitals checked against
+  the text and kept (President, Foreign Secretary, Israeli Foreign Minister,
+  Prime Minister, Missouri Attorney General).
 
 ### AV
 
