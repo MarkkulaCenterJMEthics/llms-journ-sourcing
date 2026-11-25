@@ -2467,6 +2467,28 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   candidate" -> "lead candidate in Saxony-Anhalt"; removed -- "AfD won 43.8%
   of the vote..." and "The centre-left Social Democrats scored 9.3%..."
   (election results with no attribution, typed as Document / polls).
+- **Phase 4 Step 2 Z3 on SZ-9 (180, 179), 2026-11-24.** Approved item by
+  item with full before-rows. `180`: Labour group rows -- "The tougher
+  stance is likely to be welcomed by many Labour voters and lawmakers..." SD
+  "voters" -> "Labour voters" and Title "lawmakers" -> "Labour lawmakers";
+  "But some Labour members expressed concern..." SD "members" -> "Labour
+  members"; Itamar Ben-Gvir Title "Israel’s public security minister,
+  settler leader" -> "Israel’s public security minister; settler leader"
+  (v62 item 24); Randy Fine Title blank -> "U.S. Rep., Florida Republican",
+  SD "Florida Republican" -> blank (elected official); "Prime Minister Andy
+  Burnham’s office said he spoke with U.S. President Donald Trump...": Named
+  Person / Andy Burnham / Title "Prime Minister" -> Named Organization /
+  "Prime Minister Andy Burnham’s office" / Title blank (the office speaks
+  for him; Minor 11). Miliband's "tightened Britain’s embargo... “that
+  materially contribute to the occupation”" row kept (user: the quoted part
+  of the position makes him the source). `179` (now 27 rows): removed --
+  "AfD won 43.8% of the vote..." and "That was far ahead of Merz’s CDU..."
+  (results with no attribution), "Merz has thus far failed in his
+  promises..." (reporter's assessment); Siegmund row trimmed to "He has made
+  repeated references to a rise in foreigner-related crime, even as the
+  crime rate has fallen dramatically." (the "sought... to capitalise on a
+  mood of “ostalgie”" sentence is reporter's analysis); Name "BSW Party" ->
+  "BSW".
 
 ### AV
 
