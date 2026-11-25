@@ -2399,6 +2399,9 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   scathing remarks in response annual training recently conducted by
   Taiwan..." + "China went on to conduct what it called a joint maritime
   drill..." merged (the Jakarta row on the second sentence stays).
+- **Phase 4 Step 3 batch 3-3, original GT-II batch, 2026-11-24.** `155`:
+  "His attorneys argued that the state's double jeopardy law protects
+  him..." Title "legal team" -> "attorneys" (as written; Minor 11).
 
 ### AV
 
@@ -4846,6 +4849,14 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   these data centers. I am okay with seeing them be far away...”" removed
   (the row "“I’m not the biggest fan of data centers, generally,” Chester
   said at the forum..." already holds the whole paragraph).
+- **Phase 4 Step 3 batch 3-3, original GT-II batch, 2026-11-24.** `112` (now
+  one row fewer): "Federal officials are working with medical staff to
+  “ensure that they have the appropriate disposition,” the officials said in
+  the agency’s first briefing..." (Unnamed Group of People / Title "federal
+  officials") merged into the US Centers for Disease Control and Prevention
+  row "However, the American passengers who are in quarantine in Nebraska
+  are “encouraged to stay”..., officials with the CDC said Wednesday." (Note
+  8: "the agency" is the CDC; same source, same paragraph).
 
 ### GT-I update
 
