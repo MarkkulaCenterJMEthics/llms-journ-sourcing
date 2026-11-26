@@ -4980,6 +4980,18 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Laboratory" -> "professor at the University of Maryland; director of the
   Global Land Analysis and Discovery laboratory" (as written; two titles,
   v62 item 24).
+- **Consistency pass C2 (v61 Note 12a: reporter sentences between a source's
+  statements are left out, the source's sentences joined with a single
+  space), 2026-11-25.** `186-Homeless_Camp_Sweeps.csv`: Matt Mollica row
+  "Matt Mollica, who works closely with city leaders... praised Council..."
+  -- "Still, he did not fail to emphasize the central point." left out;
+  David Gray row "Gray, in a written response to the Chronicle’s questions,
+  echoed Watson..." -- "Gray’s answers were thick with the official-ese that
+  he speaks fluently, but buried in the bureaucratic words was an intimation
+  of his moral center." left out. `175-Indigenous_Health_COVID.csv`: Kevin
+  Foley row "The move may have set the stage for the explosion of cases,
+  according to Kevin Foley..." -- "Surrounding reservations prohibit
+  alcohol." left out (reporter background).
 
 ### GT-I update
 
@@ -5433,6 +5445,15 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
   before 1980, according to Census data.": Document / SD "Census data" ->
   Named Organization / U.S. Census Bureau / SD blank (the story introduces
   the "U.S. Census Bureau" in full in the row before).
+- **Consistency pass C2, 2026-11-25.** `16-America's-Sleeping-Giant.csv`
+  William Barber row: speech lead-in restored, now "Barber continued:
+  “Poverty is now the fourth leading crisis of death in America..." (full
+  sentence, Note 12a). `1-Harris-Poll.csv` Reuters/Ipsos row "Harris, by
+  contrast, had a 47% to 31% advantage on abortion policy..." -- the
+  reporter's context sentences between the poll findings ("The issue is
+  salient for Democrats after the conservative U.S. Supreme Court in 2022
+  struck down..." and "Trump nominated three conservative justices...") left
+  out; the two findings joined with a single space.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
