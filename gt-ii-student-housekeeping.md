@@ -2514,6 +2514,21 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   downplayed the maneuvers..." Name "Jakarta" -> "Indonesia" (the capital
   stands for the government of the country named earlier in the same
   sentence).
+- **Title word-order sweep T2 (v62 items 29-30: Title as written),
+  2026-11-25.** `158` Vishal Garg -> "founder and former chief of mortgage
+  lender Better Home & Finance"; `51` Josef Aschbacher -> "Director General
+  of the European Space Agency (ESA)"; `78` Nathan Arza -> "software
+  engineer" (text: "he works for DoorDash as a software engineer"); `91`
+  Michelle L’Heureux "meteorologist who coordinates NOAA’s updates on El
+  Niño and La Niña" -> "meteorologist" (relative clause, item 30);
+  `61-Atlantic_Current.csv` Stefan Rahmstorf -> "Prof at the Potsdam
+  Institute for Climate Impact Research", Valentin Portmann "researcher at
+  Inria Centre..." -> "Dr" (text: "Dr Valentin Portmann, at the Inria
+  Centre..."; no position noun); `108-SZ_YVA.csv` Cory Jong -> "teacher"
+  ("As a teacher, Jong..."), Carolyn Norr "YVA cofounder, YVA program
+  director" -> "former teacher; YVA’s program director" ("a former teacher
+  who cofounded YVA and serves as its program director"). Dual-coded pairs
+  converge with the AV copies.
 
 ### AV
 
@@ -4992,6 +5007,35 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Foley row "The move may have set the stage for the explosion of cases,
   according to Kevin Foley..." -- "Surrounding reservations prohibit
   alcohol." left out (reporter background).
+- **Title word-order sweep T2 (v62 items 29-30: Title as written),
+  2026-11-25.** `100` Sam Altman -> "OpenAI Chief Executive"; `169` Shea
+  Kuykendoll -> "student advocate at the University of Memphis"; `186` David
+  Gray -> "HSO’s leader"; `71` Rod Taylor -> "global director for forest and
+  nature conservation at the World Resources Institute", David Lindenmayer
+  -> "professor of forest ecology in the Fenner School of Environment and
+  Society at the Australian National University", Elizabeth Goldman ->
+  "co-director of the World Resources Institute’s Global Forest Watch
+  platform" ("the institute’s", resolved, item 30); `82` Molly Gaebe ->
+  "co-founder of the annual Debt Gala", Anna Wintour -> "chief content
+  officer; global editorial director of Vogue"; `61-AV_Atlantic_Current.csv`
+  Rahmstorf -> "Prof at the Potsdam Institute for Climate Impact Research",
+  Portmann -> "Dr"; `108-Youth_POC_Climate.csv` Cory Jong -> "teacher",
+  Carolyn Norr -> "former teacher; YVA’s program director"; `114` Carl
+  Folsom III -> "judge of the State District Court in Douglas County"; `171`
+  Artika Tyner -> "law professor; founding director of the Center on Race,
+  Leadership and Social Justice at the University of St. Thomas"; `175`
+  Jennie Wei, Mia Lozada, Phillip Smith -> "Dr." (no position noun beyond
+  the title; career narration stays in SJ), Gary Morsch -> "emergency
+  doctor; former Army physician" ("founded" is a verb only); `185` Ale Del
+  Pinal -> "West Oakland Punks With Lunch’s founder" ("The group’s founder",
+  resolved to the organization named in the sentence before); `189`
+  Ndikumana, Boyce -> "author" (user: the book is not an entity where a
+  position is held); `190` Miss Calvina "choir director, Episcopal church,
+  Lubbock" -> "choir director" ("who works as the choir director and
+  organist..."; "organist" is already her SD); `77` anonymous manager
+  "nearby business manager" -> "manager" (user); `98` Tim Cook -> "CEO",
+  Robert "Kelly" Ortberg -> "former CEO at aerospace manufacturer Rockwell
+  Collins; CEO of Boeing".
 
 ### GT-I update
 
