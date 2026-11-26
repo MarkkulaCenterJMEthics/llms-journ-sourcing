@@ -5462,6 +5462,27 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
   reverse course..." ("according to two people familiar with the exchange")
   -- Type of Source Unnamed Person -> Unnamed Group of People (several
   people, no anonymity stated; the relayers are the source, item 73).
+- **Title word-order sweep T1 (v62 item 29: Title as written), GT-I,
+  2026-11-25.** Title of Source set to the reporter's own phrase (leading
+  article dropped), replacing "<position>, <organization>" restyles: 10
+  Nicole Porter, TJ King ("outreach specialist with the advocacy group Black
+  and Pink"; "Nebraska-based" dropped); 11 TJ King, Patrick Berry, Nicole
+  Porter ("Sentencing Project’s director of advocacy"), Margaret Love,
+  Demetrius Gatson; 13 Nicole Grida ("MALS CEO"; "new" dropped); 14 Jim
+  Baker, Libby Bennett ("Groundworks executive director"), Christine Allen;
+  16 Celinda Lake; 17 Maryam Adalat, Imee Almazan ("Superintendent"); 18 Ed
+  Fullmer (blank -- the text never uses "coach" as a noun, only "coached");
+  22 Christopher 2X; 23 Benjamin Tarbutton III, Jamie Rush, Thomas K. Bond,
+  Jason Shaw ("chairman of the board"); 24 Nils Kinuani, Donald Trump
+  ("President", as written), Brian Manning ("political asylum lawyer; former
+  government asylum officer"); 25 Ankit Rastogi, Lucas Cameron-Vaughn, Rose
+  Saxe; 27 Brian Rees ("staff attorney at The Works Inc. nonprofit"); 3
+  Julian Highsmith; 30 Sharon Sandow, Christina Boyar ("legal fellow with
+  Public Counsel"), Daniel Flaming ("president of the Economic Roundtable";
+  authorship stays out of a position Title); 34 Sean Kline, Amy Castro; 37
+  Averil Rothrock ("Judge"); 40 Mendel Weingarten ("Rabbi"). Held: 15 Jim
+  Hanggi, 25 Josie Caballero, 33 Dave Maass (Note 19 question), 17 Maureen
+  Smith.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
