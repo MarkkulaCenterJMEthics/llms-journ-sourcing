@@ -5454,6 +5454,14 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
   salient for Democrats after the conservative U.S. Supreme Court in 2022
   struck down..." and "Trump nominated three conservative justices...") left
   out; the two findings joined with a single space.
+- **Consistency pass C3, 2026-11-25.** `32-openai_board.csv`: three rows
+  relayed by groups of unnamed people -- "During the call, Jason Kwon,
+  OpenAI’s chief strategy officer, said the board was endangering..." and
+  "Ms. Toner disagreed..." ("according to three people who were on the
+  call") and "On Sunday, Mr. Sutskever was urged at OpenAI’s office to
+  reverse course..." ("according to two people familiar with the exchange")
+  -- Type of Source Unnamed Person -> Unnamed Group of People (several
+  people, no anonymity stated; the relayers are the source, item 73).
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
