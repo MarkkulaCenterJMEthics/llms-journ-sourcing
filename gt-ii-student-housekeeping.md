@@ -5483,6 +5483,20 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
   Averil Rothrock ("Judge"); 40 Mendel Weingarten ("Rabbi"). Held: 15 Jim
   Hanggi, 25 Josie Caballero, 33 Dave Maass (Note 19 question), 17 Maureen
   Smith.
+- **Title sweep T1, held items (v62 item 30), 2026-11-25.** 15 Jim Hanggi
+  "spokesperson, Southern California Edison" -> "spokesperson for Southern
+  California Edison" ("a spokesperson for the utility", resolved to the
+  company the same sentence names); 33 Dave Maass "director of
+  investigations, Electronic Frontier Foundation" -> "Electronic Frontier
+  Foundation’s director of investigations" ("the nonprofit’s director of
+  investigations"; the story introduces EFF as "a nonprofit"); 25 Josie
+  Caballero "director of voting and elections, National Center for
+  Transgender Equality" -> "director of voting and elections for the
+  National Center for Transgender Equality" ("the group that conducted the
+  2022 U.S. Transgender Survey"; the story says the Center "conducted the
+  survey"); 17 Maureen Smith "professor, San Jose State University" ->
+  "professor" ("a professor who teaches childhood adolescent development at
+  San Jose State University": a relative clause, so the position term only).
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
