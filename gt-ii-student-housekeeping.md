@@ -2529,6 +2529,17 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   director" -> "former teacher; YVA’s program director" ("a former teacher
   who cofounded YVA and serves as its program director"). Dual-coded pairs
   converge with the AV copies.
+- **Title sweep T3 (elected offices), 2026-11-25 -- moved here from the dev
+  doc once the annotator was confirmed.** `209` Bill Cassidy "US Senator,
+  Louisiana; physician" -> "US Senator of Louisiana; physician"; Ed Markey
+  "Democratic Senator, Massachusetts" -> "Democratic Senator of
+  Massachusetts"; Patty Murray "Democratic Senator, Washington" ->
+  "Democratic Senator of Washington"; Susan Collins "Republican Senator,
+  Maine" -> "Republican Senator of Maine"; Chris Murphy "Democratic Senator,
+  Connecticut" -> "Democratic Senator of Connecticut" (as written: "<party>
+  Senator <Name> of <state>"). `210` Jamie Raskin "representative, a
+  Maryland Democrat; constitutional scholar" -> "representative, Maryland
+  Democrat; constitutional scholar".
 
 ### AV
 
@@ -5046,6 +5057,19 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "Attorney General, Republican"; Laura Kelly "Gov., a Democrat" -> "Gov.,
   Democrat"; Ken Paxton "Attorney General, Texas" -> "Texas’ attorney
   general" (as written).
+- **Title sweeps T2/T3, 2026-11-25 -- moved here from the dev doc once the
+  annotator was confirmed.** `68` Andy Snyder "Fire meteorologist, U.S.
+  Wildland Fire Service" -> "fire meteorologist with the U.S. Wildland Fire
+  Service"; Rich Bann "Meteorologist, Weather Prediction Center" ->
+  "meteorologist with the Weather Prediction Center"; `128` Daniel Schuman
+  "Executive Director, nonpartisan American Governance Institute" ->
+  "executive director of the nonpartisan American Governance Institute";
+  Rosa DeLauro "Representative" / "Democratic Representative, Connecticut"
+  -> "Rep. (D-Conn.); top Democrat on the House Appropriations Committee"
+  (both rows); `175` Tom Udall "U.S. Sen., D-N.M.; vice chair of the
+  Committee on Indian Affairs" -> "U.S. Sen. D-N.M.; vice chair of the
+  Committee on Indian Affairs". (57: no change in the sweeps -- Thune and
+  Tillis already as written.)
 
 ### GT-I update
 
