@@ -5041,6 +5041,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   at Rutgers Law School; author of “Delay, Deny, Defend...”" -> "professor
   emeritus at Rutgers Law School" (the book stays in his SJ); `82` Michael
   Gross "journalist and author" -> "journalist; author".
+- **Title sweep T3 (elected offices; v61 elected-office rule, v62 item 29),
+  2026-11-25.** `114` Kris W. Kobach "Attorney General, a Republican" ->
+  "Attorney General, Republican"; Laura Kelly "Gov., a Democrat" -> "Gov.,
+  Democrat"; Ken Paxton "Attorney General, Texas" -> "Texas’ attorney
+  general" (as written).
 
 ### GT-I update
 
@@ -5546,6 +5551,12 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
   survey"); 17 Maureen Smith "professor, San Jose State University" ->
   "professor" ("a professor who teaches childhood adolescent development at
   San Jose State University": a relative clause, so the position term only).
+- **Title sweep T3 (elected offices), GT-I, 2026-11-25.** 18 Ross Diercks
+  "former Democratic state representative" -> "Democratic state
+  representative" (the text doesn't say "former"); 38 David Alvarez "chair
+  of the Assembly’s budget subcommittee on education finance & a Democrat
+  from Chula Vista" -> "chair of the Assembly’s budget subcommittee on
+  education finance, Democrat from Chula Vista".
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
