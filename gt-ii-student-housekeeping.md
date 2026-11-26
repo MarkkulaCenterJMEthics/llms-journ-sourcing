@@ -5036,6 +5036,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   "nearby business manager" -> "manager" (user); `98` Tim Cook -> "CEO",
   Robert "Kelly" Ortberg -> "former CEO at aerospace manufacturer Rockwell
   Collins; CEO of Boeing".
+- **Title sweep, authorship (v62 item 31), 2026-11-25.** `113` Tony Cookson
+  "co-author of the study" -> "co-author"; Jay Feinman "professor emeritus
+  at Rutgers Law School; author of “Delay, Deny, Defend...”" -> "professor
+  emeritus at Rutgers Law School" (the book stays in his SJ); `82` Michael
+  Gross "journalist and author" -> "journalist; author".
 
 ### GT-I update
 
