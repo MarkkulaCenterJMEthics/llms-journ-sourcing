@@ -4974,6 +4974,12 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Impact Research" -> "Prof, Potsdam Institute for Climate Impact Research"
   (as written). `100`: "The SEC declined to comment." removed (a bare
   non-response, v62 item 16).
+- **Consistency pass C1, 2026-11-25 (continued).**
+  `71-Global_Deforestation_Slows.csv` Matt Hansen: Title "Professor,
+  University of Maryland and Director, Global Land Analysis and Discovery
+  Laboratory" -> "professor at the University of Maryland; director of the
+  Global Land Analysis and Discovery laboratory" (as written; two titles,
+  v62 item 24).
 
 ### GT-I update
 
