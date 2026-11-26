@@ -2505,6 +2505,15 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   defeat for all those who have borne responsibility...” she added..."
   merged (same source, same paragraph). MERGE? pairs in 177, 178 and 180 are
   different sources and stay.
+- **Consistency pass C1, 2026-11-25.** `61-Atlantic_Current.csv` Stefan
+  Rahmstorf (all rows): Title "researcher at Potsdam Institute for Climate
+  Impact Research" -> "Prof, Potsdam Institute for Climate Impact Research"
+  (as written: "Prof Stefan Rahmstorf, at the Potsdam Institute...";
+  "researcher" is not in the text). `160`: "China went on to conduct what it
+  called a joint maritime drill of its own with Indonesia..., though Jakarta
+  downplayed the maneuvers..." Name "Jakarta" -> "Indonesia" (the capital
+  stands for the government of the country named earlier in the same
+  sentence).
 
 ### AV
 
@@ -4960,6 +4969,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   row "However, the American passengers who are in quarantine in Nebraska
   are “encouraged to stay”..., officials with the CDC said Wednesday." (Note
   8: "the agency" is the CDC; same source, same paragraph).
+- **Consistency pass C1, 2026-11-25.** `61-AV_Atlantic_Current.csv` Stefan
+  Rahmstorf (all rows): Title "professor, Potsdam Institute for Climate
+  Impact Research" -> "Prof, Potsdam Institute for Climate Impact Research"
+  (as written). `100`: "The SEC declined to comment." removed (a bare
+  non-response, v62 item 16).
 
 ### GT-I update
 
@@ -5405,6 +5419,14 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
     poverty decreased to 9% from 17.6% in 2019." -> blank. Kept (user):
     the opponents row's Source Justification "some opponents" and Brian
     Arredondo's "a coach for program participants." 26 rows.
+- **Consistency pass C1, 2026-11-25.** `15-Newsom-declares-emergency.csv`
+  John Cruikshank (all rows): Title "Mayor" -> "Rancho Palos Verdes Mayor"
+  (elected office with its constituency, from his first formal introduction:
+  "Rancho Palos Verdes Mayor John Cruikshank"). `12-kids-lead-poisoning.csv`
+  "The map below shows which Memphis ZIPs contain the most homes built
+  before 1980, according to Census data.": Document / SD "Census data" ->
+  Named Organization / U.S. Census Bureau / SD blank (the story introduces
+  the "U.S. Census Bureau" in full in the row before).
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
