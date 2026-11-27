@@ -2540,6 +2540,11 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Senator <Name> of <state>"). `210` Jamie Raskin "representative, a
   Maryland Democrat; constitutional scholar" -> "representative, Maryland
   Democrat; constitutional scholar".
+- **SJ sweep (item 58) E, 2026-11-26.** `177` poll rows: "Final polls before
+  the vote showed the AfD to have about 40-41% of support..." SJ "Final
+  polls before the vote showed" -> blank; "In national polls, the CDU has
+  also been overtaken by the AfD..." SJ "national polls" -> blank (each was
+  only the row's own attribution, Note 22 / v62 item 33).
 
 ### AV
 
