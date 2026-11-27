@@ -2545,6 +2545,13 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   polls before the vote showed" -> blank; "In national polls, the CDU has
   also been overtaken by the AfD..." SJ "national polls" -> blank (each was
   only the row's own attribution, Note 22 / v62 item 33).
+- **SJ sweep (item 58) D -- SJ text made verbatim, 2026-11-26.**
+  Non-adjacent sentences joined without a separator now split with ";" and
+  the text's own quote marks: `107` Tim Finch (all rows), `105` Craig
+  Anderson (all rows), `65` Phil Cosentino. `122-SZ_SJ9_Climate_Policy.csv`
+  candidates (Hughes, Hennessy, Chester, Altwer, Ator, all rows): "candidate
+  vying for the District 9 seat" -> "The candidates vying for the District 9
+  seat" (the text's words; dual pair converges).
 
 ### AV
 
@@ -5083,6 +5090,26 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Chronicle said..." rows: SJ "Insurance agents and industry representatives
   interviewed by the Chronicle" -> blank (it only restates the outlet's own
   sourcing, Note 22).
+- **SJ sweep (item 58) D -- SJ text made verbatim, 2026-11-26.** `54` Cedoni
+  Francis: "..." between two passages -> ";". `122-SJ_Climate.csv`
+  candidates (all rows): "candidate vying for the District 9 seat" -> "The
+  candidates vying for the District 9 seat". `64` Noakhali Science and
+  Technology University and Mohammad Ismail rows: "Bristy was a graduate
+  of..." -> "She was a graduate of Noakhali Science and Technology
+  University." (as written). `74`: Unnamed Group of People SJ -> "Some
+  speakers were concerned parents of LGBTQ youth and many described
+  themselves as long-term San Ramon residents."; Unnamed Person SJ -> "a
+  citizen calling themself “Make San Ramon Great Again”"; San Ramon Valley
+  Diversity Coalition SJ "news release from San Ramon Valley Diversity
+  Coalition" -> blank (attribution only). `82` Everyone Hates Elon SJ -> the
+  exact sentence ("anti-billionaire", "Bezoses’"); Molly Gaebe SJ -> "a
+  four-year-old fund-raiser, inspired by the Met Gala, to help alleviate
+  medical debt". `71` World Resources Institute rows: SJ "Report by World
+  Resources Institute" -> blank (attribution only). `96` Pliny the Younger
+  SJ "ancient Roman writer" -> "Roman writer" ("Ancient accounts — including
+  those of Roman writer Pliny the Younger"). `69` Document row SJ "FBI
+  affidavit" -> blank (a label for the document, not in the text as
+  written).
 
 ### GT-I update
 
@@ -5610,6 +5637,13 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
   selectboard in a recent memorandum.", 31 LaMont "said during a preliminary
   vote on the bill", 35 Susan Li "said in an earnings call this year" -- the
   source communicating with other stakeholders, enacting their role.
+- **SJ sweep (item 58) D, GT-I, 2026-11-26.** Non-adjacent sentences now
+  split with ";": 11 Steven Scott, 34 Kipp Kahlia. 2 Roger Clark SJ
+  "longtime DDR enthusiast. San Francisco programmer" -> "a San Francisco
+  programmer and longtime DDR enthusiast"; 2 the mother's row -> "his mom,
+  who reportedly managed those deals"; 2 the crowd row -> "someone uttered
+  in the crowd, in awe, in a video of his display"; 31 Daisy Berbeco ->
+  "Representing Vermont’s most diverse community; also a sponsor".
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
