@@ -5070,6 +5070,14 @@ Miliband rows -- no fix applied there, just a documented no-change call).]
   Committee on Indian Affairs" -> "U.S. Sen. D-N.M.; vice chair of the
   Committee on Indian Affairs". (57: no change in the sweeps -- Thune and
   Tillis already as written.)
+- **SJ sweep (item 58) G/E, 2026-11-26.** `176` Roberto row ("“What if we
+  don’t get the help?..."): the story's blanket disclosure added to the SJ,
+  "; El Tímpano is only using the first names of interviewees to protect
+  their privacy." (Note 22a: on every Anonymous Source row). `113` the two
+  "Insurance agents and industry representatives interviewed by the
+  Chronicle said..." rows: SJ "Insurance agents and industry representatives
+  interviewed by the Chronicle" -> blank (it only restates the outlet's own
+  sourcing, Note 22).
 
 ### GT-I update
 
@@ -5581,6 +5589,22 @@ Changes to the GT-I files (`benchmarking/GT data/GT-2026/`, stories 1-43) from P
   of the Assembly’s budget subcommittee on education finance & a Democrat
   from Chula Vista" -> "chair of the Assembly’s budget subcommittee on
   education finance, Democrat from Chula Vista".
+- **SJ sweep (item 58) E, GT-I, 2026-11-26.** 33 "The agency has received
+  more than $700 million in funding for surveillance since fiscal year 2017,
+  according to a 2021 report by the Office of Inspector General.": Document
+  / SD "report" / SJ "according to a 2021 report by the Office of Inspector
+  General." -> Named Organization / Office of Inspector General / SD and SJ
+  blank (Minor 22: producer named; the SJ was only the attribution). 32 and
+  36 relayed rows: SJ trimmed to the descriptive phrase (Note 22's valid
+  case), dropping "according to"/"said" -- "two people familiar with the
+  board’s deliberations", "three people who were on the call", "two people
+  familiar with the exchange", "five people with knowledge of the request",
+  "three people who worked on the effort", "three people with knowledge of
+  its plans"; 36 "two of the people said" -> blank (only points back). Kept
+  (user): 14 Evans "recently told the town selectboard." / "wrote the
+  selectboard in a recent memorandum.", 31 LaMont "said during a preliminary
+  vote on the bill", 35 Susan Li "said in an earnings call this year" -- the
+  source communicating with other stakeholders, enacting their role.
 
 ### Checklist — Category 2 findings, to resolve during the normal Phase
 2.5 (Named Organization) pass on these specific files, not forgotten in
